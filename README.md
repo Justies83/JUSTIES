@@ -139,8 +139,22 @@ CDN에 의존하지 않습니다 — `npm run build` 가 알아서 처리합니�
 커스텀 도메인을 연결하면 `astro.config.mjs` 의 `PRODUCTION_URL` 을 그 도메인으로
 바꿔 주세요. 그때부터 canonical 주소와 공유 카드가 도메인을 가리킵니다.
 
-`public/_headers` 는 Pages 전용 기능이라 Workers 배포에서는 적용되지 않습니다.
-NAS(nginx)에서는 같은 헤더를 `docker/nginx.conf` 가 직접 설정합니다.
+`public/_headers` 는 Workers 정적 자산 배포에서도 적용됩니다 — 라이브 응답에
+`x-frame-options`, `referrer-policy`, `x-content-type-options`, `permissions-policy`
+가 실려 오는 것으로 확인했습니다. NAS(nginx)에서는 같은 헤더를 `docker/nginx.conf`
+가 설정합니다.
+
+### 직접 배포
+
+Git push 자동 배포가 동작하지 않을 때는 토큰으로 직접 올릴 수 있습니다.
+
+```bash
+npm run build
+CLOUDFLARE_API_TOKEN=... npx wrangler deploy
+```
+
+새 자산은 즉시 반영되지만 **이미 캐시된 경로는 엣지 캐시가 남습니다.** 배포 직후
+확인할 때 옛 응답(404·307)이 보이면 `?cb=1` 처럼 쿼리를 붙여 우회해 보세요.
 
 ### NAS (이식)
 
