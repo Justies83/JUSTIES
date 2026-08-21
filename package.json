@@ -9,7 +9,9 @@
     "preview": "astro preview --host",
     "check": "astro check",
     "cms:sync": "node scripts/sync-cms.mjs",
-    "og": "node scripts/make-og.mjs"
+    "og": "node scripts/make-og.mjs",
+    "requests": "node scripts/pending-requests.mjs",
+    "preprints": "node scripts/fetch-preprints.mjs"
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.19",

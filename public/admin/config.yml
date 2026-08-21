@@ -156,3 +156,93 @@ collections:
         # inline images. Tables have no toolbar button, so keep the raw mode
         # available — a GFM table typed there renders correctly on the site.
         modes: [rich_text, raw]
+
+  # A queue, not content. Files here are never published; the scheduled run
+  # reads them, writes the post, and marks the request done. Kept in the repo so
+  # a request is as portable as a post.
+  - name: requests
+    label: 글 요청
+    label_singular: 요청
+    folder: content/requests
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{hour}}{{minute}}-{{slug}}'
+    extension: md
+    format: yaml-frontmatter
+    summary: '[{{fields.상태}}] {{fields.주제}}'
+    sortable_fields: [상태, 주제]
+    view_groups:
+      - label: 상태
+        field: 상태
+    fields:
+      - name: 주제
+        label: 무엇에 대해 쓸까요
+        hint: 한 줄이면 됩니다. "8월 CPI 발표 정리", "요즘 쓰는 키보드 리뷰" 처럼.
+        widget: string
+
+      - name: 지시사항
+        label: 덧붙일 말 (선택)
+        hint: 강조할 점, 빼야 할 내용, 참고할 관점 등.
+        widget: text
+        required: false
+        default: ''
+
+      - name: 참고링크
+        label: 참고 링크 (선택)
+        hint: 근거로 쓸 기사나 자료 주소.
+        widget: list
+        required: false
+        default: []
+
+      - name: 섹션
+        label: 섹션 (선택)
+        hint: 비워 두면 주제에 맞게 알아서 고릅니다.
+        widget: select
+        required: false
+        options:
+          - { label: '(자동)', value: '' }
+          - { label: '연구', value: research }
+          - { label: '과학', value: science }
+          - { label: '경제 · 산업', value: finance }
+          - { label: '국제 정세', value: world }
+          - { label: 'IT · 기술', value: tech }
+          - { label: '리뷰 · 소개', value: review }
+          - { label: '육아', value: parenting }
+          - { label: '일상', value: life }
+        default: ''
+
+      - name: 형식
+        label: 형식 (선택)
+        widget: select
+        required: false
+        options:
+          - { label: '(자동)', value: '' }
+          - { label: '뉴스 — 읽고 남긴 소식', value: news }
+          - { label: '의견 — 내 해석과 판단', value: opinion }
+          - { label: '정보 — 두고 참고할 기록', value: note }
+        default: ''
+
+      - name: 초안으로만
+        label: 초안으로만 저장 (검토 후 직접 발행)
+        widget: boolean
+        default: false
+        required: false
+
+      - name: 상태
+        label: 상태
+        widget: select
+        options:
+          - { label: '대기 — 아직 처리되지 않음', value: 대기 }
+          - { label: '완료 — 글이 발행됨', value: 완료 }
+          - { label: '취소', value: 취소 }
+        default: 대기
+
+      - name: 결과
+        label: 결과 (자동 기록)
+        hint: 처리 후 예약 실행이 글 주소를 적습니다. 비워 두세요.
+        widget: string
+        required: false
+        default: ''
+        # The toolbar covers headings, lists, quotes, bold/italic/link and
+        # inline images. Tables have no toolbar button, so keep the raw mode
+        # available — a GFM table typed there renders correctly on the site.
+        modes: [rich_text, raw]
