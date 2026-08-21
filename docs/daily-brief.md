@@ -14,7 +14,7 @@
 | --- | --- | --- |
 | 경제 · 산업 | `finance` | 국내 증시·환율 개장/마감, 기업 공시 |
 | IT · 기술 | `tech` | 반도체·AI 인프라·소프트웨어 발표, 논문 |
-| 과학 | `science` | **bioRxiv / medRxiv / PubMed MCP** 우선, 부족하면 뉴스 |
+| 과학 | `science` | **bioRxiv / medRxiv 공개 API** 우선, 부족하면 뉴스 |
 | 국제 정세 | `world` | 외교·통상·공급망 |
 
 `research` `review` `parenting` `life` 는 **자동 발행하지 않는다.** 직접 겪고 쓰는
@@ -24,9 +24,22 @@
 
 ### 1. 수집
 
-- `과학` 은 bioRxiv/medRxiv/PubMed MCP를 먼저 쓴다. 등록일·DOI·분야가 구조화돼
-  나오므로 2차 보도보다 정확하다.
-- 나머지는 웹 검색으로 후보를 찾는다.
+`과학` 은 프리프린트 서버를 직접 조회한다. 등록일·DOI·분야·교신저자가 원본에서
+구조화돼 나오므로 2차 보도보다 정확하다.
+
+```bash
+node scripts/fetch-preprints.mjs 2026-08-20              # 하루치 bioRxiv
+node scripts/fetch-preprints.mjs 2026-08-19 2026-08-20   # 기간
+node scripts/fetch-preprints.mjs 2026-08-20 2026-08-20 medrxiv
+```
+
+**MCP 도구에 의존하지 말 것.** 예약 실행 세션에는 MCP 도구가 없다. 위 스크립트는
+공개 REST API를 그대로 쓰므로 어디서든 동작한다.
+
+하루에 100편이 넘게 올라온다. 분야를 하나 골라(예: cancer biology, neuroscience)
+그 안에서 5편 이내로 추린다. 전부 훑으려 하지 말 것.
+
+나머지 섹션은 웹 검색으로 후보를 찾는다.
 
 ### 2. 원문 확인 — 생략 금지
 
