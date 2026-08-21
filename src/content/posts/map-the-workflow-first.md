@@ -6,6 +6,7 @@ kind: opinion
 takeaway: 새 도구의 기능표보다 중요한 것은, 내 사고가 멈추는 지점을 정확히 찾는 일이다.
 tags: [도구, 생산성, 워크플로]
 featured: false
+visibility: private
 ---
 
 도구를 바꾸면 일이 풀릴 것 같은 시기가 주기적으로 온다. 대개는 도구의 문제가 아니라,

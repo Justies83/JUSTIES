@@ -644,3 +644,7 @@ em, i { font-style: italic; }
 @media (max-width: 520px) {
   .gallery { grid-template-columns: 1fr; }
 }
+
+/* ---------- badges on a post's meta row ---------- */
+.pill--draft { background: var(--coral); color: #fff; }
+.pill--private { background: var(--ink); color: var(--paper); }

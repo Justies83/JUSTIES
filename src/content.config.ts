@@ -47,6 +47,10 @@ const posts = defineCollection({
       .default([]),
     featured: z.boolean().default(false),
     draft: z.boolean().default(false),
+    // 'private' keeps a post off the public site entirely — no home, archive,
+    // topic, tag, feed, sitemap or search entry. It is readable only under
+    // /private, behind the same password gate as the editor.
+    visibility: z.enum(['public', 'private']).default('public'),
   }),
 });
 

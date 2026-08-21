@@ -2,13 +2,13 @@
 import { categoryOf, kindOf } from '../data/taxonomy';
 import { formatDate, postUrl, type Post } from '../lib/posts';
 
-interface Props { post: Post; lead?: boolean; }
-const { post, lead = false } = Astro.props;
+interface Props { post: Post; lead?: boolean; base?: '' | '/private'; }
+const { post, lead = false, base = '' } = Astro.props;
 const category = categoryOf(post.data.category);
 const kind = kindOf(post.data.kind);
 ---
 
-<a class:list={['card', 'reveal', { 'card-lead': lead }]} href={postUrl(post)}>
+<a class:list={['card', 'reveal', { 'card-lead': lead }]} href={base + postUrl(post)}>
   {post.data.cover ? (
     <div class="card-cover">
       <img src={post.data.cover} alt={post.data.coverAlt} loading="lazy" decoding="async" />

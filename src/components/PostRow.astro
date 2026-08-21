@@ -2,15 +2,15 @@
 import { categoryOf, kindOf } from '../data/taxonomy';
 import { formatDate, postUrl, readingTime, type Post } from '../lib/posts';
 
-interface Props { post: Post; index: number; }
-const { post, index } = Astro.props;
+interface Props { post: Post; index: number; base?: '' | '/private'; }
+const { post, index, base = '' } = Astro.props;
 const category = categoryOf(post.data.category);
 const kind = kindOf(post.data.kind);
 const label = `${(category?.en ?? 'NOTE').slice(0, 4).toUpperCase()} ${String(index + 1).padStart(2, '0')}`;
 ---
 
 <article class="row-item reveal" data-category={post.data.category} data-kind={post.data.kind}>
-  <a class="row-link" href={postUrl(post)}>
+  <a class="row-link" href={base + postUrl(post)}>
     <span class="row-index">{label}</span>
     <span class="row-body">
       <span class="card-meta">

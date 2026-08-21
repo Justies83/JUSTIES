@@ -1,0 +1,43 @@
+---
+import Base from '../../layouts/Base.astro';
+import PostRow from '../../components/PostRow.astro';
+import SectionHead from '../../components/SectionHead.astro';
+import { getPrivatePosts } from '../../lib/posts';
+
+const posts = await getPrivatePosts();
+---
+
+<Base title="숨긴 기록" description="비공개 기록. 비밀번호로 보호됩니다.">
+  <div class="shell">
+    <section class="section">
+      <SectionHead
+        number="—"
+        eyebrow="PRIVATE"
+        title="숨긴 기록."
+        note={`${posts.length}개. 공개 사이트의 목록·주제·태그·검색·RSS·사이트맵 어디에도 나타나지 않습니다.`}
+      />
+
+      <p class="empty" style="margin-bottom:1.6rem">
+        이 화면은 <strong>비밀번호로 보호</strong>됩니다. 글을 숨기려면 프론트매터에
+        <code>visibility: private</code> 를 넣으면 됩니다. 다시 공개하려면 그 줄을 지우거나
+        <code>public</code> 으로 바꿉니다.
+      </p>
+
+      {posts.length > 0 ? (
+        <div class="rows">
+          {posts.map((post, i) => <PostRow post={post} index={i} base="/private" />)}
+        </div>
+      ) : (
+        <div class="empty"><strong>숨긴 기록이 없습니다.</strong></div>
+      )}
+
+      <p style="margin-top:2rem">
+        <a class="plain-link" href="/">← 사이트로</a>
+        <span aria-hidden="true"> · </span>
+        <a class="plain-link" href="/admin">편집 화면</a>
+        <span aria-hidden="true"> · </span>
+        <a class="plain-link" href="/admin/__logout">로그아웃</a>
+      </p>
+    </section>
+  </div>
+</Base>

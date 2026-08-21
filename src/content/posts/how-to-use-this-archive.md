@@ -6,6 +6,7 @@ kind: note
 takeaway: 파일 하나를 추가하면 목록, 주제, 태그, 검색, RSS가 함께 갱신됩니다. 프론트매터의 여섯 줄만 기억하면 됩니다.
 tags: [운영, 워크플로]
 featured: false
+visibility: private
 ---
 
 이 사이트의 데이터베이스는 `src/content/posts/` 폴더입니다. 마크다운 파일 하나가 글 하나이고,

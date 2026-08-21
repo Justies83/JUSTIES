@@ -1,9 +1,13 @@
 /**
- * Password gate in front of /admin.
+ * Password gate in front of /admin and /private.
  *
  * The site is a Worker serving static assets, and `run_worker_first` in
- * wrangler.toml routes only the /admin paths through this script — every other
+ * wrangler.toml routes only those paths through this script — every other
  * request goes straight to the asset store and never pays for this code.
+ *
+ * /admin is the editor. /private holds posts marked `visibility: private`,
+ * which the public build leaves out of every list, feed, sitemap and search
+ * index. One password covers both.
  *
  * The password lives as a Cloudflare secret and is compared here, on the edge,
  * so it is never shipped to a browser. Without the cookie the editor's HTML is
@@ -21,6 +25,13 @@ const COOKIE = 'justies_admin';
 const MAX_AGE = 60 * 60 * 24 * 30; // 30 days
 const LOGIN_PATH = '/admin/__login';
 const LOGOUT_PATH = '/admin/__logout';
+
+// Path prefixes this gate stands in front of. Must stay in step with
+// `run_worker_first` in wrangler.toml — a prefix listed there but not here
+// would be served without a check.
+const PROTECTED = ['/admin', '/private'];
+const isProtected = (pathname) =>
+  PROTECTED.some((p) => pathname === p || pathname.startsWith(`${p}/`));
 
 const enc = new TextEncoder();
 
@@ -51,7 +62,7 @@ async function sign(value, key) {
 async function issueCookie(password) {
   const expires = Date.now() + MAX_AGE * 1000;
   const token = `${expires}.${await sign(String(expires), password)}`;
-  return `${COOKIE}=${token}; Path=/admin; HttpOnly; Secure; SameSite=Lax; Max-Age=${MAX_AGE}`;
+  return `${COOKIE}=${token}; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=${MAX_AGE}`;
 }
 
 async function cookieIsValid(request, password) {
@@ -66,13 +77,14 @@ async function cookieIsValid(request, password) {
 }
 
 function loginPage({ error = false, next = '/admin' } = {}) {
+  const forPrivate = next.startsWith('/private');
   const body = `<!doctype html>
 <html lang="ko">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
-<title>편집 화면 · 제의 / JUSTIES</title>
+<title>${forPrivate ? '숨긴 기록' : '편집 화면'} · 제의 / JUSTIES</title>
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <style>
   :root {
@@ -125,8 +137,8 @@ function loginPage({ error = false, next = '/admin' } = {}) {
 <body>
   <form method="POST" action="${LOGIN_PATH}">
     <span class="mark" aria-hidden="true">제</span>
-    <h1>편집 화면</h1>
-    <p>기록을 작성하려면 비밀번호를 입력하세요.</p>
+    <h1>${forPrivate ? '숨긴 기록' : '편집 화면'}</h1>
+    <p>${forPrivate ? '비공개 기록을 보려면' : '기록을 작성하려면'} 비밀번호를 입력하세요.</p>
     <input type="hidden" name="next" value="${next}">
     <label for="pw">PASSWORD</label>
     <input id="pw" name="password" type="password" autocomplete="current-password"
@@ -148,9 +160,9 @@ function loginPage({ error = false, next = '/admin' } = {}) {
   });
 }
 
-/** Only same-origin admin paths, so the form cannot be used as an open redirect. */
+/** Only protected same-origin paths, so the form is not an open redirect. */
 function safeNext(value) {
-  return typeof value === 'string' && /^\/admin(\/|$)/.test(value) ? value : '/admin';
+  return typeof value === 'string' && isProtected(value) ? value : '/admin';
 }
 
 export default {
@@ -171,7 +183,7 @@ export default {
         status: 302,
         headers: {
           location: '/',
-          'set-cookie': `${COOKIE}=; Path=/admin; HttpOnly; Secure; SameSite=Lax; Max-Age=0`,
+          'set-cookie': `${COOKIE}=; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=0`,
           'cache-control': 'no-store',
         },
       });
@@ -200,7 +212,7 @@ export default {
       return loginPage({ next: url.pathname });
     }
 
-    // Past the gate: hand the request to the static editor files.
+    // Past the gate: hand the request to the static files behind it.
     const response = await env.ASSETS.fetch(request);
     const headers = new Headers(response.headers);
     headers.set('cache-control', 'no-store');

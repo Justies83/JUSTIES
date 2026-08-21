@@ -1,10 +1,8 @@
 ---
 import type { GetStaticPaths } from 'astro';
-import { render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
-import PostCard from '../../components/PostCard.astro';
-import { categoryOf, kindOf } from '../../data/taxonomy';
-import { formatDate, getPublishedPosts, readingTime, relatedPosts, type Post } from '../../lib/posts';
+import PostArticle from '../../components/PostArticle.astro';
+import { getPublishedPosts, relatedPosts, type Post } from '../../lib/posts';
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const posts = await getPublishedPosts();
@@ -15,9 +13,6 @@ export const getStaticPaths: GetStaticPaths = async () => {
 };
 
 const { post, related } = Astro.props as { post: Post; related: Post[] };
-const { Content } = await render(post);
-const category = categoryOf(post.data.category);
-const kind = kindOf(post.data.kind);
 ---
 
 <Base
@@ -26,80 +21,5 @@ const kind = kindOf(post.data.kind);
   image={post.data.cover}
   type="article"
 >
-  <article class="shell">
-    <header class="post-head">
-      <p class="mono"><a href="/archive">기록</a> / <a href={`/topics/${post.data.category}`}>{category?.label}</a></p>
-      <div class="card-meta" style="margin-top:.8rem">
-        <span class="pill">{category?.label}</span>
-        <a class="pill pill--kind" href={`/kinds/${post.data.kind}`}>{kind?.label}</a>
-        {post.data.draft && <span class="pill" style="background:var(--coral);color:#fff">DRAFT</span>}
-      </div>
-      <h1>{post.data.title}</h1>
-      <p class="post-lead">{post.data.takeaway}</p>
-      <div class="post-meta">
-        <time datetime={post.data.date.toISOString()}>{formatDate(post.data.date)}</time>
-        <span aria-hidden="true">·</span>
-        <span>{readingTime(post.body)}분 읽기</span>
-        {post.data.updated && (
-          <>
-            <span aria-hidden="true">·</span>
-            <span>갱신 {formatDate(post.data.updated)}</span>
-          </>
-        )}
-      </div>
-      {post.data.cover && (
-        <figure class="post-cover" style="margin:1.8rem 0 0">
-          <img src={post.data.cover} alt={post.data.coverAlt} />
-        </figure>
-      )}
-    </header>
-
-    {post.data.source && (
-      <p class="source-box">
-        <span class="mono">SOURCE</span>
-        <a href={post.data.source.url} target="_blank" rel="noopener noreferrer">
-          {post.data.source.name} ↗
-        </a>
-      </p>
-    )}
-
-    <div class="prose">
-      <Content />
-    </div>
-
-    {post.data.gallery.length > 0 && (
-      <section class="gallery" aria-label="사진">
-        {post.data.gallery.map((item) => (
-          <figure>
-            <img src={item.image} alt={item.caption} loading="lazy" decoding="async" />
-            {item.caption && <figcaption>{item.caption}</figcaption>}
-          </figure>
-        ))}
-      </section>
-    )}
-
-    <footer class="post-foot">
-      {post.data.tags.length > 0 && (
-        <div>
-          <p class="mono">TAGS</p>
-          <div class="tag-flow">
-            {post.data.tags.map((tag) => (
-              <a class="tag" href={`/tags/${encodeURIComponent(tag)}`}>#{tag}</a>
-            ))}
-          </div>
-        </div>
-      )}
-
-      {related.length > 0 && (
-        <div>
-          <p class="mono">RELATED</p>
-          <div class="related">
-            {related.map((item) => <PostCard post={item} />)}
-          </div>
-        </div>
-      )}
-
-      <a class="plain-link" href="/archive">← 전체 기록으로</a>
-    </footer>
-  </article>
+  <PostArticle post={post} related={related} />
 </Base>

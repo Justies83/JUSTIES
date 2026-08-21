@@ -5,8 +5,18 @@ export type Post = CollectionEntry<'posts'>;
 /** 0 for `2026-08-21-slug`, 1 for `slug`. Lower sorts first. */
 const datedFilename = (id: string) => (/^\d{4}-\d{2}-\d{2}-/.test(id) ? 0 : 1);
 
-/** Drafts are visible while developing, hidden in a production build. */
+/** Everything on the public site reads this. Private posts never appear here. */
 export async function getPublishedPosts(): Promise<Post[]> {
+  return (await getAllPosts()).filter((p) => p.data.visibility !== 'private');
+}
+
+/** Only reachable under /private, behind the password gate. */
+export async function getPrivatePosts(): Promise<Post[]> {
+  return (await getAllPosts()).filter((p) => p.data.visibility === 'private');
+}
+
+/** Drafts are visible while developing, hidden in a production build. */
+async function getAllPosts(): Promise<Post[]> {
   const posts = await getCollection('posts', ({ data }) => import.meta.env.DEV || !data.draft);
   return posts.sort(
     (a, b) =>

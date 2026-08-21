@@ -1,0 +1,22 @@
+---
+import type { GetStaticPaths } from 'astro';
+import Base from '../../../layouts/Base.astro';
+import PostArticle from '../../../components/PostArticle.astro';
+import { getPrivatePosts, relatedPosts, type Post } from '../../../lib/posts';
+
+export const getStaticPaths: GetStaticPaths = async () => {
+  const posts = await getPrivatePosts();
+  return posts.map((post) => ({
+    params: { slug: post.id },
+    // Related posts stay inside the private set; a hidden post must not
+    // advertise itself from a public page, and vice versa.
+    props: { post, related: relatedPosts(post, posts) },
+  }));
+};
+
+const { post, related } = Astro.props as { post: Post; related: Post[] };
+---
+
+<Base title={`${post.data.title} (숨김)`} description={post.data.takeaway}>
+  <PostArticle post={post} related={related} base="/private" />
+</Base>

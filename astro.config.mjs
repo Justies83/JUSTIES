@@ -20,7 +20,10 @@ export default defineConfig({
   site,
   trailingSlash: 'ignore',
   build: { format: 'directory' },
-  integrations: [sitemap()],
+  integrations: [
+    // Password-gated paths must not be advertised in the sitemap.
+    sitemap({ filter: (page) => !/\/(admin|private)(\/|$)/.test(new URL(page).pathname) }),
+  ],
   markdown: {
     shikiConfig: { theme: 'github-light', wrap: true },
   },
