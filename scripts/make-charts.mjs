@@ -126,6 +126,70 @@ function bandwidthChart() {
   );
 }
 
+/* ------------------------------------------------------------------ *
+ * 3. Kakao's split, in the two numbers that matter.
+ *    Left  — the split ratio resolved by the board on 2026-08-21.
+ *    Right — the sell-side SOTP consensus against the recent market cap.
+ *    Figures: 뉴스핌 / 인베스트조선 (ratio), CEO매거진 (SOTP, market cap).
+ * ------------------------------------------------------------------ */
+function kakaoSplitChart() {
+  const W = 900;
+  const H = 520;
+  const mid = 452;
+
+  // Left: split ratio as one stacked bar.
+  const barX = 74;
+  const barW = 300;
+  const barY = 214;
+  const barH = 56;
+  const xShare = 0.6351463;
+  const xW = Math.round(barW * xShare);
+
+  // Right: two columns on a shared scale.
+  const colBase = 400;
+  const colTop = 176;
+  const scale = (v) => colBase - (v / 34.2) * (colBase - colTop);
+  const c1 = mid + 78;
+  const c2 = mid + 238;
+  const colW = 74;
+
+  return frame(
+    W,
+    H,
+    `
+  <text x="${barX}" y="52" font-family="${mono}" font-size="15" letter-spacing="3" fill="${soft}">KAKAO SPLIT · 2026.08.21</text>
+  <text x="${barX}" y="80" font-family="${font}" font-size="17" fill="${ink}">쪼개는 비율과, 시장이 매기던 값</text>
+  <line x1="${mid}" y1="120" x2="${mid}" y2="${H - 74}" stroke="${line}" stroke-dasharray="3 6"/>
+
+  <text x="${barX}" y="150" font-family="${mono}" font-size="14" letter-spacing="2" fill="${soft}">분할비율 (순자산 장부가액 기준)</text>
+  <text x="${barX}" y="192" font-family="${font}" font-size="15" fill="${ink}">존속 카카오X <tspan font-family="${mono}" fill="${teal}">63.5%</tspan>  ·  신설 카카오AI <tspan font-family="${mono}" fill="${coral}">36.5%</tspan></text>
+  <rect x="${barX}" y="${barY}" width="${xW}" height="${barH}" fill="${teal}" rx="3"/>
+  <rect x="${barX + xW}" y="${barY}" width="${barW - xW}" height="${barH}" fill="${coral}" rx="3"/>
+  <text x="${barX + 14}" y="${barY + 35}" font-family="${mono}" font-size="16" fill="${paper}">카카오X</text>
+  <text x="${barX + xW + 10}" y="${barY + 35}" font-family="${mono}" font-size="14" fill="${paper}">AI</text>
+  <text x="${barX}" y="${barY + barH + 34}" font-family="${font}" font-size="14" fill="${soft}">카카오AI로 이전되는 순자산 2조 9,149억원</text>
+  <text x="${barX}" y="${barY + barH + 56}" font-family="${font}" font-size="14" fill="${soft}">분할기일 2027.01.01 · 기존 주주는 양쪽을 모두 배정</text>
+
+  <text x="${mid + 34}" y="150" font-family="${mono}" font-size="14" letter-spacing="2" fill="${soft}">잠재가치와 시가총액 (조원)</text>
+  <line x1="${mid + 34}" y1="${colBase}" x2="${W - 44}" y2="${colBase}" stroke="${line}"/>
+
+  <rect x="${c1}" y="${scale(34.2)}" width="${colW}" height="${colBase - scale(34.2)}" fill="${teal}" rx="3"/>
+  <text x="${c1 + colW / 2}" y="${scale(34.2) - 12}" text-anchor="middle" font-family="${mono}" font-size="17" fill="${teal}">34.2</text>
+  <text x="${c1 + colW / 2}" y="${colBase + 26}" text-anchor="middle" font-family="${font}" font-size="14" fill="${soft}">증권가 SOTP</text>
+
+  <rect x="${c2}" y="${scale(16.8)}" width="${colW}" height="${colBase - scale(16.8)}" fill="${coral}" rx="3"/>
+  <text x="${c2 + colW / 2}" y="${scale(16.8) - 12}" text-anchor="middle" font-family="${mono}" font-size="17" fill="${coral}">16.8</text>
+  <text x="${c2 + colW / 2}" y="${colBase + 26}" text-anchor="middle" font-family="${font}" font-size="14" fill="${soft}">3개월 평균 시총</text>
+
+  <path d="M${c1 + colW + 12} ${scale(34.2)} L${c2 - 12} ${scale(34.2)}" stroke="${ink}" stroke-width="1.2" stroke-dasharray="3 4" opacity=".45"/>
+  <path d="M${c2 + colW / 2} ${scale(16.8) - 34} L${c2 + colW / 2} ${scale(34.2) + 6}" stroke="${ink}" stroke-width="1.2" stroke-dasharray="3 4" opacity=".45"/>
+  <text x="${mid + 34}" y="${colBase + 62}" font-family="${font}" font-size="14" fill="${ink}">차이 <tspan font-family="${mono}">17.4조원</tspan> — 분할 발표일 주가는 <tspan font-family="${mono}" fill="${coral}">-12.1%</tspan></text>
+
+  <text x="${barX}" y="${H - 28}" font-family="${mono}" font-size="13" fill="${soft}">분할비율: 뉴스핌·인베스트조선 / SOTP·시총: CEO매거진 (2026.08 기준) — 수치로 직접 작성</text>`
+  );
+}
+
+writeFileSync(new URL('../public/images/kakao-split-2026-08-21.svg', import.meta.url), kakaoSplitChart());
 writeFileSync(new URL('../public/images/market-2026-08-21.svg', import.meta.url), marketChart());
 writeFileSync(new URL('../public/images/bandwidth-wall-2026-08-21.svg', import.meta.url), bandwidthChart());
-console.log('wrote market-2026-08-21.svg, bandwidth-wall-2026-08-21.svg');
+console.log('wrote market-2026-08-21.svg, bandwidth-wall-2026-08-21.svg, kakao-split-2026-08-21.svg');

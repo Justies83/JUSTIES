@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+  
+  <text x="74" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">KAKAO SPLIT · 2026.08.21</text>
+  <text x="74" y="80" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">쪼개는 비율과, 시장이 매기던 값</text>
+  <line x1="452" y1="120" x2="452" y2="446" stroke="rgba(32,35,31,.16)" stroke-dasharray="3 6"/>
+
+  <text x="74" y="150" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" letter-spacing="2" fill="#62655d">분할비율 (순자산 장부가액 기준)</text>
+  <text x="74" y="192" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#20231f">존속 카카오X <tspan font-family="'IBM Plex Mono',ui-monospace,monospace" fill="#16756a">63.5%</tspan>  ·  신설 카카오AI <tspan font-family="'IBM Plex Mono',ui-monospace,monospace" fill="#e0795b">36.5%</tspan></text>
+  <rect x="74" y="214" width="191" height="56" fill="#16756a" rx="3"/>
+  <rect x="265" y="214" width="109" height="56" fill="#e0795b" rx="3"/>
+  <text x="88" y="249" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="16" fill="#f4f1ea">카카오X</text>
+  <text x="275" y="249" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#f4f1ea">AI</text>
+  <text x="74" y="304" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#62655d">카카오AI로 이전되는 순자산 2조 9,149억원</text>
+  <text x="74" y="326" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#62655d">분할기일 2027.01.01 · 기존 주주는 양쪽을 모두 배정</text>
+
+  <text x="486" y="150" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" letter-spacing="2" fill="#62655d">잠재가치와 시가총액 (조원)</text>
+  <line x1="486" y1="400" x2="856" y2="400" stroke="rgba(32,35,31,.16)"/>
+
+  <rect x="530" y="176" width="74" height="224" fill="#16756a" rx="3"/>
+  <text x="567" y="164" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="17" fill="#16756a">34.2</text>
+  <text x="567" y="426" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#62655d">증권가 SOTP</text>
+
+  <rect x="690" y="289.96491228070175" width="74" height="110.03508771929825" fill="#e0795b" rx="3"/>
+  <text x="727" y="277.96491228070175" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="17" fill="#e0795b">16.8</text>
+  <text x="727" y="426" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#62655d">3개월 평균 시총</text>
+
+  <path d="M616 176 L678 176" stroke="#20231f" stroke-width="1.2" stroke-dasharray="3 4" opacity=".45"/>
+  <path d="M727 255.96491228070175 L727 182" stroke="#20231f" stroke-width="1.2" stroke-dasharray="3 4" opacity=".45"/>
+  <text x="486" y="462" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">차이 <tspan font-family="'IBM Plex Mono',ui-monospace,monospace">17.4조원</tspan> — 분할 발표일 주가는 <tspan font-family="'IBM Plex Mono',ui-monospace,monospace" fill="#e0795b">-12.1%</tspan></text>
+
+  <text x="74" y="492" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">분할비율: 뉴스핌·인베스트조선 / SOTP·시총: CEO매거진 (2026.08 기준) — 수치로 직접 작성</text>
+</svg>
