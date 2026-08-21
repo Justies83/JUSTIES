@@ -537,3 +537,89 @@ em, i { font-style: italic; }
 /* Long source names must not push a card footer out of shape. */
 .card footer { min-width: 0; }
 .card footer span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 12rem; }
+
+/* ============================================================
+   Phone refinements
+   Desktop leans on small mono labels; at 390px those fall to
+   ~10px and the header wraps onto two lines. Everything below
+   raises type and tap targets without touching the desktop.
+   ============================================================ */
+
+.count-blurb { font-size: 0.78rem; color: var(--soft); }
+
+@media (max-width: 720px) {
+  /* Meta type: 10-11px on a phone is unreadable. */
+  .eyebrow,
+  .mono { font-size: 0.78rem; letter-spacing: 0.1em; }
+  .pill { font-size: 0.76rem; padding: 0.28rem 0.68rem; }
+  .row-foot,
+  .card footer { font-size: 0.78rem; }
+  .now-list b { font-size: 0.76rem; }
+  .topic small,
+  .card-seal small { font-size: 0.72rem; }
+  .site-footer { font-size: 0.9rem; }
+  .prose { font-size: 1.05rem; }
+
+  /* Tap targets: 30-33px is a miss on a touch screen. */
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    padding: 0.5rem 1rem;
+    font-size: 0.82rem;
+  }
+  .tag {
+    display: inline-flex;
+    align-items: center;
+    min-height: 40px;
+    padding: 0.45rem 0.85rem;
+    font-size: 0.8rem;
+  }
+  .icon-button { min-height: 42px; padding: 0.5rem 0.8rem; font-size: 0.8rem; }
+  .plain-link { display: inline-flex; align-items: center; min-height: 40px; }
+  .ink-button { min-height: 46px; }
+  .mobile-dock a,
+  .mobile-dock button { min-height: 46px; justify-content: center; }
+
+  /* The seal and the shortcut hint are desktop affordances; on a phone they
+     only push the header onto a second line. */
+  .brand-type span { display: none; }
+  .icon-button kbd { display: none; }
+
+  .principles { grid-template-columns: 1fr; gap: 1.1rem; }
+  .principle { display: grid; grid-template-columns: 2rem 1fr; align-items: baseline; }
+  .principle p { margin: 0; }
+}
+
+@media (max-width: 520px) {
+  /* Three columns of prose at 390px break mid-word. Numbers and labels
+     survive; the sentence under them does not. */
+  .count-blurb { display: none; }
+  .hero-counts { gap: 0.45rem; }
+  .hero-counts a { padding: 0.6rem 0.5rem; }
+
+  /* Icon-only search so the header stays on one line. */
+  .header-tools .icon-button span:not([data-theme-icon]) + span { display: none; }
+}
+
+/* ---------- photo gallery ---------- */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 0.9rem;
+  margin: 2.5rem 0 0;
+}
+.gallery figure { margin: 0; display: grid; gap: 0.5rem; }
+.gallery img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid var(--line-soft);
+}
+.gallery figcaption { font-size: 0.85rem; color: var(--soft); }
+/* A single photo should not be stretched across the whole column. */
+.gallery:has(figure:only-child) { grid-template-columns: minmax(0, 32rem); }
+@media (max-width: 520px) {
+  .gallery { grid-template-columns: 1fr; }
+}

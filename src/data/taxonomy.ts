@@ -2,14 +2,21 @@
 //   category = what the entry is about
 //   kind     = what shape it takes (clipped news / my opinion / reference note)
 // Keeping them apart means a filter chip never has to become a folder.
+//
+// Adding a category is one line here. The home topic grid, /topics/<id>, the
+// archive filters, the /admin dropdown and the search index all read from this
+// list, so nothing else needs touching — and existing posts keep working, since
+// a post's category is a field rather than a directory.
 
 export const CATEGORIES = [
   { id: 'research', label: '연구', en: 'Research', blurb: '논문 · 방법론 · 실험 기록', glyph: '△' },
   { id: 'science', label: '과학', en: 'Science', blurb: '생명과학 · 브리핑 · 리뷰', glyph: '✦' },
+  { id: 'finance', label: '경제 · 산업', en: 'Finance', blurb: '시황 · 기업 · 거시 흐름', glyph: '◇' },
   { id: 'world', label: '국제 정세', en: 'World', blurb: '외교 · 정책 · 공급망', glyph: '◎' },
-  { id: 'finance', label: '금융 · 산업', en: 'Finance', blurb: '기업 · 시황 · 거시 흐름', glyph: '◇' },
-  { id: 'tech', label: 'IT 정보', en: 'Tech', blurb: '도구 · 기술 · 실사용', glyph: '▣' },
-  { id: 'life', label: '일상 · 육아', en: 'Life', blurb: '돌봄 · 취미 · 관찰', glyph: '♡' },
+  { id: 'tech', label: 'IT · 기술', en: 'Tech', blurb: '도구 · 소프트웨어 · 실사용', glyph: '▣' },
+  { id: 'review', label: '리뷰 · 소개', en: 'Review', blurb: '맛집 · 기기 · 장비', glyph: '☆' },
+  { id: 'parenting', label: '육아', en: 'Parenting', blurb: '돌봄 · 성장 · 기록', glyph: '♡' },
+  { id: 'life', label: '일상', en: 'Life', blurb: '취미 · 관찰 · 메모', glyph: '○' },
 ] as const;
 
 export const KINDS = [

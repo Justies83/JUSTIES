@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css';
 import { site } from '../data/site';
+import { CATEGORIES } from '../data/taxonomy';
 
 interface Props {
   title?: string;
@@ -90,7 +91,7 @@ const path = Astro.url.pathname.replace(/\/$/, '') || '/';
     <footer class="site-footer">
       <div>
         <span class="mono">{site.shortTitle} ARCHIVE</span>
-        <p style="margin:0">Research · Science · World · Finance · Tech · Life</p>
+        <p style="margin:0">{CATEGORIES.map((c) => c.en).join(' · ')}</p>
       </div>
       <div>
         <a class="plain-link" href="/rss.xml">RSS</a>

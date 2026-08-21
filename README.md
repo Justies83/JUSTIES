@@ -28,7 +28,7 @@ src/data/site.ts         ← 제목, 메뉴, "지금 관찰 중", 원칙 등 문
 ---
 title: 글 제목
 date: 2026-08-21
-category: research      # research | science | world | finance | tech | life
+category: review        # research | science | finance | world | tech | review | parenting | life
 kind: note              # news | opinion | note
 takeaway: 목록 카드에 보이는 한 줄 요약.
 tags: [태그1, 태그2]
@@ -37,6 +37,9 @@ tags: [태그1, 태그2]
 # source: { name: 출처 이름, url: https://... }
 # cover: /images/example.jpg
 # coverAlt: 이미지 설명
+# gallery:                        # 본문 아래 사진 격자
+#   - { image: /images/a.jpg, caption: 설명 }
+#   - { image: /images/b.jpg, caption: '' }
 # featured: true        # 홈 상단 3칸
 # draft: true           # 배포된 사이트에서는 숨김
 ---
@@ -49,14 +52,22 @@ tags: [태그1, 태그2]
 
 파일 하나를 추가하면 홈 목록, 주제 페이지, 태그 페이지, 검색 색인, RSS, 사이트맵이 함께 갱신됩니다.
 
-### 분류 늘리기
+### 분류 늘리기 · 쪼개기
 
-`src/data/taxonomy.ts` 의 `CATEGORIES` 에 한 줄을 추가하면 주제 카드 · 필터 · `/topics/...`
-페이지가 자동으로 생깁니다. 폴더를 만들 필요는 없습니다.
+`src/data/taxonomy.ts` 의 `CATEGORIES` 에 한 줄을 추가하면 홈의 주제 카드, 필터 칩,
+`/topics/<id>` 페이지, `/admin` 드롭다운, 검색 색인, 푸터 목록이 **한꺼번에** 따라옵니다.
+폴더를 만들 필요가 없습니다.
 
-### 이미지
+분류는 폴더가 아니라 글의 **항목**이므로, 나중에 쪼개도 기존 글이 깨지지 않습니다.
+예를 들어 `life` 안에 쌓인 육아 글을 분리하려면 `parenting` 을 한 줄 추가하고
+해당 글들의 `category` 값만 바꾸면 됩니다 — 홈의 새 글 목록에는 그 글의 사진과
+분류 이름이 그대로 함께 나옵니다.
 
-`public/images/` 에 넣고 `/images/파일명` 으로 참조합니다. 외부 CDN을 쓰지 않기 때문에
+### 이미지 · 사진 여러 장
+
+`public/images/` 에 넣고 `/images/파일명` 으로 참조합니다.
+사진이 여러 장인 글은 `gallery` 항목을 쓰면 본문 아래에 격자로 놓입니다.
+본문 중간에 넣을 사진은 마크다운 이미지 문법(또는 편집 화면의 이미지 버튼)을 씁니다. 외부 CDN을 쓰지 않기 때문에
 저장소만 옮기면 이미지도 함께 따라옵니다.
 
 카카오톡·트위터 등에 공유될 때 쓰이는 기본 카드 이미지는 `public/og.png` 입니다.

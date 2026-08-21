@@ -38,7 +38,7 @@ const countByCategory = (id: string) => posts.filter((p) => p.data.category === 
           <a href={`/kinds/${kind.id}`}>
             <strong>{String(countByKind(kind.id)).padStart(2, '0')}</strong>
             <small>{kind.en}</small>
-            <span style="font-size:.78rem;color:var(--soft)">{kind.blurb}</span>
+            <span class="count-blurb">{kind.blurb}</span>
           </a>
         ))}
       </div>

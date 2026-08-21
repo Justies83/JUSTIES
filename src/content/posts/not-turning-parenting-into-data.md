@@ -1,7 +1,7 @@
 ---
 title: 육아 기록을 데이터로 남기지 않기로 한 이유
 date: 2026-07-19
-category: life
+category: parenting
 kind: opinion
 takeaway: 측정할 수 있는 것만 남기면, 남는 것은 측정할 수 있었던 것뿐이다.
 tags: [육아, 기록, 관찰]

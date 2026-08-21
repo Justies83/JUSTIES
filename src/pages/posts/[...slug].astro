@@ -67,6 +67,17 @@ const kind = kindOf(post.data.kind);
       <Content />
     </div>
 
+    {post.data.gallery.length > 0 && (
+      <section class="gallery" aria-label="사진">
+        {post.data.gallery.map((item) => (
+          <figure>
+            <img src={item.image} alt={item.caption} loading="lazy" decoding="async" />
+            {item.caption && <figcaption>{item.caption}</figcaption>}
+          </figure>
+        ))}
+      </section>
+    )}
+
     <footer class="post-foot">
       {post.data.tags.length > 0 && (
         <div>

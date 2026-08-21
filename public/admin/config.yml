@@ -65,12 +65,14 @@ collections:
         widget: select
         default: research
         options:
-          - { label: '연구 (Research)', value: research }
-          - { label: '과학 (Science)', value: science }
-          - { label: '국제 정세 (World)', value: world }
-          - { label: '금융 · 산업 (Finance)', value: finance }
-          - { label: 'IT 정보 (Tech)', value: tech }
-          - { label: '일상 · 육아 (Life)', value: life }
+          - { label: '연구 — 논문 · 방법론', value: research }
+          - { label: '과학 — 생명과학 · 브리핑', value: science }
+          - { label: '경제 · 산업 — 시황 · 기업', value: finance }
+          - { label: '국제 정세 — 외교 · 정책', value: world }
+          - { label: 'IT · 기술 — 도구 · 소프트웨어', value: tech }
+          - { label: '리뷰 · 소개 — 맛집 · 기기 · 장비', value: review }
+          - { label: '육아 — 돌봄 · 성장', value: parenting }
+          - { label: '일상 — 취미 · 관찰', value: life }
 
       - name: kind
         label: 형식
@@ -123,6 +125,18 @@ collections:
         required: false
         default: ''
 
+      - name: gallery
+        label: 사진 여러 장
+        hint: 맛집 · 기기 리뷰처럼 사진이 여러 장인 글에서. 본문 아래 격자로 보입니다.
+        widget: list
+        required: false
+        collapsed: false
+        label_singular: 사진
+        summary: '{{fields.caption}}'
+        fields:
+          - { name: image, label: 사진, widget: image }
+          - { name: caption, label: 설명, widget: string, required: false, default: '' }
+
       - name: featured
         label: 홈 상단에 올리기
         widget: boolean
@@ -138,3 +152,7 @@ collections:
       - name: body
         label: 본문
         widget: markdown
+        # The toolbar covers headings, lists, quotes, bold/italic/link and
+        # inline images. Tables have no toolbar button, so keep the raw mode
+        # available — a GFM table typed there renders correctly on the site.
+        modes: [rich_text, raw]

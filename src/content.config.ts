@@ -35,6 +35,16 @@ const posts = defineCollection({
     source: optionalSource,
     cover: optionalText,
     coverAlt: z.string().default(''),
+    // Extra photos shown as a grid under the body — restaurant and gear
+    // write-ups usually carry several. Inline images still work in the body.
+    gallery: z
+      .array(
+        z.object({
+          image: z.string(),
+          caption: z.string().default(''),
+        })
+      )
+      .default([]),
     featured: z.boolean().default(false),
     draft: z.boolean().default(false),
   }),
