@@ -1,7 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /admin
-Disallow: /private
-Disallow: /search-index.json
-
-Sitemap: /sitemap-index.xml

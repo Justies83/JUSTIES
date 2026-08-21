@@ -9,9 +9,24 @@ interface Props {
   /** Absolute or root-relative path to a social image. */
   image?: string;
   type?: 'website' | 'article';
+  /** JSON-LD for this page. Search engines read this, not the prose. */
+  schema?: Record<string, unknown>;
+  publishedTime?: Date;
+  modifiedTime?: Date;
+  /** Set on pages that must never be indexed. */
+  noindex?: boolean;
 }
 
-const { title, description = site.description, image, type = 'website' } = Astro.props;
+const {
+  title,
+  description = site.description,
+  image,
+  type = 'website',
+  schema,
+  publishedTime,
+  modifiedTime,
+  noindex = false,
+} = Astro.props;
 const pageTitle = title ? `${title} — ${site.title}` : `${site.title} — 개인 아카이브`;
 const canonical = new URL(Astro.url.pathname, Astro.site ?? Astro.url).href;
 // Posts with a cover use it; everything else falls back to the brand card.
@@ -28,6 +43,13 @@ const path = Astro.url.pathname.replace(/\/$/, '') || '/';
     <meta name="description" content={description} />
     <meta name="keywords" content={site.keywords.join(', ')} />
     <meta name="author" content={site.author} />
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
+    {site.verification.google && (
+      <meta name="google-site-verification" content={site.verification.google} />
+    )}
+    {site.verification.naver && (
+      <meta name="naver-site-verification" content={site.verification.naver} />
+    )}
     <link rel="canonical" href={canonical} />
     <meta name="theme-color" content="#f4f1ea" media="(prefers-color-scheme: light)" />
     <meta name="theme-color" content="#171a18" media="(prefers-color-scheme: dark)" />
@@ -37,9 +59,16 @@ const path = Astro.url.pathname.replace(/\/$/, '') || '/';
     <meta property="og:title" content={title ?? site.title} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
+    <meta property="og:locale" content="ko_KR" />
+    {publishedTime && <meta property="article:published_time" content={publishedTime.toISOString()} />}
+    {modifiedTime && <meta property="article:modified_time" content={modifiedTime.toISOString()} />}
     <meta property="og:image" content={ogImage} />
     <meta property="og:image:alt" content={`${site.title} — ${site.tagline}`} />
     <meta name="twitter:card" content="summary_large_image" />
+
+    {schema && (
+      <script type="application/ld+json" is:inline set:html={JSON.stringify(schema)} />
+    )}
 
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="alternate" type="application/rss+xml" title={site.title} href="/rss.xml" />
@@ -97,6 +126,8 @@ const path = Astro.url.pathname.replace(/\/$/, '') || '/';
         <a class="plain-link" href="/rss.xml">RSS</a>
         <span aria-hidden="true"> · </span>
         <a class="plain-link" href="/about">소개</a>
+        <span aria-hidden="true"> · </span>
+        <a class="plain-link" href="/privacy">개인정보</a>
         <span aria-hidden="true"> · </span>
         <a class="plain-link" href="/admin" rel="nofollow">편집</a>
         <span aria-hidden="true"> · </span>

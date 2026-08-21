@@ -24,6 +24,19 @@ export const site = {
   established: 2026,
   author: '제의 / JUSTIES',
 
+  // Paste the codes the two consoles hand out; leaving one empty omits its tag.
+  //   Google  → Search Console → 소유권 확인 → HTML 태그
+  //   Naver   → 서치어드바이저 → 사이트 소유확인 → HTML 태그
+  verification: {
+    google: '',
+    naver: '',
+  },
+
+  // Shown on /privacy when set. Left empty on purpose — publishing an address
+  // is a decision for its owner, not a default. AdSense wants a way to be
+  // contacted, so fill this in before applying.
+  contact: '',
+
   nav: [
     { href: '/', label: '홈' },
     { href: '/archive', label: '기록' },

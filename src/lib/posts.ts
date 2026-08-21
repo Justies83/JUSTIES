@@ -42,6 +42,19 @@ export const postUrl = (post: Post) => `/posts/${post.id}`;
 export const coverFor = (post: Post): string | undefined =>
   post.data.cover ?? (post.data.visibility === 'private' ? undefined : `/covers/${post.id}.svg`);
 
+/**
+ * The image to hand to social platforms and to structured data.
+ *
+ * Covers here are often SVG — the charts, and every generated plate — and
+ * KakaoTalk, X and Facebook do not render SVG in a share card, nor does Google
+ * accept it for a rich result. So a raster cover is used when there is one, and
+ * otherwise the brand card, which is a PNG. Silently shipping an SVG here means
+ * a shared link shows no picture at all.
+ */
+const RASTER = /\.(png|jpe?g|webp|gif)$/i;
+export const socialImage = (post: Post): string =>
+  post.data.cover && RASTER.test(post.data.cover) ? post.data.cover : '/og.png';
+
 export function formatDate(date: Date): string {
   const y = date.getFullYear();
   const m = String(date.getMonth() + 1).padStart(2, '0');

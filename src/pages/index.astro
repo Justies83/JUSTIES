@@ -24,9 +24,39 @@ const shown = new Set(top.map((p) => p.id));
 const recent = posts.filter((p) => !shown.has(p.id)).slice(0, 6);
 const countByKind = (id: string) => posts.filter((p) => p.data.kind === id).length;
 const countByCategory = (id: string) => posts.filter((p) => p.data.category === id).length;
+
+const origin = (Astro.site ?? new URL(Astro.url.origin)).origin;
+const schema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'WebSite',
+      '@id': `${origin}#site`,
+      url: origin,
+      name: site.title,
+      description: site.description,
+      inLanguage: 'ko-KR',
+      publisher: { '@type': 'Person', name: site.author, url: `${origin}/about` },
+    },
+    {
+      '@type': 'Blog',
+      '@id': `${origin}#blog`,
+      url: origin,
+      name: site.title,
+      description: site.description,
+      inLanguage: 'ko-KR',
+      blogPost: posts.slice(0, 10).map((p) => ({
+        '@type': 'BlogPosting',
+        headline: p.data.title,
+        url: `${origin}/posts/${p.id}`,
+        datePublished: p.data.date.toISOString(),
+      })),
+    },
+  ],
+};
 ---
 
-<Base>
+<Base schema={schema}>
   <section class="shell hero">
     <div>
       <p class="eyebrow hero-eyebrow">{site.seal} <b>— {site.now.updated}</b></p>

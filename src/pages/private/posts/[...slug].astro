@@ -17,6 +17,6 @@ export const getStaticPaths: GetStaticPaths = async () => {
 const { post, related } = Astro.props as { post: Post; related: Post[] };
 ---
 
-<Base title={`${post.data.title} (숨김)`} description={post.data.takeaway}>
+<Base title={`${post.data.title} (숨김)`} description={post.data.takeaway} noindex>
   <PostArticle post={post} related={related} base="/private" />
 </Base>
