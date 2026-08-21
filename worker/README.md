@@ -13,8 +13,8 @@
 | 항목 | 값 |
 | --- | --- |
 | Application name | `JUSTIES CMS` |
-| Homepage URL | `https://justies.pages.dev` |
-| Authorization callback URL | `https://justies-cms-auth.<계정>.workers.dev/callback` |
+| Homepage URL | `https://justies.justies.workers.dev` |
+| Authorization callback URL | `https://justies-cms-auth.justies.workers.dev/callback` |
 
 만든 뒤 **Client ID**를 복사하고, **Generate a new client secret** 으로 secret을 만들어 둡니다.
 secret은 이 화면을 벗어나면 다시 볼 수 없습니다.
@@ -31,11 +31,11 @@ npx wrangler secret put GITHUB_CLIENT_SECRET     # 1단계의 secret 붙여넣�
 npx wrangler deploy
 ```
 
-배포된 주소(`https://justies-cms-auth.<계정>.workers.dev`)를 확인하고,
+배포된 주소(`https://justies-cms-auth.justies.workers.dev`)를 확인하고,
 1단계의 callback URL과 정확히 일치하는지 다시 봅니다. 여기가 가장 자주 틀리는 지점입니다.
 
 ```bash
-curl https://justies-cms-auth.<계정>.workers.dev/health   # -> ok
+curl https://justies-cms-auth.justies.workers.dev/health   # -> ok
 ```
 
 ## 3. 사이트에 연결
