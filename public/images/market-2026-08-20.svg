@@ -1,0 +1,37 @@
+<svg viewBox="0 0 900 520" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="900" height="520" fill="#faf7f2"/>
+  <text x="450" y="48" text-anchor="middle" font-family="Georgia, 'Noto Serif KR', serif" font-size="24" font-weight="700" fill="#1e2a24">코스피 3일간 롤러코스터 (8/18 ~ 8/20)</text>
+  <text x="450" y="72" text-anchor="middle" font-family="Georgia, 'Noto Serif KR', serif" font-size="13" fill="#4d5a53">반도체 대형주 주주환원 발표를 둘러싼 급등락</text>
+
+  <!-- axes -->
+  <line x1="90" y1="430" x2="850" y2="430" stroke="#ddd6c8" stroke-width="1.5"/>
+  <line x1="90" y1="90" x2="90" y2="430" stroke="#ddd6c8" stroke-width="1.5"/>
+  <text x="80" y="108" text-anchor="end" font-family="Georgia, serif" font-size="12" fill="#4d5a53">7200</text>
+  <text x="80" y="238" text-anchor="end" font-family="Georgia, serif" font-size="12" fill="#4d5a53">6800</text>
+  <text x="80" y="368" text-anchor="end" font-family="Georgia, serif" font-size="12" fill="#4d5a53">6400</text>
+
+  <!-- gridlines -->
+  <line x1="90" y1="104" x2="850" y2="104" stroke="#e9e4d9" stroke-width="1"/>
+  <line x1="90" y1="234" x2="850" y2="234" stroke="#e9e4d9" stroke-width="1"/>
+  <line x1="90" y1="364" x2="850" y2="364" stroke="#e9e4d9" stroke-width="1"/>
+
+  <!-- path: 8/18 intraday high 7200 -> close 6869.83; 8/19 close 6471.17; 8/20 close 6871.56(as of 13:03) -->
+  <polyline points="120,240 260,104 320,238 480,406 640,364 800,236"
+            fill="none" stroke="#2f5d50" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <circle cx="260" cy="104" r="5" fill="#2f5d50"/>
+  <text x="260" y="90" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#2f5d50">장중 7200 터치</text>
+
+  <circle cx="320" cy="238" r="5" fill="#2f5d50"/>
+  <text x="320" y="222" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#1e2a24">8/18 종가 6869.83</text>
+
+  <circle cx="480" cy="406" r="5" fill="#b0473f"/>
+  <text x="480" y="424" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#b0473f">8/19 종가 6471.17 (-5.80%)</text>
+
+  <circle cx="800" cy="236" r="5" fill="#2f5d50"/>
+  <text x="800" y="220" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#1e2a24">8/20 6871.56 (+6.19%)</text>
+
+  <text x="120" y="452" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#4d5a53">8/18 개장</text>
+  <text x="480" y="452" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#4d5a53">8/19</text>
+  <text x="800" y="452" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#4d5a53">8/20 (13:03 기준)</text>
+</svg>

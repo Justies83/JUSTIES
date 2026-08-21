@@ -1,0 +1,36 @@
+<svg viewBox="0 0 900 520" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bar1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1f6f4f"/>
+      <stop offset="100%" stop-color="#2f9467"/>
+    </linearGradient>
+    <linearGradient id="bar2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f4c81"/>
+      <stop offset="100%" stop-color="#2a7ec2"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="900" height="520" fill="#fbfaf8"/>
+  <text x="450" y="52" text-anchor="middle" font-family="Malgun Gothic, sans-serif" font-size="26" font-weight="700" fill="#222">2026년 반도체 양대 기업 주주환원 규모</text>
+  <text x="450" y="80" text-anchor="middle" font-family="Malgun Gothic, sans-serif" font-size="14" fill="#777">삼성전자 100조원대 · SK하이닉스 자사주 40조원 소각 (2026.08 발표 기준)</text>
+
+  <!-- axis -->
+  <line x1="120" y1="440" x2="820" y2="440" stroke="#ccc" stroke-width="2"/>
+
+  <!-- Samsung bar (100) -->
+  <rect x="220" y="140" width="140" height="300" fill="url(#bar1)" rx="6"/>
+  <text x="290" y="125" text-anchor="middle" font-family="Malgun Gothic, sans-serif" font-size="22" font-weight="700" fill="#1f6f4f">100조원+</text>
+  <text x="290" y="470" text-anchor="middle" font-family="Malgun Gothic, sans-serif" font-size="16" fill="#333">삼성전자</text>
+  <text x="290" y="492" text-anchor="middle" font-family="Malgun Gothic, sans-serif" font-size="12" fill="#777">특별현금배당 중심</text>
+
+  <!-- SK Hynix bar (40 buyback) -->
+  <rect x="420" y="260" width="90" height="180" fill="url(#bar2)" rx="6"/>
+  <text x="465" y="245" text-anchor="middle" font-family="Malgun Gothic, sans-serif" font-size="20" font-weight="700" fill="#0f4c81">40조원</text>
+  <text x="465" y="470" text-anchor="middle" font-family="Malgun Gothic, sans-serif" font-size="16" fill="#333">SK하이닉스</text>
+  <text x="465" y="492" text-anchor="middle" font-family="Malgun Gothic, sans-serif" font-size="12" fill="#777">자사주 매입·소각</text>
+
+  <!-- SK Hynix bar (up to 100 total) -->
+  <rect x="560" y="140" width="90" height="300" fill="#2a7ec2" opacity="0.35" rx="6" stroke="#0f4c81" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="605" y="125" text-anchor="middle" font-family="Malgun Gothic, sans-serif" font-size="18" font-weight="700" fill="#0f4c81">최대 100조원대</text>
+  <text x="605" y="470" text-anchor="middle" font-family="Malgun Gothic, sans-serif" font-size="16" fill="#333">SK하이닉스</text>
+  <text x="605" y="492" text-anchor="middle" font-family="Malgun Gothic, sans-serif" font-size="12" fill="#777">총 환원 목표(배당+소각)</text>
+</svg>
