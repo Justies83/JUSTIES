@@ -24,7 +24,10 @@
   --sans: 'IBM Plex Sans KR', -apple-system, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
   --mono: 'IBM Plex Mono', ui-monospace, Consolas, monospace;
 
-  --measure: 34rem;   /* body copy: ~65-70 characters */
+  --measure: 34rem;   /* narrow copy: intros, notes, hero summaries */
+  --article: 44rem;   /* the article column — ~43 Korean characters a line.
+                         Body text, cover, figures and footer all share it, so
+                         nothing in a post is wider than anything else. */
   --shell: 74rem;     /* page shell */
   --radius: 14px;
   --step: clamp(1.5rem, 4vw, 3rem);
@@ -370,10 +373,28 @@ em, i { font-style: italic; }
 .post-head { padding: clamp(2rem, 5vw, 3.5rem) 0 1.5rem; }
 .post-head .card-meta { margin-bottom: 0.9rem; }
 .post-head h1 { font-size: clamp(1.8rem, 4.4vw, 2.9rem); }
-.post-lead { max-width: var(--measure); color: var(--soft); font-size: 1.02rem; margin: 1rem 0 0; }
+.post-lead { color: var(--soft); font-size: 1.02rem; margin: 1rem 0 0; }
 .post-meta { display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: center; margin-top: 1.1rem; font-family: var(--mono); font-size: 0.7rem; letter-spacing: 0.08em; color: var(--soft); }
-.post-cover { margin: 1.8rem 0 0; border-radius: var(--radius); overflow: hidden; border: 1px solid var(--line); }
-.post-cover img { width: 100%; max-height: 26rem; object-fit: cover; }
+
+/* One column for the whole article. A cover at page width sitting above body
+   copy at reading width reads as a layout fault, not a design choice. */
+.post-head > *,
+.post-cover,
+.source-box,
+.prose,
+.gallery,
+.post-foot { max-width: var(--article); }
+
+.post-cover {
+  margin: 1.8rem 0 0;
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: var(--paper-deep);
+}
+/* contain, not cover: most covers here are charts, and cropping one costs an
+   axis label or a legend. */
+.post-cover img { width: 100%; max-height: 30rem; object-fit: contain; }
 
 .source-box {
   display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center;
@@ -385,7 +406,7 @@ em, i { font-style: italic; }
 }
 .source-box a { color: var(--teal-dark); border-bottom: 1px solid currentColor; word-break: break-all; }
 
-.prose { max-width: var(--measure); margin: 2rem 0 0; font-size: 1.02rem; }
+.prose { margin: 2rem 0 0; font-size: 1.02rem; }
 .prose > * + * { margin-top: 1.15em; }
 .prose h2 { font-size: 1.4rem; margin-top: 2.4em; }
 .prose h3 { font-size: 1.15rem; margin-top: 1.9em; }
