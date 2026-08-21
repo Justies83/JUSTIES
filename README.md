@@ -68,14 +68,31 @@ tags: [태그1, 태그2]
 `/admin` 에서 폼으로 제목 · 주제 · 형식 · 본문을 채우고 저장하면 마크다운 파일이
 커밋되고, 1~2분 뒤 사이트에 반영됩니다. 마크다운 문법을 몰라도 됩니다.
 
-편집 화면은 두 가지 방식으로 같은 파일을 씁니다.
+로그인 방식은 세 가지이고, 모두 같은 마크다운 파일을 씁니다.
 
 | 방식 | 쓰는 곳 | 필요한 것 |
 | --- | --- | --- |
-| **GitHub 로그인** | 원격 저장소에 커밋 | 인증 Worker 1개 (`worker/README.md`) |
+| **토큰 붙여넣기** | 원격 저장소에 커밋 | GitHub 토큰 1개. **기본 권장** |
 | **로컬 저장소** | 내 디스크의 파일을 직접 | `npm run dev` 뿐. 네트워크 불필요 |
+| GitHub 원클릭 로그인 | 원격 저장소에 커밋 | OAuth App + 인증 Worker (`worker/README.md`) |
 
-NAS로 옮긴 뒤에는 로컬 저장소 방식만 쓰면 되고, Worker와 GitHub 로그인은 버려도 됩니다.
+혼자 쓰는 사이트라면 세 번째는 필요 없습니다. 토큰을 한 번 붙여넣으면 브라우저가
+기억하고, 편의성 차이는 최초 로그인 한 번뿐입니다.
+
+### 토큰 만들기
+
+<https://github.com/settings/personal-access-tokens> → **Generate new token**
+
+| 항목 | 값 |
+| --- | --- |
+| Repository access | Only select repositories → `Justies83/JUSTIES` |
+| Permissions → Contents | **Read and write** |
+| Expiration | 원하는 기간 (만료되면 다시 발급) |
+
+`/admin` → **Sign In Using Access Token** 에 붙여넣습니다. 이 토큰은 이 저장소의
+파일을 고칠 수 있을 뿐이며, 계정 전체 권한이 아닙니다.
+
+NAS로 옮긴 뒤에는 로컬 저장소 방식만 쓰면 되고, 토큰도 Worker도 버려도 됩니다.
 편집 화면 자체(`public/admin/sveltia-cms.js`)는 npm 패키지에서 복사해 넣기 때문에
 CDN에 의존하지 않습니다 — `npm run build` 가 알아서 처리합니다.
 
@@ -126,6 +143,10 @@ Cloudflare Zero Trust에서 만든 터널 토큰을 `.env` 에 넣으면 **공�
 코드는 준비돼 있고, 아래는 계정 권한이 필요해 대시보드에서 직접 해야 하는 일입니다.
 
 - [ ] Cloudflare Pages 프로젝트 생성 및 `SITE_URL` 설정 (위 표)
-- [ ] GitHub OAuth App 생성 + 인증 Worker 배포 (`worker/README.md`)
-- [ ] 배포된 Worker 주소를 `public/admin/config.yml` 의 `base_url` 에 반영
+- [ ] GitHub 토큰 발급 → `/admin` 로그인
 - [ ] 이전 두 사이트(field-notes-atelier, dr-park-blog)의 글 이관
+
+선택 사항 — 매번 토큰을 붙여넣는 대신 원클릭 로그인을 원할 때만:
+
+- [ ] GitHub OAuth App 생성 + 인증 Worker 배포 (`worker/README.md`)
+- [ ] `public/admin/config.yml` 의 `base_url` · `auth_endpoint` 주석 해제
