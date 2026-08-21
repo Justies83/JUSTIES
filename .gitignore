@@ -6,3 +6,6 @@ dist/
 !.env.example
 .DS_Store
 npm-debug.log*
+
+# vendored by npm run cms:sync
+public/admin/sveltia-cms.js

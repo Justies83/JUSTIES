@@ -1,0 +1,12 @@
+name = "justies-cms-auth"
+main = "src/index.js"
+compatibility_date = "2026-08-01"
+
+# Sites allowed to receive a token. Add the preview domain only if you intend
+# to edit from preview deployments.
+[vars]
+ALLOWED_ORIGINS = "https://justies.pages.dev"
+GITHUB_CLIENT_ID = ""
+
+# GITHUB_CLIENT_SECRET is NOT stored here.
+#   npx wrangler secret put GITHUB_CLIENT_SECRET

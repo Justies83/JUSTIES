@@ -4,20 +4,22 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "astro dev --host",
-    "build": "astro build",
+    "dev": "npm run cms:sync && astro dev --host",
+    "build": "npm run cms:sync && astro build",
     "preview": "astro preview --host",
-    "check": "astro check"
+    "check": "astro check",
+    "cms:sync": "node scripts/sync-cms.mjs",
+    "og": "node scripts/make-og.mjs"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.10",
     "@astrojs/rss": "^4.0.19",
     "@astrojs/sitemap": "^3.7.3",
     "astro": "^5.18.2",
-    "sharp": "^0.35.3",
-    "typescript": "^5.9.3"
+    "sharp": "^0.35.3"
   },
   "devDependencies": {
-    "playwright-core": "^1.62.1"
+    "@astrojs/check": "^0.9.10",
+    "@sveltia/cms": "^0.194.0",
+    "typescript": "^5.9.3"
   }
 }

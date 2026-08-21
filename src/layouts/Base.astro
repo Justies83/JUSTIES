@@ -13,7 +13,8 @@ interface Props {
 const { title, description = site.description, image, type = 'website' } = Astro.props;
 const pageTitle = title ? `${title} — ${site.title}` : `${site.title} — 개인 아카이브`;
 const canonical = new URL(Astro.url.pathname, Astro.site ?? Astro.url).href;
-const ogImage = image ? new URL(image, Astro.site ?? Astro.url).href : undefined;
+// Posts with a cover use it; everything else falls back to the brand card.
+const ogImage = new URL(image ?? '/og.png', Astro.site ?? Astro.url).href;
 const path = Astro.url.pathname.replace(/\/$/, '') || '/';
 ---
 
@@ -35,8 +36,9 @@ const path = Astro.url.pathname.replace(/\/$/, '') || '/';
     <meta property="og:title" content={title ?? site.title} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
-    {ogImage && <meta property="og:image" content={ogImage} />}
-    <meta name="twitter:card" content={ogImage ? 'summary_large_image' : 'summary'} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:alt" content={`${site.title} — ${site.tagline}`} />
+    <meta name="twitter:card" content="summary_large_image" />
 
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="alternate" type="application/rss+xml" title={site.title} href="/rss.xml" />
@@ -94,6 +96,8 @@ const path = Astro.url.pathname.replace(/\/$/, '') || '/';
         <a class="plain-link" href="/rss.xml">RSS</a>
         <span aria-hidden="true"> · </span>
         <a class="plain-link" href="/about">소개</a>
+        <span aria-hidden="true"> · </span>
+        <a class="plain-link" href="/admin" rel="nofollow">편집</a>
       </div>
       <span class="mono">EST. {site.established}</span>
     </footer>

@@ -18,6 +18,7 @@ src/data/site.ts         ← 제목, 메뉴, "지금 관찰 중", 원칙 등 문
 | `npm run build` | `dist/` 로 정적 파일 생성 |
 | `npm run preview` | 빌드 결과 미리보기 |
 | `npm run check` | 프론트매터 · 타입 검사 |
+| `npm run og` | 기본 소셜 이미지(`public/og.png`) 다시 생성 — 브랜드 아트가 바뀔 때만 |
 
 ## 글 쓰기
 
@@ -58,6 +59,32 @@ tags: [태그1, 태그2]
 `public/images/` 에 넣고 `/images/파일명` 으로 참조합니다. 외부 CDN을 쓰지 않기 때문에
 저장소만 옮기면 이미지도 함께 따라옵니다.
 
+카카오톡·트위터 등에 공유될 때 쓰이는 기본 카드 이미지는 `public/og.png` 입니다.
+글에 `cover` 가 있으면 그 이미지가, 없으면 이 기본 카드가 쓰입니다. 제목과 요약은
+`og:title` / `og:description` 으로 따로 전달되므로 이미지에 한글을 새길 필요는 없습니다.
+
+## `/admin` — 브라우저에서 글쓰기
+
+`/admin` 에서 폼으로 제목 · 주제 · 형식 · 본문을 채우고 저장하면 마크다운 파일이
+커밋되고, 1~2분 뒤 사이트에 반영됩니다. 마크다운 문법을 몰라도 됩니다.
+
+편집 화면은 두 가지 방식으로 같은 파일을 씁니다.
+
+| 방식 | 쓰는 곳 | 필요한 것 |
+| --- | --- | --- |
+| **GitHub 로그인** | 원격 저장소에 커밋 | 인증 Worker 1개 (`worker/README.md`) |
+| **로컬 저장소** | 내 디스크의 파일을 직접 | `npm run dev` 뿐. 네트워크 불필요 |
+
+NAS로 옮긴 뒤에는 로컬 저장소 방식만 쓰면 되고, Worker와 GitHub 로그인은 버려도 됩니다.
+편집 화면 자체(`public/admin/sveltia-cms.js`)는 npm 패키지에서 복사해 넣기 때문에
+CDN에 의존하지 않습니다 — `npm run build` 가 알아서 처리합니다.
+
+폼의 항목과 `src/content.config.ts` 의 스키마는 **한 쌍**입니다. 항목을 늘릴 때는
+`public/admin/config.yml` 과 스키마를 함께 고쳐야 합니다.
+
+새 글의 파일 이름에는 날짜가 붙습니다(`2026-08-24-주간-브리핑.md`). 주간 브리핑처럼
+같은 제목이 반복되는 글에서 이름이 겹치지 않게 하기 위한 것입니다.
+
 ## 배포
 
 주소는 `SITE_URL` 환경변수 하나로만 결정됩니다. 코드에 절대 URL은 없습니다.
@@ -94,8 +121,11 @@ Cloudflare Zero Trust에서 만든 터널 토큰을 `.env` 에 넣으면 **공�
 - 주소는 `SITE_URL` 한 곳에서만 결정됩니다.
 - 런타임은 정적 파일 서버. 필요해지면 `@astrojs/node` 어댑터로 SSR 전환이 가능합니다.
 
-## 다음 단계
+## 남은 수작업
 
-- [ ] `/admin` 브라우저 편집 화면 (Sveltia CMS — 지금은 Cloudflare Worker OAuth, NAS에서는 로컬 백엔드)
-- [ ] OG 이미지 자동 생성
+코드는 준비돼 있고, 아래는 계정 권한이 필요해 대시보드에서 직접 해야 하는 일입니다.
+
+- [ ] Cloudflare Pages 프로젝트 생성 및 `SITE_URL` 설정 (위 표)
+- [ ] GitHub OAuth App 생성 + 인증 Worker 배포 (`worker/README.md`)
+- [ ] 배포된 Worker 주소를 `public/admin/config.yml` 의 `base_url` 에 반영
 - [ ] 이전 두 사이트(field-notes-atelier, dr-park-blog)의 글 이관

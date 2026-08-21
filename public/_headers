@@ -14,6 +14,11 @@
 /favicon.svg
   Cache-Control: public, max-age=604800
 
+# The editing screen. Keep it out of search results and out of frames.
+/admin/*
+  X-Robots-Tag: noindex, nofollow
+  Cache-Control: no-store
+
 # Rebuilt on every deploy; must not be held by a CDN edge.
 /search-index.json
   Cache-Control: public, max-age=0, must-revalidate
