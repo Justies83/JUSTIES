@@ -7,7 +7,7 @@ takeaway: 맛집과 기기 리뷰의 공통 틀. 사진은 본문 아래 격자�
 tags: [리뷰, 형식, 사진]
 cover: /images/sample-01.png
 coverAlt: 예시용 자리표시 이미지
-featured: true
+featured: false
 gallery:
   - image: /images/sample-01.png
     caption: 사진마다 설명을 붙일 수 있습니다. 비워 두면 캡션 없이 보입니다.

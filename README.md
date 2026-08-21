@@ -42,7 +42,7 @@ tags: [태그1, 태그2]
 # gallery:                        # 본문 아래 사진 격자
 #   - { image: /images/a.jpg, caption: 설명 }
 #   - { image: /images/b.jpg, caption: '' }
-# featured: true        # 홈 상단 3칸
+# featured: true        # 홈 상단으로 끌어올림 (없으면 그냥 최신순)
 # draft: true           # 배포된 사이트에서는 숨김
 ---
 
@@ -53,6 +53,11 @@ tags: [태그1, 태그2]
 형식이 틀리면 빌드가 실패하면서 어느 파일의 어느 항목이 문제인지 알려 줍니다.
 
 파일 하나를 추가하면 홈 목록, 주제 페이지, 태그 페이지, 검색 색인, RSS, 사이트맵이 함께 갱신됩니다.
+
+홈 상단 세 칸은 **최신 글**입니다. `featured: true` 는 순서를 앞으로 당기는 핀일 뿐,
+자리를 계속 차지하지 않습니다 — 오래된 글이 고정된 채 첫 화면에 남지 않습니다.
+같은 날짜의 글이 여럿이면 날짜가 붙은 파일명(`2026-08-21-...`)이 먼저 옵니다.
+그날 쓴 글이 상시 안내 글보다 앞에 오게 하기 위한 규칙입니다.
 
 ### 분류 늘리기 · 쪼개기
 
@@ -170,6 +175,15 @@ CDN에 의존하지 않습니다 — `npm run build` 가 알아서 처리합니�
 ### Cloudflare Workers (현재)
 
 **https://justies.justies.workers.dev**
+
+Pages 대신 Workers를 쓰는 것이 현재 권장 경로입니다. Cloudflare는 정적 자산과 SSR을
+모두 Workers가 처리하게 되면서 **신규 프로젝트는 Workers로 시작할 것**을 권하고 있고,
+앞으로의 투자와 기능 개발도 Workers에 집중한다고 밝혔습니다(Pages는 계속 지원).
+정적 사이트는 Workers에서도 무료입니다.
+
+이 사이트에는 Workers여야 하는 이유가 하나 더 있습니다 — `/admin` 비밀번호 관문이
+`run_worker_first` 로 동작합니다. Pages로 옮기면 이 관문을 Pages Functions 미들웨어로
+다시 써야 합니다.
 
 대시보드의 저장소 가져오기 흐름은 Pages 프로젝트가 아니라 **정적 자산을 가진 Worker**
 를 만들고, push마다 `wrangler deploy` 를 실행합니다. 배포 설정은 저장소 루트의

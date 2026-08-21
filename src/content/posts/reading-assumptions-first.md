@@ -5,7 +5,7 @@ category: research
 kind: opinion
 takeaway: 좋은 연구 노트는 결론을 반복하지 않는다. 무엇을 고정했고 무엇이 흔들리는지를 기록하는 작은 방법.
 tags: [연구노트, 방법론, 재현성]
-featured: true
+featured: false
 ---
 
 논문을 읽을 때 초록과 마지막 그림만 보고 넘어가면, 남는 것은 "그래서 무엇이 밝혀졌다"는 한 문장이다.

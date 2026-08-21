@@ -2,10 +2,24 @@ import { getCollection, type CollectionEntry } from 'astro:content';
 
 export type Post = CollectionEntry<'posts'>;
 
+/** 0 for `2026-08-21-slug`, 1 for `slug`. Lower sorts first. */
+const datedFilename = (id: string) => (/^\d{4}-\d{2}-\d{2}-/.test(id) ? 0 : 1);
+
 /** Drafts are visible while developing, hidden in a production build. */
 export async function getPublishedPosts(): Promise<Post[]> {
   const posts = await getCollection('posts', ({ data }) => import.meta.env.DEV || !data.draft);
-  return posts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+  return posts.sort(
+    (a, b) =>
+      // Newest first.
+      b.data.date.valueOf() - a.data.date.valueOf() ||
+      // Several posts share a date. Among them, a date-prefixed filename is the
+      // day's writing — that is what /admin and the scheduled runs produce —
+      // while a bare filename is a standing guide that merely carries that date.
+      // The day's writing goes first, or a guide would sit on the front page.
+      datedFilename(a.id) - datedFilename(b.id) ||
+      // Then stable, so the home page does not reshuffle between builds.
+      a.id.localeCompare(b.id)
+  );
 }
 
 export const postUrl = (post: Post) => `/posts/${post.id}`;
