@@ -161,9 +161,22 @@ CDN에 의존하지 않습니다 — `npm run build` 가 알아서 처리합니�
 가 실려 오는 것으로 확인했습니다. NAS(nginx)에서는 같은 헤더를 `docker/nginx.conf`
 가 설정합니다.
 
-### 직접 배포
+### 배포는 GitHub Actions가 합니다
 
-Git push 자동 배포가 동작하지 않을 때는 토큰으로 직접 올릴 수 있습니다.
+`.github/workflows/deploy.yml` 이 이 브랜치로의 push마다 빌드하고 배포합니다.
+`/admin` 에서 저장한 글이 사이트에 나타나는 것도 이 경로입니다 — CMS가 커밋하면
+Actions가 배포합니다.
+
+필요한 것은 저장소 비밀값 하나입니다.
+
+> 저장소 → **Settings** → **Secrets and variables** → **Actions** →
+> **New repository secret** → 이름 `CLOUDFLARE_API_TOKEN`
+
+대시보드의 Git 빌드는 `wrangler` 로 직접 배포하기 시작한 뒤 더 이상 발동하지 않습니다
+(`last_deployed_from: wrangler`). 배포 경로를 Actions 한 곳으로 모아 두는 편이
+누가 push했든 동일하게 동작해서 낫습니다.
+
+수동 배포가 필요하면:
 
 ```bash
 npm run build

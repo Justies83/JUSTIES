@@ -1,0 +1,47 @@
+name: deploy
+
+# Every push to the site branch builds and deploys. This is what makes a post
+# saved in /admin actually appear: the CMS commits, this deploys.
+#
+# It replaces the dashboard's Git build, which stopped firing once deploys
+# started coming from wrangler. Keeping the deploy here means one place decides
+# how the site ships, whoever pushed — the editor, a scheduled run, or a person.
+#
+# Requires one repository secret:
+#   CLOUDFLARE_API_TOKEN   Settings → Secrets and variables → Actions
+
+on:
+  push:
+    branches:
+      - claude/personal-editable-homepage-31hofg
+      - main
+  workflow_dispatch:
+
+concurrency:
+  # A burst of edits should deploy the last one, not queue every one.
+  group: deploy
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      # Malformed front matter fails here rather than shipping a broken build.
+      - run: npx astro check
+
+      - run: npm run build
+
+      - name: Deploy to Cloudflare Workers
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: 7d84c5bb8d935299d1519b7e3937d5f0
+        run: npx wrangler deploy
