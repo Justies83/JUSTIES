@@ -11,16 +11,16 @@
 #   2. "Work with Local Repository" — `npm run dev`, then pick the repo folder.
 #      Edits land straight in src/content/posts/. No network, no GitHub.
 #      This is the mode to use on the NAS.
-#   3. "Sign In with GitHub" — one click instead of a pasted token, but it needs
-#      an OAuth App and the proxy Worker in worker/. Uncomment base_url and
-#      auth_endpoint below once that Worker is deployed.
+#   3. "Sign In with GitHub" — no token to carry between machines. Backed by the
+#      OAuth App and the proxy Worker in worker/, both deployed. Use this one on
+#      a new PC or phone.
 
 backend:
   name: github
   repo: Justies83/JUSTIES
   branch: claude/personal-editable-homepage-31hofg
-  # base_url: https://justies-cms-auth.justies.workers.dev
-  # auth_endpoint: auth
+  base_url: https://justies-cms-auth.justies.workers.dev
+  auth_endpoint: auth
 
 # Lets the sign-in screen offer the local-repository option during `npm run dev`.
 local_backend: true
