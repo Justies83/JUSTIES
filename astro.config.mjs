@@ -1,14 +1,20 @@
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 
-// The public address, resolved in order of how specific it is:
-//   1. SITE_URL      — set it once a custom domain exists, or on the NAS
-//   2. CF_PAGES_URL  — injected by Cloudflare Pages, so a fresh project needs
-//                      no configuration at all to get correct canonical URLs
-//   3. localhost      — development
-// Never hardcode an absolute URL anywhere else; canonical tags, RSS, the
-// sitemap and the social card all read from here.
-const site = process.env.SITE_URL || process.env.CF_PAGES_URL || 'http://localhost:4321';
+// Where the site is published. Change this line when a custom domain or the
+// NAS takes over; nothing else in the codebase holds an absolute URL.
+const PRODUCTION_URL = 'https://justies.justies.workers.dev';
+
+// Resolved in order of how specific the source is:
+//   1. SITE_URL      — explicit override (NAS, or any one-off build)
+//   2. CF_PAGES_URL  — injected by Cloudflare Pages. Workers Builds does NOT
+//                      set it, which is why a default below is required
+//   3. PRODUCTION_URL / localhost
+const isDev = process.env.npm_lifecycle_event === 'dev';
+const site =
+  process.env.SITE_URL ||
+  process.env.CF_PAGES_URL ||
+  (isDev ? 'http://localhost:4321' : PRODUCTION_URL);
 
 export default defineConfig({
   site,

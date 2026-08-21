@@ -1,0 +1,23 @@
+# Cloudflare Workers deployment for the site itself.
+#
+# The dashboard's "import a repository" flow creates a Worker with static
+# assets, not a Pages project, and runs `wrangler deploy` on every push. Without
+# this file that deploy takes platform defaults, and two of them are wrong here:
+#
+#   * html_handling defaulted to auto-trailing-slash, so every internal link
+#     (which carries no trailing slash) cost a 307 redirect.
+#   * not_found_handling defaulted to none, so a bad URL returned a bare 404
+#     instead of the site's own 404 page.
+#
+# `name` must keep matching the existing Worker, or a deploy creates a second
+# one at a different address.
+
+name = "justies"
+compatibility_date = "2026-08-01"
+workers_dev = true
+preview_urls = true
+
+[assets]
+directory = "./dist"
+html_handling = "drop-trailing-slash"
+not_found_handling = "404-page"

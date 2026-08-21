@@ -104,24 +104,32 @@ CDN에 의존하지 않습니다 — `npm run build` 가 알아서 처리합니�
 
 ## 배포
 
-주소는 한 곳에서만 결정됩니다 (`astro.config.mjs`). 코드에 절대 URL은 없습니다.
+주소는 `astro.config.mjs` 의 `PRODUCTION_URL` 한 줄에서 결정됩니다.
+코드의 다른 어디에도 절대 URL은 없습니다.
 
-1. `SITE_URL` — 직접 지정. 커스텀 도메인이나 NAS에서 사용
-2. `CF_PAGES_URL` — Cloudflare Pages가 빌드에 자동으로 넣어 주는 값
-3. `http://localhost:4321` — 개발
+1. `SITE_URL` 환경변수 — 있으면 최우선 (NAS, 일회성 빌드)
+2. `CF_PAGES_URL` — Cloudflare **Pages** 가 자동으로 넣는 값. Workers 배포에는 없음
+3. `PRODUCTION_URL` (빌드) / `http://localhost:4321` (`npm run dev`)
 
-### Cloudflare Pages (현재)
+### Cloudflare Workers (현재)
+
+**https://justies.justies.workers.dev**
+
+대시보드의 저장소 가져오기 흐름은 Pages 프로젝트가 아니라 **정적 자산을 가진 Worker**
+를 만들고, push마다 `wrangler deploy` 를 실행합니다. 배포 설정은 저장소 루트의
+`wrangler.toml` 에 있습니다 — 후행 슬래시 처리와 404 페이지가 여기서 정해집니다.
 
 | 항목 | 값 |
 | --- | --- |
-| Framework preset | Astro |
 | Build command | `npm run build` |
-| Output directory | `dist` |
-| 환경변수 | **없음** — `CF_PAGES_URL` 로 주소가 자동 결정됩니다 |
+| Deploy command | `npx wrangler deploy` |
+| 환경변수 | 없음 |
 
-GitHub에 push하면 자동으로 다시 빌드됩니다.
-커스텀 도메인을 연결한 뒤에는 `SITE_URL` 을 그 도메인으로 넣어 주세요 — 그때부터
-canonical 주소가 `pages.dev` 대신 도메인이 됩니다.
+커스텀 도메인을 연결하면 `astro.config.mjs` 의 `PRODUCTION_URL` 을 그 도메인으로
+바꿔 주세요. 그때부터 canonical 주소와 공유 카드가 도메인을 가리킵니다.
+
+`public/_headers` 는 Pages 전용 기능이라 Workers 배포에서는 적용되지 않습니다.
+NAS(nginx)에서는 같은 헤더를 `docker/nginx.conf` 가 직접 설정합니다.
 
 ### NAS (이식)
 
@@ -141,14 +149,14 @@ Cloudflare Zero Trust에서 만든 터널 토큰을 `.env` 에 넣으면 **공�
 - 글은 마크다운 파일. 외부 CMS·DB에 데이터를 두지 않습니다.
 - 검색은 빌드 시 만든 정적 JSON 색인. 검색 서비스에 의존하지 않습니다.
 - 이미지는 저장소 안에. 외부 이미지 CDN을 쓰지 않습니다.
-- 주소는 `SITE_URL` 한 곳에서만 결정됩니다.
+- 주소는 `astro.config.mjs` 한 곳에서만 결정됩니다.
 - 런타임은 정적 파일 서버. 필요해지면 `@astrojs/node` 어댑터로 SSR 전환이 가능합니다.
 
 ## 남은 수작업
 
 코드는 준비돼 있고, 아래는 계정 권한이 필요해 대시보드에서 직접 해야 하는 일입니다.
 
-- [ ] Cloudflare Pages 프로젝트 생성 (위 표 — 환경변수 설정 불필요)
+- [x] Cloudflare 배포 — https://justies.justies.workers.dev
 - [ ] GitHub 토큰 발급 → `/admin` 로그인
 - [ ] 이전 두 사이트(field-notes-atelier, dr-park-blog)의 글 이관
 
