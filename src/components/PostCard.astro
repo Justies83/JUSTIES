@@ -1,0 +1,32 @@
+---
+import { categoryOf, kindOf } from '../data/taxonomy';
+import { formatDate, postUrl, type Post } from '../lib/posts';
+
+interface Props { post: Post; lead?: boolean; }
+const { post, lead = false } = Astro.props;
+const category = categoryOf(post.data.category);
+const kind = kindOf(post.data.kind);
+---
+
+<a class:list={['card', 'reveal', { 'card-lead': lead }]} href={postUrl(post)}>
+  {post.data.cover ? (
+    <div class="card-cover">
+      <img src={post.data.cover} alt={post.data.coverAlt} loading="lazy" decoding="async" />
+    </div>
+  ) : lead ? (
+    <div class="card-seal" aria-hidden="true">
+      <span>{category?.glyph}</span>
+      <small>{category?.en} / {kind?.en}</small>
+    </div>
+  ) : null}
+  <div class="card-meta">
+    <span class="pill">{category?.label}</span>
+    <span class="pill pill--kind">{kind?.label}</span>
+  </div>
+  <h3>{post.data.title}</h3>
+  <p>{post.data.takeaway}</p>
+  <footer class="mono">
+    <span>{formatDate(post.data.date)}</span>
+    {post.data.source && <span>· {post.data.source.name}</span>}
+  </footer>
+</a>

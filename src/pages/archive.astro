@@ -1,0 +1,57 @@
+---
+import Base from '../layouts/Base.astro';
+import PostRow from '../components/PostRow.astro';
+import SectionHead from '../components/SectionHead.astro';
+import { CATEGORIES, KINDS } from '../data/taxonomy';
+import { collectTags, getPublishedPosts } from '../lib/posts';
+
+const posts = await getPublishedPosts();
+const tags = collectTags(posts).slice(0, 18);
+---
+
+<Base title="기록" description="발행한 모든 기록을 최신순으로 모았습니다.">
+  <div class="shell">
+    <section class="section">
+      <SectionHead
+        number="—"
+        eyebrow="THE ARCHIVE"
+        title="모든 기록."
+        note={`${posts.length}개의 기록. 주제 또는 형식으로 좁혀 볼 수 있습니다.`}
+      />
+
+      <nav class="filters" aria-label="주제로 좁히기">
+        <a class="chip" href="/archive" aria-current="true">전체</a>
+        {CATEGORIES.map((c) => (
+          <a class="chip" href={`/topics/${c.id}`}>{c.label}</a>
+        ))}
+      </nav>
+      <nav class="filters" aria-label="형식으로 좁히기">
+        {KINDS.map((k) => (
+          <a class="chip" href={`/kinds/${k.id}`}>{k.label}</a>
+        ))}
+      </nav>
+
+      {posts.length > 0 ? (
+        <div class="rows">
+          {posts.map((post, i) => <PostRow post={post} index={i} />)}
+        </div>
+      ) : (
+        <div class="empty">
+          <strong>아직 기록이 없습니다.</strong>
+          <p style="margin:0"><code>src/content/posts/</code> 에 마크다운 파일을 추가해 주세요.</p>
+        </div>
+      )}
+
+      {tags.length > 0 && (
+        <div style="margin-top:2.5rem">
+          <p class="mono">TAGS</p>
+          <div class="tag-flow">
+            {tags.map(({ tag, count }) => (
+              <a class="tag" href={`/tags/${encodeURIComponent(tag)}`}>#{tag} {count}</a>
+            ))}
+          </div>
+        </div>
+      )}
+    </section>
+  </div>
+</Base>

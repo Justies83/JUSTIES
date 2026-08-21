@@ -1,0 +1,48 @@
+---
+import type { GetStaticPaths } from 'astro';
+import Base from '../../layouts/Base.astro';
+import PostRow from '../../components/PostRow.astro';
+import SectionHead from '../../components/SectionHead.astro';
+import { CATEGORIES, categoryOf } from '../../data/taxonomy';
+import { getPublishedPosts } from '../../lib/posts';
+
+export const getStaticPaths: GetStaticPaths = () =>
+  CATEGORIES.map((c) => ({ params: { category: c.id } }));
+
+const { category } = Astro.params;
+const meta = categoryOf(String(category));
+if (!meta) return Astro.rewrite('/404');
+
+const posts = (await getPublishedPosts()).filter((p) => p.data.category === meta.id);
+---
+
+<Base title={meta.label} description={`${meta.label} — ${meta.blurb}`}>
+  <div class="shell">
+    <section class="section">
+      <SectionHead
+        number={meta.glyph}
+        eyebrow={`TOPIC · ${meta.en}`}
+        title={`${meta.label}.`}
+        note={meta.blurb}
+        linkHref="/topics"
+        linkLabel="다른 주제 보기"
+      />
+      <nav class="filters" aria-label="주제 이동">
+        <a class="chip" href="/archive">전체</a>
+        {CATEGORIES.map((c) => (
+          <a class="chip" href={`/topics/${c.id}`} aria-current={c.id === meta.id ? 'true' : undefined}>
+            {c.label}
+          </a>
+        ))}
+      </nav>
+      {posts.length > 0 ? (
+        <div class="rows">{posts.map((post, i) => <PostRow post={post} index={i} />)}</div>
+      ) : (
+        <div class="empty">
+          <strong>이 주제의 기록이 아직 없습니다.</strong>
+          <p style="margin:0">글의 <code>category</code> 를 <code>{meta.id}</code> 로 지정하면 여기에 모입니다.</p>
+        </div>
+      )}
+    </section>
+  </div>
+</Base>

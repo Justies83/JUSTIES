@@ -1,0 +1,23 @@
+# Local: docker compose up --build       -> http://localhost:8080
+# NAS:   set SITE_URL to the public address, then rebuild.
+services:
+  site:
+    build:
+      context: .
+      args:
+        SITE_URL: ${SITE_URL:-http://localhost:8080}
+    image: justies-archive:latest
+    container_name: justies-archive
+    ports:
+      - "${PORT:-8080}:80"
+    restart: unless-stopped
+
+  # Uncomment on the NAS to publish without opening a router port.
+  # Create the tunnel in the Cloudflare Zero Trust dashboard, point its
+  # public hostname at http://site:80, and put the token in .env.
+  # tunnel:
+  #   image: cloudflare/cloudflared:latest
+  #   container_name: justies-tunnel
+  #   command: tunnel --no-autoupdate run --token ${CLOUDFLARE_TUNNEL_TOKEN}
+  #   depends_on: [site]
+  #   restart: unless-stopped

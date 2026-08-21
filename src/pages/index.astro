@@ -1,0 +1,148 @@
+---
+import Base from '../layouts/Base.astro';
+import PostCard from '../components/PostCard.astro';
+import PostRow from '../components/PostRow.astro';
+import SectionHead from '../components/SectionHead.astro';
+import { site } from '../data/site';
+import { CATEGORIES, KINDS } from '../data/taxonomy';
+import { getPublishedPosts } from '../lib/posts';
+
+const posts = await getPublishedPosts();
+const featured = posts.filter((p) => p.data.featured).slice(0, 3);
+const lead = featured[0] ?? posts[0];
+const secondary = (featured.length > 1 ? featured.slice(1) : posts.slice(1, 3)).filter(Boolean);
+const recent = posts.filter((p) => p.id !== lead?.id).slice(0, 6);
+const countByKind = (id: string) => posts.filter((p) => p.data.kind === id).length;
+const countByCategory = (id: string) => posts.filter((p) => p.data.category === id).length;
+---
+
+<Base>
+  <section class="shell hero">
+    <div>
+      <p class="eyebrow hero-eyebrow">{site.seal} <b>— {site.now.updated}</b></p>
+      <h1>질문을 모으고,<br /><i>생각을</i> 남깁니다.</h1>
+      <p class="hero-summary">{site.description}</p>
+      <div class="hero-actions">
+        <a class="ink-button" href="/archive">새 글 보기 <span aria-hidden="true">→</span></a>
+        <a class="plain-link" href="/topics">주제별로 살펴보기</a>
+      </div>
+    </div>
+
+    <aside class="hero-panel reveal" aria-label="아카이브 개요">
+      <div class="hero-panel-head">
+        <p class="mono" style="margin:0">FIELD DOSSIER</p>
+        <p class="mono" style="margin:0">{site.now.updated}</p>
+      </div>
+      <div class="hero-counts">
+        {KINDS.map((kind) => (
+          <a href={`/kinds/${kind.id}`}>
+            <strong>{String(countByKind(kind.id)).padStart(2, '0')}</strong>
+            <small>{kind.en}</small>
+            <span style="font-size:.78rem;color:var(--soft)">{kind.blurb}</span>
+          </a>
+        ))}
+      </div>
+      <hr class="rule" />
+      <p style="margin:0;font-size:.86rem;color:var(--soft)">
+        기록은 <b>무엇에 대한 글인지</b>(주제)와 <b>어떤 형식인지</b>(뉴스 · 의견 · 정보)로 함께 분류합니다.
+      </p>
+    </aside>
+  </section>
+
+  <div class="shell">
+    <section class="principles">
+      <p class="principles-lead">A quiet place for<br /><em>evidence &amp; curiosity.</em></p>
+      {site.principles.map((text, i) => (
+        <div class="principle">
+          <span>{String(i + 1).padStart(2, '0')}</span>
+          <p>{text}</p>
+        </div>
+      ))}
+    </section>
+  </div>
+
+  <div class="shell">
+    <section class="section" id="featured">
+      <SectionHead
+        number="01"
+        eyebrow="FEATURED"
+        title="먼저 읽어 볼 글."
+        linkHref="/archive"
+        linkLabel="전체 기록 보기"
+      />
+      {lead ? (
+        <div class="bento">
+          <PostCard post={lead} lead />
+          {secondary.map((post) => <PostCard post={post} />)}
+        </div>
+      ) : (
+        <div class="empty">
+          <strong>첫 기록을 기다리고 있습니다.</strong>
+          <p style="margin:0">
+            <code>src/content/posts/</code> 에 마크다운 파일을 추가하면 이 자리에 바로 나타납니다.
+          </p>
+        </div>
+      )}
+    </section>
+
+    <section class="section" id="recent">
+      <SectionHead
+        number="02"
+        eyebrow="NEW POSTS"
+        title="새로운 글."
+        note="가장 최근의 기록부터 보여 줍니다. 분류를 누르면 해당 묶음만 모아 볼 수 있습니다."
+      />
+      <nav class="filters" aria-label="분류 이동">
+        <a class="chip" href="/archive" aria-current="true">전체 {posts.length}</a>
+        {KINDS.map((kind) => (
+          <a class="chip" href={`/kinds/${kind.id}`}>{kind.label} {countByKind(kind.id)}</a>
+        ))}
+      </nav>
+      {recent.length > 0 ? (
+        <div class="rows">
+          {recent.map((post, i) => <PostRow post={post} index={i} />)}
+        </div>
+      ) : (
+        <div class="empty"><strong>아직 글이 없습니다.</strong></div>
+      )}
+    </section>
+
+    <section class="section" id="topics">
+      <SectionHead
+        number="03"
+        eyebrow="EXPLORE TOPICS"
+        title="주제별로 읽기."
+        note="관심 있는 분야를 누르면 해당 주제의 기록을 모아 볼 수 있습니다."
+      />
+      <div class="topics-grid">
+        {CATEGORIES.map((category) => (
+          <a class="topic reveal" href={`/topics/${category.id}`}>
+            <span class="topic-glyph" aria-hidden="true">{category.glyph}</span>
+            <small>{category.en} · {String(countByCategory(category.id)).padStart(2, '0')}</small>
+            <strong>{category.label}</strong>
+            <span>{category.blurb}</span>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <section class="section now" id="now">
+      <div>
+        <p class="mono">04 <span>RIGHT NOW</span></p>
+        <h2>지금, 무엇을<br /><em>관찰하고 있나.</em></h2>
+        <p class="section-note" style="margin-top:1rem">
+          완결된 글이 되기 전의 생각들. 매달 짧게 갱신합니다. ({site.now.updated} 기준)
+        </p>
+      </div>
+      <div class="now-list">
+        {site.now.items.map((item, i) => (
+          <div>
+            <span>{String(i + 1).padStart(2, '0')}</span>
+            <b>{item.verb}</b>
+            <i>{item.text}</i>
+          </div>
+        ))}
+      </div>
+    </section>
+  </div>
+</Base>

@@ -1,0 +1,219 @@
+---
+import '../styles/global.css';
+import { site } from '../data/site';
+
+interface Props {
+  title?: string;
+  description?: string;
+  /** Absolute or root-relative path to a social image. */
+  image?: string;
+  type?: 'website' | 'article';
+}
+
+const { title, description = site.description, image, type = 'website' } = Astro.props;
+const pageTitle = title ? `${title} — ${site.title}` : `${site.title} — 개인 아카이브`;
+const canonical = new URL(Astro.url.pathname, Astro.site ?? Astro.url).href;
+const ogImage = image ? new URL(image, Astro.site ?? Astro.url).href : undefined;
+const path = Astro.url.pathname.replace(/\/$/, '') || '/';
+---
+
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+    <meta name="keywords" content={site.keywords.join(', ')} />
+    <meta name="author" content={site.author} />
+    <link rel="canonical" href={canonical} />
+    <meta name="theme-color" content="#f4f1ea" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#171a18" media="(prefers-color-scheme: dark)" />
+
+    <meta property="og:site_name" content={site.title} />
+    <meta property="og:type" content={type} />
+    <meta property="og:title" content={title ?? site.title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    {ogImage && <meta property="og:image" content={ogImage} />}
+    <meta name="twitter:card" content={ogImage ? 'summary_large_image' : 'summary'} />
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="alternate" type="application/rss+xml" title={site.title} href="/rss.xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Applied before first paint so the theme never flashes. -->
+    <script is:inline>
+      (() => {
+        try {
+          const saved = localStorage.getItem('justies-theme');
+          const dark = saved ? saved === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+          if (dark) document.documentElement.dataset.theme = 'dark';
+        } catch {}
+      })();
+    </script>
+  </head>
+
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label={`${site.title} 홈으로`}>
+        <span class="brand-mark" aria-hidden="true">제</span>
+        <span class="brand-type">
+          <em>{site.title}</em>
+          <span>{site.seal}</span>
+        </span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="주요 메뉴">
+        {site.nav.map((item) => (
+          <a href={item.href} aria-current={path === item.href ? 'page' : undefined}>{item.label}</a>
+        ))}
+      </nav>
+
+      <div class="header-tools">
+        <button class="icon-button" data-search-open aria-label="기록 검색 열기">
+          <span aria-hidden="true">⌕</span><span>검색</span><kbd>⌘K</kbd>
+        </button>
+        <button class="icon-button" data-theme-toggle aria-label="밝은 화면과 어두운 화면 전환">
+          <span data-theme-icon aria-hidden="true">◐</span>
+        </button>
+      </div>
+    </header>
+
+    <main id="main">
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <span class="mono">{site.shortTitle} ARCHIVE</span>
+        <p style="margin:0">Research · Science · World · Finance · Tech · Life</p>
+      </div>
+      <div>
+        <a class="plain-link" href="/rss.xml">RSS</a>
+        <span aria-hidden="true"> · </span>
+        <a class="plain-link" href="/about">소개</a>
+      </div>
+      <span class="mono">EST. {site.established}</span>
+    </footer>
+
+    <nav class="mobile-dock" aria-label="빠른 탐색">
+      <a href="/archive"><i aria-hidden="true">▤</i><span>기록</span></a>
+      <button data-search-open><i aria-hidden="true">⌕</i><span>검색</span></button>
+      <a href="/topics"><i aria-hidden="true">✦</i><span>주제</span></a>
+      <a href="/about"><i aria-hidden="true">▣</i><span>소개</span></a>
+    </nav>
+
+    <div class="search-layer" id="search-layer" role="dialog" aria-modal="true" aria-label="기록 검색">
+      <div class="search-panel">
+        <div class="search-field">
+          <span aria-hidden="true">⌕</span>
+          <input id="search-input" type="search" placeholder="무엇을 찾고 있나요?" autocomplete="off" />
+          <button class="icon-button" data-search-close>ESC</button>
+        </div>
+        <p class="mono" style="margin:0" id="search-status">기록을 불러오는 중…</p>
+        <div class="search-results" id="search-results"></div>
+      </div>
+    </div>
+
+    <script>
+      // Theme toggle -------------------------------------------------------
+      const root = document.documentElement;
+      const icon = document.querySelector('[data-theme-icon]');
+      const paintIcon = () => {
+        if (icon) icon.textContent = root.dataset.theme === 'dark' ? '☀' : '◐';
+      };
+      paintIcon();
+      document.querySelector('[data-theme-toggle]')?.addEventListener('click', () => {
+        const next = root.dataset.theme === 'dark' ? 'light' : 'dark';
+        if (next === 'dark') root.dataset.theme = 'dark';
+        else delete root.dataset.theme;
+        try { localStorage.setItem('justies-theme', next); } catch {}
+        paintIcon();
+      });
+
+      // Search -------------------------------------------------------------
+      type Entry = {
+        title: string; takeaway: string; url: string;
+        category: string; kind: string; tags: string[]; date: string; text: string;
+      };
+      const layer = document.getElementById('search-layer') as HTMLElement | null;
+      const input = document.getElementById('search-input') as HTMLInputElement | null;
+      const results = document.getElementById('search-results');
+      const status = document.getElementById('search-status');
+      let index: Entry[] | null = null;
+      let loading = false;
+
+      async function ensureIndex() {
+        if (index || loading) return;
+        loading = true;
+        try {
+          const res = await fetch('/search-index.json');
+          index = (await res.json()) as Entry[];
+          if (status) status.textContent = `${index.length}개의 기록`;
+        } catch {
+          if (status) status.textContent = '검색 색인을 불러오지 못했습니다.';
+        } finally {
+          loading = false;
+        }
+      }
+
+      function render(query: string) {
+        if (!results || !index) return;
+        const q = query.trim().toLowerCase();
+        const hits = q
+          ? index.filter((e) => e.text.includes(q)).slice(0, 12)
+          : index.slice(0, 8);
+        if (status) {
+          status.textContent = q
+            ? `${hits.length}개의 결과`
+            : `${index.length}개의 기록 · 최근 순`;
+        }
+        results.innerHTML = hits.length
+          ? hits
+              .map(
+                (e) => `<a href="${e.url}"><strong>${e.title}</strong><span>${e.category} · ${e.kind} · ${e.date}</span></a>`
+              )
+              .join('')
+          : '<p class="mono" style="padding:.6rem .5rem">일치하는 기록이 없습니다.</p>';
+      }
+
+      function openSearch() {
+        if (!layer) return;
+        layer.setAttribute('open', '');
+        ensureIndex().then(() => render(input?.value ?? ''));
+        input?.focus();
+      }
+      function closeSearch() {
+        layer?.removeAttribute('open');
+      }
+
+      document.querySelectorAll('[data-search-open]').forEach((b) => b.addEventListener('click', openSearch));
+      document.querySelectorAll('[data-search-close]').forEach((b) => b.addEventListener('click', closeSearch));
+      layer?.addEventListener('click', (e) => { if (e.target === layer) closeSearch(); });
+      input?.addEventListener('input', () => render(input.value));
+      document.addEventListener('keydown', (e) => {
+        if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') { e.preventDefault(); openSearch(); }
+        if (e.key === 'Escape') closeSearch();
+      });
+
+      // Scroll reveal ------------------------------------------------------
+      const targets = document.querySelectorAll('.reveal');
+      if (targets.length && 'IntersectionObserver' in window) {
+        const io = new IntersectionObserver(
+          (entries) => entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('is-visible');
+              io.unobserve(entry.target);
+            }
+          }),
+          { rootMargin: '0px 0px -8% 0px' }
+        );
+        targets.forEach((t) => io.observe(t));
+      } else {
+        targets.forEach((t) => t.classList.add('is-visible'));
+      }
+    </script>
+  </body>
+</html>

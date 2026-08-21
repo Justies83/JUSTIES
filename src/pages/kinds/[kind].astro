@@ -1,0 +1,44 @@
+---
+import type { GetStaticPaths } from 'astro';
+import Base from '../../layouts/Base.astro';
+import PostRow from '../../components/PostRow.astro';
+import SectionHead from '../../components/SectionHead.astro';
+import { KINDS, kindOf } from '../../data/taxonomy';
+import { getPublishedPosts } from '../../lib/posts';
+
+export const getStaticPaths: GetStaticPaths = () => KINDS.map((k) => ({ params: { kind: k.id } }));
+
+const { kind } = Astro.params;
+const meta = kindOf(String(kind));
+if (!meta) return Astro.rewrite('/404');
+
+const posts = (await getPublishedPosts()).filter((p) => p.data.kind === meta.id);
+---
+
+<Base title={meta.label} description={`${meta.label} — ${meta.blurb}`}>
+  <div class="shell">
+    <section class="section">
+      <SectionHead
+        number="—"
+        eyebrow={`KIND · ${meta.en}`}
+        title={`${meta.label}.`}
+        note={meta.blurb}
+        linkHref="/archive"
+        linkLabel="전체 기록 보기"
+      />
+      <nav class="filters" aria-label="형식 이동">
+        <a class="chip" href="/archive">전체</a>
+        {KINDS.map((k) => (
+          <a class="chip" href={`/kinds/${k.id}`} aria-current={k.id === meta.id ? 'true' : undefined}>
+            {k.label}
+          </a>
+        ))}
+      </nav>
+      {posts.length > 0 ? (
+        <div class="rows">{posts.map((post, i) => <PostRow post={post} index={i} />)}</div>
+      ) : (
+        <div class="empty"><strong>이 형식의 기록이 아직 없습니다.</strong></div>
+      )}
+    </section>
+  </div>
+</Base>
