@@ -104,7 +104,11 @@ CDN에 의존하지 않습니다 — `npm run build` 가 알아서 처리합니�
 
 ## 배포
 
-주소는 `SITE_URL` 환경변수 하나로만 결정됩니다. 코드에 절대 URL은 없습니다.
+주소는 한 곳에서만 결정됩니다 (`astro.config.mjs`). 코드에 절대 URL은 없습니다.
+
+1. `SITE_URL` — 직접 지정. 커스텀 도메인이나 NAS에서 사용
+2. `CF_PAGES_URL` — Cloudflare Pages가 빌드에 자동으로 넣어 주는 값
+3. `http://localhost:4321` — 개발
 
 ### Cloudflare Pages (현재)
 
@@ -113,9 +117,11 @@ CDN에 의존하지 않습니다 — `npm run build` 가 알아서 처리합니�
 | Framework preset | Astro |
 | Build command | `npm run build` |
 | Output directory | `dist` |
-| 환경변수 | `SITE_URL` = 배포 주소 (예: `https://justies.pages.dev`) |
+| 환경변수 | **없음** — `CF_PAGES_URL` 로 주소가 자동 결정됩니다 |
 
 GitHub에 push하면 자동으로 다시 빌드됩니다.
+커스텀 도메인을 연결한 뒤에는 `SITE_URL` 을 그 도메인으로 넣어 주세요 — 그때부터
+canonical 주소가 `pages.dev` 대신 도메인이 됩니다.
 
 ### NAS (이식)
 
@@ -142,7 +148,7 @@ Cloudflare Zero Trust에서 만든 터널 토큰을 `.env` 에 넣으면 **공�
 
 코드는 준비돼 있고, 아래는 계정 권한이 필요해 대시보드에서 직접 해야 하는 일입니다.
 
-- [ ] Cloudflare Pages 프로젝트 생성 및 `SITE_URL` 설정 (위 표)
+- [ ] Cloudflare Pages 프로젝트 생성 (위 표 — 환경변수 설정 불필요)
 - [ ] GitHub 토큰 발급 → `/admin` 로그인
 - [ ] 이전 두 사이트(field-notes-atelier, dr-park-blog)의 글 이관
 

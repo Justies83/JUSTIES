@@ -1,13 +1,14 @@
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 
-// SITE_URL is the single knob that follows the site across hosts:
-//   Cloudflare Pages -> https://<project>.pages.dev
-//   custom domain    -> https://example.com
-//   NAS (tunnel/LAN) -> https://notes.example.com or http://nas.local:8080
-// Never hardcode an absolute URL anywhere else; canonical tags, RSS and
-// OG images all read from here.
-const site = process.env.SITE_URL || 'http://localhost:4321';
+// The public address, resolved in order of how specific it is:
+//   1. SITE_URL      — set it once a custom domain exists, or on the NAS
+//   2. CF_PAGES_URL  — injected by Cloudflare Pages, so a fresh project needs
+//                      no configuration at all to get correct canonical URLs
+//   3. localhost      — development
+// Never hardcode an absolute URL anywhere else; canonical tags, RSS, the
+// sitemap and the social card all read from here.
+const site = process.env.SITE_URL || process.env.CF_PAGES_URL || 'http://localhost:4321';
 
 export default defineConfig({
   site,
