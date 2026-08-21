@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+  
+  <text x="74" y="44" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">KOSPI / KOSDAQ · 2026.08.18–21</text>
+  <text x="74" y="70" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">사흘 만에 되돌린 지수</text>
+
+  <line x1="74" y1="82" x2="74" y2="454" stroke="rgba(32,35,31,.16)" stroke-dasharray="2 5"/><line x1="324.66666666666663" y1="82" x2="324.66666666666663" y2="454" stroke="rgba(32,35,31,.16)" stroke-dasharray="2 5"/><line x1="575.3333333333333" y1="82" x2="575.3333333333333" y2="454" stroke="rgba(32,35,31,.16)" stroke-dasharray="2 5"/><line x1="826" y1="82" x2="826" y2="454" stroke="rgba(32,35,31,.16)" stroke-dasharray="2 5"/>
+  <text x="74" y="480" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="16" fill="#62655d">8/18</text><text x="324.66666666666663" y="480" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="16" fill="#62655d">8/19</text><text x="575.3333333333333" y="480" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="16" fill="#62655d">8/20</text><text x="826" y="480" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="16" fill="#62655d">8/21</text>
+
+  <path d="M74 93.52955868028715 L324.66666666666663 446 L575.3333333333333 92 L826 122.58233222607964" fill="none" stroke="#16756a" stroke-width="2.6"/>
+  <path d="M74 156.84712704269845 L324.66666666666663 247.72641012124376 L575.3333333333333 92 L826 446" fill="none" stroke="#e0795b" stroke-width="2.6" stroke-dasharray="7 5"/>
+  <circle cx="74" cy="93.52955868028715" r="4.5" fill="#f4f1ea" stroke="#16756a" stroke-width="2.5"/><circle cx="324.66666666666663" cy="446" r="4.5" fill="#f4f1ea" stroke="#16756a" stroke-width="2.5"/><circle cx="575.3333333333333" cy="92" r="4.5" fill="#f4f1ea" stroke="#16756a" stroke-width="2.5"/><circle cx="826" cy="122.58233222607964" r="4.5" fill="#f4f1ea" stroke="#16756a" stroke-width="2.5"/><circle cx="74" cy="156.84712704269845" r="4.5" fill="#f4f1ea" stroke="#e0795b" stroke-width="2.5"/><circle cx="324.66666666666663" cy="247.72641012124376" r="4.5" fill="#f4f1ea" stroke="#e0795b" stroke-width="2.5"/><circle cx="575.3333333333333" cy="92" r="4.5" fill="#f4f1ea" stroke="#e0795b" stroke-width="2.5"/><circle cx="826" cy="446" r="4.5" fill="#f4f1ea" stroke="#e0795b" stroke-width="2.5"/>
+  <text x="74" y="77.52955868028715" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#16756a">6,869.83</text><text x="324.66666666666663" y="430" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#16756a">6,471.17</text><text x="575.3333333333333" y="76" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#16756a">6,871.56</text><text x="826" y="106.58233222607964" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#16756a">6,836.97</text><text x="74" y="182.84712704269845" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#e0795b">834.2</text><text x="324.66666666666663" y="273.72641012124376" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#e0795b">824.46</text><text x="575.3333333333333" y="118" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#e0795b">841.15</text><text x="826" y="472" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#e0795b">803.21</text>
+
+  <g font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15">
+    <rect x="658" y="36" width="12" height="3" fill="#16756a"/>
+    <text x="678" y="42" fill="#62655d">KOSPI</text>
+    <rect x="658" y="60" width="12" height="3" fill="#e0795b"/>
+    <text x="678" y="66" fill="#62655d">KOSDAQ</text>
+  </g>
+
+  <text x="74" y="496" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">8/20 · 8/21 은 장중 수치 (종가 아님) — 두 지수의 축은 서로 다름</text>
+</svg>

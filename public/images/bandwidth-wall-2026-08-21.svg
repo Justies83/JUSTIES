@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+  
+  <text x="84" y="44" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">THE BANDWIDTH WALL</text>
+  <text x="84" y="72" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">연산은 2년에 3배, 연결은 1.4배 — 벌어지는 격차</text>
+
+  <text x="84" y="476" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="16" fill="#62655d">+0년</text><text x="324" y="476" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="16" fill="#62655d">+2년</text><text x="564" y="476" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="16" fill="#62655d">+4년</text><text x="804" y="476" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="16" fill="#62655d">+6년</text>
+  <line x1="84" y1="442" x2="804" y2="442" stroke="rgba(32,35,31,.16)"/>
+
+  <path d="M804 96 L804 336.0305009585507" stroke="#20231f" stroke-width="1.5" stroke-dasharray="3 4" opacity=".5"/>
+  <path d="M84 442 L324 326.6666666666667 L564 211.33333333333331 L804 96" fill="none" stroke="#16756a" stroke-width="2.8"/>
+  <path d="M84 442 L324 406.67683365285023 L564 371.35366730570047 L804 336.0305009585507" fill="none" stroke="#e0795b" stroke-width="2.8" stroke-dasharray="7 5"/>
+
+  <circle cx="84" cy="442" r="4.5" fill="#f4f1ea" stroke="#16756a" stroke-width="2.5"/><circle cx="324" cy="326.6666666666667" r="4.5" fill="#f4f1ea" stroke="#16756a" stroke-width="2.5"/><circle cx="564" cy="211.33333333333331" r="4.5" fill="#f4f1ea" stroke="#16756a" stroke-width="2.5"/><circle cx="804" cy="96" r="4.5" fill="#f4f1ea" stroke="#16756a" stroke-width="2.5"/>
+  <circle cx="84" cy="442" r="4.5" fill="#f4f1ea" stroke="#e0795b" stroke-width="2.5"/><circle cx="324" cy="406.67683365285023" r="4.5" fill="#f4f1ea" stroke="#e0795b" stroke-width="2.5"/><circle cx="564" cy="371.35366730570047" r="4.5" fill="#f4f1ea" stroke="#e0795b" stroke-width="2.5"/><circle cx="804" cy="336.0305009585507" r="4.5" fill="#f4f1ea" stroke="#e0795b" stroke-width="2.5"/>
+
+  <text x="816" y="102" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#16756a">연산 ×27</text>
+  <text x="816" y="342.0305009585507" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#e0795b">연결 ×2.7</text>
+
+  <text x="84" y="496" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">로그 축 · 증가율(2년당 3배 / 1.4배)을 1에서 출발시켜 계산한 상대값</text>
+</svg>
