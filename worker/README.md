@@ -13,7 +13,7 @@
 | 항목 | 값 |
 | --- | --- |
 | Application name | `JUSTIES CMS` |
-| Homepage URL | `https://justies.justies.workers.dev` |
+| Homepage URL | `https://justies.net` |
 | Authorization callback URL | `https://justies-cms-auth.justies.workers.dev/callback` |
 
 만든 뒤 **Client ID**를 복사하고, **Generate a new client secret** 으로 secret을 만들어 둡니다.

@@ -3,7 +3,7 @@ import sitemap from '@astrojs/sitemap';
 
 // Where the site is published. Change this line when a custom domain or the
 // NAS takes over; nothing else in the codebase holds an absolute URL.
-const PRODUCTION_URL = 'https://justies.justies.workers.dev';
+const PRODUCTION_URL = 'https://justies.net';
 
 // Resolved in order of how specific the source is:
 //   1. SITE_URL      — explicit override (NAS, or any one-off build)

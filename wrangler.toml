@@ -28,5 +28,13 @@ not_found_handling = "404-page"
 # touches that traffic. Keep this in step with PROTECTED in gate/index.js.
 run_worker_first = ["/admin", "/admin/*", "/private", "/private/*"]
 
+# The custom domain. Cloudflare creates the DNS record and the certificate from
+# this route, so the domain only has to sit in the same account — nothing needs
+# to be clicked in the dashboard. workers.dev stays alive alongside it, which is
+# what keeps the old address working while search engines pick up the new one.
+[[routes]]
+pattern = "justies.net"
+custom_domain = true
+
 # ADMIN_PASSWORD is NOT stored here.
 #   npx wrangler secret put ADMIN_PASSWORD

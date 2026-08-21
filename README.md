@@ -179,7 +179,14 @@ CDN에 의존하지 않습니다 — `npm run build` 가 알아서 처리합니�
 
 ### Cloudflare Workers (현재)
 
-**https://justies.justies.workers.dev**
+**https://justies.net** (`justies.justies.workers.dev` 도 계속 살아 있습니다)
+
+도메인은 루트 `wrangler.toml` 의 `[[routes]] custom_domain = true` 한 줄로 붙습니다.
+Cloudflare가 DNS 레코드와 인증서를 그 줄에서 직접 만들기 때문에 대시보드에서
+누를 것이 없습니다. 도메인을 바꿀 때 함께 고쳐야 하는 곳은 세 군데입니다 —
+`wrangler.toml` 의 route, `astro.config.mjs` 의 `PRODUCTION_URL`,
+그리고 `worker/wrangler.toml` 의 `ALLOWED_ORIGINS`. 마지막 하나를 빠뜨리면
+사이트는 열리지만 `/admin` 의 GitHub 로그인만 조용히 거부됩니다.
 
 Pages 대신 Workers를 쓰는 것이 현재 권장 경로입니다. Cloudflare는 정적 자산과 SSR을
 모두 Workers가 처리하게 되면서 **신규 프로젝트는 Workers로 시작할 것**을 권하고 있고,
@@ -200,8 +207,10 @@ Pages 대신 Workers를 쓰는 것이 현재 권장 경로입니다. Cloudflare�
 | Deploy command | `npx wrangler deploy` |
 | 환경변수 | 없음 |
 
-커스텀 도메인을 연결하면 `astro.config.mjs` 의 `PRODUCTION_URL` 을 그 도메인으로
-바꿔 주세요. 그때부터 canonical 주소와 공유 카드가 도메인을 가리킵니다.
+`www.justies.net` 은 연결돼 있지 않습니다. 붙이려면 대시보드에서 Redirect Rule
+하나(www → apex)를 만들어야 하고, 이 저장소가 쓰는 API 토큰에는 DNS·Zone 권한이
+없어 코드에서 처리할 수 없습니다. 사이트 안의 어떤 링크도 www를 쓰지 않으므로
+없어도 동작에는 문제가 없습니다.
 
 `public/_headers` 는 Workers 정적 자산 배포에서도 적용됩니다 — 라이브 응답에
 `x-frame-options`, `referrer-policy`, `x-content-type-options`, `permissions-policy`
@@ -258,7 +267,7 @@ Cloudflare Zero Trust에서 만든 터널 토큰을 `.env` 에 넣으면 **공�
 
 코드는 준비돼 있고, 아래는 계정 권한이 필요해 대시보드에서 직접 해야 하는 일입니다.
 
-- [x] Cloudflare 배포 — https://justies.justies.workers.dev
+- [x] Cloudflare 배포 — https://justies.net
 - [ ] GitHub 토큰 발급 → `/admin` 로그인
 - [ ] 이전 두 사이트(field-notes-atelier, dr-park-blog)의 글 이관
 
