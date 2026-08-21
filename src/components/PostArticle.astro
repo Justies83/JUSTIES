@@ -4,7 +4,7 @@
 import { render } from 'astro:content';
 import PostCard from './PostCard.astro';
 import { categoryOf, kindOf } from '../data/taxonomy';
-import { formatDate, readingTime, type Post } from '../lib/posts';
+import { coverFor, formatDate, readingTime, type Post } from '../lib/posts';
 
 interface Props {
   post: Post;
@@ -20,6 +20,7 @@ const kind = kindOf(post.data.kind);
 const isPrivate = base === '/private';
 const backHref = isPrivate ? '/private' : '/archive';
 const backLabel = isPrivate ? '← 숨긴 기록으로' : '← 전체 기록으로';
+const cover = coverFor(post);
 ---
 
 <article class="shell">
@@ -56,9 +57,9 @@ const backLabel = isPrivate ? '← 숨긴 기록으로' : '← 전체 기록으�
         </>
       )}
     </div>
-    {post.data.cover && (
+    {cover && (
       <figure class="post-cover" style="margin:1.8rem 0 0">
-        <img src={post.data.cover} alt={post.data.coverAlt} />
+        <img src={cover} alt={post.data.coverAlt} />
       </figure>
     )}
   </header>

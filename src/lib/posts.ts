@@ -34,6 +34,14 @@ async function getAllPosts(): Promise<Post[]> {
 
 export const postUrl = (post: Post) => `/posts/${post.id}`;
 
+/**
+ * The image to show for a post. A real photograph wins; otherwise fall back to
+ * the plate generated at /covers/<id>.svg. Private posts have no generated
+ * plate — that URL would be public — so they keep the inline seal.
+ */
+export const coverFor = (post: Post): string | undefined =>
+  post.data.cover ?? (post.data.visibility === 'private' ? undefined : `/covers/${post.id}.svg`);
+
 export function formatDate(date: Date): string {
   const y = date.getFullYear();
   const m = String(date.getMonth() + 1).padStart(2, '0');

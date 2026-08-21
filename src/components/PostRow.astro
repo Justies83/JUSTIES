@@ -1,11 +1,12 @@
 ---
 import { categoryOf, kindOf } from '../data/taxonomy';
-import { formatDate, postUrl, readingTime, type Post } from '../lib/posts';
+import { coverFor, formatDate, postUrl, readingTime, type Post } from '../lib/posts';
 
 interface Props { post: Post; index: number; base?: '' | '/private'; }
 const { post, index, base = '' } = Astro.props;
 const category = categoryOf(post.data.category);
 const kind = kindOf(post.data.kind);
+const cover = coverFor(post);
 const label = `${(category?.en ?? 'NOTE').slice(0, 4).toUpperCase()} ${String(index + 1).padStart(2, '0')}`;
 ---
 
@@ -26,9 +27,9 @@ const label = `${(category?.en ?? 'NOTE').slice(0, 4).toUpperCase()} ${String(in
         {post.data.tags.length > 0 && <span>{post.data.tags.map((t) => `#${t}`).join(' ')}</span>}
       </span>
     </span>
-    {post.data.cover ? (
+    {cover ? (
       <span class="row-thumb">
-        <img src={post.data.cover} alt="" loading="lazy" decoding="async" />
+        <img src={cover} alt="" loading="lazy" decoding="async" />
       </span>
     ) : (
       <span class="row-seal" aria-hidden="true">{category?.glyph}</span>
