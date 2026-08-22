@@ -81,6 +81,10 @@ h1, h2, h3, h4 {
   letter-spacing: -0.01em;
   margin: 0;
   text-wrap: balance;
+  /* Korean has no spaces inside a word, so the default rule breaks anywhere a
+     syllable ends — it split 세제개편안 across two lines. keep-all makes a
+     heading break at spaces, which is what Korean typography expects. */
+  word-break: keep-all;
 }
 h1 { font-size: clamp(2rem, 5.4vw, 3.4rem); }
 h2 { font-size: clamp(1.5rem, 3.2vw, 2.1rem); }

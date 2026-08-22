@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="1세대 1주택 종부세 기본공제가 실거주 14억원과 비거주 9억원으로 갈리고, 공정시장가액비율은 70%에서 3주택 이상·조정대상지역에 한해 2028년 80%로 오른다">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="84" y="44" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">LIVE IN IT, OR PAY MORE</text>
+  <text x="84" y="72" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">같은 1주택인데 기본공제가 5억원 갈린다 — 기준은 거주 여부</text>
+
+  <!-- left panel: 기본공제 -->
+  <text x="84" y="126" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" letter-spacing="2" fill="#62655d">종부세 기본공제 · 1세대 1주택</text>
+
+  <line x1="84" y1="392" x2="470" y2="392" stroke="rgba(32,35,31,.16)"/>
+
+  <rect x="120" y="154" width="96" height="238" fill="#16756a"/>
+  <text x="168" y="144" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="19" fill="#16756a">14억</text>
+  <text x="168" y="414" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#20231f">실거주</text>
+
+  <rect x="290" y="239" width="96" height="153" fill="#e0795b"/>
+  <text x="338" y="229" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="19" fill="#e0795b">9억</text>
+  <text x="338" y="414" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#20231f">비거주</text>
+
+  <path d="M232 200 L274 200" stroke="#20231f" stroke-width="1.2" stroke-dasharray="3 4" opacity=".55"/>
+  <text x="253" y="192" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#62655d">−5억</text>
+
+  <!-- divider -->
+  <line x1="500" y1="120" x2="500" y2="440" stroke="rgba(32,35,31,.16)"/>
+
+  <!-- right panel: 공정시장가액비율 -->
+  <text x="540" y="126" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" letter-spacing="2" fill="#62655d">공정시장가액비율</text>
+
+  <line x1="540" y1="392" x2="816" y2="392" stroke="rgba(32,35,31,.16)"/>
+
+  <rect x="576" y="219" width="80" height="173" fill="#16756a" opacity=".85"/>
+  <text x="616" y="209" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="19" fill="#16756a">70%</text>
+  <text x="616" y="414" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#20231f">일반</text>
+  <text x="616" y="434" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" fill="#62655d">인상</text>
+
+  <rect x="716" y="194" width="80" height="198" fill="#e0795b"/>
+  <text x="756" y="184" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="19" fill="#e0795b">80%</text>
+  <text x="756" y="414" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#20231f">3주택↑ · 조정대상</text>
+  <text x="756" y="434" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" fill="#62655d">2028년부터</text>
+
+  <text x="84" y="484" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">2026년 세제개편안(2026.08.03 발표) 기준 · 국회 통과 전이므로 확정 수치가 아니다</text>
+  <text x="84" y="504" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">도표는 아래 출처의 수치로 직접 작성했다</text>
+</svg>
