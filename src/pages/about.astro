@@ -8,7 +8,9 @@ import { CATEGORIES, KINDS } from '../data/taxonomy';
 <Base title="소개" description={site.description}>
   <div class="shell">
     <section class="section">
-      <SectionHead number="—" eyebrow="ABOUT THIS PLACE" title="연구실의 메모와<br />일상의 발견 사이." />
+      <!-- Plain text: SectionHead escapes its title, so a tag here prints as
+           characters. It did, on the live site, for a while. -->
+      <SectionHead eyebrow="ABOUT THIS PLACE" title="연구실의 메모와 일상의 발견 사이." />
       <div class="prose">
         <p>{site.description}</p>
         <p>
@@ -33,6 +35,23 @@ import { CATEGORIES, KINDS } from '../data/taxonomy';
 
         <hr />
         <p class="mono">{site.seal} · EST. {site.established}</p>
+      </div>
+    </section>
+
+    <section class="section section-quiet" id="now">
+      <SectionHead
+        eyebrow="RIGHT NOW"
+        title="지금, 무엇을 보고 있나."
+        note={`완결된 글이 되기 전의 생각들. 매달 짧게 갱신합니다. (${site.now.updated} 기준)`}
+      />
+      <div class="now-list">
+        {site.now.items.map((item, i) => (
+          <div>
+            <span>{String(i + 1).padStart(2, '0')}</span>
+            <b>{item.verb}</b>
+            <i>{item.text}</i>
+          </div>
+        ))}
       </div>
     </section>
   </div>

@@ -4,26 +4,28 @@ import PostCard from '../components/PostCard.astro';
 import PostRow from '../components/PostRow.astro';
 import SectionHead from '../components/SectionHead.astro';
 import { site } from '../data/site';
-import { CATEGORIES, KINDS } from '../data/taxonomy';
+import { CATEGORIES } from '../data/taxonomy';
 import { getPublishedPosts } from '../lib/posts';
 
 const posts = await getPublishedPosts();
-// The top of the page is the newest writing. `featured` only pins a post ahead
-// of the queue — it never holds the slot on its own, so an old pinned post
-// cannot keep sitting on the front page as newer ones arrive.
-const top = [...posts]
-  .sort((a, b) => {
-    if (a.data.featured !== b.data.featured) return a.data.featured ? -1 : 1;
-    return b.data.date.valueOf() - a.data.date.valueOf();
-  })
-  .slice(0, 3);
-const [lead, ...secondary] = top;
 
-// Whatever is already shown above must not repeat in the list below.
-const shown = new Set(top.map((p) => p.id));
-const recent = posts.filter((p) => !shown.has(p.id)).slice(0, 6);
-const countByKind = (id: string) => posts.filter((p) => p.data.kind === id).length;
+// The home page is the newest writing and little else. `featured` only pulls a
+// post forward in the queue — it never holds a slot on its own, so an old
+// pinned post cannot keep sitting on the front page as newer ones arrive.
+const ordered = [...posts].sort((a, b) => {
+  if (a.data.featured !== b.data.featured) return a.data.featured ? -1 : 1;
+  return b.data.date.valueOf() - a.data.date.valueOf();
+});
+
+// One lead, two beside it, then the rest as a list. Nothing repeats: every
+// slice below picks up where the last one stopped.
+const [lead, ...rest] = ordered;
+const beside = rest.slice(0, 2);
+const listed = rest.slice(2, 11);
+
 const countByCategory = (id: string) => posts.filter((p) => p.data.category === id).length;
+// A section with nothing in it is a dead link, so it is left out.
+const usedCategories = CATEGORIES.filter((c) => countByCategory(c.id) > 0);
 
 const origin = (Astro.site ?? new URL(Astro.url.origin)).origin;
 const schema = {
@@ -58,63 +60,33 @@ const schema = {
 
 <Base schema={schema}>
   <section class="shell hero">
-    <div>
-      <p class="eyebrow hero-eyebrow">{site.seal} <b>— {site.now.updated}</b></p>
-      <h1>질문을 모으고,<br /><i>생각을</i> 남깁니다.</h1>
-      <p class="hero-summary">{site.description}</p>
-      <div class="hero-actions">
-        <a class="ink-button" href="/archive">새 글 보기 <span aria-hidden="true">→</span></a>
-        <a class="plain-link" href="/topics">주제별로 살펴보기</a>
-      </div>
-    </div>
-
-    <aside class="hero-panel reveal" aria-label="아카이브 개요">
-      <div class="hero-panel-head">
-        <p class="mono" style="margin:0">FIELD DOSSIER</p>
-        <p class="mono" style="margin:0">{site.now.updated}</p>
-      </div>
-      <div class="hero-counts">
-        {KINDS.map((kind) => (
-          <a href={`/kinds/${kind.id}`}>
-            <strong>{String(countByKind(kind.id)).padStart(2, '0')}</strong>
-            <small>{kind.en}</small>
-            <span class="count-blurb">{kind.blurb}</span>
-          </a>
-        ))}
-      </div>
-      <hr class="rule" />
-      <p style="margin:0;font-size:.86rem;color:var(--soft)">
-        기록은 <b>무엇에 대한 글인지</b>(주제)와 <b>어떤 형식인지</b>(뉴스 · 의견 · 정보)로 함께 분류합니다.
-      </p>
-    </aside>
+    <p class="eyebrow hero-eyebrow">{site.seal}</p>
+    <h1>질문을 모으고,<br /><i>생각을</i> 남깁니다.</h1>
+    <p class="hero-summary">{site.description}</p>
   </section>
 
   <div class="shell">
-    <section class="principles">
-      <p class="principles-lead">A quiet place for<br /><em>evidence &amp; curiosity.</em></p>
-      {site.principles.map((text, i) => (
-        <div class="principle">
-          <span>{String(i + 1).padStart(2, '0')}</span>
-          <p>{text}</p>
-        </div>
-      ))}
-    </section>
-  </div>
-
-  <div class="shell">
-    <section class="section" id="featured">
+    <section class="section" id="latest">
       <SectionHead
-        number="01"
-        eyebrow="FEATURED"
-        title="먼저 읽어 볼 글."
+        eyebrow="LATEST"
+        title="최근에 쓴 글."
         linkHref="/archive"
         linkLabel="전체 기록 보기"
       />
+
       {lead ? (
-        <div class="bento">
-          <PostCard post={lead} lead />
-          {secondary.map((post) => <PostCard post={post} />)}
-        </div>
+        <>
+          <div class="bento">
+            <PostCard post={lead} lead />
+            {beside.map((post) => <PostCard post={post} />)}
+          </div>
+
+          {listed.length > 0 && (
+            <div class="rows" style="margin-top:1.4rem">
+              {listed.map((post, i) => <PostRow post={post} index={i + beside.length + 1} />)}
+            </div>
+          )}
+        </>
       ) : (
         <div class="empty">
           <strong>첫 기록을 기다리고 있습니다.</strong>
@@ -125,64 +97,15 @@ const schema = {
       )}
     </section>
 
-    <section class="section" id="recent">
-      <SectionHead
-        number="02"
-        eyebrow="NEW POSTS"
-        title="새로운 글."
-        note="가장 최근의 기록부터 보여 줍니다. 분류를 누르면 해당 묶음만 모아 볼 수 있습니다."
-      />
-      <nav class="filters" aria-label="분류 이동">
-        <a class="chip" href="/archive" aria-current="true">전체 {posts.length}</a>
-        {KINDS.map((kind) => (
-          <a class="chip" href={`/kinds/${kind.id}`}>{kind.label} {countByKind(kind.id)}</a>
-        ))}
-      </nav>
-      {recent.length > 0 ? (
-        <div class="rows">
-          {recent.map((post, i) => <PostRow post={post} index={i} />)}
-        </div>
-      ) : (
-        <div class="empty"><strong>아직 글이 없습니다.</strong></div>
-      )}
-    </section>
-
-    <section class="section" id="topics">
-      <SectionHead
-        number="03"
-        eyebrow="EXPLORE TOPICS"
-        title="주제별로 읽기."
-        note="관심 있는 분야를 누르면 해당 주제의 기록을 모아 볼 수 있습니다."
-      />
-      <div class="topics-grid">
-        {CATEGORIES.map((category) => (
-          <a class="topic reveal" href={`/topics/${category.id}`}>
-            <span class="topic-glyph" aria-hidden="true">{category.glyph}</span>
-            <small>{category.en} · {String(countByCategory(category.id)).padStart(2, '0')}</small>
-            <strong>{category.label}</strong>
-            <span>{category.blurb}</span>
+    <section class="section section-quiet" id="topics">
+      <SectionHead eyebrow="TOPICS" title="주제별로 읽기." linkHref="/topics" linkLabel="주제 전체" />
+      <nav class="filters" aria-label="주제 이동">
+        {usedCategories.map((category) => (
+          <a class="chip" href={`/topics/${category.id}`}>
+            {category.label} {countByCategory(category.id)}
           </a>
         ))}
-      </div>
-    </section>
-
-    <section class="section now" id="now">
-      <div>
-        <p class="mono">04 <span>RIGHT NOW</span></p>
-        <h2>지금, 무엇을<br /><em>관찰하고 있나.</em></h2>
-        <p class="section-note" style="margin-top:1rem">
-          완결된 글이 되기 전의 생각들. 매달 짧게 갱신합니다. ({site.now.updated} 기준)
-        </p>
-      </div>
-      <div class="now-list">
-        {site.now.items.map((item, i) => (
-          <div>
-            <span>{String(i + 1).padStart(2, '0')}</span>
-            <b>{item.verb}</b>
-            <i>{item.text}</i>
-          </div>
-        ))}
-      </div>
+      </nav>
     </section>
   </div>
 </Base>
