@@ -17,6 +17,7 @@
       "Bash(npx astro *)",
       "Bash(npx wrangler *)",
       "Bash(npx --yes wrangler *)",
+      "Bash(git clone*)",
       "Bash(git status*)",
       "Bash(git log*)",
       "Bash(git diff*)",
