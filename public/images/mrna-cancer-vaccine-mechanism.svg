@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="mRNA 암 백신의 작동 과정: 종양 시퀀싱으로 신생항원을 찾고, 그 정보로 mRNA를 설계·합성해 주사하면, 체내에서 항원 단백질이 만들어져 면역계에 제시되고, T세포가 그것을 기억해 재발 시 같은 항원을 가진 암세포를 공격한다">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="50" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">HOW A PERSONAL CANCER VACCINE IS MADE</text>
+  <text x="60" y="78" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">종양을 읽고, 그 정보로 백신을 지어 몸의 면역계에 '기억'시킨다</text>
+
+  <!-- 4-step flow -->
+  <g font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+    <!-- step 1 -->
+    <rect x="50" y="140" width="180" height="180" rx="10" fill="#fbf9f4" stroke="rgba(32,35,31,.16)"/>
+    <text x="70" y="168" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">STEP 1</text>
+    <text x="70" y="196" font-size="15" font-weight="600" fill="#20231f">종양 시퀀싱</text>
+    <text x="70" y="222" font-size="12.5" fill="#20231f">수술로 떼어낸 종양의</text>
+    <text x="70" y="242" font-size="12.5" fill="#20231f">유전자를 읽어, 정상</text>
+    <text x="70" y="262" font-size="12.5" fill="#20231f">세포엔 없는 돌연변이</text>
+    <text x="70" y="282" font-size="12.5" fill="#20231f">('신생항원')를 찾는다.</text>
+    <text x="70" y="304" font-size="12.5" fill="#16756a">최대 34개까지</text>
+
+    <!-- arrow -->
+    <path d="M234 230 L266 230" stroke="#62655d" stroke-width="1.8"/>
+    <path d="M259 224 L268 230 L259 236" fill="none" stroke="#62655d" stroke-width="1.8"/>
+
+    <!-- step 2 -->
+    <rect x="270" y="140" width="180" height="180" rx="10" fill="#fbf9f4" stroke="rgba(32,35,31,.16)"/>
+    <text x="290" y="168" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">STEP 2</text>
+    <text x="290" y="196" font-size="15" font-weight="600" fill="#20231f">맞춤 mRNA 제작</text>
+    <text x="290" y="222" font-size="12.5" fill="#20231f">찾아낸 신생항원들의</text>
+    <text x="290" y="242" font-size="12.5" fill="#20231f">설계도를 mRNA로 옮겨</text>
+    <text x="290" y="262" font-size="12.5" fill="#20231f">합성한다. 그 환자의</text>
+    <text x="290" y="282" font-size="12.5" fill="#20231f">종양에만 맞는, 한 번뿐인</text>
+    <text x="290" y="304" font-size="12.5" fill="#20231f">백신이다.</text>
+
+    <path d="M454 230 L486 230" stroke="#62655d" stroke-width="1.8"/>
+    <path d="M479 224 L488 230 L479 236" fill="none" stroke="#62655d" stroke-width="1.8"/>
+
+    <!-- step 3 -->
+    <rect x="490" y="140" width="180" height="180" rx="10" fill="#fbf9f4" stroke="rgba(32,35,31,.16)"/>
+    <text x="510" y="168" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">STEP 3</text>
+    <text x="510" y="196" font-size="15" font-weight="600" fill="#20231f">접종 · 항원 제시</text>
+    <text x="510" y="222" font-size="12.5" fill="#20231f">주사된 mRNA가 체내</text>
+    <text x="510" y="242" font-size="12.5" fill="#20231f">세포에서 실제 단백질로</text>
+    <text x="510" y="262" font-size="12.5" fill="#20231f">번역되고, 수지상세포가</text>
+    <text x="510" y="282" font-size="12.5" fill="#20231f">이를 면역계에</text>
+    <text x="510" y="304" font-size="12.5" fill="#20231f">'제시'한다.</text>
+
+    <path d="M674 230 L706 230" stroke="#62655d" stroke-width="1.8"/>
+    <path d="M699 224 L708 230 L699 236" fill="none" stroke="#62655d" stroke-width="1.8"/>
+
+    <!-- step 4 -->
+    <rect x="710" y="140" width="180" height="180" rx="10" fill="#e8f2ef" stroke="#16756a"/>
+    <text x="730" y="168" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#16756a">STEP 4</text>
+    <text x="730" y="196" font-size="15" font-weight="600" fill="#16756a">면역 기억 형성</text>
+    <text x="730" y="222" font-size="12.5" fill="#20231f">T세포가 그 항원을</text>
+    <text x="730" y="242" font-size="12.5" fill="#20231f">'기억'해 둔다. 나중에</text>
+    <text x="730" y="262" font-size="12.5" fill="#20231f">같은 항원을 가진 암세포가</text>
+    <text x="730" y="282" font-size="12.5" fill="#20231f">다시 나타나면 곧바로</text>
+    <text x="730" y="304" font-size="12.5" fill="#20231f">찾아내 공격한다.</text>
+  </g>
+
+  <text x="60" y="370" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">일반 백신은 감염 전에 항원을 미리 기억시켜 두는 것 — 이 방식은 이미 생긴 암의</text>
+  <text x="60" y="392" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">고유한 표지를 나중에 기억시켜, 수술 후 남은 암세포의 재발을 막는 데 쓴다.</text>
+
+  <text x="60" y="480" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">Merck·Moderna 공식 발표(2026.08.19)의 설명을 바탕으로 직접 작성했다</text>
+  <text x="60" y="500" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">단순화한 도식이며, 실제 면역 반응은 훨씬 복잡한 여러 단계를 거친다</text>
+</svg>
