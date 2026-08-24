@@ -28,7 +28,7 @@ export const site = {
   //   Google  → Search Console → 소유권 확인 → HTML 태그
   //   Naver   → 서치어드바이저 → 사이트 소유확인 → HTML 태그
   verification: {
-    google: '',
+    google: 'ergy5mBkvkAmIqBCskjpLwCwFC6ueE_v0BjKrW5XZ3w',
     naver: '',
   },
 
