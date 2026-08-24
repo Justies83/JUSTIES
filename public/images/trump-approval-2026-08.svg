@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+  
+  <text x="84" y="44" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">TRUMP JOB APPROVAL · REUTERS/IPSOS</text>
+  <text x="84" y="72" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">취임 47%에서 33%까지 — 1·2기 통틀어 최저</text>
+
+  <line x1="84" y1="434" x2="816" y2="434" stroke="rgba(32,35,31,.16)"/><line x1="84" y1="321.33333333333337" x2="816" y2="321.33333333333337" stroke="rgba(32,35,31,.16)"/><line x1="84" y1="208.66666666666669" x2="816" y2="208.66666666666669" stroke="rgba(32,35,31,.16)"/><line x1="84" y1="96" x2="816" y2="96" stroke="rgba(32,35,31,.16)"/>
+  <text x="70" y="439" text-anchor="end" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#62655d">20%</text><text x="70" y="326.33333333333337" text-anchor="end" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#62655d">30%</text><text x="70" y="213.66666666666669" text-anchor="end" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#62655d">40%</text><text x="70" y="101" text-anchor="end" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#62655d">50%</text>
+
+  <path d="M84 129.8 L450 265 L816 287.5333333333333" fill="none" stroke="#e0795b" stroke-width="2.8"/>
+  <circle cx="84" cy="129.8" r="5" fill="#f4f1ea" stroke="#e0795b" stroke-width="2.8"/><circle cx="450" cy="265" r="5" fill="#f4f1ea" stroke="#e0795b" stroke-width="2.8"/><circle cx="816" cy="287.5333333333333" r="5" fill="#f4f1ea" stroke="#e0795b" stroke-width="2.8"/>
+  <text x="84" y="111.80000000000001" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="18" fill="#e0795b">47%</text><text x="450" y="247" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="18" fill="#e0795b">35%</text><text x="816" y="269.5333333333333" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="18" fill="#e0795b">33%</text>
+  <text x="84" y="464" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#62655d">2025.01.21</text><text x="84" y="484" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#62655d">(취임)</text><text x="450" y="464" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#62655d">2026.08.07–10</text><text x="816" y="464" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#62655d">2026.08.14–17</text>
+
+  <text x="84" y="496" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">x축은 시간 비례가 아님(18개월 vs 1주) — 최근 두 지점은 로이터·입소스 같은 조사 시리즈</text>
+</svg>
