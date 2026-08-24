@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="한국은행 기준금리가 2026년 7월 16일 2.50%에서 2.75%로 오른 뒤, 8월 27일 회의에서는 동결 전망이 우세하다">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="84" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">ONE HIKE, THEN A PAUSE</text>
+  <text x="84" y="80" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">3년 6개월 만의 인상 이후, 8월 27일은 동결 쪽에 무게가 실렸다</text>
+
+  <line x1="84" y1="380" x2="804" y2="380" stroke="rgba(32,35,31,.16)"/>
+
+  <!-- timeline: 5/29 hold, 7/16 hike, 8/27 preview -->
+  <circle cx="180" cy="316" r="5" fill="#f4f1ea" stroke="#62655d" stroke-width="2.5"/>
+  <text x="180" y="296" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="18" fill="#62655d">2.50%</text>
+  <text x="180" y="404" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">5월 29일</text>
+  <text x="180" y="424" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#20231f">동결</text>
+
+  <path d="M180 316 L444 216" stroke="#16756a" stroke-width="2.5"/>
+  <circle cx="444" cy="216" r="5.5" fill="#f4f1ea" stroke="#16756a" stroke-width="3"/>
+  <text x="444" y="196" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="20" fill="#16756a">2.75%</text>
+  <text x="444" y="404" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">7월 16일</text>
+  <text x="444" y="424" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#20231f">+25bp 인상</text>
+
+  <path d="M444 216 L708 216" stroke="#e0795b" stroke-width="2.5" stroke-dasharray="6 5"/>
+  <circle cx="708" cy="216" r="5.5" fill="#f4f1ea" stroke="#e0795b" stroke-width="3"/>
+  <text x="708" y="196" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="20" fill="#e0795b">2.75%?</text>
+  <text x="708" y="404" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">8월 27일</text>
+  <text x="708" y="424" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#20231f">동결 전망 (매파적)</text>
+
+  <text x="84" y="480" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">한국은행 발표(확정) + 우리금융경영연구소·KB 전망(미확정, 8/27 전) · 학습 목적의 개인 메모</text>
+  <text x="84" y="500" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">도표는 위 출처의 수치로 직접 작성했다</text>
+</svg>

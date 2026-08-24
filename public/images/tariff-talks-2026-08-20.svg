@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="한미 협정에서 한국은 3500억달러 투자와 1000억달러 에너지 구매를 약속했고, 관세는 15% 상한에 공감대가 있다. 1호 투자 프로젝트 발표는 9월 중으로 예상된다">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="84" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">THE NUMBERS ON THE TABLE</text>
+  <text x="84" y="80" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">한미 협정의 약속 두 개, 아직 남은 것 하나</text>
+
+  <!-- two committed amounts -->
+  <rect x="84" y="128" width="330" height="140" fill="#fbf9f4" stroke="rgba(32,35,31,.16)"/>
+  <text x="104" y="164" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" letter-spacing="1" fill="#62655d">대미 투자 약속</text>
+  <text x="104" y="212" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="30" fill="#16756a">3,500억$</text>
+  <text x="104" y="240" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#20231f">1호 프로젝트 발표는 9월 중 예상</text>
+
+  <rect x="486" y="128" width="330" height="140" fill="#fbf9f4" stroke="rgba(32,35,31,.16)"/>
+  <text x="506" y="164" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" letter-spacing="1" fill="#62655d">에너지 구매 약속</text>
+  <text x="506" y="212" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="30" fill="#16756a">1,000억$</text>
+  <text x="506" y="240" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#20231f">LNG 등 에너지 제품</text>
+
+  <!-- tariff cap, pending -->
+  <rect x="84" y="300" width="732" height="120" fill="none" stroke="#e0795b" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="104" y="336" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" letter-spacing="1" fill="#e0795b">관세 상한 — 공감대는 있지만 발표는 아직</text>
+  <text x="104" y="380" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="26" fill="#e0795b">15% 상한 (미확정)</text>
+  <text x="104" y="406" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#20231f">무역법 301조 조사 결과와 함께 8월 말~9월 초 발표 예상</text>
+
+  <text x="84" y="464" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">김정관 산업통상부 장관 방미 인터뷰(2026.08.20) 기준</text>
+  <text x="84" y="484" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">도표는 위 발언에 나온 수치로 직접 작성했다</text>
+</svg>

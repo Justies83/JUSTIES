@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="8월 1~20일 수출 552억달러 중 반도체가 260억3000만달러로 47.2%를 차지했다. 전년 동기 대비 반도체 수출은 198.8% 늘었다">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="84" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">EXPORTS, HALF-CARRIED BY ONE THING</text>
+  <text x="84" y="80" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">8월 1~20일 수출 552억달러 중 반도체가 260억달러 — 역대 최고 비중</text>
+
+  <!-- stacked bar: total export split into semiconductor vs rest -->
+  <text x="84" y="140" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" letter-spacing="2" fill="#62655d">전체 수출액 구성 · 552억달러</text>
+
+  <rect x="84" y="160" width="732" height="64" fill="#f0ede4" stroke="rgba(32,35,31,.16)"/>
+  <rect x="84" y="160" width="345.5" height="64" fill="#16756a"/>
+  <text x="256" y="198" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="17" fill="#f4f1ea">반도체 47.2%</text>
+  <text x="606" y="198" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="17" fill="#20231f">그 외 52.8%</text>
+
+  <!-- growth comparison bars -->
+  <text x="84" y="260" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" letter-spacing="2" fill="#62655d">전년 동기 대비 증가율</text>
+
+  <line x1="84" y1="420" x2="480" y2="420" stroke="rgba(32,35,31,.16)"/>
+
+  <rect x="120" y="390" width="90" height="30" fill="#e0795b"/>
+  <text x="165" y="380" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="17" fill="#e0795b">+56.0%</text>
+  <text x="165" y="442" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">전체 수출</text>
+
+  <rect x="300" y="313" width="90" height="107" fill="#16756a"/>
+  <text x="345" y="303" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="17" fill="#16756a">+198.8%</text>
+  <text x="345" y="442" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">반도체 수출</text>
+
+  <text x="84" y="484" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">관세청 발표(2026.08.21) · 8월 1~20일 통계, 월 전체 집계가 아니다</text>
+  <text x="84" y="504" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">도표는 위 발표 수치로 직접 작성했다</text>
+</svg>
