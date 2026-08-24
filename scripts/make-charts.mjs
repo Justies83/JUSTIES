@@ -189,7 +189,52 @@ function kakaoSplitChart() {
   );
 }
 
+/* ------------------------------------------------------------------ *
+ * 4. Trump job approval, Reuters/Ipsos series.
+ *    Figures: 뉴스핌·디지털타임스 (Reuters/Ipsos) — inauguration baseline,
+ *    then the two most recent Reuters/Ipsos reads two weeks apart.
+ *    X axis is categorical, not time-proportional (18 months vs 1 week) —
+ *    labelled as such in the caption.
+ * ------------------------------------------------------------------ */
+function trumpApprovalChart() {
+  const W = 900;
+  const H = 520;
+  const pad = { l: 84, r: 84, t: 96, b: 86 };
+  const points = [
+    { label: "2025.01.21\n(취임)", v: 47 },
+    { label: '2026.08.07–10', v: 35 },
+    { label: '2026.08.14–17', v: 33 },
+  ];
+
+  const x = (i) => pad.l + (i * (W - pad.l - pad.r)) / (points.length - 1);
+  const lo = 20;
+  const hi = 50;
+  const y = (v) => H - pad.b - ((v - lo) / (hi - lo)) * (H - pad.t - pad.b);
+
+  const path = points.map((p, i) => `${i ? 'L' : 'M'}${x(i)} ${y(p.v)}`).join(' ');
+  const grid = [20, 30, 40, 50];
+
+  return frame(
+    W,
+    H,
+    `
+  <text x="${pad.l}" y="44" font-family="${mono}" font-size="15" letter-spacing="3" fill="${soft}">TRUMP JOB APPROVAL · REUTERS/IPSOS</text>
+  <text x="${pad.l}" y="72" font-family="${font}" font-size="17" fill="${ink}">취임 47%에서 33%까지 — 1·2기 통틀어 최저</text>
+
+  ${grid.map((v) => `<line x1="${pad.l}" y1="${y(v)}" x2="${W - pad.r}" y2="${y(v)}" stroke="${line}"/>`).join('')}
+  ${grid.map((v) => `<text x="${pad.l - 14}" y="${y(v) + 5}" text-anchor="end" font-family="${mono}" font-size="14" fill="${soft}">${v}%</text>`).join('')}
+
+  <path d="${path}" fill="none" stroke="${coral}" stroke-width="2.8"/>
+  ${points.map((p, i) => `<circle cx="${x(i)}" cy="${y(p.v)}" r="5" fill="${paper}" stroke="${coral}" stroke-width="2.8"/>`).join('')}
+  ${points.map((p, i) => `<text x="${x(i)}" y="${y(p.v) - 18}" text-anchor="middle" font-family="${mono}" font-size="18" fill="${coral}">${p.v}%</text>`).join('')}
+  ${points.map((p, i) => p.label.split('\n').map((line, j) => `<text x="${x(i)}" y="${H - pad.b + 30 + j * 20}" text-anchor="middle" font-family="${mono}" font-size="14" fill="${soft}">${line}</text>`).join('')).join('')}
+
+  <text x="${pad.l}" y="${H - 24}" font-family="${mono}" font-size="13" fill="${soft}">x축은 시간 비례가 아님(18개월 vs 1주) — 최근 두 지점은 로이터·입소스 같은 조사 시리즈</text>`
+  );
+}
+
 writeFileSync(new URL('../public/images/kakao-split-2026-08-21.svg', import.meta.url), kakaoSplitChart());
 writeFileSync(new URL('../public/images/market-2026-08-21.svg', import.meta.url), marketChart());
 writeFileSync(new URL('../public/images/bandwidth-wall-2026-08-21.svg', import.meta.url), bandwidthChart());
-console.log('wrote market-2026-08-21.svg, bandwidth-wall-2026-08-21.svg, kakao-split-2026-08-21.svg');
+writeFileSync(new URL('../public/images/trump-approval-2026-08.svg', import.meta.url), trumpApprovalChart());
+console.log('wrote market-2026-08-21.svg, bandwidth-wall-2026-08-21.svg, kakao-split-2026-08-21.svg, trump-approval-2026-08.svg');
