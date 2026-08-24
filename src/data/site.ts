@@ -29,7 +29,7 @@ export const site = {
   //   Naver   → 서치어드바이저 → 사이트 소유확인 → HTML 태그
   verification: {
     google: 'ergy5mBkvkAmIqBCskjpLwCwFC6ueE_v0BjKrW5XZ3w',
-    naver: '',
+    naver: '0ca582aea8ea2e8effe92a134c5c44a84b84f6ce',
   },
 
   // Shown on /privacy when set. Left empty on purpose — publishing an address
