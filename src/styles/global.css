@@ -33,22 +33,6 @@
   --step: clamp(1.5rem, 4vw, 3rem);
 }
 
-[data-theme='dark'] {
-  --paper: #171a18;
-  --paper-deep: #101211;
-  --card: #1f2321;
-  --ink: #eae6dd;
-  --soft: #a4aba5;
-  --teal: #7fc9ab;
-  --teal-dark: #a8dcc4;
-  --teal-wash: #22332c;
-  --coral: #f0a184;
-  --line: rgba(234, 230, 221, 0.16);
-  --line-soft: rgba(234, 230, 221, 0.08);
-  --grain: rgba(234, 230, 221, 0.05);
-  --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 14px 30px -18px rgba(0, 0, 0, 0.7);
-}
-
 *,
 *::before,
 *::after { box-sizing: border-box; }
@@ -598,8 +582,9 @@ em, i { font-style: italic; }
 }
 
 @media (max-width: 520px) {
-  /* Icon-only search so the header stays on one line. */
-  .header-tools .icon-button span:not([data-theme-icon]) + span { display: none; }
+  /* Icon-only search so the header stays on one line: keep the glyph,
+     drop the "검색" label beside it. */
+  .header-tools .icon-button span + span { display: none; }
 }
 
 /* ---------- photo gallery ---------- */

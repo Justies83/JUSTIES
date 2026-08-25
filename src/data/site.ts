@@ -3,9 +3,9 @@ export const site = {
   title: '제의 / JUSTIES',
   shortTitle: 'JUSTIES',
   seal: 'JUSTIES SHALL BE DONE.',
-  tagline: '매일 쓰는 기록',
+  tagline: '복잡한 세상, 쉽게 이해하자',
   description:
-    '경제·산업, IT·기술, 과학, 국제 정세를 매일 정리합니다. 리뷰와 육아 기록도 함께 남깁니다.',
+    '기억을 돕는 개인 기록장을, 더 효율적인 삶을 위한 공간으로 넓혀 가려 합니다.',
   keywords: [
     '제의',
     'JUSTIES',

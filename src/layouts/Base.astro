@@ -54,8 +54,7 @@ const path = Astro.url.pathname.replace(/\/$/, '') || '/';
       <meta name="naver-site-verification" content={site.verification.naver} />
     )}
     <link rel="canonical" href={canonical} />
-    <meta name="theme-color" content="#f4f1ea" media="(prefers-color-scheme: light)" />
-    <meta name="theme-color" content="#171a18" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#f4f1ea" />
 
     <meta property="og:site_name" content={site.title} />
     <meta property="og:type" content={type} />
@@ -89,16 +88,6 @@ const path = Astro.url.pathname.replace(/\/$/, '') || '/';
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-    <!-- Applied before first paint so the theme never flashes. -->
-    <script is:inline>
-      (() => {
-        try {
-          const saved = localStorage.getItem('justies-theme');
-          const dark = saved ? saved === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
-          if (dark) document.documentElement.dataset.theme = 'dark';
-        } catch {}
-      })();
-    </script>
   </head>
 
   <body data-post-slug={postSlug}>
@@ -124,9 +113,6 @@ const path = Astro.url.pathname.replace(/\/$/, '') || '/';
       <div class="header-tools">
         <button class="icon-button" data-search-open aria-label="기록 검색 열기">
           <span aria-hidden="true">⌕</span><span>검색</span><kbd>⌘K</kbd>
-        </button>
-        <button class="icon-button" data-theme-toggle aria-label="밝은 화면과 어두운 화면 전환">
-          <span data-theme-icon aria-hidden="true">◐</span>
         </button>
       </div>
       </div>
@@ -179,21 +165,6 @@ const path = Astro.url.pathname.replace(/\/$/, '') || '/';
     </div>
 
     <script>
-      // Theme toggle -------------------------------------------------------
-      const root = document.documentElement;
-      const icon = document.querySelector('[data-theme-icon]');
-      const paintIcon = () => {
-        if (icon) icon.textContent = root.dataset.theme === 'dark' ? '☀' : '◐';
-      };
-      paintIcon();
-      document.querySelector('[data-theme-toggle]')?.addEventListener('click', () => {
-        const next = root.dataset.theme === 'dark' ? 'light' : 'dark';
-        if (next === 'dark') root.dataset.theme = 'dark';
-        else delete root.dataset.theme;
-        try { localStorage.setItem('justies-theme', next); } catch {}
-        paintIcon();
-      });
-
       // Search -------------------------------------------------------------
       type Entry = {
         title: string; takeaway: string; url: string;
