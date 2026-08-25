@@ -73,6 +73,17 @@ const path = Astro.url.pathname.replace(/\/$/, '') || '/';
       <script type="application/ld+json" is:inline set:html={JSON.stringify(schema)} />
     )}
 
+    {/* Ships only once a real publisher id is set, and never on the private
+        area — an ad script has no business behind the password gate. */}
+    {site.adsensePublisherId && !noindex && (
+      <script
+        is:inline
+        async
+        src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${site.adsensePublisherId}`}
+        crossorigin="anonymous"
+      />
+    )}
+
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="alternate" type="application/rss+xml" title={site.title} href="/rss.xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -91,6 +102,9 @@ const path = Astro.url.pathname.replace(/\/$/, '') || '/';
   </head>
 
   <body data-post-slug={postSlug}>
+    <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+    {type === 'article' && <div class="read-progress" id="read-progress" aria-hidden="true"></div>}
+
     <header class="site-header">
       <a class="brand" href="/" aria-label={`${site.title} 홈으로`}>
         <span class="brand-mark" aria-hidden="true">제</span>
@@ -145,6 +159,8 @@ const path = Astro.url.pathname.replace(/\/$/, '') || '/';
       <a href="/topics"><i aria-hidden="true">✦</i><span>주제</span></a>
       <a href="/about"><i aria-hidden="true">▣</i><span>소개</span></a>
     </nav>
+
+    <button class="to-top" id="to-top" aria-label="맨 위로" hidden>↑</button>
 
     <div class="search-layer" id="search-layer" role="dialog" aria-modal="true" aria-label="기록 검색">
       <div class="search-panel">
@@ -254,6 +270,66 @@ const path = Astro.url.pathname.replace(/\/$/, '') || '/';
         targets.forEach((t) => io.observe(t));
       } else {
         targets.forEach((t) => t.classList.add('is-visible'));
+      }
+
+      // Reading progress + back to top ---------------------------------------
+      const progress = document.getElementById('read-progress');
+      const toTop = document.getElementById('to-top');
+      if (progress || toTop) {
+        let ticking = false;
+        const paint = () => {
+          const max = document.documentElement.scrollHeight - window.innerHeight;
+          const y = window.scrollY;
+          if (progress) progress.style.transform = `scaleX(${max > 0 ? y / max : 0})`;
+          if (toTop) toTop.hidden = y < 600;
+          ticking = false;
+        };
+        addEventListener('scroll', () => {
+          if (!ticking) { ticking = true; requestAnimationFrame(paint); }
+        }, { passive: true });
+        paint();
+      }
+      toTop?.addEventListener('click', () => {
+        const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+        window.scrollTo({ top: 0, behavior: reduce ? 'auto' : 'smooth' });
+      });
+
+      // Share ----------------------------------------------------------------
+      const shareBox = document.querySelector('[data-share]');
+      if (shareBox) {
+        const url = location.href.split('#')[0];
+        const shareTitle = document.title;
+
+        const xLink = shareBox.querySelector('[data-share-x]') as HTMLAnchorElement | null;
+        if (xLink) {
+          xLink.href =
+            `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareTitle)}&url=${encodeURIComponent(url)}`;
+        }
+
+        // Only offered where the browser actually has it — on a phone this
+        // opens the OS sheet, KakaoTalk included, with no SDK to load.
+        const nativeBtn = shareBox.querySelector('[data-share-native]') as HTMLButtonElement | null;
+        if (nativeBtn && typeof navigator.share === 'function') {
+          nativeBtn.hidden = false;
+          nativeBtn.addEventListener('click', () => {
+            navigator.share({ title: shareTitle, url }).catch(() => {});
+          });
+        }
+
+        const copyBtn = shareBox.querySelector('[data-share-copy]') as HTMLButtonElement | null;
+        copyBtn?.addEventListener('click', async () => {
+          const say = (msg: string) => {
+            const original = '주소 복사';
+            copyBtn.textContent = msg;
+            setTimeout(() => { copyBtn.innerHTML = `<span aria-hidden="true">⧉</span> ${original}`; }, 1600);
+          };
+          try {
+            await navigator.clipboard.writeText(url);
+            say('복사했습니다');
+          } catch {
+            say('복사하지 못했습니다');
+          }
+        });
       }
 
       // View counters --------------------------------------------------------

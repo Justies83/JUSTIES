@@ -11,10 +11,19 @@ interface Props {
   related: Post[];
   /** Private posts link back into /private rather than the public archive. */
   base?: '' | '/private';
+  /** Neighbours in the archive, newest-first, for the footer navigation. */
+  prev?: Post;
+  next?: Post;
 }
 
-const { post, related, base = '' } = Astro.props;
-const { Content } = await render(post);
+const { post, related, base = '', prev, next } = Astro.props;
+const { Content, headings } = await render(post);
+
+// A table of contents only earns its space on a post with several sections.
+// h2 alone: these posts nest one level deep at most, and a flat list reads
+// faster than an indented one.
+const toc = headings.filter((h) => h.depth === 2);
+const showToc = toc.length >= 3;
 const category = categoryOf(post.data.category);
 const kind = kindOf(post.data.kind);
 const isPrivate = base === '/private';
@@ -79,6 +88,17 @@ const cover = coverFor(post);
     </p>
   )}
 
+  {showToc && (
+    <nav class="toc" aria-label="목차">
+      <p class="mono">목차</p>
+      <ol>
+        {toc.map((h) => (
+          <li><a href={`#${h.slug}`}>{h.text}</a></li>
+        ))}
+      </ol>
+    </nav>
+  )}
+
   <div class="prose">
     <Content />
   </div>
@@ -95,6 +115,27 @@ const cover = coverFor(post);
   )}
 
   <footer class="post-foot">
+    {/* A private post has no public URL worth handing to anyone. */}
+    {!isPrivate && (
+      <div class="share" data-share>
+        <p class="mono">공유</p>
+        <div class="share-row">
+          {/* Web Share opens the phone's own sheet — KakaoTalk included —
+              so this needs no SDK and no developer key. Hidden where the
+              browser has no support, which is most desktops. */}
+          <button class="share-btn" data-share-native hidden>
+            <span aria-hidden="true">↗</span> 공유하기
+          </button>
+          <button class="share-btn" data-share-copy>
+            <span aria-hidden="true">⧉</span> 주소 복사
+          </button>
+          <a class="share-btn" data-share-x target="_blank" rel="noopener noreferrer">
+            <span aria-hidden="true">𝕏</span> X에 올리기
+          </a>
+        </div>
+      </div>
+    )}
+
     {/* Tag pages only list public posts, so a private post links nowhere. */}
     {post.data.tags.length > 0 && (
       <div>
@@ -118,6 +159,24 @@ const cover = coverFor(post);
           {related.map((item) => <PostCard post={item} base={base} />)}
         </div>
       </div>
+    )}
+
+    {/* Newest-first order, so `prev` is the newer post and sits on the left. */}
+    {(prev || next) && (
+      <nav class="post-nav" aria-label="이웃 기록">
+        {prev ? (
+          <a href={`${base}/posts/${prev.id}`}>
+            <span class="mono">← 다음 기록</span>
+            <strong>{prev.data.title}</strong>
+          </a>
+        ) : <span />}
+        {next ? (
+          <a href={`${base}/posts/${next.id}`} class="post-nav-right">
+            <span class="mono">이전 기록 →</span>
+            <strong>{next.data.title}</strong>
+          </a>
+        ) : <span />}
+      </nav>
     )}
 
     <a class="plain-link" href={backHref}>{backLabel}</a>

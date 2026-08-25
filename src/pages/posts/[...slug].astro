@@ -8,13 +8,24 @@ import { getPublishedPosts, relatedPosts, socialImage, type Post } from '../../l
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const posts = await getPublishedPosts();
-  return posts.map((post) => ({
+  // The list is newest-first, so the entry before a post is the newer one.
+  return posts.map((post, i) => ({
     params: { slug: post.id },
-    props: { post, related: relatedPosts(post, posts) },
+    props: {
+      post,
+      related: relatedPosts(post, posts),
+      prev: posts[i - 1],
+      next: posts[i + 1],
+    },
   }));
 };
 
-const { post, related } = Astro.props as { post: Post; related: Post[] };
+const { post, related, prev, next } = Astro.props as {
+  post: Post;
+  related: Post[];
+  prev?: Post;
+  next?: Post;
+};
 const category = categoryOf(post.data.category);
 const origin = (Astro.site ?? new URL(Astro.url.origin)).origin;
 const url = `${origin}/posts/${post.id}`;
@@ -69,5 +80,5 @@ const schema = {
   modifiedTime={post.data.updated ?? post.data.date}
   postSlug={post.id}
 >
-  <PostArticle post={post} related={related} />
+  <PostArticle post={post} related={related} prev={prev} next={next} />
 </Base>

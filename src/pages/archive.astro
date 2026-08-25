@@ -7,6 +7,17 @@ import { collectTags, getPublishedPosts } from '../lib/posts';
 
 const posts = await getPublishedPosts();
 const tags = collectTags(posts).slice(0, 18);
+
+// Grouped by year so the list stays scannable as it grows. The posts are
+// already newest-first, so pushing in order keeps both the years and the
+// entries inside each year in the right sequence.
+const byYear = new Map<number, typeof posts>();
+for (const post of posts) {
+  const year = post.data.date.getFullYear();
+  if (!byYear.has(year)) byYear.set(year, []);
+  byYear.get(year)!.push(post);
+}
+const years = [...byYear.entries()];
 ---
 
 <Base title="기록" description="발행한 모든 기록을 최신순으로 모았습니다.">
@@ -32,9 +43,17 @@ const tags = collectTags(posts).slice(0, 18);
       </nav>
 
       {posts.length > 0 ? (
-        <div class="rows">
-          {posts.map((post, i) => <PostRow post={post} index={i} />)}
-        </div>
+        years.map(([year, list]) => (
+          <section class="year-group">
+            <h2 class="year-head">
+              <span>{year}</span>
+              <span class="mono">{list.length}편</span>
+            </h2>
+            <div class="rows">
+              {list.map((post, i) => <PostRow post={post} index={i} />)}
+            </div>
+          </section>
+        ))
       ) : (
         <div class="empty">
           <strong>아직 기록이 없습니다.</strong>

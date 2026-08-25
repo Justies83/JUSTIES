@@ -37,6 +37,13 @@ export const site = {
   // contacted, so fill this in before applying.
   contact: '',
 
+  // Google AdSense. Paste the publisher id here (the "ca-pub-0000000000000000"
+  // AdSense shows after it accepts the site) and two things switch on at once:
+  // the loader script in <head>, and /ads.txt — which Google checks to confirm
+  // this domain is allowed to sell its own inventory. An empty string ships
+  // neither, so nothing about ads reaches a reader until the id is real.
+  adsensePublisherId: '',
+
   nav: [
     { href: '/', label: '홈' },
     { href: '/archive', label: '기록' },

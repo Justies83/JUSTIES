@@ -602,3 +602,97 @@ em, i { font-style: italic; }
 /* ---------- badges on a post's meta row ---------- */
 .pill--draft { background: var(--coral); color: #fff; }
 .pill--private { background: var(--ink); color: var(--paper); }
+
+/* ---------- accessibility: skip to content ---------- */
+/* Off-screen until focused, so keyboard users get past the header in one tab. */
+.skip-link {
+  position: fixed; top: 0; left: 0; z-index: 200;
+  transform: translateY(-120%);
+  background: var(--ink); color: var(--paper);
+  padding: 0.7rem 1.1rem; border-radius: 0 0 10px 0;
+  font-size: 0.9rem;
+}
+.skip-link:focus-visible { transform: translateY(0); outline: 2px solid var(--teal); outline-offset: 2px; }
+
+/* ---------- reading progress ---------- */
+.read-progress {
+  position: fixed; inset: 0 0 auto 0; z-index: 90;
+  height: 2px; background: var(--teal);
+  transform: scaleX(0); transform-origin: 0 50%;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .read-progress { transition: transform 0.08s linear; }
+}
+
+/* ---------- back to top ---------- */
+.to-top {
+  position: fixed; right: 1.1rem; bottom: 1.4rem; z-index: 60;
+  width: 42px; height: 42px; border-radius: 50%; cursor: pointer;
+  border: 1px solid var(--line); background: var(--card); color: var(--ink);
+  font-size: 1rem; box-shadow: var(--shadow);
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+.to-top:hover { border-color: var(--teal); transform: translateY(-2px); }
+.to-top[hidden] { display: none; }
+/* The mobile dock already occupies that corner. */
+@media (max-width: 720px) { .to-top { bottom: 5.2rem; } }
+
+/* ---------- table of contents ---------- */
+.toc {
+  width: min(100%, var(--article)); margin: 0 auto 1.8rem;
+  border: 1px solid var(--line); border-left: 3px solid var(--teal);
+  border-radius: var(--radius); background: var(--card);
+  padding: 1rem 1.2rem;
+}
+.toc p.mono { margin: 0 0 0.5rem; font-size: 0.66rem; letter-spacing: 0.14em; color: var(--soft); }
+.toc ol { margin: 0; padding-left: 1.2rem; display: grid; gap: 0.35rem; }
+.toc li { font-size: 0.92rem; }
+.toc li::marker { color: var(--soft); font-family: var(--mono); font-size: 0.8rem; }
+.toc a { color: var(--ink); }
+.toc a:hover { color: var(--teal-dark); }
+
+/* Anchored headings need room below the fixed progress bar. */
+.prose :is(h2, h3) { scroll-margin-top: 1.5rem; }
+
+/* ---------- share row ---------- */
+.share { width: min(100%, var(--article)); margin: 0 auto; }
+.share p.mono { margin: 0 0 0.6rem; }
+.share-row { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.share-btn {
+  display: inline-flex; align-items: center; gap: 0.4rem;
+  font: inherit; font-size: 0.85rem; cursor: pointer;
+  padding: 0.45rem 0.9rem; border-radius: 999px;
+  border: 1px solid var(--line); background: var(--card); color: var(--ink);
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+.share-btn:hover { border-color: var(--teal); color: var(--teal-dark); }
+.share-btn[hidden] { display: none; }
+
+/* ---------- previous / next post ---------- */
+.post-nav {
+  width: min(100%, var(--article)); margin: 0 auto;
+  display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;
+  border-top: 1px solid var(--line); padding-top: 1.4rem;
+}
+.post-nav a { display: grid; gap: 0.3rem; align-content: start; }
+.post-nav .mono { font-size: 0.66rem; letter-spacing: 0.1em; color: var(--soft); }
+.post-nav strong {
+  font-family: var(--serif); font-size: 0.98rem; font-weight: 600; line-height: 1.35;
+  word-break: keep-all;
+}
+.post-nav a:hover strong { color: var(--teal-dark); }
+.post-nav-right { text-align: right; }
+@media (max-width: 560px) {
+  .post-nav { grid-template-columns: 1fr; }
+  .post-nav-right { text-align: left; }
+}
+
+/* ---------- archive, grouped by year ---------- */
+.year-group + .year-group { margin-top: 2.4rem; }
+.year-head {
+  display: flex; align-items: baseline; justify-content: space-between; gap: 1rem;
+  font-family: var(--mono); font-size: 0.78rem; letter-spacing: 0.14em;
+  color: var(--soft); font-weight: 400;
+  margin-bottom: 0.6rem;
+}
+.year-head span:first-child { font-size: 1.05rem; letter-spacing: 0.08em; color: var(--ink); }
