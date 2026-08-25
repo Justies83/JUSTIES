@@ -11,7 +11,16 @@ const label = `${(category?.en ?? 'NOTE').slice(0, 4).toUpperCase()} ${String(in
 ---
 
 <article class="row-item reveal" data-category={post.data.category} data-kind={post.data.kind}>
-  <a class="row-link" href={base + postUrl(post)}>
+  <a
+    class="row-link"
+    href={base + postUrl(post)}
+    data-peek-card
+    data-title={post.data.title}
+    data-takeaway={post.data.takeaway}
+    data-cover={cover}
+    data-cat={category?.label}
+    data-date={formatDate(post.data.date)}
+  >
     <span class="row-index">{label}</span>
     <span class="row-body">
       <span class="card-meta">

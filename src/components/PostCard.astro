@@ -9,7 +9,16 @@ const kind = kindOf(post.data.kind);
 const cover = coverFor(post);
 ---
 
-<a class:list={['card', 'reveal', { 'card-lead': lead }]} href={base + postUrl(post)}>
+<a
+  class:list={['card', 'reveal', { 'card-lead': lead }]}
+  href={base + postUrl(post)}
+  data-peek-card
+  data-title={post.data.title}
+  data-takeaway={post.data.takeaway}
+  data-cover={cover}
+  data-cat={category?.label}
+  data-date={formatDate(post.data.date)}
+>
   {cover ? (
     <div class="card-cover">
       <img src={cover} alt={post.data.coverAlt} loading="lazy" decoding="async" />

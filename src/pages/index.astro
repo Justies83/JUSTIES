@@ -79,19 +79,18 @@ const schema = {
 ---
 
 <Base schema={schema}>
-  <section class="shell hero">
-    <p class="eyebrow hero-eyebrow">{site.seal}</p>
-    <h1>질문을 모으고,<br /><i>생각을</i> 남깁니다.</h1>
-    <p class="hero-summary">{site.description}</p>
+  <section class="shell masthead">
+    <h1>{site.title}</h1>
+    <p>{site.description}</p>
   </section>
 
   <div class="shell">
     <section class="section" id="latest">
       <SectionHead
         eyebrow="LATEST"
-        title="최근에 쓴 글."
+        title="최근 글"
         linkHref="/archive"
-        linkLabel="전체 기록 보기"
+        linkLabel="전체 보기"
       />
 
       {lead ? (
@@ -118,7 +117,7 @@ const schema = {
     </section>
 
     <section class="section section-quiet" id="topics">
-      <SectionHead eyebrow="TOPICS" title="주제별로 읽기." linkHref="/topics" linkLabel="주제 전체" />
+      <SectionHead eyebrow="TOPICS" title="주제별로" linkHref="/topics" linkLabel="전체 주제" />
 
       <div class="topic-peek" data-topic-peek>
         <nav class="filters" aria-label="주제 이동">
@@ -150,6 +149,19 @@ const schema = {
         set:html={JSON.stringify(topicPosts)}
       />
     </section>
+  </div>
+
+  {/* Follows the pointer over a card or row. Cover, title, one-line summary
+      and a prompt — never the body, so it invites the click instead of
+      answering it. */}
+  <div class="hover-peek" id="hover-peek" hidden aria-hidden="true">
+    <div class="hover-peek-cover"><img alt="" /></div>
+    <div class="hover-peek-body">
+      <p class="mono"><span data-hp-cat></span> · <span data-hp-date></span></p>
+      <strong data-hp-title></strong>
+      <p data-hp-takeaway></p>
+      <span class="hover-peek-cta">눌러서 읽기 →</span>
+    </div>
   </div>
 </Base>
 
@@ -185,7 +197,7 @@ const schema = {
       if (!current) return;
       const topic = topics[current];
       if (!topic) return;
-      titleEl!.textContent = `${topic.label} — ${topic.posts.length}편`;
+      titleEl!.textContent = `${topic.label} 게시판 · ${topic.posts.length}편`;
 
       const list = [...topic.posts];
       // Falls back to the date order when a count is missing, so a post that
@@ -258,5 +270,62 @@ const schema = {
     });
 
     paintSortButtons();
+  }
+</script>
+
+<script>
+  // Enlarged preview on hover. Pointer devices only — a touch has no hover,
+  // and on a phone the card is already the size of the screen.
+  const peek = document.getElementById('hover-peek') as HTMLElement | null;
+  if (peek && matchMedia('(hover: hover)').matches) {
+    const img = peek.querySelector('img') as HTMLImageElement;
+    const coverBox = peek.querySelector('.hover-peek-cover') as HTMLElement;
+    const catEl = peek.querySelector('[data-hp-cat]')!;
+    const dateEl = peek.querySelector('[data-hp-date]')!;
+    const titleEl = peek.querySelector('[data-hp-title]')!;
+    const takeEl = peek.querySelector('[data-hp-takeaway]')!;
+
+    let raf = 0;
+    const place = (e: MouseEvent) => {
+      if (raf) return;
+      raf = requestAnimationFrame(() => {
+        raf = 0;
+        const pad = 16;
+        const w = peek.offsetWidth;
+        const h = peek.offsetHeight;
+        // Flip to whichever side has room, so it never runs off screen.
+        let x = e.clientX + pad;
+        if (x + w > innerWidth - pad) x = e.clientX - w - pad;
+        let y = e.clientY + pad;
+        if (y + h > innerHeight - pad) y = innerHeight - h - pad;
+        if (y < pad) y = pad;
+        peek.style.transform = `translate(${Math.max(pad, x)}px, ${y}px)`;
+      });
+    };
+
+    document.querySelectorAll('[data-peek-card]').forEach((el) => {
+      const card = el as HTMLElement;
+      card.addEventListener('mouseenter', (e) => {
+        const cover = card.dataset.cover;
+        if (cover) {
+          img.src = cover;
+          coverBox.hidden = false;
+        } else {
+          coverBox.hidden = true;
+        }
+        catEl.textContent = card.dataset.cat ?? '';
+        dateEl.textContent = card.dataset.date ?? '';
+        titleEl.textContent = card.dataset.title ?? '';
+        takeEl.textContent = card.dataset.takeaway ?? '';
+        peek.hidden = false;
+        place(e as MouseEvent);
+        requestAnimationFrame(() => peek.classList.add('is-open'));
+      });
+      card.addEventListener('mousemove', place as EventListener);
+      card.addEventListener('mouseleave', () => {
+        peek.classList.remove('is-open');
+        peek.hidden = true;
+      });
+    });
   }
 </script>

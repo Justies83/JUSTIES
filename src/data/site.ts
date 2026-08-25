@@ -3,9 +3,9 @@ export const site = {
   title: '제의 / JUSTIES',
   shortTitle: 'JUSTIES',
   seal: 'JUSTIES SHALL BE DONE.',
-  tagline: '질문을 모으고, 생각을 남깁니다.',
+  tagline: '매일 쓰는 기록',
   description:
-    '연구와 과학, 경제와 기술, 리뷰와 육아 사이에서 오래 들여다본 것을 기록하는 개인 아카이브입니다.',
+    '경제·산업, IT·기술, 과학, 국제 정세를 매일 정리합니다. 리뷰와 육아 기록도 함께 남깁니다.',
   keywords: [
     '제의',
     'JUSTIES',
@@ -51,25 +51,14 @@ export const site = {
     { href: '/about', label: '소개' },
   ],
 
-  // "지금 무엇을 보고 있나" — 완결된 글이 되기 전의 메모.
-  now: {
-    updated: '2026.08',
-    items: [
-      { verb: 'READING', text: '연구 재현성에 관한 긴 논문 한 편' },
-      { verb: 'TESTING', text: '작은 메모를 오래 남기는 도구들' },
-      { verb: 'WATCHING', text: 'AI 인프라와 전력 수요의 접점' },
-      { verb: 'COLLECTING', text: '작은 인터랙션과 경험 설계의 사례' },
-    ],
-  },
-
   principles: [
-    '직접 읽고, 확인한 것을 남깁니다.',
-    '사실과 해석을 구분합니다.',
-    '취향에도 이유를 붙입니다.',
+    '원문을 직접 열어 보고 씁니다.',
+    '사실과 제 해석을 따로 적습니다.',
+    '확인 못 한 것은 확인 못 했다고 적습니다.',
   ],
 
   disclaimers: [
-    '글에는 가능한 한 출처와 갱신일을 남깁니다.',
-    '시장 관련 기록은 연구·학습 목적이며 투자 권유가 아닙니다.',
+    '글에는 출처와 날짜를 남깁니다.',
+    '시장 관련 글은 기록이지 투자 권유가 아닙니다.',
   ],
 };

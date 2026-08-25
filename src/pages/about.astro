@@ -38,21 +38,5 @@ import { CATEGORIES, KINDS } from '../data/taxonomy';
       </div>
     </section>
 
-    <section class="section section-quiet" id="now">
-      <SectionHead
-        eyebrow="RIGHT NOW"
-        title="지금, 무엇을 보고 있나."
-        note={`완결된 글이 되기 전의 생각들. 매달 짧게 갱신합니다. (${site.now.updated} 기준)`}
-      />
-      <div class="now-list">
-        {site.now.items.map((item, i) => (
-          <div>
-            <span>{String(i + 1).padStart(2, '0')}</span>
-            <b>{item.verb}</b>
-            <i>{item.text}</i>
-          </div>
-        ))}
-      </div>
-    </section>
   </div>
 </Base>
