@@ -105,7 +105,7 @@ const schema = {
 
       {featured.length > 0 ? (
         <div class="bento bento-even">
-          {featured.map((post) => <PostCard post={post} />)}
+          {featured.map((post) => <PostCard post={post} peek={false} />)}
         </div>
       ) : (
         <div class="empty">

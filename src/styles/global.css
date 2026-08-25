@@ -258,8 +258,15 @@ em, i { font-style: italic; }
 /* Four same-size cards. Each grows on hover instead of one card starting
    bigger, so nothing shifts the row until the pointer actually lands. */
 .bento-even { grid-template-columns: repeat(4, minmax(0, 1fr)); position: relative; }
-.bento-even > .card { position: relative; z-index: 1; }
-.bento-even > .card:hover { z-index: 2; transform: scale(1.08); box-shadow: var(--shadow); }
+.bento-even > .card { position: relative; z-index: 1; transform-origin: center; }
+.bento-even > .card:hover {
+  z-index: 2;
+  transform: scale(1.12);
+  box-shadow: var(--shadow);
+}
+/* The tile has more room once it's enlarged, so the teaser can afford to
+   show a little more than the one line every other card is limited to. */
+.bento-even > .card:hover p { -webkit-line-clamp: 3; }
 @media (max-width: 880px) { .bento-even { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 560px) { .bento-even { grid-template-columns: 1fr; } }
 

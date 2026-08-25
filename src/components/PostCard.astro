@@ -2,8 +2,15 @@
 import { categoryOf, kindOf } from '../data/taxonomy';
 import { coverFor, formatDate, postUrl, type Post } from '../lib/posts';
 
-interface Props { post: Post; lead?: boolean; base?: '' | '/private'; }
-const { post, lead = false, base = '' } = Astro.props;
+interface Props {
+  post: Post;
+  lead?: boolean;
+  base?: '' | '/private';
+  /** The card itself grows on hover; skip the floating image+preview
+      popup that would otherwise fight it for the same real estate. */
+  peek?: boolean;
+}
+const { post, lead = false, base = '', peek = true } = Astro.props;
 const category = categoryOf(post.data.category);
 const kind = kindOf(post.data.kind);
 const cover = coverFor(post);
@@ -12,7 +19,7 @@ const cover = coverFor(post);
 <a
   class:list={['card', 'reveal', { 'card-lead': lead }]}
   href={base + postUrl(post)}
-  data-peek-card
+  data-peek-card={peek ? true : undefined}
   data-title={post.data.title}
   data-takeaway={post.data.takeaway}
   data-cover={cover}
