@@ -42,7 +42,7 @@ export const site = {
   // the loader script in <head>, and /ads.txt — which Google checks to confirm
   // this domain is allowed to sell its own inventory. An empty string ships
   // neither, so nothing about ads reaches a reader until the id is real.
-  adsensePublisherId: '',
+  adsensePublisherId: 'ca-pub-3148481877619822',
 
   nav: [
     { href: '/', label: '홈' },
