@@ -16,10 +16,22 @@ const ordered = [...posts].sort((a, b) => {
   return b.data.date.valueOf() - a.data.date.valueOf();
 });
 
-// Three posts and no more: one lead with two beside it. Everything older
-// lives in /archive, one click away.
-const [lead, ...rest] = ordered;
-const beside = rest.slice(0, 2);
+// Four, same size, and spread across sections where possible: one per
+// category first (newest of each), then the newest leftovers fill any
+// empty slots. Everything older lives in /archive, one click away.
+const featured: typeof ordered = [];
+const usedCategoryIds = new Set<string>();
+for (const post of ordered) {
+  if (featured.length >= 4) break;
+  if (usedCategoryIds.has(post.data.category)) continue;
+  usedCategoryIds.add(post.data.category);
+  featured.push(post);
+}
+for (const post of ordered) {
+  if (featured.length >= 4) break;
+  if (!featured.includes(post)) featured.push(post);
+}
+featured.sort((a, b) => ordered.indexOf(a) - ordered.indexOf(b));
 
 const countByCategory = (id: string) => posts.filter((p) => p.data.category === id).length;
 // A section with nothing in it is a dead link, so it is left out.
@@ -91,10 +103,9 @@ const schema = {
         linkLabel="전체 보기"
       />
 
-      {lead ? (
-        <div class="bento">
-          <PostCard post={lead} lead />
-          {beside.map((post) => <PostCard post={post} />)}
+      {featured.length > 0 ? (
+        <div class="bento bento-even">
+          {featured.map((post) => <PostCard post={post} />)}
         </div>
       ) : (
         <div class="empty">
