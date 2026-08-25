@@ -56,6 +56,12 @@ const cover = coverFor(post);
           <span>갱신 {formatDate(post.data.updated)}</span>
         </>
       )}
+      {!isPrivate && (
+        <>
+          <span aria-hidden="true">·</span>
+          <span id="post-views">···</span>
+        </>
+      )}
     </div>
     {cover && (
       <figure class="post-cover" style="margin:1.8rem 0 0">

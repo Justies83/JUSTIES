@@ -15,10 +15,15 @@
  * authentication the editor itself performs: this one decides who may see the
  * screen, GitHub decides who may write to the repository.
  *
+ * Also serves /api/hit — the site-wide and per-post view counters. That path
+ * is public (no password) and independent of ADMIN_PASSWORD, so it is handled
+ * before anything else in fetch().
+ *
  * Bindings (wrangler.toml)
  *   ASSETS           the static asset store
  *   ADMIN_PASSWORD   secret; also the HMAC key, so changing the password
  *                    immediately invalidates every existing session
+ *   COUNTERS         KV namespace for the view counters
  */
 
 const COOKIE = 'justies_admin';
@@ -165,9 +170,60 @@ function safeNext(value) {
   return typeof value === 'string' && isProtected(value) ? value : '/admin';
 }
 
+const HIT_PATH = '/api/hit';
+
+/** A post id looks like a filename — this is the same shape KV keys get built from. */
+function safeSlug(value) {
+  return typeof value === 'string' && /^[a-z0-9][a-z0-9-]{0,120}$/i.test(value) ? value : null;
+}
+
+/**
+ * GET reads the current counts without moving them; POST bumps site (and the
+ * post, if a slug is given) by one and returns the new totals. KV has no
+ * atomic increment, so this is a read-then-write — a burst of simultaneous
+ * hits can lose one of the two, which is fine for a personal-site counter and
+ * not something worth a Durable Object for.
+ */
+async function handleHit(request, env, url) {
+  if (!env.COUNTERS) {
+    return new Response(JSON.stringify({ error: 'COUNTERS binding missing' }), {
+      status: 503,
+      headers: { 'content-type': 'application/json', 'cache-control': 'no-store' },
+    });
+  }
+
+  let slug = safeSlug(url.searchParams.get('slug'));
+  const write = request.method === 'POST';
+  if (write && !slug) {
+    const body = await request.json().catch(() => null);
+    slug = safeSlug(body?.slug);
+  }
+
+  async function count(key) {
+    if (write) {
+      const next = Number((await env.COUNTERS.get(key)) || '0') + 1;
+      await env.COUNTERS.put(key, String(next));
+      return next;
+    }
+    return Number((await env.COUNTERS.get(key)) || '0');
+  }
+
+  const site = await count('site');
+  const post = slug ? await count(`post:${slug}`) : null;
+
+  return new Response(JSON.stringify({ site, post }), {
+    headers: { 'content-type': 'application/json', 'cache-control': 'no-store' },
+  });
+}
+
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
+
+    if (url.pathname === HIT_PATH) {
+      return handleHit(request, env, url);
+    }
+
     const password = env.ADMIN_PASSWORD;
 
     // Refuse rather than fall open if the secret was never set.

@@ -15,6 +15,8 @@ interface Props {
   modifiedTime?: Date;
   /** Set on pages that must never be indexed. */
   noindex?: boolean;
+  /** A post's id, so the view counter knows which post to bump. */
+  postSlug?: string;
 }
 
 const {
@@ -26,6 +28,7 @@ const {
   publishedTime,
   modifiedTime,
   noindex = false,
+  postSlug,
 } = Astro.props;
 const pageTitle = title ? `${title} — ${site.title}` : `${site.title} — 개인 아카이브`;
 const canonical = new URL(Astro.url.pathname, Astro.site ?? Astro.url).href;
@@ -87,7 +90,7 @@ const path = Astro.url.pathname.replace(/\/$/, '') || '/';
     </script>
   </head>
 
-  <body>
+  <body data-post-slug={postSlug}>
     <header class="site-header">
       <a class="brand" href="/" aria-label={`${site.title} 홈으로`}>
         <span class="brand-mark" aria-hidden="true">제</span>
@@ -133,7 +136,7 @@ const path = Astro.url.pathname.replace(/\/$/, '') || '/';
         <span aria-hidden="true"> · </span>
         <a class="plain-link" href="/private" rel="nofollow">숨김</a>
       </div>
-      <span class="mono">EST. {site.established}</span>
+      <span class="mono">누적 방문 <span id="site-visits">···</span> · EST. {site.established}</span>
     </footer>
 
     <nav class="mobile-dock" aria-label="빠른 탐색">
@@ -252,6 +255,32 @@ const path = Astro.url.pathname.replace(/\/$/, '') || '/';
       } else {
         targets.forEach((t) => t.classList.add('is-visible'));
       }
+
+      // View counters --------------------------------------------------------
+      // A session only ever bumps the same page once; a reload re-fetches the
+      // current totals with GET instead of counting itself again.
+      (async () => {
+        try {
+          const slug = document.body.dataset.postSlug || null;
+          const seenKey = `justies-hit:${location.pathname}`;
+          const alreadyCounted = sessionStorage.getItem(seenKey);
+          const qs = slug ? `?slug=${encodeURIComponent(slug)}` : '';
+          const res = await fetch(`/api/hit${qs}`, {
+            method: alreadyCounted ? 'GET' : 'POST',
+            headers: alreadyCounted ? undefined : { 'content-type': 'application/json' },
+            body: alreadyCounted ? undefined : JSON.stringify({ slug }),
+          });
+          if (!res.ok) return;
+          const data = await res.json();
+          if (!alreadyCounted) sessionStorage.setItem(seenKey, '1');
+
+          const siteEl = document.getElementById('site-visits');
+          if (siteEl && typeof data.site === 'number') siteEl.textContent = data.site.toLocaleString('ko-KR');
+
+          const postEl = document.getElementById('post-views');
+          if (postEl && typeof data.post === 'number') postEl.textContent = `조회 ${data.post.toLocaleString('ko-KR')}`;
+        } catch {}
+      })();
     </script>
   </body>
 </html>

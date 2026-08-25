@@ -67,6 +67,7 @@ const schema = {
   schema={schema}
   publishedTime={post.data.date}
   modifiedTime={post.data.updated ?? post.data.date}
+  postSlug={post.id}
 >
   <PostArticle post={post} related={related} />
 </Base>
