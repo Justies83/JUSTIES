@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="기존 HBM은 GPU 옆에 나란히 놓이지만, 삼성의 zHBM 개념은 HBM을 GPU 위에 수직으로 쌓아 올려 배선 거리를 줄인다는 비교 도식">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="50" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">SIDE BY SIDE, THEN STACKED</text>
+  <text x="60" y="78" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">HBM을 옆에 두는 대신, GPU 위에 그대로 쌓는다는 개념</text>
+
+  <!-- left: today's layout -->
+  <g transform="translate(80,140)">
+    <text x="100" y="-20" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">지금 — 나란히 배치</text>
+    <rect x="0" y="0" width="90" height="200" rx="6" fill="#fbf9f4" stroke="#16756a" stroke-width="2"/>
+    <text x="45" y="105" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#16756a">GPU</text>
+    <rect x="110" y="40" width="90" height="120" rx="4" fill="#fbf9f4" stroke="#e0795b" stroke-width="2"/>
+    <text x="155" y="105" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" fill="#e0795b">HBM</text>
+    <path d="M100 100 L108 100" stroke="#62655d" stroke-width="6"/>
+    <text x="100" y="230" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12" fill="#62655d">기판 위 배선으로 연결</text>
+  </g>
+
+  <!-- arrow -->
+  <path d="M340 240 L400 240" stroke="#62655d" stroke-width="2"/>
+  <path d="M390 232 L402 240 L390 248" fill="none" stroke="#62655d" stroke-width="2"/>
+
+  <!-- right: zHBM concept -->
+  <g transform="translate(560,100)">
+    <text x="70" y="-20" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#16756a">zHBM 개념 — 수직으로 적층</text>
+    <rect x="0" y="180" width="140" height="60" rx="6" fill="#fbf9f4" stroke="#16756a" stroke-width="2"/>
+    <text x="70" y="215" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#16756a">GPU</text>
+    <rect x="20" y="120" width="100" height="55" rx="4" fill="#fbf9f4" stroke="#e0795b" stroke-width="2"/>
+    <rect x="20" y="60" width="100" height="55" rx="4" fill="#fbf9f4" stroke="#e0795b" stroke-width="2"/>
+    <rect x="20" y="0" width="100" height="55" rx="4" fill="#fbf9f4" stroke="#e0795b" stroke-width="2"/>
+    <text x="70" y="30" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11" fill="#e0795b">HBM</text>
+    <text x="70" y="90" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11" fill="#e0795b">HBM</text>
+    <text x="70" y="150" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11" fill="#e0795b">HBM</text>
+    <text x="70" y="270" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12" fill="#62655d">GPU 바로 위, 수직 배선</text>
+  </g>
+
+  <text x="60" y="440" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">거리가 짧아지면 신호가 오가는 시간과 전력이 줄어든다는 것이 핵심 주장이다.</text>
+  <text x="60" y="462" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">아직 시제품이 아니라 컨셉 목업 — 양산 시점은 밝혀지지 않았다.</text>
+
+  <text x="60" y="500" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">Samsung Semiconductor 공식 발표(2026.08.04, FMS 2026) 내용을 바탕으로 단순화해 그렸다</text>
+</svg>

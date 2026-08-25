@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="삼성전자가 발표한 최대 110조원 주주환원 중 배당 30조원과 성과급용 자사주 15조원은 확정, 나머지 60조에서 80조원은 자사주 매입과 소각 여부가 내년 1월까지 미정이라는 막대 도표">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="50" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">RECORD PAYOUT, UNCERTAIN SHAPE</text>
+  <text x="60" y="78" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">최대 110조원 중, 시장이 기다리는 절반은 아직 정해지지 않았다</text>
+
+  <!-- stacked horizontal bar: total scale 110 => 780px wide, 1조 = ~7.09px -->
+  <!-- segments: dividend 30 (confirmed), employee buyback 15 (confirmed), undecided 60-80 (use 70 as midpoint, hatched) -->
+  <g transform="translate(60,180)">
+    <rect x="0" y="0" width="213" height="70" fill="#16756a"/>
+    <text x="106" y="30" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="17" fill="#fff">배당 30조</text>
+    <text x="106" y="52" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12" fill="#e8f2ef">확정 · 3분기 지급</text>
+
+    <rect x="217" y="0" width="106" height="70" fill="#16756a" opacity=".7"/>
+    <text x="270" y="30" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#fff">성과급 15조</text>
+    <text x="270" y="52" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="11" fill="#e8f2ef">확정 · 임직원용</text>
+
+    <rect x="327" y="0" width="497" height="70" fill="none" stroke="#e0795b" stroke-width="2" stroke-dasharray="6 5"/>
+    <text x="575" y="30" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="17" fill="#e0795b">60~80조 — 미정</text>
+    <text x="575" y="52" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12" fill="#62655d">자사주 매입 · 소각 여부, 내년 1월 이사회에서 결정</text>
+  </g>
+
+  <text x="60" y="340" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">시장이 실망한 건 액수가 아니라 순서였다 — 배당은 확정, '소각' 은 유보.</text>
+  <text x="60" y="364" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">주가는 소각 발표를 기다렸고, 발표 다음 거래일 —8.79%로 반응했다.</text>
+
+  <text x="60" y="480" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">발표 2026.08.21 · 주가 반응 2026.08.24 · 도표는 위 발표 내용으로 직접 작성했다</text>
+</svg>

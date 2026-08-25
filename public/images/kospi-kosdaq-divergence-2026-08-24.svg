@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="8월 24일 코스피는 3.12퍼센트 하락해 6696.96, 코스닥은 1.42퍼센트 상승해 813.33으로 마감했다는 막대 도표">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="50" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">DIVERGING MARKETS</text>
+  <text x="60" y="78" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">코스피는 무너지고, 코스닥은 2차전지로 버텼다 — 8월 24일 마감</text>
+
+  <line x1="60" y1="300" x2="840" y2="300" stroke="rgba(32,35,31,.16)"/>
+
+  <!-- KOSPI bar: down -3.12% -->
+  <rect x="220" y="300" width="140" height="110" fill="#e0795b"/>
+  <text x="290" y="330" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="24" fill="#fff">-3.12%</text>
+  <text x="290" y="270" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#62655d">6,696.96</text>
+  <text x="290" y="440" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">코스피</text>
+
+  <!-- KOSDAQ bar: up +1.42% -->
+  <rect x="540" y="250" width="140" height="50" fill="#16756a"/>
+  <text x="610" y="230" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="24" fill="#16756a">+1.42%</text>
+  <text x="610" y="200" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#62655d">813.33</text>
+  <text x="610" y="440" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">코스닥</text>
+
+  <text x="60" y="480" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">2026.08.24 종가 · 코스피는 삼성전자·삼성생명 등 대형주 낙폭, 코스닥은 에코프로비엠·에코프로 강세</text>
+  <text x="60" y="500" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">도표는 위 기사의 수치로 직접 작성했다</text>
+</svg>

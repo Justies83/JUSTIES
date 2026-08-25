@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="8월 21일 밤 협상 결렬, 미국이 캐나다산 200억달러 규모 제품에 50퍼센트 관세를 부과했고, 캐나다는 9월 8일부터 같은 규모로 맞대응 관세를 시행한다는 시간 흐름 도표">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="50" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">FROM TALKS TO TARIFFS</text>
+  <text x="60" y="78" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">협상 마감 직전 결렬 — 관세, 그리고 맞대응까지 18일</text>
+
+  <line x1="80" y1="260" x2="820" y2="260" stroke="rgba(32,35,31,.16)" stroke-width="2"/>
+
+  <!-- point 1: talks collapse -->
+  <circle cx="140" cy="260" r="7" fill="#e0795b"/>
+  <line x1="140" y1="253" x2="140" y2="200" stroke="#e0795b" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <text x="140" y="185" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">8.21 (금) 밤</text>
+  <text x="140" y="310" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#20231f">협상 결렬</text>
+  <text x="140" y="330" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="11" fill="#62655d">자정 마감 직전</text>
+
+  <!-- point 2: US tariff -->
+  <circle cx="420" cy="260" r="7" fill="#e0795b"/>
+  <line x1="420" y1="253" x2="420" y2="140" stroke="#e0795b" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <text x="420" y="125" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="24" fill="#e0795b">50%</text>
+  <text x="420" y="310" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#20231f">美, 캐나다산에 관세</text>
+  <text x="420" y="330" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="11" fill="#62655d">200억달러 규모 · 유제품·주류·시멘트 등</text>
+
+  <!-- point 3: retaliation -->
+  <circle cx="740" cy="260" r="7" fill="#16756a"/>
+  <line x1="740" y1="253" x2="740" y2="140" stroke="#16756a" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <text x="740" y="125" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="18" fill="#16756a">달러 대 달러</text>
+  <text x="740" y="185" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">9.8 (화)</text>
+  <text x="740" y="310" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#20231f">캐나다 맞대응 관세 시행</text>
+  <text x="740" y="330" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="11" fill="#62655d">철강·유제품·가전·농기계 등</text>
+
+  <text x="60" y="420" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">카니 총리: "공격받으면 전쟁 상태다. 우리는 공격받았다."</text>
+
+  <text x="60" y="480" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">NPR(2026.08.22, 08.23 갱신) 보도를 바탕으로 직접 작성했다</text>
+</svg>
