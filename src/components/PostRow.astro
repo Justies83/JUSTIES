@@ -1,6 +1,6 @@
 ---
 import { categoryOf, kindOf } from '../data/taxonomy';
-import { coverFor, formatDate, postUrl, readingTime, type Post } from '../lib/posts';
+import { coverFor, formatDate, postUrl, type Post } from '../lib/posts';
 
 interface Props { post: Post; index: number; base?: '' | '/private'; }
 const { post, index, base = '' } = Astro.props;
@@ -32,7 +32,7 @@ const label = `${(category?.en ?? 'NOTE').slice(0, 4).toUpperCase()} ${String(in
       <span class="row-foot">
         <span>{formatDate(post.data.date)}</span>
         <span aria-hidden="true">·</span>
-        <span>{readingTime(post.body)}분 읽기</span>
+        <span data-views-for={post.id}>조회수 ·</span>
         {post.data.tags.length > 0 && <span>{post.data.tags.map((t) => `#${t}`).join(' ')}</span>}
       </span>
     </span>

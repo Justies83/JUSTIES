@@ -358,7 +358,21 @@ const path = Astro.url.pathname.replace(/\/$/, '') || '/';
           if (siteEl && typeof data.site === 'number') siteEl.textContent = data.site.toLocaleString('ko-KR');
 
           const postEl = document.getElementById('post-views');
-          if (postEl && typeof data.post === 'number') postEl.textContent = `조회 ${data.post.toLocaleString('ko-KR')}`;
+          if (postEl && typeof data.post === 'number') postEl.textContent = `조회수 ${data.post.toLocaleString('ko-KR')}`;
+        } catch {}
+      })();
+
+      // Every listed post carries a slot for its own count. One request fills
+      // them all; if it never lands the rows simply keep their placeholder.
+      (async () => {
+        const slots = [...document.querySelectorAll('[data-views-for]')] as HTMLElement[];
+        if (!slots.length) return;
+        try {
+          const views = await (await fetch('/api/views')).json();
+          slots.forEach((el) => {
+            const n = views[el.dataset.viewsFor!] ?? 0;
+            el.textContent = `조회수 ${Number(n).toLocaleString('ko-KR')}`;
+          });
         } catch {}
       })();
     </script>

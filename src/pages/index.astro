@@ -1,7 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
 import PostCard from '../components/PostCard.astro';
-import PostRow from '../components/PostRow.astro';
 import SectionHead from '../components/SectionHead.astro';
 import { site } from '../data/site';
 import { CATEGORIES } from '../data/taxonomy';
@@ -17,11 +16,10 @@ const ordered = [...posts].sort((a, b) => {
   return b.data.date.valueOf() - a.data.date.valueOf();
 });
 
-// One lead, two beside it, then the rest as a list. Nothing repeats: every
-// slice below picks up where the last one stopped.
+// Three posts and no more: one lead with two beside it. Everything older
+// lives in /archive, one click away.
 const [lead, ...rest] = ordered;
 const beside = rest.slice(0, 2);
-const listed = rest.slice(2, 11);
 
 const countByCategory = (id: string) => posts.filter((p) => p.data.category === id).length;
 // A section with nothing in it is a dead link, so it is left out.
@@ -94,18 +92,10 @@ const schema = {
       />
 
       {lead ? (
-        <>
-          <div class="bento">
-            <PostCard post={lead} lead />
-            {beside.map((post) => <PostCard post={post} />)}
-          </div>
-
-          {listed.length > 0 && (
-            <div class="rows" style="margin-top:1.4rem">
-              {listed.map((post, i) => <PostRow post={post} index={i + beside.length + 1} />)}
-            </div>
-          )}
-        </>
+        <div class="bento">
+          <PostCard post={lead} lead />
+          {beside.map((post) => <PostCard post={post} />)}
+        </div>
       ) : (
         <div class="empty">
           <strong>첫 기록을 기다리고 있습니다.</strong>
@@ -117,7 +107,7 @@ const schema = {
     </section>
 
     <section class="section section-quiet" id="topics">
-      <SectionHead eyebrow="TOPICS" title="주제별로" linkHref="/topics" linkLabel="전체 주제" />
+      <SectionHead eyebrow="TOPICS" linkHref="/topics" linkLabel="전체 주제" />
 
       <div class="topic-peek" data-topic-peek>
         <nav class="filters" aria-label="주제 이동">
@@ -197,7 +187,7 @@ const schema = {
       if (!current) return;
       const topic = topics[current];
       if (!topic) return;
-      titleEl!.textContent = `${topic.label} 게시판 · ${topic.posts.length}편`;
+      titleEl!.textContent = `${topic.label} 게시판`;
 
       const list = [...topic.posts];
       // Falls back to the date order when a count is missing, so a post that

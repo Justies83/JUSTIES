@@ -62,12 +62,6 @@ export function formatDate(date: Date): string {
   return `${y}.${m}.${d}`;
 }
 
-/** Korean prose runs ~500 characters a minute; close enough for a hint. */
-export function readingTime(body: string | undefined): number {
-  const chars = (body ?? '').replace(/\s+/g, '').length;
-  return Math.max(1, Math.round(chars / 500));
-}
-
 export function collectTags(posts: Post[]): { tag: string; count: number }[] {
   const counts = new Map<string, number>();
   for (const post of posts) {

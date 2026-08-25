@@ -4,7 +4,7 @@
 import { render } from 'astro:content';
 import PostCard from './PostCard.astro';
 import { categoryOf, kindOf } from '../data/taxonomy';
-import { coverFor, formatDate, readingTime, type Post } from '../lib/posts';
+import { coverFor, formatDate, type Post } from '../lib/posts';
 
 interface Props {
   post: Post;
@@ -57,8 +57,6 @@ const cover = coverFor(post);
     <p class="post-lead">{post.data.takeaway}</p>
     <div class="post-meta">
       <time datetime={post.data.date.toISOString()}>{formatDate(post.data.date)}</time>
-      <span aria-hidden="true">·</span>
-      <span>{readingTime(post.body)}분 읽기</span>
       {post.data.updated && (
         <>
           <span aria-hidden="true">·</span>
