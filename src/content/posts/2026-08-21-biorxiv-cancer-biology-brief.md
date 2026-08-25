@@ -8,6 +8,7 @@ tags: [브리핑, 암생물학, 프리프린트, bioRxiv]
 source:
   name: bioRxiv (cancer biology, 2026-08-19)
   url: https://www.biorxiv.org/collection/cancer-biology
+visibility: private
 ---
 
 뉴스 기사가 아니라 **프리프린트 서버를 직접 훑은** 브리핑이다. 아래는 모두 8월 19일

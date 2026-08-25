@@ -5,6 +5,7 @@ category: science
 kind: news
 takeaway: 췌장암 표적 프로바이오틱, Galleri 다중암 혈액검사 시험 결과, 은나노입자 DNA 조립, 모체 연령의 후성유전, KRISS 오가노이드 독성평가.
 tags: [브리핑, 생명과학, 논문]
+visibility: private
 ---
 
 매주 월·목, 최근 가장 많이 언급된 생명과학 뉴스 5개를 간단히 정리합니다. 자세한 내용은 각 링크에서 확인하세요.

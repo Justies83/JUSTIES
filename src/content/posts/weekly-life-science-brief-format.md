@@ -8,6 +8,7 @@ tags: [브리핑, 생명과학, 형식]
 source:
   name: 예시 링크 (항목마다 따로 적습니다)
   url: https://example.com/
+visibility: private
 ---
 
 뉴스를 모아 적는 글은 형식이 반이다. 매번 다르게 쓰면 나중에 비교할 수 없고,
