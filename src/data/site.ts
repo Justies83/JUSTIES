@@ -35,7 +35,7 @@ export const site = {
   // Shown on /privacy when set. Left empty on purpose — publishing an address
   // is a decision for its owner, not a default. AdSense wants a way to be
   // contacted, so fill this in before applying.
-  contact: '',
+  contact: 'justrnafather@gmail.com',
 
   // Google AdSense. Paste the publisher id here (the "ca-pub-0000000000000000"
   // AdSense shows after it accepts the site) and two things switch on at once:

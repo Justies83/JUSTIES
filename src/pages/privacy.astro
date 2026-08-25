@@ -3,7 +3,7 @@ import Base from '../layouts/Base.astro';
 import SectionHead from '../components/SectionHead.astro';
 import { site } from '../data/site';
 
-const updated = '2026-08-21';
+const updated = '2026-08-25';
 ---
 
 <Base
@@ -38,6 +38,12 @@ const updated = '2026-08-21';
             <strong>관리자 세션</strong> — 운영자가 편집 화면이나 비공개 영역에
             로그인할 때만 쿠키가 발급됩니다. 일반 방문에는 발급되지 않습니다.
           </li>
+          <li>
+            <strong>조회 기록</strong> — 같은 글을 새로고침할 때 조회수가 중복으로
+            올라가지 않도록, 이번 방문에서 어떤 페이지를 이미 셌는지를 브라우저의
+            세션 저장소에 남깁니다. 탭을 닫으면 사라지며, 이 값 자체는 서버로
+            전송되지 않습니다.
+          </li>
         </ul>
 
         <h2>제3자에게 전달되는 요청</h2>
@@ -52,13 +58,35 @@ const updated = '2026-08-21';
             브라우저가 Google의 서버에 요청을 보냅니다. 이 과정에서 IP 주소가
             Google에 전달됩니다.
           </li>
+          <li>
+            <strong>Google AdSense</strong> — 이 사이트는 Google AdSense로 광고를
+            게재합니다. Google을 포함한 제3자 공급업체는 쿠키를 사용해 방문자가
+            이 사이트나 다른 사이트를 방문한 기록을 바탕으로 광고를 게재할 수
+            있습니다. 방문자는
+            <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener noreferrer">
+              Google 광고 설정
+            </a>
+            에서 맞춤 광고를 사용 중지할 수 있고,
+            <a href="https://www.aboutads.info/choices/" target="_blank" rel="noopener noreferrer">
+              aboutads.info
+            </a>
+            에서 제3자 공급업체의 쿠키 사용을 함께 거부할 수 있습니다.
+          </li>
         </ul>
+
+        <h2>조회수 집계</h2>
+        <p>
+          페이지가 열린 횟수를 세어 사이트 누적 방문 수와 글별 조회수를 보여 줍니다.
+          집계되는 것은 <strong>숫자뿐</strong>이며, 누가 읽었는지를 구분하거나
+          방문자별 기록을 남기지 않습니다. IP 주소·기기 정보·유입 경로를 저장하지
+          않고, 집계 값은 이 사이트를 전달하는 Cloudflare의 저장소에 보관됩니다.
+        </p>
 
         <h2>지금 쓰지 않는 것</h2>
         <p>
-          이 글을 갱신한 시점 기준으로 <strong>방문자 분석 도구와 광고를 쓰지
-          않습니다.</strong> 나중에 도입하면 이 문서를 먼저 고치고, 어떤 도구가
-          어떤 정보를 다루는지 여기에 적겠습니다.
+          이 글을 갱신한 시점 기준으로 <strong>방문자 분석 도구(Google Analytics
+          등)를 쓰지 않습니다.</strong> 나중에 도입하면 이 문서를 먼저 고치고, 어떤
+          도구가 어떤 정보를 다루는지 여기에 적겠습니다.
         </p>
 
         <h2>글의 내용에 대하여</h2>
