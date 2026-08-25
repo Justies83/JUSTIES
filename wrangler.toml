@@ -27,7 +27,7 @@ not_found_handling = "404-page"
 # through the worker. Every public page is served straight from the asset
 # store, so the script never touches that traffic. Keep the first two in step
 # with PROTECTED, and /api/hit with HIT_PATH, in gate/index.js.
-run_worker_first = ["/admin", "/admin/*", "/private", "/private/*", "/api/hit"]
+run_worker_first = ["/admin", "/admin/*", "/private", "/private/*", "/api/hit", "/api/views"]
 
 # Site-wide and per-post view counters (gate/index.js handles /api/hit).
 [[kv_namespaces]]

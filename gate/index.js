@@ -171,6 +171,8 @@ function safeNext(value) {
 }
 
 const HIT_PATH = '/api/hit';
+const VIEWS_PATH = '/api/views';
+const INDEX_KEY = 'views:index';
 
 /** A post id looks like a filename — this is the same shape KV keys get built from. */
 function safeSlug(value) {
@@ -211,7 +213,30 @@ async function handleHit(request, env, url) {
   const site = await count('site');
   const post = slug ? await count(`post:${slug}`) : null;
 
+  // One key holding every post's count, so /api/views is a single read.
+  // list() metadata was the obvious alternative and turned out to lag by
+  // roughly a minute — long enough that a fresh sort showed all zeros.
+  if (write && slug && post !== null) {
+    const all = JSON.parse((await env.COUNTERS.get(INDEX_KEY)) || '{}');
+    all[slug] = post;
+    await env.COUNTERS.put(INDEX_KEY, JSON.stringify(all));
+  }
+
   return new Response(JSON.stringify({ site, post }), {
+    headers: { 'content-type': 'application/json', 'cache-control': 'no-store' },
+  });
+}
+
+/**
+ * Every post's view count in one object, for the topic previews on the home
+ * page. A single read of the aggregate key that /api/hit maintains — the
+ * per-post `post:<slug>` keys stay authoritative, this is the index over them.
+ */
+async function handleViews(env) {
+  if (!env.COUNTERS) return new Response('{}', { headers: { 'content-type': 'application/json' } });
+
+  const body = (await env.COUNTERS.get(INDEX_KEY)) || '{}';
+  return new Response(body, {
     headers: { 'content-type': 'application/json', 'cache-control': 'no-store' },
   });
 }
@@ -222,6 +247,9 @@ export default {
 
     if (url.pathname === HIT_PATH) {
       return handleHit(request, env, url);
+    }
+    if (url.pathname === VIEWS_PATH) {
+      return handleViews(env);
     }
 
     const password = env.ADMIN_PASSWORD;

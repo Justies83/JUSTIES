@@ -27,6 +27,26 @@ const countByCategory = (id: string) => posts.filter((p) => p.data.category === 
 // A section with nothing in it is a dead link, so it is left out.
 const usedCategories = CATEGORIES.filter((c) => countByCategory(c.id) > 0);
 
+// Everything the hover panel needs, grouped by category and already in
+// newest-first order. Sorting by views happens in the browser once the counts
+// arrive, so the default order works even if that request never lands.
+const topicPosts = Object.fromEntries(
+  usedCategories.map((category) => [
+    category.id,
+    {
+      label: category.label,
+      href: `/topics/${category.id}`,
+      posts: posts
+        .filter((p) => p.data.category === category.id)
+        .map((p) => ({
+          id: p.id,
+          title: p.data.title,
+          date: p.data.date.toISOString().slice(0, 10).replace(/-/g, '.'),
+        })),
+    },
+  ])
+);
+
 const origin = (Astro.site ?? new URL(Astro.url.origin)).origin;
 const schema = {
   '@context': 'https://schema.org',
@@ -99,13 +119,144 @@ const schema = {
 
     <section class="section section-quiet" id="topics">
       <SectionHead eyebrow="TOPICS" title="주제별로 읽기." linkHref="/topics" linkLabel="주제 전체" />
-      <nav class="filters" aria-label="주제 이동">
-        {usedCategories.map((category) => (
-          <a class="chip" href={`/topics/${category.id}`}>
-            {category.label} {countByCategory(category.id)}
-          </a>
-        ))}
-      </nav>
+
+      <div class="topic-peek" data-topic-peek>
+        <nav class="filters" aria-label="주제 이동">
+          {usedCategories.map((category) => (
+            <a class="chip" href={`/topics/${category.id}`} data-topic={category.id}>
+              {category.label} {countByCategory(category.id)}
+            </a>
+          ))}
+        </nav>
+
+        {/* Hidden until a chip is pointed at or focused. Populated from the
+            JSON below, so no request is needed to open it. */}
+        <div class="peek-panel" data-peek-panel hidden>
+          <div class="peek-head">
+            <strong data-peek-title></strong>
+            <div class="peek-sorts" role="group" aria-label="정렬 기준">
+              <button type="button" class="peek-sort" data-sort="date" aria-pressed="true">최신순</button>
+              <button type="button" class="peek-sort" data-sort="views" aria-pressed="false">조회순</button>
+            </div>
+          </div>
+          <ol class="peek-list" data-peek-list></ol>
+        </div>
+      </div>
+
+      <script
+        type="application/json"
+        data-topic-posts
+        is:inline
+        set:html={JSON.stringify(topicPosts)}
+      />
     </section>
   </div>
 </Base>
+
+<script>
+  // Topic previews: point at (or focus, or tap) a chip and the panel lists
+  // that topic's posts. Newest-first by default; the 조회순 toggle re-sorts
+  // once /api/views has answered, and is remembered per browser.
+  type Entry = { id: string; title: string; date: string };
+  type Topic = { label: string; href: string; posts: Entry[] };
+
+  const root = document.querySelector('[data-topic-peek]');
+  const dataEl = document.querySelector('[data-topic-posts]');
+  const panel = document.querySelector('[data-peek-panel]') as HTMLElement | null;
+  const titleEl = document.querySelector('[data-peek-title]');
+  const listEl = document.querySelector('[data-peek-list]');
+
+  if (root && dataEl && panel && titleEl && listEl) {
+    const topics: Record<string, Topic> = JSON.parse(dataEl.textContent || '{}');
+    let views: Record<string, number> | null = null;
+    let current: string | null = null;
+    let sort: 'date' | 'views' = 'date';
+    try {
+      const saved = localStorage.getItem('justies-topic-sort');
+      if (saved === 'views' || saved === 'date') sort = saved;
+    } catch {}
+
+    const sortButtons = [...root.querySelectorAll('[data-sort]')] as HTMLButtonElement[];
+    const paintSortButtons = () => {
+      sortButtons.forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.sort === sort)));
+    };
+
+    function render() {
+      if (!current) return;
+      const topic = topics[current];
+      if (!topic) return;
+      titleEl!.textContent = `${topic.label} — ${topic.posts.length}편`;
+
+      const list = [...topic.posts];
+      // Falls back to the date order when a count is missing, so a post that
+      // has never been opened still sits somewhere sensible.
+      if (sort === 'views' && views) {
+        list.sort((a, b) => (views![b.id] ?? 0) - (views![a.id] ?? 0));
+      }
+
+      listEl!.innerHTML = list
+        .map((p) => {
+          const n = views?.[p.id];
+          const badge =
+            sort === 'views' && typeof n === 'number'
+              ? `<span class="peek-views">${n.toLocaleString('ko-KR')}회</span>`
+              : `<span class="peek-date">${p.date}</span>`;
+          return `<li><a href="/posts/${p.id}"><span>${p.title}</span>${badge}</a></li>`;
+        })
+        .join('');
+    }
+
+    function open(id: string) {
+      current = id;
+      panel!.hidden = false;
+      render();
+    }
+    function close() {
+      panel!.hidden = true;
+      current = null;
+    }
+
+    // Counts are only needed for the 조회순 view, so they are fetched once, on
+    // the first interaction, rather than on every page load.
+    async function ensureViews() {
+      if (views) return;
+      try {
+        views = await (await fetch('/api/views')).json();
+      } catch {
+        views = {};
+      }
+    }
+
+    root.querySelectorAll('[data-topic]').forEach((chip) => {
+      const id = (chip as HTMLElement).dataset.topic!;
+      chip.addEventListener('mouseenter', () => { open(id); ensureViews().then(render); });
+      chip.addEventListener('focus', () => { open(id); ensureViews().then(render); });
+      // A touch has no hover: the first tap opens the preview, and the link
+      // only follows on a second tap.
+      chip.addEventListener('click', (e) => {
+        if (matchMedia('(hover: hover)').matches) return;
+        if (current !== id) {
+          e.preventDefault();
+          open(id);
+          ensureViews().then(render);
+        }
+      });
+    });
+
+    root.addEventListener('mouseleave', () => {
+      if (matchMedia('(hover: hover)').matches) close();
+    });
+
+    sortButtons.forEach((b) => {
+      b.addEventListener('click', async () => {
+        sort = b.dataset.sort as 'date' | 'views';
+        try { localStorage.setItem('justies-topic-sort', sort); } catch {}
+        paintSortButtons();
+        await ensureViews();
+        render();
+      });
+    });
+
+    paintSortButtons();
+  }
+</script>
