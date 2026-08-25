@@ -106,6 +106,7 @@ const path = Astro.url.pathname.replace(/\/$/, '') || '/';
     {type === 'article' && <div class="read-progress" id="read-progress" aria-hidden="true"></div>}
 
     <header class="site-header">
+      <div class="bar-inner">
       <a class="brand" href="/" aria-label={`${site.title} 홈으로`}>
         <span class="brand-mark" aria-hidden="true">제</span>
         <span class="brand-type">
@@ -128,6 +129,7 @@ const path = Astro.url.pathname.replace(/\/$/, '') || '/';
           <span data-theme-icon aria-hidden="true">◐</span>
         </button>
       </div>
+      </div>
     </header>
 
     <main id="main">
@@ -135,6 +137,7 @@ const path = Astro.url.pathname.replace(/\/$/, '') || '/';
     </main>
 
     <footer class="site-footer">
+      <div class="bar-inner">
       <div>
         <span class="mono">{site.shortTitle} ARCHIVE</span>
         <p style="margin:0">{CATEGORIES.map((c) => c.en).join(' · ')}</p>
@@ -151,6 +154,7 @@ const path = Astro.url.pathname.replace(/\/$/, '') || '/';
         <a class="plain-link" href="/private" rel="nofollow">숨김</a>
       </div>
       <span class="mono">누적 방문 <span id="site-visits">···</span> · EST. {site.established}</span>
+      </div>
     </footer>
 
     <nav class="mobile-dock" aria-label="빠른 탐색">

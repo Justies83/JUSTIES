@@ -149,15 +149,26 @@ em, i { font-style: italic; }
 .plain-link:hover { color: var(--teal-dark); border-color: var(--teal); }
 
 /* ---------- header ---------- */
-.site-header {
-  position: sticky;
-  top: 0;
-  z-index: 40;
+/* The header and footer run edge to edge, but what sits inside them shares
+   the page column — otherwise the logo sat 48px left of every heading below
+   it, which is exactly what it looked like. */
+.bar-inner {
+  width: 100%;
+  max-width: var(--shell);
+  margin-inline: auto;
+  padding-inline: var(--step);
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  padding: 0.85rem var(--step);
+  flex-wrap: wrap;
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  padding: 0.85rem 0;
   border-bottom: 1px solid var(--line);
   background: color-mix(in srgb, var(--paper) 88%, transparent);
   backdrop-filter: blur(10px);
@@ -195,7 +206,7 @@ em, i { font-style: italic; }
 
 /* ---------- hero ---------- */
 .hero {
-  padding: clamp(2.5rem, 7vw, 5rem) 0 0;
+  padding-block: clamp(2.5rem, 7vw, 5rem) 0;
 }
 .hero h1 { margin: 0.8rem 0 1rem; }
 .hero h1 i { color: var(--teal-dark); }
@@ -416,8 +427,7 @@ em, i { font-style: italic; }
 
 /* ---------- footer ---------- */
 .site-footer {
-  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;
-  gap: 1rem; padding: 2.5rem var(--step) 4.5rem;
+  padding-block: 2.5rem 4.5rem;
   border-top: 1px solid var(--line); color: var(--soft); font-size: 0.85rem;
 }
 .site-footer .mono { display: block; margin-bottom: 0.2rem; color: var(--ink); }
@@ -639,7 +649,7 @@ em, i { font-style: italic; }
 
 /* ---------- table of contents ---------- */
 .toc {
-  width: min(100%, var(--article)); margin: 0 auto 1.8rem;
+  max-width: var(--article); margin: 0 0 1.8rem;
   border: 1px solid var(--line); border-left: 3px solid var(--teal);
   border-radius: var(--radius); background: var(--card);
   padding: 1rem 1.2rem;
@@ -655,7 +665,7 @@ em, i { font-style: italic; }
 .prose :is(h2, h3) { scroll-margin-top: 1.5rem; }
 
 /* ---------- share row ---------- */
-.share { width: min(100%, var(--article)); margin: 0 auto; }
+.share { max-width: var(--article); }
 .share p.mono { margin: 0 0 0.6rem; }
 .share-row { display: flex; flex-wrap: wrap; gap: 0.5rem; }
 .share-btn {
@@ -670,7 +680,7 @@ em, i { font-style: italic; }
 
 /* ---------- previous / next post ---------- */
 .post-nav {
-  width: min(100%, var(--article)); margin: 0 auto;
+  max-width: var(--article);
   display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;
   border-top: 1px solid var(--line); padding-top: 1.4rem;
 }
@@ -736,7 +746,7 @@ em, i { font-style: italic; }
 .peek-views { color: var(--teal-dark); }
 
 /* ---------- masthead (home) ---------- */
-.masthead { padding: clamp(2.2rem, 6vw, 4rem) 0 clamp(1rem, 3vw, 1.6rem); }
+.masthead { padding-block: clamp(2.2rem, 6vw, 4rem) clamp(1rem, 3vw, 1.6rem); }
 .masthead h1 { font-size: clamp(1.9rem, 4.6vw, 2.9rem); }
 .masthead p { margin: 0.8rem 0 0; max-width: 38rem; color: var(--soft); }
 
@@ -774,6 +784,27 @@ em, i { font-style: italic; }
 
 /* ---------- back to home from a post ---------- */
 .post-back {
-  width: min(100%, var(--article)); margin: 0 auto;
+  max-width: var(--article);
   display: flex; flex-wrap: wrap; align-items: center; gap: 1rem;
 }
+
+/* ---------- teaser length ---------- */
+/* Cards and rows show a fragment, not the summary. One line, cut with an
+   ellipsis: enough to tell what the post is, short enough that reading it
+   is not a substitute for opening it. The hover preview shows the rest. */
+.card p,
+.card-lead p,
+.row-body p {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+/* The lead card gets the same single line. Two lines happened to fit its
+   whole summary, which is exactly the giveaway this clamp exists to stop —
+   its cover and title already carry the weight. */
+.card-lead p { -webkit-line-clamp: 1; }
+
+/* The hover preview is where the summary actually gets room. */
+.hover-peek-body p:not(.mono) { -webkit-line-clamp: 4; }
+.hover-peek { width: 23rem; }
