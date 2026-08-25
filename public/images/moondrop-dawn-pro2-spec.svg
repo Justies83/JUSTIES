@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="Moondrop Dawn Pro 2 주요 사양 — 듀얼 CS43198 DAC, 124+124mW 출력, 132dB 다이내믹 레인지, 8밴드 EQ, 59달러">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">MOONDROP · DAWN PRO 2</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="19" fill="#20231f">USB-C DAC/AMP 동글 — 실사용 + 스펙</text>
+
+  <g font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14.5" fill="#20231f">
+    <line x1="60" y1="130" x2="840" y2="130" stroke="rgba(32,35,31,.16)"/>
+    <text x="60" y="164">DAC 칩</text><text x="500" y="164" font-family="'IBM Plex Mono',ui-monospace,monospace" fill="#16756a">듀얼 Cirrus Logic CS43198</text>
+    <line x1="60" y1="182" x2="840" y2="182" stroke="rgba(32,35,31,.16)"/>
+    <text x="60" y="216">출력</text><text x="500" y="216" font-family="'IBM Plex Mono',ui-monospace,monospace" fill="#16756a">124+124mW @16Ω (SE)</text>
+    <line x1="60" y1="234" x2="840" y2="234" stroke="rgba(32,35,31,.16)"/>
+    <text x="60" y="268">다이내믹 레인지</text><text x="500" y="268" font-family="'IBM Plex Mono',ui-monospace,monospace" fill="#16756a">132dB @1kHz</text>
+    <line x1="60" y1="286" x2="840" y2="286" stroke="rgba(32,35,31,.16)"/>
+    <text x="60" y="320">단자</text><text x="500" y="320" font-family="'IBM Plex Mono',ui-monospace,monospace" fill="#16756a">3.5mm 단일단 · 4.4mm 밸런스드</text>
+    <line x1="60" y1="338" x2="840" y2="338" stroke="rgba(32,35,31,.16)"/>
+    <text x="60" y="372">튜닝</text><text x="500" y="372" font-family="'IBM Plex Mono',ui-monospace,monospace" fill="#16756a">8밴드 파라메트릭 EQ (앱)</text>
+    <line x1="60" y1="390" x2="840" y2="390" stroke="rgba(32,35,31,.16)"/>
+    <text x="60" y="424">가격(출시)</text><text x="500" y="424" font-family="'IBM Plex Mono',ui-monospace,monospace" fill="#e0795b">$59</text>
+    <line x1="60" y1="442" x2="840" y2="442" stroke="rgba(32,35,31,.16)"/>
+  </g>
+
+  <text x="60" y="480" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">제품 사진은 저작권 문제로 싣지 않았다 — 공식 페이지 링크로 대신한다</text>
+  <text x="60" y="500" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">MOONDROP 공식 스펙 · 도표는 직접 작성했다</text>
+</svg>
