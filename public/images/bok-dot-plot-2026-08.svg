@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="한국은행 금통위원 6개월 후 기준금리 전망 점도표: 3.00%에 5명, 3.25%에 10명, 3.50%에 6명">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="64" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="26" font-weight="600" fill="#20231f">금통위원 6개월 후 기준금리 전망 (2026.08.27)</text>
+  <text x="60" y="92" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#62655d">위원 7명이 각자 제시한 점, 현재 기준금리 3.00% 기준</text>
+
+  <!-- axis -->
+  <line x1="120" y1="440" x2="780" y2="440" stroke="#20231f" stroke-width="1.5"/>
+
+  <!-- columns: 3.00 (5), 3.25 (10 - capped by count of committee, but article states 10 dots so treat as vote-weighted score, not headcount) -->
+  <!-- x positions for three rate levels -->
+  <!-- 3.00% -->
+  <text x="220" y="470" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="18" fill="#20231f">3.00%</text>
+  <text x="220" y="494" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">5점</text>
+  <g fill="#62655d">
+    <circle cx="220" cy="410" r="12"/>
+    <circle cx="220" cy="380" r="12"/>
+    <circle cx="220" cy="350" r="12"/>
+    <circle cx="220" cy="320" r="12"/>
+    <circle cx="220" cy="290" r="12"/>
+  </g>
+
+  <!-- 3.25% -->
+  <text x="450" y="470" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="18" fill="#20231f" font-weight="600">3.25%</text>
+  <text x="450" y="494" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#16756a" font-weight="600">10점 · 최다</text>
+  <g fill="#16756a">
+    <circle cx="450" cy="410" r="12"/>
+    <circle cx="450" cy="380" r="12"/>
+    <circle cx="450" cy="350" r="12"/>
+    <circle cx="450" cy="320" r="12"/>
+    <circle cx="450" cy="290" r="12"/>
+    <circle cx="450" cy="260" r="12"/>
+    <circle cx="450" cy="230" r="12"/>
+    <circle cx="450" cy="200" r="12"/>
+    <circle cx="450" cy="170" r="12"/>
+    <circle cx="450" cy="140" r="12"/>
+  </g>
+
+  <!-- 3.50% -->
+  <text x="680" y="470" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="18" fill="#20231f">3.50%</text>
+  <text x="680" y="494" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#e0795b">6점</text>
+  <g fill="#e0795b">
+    <circle cx="680" cy="410" r="12"/>
+    <circle cx="680" cy="380" r="12"/>
+    <circle cx="680" cy="350" r="12"/>
+    <circle cx="680" cy="320" r="12"/>
+    <circle cx="680" cy="290" r="12"/>
+    <circle cx="680" cy="260" r="12"/>
+  </g>
+
+  <text x="450" y="120" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#62655d">21점 중 16점(76%)이 추가 인상(3.25% 이상)을 가리킴</text>
+
+  <text x="60" y="503" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" fill="#62655d">2026.08.27 금통위 결과 발표 보도자료 기준, 점 배분 방식은 원문에 명시되지 않음</text>
+</svg>
