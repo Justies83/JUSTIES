@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="삼성생명 8.51%와 삼성화재 1.49%를 더한 10.00%가 금산법 10% 한도에 정확히 맞춰져 있음을 보여주는 막대 도표">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="64" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="26" font-weight="600" fill="#20231f">금융계열사의 삼성전자 보통주 지분 (2026.06 말)</text>
+  <text x="60" y="92" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#62655d">금산법 10% 한도에 정확히 맞춰진 상태 — 추가 소각 시 자동으로 초과</text>
+
+  <!-- bar chart: horizontal stacked bar -->
+  <!-- track -->
+  <rect x="120" y="220" width="660" height="72" fill="none" stroke="#20231f" stroke-width="1.5"/>
+  <!-- 삼성생명 8.51% -->
+  <rect x="120" y="220" width="561.66" height="72" fill="#16756a"/>
+  <!-- 삼성화재 1.49% -->
+  <rect x="681.66" y="220" width="98.34" height="72" fill="#e0795b"/>
+
+  <!-- 10% limit line -->
+  <line x1="780" y1="180" x2="780" y2="330" stroke="#20231f" stroke-width="2" stroke-dasharray="6 5"/>
+  <text x="780" y="168" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" font-weight="600" fill="#20231f">금산법 한도 10.00%</text>
+
+  <!-- labels -->
+  <text x="400" y="262" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="20" font-weight="600" fill="#f4f1ea">삼성생명 8.51%</text>
+  <text x="730" y="245" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" font-weight="600" fill="#f4f1ea">화재</text>
+  <text x="730" y="262" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" font-weight="600" fill="#f4f1ea">1.49%</text>
+
+  <text x="450" y="370" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">합계 10.00% — 보통주를 더 소각하면 분모(발행주식 수)가 줄어</text>
+  <text x="450" y="392" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">두 회사 지분율이 한도 위로 자동으로 올라간다</text>
+
+  <text x="60" y="503" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" fill="#62655d">2026.08.24 디지털타임스 보도(2026년 6월 말 기준 지분율) · 도표는 위 수치로 직접 작성</text>
+</svg>
