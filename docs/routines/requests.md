@@ -28,6 +28,22 @@ node scripts/pending-requests.mjs
 작업 브랜치는 `claude/personal-editable-homepage-31hofg` 이다.
 사이트가 배포되는 유일한 브랜치이므로 다른 곳에 커밋하면 글이 올라가지 않는다.
 
+## push 권한 확보 — 가장 먼저 할 일
+
+글을 쓰기 전에 이것부터 한다. `add_repo` 도구를 아래 값으로 호출한다.
+
+- owner: `Justies83`
+- repo: `JUSTIES`
+- access: `push`
+
+이 저장소는 이미 클론돼 있어 **읽기는 되지만**, 실제로 커밋을 push하려면
+이 호출로 **쓰기 권한을 따로** 받아야 한다. 이 호출을 빠뜨리면 글을 다
+쓰고도 push가 "저장소가 세션의 허용 목록에 없다(access denied by the git
+proxy)"는 오류로 거부된다.
+
+이 호출이 실패하거나 거부되면 **글을 쓰기 시작하지 않는다.** 그 사실만
+보고하고 실행을 끝낸다.
+
 ```bash
 npm ci
 npm run build
