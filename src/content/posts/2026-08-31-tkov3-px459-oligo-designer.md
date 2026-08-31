@@ -14,7 +14,7 @@ CRISPR 녹아웃 실험을 시작할 때 매번 같은 일을 한다. 표적 유
 
 그래서 이 과정을 도구로 옮겼다.
 
-**→ [TKOv3 → PX459 올리고 설계기](/tools/tkov3-oligo-designer.html)** (`/tools` 메뉴에도 있습니다)
+**→ [TKOv3 → PX459 올리고 설계기](/tools/tkov3-oligo-designer)** (`/tools` 메뉴에도 있습니다)
 
 유전자 이름을 넣으면 끝이다. 쉼표로 여러 개를 한 번에 넣어도 된다.
 

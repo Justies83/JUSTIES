@@ -14,7 +14,7 @@ import { TOOLS } from '../../data/tools';
 // from it missed — the check silently answered "not there" for a file that was.
 const tools = TOOLS.map((tool) => ({
   ...tool,
-  href: `/tools/${tool.file}`,
+  href: `/tools/${tool.file.replace(/\.html$/, '')}`,
   ready: existsSync(join(process.cwd(), 'public', 'tools', tool.file)),
 }));
 ---
