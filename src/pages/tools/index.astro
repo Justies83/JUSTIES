@@ -1,5 +1,6 @@
 ---
 import { existsSync } from 'node:fs';
+import { join } from 'node:path';
 import Base from '../../layouts/Base.astro';
 import SectionHead from '../../components/SectionHead.astro';
 import { TOOLS } from '../../data/tools';
@@ -7,10 +8,14 @@ import { TOOLS } from '../../data/tools';
 // A tool is only linked once its HTML is actually sitting in public/tools.
 // Checked here, at build time, rather than trusted from the registry — an
 // entry can be written before the file arrives without shipping a dead link.
+//
+// Resolved from the project root, not from import.meta.url: Astro bundles this
+// module, so import.meta.url points at the built chunk and every relative path
+// from it missed — the check silently answered "not there" for a file that was.
 const tools = TOOLS.map((tool) => ({
   ...tool,
   href: `/tools/${tool.file}`,
-  ready: existsSync(new URL(`../../../public/tools/${tool.file}`, import.meta.url)),
+  ready: existsSync(join(process.cwd(), 'public', 'tools', tool.file)),
 }));
 ---
 

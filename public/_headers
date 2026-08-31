@@ -24,3 +24,9 @@
   Cache-Control: public, max-age=0, must-revalidate
 /rss.xml
   Cache-Control: public, max-age=300
+
+# The tools carry their data inside the file, so they are large and change
+# rarely. Revalidated rather than pinned — a corrected tool must be able to
+# reach someone who already opened it.
+/tools/*
+  Cache-Control: public, max-age=3600, must-revalidate
