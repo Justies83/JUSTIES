@@ -808,3 +808,30 @@ em, i { font-style: italic; }
 /* The hover preview is where the summary actually gets room. */
 .hover-peek-body p:not(.mono) { -webkit-line-clamp: 4; }
 .hover-peek { width: 23rem; }
+
+/* ---------- tools ---------- */
+.tool-list { display: grid; gap: 1.1rem; }
+.tool-card {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--card);
+  padding: 1.4rem 1.5rem;
+  max-width: var(--article);
+}
+.tool-card h3 { font-size: 1.24rem; margin: 0.7rem 0 0; }
+.tool-card p { color: var(--soft); font-size: 0.93rem; margin: 0.55rem 0 0; }
+/* The one-liner carries the card, so it reads at body weight. */
+.tool-card .tool-blurb { color: var(--ink); font-size: 1rem; }
+.tool-card footer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1.3rem;
+  padding-top: 1.1rem;
+  border-top: 1px solid var(--line-soft);
+}
+.tool-updated { margin-left: auto; color: var(--soft); }
+@media (max-width: 560px) {
+  .tool-updated { margin-left: 0; }
+}

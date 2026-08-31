@@ -48,6 +48,7 @@ export const site = {
     { href: '/', label: '홈' },
     { href: '/archive', label: '기록' },
     { href: '/topics', label: '주제' },
+    { href: '/tools', label: 'Tools' },
     { href: '/about', label: '소개' },
   ],
 
