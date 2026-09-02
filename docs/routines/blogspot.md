@@ -171,9 +171,14 @@ GitHub → Settings → Secrets and variables → Actions → **Secrets**:
 브랜치에 들어가기 전까지는 시각표대로 돌지 않는다. 작업 브랜치에 있는 동안에는
 Actions 탭의 수동 실행(Run workflow) 버튼도 보이지 않는다.
 
-병합 뒤 첫 확인은 Actions → blogspot → Run workflow → `dry_run` 을 켠 채 한 번
-돌려 보는 것이다. 메일을 보내지 않고 생성 결과만 `preview.html` 아티팩트로
-남긴다.
+확인은 Actions → blogspot → **Run workflow** 에서 두 단계로 한다.
+
+1. `check_only` — 자격증명만 확인한다. 20초. 토큰·blog ID·Gemini 키가 모두
+   살아 있는지 본다. 값 하나를 고칠 때마다 3분씩 기다리지 않아도 된다.
+2. `dry_run` — 글을 만들되 발행하지 않는다. 결과는 `preview.html` 아티팩트로
+   남는다.
+
+둘 다 통과하면 아무것도 켜지 않고 실행해 실제로 발행한다.
 
 ## 내 PC에서 돌리기
 
@@ -189,6 +194,7 @@ GOOGLE_REFRESH_TOKEN=...
 그다음:
 
 ```bash
+python3 scripts/blogspot/auto_post.py --check                         # 자격증명만 (20초)
 python3 scripts/blogspot/auto_post.py --dry-run --out preview.html   # 확인만
 python3 scripts/blogspot/auto_post.py                                 # 1회 발행
 python3 scripts/blogspot/auto_post.py --loop 120                      # 120분마다
@@ -272,6 +278,7 @@ gemini-3.6-flash, gemini-3.7-flash
 
 | 증상 | 원인 |
 | --- | --- |
+| `invalid_client` / "client secret is invalid" | `GOOGLE_CLIENT_SECRET` 이 틀렸다. JSON 의 `client_secret` 값을 그대로 다시 넣는다 |
 | `invalid_grant` / 일주일 만에 멈췄다 | OAuth 동의 화면이 "테스트" 상태다. "프로덕션"으로 바꾸고 토큰을 다시 받는다 |
 | `403 insufficientPermissions` | 인증한 구글 계정이 그 블로그의 작성자가 아니다 |
 | blog ID 조회 실패 | `BLOG_URL` 이 실제 주소와 다르다. 끝의 `/` 유무는 상관없다 |
