@@ -107,8 +107,12 @@ Search Console 에 `justies.net` 을 같은 구글 계정으로 등록한다 —
 
 ### 4. 내 PC 에서 refresh token 을 한 번 받는다
 
+콘솔의 클라이언트 목록에서 ⬇ 버튼으로 `client_secret_*.json` 을 받아 두면
+손으로 옮겨 적을 필요가 없다.
+
 ```bash
-python3 scripts/blogspot/get_refresh_token.py
+python3 scripts/blogspot/get_refresh_token.py --secrets client_secret_....json
+python3 scripts/blogspot/get_refresh_token.py    # 직접 붙여넣기
 ```
 
 브라우저가 열리고 계정을 고르면 끝난다. "이 앱은 확인되지 않았습니다" 경고는

@@ -19,8 +19,12 @@ GitHub Actions 가 그것으로 매번 access token 을 새로 발급받는다.
      보안 비밀번호를 아래에 넣는다.
 
 실행:
-  python3 scripts/blogspot/get_refresh_token.py
+  python3 scripts/blogspot/get_refresh_token.py --secrets client_secret_....json
+  python3 scripts/blogspot/get_refresh_token.py          # 직접 붙여넣기
   python3 scripts/blogspot/get_refresh_token.py --port 8765
+
+--secrets 는 콘솔의 클라이언트 목록에서 받은 JSON 파일이다. 클라이언트 ID 와
+보안 비밀번호를 손으로 옮기다 틀리는 일이 없어진다.
 
 브라우저가 열리고 계정을 고르면 끝난다. "이 앱은 확인되지 않았습니다" 경고가
 나오면 고급 → 안전하지 않은 페이지로 이동을 누른다. 본인이 만든 앱이다.
@@ -39,6 +43,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 import webbrowser
+from pathlib import Path
 
 AUTH = 'https://accounts.google.com/o/oauth2/v2/auth'
 TOKEN = 'https://oauth2.googleapis.com/token'
@@ -72,15 +77,34 @@ class Handler(http.server.BaseHTTPRequestHandler):
         pass
 
 
+def read_secrets_file(path: str) -> tuple[str, str]:
+    """콘솔에서 받은 client_secret_*.json 에서 ID 와 비밀번호를 꺼낸다."""
+    try:
+        data = json.loads(Path(path).read_text(encoding='utf-8'))
+    except (OSError, json.JSONDecodeError) as exc:
+        print(f'JSON 을 읽지 못했다: {exc}')
+        return '', ''
+    # 데스크톱 앱은 "installed", 웹 앱은 "web" 아래에 들어 있다.
+    node = data.get('installed') or data.get('web') or data
+    return str(node.get('client_id', '')).strip(), str(node.get('client_secret', '')).strip()
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description='Blogger refresh token 받기')
+    ap.add_argument('--secrets', default='', metavar='JSON',
+                    help='콘솔에서 받은 client_secret_*.json 경로')
     ap.add_argument('--port', type=int, default=8765, help='되돌아올 로컬 포트')
     args = ap.parse_args()
 
-    client_id = os.environ.get('GOOGLE_CLIENT_ID') or input('클라이언트 ID: ').strip()
-    client_secret = os.environ.get('GOOGLE_CLIENT_SECRET') or getpass.getpass('클라이언트 보안 비밀번호: ').strip()
+    if args.secrets:
+        client_id, client_secret = read_secrets_file(args.secrets)
+        if client_id:
+            print(f'JSON 에서 읽었다: {client_id}')
+    else:
+        client_id = os.environ.get('GOOGLE_CLIENT_ID') or input('클라이언트 ID: ').strip()
+        client_secret = os.environ.get('GOOGLE_CLIENT_SECRET') or getpass.getpass('클라이언트 보안 비밀번호: ').strip()
     if not client_id or not client_secret:
-        print('둘 다 있어야 한다.')
+        print('클라이언트 ID 와 보안 비밀번호가 둘 다 있어야 한다.')
         return 1
 
     redirect = f'http://localhost:{args.port}'
