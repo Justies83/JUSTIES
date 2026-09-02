@@ -27,7 +27,11 @@ on:
   workflow_dispatch:
     inputs:
       dry_run:
-        description: '보내지 않고 생성 결과만 확인한다'
+        description: '발행하지 않고 생성 결과만 확인한다'
+        type: boolean
+        default: false
+      check_only:
+        description: '자격증명만 확인한다 (20초)'
         type: boolean
         default: false
 
@@ -94,6 +98,10 @@ jobs:
           TRENDS_GEO: ${{ vars.TRENDS_GEO }}
         run: |
           set +e
+          if [ "${{ inputs.check_only }}" = "true" ]; then
+            python3 scripts/blogspot/auto_post.py --check
+            exit $?
+          fi
           if [ "${{ inputs.dry_run }}" = "true" ]; then
             python3 scripts/blogspot/auto_post.py --dry-run --out preview.html
           else

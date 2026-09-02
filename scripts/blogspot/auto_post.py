@@ -559,7 +559,11 @@ def blogger_access_token() -> str:
         # invalid_grant 은 대개 동의 화면이 "테스트" 상태라 7일 만에 토큰이
         # 만료된 것이다. 이 안내가 없으면 원인을 찾는 데 한참 걸린다.
         hint = ''
-        if 'invalid_grant' in detail:
+        if 'invalid_client' in detail:
+            hint = ('\n  → GOOGLE_CLIENT_ID 나 GOOGLE_CLIENT_SECRET 이 틀렸다. '
+                    'client_secret_*.json 의 "client_secret" 값을 그대로 다시 넣는다 '
+                    '(GOCSPX- 로 시작한다). 앞뒤 공백과 따옴표가 딸려가지 않게 한다.')
+        elif 'invalid_grant' in detail:
             hint = ('\n  → refresh token 이 만료됐거나 취소됐다. OAuth 동의 화면이 '
                     '"테스트" 상태면 7일마다 만료된다. "프로덕션"으로 바꾸고 '
                     'scripts/blogspot/get_refresh_token.py 로 다시 받는다.')
@@ -714,15 +718,47 @@ def run_once(args) -> bool:
     return True
 
 
+def check_credentials() -> int:
+    """자격증명만 확인한다. 트렌드도 Gemini 도 건드리지 않아 20초면 끝난다."""
+    print('Blogger 자격증명을 확인한다')
+    token = blogger_access_token()
+    print(f'  · access token 발급 성공 ({len(token)}자)')
+    blog_id = blogger_blog_id(token)
+    print(f'  · blog ID: {blog_id}')
+
+    key = env('GEMINI_API_KEY')
+    if not key:
+        print('  · GEMINI_API_KEY 가 비어 있다.')
+        return 1
+    models = list_available_models(key)
+    if models:
+        flash = [m for m in models if 'flash' in m][:6]
+        print(f'  · Gemini 키 정상. 쓸 수 있는 flash 모델: {", ".join(flash) or "없음"}')
+    else:
+        print('  · Gemini 모델 목록을 받지 못했다. 키를 확인한다.')
+        return 1
+    print('전부 정상이다.')
+    return 0
+
+
 def main() -> int:
     load_dotenv()
     p = argparse.ArgumentParser(description='구글 트렌드 → Gemini → Blogspot 자동 발행')
     p.add_argument('--geo', default=env('TRENDS_GEO', 'KR'), help='트렌드 지역 코드 (기본 KR)')
-    p.add_argument('--dry-run', action='store_true', help='메일을 보내지 않고 결과만 확인')
+    p.add_argument('--dry-run', action='store_true', help='발행하지 않고 결과만 확인')
+    p.add_argument('--check', action='store_true',
+                   help='자격증명만 확인하고 끝낸다 (글을 만들지 않는다)')
     p.add_argument('--out', default='', help='생성한 HTML 을 이 경로에 저장')
     p.add_argument('--loop', type=int, default=0, metavar='MINUTES',
                    help='이 분 간격으로 계속 반복 (0이면 1회만)')
     args = p.parse_args()
+
+    if args.check:
+        try:
+            return check_credentials()
+        except SystemExit as exc:
+            print(exc)
+            return 1
 
     # 종료 코드: 0 발행함 / 3 발행할 것이 없었음(정상) / 1 오류.
     # 예약 실행이 조용히 며칠씩 아무것도 안 올리는 상태를 로그에서 구분하려는 것이다.
