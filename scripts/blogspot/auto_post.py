@@ -53,9 +53,15 @@ UA = 'JustiesBlogspotBot/1.0 (+https://justies.net)'
 DEFAULT_BLOG_URL = 'https://justrnafather.blogspot.com'
 BLOGGER_API = 'https://www.googleapis.com/blogger/v3'
 
-# 1순위는 사용자가 지정한 모델을 그대로 둔다. 없는 이름이면 404 가 나고 바로
-# 다음 후보로 넘어가므로, 새 모델이 열렸을 때 코드를 고칠 필요가 없다.
-DEFAULT_MODELS = 'gemini-3.7-flash,gemini-3-flash,gemini-2.5-flash,gemini-2.0-flash,gemini-1.5-flash'
+# 1순위는 사용자가 지정한 모델을 그대로 둔다. 뒤는 실측으로 정했다 —
+# 2026-09-02 실행에서 gemini-2.5-flash 는 "더 이상 신규 사용자에게 제공되지
+# 않는다. gemini-3.6-flash 를 쓰라" 는 404 를 돌려주었고, 3-flash·2.0-flash·
+# 1.5-flash 는 이 키의 모델 목록에 아예 없었다.
+DEFAULT_MODELS = 'gemini-3.7-flash,gemini-3.6-flash,gemini-2.5-flash'
+
+# 생각이 긴 모델은 첫 응답까지 1분을 넘긴다. gemini-3.7-flash 가 60초에서
+# 잘렸다.
+GEN_TIMEOUT = 120
 
 
 # ── 환경변수 ────────────────────────────────────────────────────────────────
@@ -333,12 +339,19 @@ def choose_models(api_key: str, wanted: list[str]) -> list[str]:
     missing = [m for m in wanted if m not in available]
     if missing:
         print(f'  · 이 키로 쓸 수 없는 모델은 건너뛴다: {", ".join(missing)}')
-    if known:
-        return known
-    # 후보가 하나도 없다. 목록에서 가벼운 모델을 골라 쓴다.
-    fallback = [m for m in available if 'flash' in m and 'thinking' not in m] or available
-    picked = fallback[:3]
-    print(f'  · 후보가 모두 없다. 목록에서 고른다: {", ".join(picked)}')
+    # 지정한 후보가 전부 실패해도 굴러가도록, 목록에 살아 있는 flash 계열을
+    # 뒤에 덧붙인다. 모델 이름은 계속 바뀌고(2.5-flash 가 그렇게 사라졌다),
+    # 그때마다 코드를 고치러 오는 대신 목록을 믿는 편이 낫다.
+    extra = [m for m in available
+             if 'flash' in m and 'thinking' not in m and m not in known]
+    extra.sort(reverse=True)  # 대체로 새 버전이 뒤 숫자가 크다
+    tail = extra[:2]
+    if tail:
+        print(f'  · 예비로 뒤에 붙인다: {", ".join(tail)}')
+    picked = known + tail
+    if not picked:
+        picked = available[:3]
+        print(f'  · 쓸 만한 후보가 없다. 목록 앞에서 고른다: {", ".join(picked)}')
     return picked
 
 
@@ -352,7 +365,7 @@ def call_gemini(prompt: str, api_key: str, models: list[str]) -> tuple[str, str]
     for model in models:
         url = f'https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent'
         for attempt in (1, 2):
-            status, body = http_post_json(url, payload, headers)
+            status, body = http_post_json(url, payload, headers, timeout=GEN_TIMEOUT)
             if status == 200:
                 try:
                     parts = body['candidates'][0]['content']['parts']
