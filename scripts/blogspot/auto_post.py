@@ -268,13 +268,17 @@ def build_prompt(topic: Topic, news: list[News]) -> str:
 독자에게 도움이 되는 글 한 편을 쓴다.
 
 오늘 날짜: {today}
-지금 뜨는 검색어: "{topic.keyword}" (검색량 {topic.traffic or '집계 중'})
+주제: {topic.keyword}
 
-이 검색어에 붙은 실제 기사 제목:
+이 주제로 오늘 나온 실제 기사 제목:
 {headlines}
 
 요구사항
-- 왜 지금 이 검색어가 뜨는지부터 설명한다. 배경을 모르는 독자가 읽는다고 가정한다.
+- **주제 자체를 다룬다.** 무슨 일이 있었고, 그것이 독자에게 어떤 의미인지 쓴다.
+- 검색어·검색량·실시간 순위·트렌드에 대해서는 **한 글자도 쓰지 않는다.**
+  "화제가 되고 있다", "관심이 쏠린다", "많이 찾고 있다" 같은 표현도 쓰지 않는다.
+  글이 어떻게 기획됐는지는 독자와 아무 상관이 없다.
+- 첫 문단은 배경 설명이 아니라 **가장 중요한 사실**로 시작한다.
 - 기사 제목에 없는 사실(숫자, 날짜, 발언, 인용)을 지어내지 않는다. 확실하지
   않으면 "보도에 따르면", "아직 확인되지 않았다" 처럼 불확실성을 드러낸다.
 - 분량은 본문 1500~2500자. 문단은 3~5문장으로 끊는다.
@@ -283,7 +287,7 @@ def build_prompt(topic: Topic, news: list[News]) -> str:
 아래 JSON 형식으로만 답한다. 코드펜스나 설명 문장을 앞뒤에 붙이지 않는다.
 
 {{
-  "title": "검색어를 포함한 30자 내외의 제목",
+  "title": "무슨 일인지 알 수 있는 30자 내외의 제목. '오늘 뜨는 검색어' '실시간' '화제' 같은 말은 넣지 않는다",
   "summary": "글 전체를 한 문단(2~3문장)으로 요약",
   "sections": [
     {{"heading": "소제목", "paragraphs": ["문단", "문단"]}}
@@ -536,9 +540,8 @@ def render_html(topic: Topic, article: dict, news: list[News], images: list) -> 
     parts.append(
         '<hr style="margin:36px 0 16px;border:0;border-top:1px solid #e5e0d4;" />'
         '<p style="font-size:13px;color:#777;line-height:1.7;">'
-        f'이 글은 {stamp} (KST) 구글 실시간 검색어 “{esc(topic.keyword)}” 와 위에 링크한 '
-        '기사 제목을 근거로 자동 작성한 초안입니다. 사실 확인이 필요한 내용은 원문 기사를 '
-        '확인해 주세요.</p>'
+        f'이 글은 {stamp} (KST) 위에 링크한 기사 제목을 근거로 자동 작성한 초안입니다. '
+        '사실 확인이 필요한 내용은 원문 기사를 확인해 주세요.</p>'
     )
 
     return '<div style="max-width:760px;margin:0 auto;font-size:16px;color:#222;">' + ''.join(parts) + '</div>'
@@ -693,13 +696,13 @@ def run_once(args) -> bool:
         print('  · JSON 파싱 실패 — 응답을 문단으로 나눠 그대로 싣는다.')
         paragraphs = [p.strip() for p in re.split(r'\n{2,}', raw) if p.strip()]
         article = {
-            'title': f'{topic.keyword}, 지금 무슨 일인가',
+            'title': f'{topic.keyword}, 무슨 일이 있었나',
             'summary': paragraphs[0] if paragraphs else '',
             'sections': [{'heading': '', 'paragraphs': paragraphs[1:] or paragraphs}],
             'faq': [], 'table': {}, 'tags': [topic.keyword],
         }
 
-    title = (article.get('title') or f'{topic.keyword}, 지금 무슨 일인가').strip()
+    title = (article.get('title') or f'{topic.keyword}, 무슨 일이 있었나').strip()
     body = render_html(topic, article, news, collect_images(topic))
 
     if args.out:
