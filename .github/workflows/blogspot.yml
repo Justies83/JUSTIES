@@ -1,0 +1,105 @@
+name: blogspot
+
+# Blogspot 자동 발행. 2시간마다 구글 실시간 검색어를 받아 글 한 편을 만들고
+# Blogger 의 "메일로 글쓰기" 주소로 보낸다. PC 를 꺼 두어도 돈다.
+#
+# 예약(schedule)은 기본 브랜치에서만 발동한다. 이 파일이 기본 브랜치
+# (claude/personal-editable-homepage-31hofg)에 들어가기 전에는 시각표대로
+# 돌지 않는다.
+#
+# 저장소 시크릿 (Settings → Secrets and variables → Actions):
+#   GEMINI_API_KEY        Google AI Studio 에서 발급
+#   SMTP_USER             발송용 계정 (블로그 작성자로 등록돼 있어야 한다)
+#   SMTP_PASSWORD         Gmail 이면 앱 비밀번호
+#   BLOGGER_POST_EMAIL    Blogger 설정 → 이메일 → 이메일을 사용하여 게시
+# 선택 (Variables 로 둬도 된다):
+#   SMTP_HOST · SMTP_PORT · GEMINI_MODELS · TRENDS_GEO · BLOG_FEED_URL
+#
+# 자세한 설명은 docs/routines/blogspot.md 에 있다.
+
+on:
+  schedule:
+    # 2시간마다. :00 정각은 러너가 붐벼 밀리는 일이 잦아 7분을 비켜 놓았다.
+    - cron: '7 */2 * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: '보내지 않고 생성 결과만 확인한다'
+        type: boolean
+        default: false
+
+concurrency:
+  # 예약과 수동 실행이 겹쳐 같은 검색어로 두 편이 나가는 것을 막는다.
+  group: blogspot
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # 표준 라이브러리만 쓰므로 설치할 것이 없다.
+      - name: Post
+        id: post
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODELS: ${{ vars.GEMINI_MODELS }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST || vars.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT || vars.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          SMTP_FROM: ${{ secrets.SMTP_FROM }}
+          BLOGGER_POST_EMAIL: ${{ secrets.BLOGGER_POST_EMAIL }}
+          BLOG_FEED_URL: ${{ vars.BLOG_FEED_URL }}
+          TRENDS_GEO: ${{ vars.TRENDS_GEO }}
+        run: |
+          set +e
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            python3 scripts/blogspot/auto_post.py --dry-run --out preview.html
+          else
+            python3 scripts/blogspot/auto_post.py --out preview.html
+          fi
+          code=$?
+          set -e
+          # 3 = 쓸 주제가 없었거나 모델이 모두 실패했다. 사고가 아니므로
+          # 워크플로를 빨갛게 만들지 않되, 로그에는 남긴다.
+          if [ "$code" = "3" ]; then
+            echo "::notice::이번 회차는 발행하지 않았다 (새 검색어가 없었거나 본문 생성 실패)."
+            echo "published=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          if [ "$code" != "0" ]; then exit "$code"; fi
+          echo "published=true" >> "$GITHUB_OUTPUT"
+
+      - name: Upload preview
+        if: always() && hashFiles('preview.html') != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: preview-${{ github.run_id }}
+          path: preview.html
+          retention-days: 7
+
+      - name: Commit history
+        if: steps.post.outputs.published == 'true'
+        run: |
+          # 기록 파일이 저장소에 남아야 다음 회차가 같은 주제를 피한다.
+          # [skip ci] 를 붙여 이 커밋으로 사이트가 다시 배포되지 않게 한다.
+          git config user.name 'blogspot-bot'
+          git config user.email 'noreply@justies.net'
+          git add scripts/blogspot/state/published.tsv
+          git diff --cached --quiet && { echo '기록에 변화 없음'; exit 0; }
+          git commit -m "블로그 자동 발행 기록 [skip ci]"
+          for i in 1 2 3 4; do
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" && \
+              git push origin "HEAD:${GITHUB_REF_NAME}" && exit 0
+            echo "push 실패 — $((2 ** i))초 뒤 재시도"
+            sleep $((2 ** i))
+          done
+          exit 1
