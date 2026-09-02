@@ -9,3 +9,4 @@ npm-debug.log*
 
 # vendored by npm run cms:sync
 public/admin/sveltia-cms.js
+__pycache__/
