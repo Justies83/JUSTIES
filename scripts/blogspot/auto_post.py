@@ -276,8 +276,16 @@ def build_prompt(topic: Topic, news: list[News]) -> str:
 요구사항
 - **주제 자체를 다룬다.** 무슨 일이 있었고, 그것이 독자에게 어떤 의미인지 쓴다.
 - 검색어·검색량·실시간 순위·트렌드에 대해서는 **한 글자도 쓰지 않는다.**
-  "화제가 되고 있다", "관심이 쏠린다", "많이 찾고 있다" 같은 표현도 쓰지 않는다.
   글이 어떻게 기획됐는지는 독자와 아무 상관이 없다.
+- **글 자체를 언급하지 않는다.** "이 글에서는", "살펴보겠습니다", "정리해
+  보았습니다", "알아보겠습니다", "위에서 살펴본 바와 같이", "결론적으로",
+  "종합하면" 같은 표현을 쓰지 않는다. 사람이 쓴 기사는 자기 글을 설명하지
+  않는다.
+- **속 빈 상투어를 쓰지 않는다.** "주목받고 있습니다", "이목이 집중되고
+  있습니다", "눈길을 끌고 있습니다", "관심이 쏠리고 있습니다", "화제가 되고
+  있습니다", "귀추가 주목됩니다", "중요한 과제로 떠올랐습니다", "다양한",
+  "많은 사람들이" — 이런 말은 정보를 담지 않으면서 문장만 늘린다. 사실을
+  적고 끝낸다.
 - 첫 문단은 배경 설명이 아니라 **가장 중요한 사실**로 시작한다.
 - 기사 제목에 없는 사실(숫자, 날짜, 발언, 인용)을 지어내지 않는다. 확실하지
   않으면 "보도에 따르면", "아직 확인되지 않았다" 처럼 불확실성을 드러낸다.
@@ -476,9 +484,10 @@ def render_html(topic: Topic, article: dict, news: list[News], images: list) -> 
     parts: list[str] = []
     summary = article.get('summary') or ''
     if summary:
+        # 라벨 없이 리드 문단으로 싣는다. 매 글 같은 자리에 "요약" 딱지가
+        # 붙으면 그것만으로 찍어낸 글로 읽힌다.
         parts.append(
-            '<p style="background:#f4f1ea;border-left:4px solid #c9c2b0;'
-            f'padding:14px 18px;margin:0 0 24px;"><strong>요약</strong> — {esc(summary)}</p>'
+            f'<p style="line-height:1.8;font-size:17px;margin:0 0 24px;">{esc(summary)}</p>'
         )
     if images:
         parts.append(figure(images[0]))
@@ -535,14 +544,6 @@ def render_html(topic: Topic, article: dict, news: list[News], images: list) -> 
             '<p style="margin-top:28px;color:#666;font-size:14px;">'
             + ' '.join(f'#{esc(t)}' for t in tags) + '</p>'
         )
-
-    stamp = datetime.now(KST).strftime('%Y-%m-%d %H:%M')
-    parts.append(
-        '<hr style="margin:36px 0 16px;border:0;border-top:1px solid #e5e0d4;" />'
-        '<p style="font-size:13px;color:#777;line-height:1.7;">'
-        f'이 글은 {stamp} (KST) 위에 링크한 기사 제목을 근거로 자동 작성한 초안입니다. '
-        '사실 확인이 필요한 내용은 원문 기사를 확인해 주세요.</p>'
-    )
 
     return '<div style="max-width:760px;margin:0 auto;font-size:16px;color:#222;">' + ''.join(parts) + '</div>'
 
