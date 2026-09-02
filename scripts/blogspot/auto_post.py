@@ -57,7 +57,14 @@ BLOGGER_API = 'https://www.googleapis.com/blogger/v3'
 # 2026-09-02 실행에서 gemini-2.5-flash 는 "더 이상 신규 사용자에게 제공되지
 # 않는다. gemini-3.6-flash 를 쓰라" 는 404 를 돌려주었고, 3-flash·2.0-flash·
 # 1.5-flash 는 이 키의 모델 목록에 아예 없었다.
-DEFAULT_MODELS = 'gemini-3.7-flash,gemini-3.6-flash,gemini-2.5-flash'
+# 2026-09-02 실측으로 순서를 정했다. gemini-3.6-flash 는 실제로 글을 써 냈고,
+# gemini-3.7-flash 는 두 번 연속 응답이 없거나 503("high demand") 이었다.
+# 3.7 은 뒤에 남겨 둔다 — 한가해지면 자동으로 그쪽이 쓰인다.
+DEFAULT_MODELS = 'gemini-3.6-flash,gemini-3.7-flash'
+
+# JSON 한 덩이를 끝까지 뱉으려면 넉넉해야 한다. 4000 에서는 응답이 중간에
+# 잘려 파싱이 실패했고, 표와 FAQ 가 통째로 사라진 글이 나왔다.
+MAX_OUTPUT_TOKENS = 8192
 
 # 생각이 긴 모델은 첫 응답까지 1분을 넘긴다. gemini-3.7-flash 가 60초에서
 # 잘렸다.
@@ -355,38 +362,67 @@ def choose_models(api_key: str, wanted: list[str]) -> list[str]:
     return picked
 
 
-def call_gemini(prompt: str, api_key: str, models: list[str]) -> tuple[str, str] | None:
-    """(모델명, 응답 텍스트) 를 돌려준다. 모든 후보가 실패하면 None."""
+def generate_once(model: str, prompt: str, api_key: str, json_mode: bool):
+    config = {'temperature': 0.7, 'maxOutputTokens': MAX_OUTPUT_TOKENS}
+    if json_mode:
+        # 모델에게 JSON 만 뱉으라고 형식 자체로 못 박는다. 프롬프트로 부탁하는
+        # 것보다 확실하다 — 설명 문장이나 코드펜스가 섞여 오지 않는다.
+        config['responseMimeType'] = 'application/json'
     payload = {
         'contents': [{'role': 'user', 'parts': [{'text': prompt}]}],
-        'generationConfig': {'temperature': 0.7, 'maxOutputTokens': 4000},
+        'generationConfig': config,
     }
-    headers = {'x-goog-api-key': api_key}
-    for model in models:
-        url = f'https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent'
-        for attempt in (1, 2):
-            status, body = http_post_json(url, payload, headers, timeout=GEN_TIMEOUT)
+    url = f'https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent'
+    return http_post_json(url, payload, {'x-goog-api-key': api_key}, timeout=GEN_TIMEOUT)
+
+
+def read_candidate(body) -> tuple[str, str]:
+    """(본문, 종료 사유). 종료 사유가 MAX_TOKENS 면 응답이 잘린 것이다."""
+    try:
+        candidate = (body.get('candidates') or [{}])[0]
+        parts = (candidate.get('content') or {}).get('parts') or []
+        return ''.join(p.get('text', '') for p in parts).strip(), candidate.get('finishReason', '')
+    except (AttributeError, IndexError, TypeError):
+        return '', ''
+
+
+def call_gemini(prompt: str, api_key: str, models: list[str]) -> tuple[str, str] | None:
+    """(모델명, 응답 텍스트) 를 돌려준다. 모든 후보가 실패하면 None."""
+    for index, model in enumerate(models):
+        last = index == len(models) - 1
+        json_mode = True
+        attempt = 1
+        while True:
+            status, body = generate_once(model, prompt, api_key, json_mode)
+
             if status == 200:
-                try:
-                    parts = body['candidates'][0]['content']['parts']
-                    text = ''.join(p.get('text', '') for p in parts).strip()
-                except (KeyError, IndexError, TypeError):
-                    print(f'  · {model}: 200 이지만 본문이 비어 있다. 다음 모델로.')
-                    break
+                text, finish = read_candidate(body)
                 if text:
                     print(f'  · 본문 생성: {model}')
+                    if finish == 'MAX_TOKENS':
+                        print('  · 경고: 출력 상한에 걸려 응답이 잘렸다.')
                     return model, text
-                print(f'  · {model}: 빈 응답. 다음 모델로.')
+                print(f'  · {model}: 빈 응답({finish or "사유 없음"}) — 다음 모델로.')
                 break
-            # 429·5xx 는 잠깐 뒤 한 번만 다시 시도한다. 404·400 은 그 모델이
-            # 없거나 요청이 틀린 것이라 재시도해도 같다.
-            if status in (0, 429, 500, 502, 503, 504) and attempt == 1:
+
+            detail = re.sub(r'\s+', ' ', str(body))
+            # 이 모델이 responseMimeType 을 모르면 그것만 빼고 한 번 더.
+            if status == 400 and json_mode and 'mime' in detail.lower():
+                print(f'  · {model}: JSON 모드를 지원하지 않는다. 일반 모드로 다시.')
+                json_mode = False
+                continue
+
+            # 429·5xx 는 잠깐 뒤 한 번 더 해볼 값어치가 있다. 타임아웃(0)은
+            # 그 값이 통째로 또 날아가므로, 남은 후보가 있으면 바로 넘어간다.
+            retryable = status in (429, 500, 502, 503, 504) or (status == 0 and last)
+            if retryable and attempt == 1:
                 why = '응답 없음' if status == 0 else status
                 print(f'  · {model}: {why} — 8초 뒤 한 번 더.')
+                attempt = 2
                 time.sleep(8)
                 continue
-            detail = re.sub(r'\s+', ' ', str(body))[:160]
-            print(f'  · {model}: {status or "응답 없음"} — 다음 모델로. {detail}')
+
+            print(f'  · {model}: {status or "응답 없음"} — 다음 모델로. {detail[:160]}')
             break
     return None
 
