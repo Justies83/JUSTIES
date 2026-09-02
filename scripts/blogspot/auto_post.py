@@ -57,10 +57,13 @@ BLOGGER_API = 'https://www.googleapis.com/blogger/v3'
 # 2026-09-02 실행에서 gemini-2.5-flash 는 "더 이상 신규 사용자에게 제공되지
 # 않는다. gemini-3.6-flash 를 쓰라" 는 404 를 돌려주었고, 3-flash·2.0-flash·
 # 1.5-flash 는 이 키의 모델 목록에 아예 없었다.
-# 2026-09-02 실측으로 순서를 정했다. gemini-3.6-flash 는 실제로 글을 써 냈고,
-# gemini-3.7-flash 는 두 번 연속 응답이 없거나 503("high demand") 이었다.
-# 3.7 은 뒤에 남겨 둔다 — 한가해지면 자동으로 그쪽이 쓰인다.
-DEFAULT_MODELS = 'gemini-3.6-flash,gemini-3.7-flash'
+# 2026-09-02 실측으로 정했다. gemini-3.6-flash 가 실제로 글을 써 냈고,
+# gemini-3.7-flash 는 응답 없음과 503("high demand") 을 오갔다. 둘 다 붐빌
+# 때가 있어서 뒤에 -latest 별칭과 flash-lite 를 깔아 둔다. 별칭은 구글이
+# 현행 모델을 가리키도록 유지하므로 이름이 바뀌어도 따라간다. flash-lite 는
+# 무료 한도가 가장 넉넉해서 마지막 보루로 알맞다.
+DEFAULT_MODELS = ('gemini-3.6-flash,gemini-3.7-flash,gemini-flash-latest,'
+                  'gemini-flash-lite-latest,gemini-2.5-flash-lite,gemini-2.5-flash')
 
 # JSON 한 덩이를 끝까지 뱉으려면 넉넉해야 한다. 4000 에서는 응답이 중간에
 # 잘려 파싱이 실패했고, 표와 FAQ 가 통째로 사라진 글이 나왔다.
@@ -349,8 +352,12 @@ def choose_models(api_key: str, wanted: list[str]) -> list[str]:
     # 지정한 후보가 전부 실패해도 굴러가도록, 목록에 살아 있는 flash 계열을
     # 뒤에 덧붙인다. 모델 이름은 계속 바뀌고(2.5-flash 가 그렇게 사라졌다),
     # 그때마다 코드를 고치러 오는 대신 목록을 믿는 편이 낫다.
+    # preview·omni 계열은 무료 할당량이 없어 429 만 받고 끝난다(2026-09-02
+    # 실측). tts·image 는 글쓰기용이 아니다. 그런 것들을 빼고 고른다.
+    skip = ('preview', 'omni', 'thinking', 'tts', 'image', 'embedding', 'exp')
     extra = [m for m in available
-             if 'flash' in m and 'thinking' not in m and m not in known]
+             if 'flash' in m and m not in known
+             and not any(word in m for word in skip)]
     extra.sort(reverse=True)  # 대체로 새 버전이 뒤 숫자가 크다
     tail = extra[:2]
     if tail:
