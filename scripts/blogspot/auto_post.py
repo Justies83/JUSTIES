@@ -94,7 +94,7 @@ def http_post_form(url: str, data: dict, timeout: int = 30) -> dict:
         return json.loads(res.read().decode('utf-8'))
 
 
-def http_post_json(url: str, payload: dict, headers: dict, timeout: int = 90):
+def http_post_json(url: str, payload: dict, headers: dict, timeout: int = 60):
     body = json.dumps(payload).encode('utf-8')
     head = {'User-Agent': UA, 'Content-Type': 'application/json', **headers}
     req = urllib.request.Request(url, data=body, headers=head, method='POST')
@@ -102,8 +102,12 @@ def http_post_json(url: str, payload: dict, headers: dict, timeout: int = 90):
         with urllib.request.urlopen(req, timeout=timeout) as res:
             return res.status, json.loads(res.read().decode('utf-8'))
     except urllib.error.HTTPError as e:
-        detail = e.read().decode('utf-8', 'replace')[:400]
-        return e.code, detail
+        return e.code, e.read().decode('utf-8', 'replace')[:400]
+    except (urllib.error.URLError, OSError, json.JSONDecodeError) as e:
+        # 타임아웃·연결 실패는 상태 코드가 없다. 0 으로 돌려주어 호출부가
+        # 다음 후보로 넘어갈 수 있게 한다 — 예외로 새어 나가면 폴백이 통째로
+        # 무산된다.
+        return 0, f'{type(e).__name__}: {e}'
 
 
 # ── 1. 트렌드 수집 ──────────────────────────────────────────────────────────
@@ -299,6 +303,45 @@ def extract_json(text: str) -> dict | None:
             return None
 
 
+def list_available_models(api_key: str) -> list[str]:
+    """이 키로 generateContent 를 부를 수 있는 모델 이름들. 실패하면 빈 목록."""
+    url = 'https://generativelanguage.googleapis.com/v1beta/models?pageSize=200'
+    try:
+        data = json.loads(http_get(url, timeout=30, headers={'x-goog-api-key': api_key}))
+    except Exception as exc:
+        print(f'  · 모델 목록을 받지 못했다(후보를 그대로 시도한다): {exc}')
+        return []
+    out = []
+    for m in data.get('models') or []:
+        name = str(m.get('name', '')).removeprefix('models/')
+        methods = m.get('supportedGenerationMethods') or m.get('supportedActions') or []
+        if name and (not methods or 'generateContent' in methods):
+            out.append(name)
+    return out
+
+
+def choose_models(api_key: str, wanted: list[str]) -> list[str]:
+    """후보 중 실제로 존재하는 것만 남긴다.
+
+    없는 이름에 매번 요청을 날리면 404 로 끝나면 다행이고, 응답이 오지 않으면
+    타임아웃만큼 시간을 버린다. 한 번 물어보고 거르는 편이 싸다.
+    """
+    available = list_available_models(api_key)
+    if not available:
+        return wanted
+    known = [m for m in wanted if m in available]
+    missing = [m for m in wanted if m not in available]
+    if missing:
+        print(f'  · 이 키로 쓸 수 없는 모델은 건너뛴다: {", ".join(missing)}')
+    if known:
+        return known
+    # 후보가 하나도 없다. 목록에서 가벼운 모델을 골라 쓴다.
+    fallback = [m for m in available if 'flash' in m and 'thinking' not in m] or available
+    picked = fallback[:3]
+    print(f'  · 후보가 모두 없다. 목록에서 고른다: {", ".join(picked)}')
+    return picked
+
+
 def call_gemini(prompt: str, api_key: str, models: list[str]) -> tuple[str, str] | None:
     """(모델명, 응답 텍스트) 를 돌려준다. 모든 후보가 실패하면 None."""
     payload = {
@@ -324,12 +367,13 @@ def call_gemini(prompt: str, api_key: str, models: list[str]) -> tuple[str, str]
                 break
             # 429·5xx 는 잠깐 뒤 한 번만 다시 시도한다. 404·400 은 그 모델이
             # 없거나 요청이 틀린 것이라 재시도해도 같다.
-            if status in (429, 500, 502, 503, 504) and attempt == 1:
-                print(f'  · {model}: {status} — 8초 뒤 한 번 더.')
+            if status in (0, 429, 500, 502, 503, 504) and attempt == 1:
+                why = '응답 없음' if status == 0 else status
+                print(f'  · {model}: {why} — 8초 뒤 한 번 더.')
                 time.sleep(8)
                 continue
             detail = re.sub(r'\s+', ' ', str(body))[:160]
-            print(f'  · {model}: {status} — 다음 모델로. {detail}')
+            print(f'  · {model}: {status or "응답 없음"} — 다음 모델로. {detail}')
             break
     return None
 
@@ -578,7 +622,7 @@ def run_once(args) -> bool:
     print(f'  · 참고 기사 {len(news)}건')
 
     print('3) 본문을 생성한다')
-    result = call_gemini(build_prompt(topic, news), api_key, models)
+    result = call_gemini(build_prompt(topic, news), api_key, choose_models(api_key, models))
     if result is None:
         print('모든 모델 후보가 실패했다. 이번 회차는 발행하지 않는다.')
         return False
