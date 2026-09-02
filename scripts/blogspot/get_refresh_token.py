@@ -50,6 +50,13 @@ received: dict[str, str] = {}
 class Handler(http.server.BaseHTTPRequestHandler):
     def do_GET(self):  # noqa: N802
         query = urllib.parse.parse_qs(urllib.parse.urlparse(self.path).query)
+        # 브라우저는 /favicon.ico 같은 것을 먼저 물어보기도 한다. 그것을
+        # 응답으로 세고 서버를 닫으면 정작 인증 코드를 받지 못한다.
+        if 'code' not in query and 'error' not in query:
+            self.send_response(204)
+            self.end_headers()
+            return
+
         received.update({k: v[0] for k, v in query.items()})
         ok = 'code' in received
         message = ('인증됐다. 이 창을 닫고 터미널로 돌아간다.' if ok
