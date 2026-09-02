@@ -210,15 +210,21 @@ python3 scripts/blogspot/auto_post.py --loop 120                      # 120분�
 기본 순서는 이렇다. **2026-09-02 실측으로 정했다.**
 
 ```
-gemini-3.6-flash, gemini-3.7-flash
+gemini-3.6-flash, gemini-3.7-flash, gemini-flash-latest,
+gemini-flash-lite-latest, gemini-2.5-flash-lite, gemini-2.5-flash
 ```
+
+앞의 둘은 붐빌 때가 잦아(503 "high demand") 뒤를 두껍게 깔았다.
+`-latest` 별칭은 구글이 현행 모델을 가리키도록 유지하므로 이름이 바뀌어도
+따라간다. `flash-lite` 는 무료 한도가 가장 넉넉해 마지막 보루로 알맞다.
 
 그날 확인한 것:
 
 | 모델 | 결과 |
 | --- | --- |
 | `gemini-3.6-flash` | 정상 생성. 지금 이것이 주력이다 |
-| `gemini-3.7-flash` | 실존하지만 응답 없음 → 503 "high demand". 뒤로 미뤘다 |
+| `gemini-3.7-flash` | 실존하지만 응답 없음 → 503 "high demand" 를 오갔다 |
+| `gemini-omni-*` (프리뷰) | 429 "exceeded your current quota". 무료 할당량이 없다 |
 | `gemini-2.5-flash` | 404. "신규 사용자에게 제공되지 않는다. 3.6-flash 를 쓰라" |
 | `gemini-3-flash` · `2.0-flash` · `1.5-flash` | 모델 목록에 없음 |
 
@@ -259,7 +265,8 @@ gemini-3.6-flash, gemini-3.7-flash
 - flash 계열 무료 한도는 보통 하루 수백 건
 
 후보에 `pro` 모델은 넣지 않는다. 자동으로 덧붙이는 예비 모델도 flash 계열만
-고른다 — pro 는 무료 한도가 훨씬 빡빡하다.
+고르고, `preview`·`omni`·`tts`·`image`·`exp` 가 이름에 든 것은 뺀다 — 프리뷰
+계열은 무료 할당량이 아예 없어 429 만 받고 끝난다(2026-09-02 실측).
 
 현재 본인 계정 기준 한도는 <https://aistudio.google.com/rate-limit> 에서 본다.
 
