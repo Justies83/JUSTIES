@@ -1,7 +1,7 @@
 # Blogspot 자동 발행
 
-구글 실시간 검색어를 받아 Gemini로 글 한 편을 쓰고, Blogger의 "메일로 글쓰기"
-주소로 보낸다. 2시간마다 GitHub Actions가 돌린다 — PC를 꺼 두어도 발행된다.
+구글 실시간 검색어를 받아 Gemini로 글 한 편을 쓰고, Blogger API로 발행한다.
+2시간마다 GitHub Actions가 돌린다 — PC를 꺼 두어도 올라간다.
 
 이 저장소의 다른 예약 실행들과 달리 **Claude 세션이 아니라 GitHub Actions가**
 수행한다. 그래서 사람도 모델도 개입하지 않고, 실패해도 justies.net 배포에는
@@ -11,6 +11,8 @@
 | --- | --- |
 | 워크플로 | `.github/workflows/blogspot.yml` |
 | 본체 | `scripts/blogspot/auto_post.py` (표준 라이브러리만 씀) |
+| 토큰 발급 | `scripts/blogspot/get_refresh_token.py` (내 PC 에서 1회) |
+| 대상 블로그 | <https://justrnafather.blogspot.com> |
 | 발행 기록 | `scripts/blogspot/state/published.tsv` |
 | 주기 | 2시간마다 (`7 */2 * * *` UTC) + 수동 실행 |
 
@@ -19,41 +21,63 @@
 1. `https://trends.google.com/trending/rss?geo=KR` 에서 검색어 10개와, 각
    검색어에 붙은 기사 제목·링크·사진을 받는다.
 2. 아직 쓰지 않은 검색어 하나를 고른다. 판정은 두 곳을 본다 —
-   `published.tsv` 의 기록과, `BLOG_FEED_URL` 이 설정돼 있으면 블로그에 실제로
-   올라간 최근 글 50편의 제목.
+   `published.tsv` 의 기록과, 블로그 공개 피드에 실제로 올라간 최근 글 50편의
+   제목. 러너는 매번 새로 뜨기 때문에 기록 파일 하나만으로는 커밋이 실패한
+   회차에서 같은 글이 두 번 나간다.
 3. 기사 제목을 근거로 Gemini에게 JSON 한 덩이(제목·요약·소제목별 문단·표·FAQ·
    태그)를 받는다. JSON이 깨져서 오면 응답 전체를 문단으로 나눠 싣는다.
 4. 사진·표·FAQ·참고 기사 목록·자동 생성 고지를 붙여 HTML로 조립한다.
-5. 메일로 보낸다. **제목이 글 제목이 되고 본문 HTML이 그대로 글이 된다.**
+5. Blogger API v3로 발행한다. 태그가 라벨로 붙고, 발행된 글 주소가 로그에 남는다.
 6. 발행에 성공한 회차만 `published.tsv` 에 한 줄을 남기고 커밋한다.
 
 사진은 트렌드 RSS가 함께 주는 기사 썸네일을 쓴다. 별도 이미지 API 키가 필요
 없고, 사진마다 원문 기사로 가는 링크를 캡션에 붙인다.
 
-## 준비 — 네 가지
+## 발행 방식 두 가지
 
-### 1. Blogger에서 이메일 발행을 켠다
+`POST_METHOD` 로 고른다. 기본값은 `api` 다.
 
-Blogger → 설정 → 이메일 → **이메일을 사용하여 게시**. 원하는 비밀 단어를 넣으면
-`계정이름.비밀단어@blogspot.com` 주소가 만들어진다. "이메일을 게시물로 게시"를
-고른다(초안으로 저장을 고르면 발행되지 않고 초안함에 쌓인다).
+| | `api` (기본) | `mail` (예비) |
+| --- | --- | --- |
+| 준비 | Google Cloud OAuth, 15분쯤 | 앱 비밀번호 하나 |
+| 실패를 아는가 | HTTP 응답으로 즉시. 로그에 원인이 찍힌다 | **모른다.** 메일이 버려져도 워크플로는 초록색 |
+| 라벨 | 붙는다 | 안 붙는다 (본문 하단 텍스트로만) |
+| 초안 저장 | `POST_AS_DRAFT=true` | 불가 |
 
-받은 주소가 `BLOGGER_POST_EMAIL` 이다.
+`api` 를 권한다. 발행이 조용히 실패하는 상태가 이 자동화에서 가장 고치기
+어려운 사고다.
 
-### 2. 발송용 메일 계정을 준비한다
+## 준비 — API 방식
 
-**보내는 주소가 그 블로그의 작성자 또는 관리자로 등록돼 있어야 한다.** 아니면
-메일이 조용히 버려진다. 가장 흔한 실패 원인이 이것이다.
+### 1. Google Cloud 에서 OAuth 클라이언트를 만든다
 
-- Gmail: 2단계 인증을 켠 뒤 [앱 비밀번호](https://myaccount.google.com/apppasswords)를
-  발급받는다. 계정 비밀번호로는 로그인되지 않는다.
-  `SMTP_HOST=smtp.gmail.com`, `SMTP_PORT=465`
-- 네이버: 메일 설정에서 SMTP를 켜고 발급받은 비밀번호를 쓴다.
-  `SMTP_HOST=smtp.naver.com`, `SMTP_PORT=465`
+<https://console.cloud.google.com> 에서:
+
+1. 프로젝트를 하나 만든다.
+2. **API 및 서비스 → 라이브러리 → "Blogger API v3" → 사용**.
+3. **OAuth 동의 화면** → 사용자 유형 "외부" → 만들기. 앱 이름과 이메일만
+   채우면 된다.
+   **★ 만든 뒤 반드시 "앱 게시" 를 눌러 게시 상태를 "프로덕션" 으로 바꾼다.**
+   "테스트" 로 두면 refresh token 이 **7일마다 만료**된다. 자동화가 일주일쯤
+   잘 돌다가 갑자기 죽는 가장 흔한 원인이 이것이다.
+4. **사용자 인증 정보 → 만들기 → OAuth 클라이언트 ID → "데스크톱 앱"**.
+   나온 클라이언트 ID 와 보안 비밀번호를 다음 단계에서 쓴다.
+
+### 2. 내 PC 에서 refresh token 을 한 번 받는다
+
+```bash
+python3 scripts/blogspot/get_refresh_token.py
+```
+
+브라우저가 열리고 계정을 고르면 끝난다. "이 앱은 확인되지 않았습니다" 경고는
+**고급 → 안전하지 않은 페이지로 이동**을 누른다 — 본인이 만든 앱이다.
+
+끝나면 시크릿에 넣을 세 값이 터미널에 찍힌다. 이 값은 비밀번호와 같다.
+채팅이나 파일에 붙여 두지 않는다.
 
 ### 3. Gemini API 키를 받는다
 
-[Google AI Studio](https://aistudio.google.com/apikey) 에서 발급 → `GEMINI_API_KEY`.
+<https://aistudio.google.com/apikey> 에서 발급.
 
 ### 4. 저장소에 넣는다
 
@@ -62,20 +86,37 @@ GitHub → Settings → Secrets and variables → Actions → **Secrets**:
 | 이름 | 값 |
 | --- | --- |
 | `GEMINI_API_KEY` | AI Studio 키 |
-| `SMTP_USER` | 발송 계정 주소 |
-| `SMTP_PASSWORD` | 앱 비밀번호 |
-| `BLOGGER_POST_EMAIL` | `계정이름.비밀단어@blogspot.com` |
-| `SMTP_HOST` · `SMTP_PORT` | Gmail 이 아니면 |
+| `GOOGLE_CLIENT_ID` | 1단계에서 만든 클라이언트 ID |
+| `GOOGLE_CLIENT_SECRET` | 같은 곳의 보안 비밀번호 |
+| `GOOGLE_REFRESH_TOKEN` | 2단계에서 받은 값 |
 
-같은 화면의 **Variables** 에는 비밀이 아닌 것을 둔다:
+같은 화면의 **Variables** 는 전부 선택 사항이다. 비워 두면 아래 기본값으로 돈다.
 
 | 이름 | 기본값 | 뜻 |
 | --- | --- | --- |
-| `BLOG_FEED_URL` | (없음) | `https://블로그주소/feeds/posts/default` — 넣으면 중복 판정이 정확해진다 |
+| `POST_METHOD` | `api` | `mail` 로 바꾸면 메일 방식 |
+| `BLOG_URL` | `https://justrnafather.blogspot.com` | 대상 블로그. 이 주소로 blog ID 를 자동 조회한다 |
+| `BLOG_ID` | (자동 조회) | 숫자 ID 를 직접 지정하고 싶을 때만 |
+| `POST_AS_DRAFT` | `false` | `true` 면 발행하지 않고 초안함에 쌓는다 |
+| `BLOG_FEED_URL` | `BLOG_URL` + `/feeds/posts/default` | 중복 판정에 쓰는 공개 피드 |
 | `GEMINI_MODELS` | 아래 참조 | 쉼표로 구분한 모델 후보 |
 | `TRENDS_GEO` | `KR` | 트렌드 지역 코드 |
 
 키를 파일에 적지 않는다. `auto_post.py` 는 환경변수만 읽는다.
+
+## 준비 — 메일 방식으로 되돌릴 때
+
+`POST_METHOD=mail` 로 두고 시크릿 세 개를 더 넣는다.
+
+1. Blogger → 설정 → 이메일 → **이메일을 사용하여 게시**에서 비밀 단어를 정하면
+   `계정이름.비밀단어@blogspot.com` 주소가 생긴다. **"이메일을 게시물로 게시"**
+   를 고른다 (초안 저장을 고르면 발행되지 않는다) → `BLOGGER_POST_EMAIL`
+2. 보내는 계정은 **그 블로그의 작성자 또는 관리자로 등록돼 있어야 한다.**
+   아니면 메일이 조용히 버려진다 → `SMTP_USER`
+3. Gmail 은 2단계 인증을 켠 뒤 [앱 비밀번호](https://myaccount.google.com/apppasswords)
+   를 발급받는다. 계정 비밀번호로는 로그인되지 않는다 → `SMTP_PASSWORD`
+   - Gmail: `SMTP_HOST=smtp.gmail.com`, `SMTP_PORT=465`
+   - 네이버: `SMTP_HOST=smtp.naver.com`, `SMTP_PORT=465`
 
 ## 예약이 언제부터 도는가
 
@@ -94,9 +135,9 @@ Actions 탭의 수동 실행(Run workflow) 버튼도 보이지 않는다.
 
 ```
 GEMINI_API_KEY=...
-SMTP_USER=...
-SMTP_PASSWORD=...
-BLOGGER_POST_EMAIL=계정이름.비밀단어@blogspot.com
+GOOGLE_CLIENT_ID=...
+GOOGLE_CLIENT_SECRET=...
+GOOGLE_REFRESH_TOKEN=...
 ```
 
 그다음:
@@ -141,10 +182,13 @@ gemini-3.7-flash, gemini-3-flash, gemini-2.5-flash, gemini-2.0-flash, gemini-1.5
 
 | 증상 | 원인 |
 | --- | --- |
-| 메일은 나갔는데 글이 없다 | 보내는 주소가 블로그 작성자가 아니거나, Blogger 설정이 "초안으로 저장"이다 |
-| SMTP 인증 실패 | 계정 비밀번호를 넣었다. 앱 비밀번호여야 한다 |
+| `invalid_grant` / 일주일 만에 멈췄다 | OAuth 동의 화면이 "테스트" 상태다. "프로덕션"으로 바꾸고 토큰을 다시 받는다 |
+| `403 insufficientPermissions` | 인증한 구글 계정이 그 블로그의 작성자가 아니다 |
+| blog ID 조회 실패 | `BLOG_URL` 이 실제 주소와 다르다. 끝의 `/` 유무는 상관없다 |
+| (mail) 메일은 나갔는데 글이 없다 | 보내는 주소가 블로그 작성자가 아니거나, Blogger 설정이 "초안으로 저장"이다 |
+| (mail) SMTP 인증 실패 | 계정 비밀번호를 넣었다. 앱 비밀번호여야 한다 |
 | 같은 주제가 또 올라왔다 | `published.tsv` 커밋이 실패했다. `BLOG_FEED_URL` 을 채우면 기록 파일과 무관하게 막힌다 |
-| 본문 끝에 메일 서명이 붙는다 | 본문 마지막의 `#end` 뒤는 Blogger가 잘라낸다. 잘리지 않았다면 HTML이 아니라 평문으로 갔는지 본다 |
+| (mail) 본문 끝에 메일 서명이 붙는다 | 메일 본문 끝의 `#end` 뒤는 Blogger가 잘라낸다. 잘리지 않았다면 HTML이 아니라 평문으로 갔는지 본다 |
 | 예약이 안 돈다 | 기본 브랜치에 없다. 위 "예약이 언제부터 도는가" 참조 |
 
 ## 이 자동화가 하지 않는 것
@@ -152,5 +196,6 @@ gemini-3.7-flash, gemini-3-flash, gemini-2.5-flash, gemini-2.0-flash, gemini-1.5
 - justies.net 에는 아무것도 올리지 않는다. Blogspot 전용이다.
 - 사실 확인을 하지 않는다. 기사 **제목**만 근거로 쓰기 때문에, 본문 끝에 자동
   생성 고지를 붙이고 원문 링크를 함께 싣는다.
-- 라벨(태그)을 달지 않는다. 메일 발행으로는 라벨을 지정할 수 없어, 태그는 본문
-  맨 아래 텍스트로만 들어간다.
+- 사실 확인 없이 라벨만 단다. `api` 방식에서는 Gemini가 뽑은 태그가 그대로
+  블로그 라벨이 된다 — 라벨 체계를 따로 관리하고 싶다면 사람이 손봐야 한다.
+  `mail` 방식에서는 라벨을 지정할 수 없어 본문 하단 텍스트로만 들어간다.

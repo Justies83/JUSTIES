@@ -8,12 +8,15 @@ name: blogspot
 # 돌지 않는다.
 #
 # 저장소 시크릿 (Settings → Secrets and variables → Actions):
-#   GEMINI_API_KEY        Google AI Studio 에서 발급
-#   SMTP_USER             발송용 계정 (블로그 작성자로 등록돼 있어야 한다)
-#   SMTP_PASSWORD         Gmail 이면 앱 비밀번호
-#   BLOGGER_POST_EMAIL    Blogger 설정 → 이메일 → 이메일을 사용하여 게시
-# 선택 (Variables 로 둬도 된다):
-#   SMTP_HOST · SMTP_PORT · GEMINI_MODELS · TRENDS_GEO · BLOG_FEED_URL
+#   GEMINI_API_KEY          Google AI Studio 에서 발급
+#   GOOGLE_CLIENT_ID        \
+#   GOOGLE_CLIENT_SECRET     > Blogger API 용. get_refresh_token.py 로 받는다
+#   GOOGLE_REFRESH_TOKEN    /
+# 메일 방식(POST_METHOD=mail)으로 되돌릴 때만 필요한 시크릿:
+#   SMTP_USER · SMTP_PASSWORD · BLOGGER_POST_EMAIL · SMTP_HOST · SMTP_PORT
+# 선택 (Variables):
+#   POST_METHOD(api|mail) · BLOG_URL · BLOG_ID · POST_AS_DRAFT
+#   GEMINI_MODELS · TRENDS_GEO · BLOG_FEED_URL
 #
 # 자세한 설명은 docs/routines/blogspot.md 에 있다.
 
@@ -51,6 +54,13 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODELS: ${{ vars.GEMINI_MODELS }}
+          POST_METHOD: ${{ vars.POST_METHOD }}
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
+          BLOG_URL: ${{ vars.BLOG_URL }}
+          BLOG_ID: ${{ vars.BLOG_ID }}
+          POST_AS_DRAFT: ${{ vars.POST_AS_DRAFT }}
           SMTP_HOST: ${{ secrets.SMTP_HOST || vars.SMTP_HOST }}
           SMTP_PORT: ${{ secrets.SMTP_PORT || vars.SMTP_PORT }}
           SMTP_USER: ${{ secrets.SMTP_USER }}

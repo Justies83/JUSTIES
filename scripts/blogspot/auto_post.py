@@ -11,8 +11,9 @@
   3. Gemini 로 한국어 본문을 만든다. 모델은 GEMINI_MODELS 순서대로
      시도하고, 응답이 오지 않으면 다음 모델로 넘어간다.
   4. 이미지·표·FAQ·출처를 붙여 HTML 한 덩이로 조립한다.
-  5. Blogger 의 "메일로 글쓰기"(Mail2Blogger) 주소로 보낸다. 제목이 글
-     제목이 되고, 본문 HTML 이 그대로 글이 된다.
+  5. Blogger API v3 로 발행한다(POST_METHOD=api, 기본값). 라벨이 붙고,
+     발행된 글 주소가 로그에 남는다. POST_METHOD=mail 로 두면 대신 Blogger 의
+     "메일로 글쓰기"(Mail2Blogger) 주소로 보낸다 — 예비 경로다.
 
 표준 라이브러리만 쓴다. pip install 이 필요 없다.
 
@@ -49,6 +50,8 @@ REPO = HERE.parent.parent
 STATE = HERE / 'state' / 'published.tsv'
 KST = timezone(timedelta(hours=9))
 UA = 'JustiesBlogspotBot/1.0 (+https://justies.net)'
+DEFAULT_BLOG_URL = 'https://justrnafather.blogspot.com'
+BLOGGER_API = 'https://www.googleapis.com/blogger/v3'
 
 # 1순위는 사용자가 지정한 모델을 그대로 둔다. 없는 이름이면 404 가 나고 바로
 # 다음 후보로 넘어가므로, 새 모델이 열렸을 때 코드를 고칠 필요가 없다.
@@ -76,10 +79,19 @@ def env(name: str, default: str = '') -> str:
 
 # ── HTTP ────────────────────────────────────────────────────────────────────
 
-def http_get(url: str, timeout: int = 30) -> bytes:
-    req = urllib.request.Request(url, headers={'User-Agent': UA, 'Accept': '*/*'})
+def http_get(url: str, timeout: int = 30, headers: dict | None = None) -> bytes:
+    head = {'User-Agent': UA, 'Accept': '*/*', **(headers or {})}
+    req = urllib.request.Request(url, headers=head)
     with urllib.request.urlopen(req, timeout=timeout) as res:
         return res.read()
+
+
+def http_post_form(url: str, data: dict, timeout: int = 30) -> dict:
+    body = urllib.parse.urlencode(data).encode('utf-8')
+    req = urllib.request.Request(url, data=body, method='POST', headers={
+        'User-Agent': UA, 'Content-Type': 'application/x-www-form-urlencoded'})
+    with urllib.request.urlopen(req, timeout=timeout) as res:
+        return json.loads(res.read().decode('utf-8'))
 
 
 def http_post_json(url: str, payload: dict, headers: dict, timeout: int = 90):
@@ -189,6 +201,14 @@ def append_history(keyword: str, title: str, keep: int = 500) -> None:
     STATE.parent.mkdir(parents=True, exist_ok=True)
     header = '# 발행 기록 — 시각(KST)\t검색어\t제목. auto_post.py 가 중복을 피하려고 읽는다.\n'
     STATE.write_text(header + '\n'.join('\t'.join(r) for r in rows) + '\n', encoding='utf-8')
+
+
+def feed_url() -> str:
+    """BLOG_FEED_URL 이 있으면 그것을, 없으면 BLOG_URL 에서 만들어 쓴다."""
+    explicit = env('BLOG_FEED_URL')
+    if explicit:
+        return explicit
+    return env('BLOG_URL', DEFAULT_BLOG_URL).rstrip('/') + '/feeds/posts/default'
 
 
 def fetch_published_titles(feed_url: str, limit: int = 50) -> list[str]:
@@ -421,14 +441,77 @@ def render_html(topic: Topic, article: dict, news: list[News], images: list) -> 
         '확인해 주세요.</p>'
     )
 
-    return (
-        '<div style="max-width:760px;margin:0 auto;font-size:16px;color:#222;">'
-        + ''.join(parts)
-        + '</div>\n#end'  # Blogger 는 #end 뒤를 잘라낸다. 메일 서명이 붙는 것을 막는다.
-    )
+    return '<div style="max-width:760px;margin:0 auto;font-size:16px;color:#222;">' + ''.join(parts) + '</div>'
 
 
 # ── 5. 발송 ────────────────────────────────────────────────────────────────
+
+def blogger_access_token() -> str:
+    """refresh token 으로 1시간짜리 access token 을 받는다."""
+    client_id = env('GOOGLE_CLIENT_ID')
+    client_secret = env('GOOGLE_CLIENT_SECRET')
+    refresh = env('GOOGLE_REFRESH_TOKEN')
+    missing = [n for n, v in (('GOOGLE_CLIENT_ID', client_id),
+                              ('GOOGLE_CLIENT_SECRET', client_secret),
+                              ('GOOGLE_REFRESH_TOKEN', refresh)) if not v]
+    if missing:
+        raise SystemExit(f'환경변수가 비어 있다: {", ".join(missing)}\n'
+                         '토큰을 받는 법은 docs/routines/blogspot.md 를 본다.')
+    try:
+        data = http_post_form('https://oauth2.googleapis.com/token', {
+            'client_id': client_id, 'client_secret': client_secret,
+            'refresh_token': refresh, 'grant_type': 'refresh_token'})
+    except urllib.error.HTTPError as e:
+        detail = re.sub(r'\s+', ' ', e.read().decode('utf-8', 'replace'))[:300]
+        # invalid_grant 은 대개 동의 화면이 "테스트" 상태라 7일 만에 토큰이
+        # 만료된 것이다. 이 안내가 없으면 원인을 찾는 데 한참 걸린다.
+        hint = ''
+        if 'invalid_grant' in detail:
+            hint = ('\n  → refresh token 이 만료됐거나 취소됐다. OAuth 동의 화면이 '
+                    '"테스트" 상태면 7일마다 만료된다. "프로덕션"으로 바꾸고 '
+                    'scripts/blogspot/get_refresh_token.py 로 다시 받는다.')
+        raise SystemExit(f'access token 발급 실패 ({e.code}): {detail}{hint}')
+    token = data.get('access_token')
+    if not token:
+        raise SystemExit(f'access token 이 응답에 없다: {data}')
+    return token
+
+
+def blogger_blog_id(token: str) -> str:
+    """숫자 blog ID. 지정돼 있지 않으면 블로그 주소로 조회한다."""
+    explicit = env('BLOG_ID')
+    if explicit:
+        return explicit
+    url = env('BLOG_URL', DEFAULT_BLOG_URL).rstrip('/')
+    query = f'{BLOGGER_API}/blogs/byurl?url={urllib.parse.quote(url, safe="")}'
+    try:
+        data = json.loads(http_get(query, headers={'Authorization': f'Bearer {token}'}))
+    except urllib.error.HTTPError as e:
+        detail = re.sub(r'\s+', ' ', e.read().decode('utf-8', 'replace'))[:300]
+        raise SystemExit(f'blog ID 조회 실패 ({e.code}) — {url}: {detail}')
+    blog_id = data.get('id')
+    if not blog_id:
+        raise SystemExit(f'blog ID 를 찾지 못했다: {data}')
+    return blog_id
+
+
+def send_via_api(title: str, body_html: str, labels: list[str]) -> str:
+    """Blogger API v3 로 발행하고 글 주소를 돌려준다."""
+    token = blogger_access_token()
+    blog_id = blogger_blog_id(token)
+    draft = env('POST_AS_DRAFT', 'false').lower() in ('1', 'true', 'yes')
+    url = f'{BLOGGER_API}/blogs/{blog_id}/posts/?isDraft={"true" if draft else "false"}'
+    payload = {'kind': 'blogger#post', 'title': title, 'content': body_html}
+    if labels:
+        payload['labels'] = labels[:20]
+    status, body = http_post_json(url, payload, {'Authorization': f'Bearer {token}'})
+    if status not in (200, 201):
+        detail = re.sub(r'\s+', ' ', str(body))[:400]
+        raise SystemExit(f'발행 실패 ({status}): {detail}')
+    if draft:
+        print('  · 초안으로 저장했다 (POST_AS_DRAFT)')
+    return body.get('url') or ''
+
 
 def send_mail(subject: str, body_html: str) -> None:
     host = env('SMTP_HOST', 'smtp.gmail.com')
@@ -448,7 +531,8 @@ def send_mail(subject: str, body_html: str) -> None:
     msg['From'] = formataddr(('JUSTIES 자동 발행', sender))
     msg['To'] = to
     msg.set_content('HTML 을 지원하는 환경에서 열어 주세요.')
-    msg.add_alternative(body_html, subtype='html')
+    # Blogger 는 #end 뒤를 잘라낸다. 메일 서명이 글에 딸려 들어가는 것을 막는다.
+    msg.add_alternative(body_html + '\n#end', subtype='html')
 
     context = ssl.create_default_context()
     if port == 465:
@@ -479,7 +563,7 @@ def run_once(args) -> bool:
 
     print('2) 이미 쓴 주제를 걸러낸다')
     history_keys = {normalize(k) for _, k, _ in load_history()}
-    published = fetch_published_titles(env('BLOG_FEED_URL'))
+    published = fetch_published_titles(feed_url())
     if published:
         print(f'  · 블로그에 올라간 최근 글 {len(published)}편과 대조')
     topic = pick_topic(topics, history_keys, published)
@@ -522,10 +606,18 @@ def run_once(args) -> bool:
         print(f'\n[dry-run] 발행하지 않았다. 제목: {title}')
         return False
 
-    print('4) 블로그로 보낸다')
-    send_mail(title, body)
+    method = env('POST_METHOD', 'api').lower()
+    labels = [str(t).strip() for t in (article.get('tags') or []) if str(t).strip()]
+    print(f'4) 블로그로 보낸다 (방식: {method})')
+    if method == 'mail':
+        send_mail(title, body)
+        print(f'발행 완료 — {title}')
+    else:
+        posted = send_via_api(title, body, labels)
+        print(f'발행 완료 — {title}')
+        if posted:
+            print(f'  · {posted}')
     append_history(topic.keyword, title)
-    print(f'발행 완료 — {title}')
     return True
 
 
