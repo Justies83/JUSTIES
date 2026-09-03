@@ -1,6 +1,6 @@
 name: blogspot
 
-# Blogspot 자동 발행. 2시간마다 구글 실시간 검색어를 받아 글 한 편을 만들고
+# Blogspot 자동 발행. 4시간마다 구글 실시간 검색어를 받아 글 한 편을 만들고
 # Blogger 의 "메일로 글쓰기" 주소로 보낸다. PC 를 꺼 두어도 돈다.
 #
 # 예약(schedule)은 기본 브랜치에서만 발동한다. 이 파일이 기본 브랜치
@@ -22,8 +22,8 @@ name: blogspot
 
 on:
   schedule:
-    # 2시간마다. :00 정각은 러너가 붐벼 밀리는 일이 잦아 7분을 비켜 놓았다.
-    - cron: '7 */2 * * *'
+    # 4시간마다. :00 정각은 러너가 붐벼 밀리는 일이 잦아 7분을 비켜 놓았다.
+    - cron: '7 */4 * * *'
   workflow_dispatch:
     inputs:
       dry_run:
@@ -34,6 +34,10 @@ on:
         description: '자격증명만 확인한다 (20초)'
         type: boolean
         default: false
+      topic:
+        description: '주제를 직접 지정한다 (비워 두면 트렌드에서 고른다)'
+        type: string
+        default: ''
 
 concurrency:
   # 예약과 수동 실행이 겹쳐 같은 검색어로 두 편이 나가는 것을 막는다.
@@ -96,6 +100,7 @@ jobs:
           BLOGGER_POST_EMAIL: ${{ secrets.BLOGGER_POST_EMAIL }}
           BLOG_FEED_URL: ${{ vars.BLOG_FEED_URL }}
           TRENDS_GEO: ${{ vars.TRENDS_GEO }}
+          TOPIC: ${{ inputs.topic }}
         run: |
           set +e
           if [ "${{ inputs.check_only }}" = "true" ]; then

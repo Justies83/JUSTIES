@@ -728,25 +728,39 @@ def run_once(args) -> bool:
     print('1) 구글 실시간 검색어를 받는다')
     topics = fetch_trends(args.geo)
     print(f'  · {len(topics)}개 수집')
-    if not topics:
-        print('검색어를 받지 못했다. 이번 회차는 건너뛴다.')
-        return False
 
-    print('2) 이미 쓴 주제를 걸러낸다')
-    history_keys = {normalize(k) for _, k, _ in load_history()}
-    published = fetch_published_titles(feed_url())
-    if published:
-        print(f'  · 블로그에 올라간 최근 글 {len(published)}편과 대조')
-    topic = pick_topic(topics, history_keys, published)
-    if topic is None:
-        print('새로 쓸 검색어가 없다. 다음 회차를 기다린다.')
-        return False
-    print(f'  · 고른 주제: {topic.keyword} (검색량 {topic.traffic or "집계 중"})')
+    if args.topic:
+        # 주제를 지정하면 중복 판정을 건너뛴다. 사람이 그것을 쓰라고 한 것이다.
+        # 트렌드에 아직 남아 있으면 그 항목을 쓴다 — 기사와 사진이 붙어 있어
+        # 검색으로 다시 모으는 것보다 낫다.
+        match = next((t for t in topics if normalize(t.keyword) == normalize(args.topic)), None)
+        topic = match or Topic(keyword=args.topic)
+        where = '트렌드 목록에서 찾았다' if match else '뉴스 검색으로 모은다'
+        print(f'  · 지정된 주제: {topic.keyword} ({where})')
+    else:
+        if not topics:
+            print('검색어를 받지 못했다. 이번 회차는 건너뛴다.')
+            return False
+        print('2) 이미 쓴 주제를 걸러낸다')
+        history_keys = {normalize(k) for _, k, _ in load_history()}
+        published = fetch_published_titles(feed_url())
+        if published:
+            print(f'  · 블로그에 올라간 최근 글 {len(published)}편과 대조')
+        topic = pick_topic(topics, history_keys, published)
+        if topic is None:
+            print('새로 쓸 검색어가 없다. 다음 회차를 기다린다.')
+            return False
+        print(f'  · 고른 주제: {topic.keyword} (검색량 {topic.traffic or "집계 중"})')
 
     news = list(topic.news)
     if len(news) < 3:
         news += fetch_news_context(topic.keyword, limit=6 - len(news))
     print(f'  · 참고 기사 {len(news)}건')
+    if not news:
+        # 근거 기사가 하나도 없으면 쓸 것이 없다. 지정된 주제가 트렌드에서
+        # 내려가고 검색에도 걸리지 않을 때 여기로 온다.
+        print('근거로 삼을 기사가 없다. 이번 회차는 발행하지 않는다.')
+        return False
 
     print('3) 본문을 생성한다')
     result = call_gemini(build_prompt(topic, news), api_key, choose_models(api_key, models))
@@ -830,6 +844,8 @@ def main() -> int:
     p.add_argument('--dry-run', action='store_true', help='발행하지 않고 결과만 확인')
     p.add_argument('--check', action='store_true',
                    help='자격증명만 확인하고 끝낸다 (글을 만들지 않는다)')
+    p.add_argument('--topic', default=env('TOPIC'), metavar='검색어',
+                   help='이 주제로 발행한다. 중복 판정을 건너뛴다')
     p.add_argument('--out', default='', help='생성한 HTML 을 이 경로에 저장')
     p.add_argument('--loop', type=int, default=0, metavar='MINUTES',
                    help='이 분 간격으로 계속 반복 (0이면 1회만)')
