@@ -20,23 +20,25 @@
 작업 브랜치는 `claude/personal-editable-homepage-31hofg` 이다.
 사이트가 배포되는 유일한 브랜치이므로 다른 곳에 커밋하면 글이 올라가지 않는다.
 
-## push 권한 확보 — 가장 먼저 할 일
+## 저장소와 push 권한
 
-글을 쓰기 전에 이것부터 한다. `add_repo` 도구를 아래 값으로 호출한다.
+이 실행은 **저장소가 이미 붙어 있는 전용 세션**에서 깨어난다. 작업 디렉터리에
+저장소가 있고 push도 그대로 된다. 별도로 권한을 얻는 절차는 없다.
 
-- owner: `Justies83`
-- repo: `JUSTIES`
-- access: `push`
+`add_repo` 를 호출하지 않는다. 그 도구는 MCP 도구여서 **예약 실행 세션에는
+존재하지 않는다.** 2026-08-31에 "먼저 `add_repo` 로 push 권한을 받고, 실패하면
+글을 쓰지 말고 끝내라"는 절차가 들어갔는데, 없는 도구를 부르게 한 탓에 그날부터
+모든 예약 실행이 첫 단계에서 25~60초 만에 종료됐다. 9월 1~3일에 올라간 글은
+전부 사람이 손으로 쓴 것이다.
 
-이 저장소는 이미 클론돼 있어 **읽기는 되지만**, 실제로 커밋을 push하려면
-이 호출로 **쓰기 권한을 따로** 받아야 한다. 2026-08-29\~08-31 사이 실행들이
-글을 다 쓰고 빌드까지 통과시키고도 push가 "저장소가 세션의 허용 목록에
-없다(access denied by the git proxy)"는 오류로 거부된 적이 있다 — 이 호출을
-빠뜨렸기 때문이다.
+시작할 때 아래로 상태만 확인하고, 이상하면 그 사실을 보고하고 끝낸다.
 
-이 호출이 실패하거나 거부되면 **글을 쓰기 시작하지 않는다.** 그 사실만
-보고하고 실행을 끝낸다. 로컬에 커밋을 쌓아 두는 것은 의미가 없다 — 다음
-실행은 새 컨테이너로 뜨기 때문에 그 커밋을 이어받지 못한다.
+```bash
+git rev-parse --is-inside-work-tree
+git fetch origin claude/personal-editable-homepage-31hofg
+git checkout claude/personal-editable-homepage-31hofg
+git pull --rebase origin claude/personal-editable-homepage-31hofg
+```
 
 ```bash
 npm ci
