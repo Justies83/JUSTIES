@@ -62,8 +62,9 @@ BLOGGER_API = 'https://www.googleapis.com/blogger/v3'
 # 때가 있어서 뒤에 -latest 별칭과 flash-lite 를 깔아 둔다. 별칭은 구글이
 # 현행 모델을 가리키도록 유지하므로 이름이 바뀌어도 따라간다. flash-lite 는
 # 무료 한도가 가장 넉넉해서 마지막 보루로 알맞다.
-DEFAULT_MODELS = ('gemini-3.6-flash,gemini-3.7-flash,gemini-flash-latest,'
-                  'gemini-flash-lite-latest,gemini-2.5-flash-lite,gemini-2.5-flash')
+DEFAULT_MODELS = ('gemini-3.8-flash,gemini-3.6-flash,gemini-3.7-flash,'
+                  'gemini-flash-latest,gemini-flash-lite-latest,'
+                  'gemini-2.5-flash-lite,gemini-2.5-flash')
 
 # JSON 한 덩이를 끝까지 뱉으려면 넉넉해야 한다. 4000 에서는 응답이 중간에
 # 잘려 파싱이 실패했고, 표와 FAQ 가 통째로 사라진 글이 나왔다.
@@ -742,12 +743,19 @@ def check_credentials() -> int:
         print('  · GEMINI_API_KEY 가 비어 있다.')
         return 1
     models = list_available_models(key)
-    if models:
-        flash = [m for m in models if 'flash' in m][:6]
-        print(f'  · Gemini 키 정상. 쓸 수 있는 flash 모델: {", ".join(flash) or "없음"}')
-    else:
+    if not models:
         print('  · Gemini 모델 목록을 받지 못했다. 키를 확인한다.')
         return 1
+    print(f'  · Gemini 키 정상. 쓸 수 있는 모델 {len(models)}개')
+
+    wanted = [m.strip() for m in env('GEMINI_MODELS', DEFAULT_MODELS).split(',') if m.strip()]
+    print('  · 후보 모델:')
+    for name in wanted:
+        print(f'      {"O" if name in models else "X"}  {name}')
+    flash = sorted(m for m in models if 'flash' in m)
+    print(f'  · 목록에 있는 flash 계열 전체 ({len(flash)}개):')
+    for name in flash:
+        print(f'      {name}')
     print('전부 정상이다.')
     return 0
 
