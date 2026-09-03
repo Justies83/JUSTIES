@@ -182,8 +182,9 @@ Actions 탭의 수동 실행(Run workflow) 버튼도 보이지 않는다.
 
 1. `check_only` — 자격증명만 확인한다. 20초. 토큰·blog ID·Gemini 키가 모두
    살아 있는지 본다. 값 하나를 고칠 때마다 3분씩 기다리지 않아도 된다.
-2. `dry_run` — 글을 만들되 발행하지 않는다. 결과는 `preview.html` 아티팩트로
-   남는다.
+2. `dry_run` — 글을 만들되 발행하지 않는다. 본문이 **실행 로그에 그대로
+   찍히고**, HTML 은 `preview.html` 아티팩트로도 남는다. 로그만 봐도 어떤
+   글이 나갈지 알 수 있다.
 
 둘 다 통과하면 아무것도 켜지 않고 실행해 실제로 발행한다.
 
@@ -217,9 +218,13 @@ python3 scripts/blogspot/auto_post.py --loop 120                      # 120분�
 기본 순서는 이렇다. **2026-09-02 실측으로 정했다.**
 
 ```
-gemini-3.8-flash, gemini-3.6-flash, gemini-3.7-flash, gemini-flash-latest,
-gemini-flash-lite-latest, gemini-2.5-flash-lite, gemini-2.5-flash
+gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash,
+gemini-flash-latest, gemini-3.5-flash-lite, gemini-flash-lite-latest
 ```
+
+2026-09-03 에 이 키의 모델 목록을 받아 정했다. 새 버전부터 내려가되 3.5 까지를
+앞에 두어, 어느 단계로 떨어져도 품질이 급히 나빠지지 않게 했다. 앞 자리가
+503 을 뱉는 일은 흔한데, 모델이 나빠서가 아니라 그날 몰려서다.
 
 맨 앞의 `gemini-3.8-flash` 는 **아직 나오지 않았을 수도 있는 이름**이다.
 호출 전에 `/v1beta/models` 로 거르므로, 없으면 로그에 한 줄 남기고 그냥
