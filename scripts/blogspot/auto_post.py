@@ -176,24 +176,60 @@ def fetch_trends(geo: str) -> list[Topic]:
     return topics
 
 
-def fetch_news_context(keyword: str, limit: int = 6) -> list[News]:
-    """트렌드 RSS 의 기사 목록이 빈약할 때 구글 뉴스 검색으로 보충한다."""
+BROWSER_UA = ('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
+              '(KHTML, like Gecko) Chrome/120.0 Safari/537.36')
+
+
+def bing_news(keyword: str, limit: int) -> list[News]:
+    """빙 뉴스 검색. 리디렉션 링크의 url 파라미터에 진짜 기사 주소가 들어 있어
+    기사 원문에서 사진을 꺼낼 수 있다."""
+    q = urllib.parse.quote(keyword)
+    url = f'https://www.bing.com/news/search?q={q}&format=RSS&setmkt=ko-KR'
+    root = ET.fromstring(http_get(url, headers={'User-Agent': BROWSER_UA}))
+    out: list[News] = []
+    for item in root.iterfind('./channel/item'):
+        if len(out) >= limit:
+            break
+        title = (item.findtext('title') or '').strip()
+        link = (item.findtext('link') or '').strip()
+        real = urllib.parse.parse_qs(urllib.parse.urlparse(link).query).get('url', [''])[0]
+        if not title or not real:
+            continue
+        # Source 태그의 네임스페이스가 질의어에 따라 바뀌므로 이름만 본다.
+        source = next((c.text or '' for c in item if c.tag.rsplit('}', 1)[-1] == 'Source'), '')
+        out.append(News(title=html.unescape(title), url=real, source=source.strip(),
+                        picture='', snippet=html.unescape((item.findtext('description') or '').strip())))
+    return out
+
+
+def google_news(keyword: str, limit: int) -> list[News]:
+    """구글 뉴스 검색. 링크가 news.google.com 리디렉션이라 사진은 못 꺼낸다.
+    제목만이라도 건지는 마지막 수단이다."""
     q = urllib.parse.quote(keyword)
     url = f'https://news.google.com/rss/search?q={q}&hl=ko&gl=KR&ceid=KR:ko'
-    try:
-        root = ET.fromstring(http_get(url))
-    except Exception as exc:  # 보조 경로다. 실패해도 발행은 계속한다.
-        print(f'  · 뉴스 검색 보충 실패: {exc}')
-        return []
+    root = ET.fromstring(http_get(url))
     out: list[News] = []
     for item in list(root.iterfind('./channel/item'))[:limit]:
         title = (item.findtext('title') or '').strip()
         link = (item.findtext('link') or '').strip()
-        if not title or not link:
-            continue
-        source = (item.findtext('source') or '').strip()
-        out.append(News(title=html.unescape(title), url=link, source=source, picture=''))
+        if title and link:
+            out.append(News(title=html.unescape(title), url=link,
+                            source=(item.findtext('source') or '').strip(), picture=''))
     return out
+
+
+def fetch_news_context(keyword: str, limit: int = 6) -> list[News]:
+    """트렌드 RSS 의 기사 목록이 빈약하거나 없을 때 검색으로 보충한다."""
+    for name, fetch in (('빙', bing_news), ('구글', google_news)):
+        try:
+            found = fetch(keyword, limit)
+        except Exception as exc:  # 보조 경로다. 실패해도 발행은 계속한다.
+            print(f'  · {name} 뉴스 검색 실패: {exc}')
+            continue
+        if found:
+            print(f'  · {name} 뉴스 검색으로 {len(found)}건 보충')
+            return found
+    return []
 
 
 # ── 2. 중복 방지 ────────────────────────────────────────────────────────────
