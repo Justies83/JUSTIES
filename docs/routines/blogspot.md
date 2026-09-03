@@ -217,9 +217,15 @@ python3 scripts/blogspot/auto_post.py --loop 120                      # 120분�
 기본 순서는 이렇다. **2026-09-02 실측으로 정했다.**
 
 ```
-gemini-3.6-flash, gemini-3.7-flash, gemini-flash-latest,
+gemini-3.8-flash, gemini-3.6-flash, gemini-3.7-flash, gemini-flash-latest,
 gemini-flash-lite-latest, gemini-2.5-flash-lite, gemini-2.5-flash
 ```
+
+맨 앞의 `gemini-3.8-flash` 는 **아직 나오지 않았을 수도 있는 이름**이다.
+호출 전에 `/v1beta/models` 로 거르므로, 없으면 로그에 한 줄 남기고 그냥
+넘어간다. 나중에 구글이 그 모델을 열면 코드를 고치지 않아도 자동으로
+1순위가 된다. 지금 무엇이 실제로 있는지는 `check_only` 실행이 후보별로
+O/X 를 찍어 준다.
 
 앞의 둘은 붐빌 때가 잦아(503 "high demand") 뒤를 두껍게 깔았다.
 `-latest` 별칭은 구글이 현행 모델을 가리키도록 유지하므로 이름이 바뀌어도
