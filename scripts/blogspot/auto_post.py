@@ -291,6 +291,8 @@ def build_prompt(topic: Topic, news: list[News]) -> str:
 - 기사 제목에 없는 사실(숫자, 날짜, 발언, 인용)을 지어내지 않는다. 확실하지
   않으면 "보도에 따르면", "아직 확인되지 않았다" 처럼 불확실성을 드러낸다.
 - 분량은 본문 1500~2500자. 문단은 3~5문장으로 끊는다.
+- **문장은 모두 "~습니다" 로 끝낸다.** "~했다", "~밝혔다" 같은 신문 기사체를
+  쓰지 않는다. 제목과 표, 태그는 예외다.
 - 문체는 담백한 평서문. 과장된 수식어와 낚시성 표현을 쓰지 않는다.
 
 아래 JSON 형식으로만 답한다. 코드펜스나 설명 문장을 앞뒤에 붙이지 않는다.
@@ -453,20 +455,49 @@ def esc(text) -> str:
     return html.escape(str(text or ''), quote=True)
 
 
-def collect_images(topic: Topic, limit: int = 3) -> list[tuple[str, str, str]]:
-    """(이미지 URL, 설명, 출처 링크) 목록. 트렌드 RSS 가 주는 것만 쓴다."""
+def article_image(url: str) -> str:
+    """기사 페이지의 og:image. 트렌드 RSS 가 주는 썸네일보다 훨씬 크고, 대개
+    그 기사에 실제로 실린 보도사진이다. 실패하면 빈 문자열."""
+    try:
+        req = urllib.request.Request(url, headers={
+            'User-Agent': 'Mozilla/5.0 (compatible; JustiesBlogspotBot/1.0)'})
+        with urllib.request.urlopen(req, timeout=10) as res:
+            page = res.read(300_000).decode('utf-8', 'replace')
+    except Exception:
+        return ''
+    for pattern in (r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)',
+                    r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image["\']'):
+        m = re.search(pattern, page, re.I)
+        if m:
+            found = html.unescape(m.group(1)).strip()
+            if found.startswith('//'):
+                found = 'https:' + found
+            elif found.startswith('/'):
+                found = urllib.parse.urljoin(url, found)
+            if found.startswith('http'):
+                return found
+    return ''
+
+
+def collect_images(topic: Topic, news: list[News], limit: int = 3) -> list[tuple[str, str, str]]:
+    """(이미지 URL, 설명, 출처 링크) 목록.
+
+    기사 원문의 og:image 를 먼저 쓰고, 없으면 트렌드 RSS 썸네일로 물러선다.
+    썸네일은 200픽셀 남짓이라 본문에 넣으면 초라하다.
+    """
     seen: set[str] = set()
     out: list[tuple[str, str, str]] = []
-    if topic.picture:
-        seen.add(topic.picture)
-        out.append((topic.picture, topic.keyword, ''))
-    for n in topic.news:
+    for n in news:
         if len(out) >= limit:
             break
-        if n.picture and n.picture not in seen:
-            seen.add(n.picture)
-            out.append((n.picture, n.title, n.url))
-    return out[:limit]
+        url = article_image(n.url) or n.picture
+        if url and url not in seen:
+            seen.add(url)
+            out.append((url, n.title, n.url))
+    if not out and topic.picture:
+        out.append((topic.picture, topic.keyword, ''))
+    print(f'  · 사진 {len(out)}장')
+    return out
 
 
 def figure(image: tuple[str, str, str]) -> str:
@@ -736,7 +767,7 @@ def run_once(args) -> bool:
         }
 
     title = (article.get('title') or f'{topic.keyword}, 무슨 일이 있었나').strip()
-    body = render_html(topic, article, news, collect_images(topic))
+    body = render_html(topic, article, news, collect_images(topic, news))
 
     if args.out:
         Path(args.out).write_text(f'<!-- {title} -->\n{body}', encoding='utf-8')
