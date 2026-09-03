@@ -283,6 +283,58 @@ def fetch_published_titles(feed_url: str, limit: int = 50) -> list[str]:
     return [e.get('title', {}).get('$t', '') for e in entries]
 
 
+# 연예·스포츠는 발행하지 않는다. 근거를 두 갈래로 본다 — 어느 매체가 썼는가와
+# 제목에 어떤 말이 있는가. 매체는 그 자체로 강한 신호라 한 건만 걸려도 막고,
+# 낱말은 기업·정책 기사에도 섞이므로 두 건 이상일 때만 막는다.
+SPORTS_ENT_SOURCES = (
+    '스포츠', '스포탈', '스포티비', 'spotv', '엑스포츠', 'xports', 'osen', '오센',
+    '마이데일리', 'mydaily', '뉴스엔', 'newsen', '텐아시아', 'tenasia', '디스패치',
+    'dispatch', '일간스포츠', '스타뉴스', 'starnews', '인터풋볼', 'interfootball',
+    '베스트일레븐', '점프볼', '루키', '풋볼리스트', '인벤', '데일리e스포츠',
+    '스포탈코리아', 'sportal', 'sportschosun', 'sportsseoul',
+)
+
+SPORTS_ENT_WORDS = (
+    # 연예
+    '아이돌', '컴백', '신곡', '앨범', '데뷔', '팬미팅', '팬사인', '콘서트', '음악방송',
+    '뮤직비디오', '예능', '드라마', '배우', '가수', '연예', '열애', '결별', '소속사',
+    '걸그룹', '보이그룹', '시상식', '방송대상', '캐스팅', '시청률', '주연', '출연',
+    '뮤지컬', '트로트', '팬덤', '유튜버', '인플루언서', '아나운서', '연기자',
+    # 스포츠
+    '아시안게임', '태극전사', '금메달', '은메달', '동메달', '메달', '대표팀', '국가대표',
+    '홈런', '안타', '타점', '투수', '타자', '득점', '어시스트', '플레이오프', '프로야구',
+    '프로축구', '메이저리그', '챔피언스리그', '프리미어리그', '월드컵', '올림픽', '구단',
+    '이적', '우승', '준우승', '결승', '예선', '개막전', '드래프트', '전지훈련',
+    '야구', '축구', '농구', '배구', '골프', '테니스', '격투기', 'ufc', 'kbo', 'mlb',
+    'nba', 'epl', 'lck', 'e스포츠', '경기력', '감독', '선수', '리그',
+)
+
+
+def sports_or_entertainment(topic: Topic, news: list[News]) -> str:
+    """연예·스포츠로 보이면 그 근거를, 아니면 빈 문자열."""
+    key = normalize(topic.keyword)
+    hit = next((w for w in SPORTS_ENT_WORDS if w in key), '')
+    if hit:
+        return hit  # 검색어 자체가 그 분야면 더 볼 것이 없다
+
+    items = news or topic.news
+    source_hit, word_hits, word_example = '', 0, ''
+    for n in items:
+        blob = normalize(f'{n.title} {n.source}')
+        if not source_hit:
+            source_hit = next((w for w in SPORTS_ENT_SOURCES if w in blob), '')
+        found = next((w for w in SPORTS_ENT_WORDS if w in blob), '')
+        if found:
+            word_hits += 1
+            word_example = word_example or found
+    if source_hit:
+        return source_hit
+    # 기사가 한둘뿐이면 한 건만 걸려도 그 분야로 본다.
+    if word_hits >= 2 or (word_hits and len(items) <= 2):
+        return word_example
+    return ''
+
+
 def pick_topic(topics: list[Topic], history_keys: set[str], published: list[str]) -> Topic | None:
     published_blob = normalize(' '.join(published))
     for topic in topics:
@@ -290,6 +342,10 @@ def pick_topic(topics: list[Topic], history_keys: set[str], published: list[str]
         if key in history_keys:
             continue
         if key and len(key) >= 2 and key in published_blob:
+            continue
+        blocked = sports_or_entertainment(topic, topic.news)
+        if blocked:
+            print(f'  · 건너뜀(연예·스포츠): {topic.keyword} — "{blocked}"')
             continue
         return topic
     return None
@@ -773,6 +829,9 @@ def run_once(args) -> bool:
         topic = match or Topic(keyword=args.topic)
         where = '트렌드 목록에서 찾았다' if match else '뉴스 검색으로 모은다'
         print(f'  · 지정된 주제: {topic.keyword} ({where})')
+        blocked = sports_or_entertainment(topic, topic.news)
+        if blocked:
+            print(f'  · 연예·스포츠로 보이지만("{blocked}") 지정된 주제라 진행한다.')
     else:
         if not topics:
             print('검색어를 받지 못했다. 이번 회차는 건너뛴다.')
