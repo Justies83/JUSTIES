@@ -57,14 +57,14 @@ BLOGGER_API = 'https://www.googleapis.com/blogger/v3'
 # 2026-09-02 실행에서 gemini-2.5-flash 는 "더 이상 신규 사용자에게 제공되지
 # 않는다. gemini-3.6-flash 를 쓰라" 는 404 를 돌려주었고, 3-flash·2.0-flash·
 # 1.5-flash 는 이 키의 모델 목록에 아예 없었다.
-# 2026-09-02 실측으로 정했다. gemini-3.6-flash 가 실제로 글을 써 냈고,
-# gemini-3.7-flash 는 응답 없음과 503("high demand") 을 오갔다. 둘 다 붐빌
-# 때가 있어서 뒤에 -latest 별칭과 flash-lite 를 깔아 둔다. 별칭은 구글이
-# 현행 모델을 가리키도록 유지하므로 이름이 바뀌어도 따라간다. flash-lite 는
-# 무료 한도가 가장 넉넉해서 마지막 보루로 알맞다.
-DEFAULT_MODELS = ('gemini-3.8-flash,gemini-3.6-flash,gemini-3.7-flash,'
-                  'gemini-flash-latest,gemini-flash-lite-latest,'
-                  'gemini-2.5-flash-lite,gemini-2.5-flash')
+# 2026-09-03 에 이 키로 실제 쓸 수 있는 모델 목록을 받아 정했다. 새 버전부터
+# 차례로 내려가되, 어느 단계로 떨어져도 품질이 급히 나빠지지 않도록 3.5 까지를
+# 앞에 둔다. -latest 별칭은 구글이 현행 모델을 가리키도록 유지하므로 이름이
+# 바뀌어도 따라가고, flash-lite 는 무료 한도가 가장 넉넉해 마지막 보루다.
+# 앞 자리가 붐비는 것(503)은 흔하다 — 모델이 나빠서가 아니라 그날 몰려서다.
+DEFAULT_MODELS = ('gemini-3.8-flash,gemini-3.7-flash,gemini-3.6-flash,'
+                  'gemini-3.5-flash,gemini-flash-latest,gemini-3.5-flash-lite,'
+                  'gemini-flash-lite-latest')
 
 # JSON 한 덩이를 끝까지 뱉으려면 넉넉해야 한다. 4000 에서는 응답이 중간에
 # 잘려 파싱이 실패했고, 표와 FAQ 가 통째로 사라진 글이 나왔다.
@@ -655,6 +655,37 @@ def send_mail(subject: str, body_html: str) -> None:
             s.send_message(msg)
 
 
+def preview_text(title: str, article: dict, news: list[News]) -> str:
+    """dry-run 에서 로그에 그대로 찍을 읽을 수 있는 형태."""
+    out = ['=' * 60, f'제목: {title}', '=' * 60, '']
+    if article.get('summary'):
+        out += [str(article['summary']), '']
+    for section in article.get('sections') or []:
+        if section.get('heading'):
+            out.append(f'## {section["heading"]}')
+        for para in section.get('paragraphs') or []:
+            out += [str(para), '']
+    table = article.get('table') or {}
+    if table.get('headers') and table.get('rows'):
+        out.append(f'## [표] {table.get("caption", "")}')
+        out.append(' | '.join(str(h) for h in table['headers']))
+        for row in table['rows']:
+            if isinstance(row, list):
+                out.append(' | '.join(str(c) for c in row))
+        out.append('')
+    for qa in article.get('faq') or []:
+        out += [f'Q. {qa.get("q")}', f'A. {qa.get("a")}', '']
+    if news:
+        out.append('## 참고한 기사')
+        out += [f'- {n.title} ({n.source})' for n in news[:8]]
+        out.append('')
+    tags = [str(t) for t in (article.get('tags') or []) if t]
+    if tags:
+        out.append('태그: ' + ' '.join(f'#{t}' for t in tags))
+    out.append('=' * 60)
+    return '\n'.join(out)
+
+
 # ── 한 바퀴 ────────────────────────────────────────────────────────────────
 
 def run_once(args) -> bool:
@@ -712,7 +743,8 @@ def run_once(args) -> bool:
         print(f'  · 미리보기 저장: {args.out}')
 
     if args.dry_run:
-        print(f'\n[dry-run] 발행하지 않았다. 제목: {title}')
+        print(f'\n[dry-run] 발행하지 않았다.\n')
+        print(preview_text(title, article, news))
         return False
 
     method = env('POST_METHOD', 'api').lower()
