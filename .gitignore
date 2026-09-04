@@ -10,4 +10,6 @@ npm-debug.log*
 # vendored by npm run cms:sync
 public/admin/sveltia-cms.js
 __pycache__/
-scripts/naver-blog/.profile/
+
+# 네이버 붙여넣기 패키지 (scripts/naver-blog/make-package.mjs 출력)
+naver-package/

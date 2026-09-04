@@ -11,6 +11,7 @@
     "cms:sync": "node scripts/sync-cms.mjs",
     "og": "node scripts/make-og.mjs",
     "requests": "node scripts/pending-requests.mjs",
+    "naver": "node scripts/naver-blog/make-package.mjs",
     "preprints": "node scripts/fetch-preprints.mjs"
   },
   "dependencies": {
