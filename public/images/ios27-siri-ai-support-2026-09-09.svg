@@ -5,38 +5,41 @@
   <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">SIRI AI SUPPORT</text>
   <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">시리 AI는 아이폰 15 프로부터 — 세 세대 반만 들어온다</text>
 
+  <!-- 권장 지점 설명 (위쪽, 2025) -->
+  <text x="570" y="150" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">온디바이스 모델 강화 — 음성 인식·받아쓰기가 더 정확</text>
+  <text x="570" y="176" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#e0795b">권장</text>
+  <line x1="570" y1="190" x2="570" y2="293" stroke="#e0795b" stroke-width="1.5" stroke-dasharray="3 3"/>
+
+  <!-- 최소 지원 지점 설명 (위쪽, 2023) -->
+  <text x="150" y="228" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">여기부터 시리 AI</text>
+  <text x="150" y="254" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#16756a">최소 지원</text>
+  <line x1="150" y1="268" x2="150" y2="293" stroke="#16756a" stroke-width="1.5" stroke-dasharray="3 3"/>
+
   <!-- 미지원 구간 -->
   <line x1="80" y1="300" x2="150" y2="300" stroke="rgba(32,35,31,.16)" stroke-width="2" stroke-dasharray="4 4"/>
-  <text x="80" y="278" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">미지원</text>
+  <text x="80" y="288" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">미지원</text>
 
   <!-- 지원 구간 -->
   <line x1="150" y1="300" x2="820" y2="300" stroke="#16756a" stroke-width="3"/>
 
-  <!-- 2023 · 최소 지원 -->
   <circle cx="150" cy="300" r="7" fill="#16756a"/>
-  <line x1="150" y1="293" x2="150" y2="232" stroke="#16756a" stroke-width="1.5" stroke-dasharray="3 3"/>
-  <text x="150" y="218" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#16756a">최소 지원</text>
-  <text x="150" y="196" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">여기부터 시리 AI</text>
-  <text x="150" y="334" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">2023</text>
-  <text x="150" y="358" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">아이폰 15 프로</text>
-
-  <!-- 2024 -->
   <circle cx="360" cy="300" r="5" fill="#f4f1ea" stroke="#16756a" stroke-width="2.5"/>
-  <text x="360" y="334" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">2024</text>
-  <text x="360" y="358" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">아이폰 16</text>
-
-  <!-- 2025 · 권장 -->
   <circle cx="570" cy="300" r="7" fill="#e0795b"/>
-  <line x1="570" y1="307" x2="570" y2="398" stroke="#e0795b" stroke-width="1.5" stroke-dasharray="3 3"/>
-  <text x="570" y="418" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#e0795b">권장</text>
-  <text x="570" y="440" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">온디바이스 모델 강화 — 음성 인식·받아쓰기가 더 정확</text>
-  <text x="570" y="334" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">2025</text>
-  <text x="570" y="358" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">아이폰 17 · 에어</text>
-
-  <!-- 2026 -->
   <circle cx="780" cy="300" r="5" fill="#f4f1ea" stroke="#16756a" stroke-width="2.5"/>
-  <text x="780" y="334" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">2026</text>
-  <text x="780" y="358" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">아이폰 18 프로 · 듀오</text>
 
-  <text x="60" y="482" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">iOS 27 배포 9월 14일 · 도표는 애플 9월 9일 발표 내용으로 직접 작성</text>
+  <!-- 연도와 기종 (아래쪽) -->
+  <text x="150" y="338" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">2023</text>
+  <text x="150" y="362" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">아이폰 15 프로</text>
+
+  <text x="360" y="338" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">2024</text>
+  <text x="360" y="362" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">아이폰 16</text>
+
+  <text x="570" y="338" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">2025</text>
+  <text x="570" y="362" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">아이폰 17 · 에어</text>
+
+  <text x="780" y="338" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">2026</text>
+  <text x="780" y="362" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">아이폰 18 프로 · 듀오</text>
+
+  <line x1="60" y1="430" x2="840" y2="430" stroke="rgba(32,35,31,.08)"/>
+  <text x="60" y="462" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">iOS 27 배포 9월 14일 · 도표는 애플 9월 9일 발표 내용으로 직접 작성</text>
 </svg>
