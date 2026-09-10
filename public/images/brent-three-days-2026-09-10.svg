@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="브렌트유 사흘 추이 도표. 9월 8일 배럴당 97.92달러에서 9월 9일 100.02달러, 9월 10일 101.80달러로 올랐다. 같은 기간 미국과 이란이 서로 선박을 공격했다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">BRENT — 3 DAYS</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">선박 공격이 오갈 때마다 유가가 한 단씩 올랐다</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">브렌트유 배럴당 가격 (달러)</text>
+
+  <!-- 100달러 기준선 -->
+  <line x1="180" y1="266" x2="780" y2="266" stroke="#62655d" stroke-width="1.1" stroke-dasharray="5 4" opacity="0.5"/>
+  <text x="170" y="270" text-anchor="end" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">100</text>
+
+  <!-- 추이 -->
+  <polyline points="220,325 460,265 700,214" fill="none" stroke="#e0795b" stroke-width="3"/>
+
+  <circle cx="220" cy="325" r="6.5" fill="#e0795b"/>
+  <circle cx="460" cy="265" r="6.5" fill="#e0795b"/>
+  <circle cx="700" cy="214" r="7.5" fill="#e0795b"/>
+
+  <text x="220" y="305" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#20231f">97.92</text>
+  <text x="460" y="245" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#20231f">100.02</text>
+  <text x="700" y="192" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="16" fill="#e0795b">101.80</text>
+
+  <!-- 축 -->
+  <line x1="180" y1="380" x2="780" y2="380" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="220" y="404" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">9.8</text>
+  <text x="220" y="428" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12.5" fill="#62655d">미군, 이란 유조선 5척</text>
+
+  <text x="460" y="404" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">9.9</text>
+  <text x="460" y="428" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12.5" fill="#62655d">IRGC 10척 보복 주장</text>
+
+  <text x="700" y="404" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">9.10</text>
+  <text x="700" y="428" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12.5" fill="#62655d">CENTCOM 전면 부인</text>
+
+  <line x1="60" y1="458" x2="840" y2="458" stroke="rgba(32,35,31,.08)"/>
+  <text x="60" y="486" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">9.10 기준 WTI 96.05달러 · 도표는 머니투데이·파이낸셜뉴스 보도 수치로 직접 작성</text>
+</svg>
