@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="2026년 9월 9일 뉴욕증시 등락률 도표. 에너지 업종은 1.1퍼센트, 반도체지수는 0.37퍼센트 올랐고, S&#38;P 500은 0.48퍼센트, 나스닥은 0.64퍼센트, 다우존스는 0.77퍼센트 내렸다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">NEW YORK — SEP 9</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">유가가 오르니 지수는 내리고 에너지만 올랐다</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">9월 9일 종가 기준 등락률 (%)</text>
+
+  <!-- 0% 기준선 -->
+  <line x1="420" y1="150" x2="420" y2="410" stroke="rgba(32,35,31,.16)" stroke-width="1.5"/>
+  <text x="420" y="140" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" fill="#62655d">0</text>
+
+  <!-- 에너지 +1.1 -->
+  <text x="60" y="196" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">에너지 업종</text>
+  <rect x="420" y="178" width="220" height="22" fill="#16756a"/>
+  <text x="652" y="196" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#16756a">+1.10</text>
+
+  <!-- 반도체 +0.37 -->
+  <text x="60" y="242" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">반도체지수</text>
+  <rect x="420" y="224" width="74" height="22" fill="#16756a" opacity="0.55"/>
+  <text x="506" y="242" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#16756a">+0.37</text>
+
+  <!-- S&P 500 -0.48 -->
+  <text x="60" y="288" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">S&amp;P 500</text>
+  <rect x="324" y="270" width="96" height="22" fill="#e0795b" opacity="0.7"/>
+  <text x="312" y="288" text-anchor="end" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#e0795b">-0.48</text>
+
+  <!-- 나스닥 -0.64 -->
+  <text x="60" y="334" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">나스닥종합</text>
+  <rect x="292" y="316" width="128" height="22" fill="#e0795b" opacity="0.85"/>
+  <text x="280" y="334" text-anchor="end" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#e0795b">-0.64</text>
+
+  <!-- 다우 -0.77 -->
+  <text x="60" y="380" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">다우존스30</text>
+  <rect x="266" y="362" width="154" height="22" fill="#e0795b"/>
+  <text x="254" y="380" text-anchor="end" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#e0795b">-0.77</text>
+
+  <line x1="60" y1="430" x2="840" y2="430" stroke="rgba(32,35,31,.08)"/>
+  <text x="60" y="462" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">브렌트유 100달러 돌파 · 도표는 이투데이·더페어 보도 수치로 직접 작성</text>
+</svg>
