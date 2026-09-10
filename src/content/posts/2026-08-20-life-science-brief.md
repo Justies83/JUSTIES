@@ -15,7 +15,7 @@ visibility: private
 → [ScienceDaily 기사](https://www.sciencedaily.com/releases/2026/08/260816044830.htm)
 
 **혈액 한 방울로 암 50종 조기 발견 — Galleri MCED 시험**
-영국 NHS가 진행 중인 대규모 임상시험에서, 이 혈액검사를 받은 그룹은 2~3차 검진에서 4기(말기) 암 진단이 20% 이상 줄었다. 다만 3·4기 암을 합친 감소폭이 통계적 목표치에는 못 미쳐, 개발사는 1차 평가지표 달성에는 실패했다고 밝혔다.
+영국 NHS가 진행 중인 대규모 임상시험에서, 이 혈액검사를 받은 그룹은 2\~3차 검진에서 4기(말기) 암 진단이 20% 이상 줄었다. 다만 3·4기 암을 합친 감소폭이 통계적 목표치에는 못 미쳐, 개발사는 1차 평가지표 달성에는 실패했다고 밝혔다.
 → [Exeter대 보도](https://news.exeter.ac.uk/faculty-of-health-and-life-sciences/screening-with-a-multi-cancer-blood-test-reduced-the-most-advanced-cancers/)
 
 **은나노입자로 DNA를 더 잘 붙인다 — 유전자 조립 효율 5배**

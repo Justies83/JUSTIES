@@ -11,7 +11,7 @@ source:
 visibility: private
 ---
 
-지난 8/21 브리핑에서 예고한 대로다. 아래는 모두 8월 22~23일 bioRxiv 암생물학
+지난 8/21 브리핑에서 예고한 대로다. 아래는 모두 8월 22\~23일 bioRxiv 암생물학
 분야에 등록된 것으로, **동료심사를 거치지 않았다.** 결론이 아니라 "지금 어떤
 질문이 던져지고 있는가"로 읽는 것이 맞다.
 
@@ -64,4 +64,4 @@ DNA 손상 반응이 강해졌다.
 
 **출처**
 - [bioRxiv · Cancer Biology 컬렉션](https://www.biorxiv.org/collection/cancer-biology)
-- 각 항목의 DOI 링크 (2026-08-22~23 등록분)
+- 각 항목의 DOI 링크 (2026-08-22\~23 등록분)
