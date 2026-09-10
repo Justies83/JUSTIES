@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="미국 생산자물가지수 전년 대비 상승률 도표. 전체 PPI는 7월 4.7퍼센트에서 8월 5.4퍼센트로 올라 전망치 5.3퍼센트를 웃돌았고, 근원 PPI는 4.3퍼센트에서 4.6퍼센트로 올랐다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">US PPI — AUGUST</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">에너지가 반등하며 전체 물가만 크게 뛰었다</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">생산자물가 전년 동월 대비 상승률 (%)</text>
+
+  <!-- 시점 축 -->
+  <line x1="280" y1="400" x2="640" y2="400" stroke="rgba(32,35,31,.16)"/>
+  <text x="280" y="424" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">7월</text>
+  <text x="640" y="424" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">8월</text>
+
+  <!-- 전망치 표시 -->
+  <line x1="612" y1="218" x2="668" y2="218" stroke="#62655d" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <text x="676" y="246" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">전망 5.3</text>
+
+  <!-- 전체 PPI -->
+  <polyline points="280,293 640,205" fill="none" stroke="#e0795b" stroke-width="3"/>
+  <circle cx="280" cy="293" r="6" fill="#e0795b"/>
+  <circle cx="640" cy="205" r="7" fill="#e0795b"/>
+  <text x="258" y="298" text-anchor="end" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#e0795b">4.7</text>
+  <text x="676" y="202" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="16" fill="#e0795b">5.4</text>
+  <text x="676" y="180" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#e0795b">전체 PPI</text>
+
+  <!-- 근원 PPI -->
+  <polyline points="280,343 640,305" fill="none" stroke="#16756a" stroke-width="3"/>
+  <circle cx="280" cy="343" r="6" fill="#16756a"/>
+  <circle cx="640" cy="305" r="7" fill="#16756a"/>
+  <text x="258" y="348" text-anchor="end" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#16756a">4.3</text>
+  <text x="676" y="302" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="16" fill="#16756a">4.6</text>
+  <text x="676" y="324" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#16756a">근원 PPI</text>
+  <text x="676" y="346" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12" fill="#62655d">식품·에너지 제외</text>
+
+  <line x1="60" y1="452" x2="840" y2="452" stroke="rgba(32,35,31,.08)"/>
+  <text x="60" y="482" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">전월 대비는 전체 +0.4% · 근원 +0.2% · 도표는 머니투데이·아시아경제 수치로 직접 작성</text>
+</svg>
