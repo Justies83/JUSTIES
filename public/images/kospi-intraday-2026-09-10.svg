@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="2026년 9월 10일 코스피 흐름 도표. 전일 종가 7051.64에서 장중 6898.45까지 내렸다가 7033.92로 마감해 7000선을 회복했다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">KOSPI — SEP 10</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">장중 6,898까지 밀렸다가 7,000선을 되찾았다</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">전일 종가 · 장중 저점 · 종가 (포인트)</text>
+
+  <!-- 7,000 기준선 -->
+  <line x1="140" y1="264" x2="800" y2="264" stroke="#16756a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.6"/>
+  <text x="130" y="268" text-anchor="end" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#16756a">7,000</text>
+
+  <!-- 흐름 -->
+  <polyline points="220,209 470,371 720,228" fill="none" stroke="#e0795b" stroke-width="2.5"/>
+
+  <!-- 전일 종가 -->
+  <circle cx="220" cy="209" r="6" fill="#f4f1ea" stroke="#62655d" stroke-width="2.5"/>
+  <text x="220" y="173" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">전일 종가</text>
+  <text x="220" y="193" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13.5" fill="#20231f">7,051.64</text>
+
+  <!-- 장중 저점 -->
+  <circle cx="470" cy="371" r="7" fill="#e0795b"/>
+  <text x="470" y="398" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13.5" fill="#e0795b">6,898.45</text>
+  <text x="470" y="420" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">장중 저점</text>
+
+  <!-- 종가 -->
+  <circle cx="720" cy="228" r="7" fill="#16756a"/>
+  <text x="720" y="192" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#16756a">종가</text>
+  <text x="720" y="212" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13.5" fill="#20231f">7,033.92</text>
+
+  <line x1="60" y1="452" x2="840" y2="452" stroke="rgba(32,35,31,.08)"/>
+  <text x="60" y="482" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">외국인 2조 4,807억 순매도 · 도표는 미디어워치 보도 수치로 직접 작성</text>
+</svg>
