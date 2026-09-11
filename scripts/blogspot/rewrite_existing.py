@@ -190,7 +190,7 @@ def rewrite_one(token: str, blog_id: str, post: dict, backup_dir: Path, dry_run:
 def main() -> int:
     p = argparse.ArgumentParser(description='기존 발행 글 재작성')
     p.add_argument('--list', action='store_true', help='대상만 나열하고 끝낸다')
-    p.add_argument('--only', default='', help='이 post id 하나만 처리한다')
+    p.add_argument('--only', default='', help='이 post id 만 처리한다 (쉼표로 여러 개)')
     p.add_argument('--dry-run', action='store_true', help='새 본문을 만들되 올리지 않는다')
     args = p.parse_args()
 
@@ -206,7 +206,8 @@ def main() -> int:
         return 0
 
     if args.only:
-        posts = [p for p in posts if p['id'] == args.only]
+        wanted = {s.strip() for s in args.only.split(',') if s.strip()}
+        posts = [p for p in posts if p['id'] in wanted]
         if not posts:
             print('그 id 를 찾지 못했다.')
             return 1
