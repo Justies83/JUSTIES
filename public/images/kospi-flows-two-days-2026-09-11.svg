@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="코스피 투자자별 순매수 도표. 9월 10일 기관은 4334억원 순매수였으나 9월 11일에는 1조2235억원 순매도로 돌아섰다. 외국인은 이틀 연속 2조원대 순매도이고, 개인은 3802억원에서 1조8658억원으로 순매수를 늘렸다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">KOSPI FLOWS</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">지수를 받치던 기관이 하루 만에 매도로 돌아섰다</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">투자자별 순매수 (조원) · 0 기준 오른쪽이 순매수</text>
+
+  <!-- 범례 -->
+  <rect x="640" y="72" width="16" height="12" fill="#16756a" opacity="0.55"/>
+  <text x="664" y="83" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">9.10</text>
+  <rect x="718" y="72" width="16" height="12" fill="#e0795b"/>
+  <text x="742" y="83" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">9.11</text>
+
+  <!-- 0 기준선 -->
+  <line x1="470" y1="150" x2="470" y2="400" stroke="rgba(32,35,31,.28)" stroke-width="1.5"/>
+  <text x="470" y="140" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" fill="#62655d">0</text>
+
+  <!-- 외국인 -->
+  <text x="60" y="205" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">외국인</text>
+  <rect x="197" y="172" width="273" height="22" fill="#16756a" opacity="0.55"/>
+  <text x="189" y="188" text-anchor="end" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">-2.48</text>
+  <rect x="217" y="198" width="253" height="22" fill="#e0795b"/>
+  <text x="209" y="214" text-anchor="end" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#e0795b">-2.30</text>
+
+  <!-- 기관 -->
+  <text x="60" y="287" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">기관</text>
+  <rect x="470" y="254" width="48" height="22" fill="#16756a" opacity="0.55"/>
+  <text x="526" y="270" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">+0.43</text>
+  <rect x="335" y="280" width="135" height="22" fill="#e0795b"/>
+  <text x="327" y="296" text-anchor="end" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#e0795b">-1.22</text>
+
+  <!-- 개인 -->
+  <text x="60" y="369" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">개인</text>
+  <rect x="470" y="336" width="42" height="22" fill="#16756a" opacity="0.55"/>
+  <text x="520" y="352" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">+0.38</text>
+  <rect x="470" y="362" width="205" height="22" fill="#e0795b"/>
+  <text x="683" y="378" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#e0795b">+1.87</text>
+
+  <line x1="60" y1="436" x2="840" y2="436" stroke="rgba(32,35,31,.08)"/>
+  <text x="60" y="462" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">9.11 코스피 6,909.91(-1.76%) · 장중 저점은 개장가 6,802.50</text>
+  <text x="60" y="484" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">도표는 머니투데이 보도 수치로 직접 작성</text>
+</svg>
