@@ -38,6 +38,14 @@ on:
         description: '주제를 직접 지정한다 (비워 두면 트렌드에서 고른다)'
         type: string
         default: ''
+      rewrite_existing:
+        description: '⚠ 새 글을 쓰지 않고, 이미 발행된 글을 전부 다시 쓴다 (일회성)'
+        type: boolean
+        default: false
+      rewrite_only_id:
+        description: 'rewrite_existing 과 함께 쓴다. 이 post id 하나만 시험한다'
+        type: string
+        default: ''
 
 concurrency:
   # 예약과 수동 실행이 겹쳐 같은 검색어로 두 편이 나가는 것을 막는다.
@@ -103,6 +111,17 @@ jobs:
           TOPIC: ${{ inputs.topic }}
         run: |
           set +e
+          if [ "${{ inputs.rewrite_existing }}" = "true" ]; then
+            # 일회성 배치다. 새 글을 쓰지 않고 이미 발행된 글을 전부 다시 쓴다.
+            if [ -n "${{ inputs.rewrite_only_id }}" ]; then
+              python3 scripts/blogspot/rewrite_existing.py --only "${{ inputs.rewrite_only_id }}"
+            else
+              python3 scripts/blogspot/rewrite_existing.py
+            fi
+            code=$?
+            echo "rewrote=true" >> "$GITHUB_OUTPUT"
+            exit "$code"
+          fi
           if [ "${{ inputs.check_only }}" = "true" ]; then
             python3 scripts/blogspot/auto_post.py --check
             exit $?
@@ -142,6 +161,23 @@ jobs:
           git add scripts/blogspot/state/published.tsv
           git diff --cached --quiet && { echo '기록에 변화 없음'; exit 0; }
           git commit -m "블로그 자동 발행 기록 [skip ci]"
+          for i in 1 2 3 4; do
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" && \
+              git push origin "HEAD:${GITHUB_REF_NAME}" && exit 0
+            echo "push 실패 — $((2 ** i))초 뒤 재시도"
+            sleep $((2 ** i))
+          done
+          exit 1
+
+      - name: Commit rewrite backup
+        # 몇 편이 실패해도(코드 1) 이미 처리한 편의 원본은 커밋해 둔다.
+        if: always() && steps.post.outputs.rewrote == 'true'
+        run: |
+          git config user.name 'blogspot-bot'
+          git config user.email 'noreply@justies.net'
+          git add scripts/blogspot/state/backup-*/ 2>/dev/null || true
+          git diff --cached --quiet && { echo '백업할 새 내용 없음'; exit 0; }
+          git commit -m "기존 글 재작성 전 원본 백업 [skip ci]"
           for i in 1 2 3 4; do
             git pull --rebase --autostash origin "${GITHUB_REF_NAME}" && \
               git push origin "HEAD:${GITHUB_REF_NAME}" && exit 0
