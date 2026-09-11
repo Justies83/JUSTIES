@@ -62,6 +62,11 @@ BLOGGER_API = 'https://www.googleapis.com/blogger/v3'
 # 앞에 둔다. -latest 별칭은 구글이 현행 모델을 가리키도록 유지하므로 이름이
 # 바뀌어도 따라가고, flash-lite 는 무료 한도가 가장 넉넉해 마지막 보루다.
 # 앞 자리가 붐비는 것(503)은 흔하다 — 모델이 나빠서가 아니라 그날 몰려서다.
+# 섹션(라벨) 고정 목록. 연예·스포츠는 sports_or_entertainment() 가 이미
+# 걸러내므로 여기 넣지 않는다. Blogger 는 라벨마다 /search/label/<라벨> 페이지를
+# 자동으로 만들어 준다 — 폴더 구조를 API 로 흉내 내는 대신 이것을 쓴다.
+CATEGORIES = ('경제', '국제', '정치·사회', '과학·기술', '생활·정보')
+
 DEFAULT_MODELS = ('gemini-3.8-flash,gemini-3.7-flash,gemini-3.6-flash,'
                   'gemini-3.5-flash,gemini-flash-latest,gemini-3.5-flash-lite,'
                   'gemini-flash-lite-latest')
@@ -408,6 +413,10 @@ def build_prompt(topic: Topic, news: list[News]) -> str:
   알아챈다.
 - **한 문단에는 한 가지 생각만 담는다.** 조건이나 항목이 셋 이상이면 문단으로
   풀지 않고 소제목이나 표로 나눈다.
+- **따로 묻고 답하는 코너를 만들지 않는다.** 독자가 물을 법한 것("얼마나
+  걸리나", "누가 대상인가", "예외는 없나")은 문답 형식으로 떼어 놓지 말고,
+  해당하는 절이나 문단 안에 자연스러운 서술로 풀어 넣는다. 사람이 쓴 기사는
+  글 끝에 자문자답을 붙이지 않는다.
 - 기사 제목에 없는 사실(숫자, 날짜, 발언, 인용)을 지어내지 않는다. 확실하지
   않으면 "보도에 따르면", "아직 확인되지 않았다" 처럼 불확실성을 드러낸다.
 - 분량은 본문 1500~2500자. 문단은 3~5문장으로 끊는다.
@@ -428,13 +437,11 @@ def build_prompt(topic: Topic, news: list[News]) -> str:
     "headers": ["항목", "내용"],
     "rows": [["행1-1", "행1-2"], ["행2-1", "행2-2"]]
   }},
-  "faq": [
-    {{"q": "독자가 실제로 검색할 법한 질문", "a": "2~3문장 답변"}}
-  ],
+  "category": "{' / '.join(CATEGORIES)} 중 하나. 정치와 경제가 겹치면 더 중심이 되는 쪽",
   "tags": ["태그", "태그"]
 }}
 
-sections 는 3~5개, faq 는 3~5개, table 의 rows 는 3~6개로 만든다."""
+sections 는 3~6개, table 의 rows 는 3~6개로 만든다."""
 
 
 def extract_json(text: str) -> dict | None:
@@ -632,8 +639,37 @@ def figure(image: tuple[str, str, str]) -> str:
     )
 
 
+VIEW_COUNTER_PLACEHOLDER = '<!--VIEW_COUNTER-->'
+
+
+def visitor_badge(post_url: str) -> str:
+    """글 주소마다 조회수를 세는 배지. visitor-badge.laobi.icu 는 가입 없이
+    GET 요청 하나로 카운터를 셀 수 있게 해 준다 — 이미지 하나일 뿐이라 그
+    서비스가 죽어도 페이지는 깨지지 않고 깨진 이미지 아이콘만 남는다.
+
+    같은 계열의 오래된 서비스(hits.seeyoufarm.com, visitor-badge.glitch.me)는
+    2026-09-11 확인 시점에 도메인 자체가 죽어 있었다. laobi.icu 는 그 시점에
+    실제로 카운터가 도는 것을 확인했다.
+
+    집계가 정교하지 않다는 점은 감안한다 — 크롤러·이미지 프리페치도 셀 수
+    있어 실제 방문자 수보다 다소 높게 나온다. '고유 방문자'가 아니라 '조회'
+    배지로 보는 편이 맞다.
+    """
+    page_id = urllib.parse.quote(post_url, safe='')
+    label = urllib.parse.quote('조회수')
+    src = f'https://visitor-badge.laobi.icu/badge?page_id={page_id}&left_text={label}'
+    return (f'<p style="margin:0 0 20px;"><img src="{esc(src)}" alt="조회수" '
+            'style="height:20px;vertical-align:middle;" loading="lazy" /></p>')
+
+
+def finalize_body(body_html: str, post_url: str) -> str:
+    """발행 뒤에야 주소를 알 수 있으므로, 자리표를 실제 배지로 바꾼다."""
+    badge = visitor_badge(post_url) if post_url else ''
+    return body_html.replace(VIEW_COUNTER_PLACEHOLDER, badge)
+
+
 def render_html(topic: Topic, article: dict, news: list[News], images: list) -> str:
-    parts: list[str] = []
+    parts: list[str] = [VIEW_COUNTER_PLACEHOLDER]
     summary = article.get('summary') or ''
     if summary:
         # 라벨 없이 리드 문단으로 싣는다. 매 글 같은 자리에 "요약" 딱지가
@@ -671,15 +707,6 @@ def render_html(topic: Topic, article: dict, news: list[News], images: list) -> 
             '<table style="width:100%;border-collapse:collapse;font-size:15px;">'
             f'<thead><tr>{cells}</tr></thead><tbody>{body}</tbody></table>'
         )
-
-    faq = article.get('faq') or []
-    if faq:
-        parts.append('<h2 style="margin:32px 0 12px;">자주 묻는 질문</h2>')
-        for qa in faq:
-            parts.append(
-                f'<h3 style="margin:20px 0 6px;">Q. {esc(qa.get("q"))}</h3>'
-                f'<p style="line-height:1.8;">A. {esc(qa.get("a"))}</p>'
-            )
 
     if news:
         links = ''.join(
@@ -755,8 +782,8 @@ def blogger_blog_id(token: str) -> str:
     return blog_id
 
 
-def send_via_api(title: str, body_html: str, labels: list[str]) -> str:
-    """Blogger API v3 로 발행하고 글 주소를 돌려준다."""
+def send_via_api(title: str, body_html: str, labels: list[str]) -> tuple[str, str]:
+    """Blogger API v3 로 발행하고 (글 id, 글 주소) 를 돌려준다."""
     token = blogger_access_token()
     blog_id = blogger_blog_id(token)
     draft = env('POST_AS_DRAFT', 'false').lower() in ('1', 'true', 'yes')
@@ -770,7 +797,27 @@ def send_via_api(title: str, body_html: str, labels: list[str]) -> str:
         raise SystemExit(f'발행 실패 ({status}): {detail}')
     if draft:
         print('  · 초안으로 저장했다 (POST_AS_DRAFT)')
-    return body.get('url') or ''
+    return body.get('id') or '', body.get('url') or ''
+
+
+def update_post_via_api(post_id: str, title: str, body_html: str, labels: list[str]) -> None:
+    """이미 발행된 글의 본문·라벨을 덮어 쓴다. 조회수 배지 자리표를 실제
+    주소로 채우는 두 번째 호출과, 기존 글 재작성 작업 양쪽에서 쓴다."""
+    token = blogger_access_token()
+    blog_id = blogger_blog_id(token)
+    url = f'{BLOGGER_API}/blogs/{blog_id}/posts/{post_id}'
+    payload = {'kind': 'blogger#post', 'id': post_id, 'title': title, 'content': body_html}
+    if labels:
+        payload['labels'] = labels[:20]
+    req = urllib.request.Request(
+        url, data=json.dumps(payload).encode('utf-8'), method='PUT',
+        headers={'Authorization': f'Bearer {token}', 'Content-Type': 'application/json'})
+    try:
+        with urllib.request.urlopen(req, timeout=30) as res:
+            res.read()
+    except urllib.error.HTTPError as e:
+        detail = re.sub(r'\s+', ' ', e.read().decode('utf-8', 'replace'))[:400]
+        raise SystemExit(f'글 수정 실패 ({e.code}): {detail}')
 
 
 def send_mail(subject: str, body_html: str) -> None:
@@ -808,7 +855,7 @@ def send_mail(subject: str, body_html: str) -> None:
 
 def preview_text(title: str, article: dict, news: list[News]) -> str:
     """dry-run 에서 로그에 그대로 찍을 읽을 수 있는 형태."""
-    out = ['=' * 60, f'제목: {title}', '=' * 60, '']
+    out = ['=' * 60, f'제목: {title}', f'분류: {article.get("category", "")}', '=' * 60, '']
     if article.get('summary'):
         out += [str(article['summary']), '']
     for section in article.get('sections') or []:
@@ -824,8 +871,6 @@ def preview_text(title: str, article: dict, news: list[News]) -> str:
             if isinstance(row, list):
                 out.append(' | '.join(str(c) for c in row))
         out.append('')
-    for qa in article.get('faq') or []:
-        out += [f'Q. {qa.get("q")}', f'A. {qa.get("a")}', '']
     if news:
         out.append('## 참고한 기사')
         out += [f'- {n.title} ({n.source})' for n in news[:8]]
@@ -900,7 +945,7 @@ def run_once(args) -> bool:
             'title': f'{topic.keyword}, 무슨 일이 있었나',
             'summary': paragraphs[0] if paragraphs else '',
             'sections': [{'heading': '', 'paragraphs': paragraphs[1:] or paragraphs}],
-            'faq': [], 'table': {}, 'tags': [topic.keyword],
+            'table': {}, 'tags': [topic.keyword], 'category': '생활·정보',
         }
 
     title = (article.get('title') or f'{topic.keyword}, 무슨 일이 있었나').strip()
@@ -916,16 +961,23 @@ def run_once(args) -> bool:
         return False
 
     method = env('POST_METHOD', 'api').lower()
-    labels = [str(t).strip() for t in (article.get('tags') or []) if str(t).strip()]
-    print(f'4) 블로그로 보낸다 (방식: {method})')
+    category = str(article.get('category') or '').strip()
+    if category not in CATEGORIES:
+        category = CATEGORIES[-1]  # 모델이 목록 밖의 말을 냈다. 생활·정보로 둔다.
+    tags = [str(t).strip() for t in (article.get('tags') or []) if str(t).strip()]
+    labels = [category] + [t for t in tags if t != category]
+    print(f'4) 블로그로 보낸다 (방식: {method}, 분류: {category})')
     if method == 'mail':
-        send_mail(title, body)
+        send_mail(title, finalize_body(body, ''))
         print(f'발행 완료 — {title}')
     else:
-        posted = send_via_api(title, body, labels)
+        post_id, posted_url = send_via_api(title, body, labels)
+        # 조회수 배지는 글 주소를 알아야 채울 수 있어, 만든 뒤 한 번 더 덮어 쓴다.
+        if post_id and posted_url:
+            update_post_via_api(post_id, title, finalize_body(body, posted_url), labels)
         print(f'발행 완료 — {title}')
-        if posted:
-            print(f'  · {posted}')
+        if posted_url:
+            print(f'  · {posted_url}')
     append_history(topic.keyword, title)
     return True
 
