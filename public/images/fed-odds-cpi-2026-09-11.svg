@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="8월 CPI 발표 전후 연준 9월 금리 인상 확률 변화 도표. 발표 전 72퍼센트에서 발표 후 85퍼센트로 올랐다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">CPI — AUGUST</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">헤드라인은 예상대로, 인상 확률은 훌쩍</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">9월 FOMC 0.25%포인트 인상 확률 (CME 페드워치)</text>
+
+  <line x1="300" y1="160" x2="300" y2="392" stroke="rgba(32,35,31,.16)" stroke-width="1.5"/>
+
+  <!-- 발표 전 72% -->
+  <text x="285" y="230" text-anchor="end" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">발표 전</text>
+  <rect x="300" y="212" width="331" height="30" fill="#62655d" opacity="0.5"/>
+  <text x="646" y="234" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="16" fill="#62655d">72%</text>
+
+  <!-- 발표 후 85% -->
+  <text x="285" y="318" text-anchor="end" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">발표 후</text>
+  <rect x="300" y="300" width="391" height="30" fill="#e0795b"/>
+  <text x="706" y="322" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="16" fill="#e0795b">85%</text>
+
+  <line x1="60" y1="380" x2="840" y2="380" stroke="rgba(32,35,31,.08)" opacity="0"/>
+
+  <!-- 헤드라인·근원 수치 요약 -->
+  <line x1="60" y1="396" x2="840" y2="396" stroke="rgba(32,35,31,.08)"/>
+  <text x="60" y="424" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">헤드라인 3.4%(전년) · 0.4%(전월) — 둘 다 전망치 부합</text>
+  <text x="60" y="446" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">근원 2.4%(전년, 전망 부합) · 0.3%(전월, 전망 0.2%를 웃돎)</text>
+  <text x="60" y="475" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">도표는 머니투데이 보도 수치로 직접 작성</text>
+</svg>
