@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="다우존스 나흘간 흐름 도표. 9월 8일부터 10일까지 사흘 연속 내리다가 9월 11일 1.01퍼센트 반등해 52587.82로 마감했다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">DOW — 4 DAYS</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">CPI가 예상대로 나오자 나흘 만에 반등했다</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">다우존스30 산업평균지수 종가</text>
+
+  <polyline points="150,210 350,270 550,320 750,175" fill="none" stroke="#e0795b" stroke-width="1.5" stroke-dasharray="0" opacity="0"/>
+  <polyline points="150,210 350,270 550,320" fill="none" stroke="#62655d" stroke-width="3"/>
+  <polyline points="550,320 750,175" fill="none" stroke="#16756a" stroke-width="3"/>
+
+  <circle cx="150" cy="210" r="6.5" fill="#62655d"/>
+  <circle cx="350" cy="270" r="6.5" fill="#62655d"/>
+  <circle cx="550" cy="320" r="7" fill="#62655d"/>
+  <circle cx="750" cy="175" r="8" fill="#16756a"/>
+
+  <text x="150" y="188" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13.5" fill="#62655d">52,786</text>
+  <text x="350" y="248" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13.5" fill="#62655d">52,381</text>
+  <text x="550" y="352" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13.5" fill="#62655d">52,064</text>
+  <text x="750" y="153" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="16" fill="#16756a">52,588</text>
+
+  <text x="150" y="384" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">9.8</text>
+  <text x="150" y="404" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#20231f">-1.18%</text>
+
+  <text x="350" y="384" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">9.9</text>
+  <text x="350" y="404" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#20231f">-0.77%</text>
+
+  <text x="550" y="384" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">9.10</text>
+  <text x="550" y="404" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#20231f">-0.60%</text>
+
+  <text x="750" y="384" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">9.11</text>
+  <text x="750" y="404" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#16756a">+1.01%</text>
+
+  <line x1="60" y1="440" x2="840" y2="440" stroke="rgba(32,35,31,.08)"/>
+  <text x="60" y="468" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">같은 날 WTI는 배럴당 99.98달러로 2.44% 내려 다시 100달러 밑으로 돌아왔다</text>
+  <text x="60" y="490" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">도표는 지난 발행 수치와 블록미디어 9.11 보도를 직접 작성</text>
+</svg>
