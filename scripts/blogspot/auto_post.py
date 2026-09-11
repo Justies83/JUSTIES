@@ -283,9 +283,13 @@ def fetch_published_titles(feed_url: str, limit: int = 50) -> list[str]:
     return [e.get('title', {}).get('$t', '') for e in entries]
 
 
-# 연예·스포츠는 발행하지 않는다. 근거를 두 갈래로 본다 — 어느 매체가 썼는가와
-# 제목에 어떤 말이 있는가. 매체는 그 자체로 강한 신호라 한 건만 걸려도 막고,
-# 낱말은 기업·정책 기사에도 섞이므로 두 건 이상일 때만 막는다.
+# 연예·스포츠는 발행하지 않는다. 근거를 세 갈래로 본다 — 매체, 확실한 낱말,
+# 애매한 낱말. 매체와 확실한 낱말은 한 건만 걸려도 막는다. 애매한 낱말은
+# ("감독"·"이적"·"리그" 는 기업·정책 기사에도 섞인다) 두 건 이상일 때만 막는다.
+#
+# 2026-09-11 "김민수" 사고로 이 구분을 넣었다 — 기사 3건 중 "가수" 가 붙은 것이
+# 1건뿐이라 옛 기준(2건 이상)을 통과해 연예 글이 그대로 나갔다. "가수" 는 그
+# 자체로 확실한 신호라 1건으로 충분했어야 했다.
 SPORTS_ENT_SOURCES = (
     '스포츠', '스포탈', '스포티비', 'spotv', '엑스포츠', 'xports', 'osen', '오센',
     '마이데일리', 'mydaily', '뉴스엔', 'newsen', '텐아시아', 'tenasia', '디스패치',
@@ -294,44 +298,50 @@ SPORTS_ENT_SOURCES = (
     '스포탈코리아', 'sportal', 'sportschosun', 'sportsseoul',
 )
 
-SPORTS_ENT_WORDS = (
-    # 연예
+# 확실한 낱말: 다른 맥락에서 쓰이는 일이 사실상 없다. 한 건만 걸려도 막는다.
+SPORTS_ENT_WORDS_STRONG = (
     '아이돌', '컴백', '신곡', '앨범', '데뷔', '팬미팅', '팬사인', '콘서트', '음악방송',
-    '뮤직비디오', '예능', '드라마', '배우', '가수', '연예', '열애', '결별', '소속사',
-    '걸그룹', '보이그룹', '시상식', '방송대상', '캐스팅', '시청률', '주연', '출연',
-    '뮤지컬', '트로트', '팬덤', '유튜버', '인플루언서', '아나운서', '연기자',
-    # 스포츠
-    '아시안게임', '태극전사', '금메달', '은메달', '동메달', '메달', '대표팀', '국가대표',
-    '홈런', '안타', '타점', '투수', '타자', '득점', '어시스트', '플레이오프', '프로야구',
-    '프로축구', '메이저리그', '챔피언스리그', '프리미어리그', '월드컵', '올림픽', '구단',
-    '이적', '우승', '준우승', '결승', '예선', '개막전', '드래프트', '전지훈련',
-    '야구', '축구', '농구', '배구', '골프', '테니스', '격투기', 'ufc', 'kbo', 'mlb',
-    'nba', 'epl', 'lck', 'e스포츠', '경기력', '감독', '선수', '리그',
+    '뮤직비디오', '예능', '드라마', '배우', '가수', '연예인', '열애', '결별', '소속사',
+    '걸그룹', '보이그룹', '시상식', '방송대상', '뮤지컬', '트로트', '팬덤', '연기자',
+    '아시안게임', '태극전사', '금메달', '은메달', '동메달', '국가대표', '올림픽',
+    '홈런', '안타', '타점', '투수', '타자', '플레이오프', '프로야구', '프로축구',
+    '메이저리그', '챔피언스리그', '프리미어리그', '월드컵', 'ufc', 'kbo', 'mlb',
+    'nba', 'epl', 'lck', 'e스포츠',
+)
+
+# 애매한 낱말: 기업·정책 기사에도 나온다("감독" 은 영화감독일 수도, "이적" 은
+# 인사 기사일 수도 있다). 두 건 이상 걸릴 때만 막는다.
+SPORTS_ENT_WORDS_WEAK = (
+    '연예', '캐스팅', '시청률', '주연', '출연', '유튜버', '인플루언서', '아나운서',
+    '메달', '대표팀', '득점', '어시스트', '구단', '이적', '우승', '준우승', '결승',
+    '예선', '개막전', '드래프트', '전지훈련', '야구', '축구', '농구', '배구', '골프',
+    '테니스', '격투기', '경기력', '감독', '선수', '리그',
 )
 
 
 def sports_or_entertainment(topic: Topic, news: list[News]) -> str:
     """연예·스포츠로 보이면 그 근거를, 아니면 빈 문자열."""
     key = normalize(topic.keyword)
-    hit = next((w for w in SPORTS_ENT_WORDS if w in key), '')
+    hit = next((w for w in SPORTS_ENT_WORDS_STRONG + SPORTS_ENT_WORDS_WEAK if w in key), '')
     if hit:
         return hit  # 검색어 자체가 그 분야면 더 볼 것이 없다
 
     items = news or topic.news
-    source_hit, word_hits, word_example = '', 0, ''
+    source_hit, strong_hit, weak_hits, weak_example = '', '', 0, ''
     for n in items:
         blob = normalize(f'{n.title} {n.source}')
         if not source_hit:
             source_hit = next((w for w in SPORTS_ENT_SOURCES if w in blob), '')
-        found = next((w for w in SPORTS_ENT_WORDS if w in blob), '')
+        if not strong_hit:
+            strong_hit = next((w for w in SPORTS_ENT_WORDS_STRONG if w in blob), '')
+        found = next((w for w in SPORTS_ENT_WORDS_WEAK if w in blob), '')
         if found:
-            word_hits += 1
-            word_example = word_example or found
-    if source_hit:
-        return source_hit
-    # 기사가 한둘뿐이면 한 건만 걸려도 그 분야로 본다.
-    if word_hits >= 2 or (word_hits and len(items) <= 2):
-        return word_example
+            weak_hits += 1
+            weak_example = weak_example or found
+    if source_hit or strong_hit:
+        return source_hit or strong_hit
+    if weak_hits >= 2:
+        return weak_example
     return ''
 
 
