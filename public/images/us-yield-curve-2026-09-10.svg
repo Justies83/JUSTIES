@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="미국 국채 금리 도표. 2026년 9월 10일 장중 2년물 4.518퍼센트, 10년물 4.927퍼센트, 30년물 5.354퍼센트로 30년물은 2007년 6월 이후 최고치다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">US TREASURY — SEP 10</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">긴 쪽이 더 많이 올랐다 — 30년물은 19년 만에 최고</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">9월 10일 장중 고점 기준 (%)</text>
+
+  <text x="710" y="142" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#e0795b">2007년 6월 이후 최고</text>
+
+  <!-- 5% 기준선 -->
+  <line x1="190" y1="243" x2="765" y2="243" stroke="#62655d" stroke-width="1.1" stroke-dasharray="5 4" opacity="0.5"/>
+  <text x="180" y="247" text-anchor="end" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">5%</text>
+
+  <polyline points="230,324 470,256 710,184" fill="none" stroke="#e0795b" stroke-width="3"/>
+
+  <circle cx="230" cy="324" r="6.5" fill="#e0795b"/>
+  <circle cx="470" cy="256" r="6.5" fill="#e0795b"/>
+  <circle cx="710" cy="184" r="8" fill="#e0795b"/>
+
+  <text x="230" y="302" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#20231f">4.518</text>
+  <text x="470" y="232" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#20231f">4.927</text>
+  <text x="710" y="164" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="16" fill="#e0795b">5.354</text>
+
+  <line x1="190" y1="390" x2="765" y2="390" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="230" y="416" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13.5" fill="#62655d">2년물</text>
+  <text x="470" y="416" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13.5" fill="#62655d">10년물</text>
+  <text x="710" y="416" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13.5" fill="#62655d">30년물</text>
+
+  <text x="470" y="442" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12.5" fill="#62655d">2023년 10월 이후 최고</text>
+
+  <line x1="60" y1="466" x2="840" y2="466" stroke="rgba(32,35,31,.08)"/>
+  <text x="60" y="492" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">도표는 파이낸셜뉴스·아시아경제 보도 수치로 직접 작성</text>
+</svg>
