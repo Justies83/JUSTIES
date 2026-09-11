@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="후티 반군의 예멘 서해안 진격 도표. 9월 10일 모카 항을 장악했고 그곳에서 바브엘만데브해협까지는 북쪽으로 약 75킬로미터다. 다음 목표로 두바브가 지목됐다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">RED SEA — SEP 10</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">모카에서 바브엘만데브까지 75km</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">예멘 서해안을 따라 남하하는 후티의 진격 경로</text>
+
+  <!-- 거리 표시 -->
+  <line x1="170" y1="190" x2="760" y2="190" stroke="rgba(32,35,31,.28)" stroke-width="1"/>
+  <line x1="170" y1="182" x2="170" y2="198" stroke="rgba(32,35,31,.28)" stroke-width="1"/>
+  <line x1="760" y1="182" x2="760" y2="198" stroke="rgba(32,35,31,.28)" stroke-width="1"/>
+  <rect x="418" y="176" width="94" height="28" fill="#f4f1ea"/>
+  <text x="465" y="196" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#62655d">약 75km</text>
+
+  <!-- 해안선 축 -->
+  <line x1="170" y1="280" x2="760" y2="280" stroke="#16756a" stroke-width="3"/>
+
+  <!-- 모카 -->
+  <circle cx="170" cy="280" r="9" fill="#e0795b"/>
+  <text x="170" y="252" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#20231f">모카 항</text>
+  <text x="170" y="312" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#e0795b">9.10 장악</text>
+
+  <!-- 두바브 -->
+  <circle cx="465" cy="280" r="7" fill="#f4f1ea" stroke="#e0795b" stroke-width="2.5" stroke-dasharray="3 2"/>
+  <text x="465" y="252" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#20231f">두바브</text>
+  <text x="465" y="312" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">다음 목표로 지목</text>
+
+  <!-- 바브엘만데브 -->
+  <circle cx="760" cy="280" r="9" fill="#16756a"/>
+  <text x="760" y="252" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#20231f">바브엘만데브해협</text>
+  <text x="760" y="312" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#16756a">홍해 남쪽 입구</text>
+
+  <!-- 함께 장악한 섬 -->
+  <text x="60" y="372" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">같은 날 주카르섬을 장악하고 페림섬에 상륙했다는 보도도 나왔다</text>
+
+  <line x1="60" y1="404" x2="840" y2="404" stroke="rgba(32,35,31,.08)"/>
+  <text x="60" y="432" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">유로뉴스는 이 해협이 하루 원유 수송의 4분의 1,</text>
+  <text x="60" y="454" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">세계 해상 무역의 3분의 1 가까이를 담당한다고 전했다</text>
+  <text x="60" y="484" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">도표는 유로뉴스·월드카고뉴스 보도 내용으로 직접 작성 · 거리는 개략적 위치 표시</text>
+</svg>
