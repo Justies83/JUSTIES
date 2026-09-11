@@ -669,7 +669,7 @@ def finalize_body(body_html: str, post_url: str) -> str:
 
 
 def render_html(topic: Topic, article: dict, news: list[News], images: list) -> str:
-    parts: list[str] = [VIEW_COUNTER_PLACEHOLDER]
+    parts: list[str] = []
     summary = article.get('summary') or ''
     if summary:
         # 라벨 없이 리드 문단으로 싣는다. 매 글 같은 자리에 "요약" 딱지가
@@ -678,7 +678,11 @@ def render_html(topic: Topic, article: dict, news: list[News], images: list) -> 
             f'<p style="line-height:1.8;font-size:17px;margin:0 0 24px;">{esc(summary)}</p>'
         )
     if images:
+        # 조회수 배지를 첫 사진보다 앞에 두면 Blogger 가 그 배지를 대표
+        # 이미지(og:image)로 골라, 카카오톡·SNS 공유 미리보기에 사진 대신
+        # 작은 카운터 아이콘이 뜬다. 사진 뒤로 옮겨 그 문제를 피한다.
         parts.append(figure(images[0]))
+    parts.append(VIEW_COUNTER_PLACEHOLDER)
 
     sections = article.get('sections') or []
     for i, section in enumerate(sections):
