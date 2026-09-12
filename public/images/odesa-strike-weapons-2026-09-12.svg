@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="9월 12일 새벽 러시아가 우크라이나에 쏜 무기 구성 도표. 공격 드론 129대, 칼리브르 순항미사일 8발, Kh-59·69 유도미사일 6발을 사용했고 이스칸데르-M·KN-23 탄도미사일도 함께 발사했으나 구체적 발사 수는 보도되지 않았다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">OVERNIGHT — SEP 12</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">드론이 압도적으로 많았다</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">이날 밤 우크라이나 전역에 발사된 무기 수</text>
+
+  <text x="60" y="200" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#20231f">공격 드론</text>
+  <rect x="60" y="215" width="700" height="40" fill="#e0795b"/>
+  <text x="775" y="243" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="20" fill="#e0795b">129대</text>
+
+  <text x="60" y="292" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#20231f">칼리브르 순항미사일</text>
+  <rect x="60" y="307" width="43" height="28" fill="#16756a" opacity="0.7"/>
+  <text x="113" y="328" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#16756a">8발</text>
+
+  <text x="60" y="366" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#20231f">Kh-59·69 유도미사일</text>
+  <rect x="60" y="381" width="32" height="28" fill="#16756a" opacity="0.5"/>
+  <text x="102" y="402" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#16756a">6발</text>
+
+  <line x1="60" y1="440" x2="840" y2="440" stroke="rgba(32,35,31,.08)"/>
+  <text x="60" y="466" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">이스칸데르-M·KN-23 탄도미사일도 함께 발사됐으나 구체적 발사 수는 보도되지 않았다</text>
+  <text x="60" y="488" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">도표는 키이우인디펜던트 보도 수치로 직접 작성</text>
+</svg>
