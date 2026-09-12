@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="이재명 대통령 국정 지지율 도표. 전체 지지율은 38퍼센트로 전주 대비 2퍼센트포인트 내렸지만, 서울은 29퍼센트로 9퍼센트포인트, 40대는 45퍼센트로 10퍼센트포인트 내려 하락 폭이 훨씬 컸다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">GALLUP KOREA — 9.8~10</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">전체보다 서울·40대에서 더 가파르게 빠졌다</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">긍정 평가 (%) · 전주 대비 변화</text>
+
+  <line x1="240" y1="440" x2="240" y2="150" stroke="rgba(32,35,31,.16)"/>
+
+  <!-- 전체 38% -->
+  <text x="140" y="270" text-anchor="end" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">전체</text>
+  <rect x="240" y="252" width="152" height="36" fill="#62655d" opacity="0.5"/>
+  <text x="404" y="277" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="18" fill="#20231f">38%</text>
+  <text x="404" y="296" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">전주 대비 -2%p</text>
+
+  <!-- 서울 29% -->
+  <text x="140" y="350" text-anchor="end" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">서울</text>
+  <rect x="240" y="332" width="116" height="36" fill="#e0795b"/>
+  <text x="368" y="357" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="18" fill="#e0795b">29%</text>
+  <text x="368" y="376" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#e0795b">전주 대비 -9%p</text>
+
+  <!-- 40대 45% -->
+  <text x="140" y="192" text-anchor="end" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">40대</text>
+  <rect x="240" y="174" width="180" height="36" fill="#e0795b" opacity="0.75"/>
+  <text x="432" y="199" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="18" fill="#e0795b">45%</text>
+  <text x="432" y="218" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#e0795b">전주 대비 -10%p</text>
+
+  <line x1="60" y1="440" x2="840" y2="440" stroke="rgba(32,35,31,.08)"/>
+  <text x="60" y="466" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">부정 평가 51% · 이유 1위는 부동산 정책(24%), 2위는 인사(16%)</text>
+  <text x="60" y="488" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">전국 1,000명 조사 · 도표는 한국갤럽 결과를 인용한 경향신문·뉴데일리 보도로 직접 작성</text>
+</svg>
