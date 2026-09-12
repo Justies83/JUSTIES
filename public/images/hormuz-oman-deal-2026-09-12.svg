@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="이란-오만 호르무즈해협 항로 분리 잠정 합의 도표. 입항은 이란 수역, 출항은 오만 수역을 쓰기로 했고, 통행료는 이란이 화물가액의 5에서 7퍼센트를 요구하는 반면 오만은 약 3퍼센트를 제시해 이견이 남아 있다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">HORMUZ — 60-DAY DRAFT</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">항로는 갈랐는데 통행료에서 막혔다</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">이란-오만 잠정 합의(60일) 초안</text>
+
+  <!-- 항로 다이어그램 -->
+  <rect x="60" y="150" width="780" height="130" fill="none" stroke="rgba(32,35,31,.16)" stroke-width="1.2"/>
+  <text x="450" y="145" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">HORMUZ STRAIT</text>
+
+  <line x1="90" y1="190" x2="810" y2="190" stroke="#16756a" stroke-width="4"/>
+  <polygon points="800,183 818,190 800,197" fill="#16756a"/>
+  <text x="450" y="178" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#16756a">입항 — 이란 수역</text>
+
+  <line x1="90" y1="245" x2="810" y2="245" stroke="#e0795b" stroke-width="4"/>
+  <polygon points="100,238 82,245 100,252" fill="#e0795b"/>
+  <text x="450" y="264" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#e0795b">출항 — 오만 수역</text>
+
+  <!-- 통행료 비교 -->
+  <text x="60" y="330" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">통행료(화물가액 대비)</text>
+
+  <text x="60" y="366" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">이란 요구</text>
+  <rect x="180" y="350" width="245" height="24" fill="#e0795b"/>
+  <text x="440" y="368" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#e0795b">5~7%</text>
+
+  <text x="60" y="406" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">오만 제시</text>
+  <rect x="180" y="390" width="105" height="24" fill="#16756a" opacity="0.6"/>
+  <text x="300" y="408" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#16756a">약 3%</text>
+
+  <line x1="60" y1="440" x2="840" y2="440" stroke="rgba(32,35,31,.08)"/>
+  <text x="60" y="466" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">최종 승인은 하메네이 최고지도자 몫 · 9월 14일 오만서 GCC 6개국·이라크와 결과 공유</text>
+  <text x="60" y="488" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">도표는 머니투데이·MBC 보도 내용으로 직접 작성</text>
+</svg>
