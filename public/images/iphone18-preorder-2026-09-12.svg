@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="아이폰 18 프로 사전예약 일정 도표. 9월 12일 오후 9시 예약을 시작해 9월 18일 정식 개통한다. SK텔레콤은 반납 시 최대 122만원, KT는 24개월 최대 32퍼센트 요금 할인, LG유플러스는 반납 보상가에 최대 18만원 추가를 내걸었다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">IPHONE 18 PRO — KR</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">예약 시작부터 개통까지 6일</text>
+
+  <line x1="150" y1="150" x2="750" y2="150" stroke="rgba(32,35,31,.16)" stroke-width="2"/>
+
+  <circle cx="150" cy="150" r="7" fill="#16756a"/>
+  <text x="150" y="128" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13.5" fill="#16756a">9.12 오후 9시</text>
+  <text x="150" y="178" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">사전예약 시작</text>
+
+  <circle cx="750" cy="150" r="7" fill="#e0795b"/>
+  <text x="750" y="128" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13.5" fill="#e0795b">9.18</text>
+  <text x="750" y="178" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">정식 출시·개통</text>
+
+  <!-- 통신 3사 카드 -->
+  <rect x="60" y="230" width="240" height="180" fill="none" stroke="rgba(32,35,31,.16)"/>
+  <text x="180" y="266" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" letter-spacing="1" fill="#16756a">SK텔레콤</text>
+  <text x="180" y="308" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">반납 시 최대</text>
+  <text x="180" y="336" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="20" fill="#20231f">122만원</text>
+  <text x="180" y="372" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12.5" fill="#62655d">+ 이용권 최대 30만원</text>
+
+  <rect x="330" y="230" width="240" height="180" fill="none" stroke="rgba(32,35,31,.16)"/>
+  <text x="450" y="266" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" letter-spacing="1" fill="#16756a">KT</text>
+  <text x="450" y="308" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">24개월 요금</text>
+  <text x="450" y="336" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="20" fill="#20231f">최대 32%</text>
+  <text x="450" y="372" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12.5" fill="#62655d">선택약정+월정액 할인</text>
+
+  <rect x="600" y="230" width="240" height="180" fill="none" stroke="rgba(32,35,31,.16)"/>
+  <text x="720" y="266" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" letter-spacing="1" fill="#16756a">LG유플러스</text>
+  <text x="720" y="308" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">반납 보상가에</text>
+  <text x="720" y="336" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="20" fill="#20231f">+18만원</text>
+  <text x="720" y="372" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12.5" fill="#62655d">할인쿠폰 20만원·아침배송</text>
+
+  <line x1="60" y1="444" x2="840" y2="444" stroke="rgba(32,35,31,.08)"/>
+  <text x="60" y="472" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">아이폰 듀오(폴더블)는 별도로 10월 16일 예약·23일 출시</text>
+  <text x="60" y="494" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">도표는 머니투데이 보도 내용으로 직접 작성</text>
+</svg>
