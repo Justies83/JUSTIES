@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="아이폰 18 프로 사전예약 개시 후 인기 사양이 매진되기까지 걸린 시간 비교. 중국과 대만은 수 분 만에, 일본은 10분 이내에 일부 사양이 매진됐다. 반면 미국은 한 시간이 지나도 버건디 프로맥스 256GB를 제외한 대부분 재고가 남아 있었다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">PREORDER — SEP 12</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">매진까지 걸린 시간이 시장마다 크게 갈렸다</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">아이폰 18 프로, 예약 개시 후 인기 사양 매진까지 걸린 시간</text>
+
+  <!-- horizontal bars, log-ish scale: 3분, 3분, 10분, 60분+(재고 남음) -->
+  <g font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14">
+    <text x="150" y="185" text-anchor="end" fill="#20231f">중국</text>
+    <rect x="160" y="167" width="30" height="30" fill="#e0795b"/>
+    <text x="200" y="187" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#e0795b">수 분 내 매진 (글레이셔 블루)</text>
+
+    <text x="150" y="235" text-anchor="end" fill="#20231f">대만</text>
+    <rect x="160" y="217" width="30" height="30" fill="#e0795b"/>
+    <text x="200" y="237" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#e0795b">수 분 내 매진 (통신사 일제 발표)</text>
+
+    <text x="150" y="285" text-anchor="end" fill="#20231f">일본</text>
+    <rect x="160" y="267" width="70" height="30" fill="#e0795b" opacity="0.75"/>
+    <text x="240" y="287" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#e0795b">10분 내 일부 사양 매진</text>
+
+    <text x="150" y="335" text-anchor="end" fill="#20231f">미국</text>
+    <rect x="160" y="317" width="560" height="30" fill="#62655d" opacity="0.35"/>
+    <text x="730" y="337" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">1시간 뒤에도 대부분 재고 있음</text>
+  </g>
+
+  <line x1="60" y1="440" x2="840" y2="440" stroke="rgba(32,35,31,.08)"/>
+  <text x="60" y="466" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">중국 더우(得物) 리셀 시장, 프로맥스 256GB 실버 정가 대비 +27.3%(13,999위안)</text>
+  <text x="60" y="488" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">도표는 BigGo Finance·애플인사이더 보도로 직접 작성</text>
+</svg>
