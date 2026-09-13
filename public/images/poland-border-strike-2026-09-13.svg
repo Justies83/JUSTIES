@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="9월 13일 러시아가 우크라이나 서부 도로후스크-야호딘 국경 통과소 인근 트럭을 공격한 위치 도표. 타격 지점이 폴란드 영토로부터 약 800미터 떨어져 있으며, 국경 통과소 운영이 잠시 중단됐다가 재개됐다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">BORDER STRIKE — SEP 13</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">타격 지점이 폴란드 영토 800m 앞까지 다가왔다</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">도로후스크·야호딘 국경 통과소 인근 트럭 공격</text>
+
+  <!-- two territory blocks -->
+  <rect x="80" y="160" width="340" height="220" fill="#16756a" opacity="0.12"/>
+  <text x="250" y="188" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#16756a">폴란드 (나토)</text>
+
+  <rect x="480" y="160" width="340" height="220" fill="#e0795b" opacity="0.12"/>
+  <text x="650" y="188" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#e0795b">우크라이나</text>
+
+  <!-- border line -->
+  <line x1="450" y1="150" x2="450" y2="390" stroke="rgba(32,35,31,.3)" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="450" y="410" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" fill="#62655d">국경선</text>
+
+  <!-- crossing point label -->
+  <circle cx="450" cy="270" r="6" fill="#62655d"/>
+  <text x="450" y="255" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">도로후스크·야호딘</text>
+  <text x="450" y="240" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">국경 통과소</text>
+
+  <!-- strike point -->
+  <circle cx="530" cy="270" r="9" fill="#e0795b"/>
+  <text x="530" y="300" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#e0795b">타격 지점</text>
+  <line x1="450" y1="270" x2="530" y2="270" stroke="#62655d" stroke-dasharray="3 3"/>
+  <text x="490" y="320" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#20231f">약 800m</text>
+
+  <line x1="60" y1="440" x2="840" y2="440" stroke="rgba(32,35,31,.08)"/>
+  <text x="60" y="466" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">시코르스키 폴란드 외무장관 "심각한 긴장 고조" · 최근 몇 주 국경 통과소 공격 반복</text>
+  <text x="60" y="488" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">도표는 The Jerusalem Post·Global Banking &amp; Finance Review 보도로 직접 작성</text>
+</svg>
