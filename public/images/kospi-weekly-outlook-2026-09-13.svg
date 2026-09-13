@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="코스피 이번주 전망 도표. 9월 9일 7051.64로 7000선을 회복했지만 9월 11일 1.76퍼센트 내린 6909.91로 한 주를 마쳤다. 주간으로는 3.33퍼센트 상승. 이번주 예상 등락 범위는 6400에서 7400.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">KOSPI — WEEK OF 9.14</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">7,000선을 찍고 다시 밀렸다, 그래도 주간은 +3.33%</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">지난주 종가 흐름과 이번주 예상 등락 범위</text>
+
+  <!-- axis -->
+  <line x1="90" y1="150" x2="90" y2="400" stroke="rgba(32,35,31,.16)"/>
+  <text x="82" y="164" text-anchor="end" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" fill="#62655d">7400</text>
+  <text x="82" y="284" text-anchor="end" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" fill="#62655d">6900</text>
+  <text x="82" y="394" text-anchor="end" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" fill="#62655d">6400</text>
+
+  <!-- this week expected range band -->
+  <rect x="560" y="160" width="230" height="230" fill="#62655d" opacity="0.12"/>
+  <text x="675" y="150" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">이번주 예상 범위</text>
+  <text x="675" y="185" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="16" fill="#20231f">7,400</text>
+  <text x="675" y="400" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="16" fill="#20231f">6,400</text>
+  <line x1="560" y1="270" x2="790" y2="270" stroke="#62655d" stroke-dasharray="4 4"/>
+  <text x="675" y="264" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" fill="#62655d">NH투자증권 제시</text>
+
+  <!-- last week points: 9.7 close ~6820 -> 9.9 7051.64 -> 9.11 6909.91 -->
+  <line x1="150" y1="300" x2="330" y2="188" stroke="#16756a" stroke-width="2.5"/>
+  <line x1="330" y1="188" x2="470" y2="248" stroke="#e0795b" stroke-width="2.5"/>
+
+  <circle cx="150" cy="300" r="5" fill="#62655d"/>
+  <text x="150" y="326" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">9.7</text>
+
+  <circle cx="330" cy="188" r="6" fill="#16756a"/>
+  <text x="330" y="176" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#16756a">7,051.64</text>
+  <text x="330" y="214" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">9.9 (33거래일만)</text>
+
+  <circle cx="470" cy="248" r="6" fill="#e0795b"/>
+  <text x="470" y="236" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#e0795b">6,909.91</text>
+  <text x="470" y="272" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">9.11 (-1.76%)</text>
+
+  <line x1="60" y1="440" x2="840" y2="440" stroke="rgba(32,35,31,.08)"/>
+  <text x="60" y="466" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">지난주 반도체 업종 +11.1%, 외국인·기관 매수 SK하이닉스·삼성전자 집중</text>
+  <text x="60" y="488" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">9.17 FOMC 결과 발표(한국시간) · 도표는 이데일리·헤럴드경제 보도로 직접 작성</text>
+</svg>
