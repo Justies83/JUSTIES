@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="9월 14일 코스피 개장 급락 도표. 전 거래일 종가 6909.91에서 217.30포인트(3.14%) 내린 6692.61로 출발했다. 삼성전자는 3.28%, SK하이닉스는 5.08% 하락했다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">KOSPI OPEN — SEP 14</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">국채금리 5% 돌파에 3.14% 갭하락 출발</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">코스피 종가·시가 비교와 개별 종목 낙폭</text>
+
+  <!-- kospi bar comparison -->
+  <text x="60" y="185" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">9.11 종가</text>
+  <rect x="180" y="167" width="600" height="32" fill="#62655d" opacity="0.4"/>
+  <text x="790" y="190" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#20231f">6,909.91</text>
+
+  <text x="60" y="235" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">9.14 시가</text>
+  <rect x="180" y="217" width="581" height="32" fill="#e0795b"/>
+  <text x="771" y="240" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#e0795b">6,692.61</text>
+  <text x="180" y="264" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#e0795b">-217.30 (-3.14%)</text>
+
+  <!-- individual stocks -->
+  <line x1="60" y1="300" x2="840" y2="300" stroke="rgba(32,35,31,.12)"/>
+  <text x="60" y="330" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">삼성전자</text>
+  <rect x="180" y="313" width="90" height="24" fill="#e0795b" opacity="0.6"/>
+  <text x="280" y="330" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13.5" fill="#e0795b">-3.28%</text>
+
+  <text x="60" y="370" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">SK하이닉스</text>
+  <rect x="180" y="353" width="139" height="24" fill="#e0795b" opacity="0.8"/>
+  <text x="329" y="370" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13.5" fill="#e0795b">-5.08%</text>
+
+  <text x="60" y="410" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">SK스퀘어</text>
+  <rect x="180" y="393" width="164" height="24" fill="#e0795b"/>
+  <text x="354" y="410" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13.5" fill="#e0795b">-6%대</text>
+
+  <line x1="60" y1="440" x2="840" y2="440" stroke="rgba(32,35,31,.08)"/>
+  <text x="60" y="466" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">미 10년물 국채금리 장중 5% 돌파 · 9월 FOMC 인상 확률 86~87% · 외국인·기관 순매도, 개인 8,490억 순매수</text>
+  <text x="60" y="488" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">도표는 파이낸셜뉴스·머니투데이·오피니언뉴스 보도로 직접 작성</text>
+</svg>
