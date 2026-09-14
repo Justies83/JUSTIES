@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="살랄라 회의 연기까지의 타임라인 도표. 9월 9일 이란-오만이 항로 분리에 잠정 합의했고, 9월 12일 통항료 이견이 확인됐으며, 9월 13일 밤 오만 외무장관이 9월 14일 회의를 연기한다고 발표했다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">HORMUZ TALKS — SEP 12~14</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">열리기로 한 회의가 하루 전 연기됐다</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">이란-오만 합의부터 살랄라 회의 연기까지</text>
+
+  <line x1="90" y1="280" x2="820" y2="280" stroke="rgba(32,35,31,.2)" stroke-width="2"/>
+
+  <circle cx="160" cy="280" r="7" fill="#16756a"/>
+  <text x="160" y="175" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">이란-오만</text>
+  <text x="160" y="195" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">항로 분리 잠정합의</text>
+  <text x="160" y="240" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#16756a">9.12</text>
+  <text x="160" y="312" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">진전</text>
+
+  <circle cx="400" cy="280" r="7" fill="#62655d"/>
+  <text x="400" y="175" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">통항료 이견</text>
+  <text x="400" y="195" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">5~7% vs 3%</text>
+  <text x="400" y="240" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#62655d">9.12</text>
+  <text x="400" y="312" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">미해결 쟁점</text>
+
+  <circle cx="640" cy="280" r="8" fill="#e0795b"/>
+  <text x="640" y="175" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">바레인 불참 시사·</text>
+  <text x="640" y="195" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">오만, 회의 연기 발표</text>
+  <text x="640" y="240" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14.5" fill="#e0795b">9.13 밤</text>
+  <text x="640" y="312" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">연기</text>
+
+  <circle cx="760" cy="280" r="6" fill="#62655d" opacity="0.4"/>
+  <text x="760" y="195" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#62655d">살랄라 회의</text>
+  <text x="760" y="240" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#62655d">9.14</text>
+  <text x="760" y="312" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">무산</text>
+
+  <line x1="60" y1="440" x2="840" y2="440" stroke="rgba(32,35,31,.08)"/>
+  <text x="60" y="466" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">새 회의 일정 미정 · 참석국 명단도 연기 직전까지 확정되지 않았던 것으로 전해짐</text>
+  <text x="60" y="488" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">도표는 뉴데일리·이투데이 보도로 직접 작성</text>
+</svg>
