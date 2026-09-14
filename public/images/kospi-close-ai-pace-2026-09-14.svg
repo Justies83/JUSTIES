@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="9월 14일 코스피 개장가와 종가 비교 도표. 개장 6692.61(-3.14%)에서 종가 6684.37(-3.26%)로 낙폭이 더 커졌다. 삼성전자는 4.05%, SK하이닉스는 6.35% 하락 마감했다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">KOSPI CLOSE — SEP 14</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">개장보다 장을 마칠 때 낙폭이 더 컸다</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">코스피 개장가·종가, 반도체 대형주 낙폭</text>
+
+  <text x="60" y="180" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">9.11 종가</text>
+  <rect x="180" y="163" width="520" height="28" fill="#62655d" opacity="0.4"/>
+  <text x="710" y="183" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#20231f">6,909.91</text>
+
+  <text x="60" y="222" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">9.14 시가</text>
+  <rect x="180" y="205" width="503" height="28" fill="#e0795b" opacity="0.65"/>
+  <text x="693" y="225" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#e0795b">6,692.61</text>
+  <text x="180" y="247" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" fill="#e0795b">전일比 -3.14%</text>
+
+  <text x="60" y="287" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">9.14 종가</text>
+  <rect x="180" y="270" width="497" height="28" fill="#e0795b"/>
+  <text x="687" y="290" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#e0795b">6,684.37</text>
+  <text x="180" y="312" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" fill="#e0795b">전일比 -3.26%</text>
+
+  <line x1="60" y1="335" x2="840" y2="335" stroke="rgba(32,35,31,.12)"/>
+  <text x="60" y="365" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">삼성전자</text>
+  <rect x="180" y="348" width="110" height="24" fill="#e0795b" opacity="0.6"/>
+  <text x="300" y="365" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13.5" fill="#e0795b">-4.05%</text>
+
+  <text x="60" y="405" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">SK하이닉스</text>
+  <rect x="180" y="388" width="173" height="24" fill="#e0795b" opacity="0.8"/>
+  <text x="363" y="405" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13.5" fill="#e0795b">-6.35%</text>
+
+  <line x1="60" y1="440" x2="840" y2="440" stroke="rgba(32,35,31,.08)"/>
+  <text x="60" y="464" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">SK스퀘어 -8.17% · 앤스로픽·오픈AI 등 AI 속도조절론 겹침</text>
+  <text x="60" y="486" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">외국인 3.29조 순매도, 개인 2.97조 순매수 · 도표는 이데일리·위키트리·아시아경제 보도로 직접 작성</text>
+</svg>
