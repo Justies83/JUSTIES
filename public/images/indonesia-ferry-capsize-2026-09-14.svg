@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="비르고 트랜스포트 8호 탑승 인원 243명 중 구조·사망·실종 현황 도표. 9월 14일 기준 107에서 108명 구조, 6명 사망, 129에서 130명 실종.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">JAVA SEA — SEP 13~14</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">탑승 243명 중 절반 넘게 아직 실종 상태</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">비르고 트랜스포트 8호 탑승자 현황 (9.14 기준)</text>
+
+  <!-- stacked bar: total 243, missing ~130, rescued ~108, dead 6 -->
+  <rect x="60" y="170" width="720" height="60" fill="#f4f1ea" stroke="rgba(32,35,31,.16)"/>
+  <rect x="60" y="170" width="388" height="60" fill="#e0795b"/>
+  <rect x="448" y="170" width="18" height="60" fill="#20231f" opacity="0.7"/>
+  <rect x="466" y="170" width="314" height="60" fill="#16756a" opacity="0.55"/>
+
+  <text x="254" y="205" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#fbf9f4">실종 129~130명</text>
+  <text x="623" y="205" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#20231f">구조 107~108명</text>
+
+  <text x="60" y="250" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" fill="#62655d">사망 6명 (검은 구간)</text>
+  <text x="700" y="250" text-anchor="end" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">탑승 총 243명</text>
+
+  <line x1="60" y1="300" x2="840" y2="300" stroke="rgba(32,35,31,.12)"/>
+  <text x="60" y="330" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">수라바야 → 반자르마신, 약 80해리 지점에서 조난</text>
+  <text x="60" y="360" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">1987년 일본 건조 · 119m급 로로 여객선</text>
+  <text x="60" y="390" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">구조 인력 최대 280명 · 선박·항공기 17척 투입</text>
+
+  <line x1="60" y1="440" x2="840" y2="440" stroke="rgba(32,35,31,.08)"/>
+  <text x="60" y="466" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">사고 원인은 3m 높이 파도 동반 악천후로 추정, 정확한 원인은 조사 중</text>
+  <text x="60" y="488" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">도표는 NPR·BERNAMA 보도로 직접 작성</text>
+</svg>
