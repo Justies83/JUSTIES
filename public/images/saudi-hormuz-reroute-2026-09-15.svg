@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="사우디 원유 수출 경로 변화 도표. 지난달 하루 300만 배럴이던 수출이 이달 초 400만 배럴로 늘었고, 그중 100만 배럴이 호르무즈해협을 통해 나간다. 페르시아만-중국 해상 운임은 하루 약 100만 달러로 사상 최고 수준이다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">SAUDI EXPORTS — SEP 2026</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">우회로가 막히자 위험한 항로로 물량이 늘었다</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">사우디 하루 원유 수출량과 경로 (백만 배럴)</text>
+
+  <text x="60" y="185" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">지난달</text>
+  <rect x="180" y="167" width="180" height="30" fill="#62655d" opacity="0.4"/>
+  <text x="375" y="188" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#20231f">약 300만 배럴 (9년來 최저)</text>
+
+  <text x="60" y="235" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">이달 초</text>
+  <rect x="180" y="212" width="150" height="30" fill="#62655d" opacity="0.5"/>
+  <rect x="330" y="212" width="60" height="30" fill="#e0795b"/>
+  <text x="410" y="233" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#20231f">약 400만 배럴</text>
+
+  <text x="330" y="262" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" fill="#e0795b">호르무즈행 약 100만</text>
+
+  <line x1="60" y1="300" x2="840" y2="300" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="335" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">페르시아만→중국 해상 운임</text>
+  <rect x="60" y="350" width="720" height="40" fill="#e0795b"/>
+  <text x="420" y="376" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="17" fill="#fbf9f4">하루 약 100만 달러 (13.4억원) — 사상 최고</text>
+
+  <line x1="60" y1="440" x2="840" y2="440" stroke="rgba(32,35,31,.08)"/>
+  <text x="60" y="464" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">동서 송유관 복구까지 "몇 주" 예상(AP) · 이란의 호르무즈 봉쇄는 여전히 진행형</text>
+  <text x="60" y="486" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">도표는 헤럴드경제·머니투데이 보도로 직접 작성</text>
+</svg>
