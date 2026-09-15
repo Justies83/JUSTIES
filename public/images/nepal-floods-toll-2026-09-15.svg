@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="네팔·티베트 홍수 피해 집계 도표. 9월 15일 기준 사망 1438명, 실종 5649명으로 실종자가 사망자의 약 네 배다. 수습된 시신 1395구 중 신원이 확인된 것은 104구로 7.4퍼센트에 그친다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">NEPAL FLOODS — SEP 15</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">실종자가 사망자의 네 배 가까이 남아 있다</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">8월 26일 홍수 · 네팔 국가재난위험경감·관리청 집계 (티베트 포함)</text>
+
+  <text x="60" y="170" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" letter-spacing="1.5" fill="#62655d">인명 피해</text>
+
+  <text x="60" y="208" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">사망</text>
+  <rect x="165" y="190" width="158" height="26" fill="#20231f" opacity="0.55"/>
+  <rect x="323" y="190" width="5" height="26" fill="#20231f" opacity="0.3"/>
+  <text x="340" y="209" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#20231f">1,438명 — 네팔 1,395 · 티베트 43</text>
+
+  <text x="60" y="256" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">실종</text>
+  <rect x="165" y="238" width="581" height="26" fill="#e0795b"/>
+  <rect x="746" y="238" width="59" height="26" fill="#e0795b" opacity="0.5"/>
+  <text x="165" y="286" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#e0795b">5,649명 — 네팔 5,130 · 티베트 519</text>
+
+  <text x="165" y="312" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" fill="#62655d">두 막대는 같은 축척 · 합계 7,087명</text>
+
+  <line x1="60" y1="344" x2="840" y2="344" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="376" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" letter-spacing="1.5" fill="#62655d">신원 확인</text>
+
+  <text x="60" y="412" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">수습 시신</text>
+  <rect x="165" y="394" width="640" height="26" fill="#62655d" opacity="0.3"/>
+  <rect x="165" y="394" width="48" height="26" fill="#16756a"/>
+  <text x="223" y="413" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#20231f">1,395구 중 104구 확인 (7.4%)</text>
+
+  <line x1="60" y1="446" x2="840" y2="446" stroke="rgba(32,35,31,.08)"/>
+  <text x="60" y="468" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">급류 훼손·장시간 침수로 유전자 확인이 어렵다는 것이 네팔 정부 설명</text>
+  <text x="60" y="490" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">한국인 9명(두산에너빌리티 6·한국남동발전 3) 한 달째 실종 · 도표는 보도 수치로 직접 작성</text>
+</svg>
