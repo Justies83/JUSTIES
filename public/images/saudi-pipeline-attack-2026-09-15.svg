@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="사우디 동서 송유관 피격과 유가 변동 도표. 9월 10일 드론 공격으로 하루 700만 배럴 규모의 우회 송유관이 폐쇄됐고, 브렌트유는 장중 5% 급등했다가 105.68달러로 마감했다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">EAST-WEST PIPELINE — SEP 10</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">호르무즈 우회로마저 끊겼다</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">사우디 동서 송유관 피격과 브렌트유 가격 변화</text>
+
+  <!-- pipeline diagram -->
+  <text x="130" y="185" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">페르시아만</text>
+  <text x="130" y="202" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">산유지대</text>
+
+  <line x1="200" y1="190" x2="380" y2="190" stroke="#62655d" stroke-width="4"/>
+  <circle cx="290" cy="190" r="10" fill="#e0795b"/>
+  <text x="290" y="220" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#e0795b">9.10 드론 피격</text>
+
+  <line x1="380" y1="190" x2="560" y2="190" stroke="rgba(98,101,93,.35)" stroke-width="4" stroke-dasharray="6 5"/>
+  <text x="620" y="185" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">얀부</text>
+  <text x="620" y="202" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">홍해 수출터미널</text>
+
+  <text x="450" y="245" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">1,200km · 일일 최대 700만 배럴 · 호르무즈 우회 전용로</text>
+
+  <line x1="60" y1="280" x2="840" y2="280" stroke="rgba(32,35,31,.12)"/>
+
+  <!-- oil price bars -->
+  <text x="60" y="315" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">장중 최고</text>
+  <rect x="180" y="298" width="480" height="28" fill="#e0795b" opacity="0.6"/>
+  <text x="670" y="318" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#e0795b">약 +5% 급등</text>
+
+  <text x="60" y="360" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">마감가</text>
+  <rect x="180" y="343" width="330" height="28" fill="#e0795b"/>
+  <text x="520" y="363" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#e0795b">105.68달러 (+1.02%)</text>
+
+  <line x1="60" y1="440" x2="840" y2="440" stroke="rgba(32,35,31,.08)"/>
+  <text x="60" y="464" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">복구까지 3~5주 예상(AP) · IEA "사우디 원유 공급 30여 년來 최저" · 배후는 이란 추정</text>
+  <text x="60" y="486" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">도표는 뉴데일리·아주경제 보도로 직접 작성</text>
+</svg>
