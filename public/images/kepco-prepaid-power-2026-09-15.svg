@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="한전이 제안한 전기료 선납 규모 도표. 삼성전자 20조원과 SK하이닉스 5조원을 합친 25조원을 5년치 전기료로 미리 받으려 했으나 두 회사 모두 거절했다. 한전 총부채는 210조 7천억원, 하루 이자는 115억원이다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">KEPCO PREPAY — SEP 14</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">25조 선납 제안, 두 회사 모두 거절했다</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">한전이 제안한 5년치 전기료 선납 규모와 한전 부채</text>
+
+  <text x="60" y="172" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" letter-spacing="1.5" fill="#62655d">제안 규모</text>
+
+  <text x="60" y="208" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">삼성전자</text>
+  <rect x="185" y="190" width="200" height="26" fill="#e0795b" opacity="0.75"/>
+  <text x="397" y="209" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#e0795b">20조원 · 거절</text>
+
+  <text x="60" y="248" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">SK하이닉스</text>
+  <rect x="185" y="230" width="50" height="26" fill="#e0795b" opacity="0.75"/>
+  <text x="247" y="249" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#e0795b">5조원 · 거절</text>
+
+  <line x1="185" y1="272" x2="435" y2="272" stroke="rgba(32,35,31,.25)"/>
+  <text x="60" y="296" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">합계</text>
+  <text x="185" y="296" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#20231f">25조원 (지난해 납부액 기준 5년치)</text>
+
+  <line x1="60" y1="330" x2="840" y2="330" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="362" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" letter-spacing="1.5" fill="#62655d">한전 재무 (6월 말)</text>
+
+  <text x="60" y="398" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">총부채</text>
+  <rect x="185" y="380" width="640" height="26" fill="#62655d" opacity="0.4"/>
+  <rect x="185" y="380" width="76" height="26" fill="#e0795b" opacity="0.75"/>
+  <text x="271" y="399" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#20231f">210조 7천억원 — 붉은 칸이 선납 25조 몫</text>
+
+  <text x="60" y="428" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">하루 이자</text>
+  <text x="185" y="428" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#62655d">115억원</text>
+
+  <line x1="60" y1="452" x2="840" y2="452" stroke="rgba(32,35,31,.08)"/>
+  <text x="60" y="474" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">선납금은 용인·호남 반도체 클러스터 전력망에 우선 투입할 계획이었다</text>
+  <text x="60" y="494" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">도표는 파이낸셜뉴스·아시아경제 보도로 직접 작성</text>
+</svg>
