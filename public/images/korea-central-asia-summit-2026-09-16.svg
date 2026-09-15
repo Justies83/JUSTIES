@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="제1차 한-중앙아시아 정상회의 도표. 9월 16일 오후 서울에서 열리며 카자흐스탄·우즈베키스탄·투르크메니스탄·타지키스탄·키르기스스탄 5개국 정상이 참석한다. 양자 정상회담은 9월 14일 오후부터 16일 오전까지 진행됐다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">SEOUL — SEP 16</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">중앙아시아 5개국 정상이 한자리에 모인다</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">제1차 한-중앙아시아 정상회의 · 양자 정상회담 일정</text>
+
+  <line x1="60" y1="140" x2="840" y2="140" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="172" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">양자 정상회담</text>
+  <text x="330" y="172" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">방한 형식</text>
+
+  <g font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14.5">
+    <circle cx="70" cy="204" r="5" fill="#16756a"/>
+    <text x="90" y="209" fill="#20231f">우즈베키스탄</text>
+    <text x="330" y="209" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#16756a">국빈방한</text>
+    <text x="470" y="209" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">9.14 오후</text>
+
+    <circle cx="70" cy="244" r="5" fill="#16756a"/>
+    <text x="90" y="249" fill="#20231f">투르크메니스탄</text>
+    <text x="330" y="249" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#16756a">국빈방한</text>
+    <text x="470" y="249" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">9.15 오전</text>
+
+    <circle cx="70" cy="284" r="5" fill="#16756a"/>
+    <text x="90" y="289" fill="#20231f">카자흐스탄</text>
+    <text x="330" y="289" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#16756a">국빈방한</text>
+    <text x="470" y="289" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">9.15 오후</text>
+
+    <circle cx="70" cy="324" r="5" fill="#62655d" opacity="0.6"/>
+    <text x="90" y="329" fill="#20231f">타지키스탄</text>
+    <text x="330" y="329" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">공식방한</text>
+    <text x="470" y="329" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">9.16 오전</text>
+
+    <circle cx="70" cy="364" r="5" fill="#62655d" opacity="0.6"/>
+    <text x="90" y="369" fill="#20231f">키르기스스탄</text>
+    <text x="330" y="369" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">공식방한</text>
+    <text x="470" y="369" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">9.16 오전</text>
+  </g>
+
+  <rect x="60" y="392" width="780" height="34" fill="#e0795b" opacity="0.18"/>
+  <text x="76" y="414" font-family="'IBM Plex Sans KR',sans-serif" font-size="14.5" fill="#20231f">9월 16일 오후 · 제1차 한-중앙아시아 정상회의 (서울) — 서울선언 발표 예정</text>
+
+  <line x1="60" y1="450" x2="840" y2="450" stroke="rgba(32,35,31,.08)"/>
+  <text x="60" y="472" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">2007년 출범한 장관급 협력포럼을 정상급으로 격상 · 핵심광물·에너지 공급망이 주요 의제</text>
+  <text x="60" y="492" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">도표는 대통령실 서면브리핑(9.11) 내용으로 직접 작성</text>
+</svg>
