@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="연준 기준금리 인상 도표. 9월 17일 새벽 0.25퍼센트포인트 인상으로 기준금리가 연 3.75에서 4.00퍼센트가 됐고 2023년 7월 이후 3년 2개월 만의 긴축이다. 사우디 송유관 피격에서 유가, 물가, 국채금리를 거쳐 금리 인상에 이른 열흘간의 흐름을 함께 보여준다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">FOMC — SEP 17 03:00 KST</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">송유관에서 시작해 금리로 끝난 열흘</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">기준금리 인상 결정과 그에 이른 경로</text>
+
+  <rect x="60" y="136" width="780" height="72" fill="#e0795b" opacity="0.8"/>
+  <text x="80" y="168" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="24" fill="#fbf9f4">연 3.75 ~ 4.00%</text>
+  <text x="310" y="168" font-family="'IBM Plex Sans KR',sans-serif" font-size="15" fill="#fbf9f4">0.25%p 인상</text>
+  <text x="80" y="194" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#fbf9f4">2023년 7월 이후 3년 2개월 만의 긴축 · 시장 반영 확률 94.5%</text>
+
+  <text x="60" y="244" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">여기까지 온 경로</text>
+
+  <g font-family="'IBM Plex Sans KR',sans-serif" font-size="14">
+    <circle cx="74" cy="276" r="5" fill="#62655d"/>
+    <text x="96" y="281" fill="#20231f">9.10 사우디 동서 송유관 피격 — 하루 700만 배럴 우회로 중단</text>
+
+    <circle cx="74" cy="312" r="5" fill="#62655d"/>
+    <text x="96" y="317" fill="#20231f">유가 급등 · 페르시아만-중국 해상운임 하루 100만 달러 돌파</text>
+
+    <circle cx="74" cy="348" r="5" fill="#62655d"/>
+    <text x="96" y="353" fill="#20231f">8월 미 CPI 3.4% · 근원 2.4% — 인상 확률 72%에서 85%로</text>
+
+    <circle cx="74" cy="384" r="5" fill="#62655d"/>
+    <text x="96" y="389" fill="#20231f">미 10년물 장중 5.041% — 2007년 이후 최고</text>
+
+    <circle cx="74" cy="420" r="6" fill="#e0795b"/>
+    <text x="96" y="425" fill="#20231f">9.17 새벽 3시 — 기준금리 0.25%p 인상 확정</text>
+  </g>
+
+  <line x1="60" y1="452" x2="840" y2="452" stroke="rgba(32,35,31,.08)"/>
+  <text x="60" y="474" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">표결 결과·점도표·기자회견 내용은 작성 시점까지 상세히 전해지지 않았다</text>
+  <text x="60" y="494" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">도표는 세계일보·이코노미블록 보도와 이 아카이브의 기존 기록으로 직접 작성</text>
+</svg>
