@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="서울선언으로 만들어진 협의체 구조 도표. 정상회의는 2년마다 열리며 2차는 2028년 아스타나에서 개최된다. 그 아래 외교장관급 협력포럼, 차관급 고위급회의, 신설되는 산업장관 협의체가 있고, 중앙아시아 각국에 코리안 데스크를 설치한다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">SEOUL DECLARATION — SEP 16</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">품목 대신 계속 만나는 구조를 짰다</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">서울선언이 만든 협의체 층위</text>
+
+  <rect x="60" y="146" width="780" height="54" fill="#e0795b" opacity="0.8"/>
+  <text x="80" y="170" font-family="'IBM Plex Sans KR',sans-serif" font-size="15.5" fill="#fbf9f4">정상회의 — 2년마다</text>
+  <text x="80" y="190" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#fbf9f4">제2차 2028년 카자흐스탄 아스타나</text>
+
+  <line x1="450" y1="200" x2="450" y2="224" stroke="rgba(32,35,31,.3)"/>
+
+  <rect x="60" y="224" width="248" height="72" fill="#62655d" opacity="0.22"/>
+  <text x="80" y="250" font-family="'IBM Plex Sans KR',sans-serif" font-size="14.5" fill="#20231f">협력포럼</text>
+  <text x="80" y="270" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" fill="#62655d">외교장관급 · 기존 유지</text>
+
+  <rect x="326" y="224" width="248" height="72" fill="#62655d" opacity="0.22"/>
+  <text x="346" y="250" font-family="'IBM Plex Sans KR',sans-serif" font-size="14.5" fill="#20231f">고위급회의(SOM)</text>
+  <text x="346" y="270" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" fill="#62655d">차관급 실무 협의체</text>
+
+  <rect x="592" y="224" width="248" height="72" fill="#16756a" opacity="0.28"/>
+  <text x="612" y="250" font-family="'IBM Plex Sans KR',sans-serif" font-size="14.5" fill="#20231f">산업장관 협의체</text>
+  <text x="612" y="270" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" fill="#16756a">신설</text>
+
+  <rect x="60" y="314" width="780" height="40" fill="#16756a" opacity="0.18"/>
+  <text x="80" y="340" font-family="'IBM Plex Sans KR',sans-serif" font-size="14.5" fill="#20231f">코리안 데스크 — 중앙아시아 각국 정부 안에 한국 기업 지원 창구 설치</text>
+
+  <line x1="60" y1="382" x2="840" y2="382" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="410" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">협력 분야</text>
+  <text x="60" y="436" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">핵심광물 · 석유·가스·재생에너지 · AI·디지털</text>
+  <text x="60" y="460" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">도시개발·교통·물류 인프라 · 기후·수자원 · 인적교류</text>
+
+  <line x1="60" y1="478" x2="840" y2="478" stroke="rgba(32,35,31,.08)"/>
+  <text x="60" y="499" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">한반도 완전한 비핵화·항구적 평화 구축 의지 재확인 · 도표는 아주경제·한국일보 보도로 직접 작성</text>
+</svg>
