@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="한-우즈베키스탄 정상회담 성과 도표. 협정과 양해각서 13건이 체결됐고, 6대 국가전략산업은 핵심광물, 데이터센터, 스마트시티, 한국기업 전용 산업단지, 제약 바이오, 식품 뷰티 콘텐츠다. 코리아데스크 개설과 경제인협의회 출범도 함께 나왔다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">KOREA — UZBEKISTAN · SEP 14</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">여섯 중 다섯은 자원이 아니다</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">협정·양해각서 13건 · 우즈베키스탄 6대 국가전략산업</text>
+
+  <line x1="60" y1="138" x2="840" y2="138" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="168" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">6대 국가전략산업</text>
+
+  <rect x="60" y="184" width="240" height="46" fill="#e0795b" opacity="0.8"/>
+  <text x="80" y="213" font-family="'IBM Plex Sans KR',sans-serif" font-size="15" fill="#fbf9f4">핵심광물</text>
+
+  <rect x="316" y="184" width="240" height="46" fill="#62655d" opacity="0.22"/>
+  <text x="336" y="213" font-family="'IBM Plex Sans KR',sans-serif" font-size="15" fill="#20231f">데이터센터</text>
+
+  <rect x="572" y="184" width="240" height="46" fill="#62655d" opacity="0.22"/>
+  <text x="592" y="213" font-family="'IBM Plex Sans KR',sans-serif" font-size="15" fill="#20231f">스마트시티</text>
+
+  <rect x="60" y="242" width="240" height="46" fill="#62655d" opacity="0.22"/>
+  <text x="80" y="271" font-family="'IBM Plex Sans KR',sans-serif" font-size="15" fill="#20231f">한국기업 전용 산업단지</text>
+
+  <rect x="316" y="242" width="240" height="46" fill="#62655d" opacity="0.22"/>
+  <text x="336" y="271" font-family="'IBM Plex Sans KR',sans-serif" font-size="15" fill="#20231f">제약·바이오</text>
+
+  <rect x="572" y="242" width="240" height="46" fill="#62655d" opacity="0.22"/>
+  <text x="592" y="271" font-family="'IBM Plex Sans KR',sans-serif" font-size="15" fill="#20231f">식품·뷰티·콘텐츠</text>
+
+  <line x1="60" y1="318" x2="840" y2="318" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="348" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">문서에 담긴 사업</text>
+  <text x="60" y="376" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">고속철 도입 · 국가 유전체·바이오뱅크 · 제조 AI 전환(AX) · 지식재산권</text>
+  <text x="60" y="400" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">농업기술 · 관광·교육 · 의료제품 규제 · 교통·보건 인프라 · 방산</text>
+
+  <text x="60" y="438" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">제도 성과</text>
+  <text x="60" y="462" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#16756a">코리아데스크 개설(우즈벡 정부 내 한국기업 전담) · 한-우즈베크 경제인협의회 출범</text>
+
+  <line x1="60" y1="478" x2="840" y2="478" stroke="rgba(32,35,31,.08)"/>
+  <text x="60" y="499" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">도표는 서울신문·뉴스후플러스 보도로 직접 작성</text>
+</svg>
