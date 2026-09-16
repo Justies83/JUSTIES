@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="1형 당뇨병 형제자매 발병률 도표. 환자의 형제자매 779명 중 23명, 3.0퍼센트에게서 발병했고 일반 소아 유병률은 0.26퍼센트로 11.5배 차이다. 다만 형제자매 100명 중 97명에게는 발생하지 않았다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">TYPE 1 DIABETES — KDCA</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">11.5배는 3.0%와 0.26%의 차이다</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">소아청소년 1형 당뇨병 발병률 · 두 막대는 같은 축척</text>
+
+  <text x="60" y="172" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">환자의 형제자매</text>
+  <rect x="230" y="154" width="300" height="28" fill="#e0795b"/>
+  <text x="544" y="174" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14.5" fill="#e0795b">3.0% — 779명 중 23명</text>
+
+  <text x="60" y="222" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">일반 소아</text>
+  <rect x="230" y="204" width="26" height="28" fill="#62655d" opacity="0.5"/>
+  <text x="270" y="224" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14.5" fill="#62655d">0.26%</text>
+
+  <text x="230" y="256" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#20231f">3.0 ÷ 0.26 = 11.5배</text>
+
+  <line x1="60" y1="288" x2="840" y2="288" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="318" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" letter-spacing="1.5" fill="#62655d">형제자매 100명으로 보면</text>
+  <g>
+    <rect x="60" y="334" width="760" height="30" fill="#62655d" opacity="0.25"/>
+    <rect x="60" y="334" width="23" height="30" fill="#e0795b"/>
+    <text x="95" y="354" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#20231f">발병 3명 · 발병하지 않음 97명</text>
+  </g>
+
+  <line x1="60" y1="396" x2="840" y2="396" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="424" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">쌍둥이 동반 발생률</text>
+  <rect x="230" y="408" width="600" height="24" fill="none" stroke="rgba(32,35,31,.25)"/>
+  <rect x="230" y="408" width="257" height="24" fill="#16756a" opacity="0.6"/>
+  <text x="497" y="426" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#16756a">42.9%</text>
+  <text x="230" y="446" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">이 칸만 0~100% 눈금 — 위 막대와 축척이 다르다</text>
+
+  <line x1="60" y1="460" x2="840" y2="460" stroke="rgba(32,35,31,.08)"/>
+  <text x="60" y="480" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">가족 중 두 번째 진단자는 혈당·당화혈색소가 더 낮고 케토산증 발생률도 유의하게 낮았다</text>
+  <text x="60" y="499" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">18개 대학병원 936명(2010.01~2024.08) · 도표는 세계일보·의약일보 보도로 직접 작성</text>
+</svg>
