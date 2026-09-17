@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="FOMC 결정 세부와 시장 반응 도표. 만장일치 0.25퍼센트포인트 인상, 점도표 연말 전망 중간값 4.1퍼센트로 연내 한 차례 추가 인상 시사. 발표 당일 다우는 1.21퍼센트 내렸지만 나스닥은 0.01퍼센트 하락에 그쳤고 미 10년물은 5.003퍼센트로 마감했다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">FOMC DETAIL — SEP 16 (ET)</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">결정은 만장일치, 반응은 지수마다 달랐다</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">FOMC 세부 내용과 발표 당일 시장 반응</text>
+
+  <line x1="60" y1="138" x2="840" y2="138" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="168" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">결정 세부</text>
+  <g font-family="'IBM Plex Sans KR',sans-serif" font-size="14">
+    <text x="60" y="196" fill="#20231f">표결</text>
+    <text x="230" y="196" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13.5" fill="#20231f">만장일치 · 반대표 없음</text>
+
+    <text x="60" y="224" fill="#20231f">점도표 연말 중간값</text>
+    <text x="230" y="224" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13.5" fill="#e0795b">4.1% — 연내 한 차례 더 인상 시사</text>
+
+    <text x="60" y="252" fill="#20231f">전망 수정</text>
+    <text x="230" y="252" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13.5" fill="#20231f">근원물가 3.3% → 3.4% · 성장률 2.2% → 2.3%</text>
+  </g>
+
+  <rect x="60" y="272" width="780" height="40" fill="#e0795b" opacity="0.18"/>
+  <text x="76" y="297" font-family="'IBM Plex Sans KR',sans-serif" font-size="14.5" fill="#20231f">워시 의장 — 지금은 긴축이 아니라 "완화의 일부를 제거한 것"</text>
+
+  <line x1="60" y1="336" x2="840" y2="336" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="364" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">발표 당일 반응</text>
+
+  <line x1="300" y1="378" x2="300" y2="452" stroke="rgba(32,35,31,.25)"/>
+  <text x="300" y="466" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11" fill="#62655d">0%</text>
+
+  <g font-family="'IBM Plex Sans KR',sans-serif" font-size="14">
+    <text x="60" y="397" fill="#20231f">다우</text>
+    <rect x="179" y="382" width="121" height="20" fill="#e0795b"/>
+    <text x="169" y="397" text-anchor="end" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#e0795b">-1.21%</text>
+    <text x="314" y="397" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">51,461.90</text>
+
+    <text x="60" y="425" fill="#20231f">S&amp;P500</text>
+    <rect x="255" y="410" width="45" height="20" fill="#e0795b" opacity="0.7"/>
+    <text x="245" y="425" text-anchor="end" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#e0795b">-0.45%</text>
+    <text x="314" y="425" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">7,551.81</text>
+
+    <text x="60" y="453" fill="#20231f">나스닥</text>
+    <rect x="299" y="438" width="1" height="20" fill="#e0795b" opacity="0.7"/>
+    <text x="289" y="453" text-anchor="end" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">-0.01%</text>
+    <text x="314" y="453" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">25,978.42</text>
+  </g>
+
+  <line x1="60" y1="480" x2="840" y2="480" stroke="rgba(32,35,31,.08)"/>
+  <text x="60" y="501" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">미 10년물 5.003% 마감(19년 만에 5% 상회) · 2년물 4.74%(+7bp) · 달러 강세 · 도표는 이데일리·한국경제 보도로 직접 작성</text>
+</svg>
