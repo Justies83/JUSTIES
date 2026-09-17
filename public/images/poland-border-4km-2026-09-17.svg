@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="폴란드 국경 인근 공습 도표. 9월 13일에는 국경에서 약 2km 떨어진 철도 인프라가, 9월 17일에는 약 4km 떨어진 주유소가 공격받았다. 17일에는 제트엔진 드론이 국경 4km 앞에서 추락하거나 격추됐고 폴란드는 제슈프와 루블린 공항을 1시간 폐쇄하고 F-16을 출격시켰다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">POLAND BORDER — SEP 17</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">나흘 만에 같은 검문소, 이번엔 전투기가 떴다</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">야호딘-도로후스크 일대 두 차례 공습과 폴란드의 대응</text>
+
+  <line x1="60" y1="132" x2="840" y2="132" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="158" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">폴란드 국경에서 얼마나 가까웠나</text>
+
+  <text x="200" y="182" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#16756a">폴란드 국경</text>
+  <line x1="200" y1="190" x2="200" y2="244" stroke="#16756a" stroke-width="3"/>
+
+  <text x="440" y="200" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#e0795b">9.13 철도 인프라 · 2km</text>
+  <circle cx="440" cy="218" r="6" fill="#e0795b" opacity="0.7"/>
+  <text x="680" y="200" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#e0795b">9.17 주유소 · 4km</text>
+  <circle cx="680" cy="218" r="7" fill="#e0795b"/>
+
+  <line x1="200" y1="244" x2="800" y2="244" stroke="rgba(32,35,31,.3)"/>
+  <text x="200" y="266" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">0</text>
+  <text x="320" y="266" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">1km</text>
+  <text x="440" y="266" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">2km</text>
+  <text x="560" y="266" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">3km</text>
+  <text x="680" y="266" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">4km</text>
+  <text x="800" y="266" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">5km</text>
+
+  <line x1="60" y1="286" x2="840" y2="286" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="310" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">무슨 일이 있었나</text>
+
+  <g font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5">
+    <circle cx="70" cy="334" r="5" fill="#62655d"/>
+    <text x="92" y="339" fill="#20231f">9.13 유럽발 군수 화물 철도 인프라 피격 — 보리스 존슨·칼 빌트 탑승 열차 기관차 파손</text>
+    <text x="92" y="361" fill="#62655d">주유소 화재가 화물트럭으로 번짐 · 다친 사람은 없었다</text>
+
+    <circle cx="70" cy="390" r="6" fill="#e0795b"/>
+    <text x="92" y="395" fill="#20231f">9.17 검문소 인근 주유소 피격 — 제트엔진 드론이 국경 4km 앞에서 추락 또는 격추</text>
+    <text x="92" y="417" fill="#62655d">폴란드, 제슈프·루블린 공항 약 1시간 폐쇄하고 F-16 출격</text>
+  </g>
+
+  <rect x="60" y="434" width="780" height="38" fill="#e0795b" opacity="0.15"/>
+  <text x="76" y="458" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">투스크 총리 — "대규모로 몹시 잔혹하게 공격했다"</text>
+
+  <text x="60" y="494" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">러 국방부는 13일 공격에 대해 유럽발 군사 물자 운송 인프라를 겨냥했다고 주장했다</text>
+  <text x="60" y="511" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">도표는 스페셜타임스·파이낸셜뉴스 보도와 이 아카이브의 기존 기록으로 직접 작성</text>
+</svg>
