@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="네팔 홍수 피해 집계 도표. 네팔 실종자가 9월 15일 5179명에서 16일 6150명으로 하루 사이 971명 늘었다. 티베트를 합치면 사망 1446명, 실종 6669명으로 인명 피해는 8115명이다. 한국 해외긴급구호대 2진은 9월 17일 철수했고 정부 합동대응팀 8명이 수색을 이어받는다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">NEPAL FLOOD — SEP 17</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">3주가 지났는데 실종자가 늘고 있다</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">네팔 정부 집계 실종자와 한국인 9명 수색 경과</text>
+
+  <line x1="60" y1="132" x2="840" y2="132" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="156" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">네팔 실종자 — 두 막대는 같은 축척</text>
+
+  <text x="60" y="186" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">9월 15일</text>
+  <rect x="200" y="168" width="404" height="26" fill="#62655d" opacity="0.45"/>
+  <text x="618" y="186" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#20231f">5,179명</text>
+
+  <text x="60" y="224" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">9월 16일</text>
+  <rect x="200" y="206" width="404" height="26" fill="#62655d" opacity="0.45"/>
+  <rect x="604" y="206" width="76" height="26" fill="#e0795b"/>
+  <text x="694" y="224" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#20231f">6,150명</text>
+  <text x="642" y="252" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#e0795b">하루 새 +971</text>
+
+  <line x1="60" y1="272" x2="840" y2="272" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="282" width="780" height="46" fill="#e0795b" opacity="0.15"/>
+  <text x="76" y="304" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">사망 1,446명 — 네팔 1,403명 + 티베트 43명</text>
+  <text x="76" y="322" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">실종 6,669명 — 네팔 6,150명 + 티베트 519명 · 둘을 더하면 8,115명</text>
+
+  <line x1="60" y1="344" x2="840" y2="344" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="366" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">한국인 9명 — 실종 3주</text>
+
+  <g font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5">
+    <circle cx="70" cy="386" r="5" fill="#62655d"/>
+    <text x="92" y="391" fill="#20231f">8.26 랑탕리룽산 5,200m 빙하 붕괴 — UT-1 현장에서 두산에너빌리티 6명·한국남동발전 3명 실종</text>
+
+    <circle cx="70" cy="412" r="5" fill="#62655d"/>
+    <text x="92" y="417" fill="#20231f">9.11~9.17 해외긴급구호대(KDRT) 2진 드론 수색 — 유의미한 발견 없이 철수</text>
+
+    <circle cx="70" cy="438" r="6" fill="#e0795b"/>
+    <text x="92" y="443" fill="#20231f">9.18~ 외교부 3명·소방청 2명·경찰청 3명, 정부 합동대응팀 8명이 수색 인계</text>
+  </g>
+
+  <line x1="60" y1="462" x2="840" y2="462" stroke="rgba(32,35,31,.08)"/>
+  <text x="60" y="482" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">실종자 급증은 당국의 재집계 과정에서 나왔다 · 피해·손실액 약 3조 6,000억원, 재건 비용 약 6조 3,000억원</text>
+  <text x="60" y="500" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">도표는 헤럴드경제·경향신문·대전일보 보도로 직접 작성</text>
+</svg>
