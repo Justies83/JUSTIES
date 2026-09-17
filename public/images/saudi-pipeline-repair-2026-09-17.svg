@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="사우디 동서 송유관 복구 기간 전망 도표. 미국 에너지장관은 며칠 단위, 아람코는 수일 내 절반 복구와 6주 내 완전 정상화, AP통신은 3에서 5주, 리포오일 대표는 수개월을 전망해 폭이 크게 갈린다. 9월 17일 브렌트유는 105.83달러, WTI는 102.43달러로 내려 피격 직후 수준으로 되돌아왔다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">PIPELINE REPAIR — SEP 17</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">같은 파이프, 며칠과 수개월 사이</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">사우디 동서 송유관 복구 기간 전망 · 막대는 모두 피격 시점부터 잰 같은 축척</text>
+
+  <line x1="60" y1="132" x2="840" y2="132" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="158" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">복구까지 얼마나 걸리나</text>
+
+  <text x="200" y="186" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">0</text>
+  <text x="340" y="186" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">2주</text>
+  <text x="480" y="186" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">4주</text>
+  <text x="620" y="186" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">6주</text>
+  <text x="760" y="186" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">8주</text>
+  <line x1="200" y1="196" x2="800" y2="196" stroke="rgba(32,35,31,.3)"/>
+  <line x1="340" y1="202" x2="340" y2="362" stroke="rgba(32,35,31,.09)"/>
+  <line x1="480" y1="202" x2="480" y2="362" stroke="rgba(32,35,31,.09)"/>
+  <line x1="620" y1="202" x2="620" y2="362" stroke="rgba(32,35,31,.09)"/>
+  <line x1="760" y1="202" x2="760" y2="362" stroke="rgba(32,35,31,.09)"/>
+
+  <g font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5">
+    <text x="60" y="221" fill="#20231f">미 에너지장관</text>
+    <rect x="200" y="206" width="49" height="20" fill="#e0795b"/>
+    <text x="261" y="221" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#e0795b">며칠 단위</text>
+
+    <text x="60" y="255" fill="#20231f">아람코 — 절반</text>
+    <rect x="200" y="240" width="49" height="20" fill="#16756a" opacity="0.5"/>
+    <text x="261" y="255" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#20231f">수일 내 · 700만 중 350만 배럴</text>
+
+    <text x="60" y="289" fill="#20231f">AP통신</text>
+    <rect x="200" y="274" width="210" height="20" fill="#62655d" opacity="0.5"/>
+    <rect x="410" y="274" width="140" height="20" fill="#62655d" opacity="0.22"/>
+    <text x="562" y="289" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#20231f">3~5주</text>
+
+    <text x="60" y="323" fill="#20231f">아람코 — 완전</text>
+    <rect x="200" y="308" width="420" height="20" fill="#16756a" opacity="0.8"/>
+    <text x="632" y="323" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#16756a">6주 내 정상화 목표</text>
+
+    <text x="60" y="357" fill="#20231f">리포오일 대표</text>
+    <rect x="200" y="342" width="580" height="20" fill="none" stroke="#e0795b" stroke-dasharray="5 4"/>
+    <path d="M782 344 L796 352 L782 360 Z" fill="#e0795b"/>
+    <text x="216" y="357" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#e0795b">수개월 — 끝을 특정하지 않았다</text>
+  </g>
+
+  <line x1="60" y1="378" x2="840" y2="378" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="400" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">그래서 유가는</text>
+  <rect x="60" y="410" width="780" height="48" fill="#16756a" opacity="0.14"/>
+  <text x="76" y="431" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">브렌트 105.83달러(-2.69%) · WTI 102.43달러(-3.21%) — 한때 107달러 돌파</text>
+  <text x="76" y="451" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">9월 10일 피격 직후 마감가 105.68달러와 사실상 같은 자리로 되돌아왔다</text>
+
+  <text x="60" y="482" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">공격 주체는 이라크 내 친이란 민병대로 추정되나 민병대는 부인 · 후티 반군으로 전한 매체도 있어 아직 확정되지 않았다</text>
+  <text x="60" y="501" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">도표는 아시아경제·한국일보·뉴스핌·파이낸셜뉴스 보도와 이 아카이브의 기존 기록으로 직접 작성</text>
+</svg>
