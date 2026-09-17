@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="9월 17일 원달러 환율과 코스피 마감 도표. 환율은 13.6원 오른 1382.2원으로 한 달 만의 최고치를 기록했고, 코스피는 0.91퍼센트 오른 6779.02로 출발했다가 6715.41로 마감해 보합이었다. 유가증권시장에서 외국인이 2조 2770억원을 순매도했고 기타법인이 1조 7045억원을 매입해 그 물량을 받아 냈다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">CLOSE — SEP 17</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">환율은 13.6원 답했고, 지수는 법인이 받쳤다</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">9월 17일 원/달러 환율·코스피 종가와 투자 주체별 수급</text>
+
+  <line x1="60" y1="132" x2="840" y2="132" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="160" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">원/달러 환율 — 축은 1,360원부터 잘랐다</text>
+
+  <line x1="200" y1="206" x2="800" y2="206" stroke="rgba(32,35,31,.3)"/>
+  <line x1="372" y1="198" x2="372" y2="214" stroke="#62655d" stroke-width="2"/>
+  <line x1="644" y1="188" x2="644" y2="224" stroke="#e0795b" stroke-width="3"/>
+  <line x1="690" y1="200" x2="690" y2="212" stroke="rgba(32,35,31,.35)" stroke-width="2"/>
+  <line x1="378" y1="206" x2="638" y2="206" stroke="#e0795b" stroke-width="2"/>
+  <path d="M630 201 L640 206 L630 211 Z" fill="#e0795b"/>
+
+  <text x="372" y="182" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">9.16 종가 1,368.6</text>
+  <text x="644" y="180" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#e0795b">9.17 종가 1,382.2 (+13.6원)</text>
+  <text x="690" y="240" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" fill="#62655d">장중 고점 1,384.5</text>
+  <text x="200" y="240" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" fill="#62655d">1,360</text>
+  <text x="800" y="240" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" fill="#62655d">1,390</text>
+
+  <line x1="60" y1="258" x2="840" y2="258" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="274" width="780" height="40" fill="#16756a" opacity="0.14"/>
+  <text x="76" y="300" font-family="'IBM Plex Sans KR',sans-serif" font-size="14.5" fill="#20231f">코스피 — 개장 6,779.02(+0.91%) · 장중 고점 6,795.53 → 종가 6,715.41(-0.04%)</text>
+
+  <line x1="60" y1="334" x2="840" y2="334" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="358" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">유가증권시장 수급 — 네 막대는 같은 축척</text>
+
+  <g font-family="'IBM Plex Sans KR',sans-serif" font-size="14">
+    <text x="60" y="385" fill="#20231f">외국인</text>
+    <rect x="180" y="370" width="480" height="20" fill="#e0795b"/>
+    <text x="672" y="385" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#e0795b">-2조 2,770억</text>
+
+    <text x="60" y="411" fill="#20231f">기타법인</text>
+    <rect x="180" y="396" width="359" height="20" fill="#16756a" opacity="0.8"/>
+    <text x="551" y="411" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#16756a">+1조 7,045억</text>
+
+    <text x="60" y="437" fill="#20231f">개인</text>
+    <rect x="180" y="422" width="87" height="20" fill="#16756a" opacity="0.55"/>
+    <text x="279" y="437" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#20231f">+4,137억</text>
+
+    <text x="60" y="463" fill="#20231f">기관</text>
+    <rect x="180" y="448" width="33" height="20" fill="#16756a" opacity="0.55"/>
+    <text x="225" y="463" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#20231f">+1,587억</text>
+  </g>
+
+  <line x1="60" y1="478" x2="840" y2="478" stroke="rgba(32,35,31,.08)"/>
+  <text x="60" y="496" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">외국인 7거래일 연속 순매도 · 기타법인 매입액은 외국인 순매도에서 개인·기관 순매수를 뺀 1조 7,046억원과 거의 일치</text>
+  <text x="60" y="513" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">도표는 이투데이·파이낸셜뉴스·산경투데이·뉴스핌 보도로 직접 작성</text>
+</svg>
