@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="한미 기준금리 격차 도표. 미국은 3.75에서 4.00퍼센트, 한국은 3.00퍼센트로 상단 기준 격차가 0.75퍼센트포인트에서 1.00퍼센트포인트로 벌어졌다. 9월 17일 코스피는 0.91퍼센트 오른 6779.02로 출발했다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">RATE GAP — SEP 17</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">주식은 버텼고, 부담은 한국은행으로 갔다</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">한미 기준금리와 격차 · 두 막대는 같은 축척</text>
+
+  <text x="60" y="176" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">미국 (상단)</text>
+  <rect x="200" y="158" width="560" height="28" fill="#e0795b" opacity="0.8"/>
+  <text x="774" y="178" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#e0795b">4.00%</text>
+
+  <text x="60" y="222" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">한국</text>
+  <rect x="200" y="204" width="420" height="28" fill="#62655d" opacity="0.45"/>
+  <text x="634" y="224" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#20231f">3.00%</text>
+
+  <line x1="620" y1="196" x2="620" y2="252" stroke="rgba(32,35,31,.35)" stroke-dasharray="4 3"/>
+  <line x1="760" y1="150" x2="760" y2="252" stroke="rgba(32,35,31,.35)" stroke-dasharray="4 3"/>
+  <line x1="620" y1="252" x2="760" y2="252" stroke="#e0795b" stroke-width="2"/>
+  <text x="690" y="272" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13.5" fill="#e0795b">1.00%p</text>
+
+  <text x="200" y="272" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">격차 0.75%p → 1.00%p로 확대 (미국 3.75~4.00%)</text>
+
+  <line x1="60" y1="304" x2="840" y2="304" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="334" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">그런데 코스피는</text>
+  <rect x="60" y="348" width="780" height="40" fill="#16756a" opacity="0.18"/>
+  <text x="76" y="374" font-family="'IBM Plex Sans KR',sans-serif" font-size="14.5" fill="#20231f">9.17 개장 6,779.02 — 전 거래일 대비 +0.91%</text>
+
+  <text x="60" y="414" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">오른 이유 — 장기금리 상승폭 제한 · 최근 조정으로 긴축 우려 선반영</text>
+  <text x="60" y="436" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">2026년 영업이익 컨센서스 990조원대 유지</text>
+
+  <line x1="60" y1="462" x2="840" y2="462" stroke="rgba(32,35,31,.08)"/>
+  <text x="60" y="483" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">시장 전망 — 한은 10월 동결 후 11월 추가 인상 여부 판단</text>
+  <text x="60" y="502" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">도표는 비즈중앙·디지털타임스 보도로 직접 작성</text>
+</svg>
