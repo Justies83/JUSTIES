@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="이란전쟁 7개월 타임라인과 9월 22일 트럼프-걸프 6개국 회동 도표. 전쟁은 2월 말 시작돼 7개월 가까이 이어지고 있고 호르무즈 해협 통제권 갈등이 계속되는 가운데, 미국은 9월 22일 유엔총회에서 GCC 6개국과 전쟁 이후 구상을 논의한다. 최종안은 11월 미 중간선거 이후 확정된다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">POST-WAR TALKS — SEP 18</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">전쟁은 안 끝났는데, "이후"부터 논의한다</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">이란전쟁 7개월 타임라인과 9월 22일 트럼프-GCC 회동</text>
+
+  <line x1="60" y1="132" x2="840" y2="132" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="156" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">7개월의 경로 — 화살표는 시간 축, 같은 간격이 아니다</text>
+
+  <line x1="80" y1="210" x2="820" y2="210" stroke="rgba(32,35,31,.3)" stroke-width="2" marker-end="url(#arrow)"/>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="rgba(32,35,31,.3)"/>
+    </marker>
+  </defs>
+
+  <circle cx="110" cy="210" r="5" fill="#62655d"/>
+  <text x="110" y="192" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#20231f">2월 말</text>
+  <text x="110" y="232" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">미·이스라엘, 이란 선제공격</text>
+
+  <circle cx="350" cy="210" r="5" fill="#62655d"/>
+  <text x="350" y="192" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#20231f">이후 여러 차례</text>
+  <text x="350" y="232" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">휴전·종전 양해각서 체결·붕괴 반복</text>
+
+  <circle cx="590" cy="210" r="5" fill="#62655d"/>
+  <text x="590" y="192" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#20231f">지금까지</text>
+  <text x="590" y="232" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">호르무즈 통제권 갈등, 군사 충돌 지속</text>
+
+  <circle cx="800" cy="210" r="7" fill="#e0795b"/>
+  <text x="800" y="192" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#e0795b">9.22</text>
+  <text x="800" y="232" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#e0795b">뉴욕서 GCC 6개국과 "전후" 회동</text>
+
+  <line x1="60" y1="264" x2="840" y2="264" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="288" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">9월 22일 회동</text>
+  <g font-family="'IBM Plex Sans KR',sans-serif" font-size="14">
+    <text x="60" y="312" fill="#20231f">참석</text>
+    <text x="160" y="312" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13.5" fill="#20231f">GCC 6개국(사우디·UAE·카타르·바레인·쿠웨이트·오만)</text>
+
+    <text x="60" y="340" fill="#20231f">의제</text>
+    <text x="160" y="340" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13.5" fill="#20231f">이란전쟁 종료 후 이란·주변 지역 관리 구상</text>
+
+    <text x="60" y="368" fill="#20231f">확정</text>
+    <text x="160" y="368" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13.5" fill="#20231f">11월 미 중간선거 이후</text>
+  </g>
+
+  <line x1="60" y1="394" x2="840" y2="394" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="406" width="780" height="46" fill="#e0795b" opacity="0.14"/>
+  <text x="76" y="428" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">이란은 이 자리에 없다 · 네타냐후도 회담을 원하지만 일정 미확정</text>
+  <text x="76" y="446" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">중부사령부는 추가 공격 명령에 대비해 5만명 이상 병력 대기 중</text>
+
+  <text x="60" y="480" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">이 아카이브의 호르무즈·송유관 기록이 갈등이 지속 중임을 보여준다</text>
+  <text x="60" y="498" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">도표는 경향신문·헤럴드경제·파이낸셜뉴스 보도와 이 아카이브의 기존 기록으로 직접 작성</text>
+</svg>
