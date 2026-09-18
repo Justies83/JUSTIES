@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="9월 18일 코스피 마감 도표. 코스피는 178.82포인트, 2.66퍼센트 오른 6894.23으로 마감해 개장가보다도 높았다. 개인은 4조 3650억원을 순매도했고 외국인이 9701억원, 기관이 1조7173억원을 순매수해 받았다. SK하이닉스는 6퍼센트대, 삼성전자는 3퍼센트대 올랐다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">KOSPI CLOSE — SEP 18</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">개장의 반등이 마감까지 그대로 갔다</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">코스피 개장→마감 흐름과 투자 주체별 수급</text>
+
+  <line x1="60" y1="132" x2="840" y2="132" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="158" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">코스피 하루 흐름</text>
+
+  <line x1="200" y1="220" x2="700" y2="184" stroke="#16756a" stroke-width="3"/>
+  <circle cx="200" cy="220" r="5" fill="#62655d"/>
+  <circle cx="700" cy="184" r="6" fill="#16756a"/>
+  <text x="200" y="242" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">전일 종가 6,715.41</text>
+  <text x="450" y="176" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">개장 6,885.70(+2.54%)</text>
+  <text x="700" y="166" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#16756a">마감 6,894.23(+2.66%)</text>
+
+  <line x1="60" y1="270" x2="840" y2="270" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="294" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">투자 주체별 수급 — 세 막대는 같은 축척</text>
+
+  <g font-family="'IBM Plex Sans KR',sans-serif" font-size="14">
+    <text x="60" y="322" fill="#20231f">개인</text>
+    <rect x="200" y="308" width="437" height="22" fill="#e0795b"/>
+    <text x="647" y="324" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#e0795b">-4조 3,650억</text>
+
+    <text x="60" y="356" fill="#20231f">기관</text>
+    <rect x="200" y="342" width="172" height="22" fill="#16756a" opacity="0.8"/>
+    <text x="382" y="358" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#16756a">+1조 7,173억</text>
+
+    <text x="60" y="390" fill="#20231f">외국인</text>
+    <rect x="200" y="376" width="97" height="22" fill="#16756a" opacity="0.5"/>
+    <text x="307" y="392" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#20231f">+9,701억</text>
+  </g>
+
+  <line x1="60" y1="420" x2="840" y2="420" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="432" width="780" height="40" fill="#16756a" opacity="0.14"/>
+  <text x="76" y="457" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">SK하이닉스 +6%대 · 삼성전자 +3%대 · 코스닥 827.12(+0.60%)</text>
+
+  <text x="60" y="490" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">인텔 CEO의 "2027년 메모리 공급 부족 심화" 발언이 美 반도체주를 밀어 올린 흐름이 이어졌다</text>
+  <text x="60" y="507" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">도표는 아주경제·아시아경제·이투데이 보도로 직접 작성</text>
+</svg>
