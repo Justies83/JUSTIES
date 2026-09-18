@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="대미 투자 협상 지연 경과 도표. 8월 20일 1호 프로젝트 발표가 9월 중으로 예상됐지만 9월 18일 기자회견에서 대통령은 동의하기 쉽지 않은 부분이 있어 다시 협의 중이라고 밝혔고 국회 보고는 22일로 연기됐다. 막판 쟁점은 투자금 회수, 수익 배분, 손실 처리 방법이다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">KR-US INVESTMENT — SEP 18</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">"9월 중"이라던 발표, 9월이 다 가도록 못 했다</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">3,500억달러 대미 투자 협상 경과</text>
+
+  <line x1="60" y1="132" x2="840" y2="132" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="156" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">경과 — 화살표는 시간 축</text>
+
+  <line x1="80" y1="210" x2="820" y2="210" stroke="rgba(32,35,31,.3)" stroke-width="2" marker-end="url(#arrow2)"/>
+  <defs>
+    <marker id="arrow2" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="rgba(32,35,31,.3)"/>
+    </marker>
+  </defs>
+
+  <circle cx="110" cy="210" r="5" fill="#62655d"/>
+  <text x="110" y="192" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#20231f">8.20</text>
+  <text x="110" y="232" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">산업부 장관 "1호 발표 9월 중"</text>
+
+  <circle cx="330" cy="210" r="5" fill="#62655d"/>
+  <text x="330" y="192" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#20231f">이번 주</text>
+  <text x="330" y="232" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">당초 국회 보고 예정</text>
+
+  <circle cx="580" cy="210" r="7" fill="#e0795b"/>
+  <text x="580" y="192" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#e0795b">9.18</text>
+  <text x="580" y="232" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#e0795b">대통령 "다시 얘기를 또 하는 중"</text>
+
+  <circle cx="790" cy="210" r="5" fill="#62655d"/>
+  <text x="790" y="192" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#20231f">9.22</text>
+  <text x="790" y="232" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">연기된 국회 보고</text>
+
+  <line x1="60" y1="264" x2="840" y2="264" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="288" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">협정의 틀 — 지난해 타결</text>
+  <g font-family="'IBM Plex Sans KR',sans-serif" font-size="14">
+    <text x="60" y="312" fill="#20231f">현금성 투자</text>
+    <text x="220" y="312" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13.5" fill="#20231f">2,000억달러</text>
+
+    <text x="60" y="336" fill="#20231f">조선협력투자</text>
+    <text x="220" y="336" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13.5" fill="#20231f">1,500억달러</text>
+  </g>
+
+  <line x1="60" y1="362" x2="840" y2="362" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="374" width="780" height="68" fill="#e0795b" opacity="0.14"/>
+  <text x="76" y="396" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">막판 쟁점 — 대통령 발언 그대로</text>
+  <text x="76" y="416" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">"이걸 어떻게 회수할 거냐, 수익 배분은 어떤 방법으로 할 거냐,</text>
+  <text x="76" y="434" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">손실이 발생하는 사업은 어떻게 할 거냐"</text>
+
+  <text x="60" y="466" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">얼마를 투자하느냐가 아니라 손해가 나면 누가 떠안느냐가 지금 쟁점이다</text>
+  <text x="60" y="484" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">도표는 파이낸셜뉴스·헤럴드경제·이데일리 보도와 이 아카이브의 기존 기록으로 직접 작성</text>
+</svg>
