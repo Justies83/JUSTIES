@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="9월 18일 뉴욕증시 도표. 다우는 0.18퍼센트 내린 51682.64, S&amp;P500은 0.17퍼센트 오른 7650.50, 나스닥은 0.39퍼센트 오른 26522.55로 엇갈려 마감했다. 미 10년물 국채금리는 5bp 올라 다시 5%에 가까워졌는데 이는 10월 추가 인상 베팅이 늘었기 때문이다. 유가는 계속 내렸는데도 금리는 반대로 올랐다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">WALL ST — SEP 18</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">하루 반등에 그쳤다, 시장은 10월에 베팅했다</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">엇갈린 지수 마감과 국채금리·유가의 반대 움직임</text>
+
+  <line x1="60" y1="132" x2="840" y2="132" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="156" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">지수별 등락률 — 축은 0%, 막대는 같은 축척</text>
+
+  <line x1="300" y1="180" x2="300" y2="270" stroke="rgba(32,35,31,.3)"/>
+  <g font-family="'IBM Plex Sans KR',sans-serif" font-size="14">
+    <text x="60" y="200" fill="#20231f">다우</text>
+    <rect x="256" y="188" width="44" height="20" fill="#e0795b" opacity="0.7"/>
+    <text x="246" y="203" text-anchor="end" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#e0795b">-0.18%</text>
+    <text x="314" y="203" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">51,682.64</text>
+
+    <text x="60" y="232" fill="#20231f">S&amp;P500</text>
+    <rect x="300" y="220" width="42" height="20" fill="#16756a" opacity="0.6"/>
+    <text x="356" y="235" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#16756a">+0.17%</text>
+    <text x="428" y="235" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">7,650.50</text>
+
+    <text x="60" y="264" fill="#20231f">나스닥</text>
+    <rect x="300" y="252" width="98" height="20" fill="#16756a"/>
+    <text x="412" y="267" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#16756a">+0.39%</text>
+    <text x="484" y="267" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">26,522.55</text>
+  </g>
+
+  <line x1="60" y1="294" x2="840" y2="294" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="318" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">반대로 간 두 지표</text>
+
+  <g font-family="'IBM Plex Sans KR',sans-serif" font-size="14">
+    <text x="60" y="346" fill="#20231f">미 10년물</text>
+    <text x="230" y="346" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13.5" fill="#e0795b">5bp↑ · 다시 5%에 근접 — 10월 추가 인상 베팅 상승</text>
+
+    <text x="60" y="374" fill="#20231f">WTI · 브렌트유</text>
+    <text x="230" y="374" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13.5" fill="#16756a">-1.6% · -0.9% — 송유관 복구 전망에 계속 하락</text>
+  </g>
+
+  <rect x="60" y="396" width="780" height="40" fill="#e0795b" opacity="0.14"/>
+  <text x="76" y="421" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">캔자스시티 연은 슈미드 총재 — 인상 지지, "인플레이션 3% 넘어 확산"</text>
+
+  <line x1="60" y1="452" x2="840" y2="452" stroke="rgba(32,35,31,.08)"/>
+  <text x="60" y="473" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">주간 기준 — 다우 3월 이후 최악의 주간(-1.5%대) · 나스닥만 주간 플러스 유지</text>
+  <text x="60" y="491" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">도표는 Yahoo Finance·Fortune 보도로 직접 작성</text>
+</svg>
