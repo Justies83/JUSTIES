@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="9월 17일 뉴욕증시 반등 도표. 다우 0.61퍼센트, S&amp;P500 1.14퍼센트, 나스닥 1.69퍼센트 올라 전날 금리 인상 충격을 하루 만에 되돌렸다. 미 10년물 국채금리는 4.93퍼센트로 내리고 브렌트유는 104.82달러로 내려 8거래일 만에 상승을 멈췄다. 계기는 사우디 송유관 조기 복구 기대였다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">WALL ST — SEP 17</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">하루 만에 되돌렸다, 되돌린 건 유가였다</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">뉴욕증시 3대 지수 반등과 국채금리·유가 하락</text>
+
+  <line x1="60" y1="132" x2="840" y2="132" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="158" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">지수별 등락률 — 세 막대는 같은 축척</text>
+
+  <line x1="200" y1="226" x2="200" y2="180" stroke="rgba(32,35,31,.25)"/>
+  <g font-family="'IBM Plex Sans KR',sans-serif" font-size="14">
+    <text x="60" y="196" fill="#20231f">다우</text>
+    <rect x="200" y="184" width="73" height="20" fill="#16756a" opacity="0.5"/>
+    <text x="281" y="199" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#16756a">+0.61% · 51,778.18</text>
+
+    <text x="60" y="228" fill="#20231f">S&amp;P500</text>
+    <rect x="200" y="216" width="137" height="20" fill="#16756a" opacity="0.7"/>
+    <text x="345" y="231" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#16756a">+1.14% · 7,637.73</text>
+
+    <text x="60" y="260" fill="#20231f">나스닥</text>
+    <rect x="200" y="248" width="203" height="20" fill="#16756a"/>
+    <text x="411" y="263" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#16756a">+1.69% · 26,418.30</text>
+  </g>
+
+  <line x1="60" y1="290" x2="840" y2="290" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="314" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">같이 움직인 두 지표</text>
+
+  <g font-family="'IBM Plex Sans KR',sans-serif" font-size="14">
+    <text x="60" y="342" fill="#20231f">미 10년물</text>
+    <text x="230" y="342" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13.5" fill="#e0795b">4.93% — 7bp↓, 8거래일 만에 상승 멈춤</text>
+
+    <text x="60" y="370" fill="#20231f">브렌트유</text>
+    <text x="230" y="370" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13.5" fill="#e0795b">104.82달러 — 0.95%↓, 이틀째 하락</text>
+  </g>
+
+  <rect x="60" y="390" width="780" height="40" fill="#16756a" opacity="0.14"/>
+  <text x="76" y="415" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">계기 — 사우디, 오만 경유 아시아 공급 확대 + 동서 송유관 조기 복구 기대</text>
+
+  <line x1="60" y1="444" x2="840" y2="444" stroke="rgba(32,35,31,.08)"/>
+  <text x="60" y="465" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">신규 실업수당 청구 19만 6천 건(예상 20만 8천 건 하회, 1969년 이후 최저권) · VIX 15.44(-12.82%)</text>
+  <text x="60" y="483" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">엔비디아 +2.54% · 테슬라 +2.27% · MS +1.52% · 애플 +1.38%</text>
+  <text x="60" y="501" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">도표는 이데일리·뉴스핌·이투데이 보도로 직접 작성</text>
+</svg>
