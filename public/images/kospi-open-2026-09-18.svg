@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="9월 18일 코스피 개장 도표. 코스피는 2.54퍼센트 오른 6885.70으로 개장했고 오전 9시 10분에는 2.12퍼센트 오른 6857.48이었다. SK하이닉스는 4.24퍼센트 오른 181만 9천원, 삼성전자는 2.67퍼센트 오른 25만 9250원이었다. 미 10년물 국채금리가 4.9퍼센트대로 내려온 것이 매수세를 자극했다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">KOSPI OPEN — SEP 18</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">금리는 올랐는데, 코스피는 2%대로 열었다</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">9월 18일 코스피 개장과 반도체 대형주 상승률 · 오전 9시 10분 기준</text>
+
+  <line x1="60" y1="132" x2="840" y2="132" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="158" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">코스피</text>
+  <rect x="60" y="168" width="780" height="46" fill="#16756a" opacity="0.14"/>
+  <text x="76" y="190" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">개장 6,885.70(+2.54%) → 9:10 현재 6,857.48(+2.12%)</text>
+  <text x="76" y="208" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#62655d">전 거래일 6,715.41 대비</text>
+
+  <line x1="60" y1="234" x2="840" y2="234" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="258" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">반도체 대형주 — 두 막대는 같은 축척</text>
+
+  <line x1="200" y1="330" x2="200" y2="284" stroke="rgba(32,35,31,.25)"/>
+  <g font-family="'IBM Plex Sans KR',sans-serif" font-size="14">
+    <text x="60" y="300" fill="#20231f">SK하이닉스</text>
+    <rect x="200" y="288" width="254" height="22" fill="#e0795b"/>
+    <text x="464" y="304" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#e0795b">+4.24% · 181만 9,000원</text>
+
+    <text x="60" y="336" fill="#20231f">삼성전자</text>
+    <rect x="200" y="324" width="160" height="22" fill="#e0795b" opacity="0.6"/>
+    <text x="370" y="340" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#20231f">+2.67% · 25만 9,250원</text>
+  </g>
+
+  <line x1="60" y1="366" x2="840" y2="366" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="390" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">엿새 사이 같은 조건, 다른 반응</text>
+  <g font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5">
+    <text x="60" y="414" fill="#20231f">9.17 — 한미 금리차 1.00%p로 확대, 코스피 +0.91% 개장 → 결국 보합 반납</text>
+    <text x="60" y="440" fill="#20231f">9.18 — 같은 금리차 그대로, 코스피 +2.54% 개장 (미 국채금리·유가 하락 겹침)</text>
+  </g>
+
+  <line x1="60" y1="462" x2="840" y2="462" stroke="rgba(32,35,31,.08)"/>
+  <text x="60" y="482" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">미 10년물 국채금리 4.9%대로 안정 · 나스닥 반도체주 강세가 매수세 자극</text>
+  <text x="60" y="500" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">도표는 뉴시스·뉴스핌·MBC 보도로 직접 작성 · 개장 수치는 장중 변동 가능</text>
+</svg>
