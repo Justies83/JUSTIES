@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="트럼프-시진핑 정상회담 도표. 9월 24일 백악관에서 회담이 열리며 무역휴전 연장, 희토류 공급, AI·반도체가 의제다. 회담을 일주일 앞둔 9월 17일부터 18일까지 대만 주변에서 중국군 군용기 28대와 함정 7척이 포착됐고 24대가 대만해협 중간선을 넘었다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">TRUMP-XI — SEP 19</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">회담 일주일 전, 해협엔 군용기 28대</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">9월 24일 정상회담 의제와 그 전주 대만해협 활동</text>
+
+  <line x1="60" y1="132" x2="840" y2="132" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="156" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">9.24 백악관 — 5월 방중 이후 4개월여 만</text>
+
+  <g font-family="'IBM Plex Sans KR',sans-serif" font-size="14">
+    <text x="60" y="184" fill="#20231f">무역 휴전</text>
+    <text x="230" y="184" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13.5" fill="#20231f">지난해 10월 부산 합의(1년 시한) 연장 여부</text>
+
+    <text x="60" y="212" fill="#20231f">희토류</text>
+    <text x="230" y="212" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13.5" fill="#e0795b">美, 공급 안정 요구 · 수출통제 완화 가능성은 낮음</text>
+
+    <text x="60" y="240" fill="#20231f">AI·반도체</text>
+    <text x="230" y="240" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13.5" fill="#20231f">안전은 공통 관심사, 전략 산업은 양보 없는 전선</text>
+  </g>
+
+  <line x1="60" y1="264" x2="840" y2="264" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="288" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">회담 전주 — 9.17 06:00~9.18 06:00, 대만 주변</text>
+
+  <line x1="200" y1="336" x2="200" y2="380" stroke="rgba(32,35,31,.3)"/>
+  <g font-family="'IBM Plex Sans KR',sans-serif" font-size="14">
+    <text x="60" y="326" fill="#20231f">군용기</text>
+    <rect x="200" y="312" width="504" height="24" fill="#e0795b"/>
+    <text x="716" y="330" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#e0795b">28대(24대가 중간선 넘음)</text>
+
+    <text x="60" y="360" fill="#20231f">함정·공무선</text>
+    <rect x="200" y="346" width="162" height="24" fill="#62655d" opacity="0.5"/>
+    <text x="374" y="364" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#20231f">함정 7척 · 공무선 2척</text>
+  </g>
+
+  <line x1="60" y1="392" x2="840" y2="392" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="404" width="780" height="40" fill="#16756a" opacity="0.14"/>
+  <text x="76" y="429" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">국빈 만찬 — 시 주석·펑리위안 여사, 美 빅테크·中 기업인 동석 추진</text>
+
+  <text x="60" y="464" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">군용기 28대 중 24대(86%)가 대만해협 중간선을 넘어 4개 방공식별구역에 진입</text>
+  <text x="60" y="482" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">도표는 파이낸셜뉴스·아시아엔 보도로 직접 작성</text>
+</svg>
