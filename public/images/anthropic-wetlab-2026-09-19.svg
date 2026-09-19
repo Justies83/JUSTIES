@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="앤트로픽 웻랩 도표. 샌프란시스코 베이 지역에 실제 생물학 실험을 수행하는 웻랩을 운영하며 클로드가 로봇 장비를 제어한다. 60개 이상 과학 데이터베이스를 연결한 클로드 사이언스를 내놨고 코에피션트 바이오를 약 4억달러 규모로 인수했다. 목표는 언드러거블 질환 치료제 개발이며 임상시험은 직접 하지 않는다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">AI + WET LAB — SEP 19</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">화면 밖으로 나온 AI, 실험대를 차렸다</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">앤트로픽 웻랩·클로드 사이언스·코에피션트 바이오 인수</text>
+
+  <line x1="60" y1="132" x2="840" y2="132" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="156" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">발표된 세 가지</text>
+
+  <g font-family="'IBM Plex Sans KR',sans-serif" font-size="14">
+    <text x="60" y="184" fill="#20231f">웻랩</text>
+    <text x="160" y="184" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13.5" fill="#20231f">샌프란시스코 베이 · 클로드가 로봇 장비 제어, 사람 감독 유지</text>
+
+    <text x="60" y="212" fill="#20231f">클로드 사이언스</text>
+    <text x="220" y="212" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13.5" fill="#20231f">과학 데이터베이스 60개 이상 연결 · 유전체학·단백질체학·구조생물학</text>
+
+    <text x="60" y="240" fill="#20231f">코에피션트 바이오</text>
+    <text x="240" y="240" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13.5" fill="#e0795b">약 4억달러(약 4,000억원) 규모 주식 인수</text>
+  </g>
+
+  <line x1="60" y1="264" x2="840" y2="264" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="288" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">목표와 경계선</text>
+
+  <rect x="60" y="300" width="780" height="48" fill="#16756a" opacity="0.14"/>
+  <text x="76" y="322" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">목표 — "언드러거블" 질환 치료제, 이중·삼중특이항체 등 복잡한 분자 발굴 가속</text>
+  <text x="76" y="340" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">기존 제약사가 사업성 낮다고 보는 희귀질환이 대상</text>
+
+  <rect x="60" y="360" width="780" height="48" fill="#e0795b" opacity="0.14"/>
+  <text x="76" y="382" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">경계 — "의약품을 시장에 출시하는 제약·바이오 기업과 경쟁하지 않는다"</text>
+  <text x="76" y="400" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">임상시험은 직접 수행하지 않는다</text>
+
+  <line x1="60" y1="424" x2="840" y2="424" stroke="rgba(32,35,31,.08)"/>
+  <text x="60" y="446" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">생명과학 총괄 카우더러에이브럼스 — "AI로 실험실 작업 자동화는 아직 아주 초기 단계"</text>
+  <text x="60" y="464" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">도표는 Yahoo Finance·블록미디어 보도로 직접 작성</text>
+</svg>
