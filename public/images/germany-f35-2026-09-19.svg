@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="독일 F-35 인수 도표. 9월 18일 포트워스에서 첫 F-35A를 인수했다. 2022년 35대를 88억달러에 계약했다. 첫 8대는 이번 가을 아칸소 에빙 기지에서 조종사 훈련을 시작하고 실제 독일 도착은 2027년 말이다. 토네이도 전술기를 대체해 나토 핵공유 임무를 맡는다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">GERMANY F-35 — SEP 18</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">인수는 텍사스, 도착은 2027년 말</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">독일 F-35A 1호기 인수부터 실전 배치까지</text>
+
+  <line x1="60" y1="132" x2="840" y2="132" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="156" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">계약 규모</text>
+  <rect x="60" y="168" width="780" height="40" fill="#16756a" opacity="0.14"/>
+  <text x="76" y="193" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">2022년 계약 — F-35A 35대 · 88억달러 규모</text>
+
+  <line x1="60" y1="222" x2="840" y2="222" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="246" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">인수부터 배치까지 — 화살표는 시간 축</text>
+
+  <line x1="80" y1="300" x2="820" y2="300" stroke="rgba(32,35,31,.3)" stroke-width="2" marker-end="url(#arrow4)"/>
+  <defs>
+    <marker id="arrow4" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="rgba(32,35,31,.3)"/>
+    </marker>
+  </defs>
+
+  <circle cx="150" cy="300" r="7" fill="#e0795b"/>
+  <text x="150" y="282" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#e0795b">9.18</text>
+  <text x="150" y="322" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">포트워스에서 1호기 인수식</text>
+
+  <circle cx="450" cy="300" r="5" fill="#62655d"/>
+  <text x="450" y="282" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#20231f">2026년 가을</text>
+  <text x="450" y="322" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">첫 8대, 아칸소 에빙 기지서 조종사 훈련 시작</text>
+
+  <circle cx="790" cy="300" r="5" fill="#62655d"/>
+  <text x="790" y="282" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#20231f">2027년 말</text>
+  <text x="790" y="322" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">실제 독일 도착</text>
+
+  <line x1="60" y1="354" x2="840" y2="354" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="378" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">무엇을 대체하나</text>
+  <g font-family="'IBM Plex Sans KR',sans-serif" font-size="14">
+    <text x="60" y="406" fill="#20231f">기존 — 토네이도 전술기</text>
+    <text x="60" y="430" fill="#20231f">역할 — 나토 핵공유 임무(유사시 미 전술핵 탑재·투하)</text>
+  </g>
+
+  <rect x="60" y="450" width="780" height="40" fill="#e0795b" opacity="0.14"/>
+  <text x="76" y="475" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">피스토리우스 장관 — "독일 공군의 새 시대가 시작됐다"</text>
+
+  <text x="60" y="504" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">도표는 Al Jazeera·데일리방산 보도로 직접 작성</text>
+</svg>
