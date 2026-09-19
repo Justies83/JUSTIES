@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="네팔 실종자 수색 경과 도표. 9월 4일과 5일 마지막 생존자가 구조된 뒤 13일이 지나도록 추가 생존자가 없다. 9월 17일 해외긴급구조대 2진이 철수했고 정부합동대응팀 8명만 남았다. 9월 19일 실종자 가족들이 카트만두에서 수색을 촉구했다. 한국인 9명은 여전히 실종 상태다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">NEPAL FLOOD — SEP 19 · DAY 13</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">마지막 생존자 이후, 2주째 같은 소식이 없다</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">생존자 구조부터 가족들의 카트만두 촉구까지</text>
+
+  <line x1="60" y1="132" x2="840" y2="132" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="156" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">경과 — 화살표는 시간 축</text>
+
+  <line x1="80" y1="210" x2="820" y2="210" stroke="rgba(32,35,31,.3)" stroke-width="2" marker-end="url(#arrow3)"/>
+  <defs>
+    <marker id="arrow3" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="rgba(32,35,31,.3)"/>
+    </marker>
+  </defs>
+
+  <circle cx="130" cy="210" r="5" fill="#62655d"/>
+  <text x="130" y="192" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#20231f">9.4~5</text>
+  <text x="130" y="232" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">네팔인 2명·중국인 1명 구조</text>
+  <text x="130" y="252" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">마지막 생존자</text>
+
+  <circle cx="420" cy="210" r="5" fill="#62655d"/>
+  <text x="420" y="192" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#20231f">9.17</text>
+  <text x="420" y="232" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">KDRT 2진 철수, 정부합동대응팀 8명 잔류</text>
+
+  <circle cx="800" cy="210" r="7" fill="#e0795b"/>
+  <text x="800" y="192" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#e0795b">9.19</text>
+  <text x="800" y="232" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#e0795b">가족들, 카트만두서 수색 촉구</text>
+
+  <line x1="60" y1="264" x2="840" y2="264" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="288" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">지금 상태</text>
+
+  <g font-family="'IBM Plex Sans KR',sans-serif" font-size="14">
+    <text x="60" y="316" fill="#20231f">네팔 정부 집계</text>
+    <text x="230" y="316" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13.5" fill="#20231f">사망 1,403명 · 실종 6,150명 — 17일 이후 변동 없음</text>
+
+    <text x="60" y="344" fill="#20231f">한국인 실종자</text>
+    <text x="230" y="344" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13.5" fill="#20231f">두산에너빌리티 6명 · 한국남동발전 3명 — 특이사항 없음</text>
+  </g>
+
+  <rect x="60" y="366" width="780" height="40" fill="#e0795b" opacity="0.15"/>
+  <text x="76" y="391" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">가족들 — "험준한 지형 도보수색·정밀수색이 충분치 않았다"</text>
+
+  <line x1="60" y1="422" x2="840" y2="422" stroke="rgba(32,35,31,.08)"/>
+  <text x="60" y="444" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">한국남동발전은 자체 수색 인력 76명을 계속 투입 중</text>
+  <text x="60" y="462" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">도표는 국민일보 보도와 이 아카이브의 기존 기록으로 직접 작성</text>
+</svg>
