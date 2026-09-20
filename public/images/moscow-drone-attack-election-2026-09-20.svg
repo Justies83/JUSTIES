@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="러시아 총선 마지막 날 모스크바 드론 공습 도표. 9월 18에서 20일 사흘간 치러진 러시아 총선의 마지막 날 우크라이나가 역대 최대 규모의 드론 공격을 감행했다. 1600대 넘는 드론이 요격됐고 450대가 모스크바로 접근했다. 모스크바와 케르손 지역에서 4명이 숨졌고 모스크바 연료 40퍼센트를 공급하는 가스프롬네프티 정유공장이 타격을 입었다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">MOSCOW — SEP 20</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">투표 마지막 날, 수도가 뚫렸다</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">러시아 총선 일정과 모스크바 드론 공습 규모</text>
+
+  <line x1="60" y1="132" x2="840" y2="132" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="156" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">총선 — 화살표는 시간 축</text>
+  <line x1="80" y1="200" x2="820" y2="200" stroke="rgba(32,35,31,.3)" stroke-width="2" marker-end="url(#arrow9)"/>
+  <defs>
+    <marker id="arrow9" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="rgba(32,35,31,.3)"/>
+    </marker>
+  </defs>
+  <circle cx="200" cy="200" r="5" fill="#62655d"/>
+  <text x="200" y="182" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#20231f">9.18</text>
+  <text x="200" y="222" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">투표 시작 · 점령지 최초 참여</text>
+  <circle cx="700" cy="200" r="7" fill="#e0795b"/>
+  <text x="700" y="182" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#e0795b">9.20</text>
+  <text x="700" y="222" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#e0795b">마지막 날, 모스크바 대공습</text>
+
+  <line x1="60" y1="248" x2="840" y2="248" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="272" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">공습 규모 — 두 막대는 같은 축척</text>
+
+  <g font-family="'IBM Plex Sans KR',sans-serif" font-size="14">
+    <text x="60" y="300" fill="#20231f">전체 요격</text>
+    <rect x="220" y="286" width="560" height="24" fill="#62655d" opacity="0.4"/>
+    <text x="790" y="304" text-anchor="end" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#20231f">1,600대+</text>
+
+    <text x="60" y="336" fill="#20231f">모스크바 접근</text>
+    <rect x="220" y="322" width="157" height="24" fill="#e0795b"/>
+    <text x="393" y="340" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#e0795b">450대</text>
+  </g>
+
+  <line x1="60" y1="366" x2="840" y2="366" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="378" width="780" height="56" fill="#e0795b" opacity="0.15"/>
+  <text x="76" y="402" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">피해 — 모스크바·케르손 지역 합쳐 4명 사망, 부상 20명+(어린이 3명 포함)</text>
+  <text x="76" y="424" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">가스프롬네프티 정유공장(모스크바 연료 약 40% 공급) 화재</text>
+
+  <line x1="60" y1="450" x2="840" y2="450" stroke="rgba(32,35,31,.08)"/>
+  <text x="60" y="472" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">러시아 — "선거 방해 테러" · 젤렌스키 — "전쟁 기계의 자금줄을 끊는 것"</text>
+  <text x="60" y="490" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">도표는 뉴스1·파이낸셜뉴스 보도로 직접 작성</text>
+</svg>
