@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="러시아 총선 개표 도표. 통합러시아당이 57.54퍼센트로 크게 앞섰고 이는 출구조사 예상치 49.4퍼센트보다 8퍼센트포인트 넘게 높다. 전국 투표율은 56.66퍼센트다. 공산당 14.2퍼센트, 자유민주당 10.7퍼센트, 신인민당 9.7퍼센트가 출구조사 기준으로 뒤를 이었다. 개표는 진행 중이며 최종 결과는 아직 발표되지 않았다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">RUSSIA VOTE — SEP 21</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">드론이 뜬 선거, 결과는 예상보다 컸다</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">중앙선관위 개표 초기 집계 · 개표 진행 중</text>
+
+  <line x1="60" y1="132" x2="840" y2="132" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="156" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">통합러시아당 — 출구조사 대비 개표 초기 집계</text>
+
+  <g font-family="'IBM Plex Sans KR',sans-serif" font-size="14">
+    <text x="60" y="184" fill="#20231f">출구조사</text>
+    <rect x="220" y="170" width="296" height="24" fill="#62655d" opacity="0.4"/>
+    <text x="530" y="188" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#20231f">49.4%</text>
+
+    <text x="60" y="220" fill="#20231f">개표 초기</text>
+    <rect x="220" y="206" width="345" height="24" fill="#e0795b"/>
+    <text x="579" y="224" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#e0795b">57.54%</text>
+  </g>
+  <text x="220" y="248" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#e0795b">차이 +8.14%p</text>
+
+  <line x1="60" y1="272" x2="840" y2="272" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="296" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">나머지 정당 — 출구조사 기준</text>
+  <g font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5">
+    <text x="60" y="322" fill="#20231f">공산당</text>
+    <text x="200" y="322" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#20231f">14.2%</text>
+    <text x="60" y="348" fill="#20231f">자유민주당(LDPR)</text>
+    <text x="240" y="348" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#20231f">10.7%</text>
+    <text x="60" y="374" fill="#20231f">신인민당</text>
+    <text x="200" y="374" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#20231f">9.7%</text>
+  </g>
+
+  <line x1="60" y1="398" x2="840" y2="398" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="410" width="780" height="40" fill="#16756a" opacity="0.14"/>
+  <text x="76" y="435" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">전국 투표율 56.66% — 전날 모스크바 드론 1,600대+ 공습 다음 날 집계</text>
+
+  <text x="60" y="470" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">최종 결과는 아직 발표되지 않았고, 이 기록을 쓰는 시점까지 개표가 진행 중이다</text>
+  <text x="60" y="488" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">도표는 Amar Ujala·Aaj Tak 보도로 직접 작성</text>
+</svg>
