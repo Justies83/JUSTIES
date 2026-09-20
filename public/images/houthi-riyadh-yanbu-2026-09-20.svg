@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="후티의 리야드·얀부 공격 도표. 9월 19일 밤부터 20일 아침까지 두 차례 군사작전이 있었다. 첫째는 리야드 민감시설, 둘째는 얀부 아람코 시설이다. 얀부는 동서 송유관의 종착점으로 사흘 전 아람코가 수일 내 절반 복구를 밝힌 바로 그 지점이다. 리야드에는 7월 이후 첫 공습경보가 울렸다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">HOUTHI ATTACK — SEP 20</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">두 번째 표적이 하필 복구 중이던 그 항구였다</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">리야드·얀부 동시 공격과 송유관 복구의 연결고리</text>
+
+  <line x1="60" y1="132" x2="840" y2="132" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="156" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">9.19 밤 ~ 9.20 아침, 두 차례 작전</text>
+
+  <rect x="60" y="168" width="780" height="52" fill="#e0795b" opacity="0.15"/>
+  <text x="76" y="190" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">작전 1 — 리야드 민감시설 · 7월 이후 첫 공습경보 · 킹칼리드 공항 인근 아람코 연료탱크 화재</text>
+  <text x="76" y="210" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">작전 2 — 얀부 아람코 시설 · 동서 송유관의 홍해 종착점</text>
+
+  <line x1="60" y1="240" x2="840" y2="240" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="264" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">공교로운 타이밍 — 화살표는 시간 축</text>
+
+  <line x1="80" y1="318" x2="820" y2="318" stroke="rgba(32,35,31,.3)" stroke-width="2" marker-end="url(#arrow6)"/>
+  <defs>
+    <marker id="arrow6" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="rgba(32,35,31,.3)"/>
+    </marker>
+  </defs>
+
+  <circle cx="130" cy="318" r="5" fill="#62655d"/>
+  <text x="130" y="300" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#20231f">9.10</text>
+  <text x="130" y="340" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">동서 송유관 드론 피격</text>
+
+  <circle cx="420" cy="318" r="5" fill="#62655d"/>
+  <text x="420" y="300" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#20231f">9.17</text>
+  <text x="420" y="340" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">아람코 "수일 내 절반 복구" 밝힘</text>
+
+  <circle cx="800" cy="318" r="7" fill="#e0795b"/>
+  <text x="800" y="300" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#e0795b">9.19~20</text>
+  <text x="800" y="340" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#e0795b">그 종착점 얀부가 다시 피격</text>
+
+  <line x1="60" y1="372" x2="840" y2="372" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="384" width="780" height="40" fill="#16756a" opacity="0.14"/>
+  <text x="76" y="409" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">후티 — "예멘 봉쇄가 풀릴 때까지 군사력을 겨냥할 것"</text>
+
+  <text x="60" y="446" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">사우디는 반군 진지 공습으로 대응 · F-15 격추 주장은 후티 측 발표로 미확인</text>
+  <text x="60" y="464" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">주말 사건이라 국제유가·국내 정유주 반응은 월요일 개장에서 확인될 전망</text>
+  <text x="60" y="482" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">도표는 파이낸셜뉴스·스페셜타임스 보도와 이 아카이브의 기존 기록으로 직접 작성</text>
+</svg>
