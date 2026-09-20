@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="사우디 휴전 제안과 후티 공격 도표. 9월 17에서 18일 사우디가 오만을 통해 2주 휴전을 제안했다. 후티는 기존 요구를 유지하며 소극적으로 반응했다. 9월 19일 밤부터 20일 아침까지 후티는 리야드와 얀부를 공격했다. 리야드에는 7월 이후 첫 공습경보가 울렸다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">SAUDI-HOUTHI — SEP 20</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">휴전 제안 하루 만에 돌아온 답은 공격이었다</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">사우디의 2주 휴전 제안과 후티의 리야드·얀부 공격</text>
+
+  <line x1="60" y1="132" x2="840" y2="132" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="156" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">경과 — 화살표는 시간 축</text>
+
+  <line x1="80" y1="210" x2="820" y2="210" stroke="rgba(32,35,31,.3)" stroke-width="2" marker-end="url(#arrow7)"/>
+  <defs>
+    <marker id="arrow7" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="rgba(32,35,31,.3)"/>
+    </marker>
+  </defs>
+
+  <circle cx="180" cy="210" r="6" fill="#16756a"/>
+  <text x="180" y="192" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#16756a">9.17~18</text>
+  <text x="180" y="232" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">사우디, 오만 경유 2주 휴전 제안</text>
+
+  <circle cx="450" cy="210" r="5" fill="#62655d"/>
+  <text x="450" y="192" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#20231f">직후</text>
+  <text x="450" y="232" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">후티, 기존 요구 유지 · 소극적 반응</text>
+
+  <circle cx="770" cy="210" r="7" fill="#e0795b"/>
+  <text x="770" y="192" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#e0795b">9.19밤~9.20아침</text>
+  <text x="770" y="232" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#e0795b">리야드·얀부 공격</text>
+
+  <line x1="60" y1="256" x2="840" y2="256" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="280" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">사우디 제안 — 목표</text>
+  <rect x="60" y="292" width="780" height="40" fill="#16756a" opacity="0.14"/>
+  <text x="76" y="317" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">"휴전이 끝날 때 포괄적인 합의에 도달하기를 원한다"</text>
+
+  <text x="60" y="356" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">후티 — 유지한 기존 요구</text>
+  <g font-family="'IBM Plex Sans KR',sans-serif" font-size="14">
+    <text x="60" y="382" fill="#20231f">· 공무원 급여 지급</text>
+    <text x="60" y="406" fill="#20231f">· 석유 수입 접근권</text>
+    <text x="60" y="430" fill="#20231f">· 전쟁 피해 보상</text>
+  </g>
+
+  <rect x="60" y="446" width="780" height="40" fill="#e0795b" opacity="0.15"/>
+  <text x="76" y="471" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">후티 원칙 — "봉쇄에는 봉쇄로, 군사적 확대에는 확대로"</text>
+
+  <text x="60" y="500" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">도표는 머니투데이·파이낸셜뉴스 보도와 이 아카이브의 기존 기록으로 직접 작성</text>
+</svg>
