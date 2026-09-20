@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="대미투자 1호 사업 도표. 9월 22일 오전 9시 30분 국회 산업통상자원중소벤처기업위원회와 재정경제기획위원회에 비공개 보고한다. 1호 사업은 텍사스 엔시날 가스복합화력발전, 총사업비 223억달러 약 31조원이다. 투자금 회수를 위해 특수목적법인과 장기 전력구매계약을 묶는다. 원전은 APR1400 우선이냐 AP1000 중심이냐를 놓고 이견이 남아 있다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">KR-US INVESTMENT — SEP 20</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">"회수를 어떻게"에 SPV+PPA로 답했다</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">대미투자 1호 사업 엔시날 발전소와 22일 국회 보고</text>
+
+  <line x1="60" y1="132" x2="840" y2="132" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="156" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">1호 사업 — 확정된 쪽</text>
+  <rect x="60" y="168" width="780" height="56" fill="#16756a" opacity="0.14"/>
+  <text x="76" y="192" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">텍사스 엔시날 가스복합화력발전 · 총사업비 223억달러(약 31조원)</text>
+  <text x="76" y="214" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">회수 구조 — 특수목적법인(I-SPV) + 장기 전력구매계약(PPA)</text>
+
+  <line x1="60" y1="244" x2="840" y2="244" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="268" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">원전 — 아직 정리 안 된 쪽</text>
+  <rect x="60" y="280" width="780" height="56" fill="#e0795b" opacity="0.15"/>
+  <text x="76" y="304" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">한국 — 한수원 APR1400 우선 건설</text>
+  <text x="76" y="326" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">미국 — 웨스팅하우스 AP1000 중심 추진</text>
+
+  <line x1="60" y1="356" x2="840" y2="356" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="380" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">국회 보고 — 화살표는 시간 축</text>
+
+  <line x1="80" y1="428" x2="820" y2="428" stroke="rgba(32,35,31,.3)" stroke-width="2" marker-end="url(#arrow8)"/>
+  <defs>
+    <marker id="arrow8" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="rgba(32,35,31,.3)"/>
+    </marker>
+  </defs>
+
+  <circle cx="300" cy="428" r="5" fill="#62655d"/>
+  <text x="300" y="410" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#20231f">9.21</text>
+  <text x="300" y="450" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">보고 어려울 것으로 전해짐</text>
+
+  <circle cx="700" cy="428" r="7" fill="#e0795b"/>
+  <text x="700" y="410" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#e0795b">9.22 09:30</text>
+  <text x="700" y="450" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#e0795b">산자위·재경위 비공개 보고</text>
+
+  <text x="60" y="484" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">이재명 대통령 — "상업적 합리성 있는 사업만 한다"</text>
+  <text x="60" y="502" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">도표는 서울신문·파이낸셜뉴스 보도로 직접 작성</text>
+</svg>
