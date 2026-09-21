@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="9월 21일 개장 반응 도표. 브렌트유 0.78퍼센트, WTI 0.76퍼센트 상승은 후티의 리야드·얀부 공격을 반영했다. 같은 날 코스피 0.64퍼센트, 삼성전자 1.34퍼센트, SK하이닉스 1.13퍼센트 상승은 필라델피아반도체지수 급등을 반영한 것으로, 서로 다른 사건에 반응한 결과다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">MARKET OPEN — SEP 21</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">같은 날 오른 두 시장, 다른 이유</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">개장 시 상승률 비교 (전 거래일 대비)</text>
+
+  <line x1="60" y1="132" x2="840" y2="132" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="156" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#e0795b">국제유가 — 후티 리야드·얀부 공격 반영 (오전 7:02 KST)</text>
+
+  <text x="60" y="184" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">브렌트유</text>
+  <rect x="140" y="172" width="349" height="20" fill="#e0795b" opacity="0.75"/>
+  <text x="500" y="187" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#e0795b">+0.78% · 104.68달러</text>
+
+  <text x="60" y="216" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">WTI</text>
+  <rect x="140" y="204" width="340" height="20" fill="#e0795b" opacity="0.6"/>
+  <text x="500" y="219" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#e0795b">+0.76% · 101.06달러</text>
+
+  <line x1="60" y1="248" x2="840" y2="248" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="272" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#16756a">코스피 — 필라델피아반도체지수 급등 반영 (오전 9:01 KST 개장)</text>
+
+  <text x="60" y="300" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">코스피</text>
+  <rect x="140" y="288" width="287" height="20" fill="#16756a" opacity="0.55"/>
+  <text x="500" y="303" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#16756a">+0.64% · 6,938.34</text>
+
+  <text x="60" y="332" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">삼성전자</text>
+  <rect x="140" y="320" width="600" height="20" fill="#16756a" opacity="0.85"/>
+  <text x="750" y="335" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#16756a">+1.34%</text>
+
+  <text x="60" y="364" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">SK하이닉스</text>
+  <rect x="140" y="352" width="506" height="20" fill="#16756a" opacity="0.7"/>
+  <text x="655" y="367" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#16756a">+1.13%</text>
+
+  <line x1="60" y1="396" x2="840" y2="396" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="408" width="780" height="46" fill="#62655d" opacity="0.12"/>
+  <text x="76" y="428" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">사우디 연합군 — 리야드행 탄도미사일 1발 요격, 얀부·타이프·비샤·파라산 공격도 저지 발표</text>
+  <text x="76" y="447" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">정유·화학주 개별 종목이 유가 상승에 얼마나 반응했는지는 이 개장 지수만으로는 확인되지 않음</text>
+
+  <text x="60" y="480" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">막대 길이는 상승률(%)에 비례 · 색은 반응한 사건을 구분 (주황=후티 공격, 청록=반도체 훈풍)</text>
+  <text x="60" y="498" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">도표는 뉴스핌·아시아경제·아주경제 보도로 직접 작성</text>
+</svg>
