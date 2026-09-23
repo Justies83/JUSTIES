@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="9월 22일 등락률 비교 도표. 미국 다우존스는 0.36퍼센트 하락, S&amp;P500은 보합, 나스닥은 0.45퍼센트 상승(2거래일 연속 최고치)했다. 필라델피아반도체지수는 2.06퍼센트, 마이크론은 5.00퍼센트 올랐다. 같은 날 국내에서는 삼성전자가 0.91퍼센트 오른 반면 SK하이닉스는 1.50퍼센트 내렸다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">MARKET SPLIT — SEP 22</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">반도체는 오르고 금융주는 내린 하루</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">전 거래일 대비 등락률(%) · 중앙선 기준 좌우로 표시</text>
+
+  <line x1="60" y1="132" x2="840" y2="132" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="156" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">미국 뉴욕증시 (현지시간 9.22 마감)</text>
+
+  <line x1="450" y1="168" x2="450" y2="330" stroke="rgba(32,35,31,.25)"/>
+
+  <text x="130" y="184" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">다우존스</text>
+  <rect x="428.4" y="172" width="21.6" height="18" fill="#e0795b" opacity="0.75"/>
+  <text x="460" y="185" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#e0795b">-0.36% · 51,863.69</text>
+
+  <text x="130" y="214" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">S&amp;P500</text>
+  <text x="460" y="215" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">0.0% · 7,764.64 (보합)</text>
+
+  <text x="130" y="244" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">나스닥</text>
+  <rect x="450" y="232" width="27" height="18" fill="#16756a" opacity="0.6"/>
+  <text x="487" y="245" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#16756a">+0.45% · 27,244.28 (최고치)</text>
+
+  <text x="130" y="274" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">필라델피아반도체</text>
+  <rect x="450" y="262" width="123.6" height="18" fill="#16756a" opacity="0.7"/>
+  <text x="584" y="275" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#16756a">+2.06%</text>
+
+  <text x="130" y="304" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">마이크론</text>
+  <rect x="450" y="292" width="300" height="18" fill="#16756a" opacity="0.85"/>
+  <text x="760" y="305" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#16756a">+5.00%</text>
+
+  <line x1="60" y1="346" x2="840" y2="346" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="370" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">국내 코스피 (전날 9.22 마감 — 같은 반도체 훈풍에 대한 반응)</text>
+
+  <line x1="450" y1="382" x2="450" y2="452" stroke="rgba(32,35,31,.25)"/>
+
+  <text x="130" y="404" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">삼성전자</text>
+  <rect x="450" y="392" width="54.6" height="18" fill="#16756a" opacity="0.7"/>
+  <text x="512" y="405" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#16756a">+0.91% · 27만6,500원</text>
+
+  <text x="130" y="434" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">SK하이닉스</text>
+  <rect x="360" y="422" width="90" height="18" fill="#e0795b" opacity="0.75"/>
+  <text x="345" y="435" text-anchor="end" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#e0795b">184만원 · -1.50%</text>
+
+  <line x1="60" y1="466" x2="840" y2="466" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="488" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">막대 길이는 등락률(%)에 비례 · 중앙선 기준 오른쪽 상승(청록)·왼쪽 하락(주황)</text>
+  <text x="60" y="506" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">도표는 EBN·머니투데이 보도로 직접 작성</text>
+</svg>
