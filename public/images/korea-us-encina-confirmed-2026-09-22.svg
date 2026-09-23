@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="대미투자 1호 사업 도표. 9월 22일 국회 보고에서 텍사스 엔시날 가스복합화력발전이 1호 사업으로 확정됐다. 사업비는 223억달러이고 20년간 회수 예상액은 원금의 약 두 배인 432.9억에서 454.3억달러다. 그러나 상업적 합리성 판단에 여야 모두 신중론을 폈고, 양해각서 서명일은 여전히 정해지지 않았다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">KR-US INVESTMENT — SEP 22</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">1호 사업은 확정됐는데, 서명일은 안 정해졌다</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">9월 22일 국회 산중위 비공개 보고 내용</text>
+
+  <line x1="60" y1="132" x2="840" y2="132" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="156" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#16756a">확정된 것 — 엔시날, 투자 대비 회수 전망</text>
+
+  <text x="80" y="184" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">투자금</text>
+  <rect x="160" y="172" width="343.6" height="20" fill="#16756a" opacity="0.6"/>
+  <text x="514" y="187" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#16756a">223억달러</text>
+
+  <text x="80" y="220" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">20년 회수</text>
+  <rect x="160" y="208" width="667.0" height="20" fill="#16756a" opacity="0.35"/>
+  <rect x="827" y="208" width="33.0" height="20" fill="#16756a" opacity="0.55"/>
+  <text x="500" y="243" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#16756a">432.9억~454.3억달러 (원금의 약 2배) · 상업적 합리성의 근거</text>
+
+  <line x1="60" y1="264" x2="840" y2="264" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="288" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">1호 사업 확정 내용</text>
+  <rect x="60" y="300" width="780" height="52" fill="#16756a" opacity="0.14"/>
+  <text x="76" y="324" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">텍사스 엔시날 가스복합화력발전 — 실제 추진 의사 확정</text>
+  <text x="76" y="346" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">원전 프레임워크·알래스카 LNG는 별도 절차로 분리</text>
+
+  <line x1="60" y1="368" x2="840" y2="368" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="392" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#e0795b">여전히 정해지지 않은 것</text>
+  <rect x="60" y="404" width="780" height="76" fill="#e0795b" opacity="0.15"/>
+  <text x="76" y="428" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">MOU 서명일 — 김성원 위원장 "조만간이라 생각하나 날짜는 미정"</text>
+  <text x="76" y="450" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">구자근 의원 — "개발 단계라 변수 우려, 신중을 기해야"</text>
+  <text x="76" y="472" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">김성원 위원장 본인도 "상업적 합리성 담보"에 상당한 우려 표명</text>
+
+  <text x="60" y="502" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">도표는 뉴스핌·머니투데이 보도로 직접 작성</text>
+</svg>
