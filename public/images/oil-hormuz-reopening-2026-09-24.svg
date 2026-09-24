@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="국제유가 도표. 9월 21일 후티의 리야드·얀부 공격으로 브렌트유가 104.68달러까지 올랐다가, 9월 22일 이란의 호르무즈해협 조건부 재개방 제안으로 98.33달러까지 내렸고, 9월 23일에도 99.25달러로 낮은 수준을 유지했다. 월가는 브렌트유 풋옵션 거래량을 사상 최대인 76만4천 계약까지 늘리며 추가 하락에 베팅했다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">OIL PRICE — SEP 21-23</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">공격엔 올랐다가, 외교 카드에 도로 내렸다</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">브렌트유 배럴당 가격 추이 (달러)</text>
+
+  <line x1="60" y1="132" x2="840" y2="132" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="156" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#e0795b">9.21 — 후티의 리야드·얀부 공격 반영</text>
+  <text x="80" y="184" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">브렌트유</text>
+  <rect x="160" y="172" width="600" height="20" fill="#e0795b" opacity="0.7"/>
+  <text x="770" y="187" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#e0795b">104.68달러</text>
+
+  <text x="60" y="222" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#16756a">9.22 — 이란, 호르무즈 조건부 재개방 제안</text>
+  <text x="80" y="250" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">브렌트유</text>
+  <rect x="160" y="238" width="563.6" height="20" fill="#16756a" opacity="0.6"/>
+  <text x="734" y="253" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#16756a">98.33달러 (-2.0%)</text>
+
+  <text x="80" y="282" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">WTI</text>
+  <rect x="160" y="270" width="534.7" height="20" fill="#16756a" opacity="0.4"/>
+  <text x="705" y="285" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#16756a">93.28달러 (-2.61%)</text>
+
+  <text x="60" y="320" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#16756a">9.23 — 하락 지속</text>
+  <text x="80" y="348" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">브렌트유</text>
+  <rect x="160" y="336" width="568.9" height="20" fill="#16756a" opacity="0.7"/>
+  <text x="739" y="351" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#16756a">99.25달러 (-1.1%)</text>
+
+  <line x1="60" y1="378" x2="840" y2="378" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="390" width="780" height="66" fill="#62655d" opacity="0.12"/>
+  <text x="76" y="414" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">이란 제안 — 美 군사압박 완화 시 7일 내 호르무즈 재개방</text>
+  <text x="76" y="436" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">월가 — 브렌트유 풋옵션 76만4000계약(사상 최대), 11만계약은 12월물 70달러 베팅</text>
+
+  <text x="60" y="484" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">막대 길이는 가격(달러)에 비례 · 색은 상승 원인 구분 (주황=후티 공격, 청록=호르무즈 기대)</text>
+  <text x="60" y="502" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">도표는 한국경제·파이낸셜뉴스 보도로 직접 작성</text>
+</svg>
