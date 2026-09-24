@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="미중 무역휴전 연장 도표. 부산합의는 2026년 11월 10일 만료 예정이었으나 정상회담 전날 실무 협상으로 2027년 1월 10일까지 두 달 연장됐다. 트럼프 대통령은 이란전 여파 유가 급등과 지지율 하락, 중간선거를 앞둔 공화당 이탈 기류로 수세에 몰려 있다는 평가가 나온다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">TRUMP-XI SUMMIT — SEP 23-24</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">회담 전날, 실무진이 먼저 합의했다</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">부산합의 만료일 연장 — 시간 축</text>
+
+  <line x1="60" y1="132" x2="840" y2="132" stroke="rgba(32,35,31,.12)"/>
+
+  <line x1="100" y1="220" x2="800" y2="220" stroke="rgba(32,35,31,.3)" stroke-width="2" marker-end="url(#arrowt)"/>
+  <defs>
+    <marker id="arrowt" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="rgba(32,35,31,.3)"/>
+    </marker>
+  </defs>
+
+  <circle cx="160" cy="220" r="5" fill="#62655d"/>
+  <text x="160" y="196" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#20231f">2025.10</text>
+  <text x="160" y="248" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">부산 APEC — 원래 합의</text>
+
+  <circle cx="380" cy="220" r="5" fill="#e0795b" stroke="#e0795b" stroke-dasharray="3,3" fill-opacity="0"/>
+  <line x1="380" y1="206" x2="380" y2="234" stroke="#e0795b" stroke-width="1.5" stroke-dasharray="3,3"/>
+  <text x="380" y="196" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#e0795b">2026.11.10</text>
+  <text x="380" y="248" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#e0795b">원래 만료 예정일</text>
+
+  <circle cx="560" cy="220" r="6" fill="#16756a"/>
+  <text x="560" y="196" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#20231f">2026.9.23</text>
+  <text x="560" y="248" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">베선트·허리펑, WB 본부서 연장 합의</text>
+
+  <circle cx="760" cy="220" r="7" fill="#16756a"/>
+  <text x="760" y="196" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#16756a">2027.1.10</text>
+  <text x="760" y="248" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#16756a">새 만료일 — 두 달 연장</text>
+
+  <line x1="60" y1="280" x2="840" y2="280" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="304" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">화려한 의전 vs 실제 입지 — 엇갈리는 평가</text>
+
+  <rect x="60" y="316" width="380" height="110" fill="#62655d" opacity="0.12"/>
+  <text x="76" y="340" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">겉으로 보이는 것</text>
+  <text x="76" y="362" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" fill="#62655d">공항 영접 · "위대한 지도자" 치켜세움</text>
+  <text x="76" y="382" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" fill="#62655d">B-2·F-22 축하비행 (푸틴급 의전)</text>
+  <text x="76" y="402" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" fill="#62655d">국빈 만찬 · 스미스소니언 방문</text>
+
+  <rect x="460" y="316" width="380" height="110" fill="#e0795b" opacity="0.15"/>
+  <text x="476" y="340" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">지적되는 실제 입지</text>
+  <text x="476" y="362" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" fill="#e0795b">이란전發 유가 급등 · 지지율 하락</text>
+  <text x="476" y="382" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" fill="#e0795b">11월 중간선거 앞두고 공화당 이탈</text>
+  <text x="476" y="402" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" fill="#e0795b">전직 당국자 — "합의할 실제 거래는 없다"</text>
+
+  <line x1="60" y1="446" x2="840" y2="446" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="470" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">남은 의제 — 관세·AI 핫라인·희토류·대만은 아직 미확정</text>
+  <text x="60" y="490" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">도표는 뉴데일리·한국일보 보도로 직접 작성</text>
+</svg>
