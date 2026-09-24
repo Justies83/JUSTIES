@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="양자암호통신 연동 기술 도표. KISTI의 양자키분배 시뮬레이터와 SKT의 쿠버네티스 기반 키관리시스템을 국제표준 인터페이스로 실시간 연동했다. 기본 연동에는 ETSI GS QKD 014를, 실시간 상태 정보 전달에는 차세대 표준 ETSI GS QKD 023을 사용했다. 9월 21일 스페인 말라가 ECOC 2026에서 공개됐다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">QUANTUM KEY DISTRIBUTION — SEP 21</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">시뮬레이터와 키관리시스템을 표준으로 묶다</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">KISTI·SKT 양자암호통신 연동 구조</text>
+
+  <line x1="60" y1="132" x2="840" y2="132" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="70" y="164" width="330" height="110" fill="#16756a" opacity="0.14"/>
+  <text x="86" y="192" font-family="'IBM Plex Sans KR',sans-serif" font-size="14.5" fill="#20231f">KISTI</text>
+  <text x="86" y="216" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">양자키분배(QKD) 시뮬레이터</text>
+  <text x="86" y="238" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" fill="#62655d">통신거리·광손실 조건을</text>
+  <text x="86" y="256" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" fill="#62655d">가상환경에서 자유롭게 설정</text>
+
+  <rect x="500" y="164" width="330" height="110" fill="#e0795b" opacity="0.16"/>
+  <text x="516" y="192" font-family="'IBM Plex Sans KR',sans-serif" font-size="14.5" fill="#20231f">SKT</text>
+  <text x="516" y="216" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">쿠버네티스 기반 키관리시스템(KM)</text>
+  <text x="516" y="238" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" fill="#62655d">생성된 양자키를 요청에 따라</text>
+  <text x="516" y="256" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" fill="#62655d">받아 관리·공급</text>
+
+  <line x1="400" y1="200" x2="500" y2="200" stroke="rgba(32,35,31,.4)" stroke-width="2" marker-end="url(#arrowq)"/>
+  <line x1="500" y1="230" x2="400" y2="230" stroke="rgba(32,35,31,.4)" stroke-width="2" marker-end="url(#arrowq)"/>
+  <defs>
+    <marker id="arrowq" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="rgba(32,35,31,.4)"/>
+    </marker>
+  </defs>
+  <text x="450" y="192" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="10.5" fill="#20231f">기본 연동</text>
+  <text x="450" y="246" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="10.5" fill="#20231f">상태 정보</text>
+
+  <line x1="60" y1="298" x2="840" y2="298" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="322" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">적용된 국제표준 인터페이스</text>
+
+  <rect x="60" y="334" width="780" height="42" fill="#16756a" opacity="0.12"/>
+  <text x="76" y="360" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">ETSI GS QKD 014 — 시뮬레이터·키관리시스템 기본 연동 인터페이스</text>
+
+  <rect x="60" y="382" width="780" height="42" fill="#e0795b" opacity="0.15"/>
+  <text x="76" y="408" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">ETSI GS QKD 023 — 차세대 표준, 실시간 상태 정보 전달용</text>
+
+  <line x1="60" y1="440" x2="840" y2="440" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="464" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">9.21 스페인 말라가 ECOC 2026, SK브로드밴드 부스에서 공개 · 국가연구망 기반 확장 계획</text>
+  <text x="60" y="484" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">기존엔 실제 장비로만 검증 가능 · 서로 다른 제조사 장비 간 호환성 확보가 목표</text>
+  <text x="60" y="504" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">도표는 헤럴드경제·ZDNet Korea 보도로 직접 작성</text>
+</svg>
