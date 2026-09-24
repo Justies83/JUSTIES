@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="9월 23일 뉴욕증시 도표. 마이클 바 연준 이사의 10월 추가 금리인상 발언에 10년물 국채금리가 5.102퍼센트로 19년 만에 최고치를 기록했다. 나스닥은 1.13퍼센트 내려 이틀 연속 이어온 사상 최고치 행진을 멈췄다. 반도체주 낙폭은 샌디스크 3.73퍼센트, SK하이닉스 ADR 3.12퍼센트, 마이크론 2.22퍼센트, 엔비디아 1.47퍼센트, 필라델피아반도체지수 1.23퍼센트 순이다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="48" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">BOND YIELD SHOCK — SEP 23</text>
+  <text x="60" y="76" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16.5" fill="#20231f">금리가 19년 최고치, 반도체가 먼저 흔들렸다</text>
+  <text x="60" y="100" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">3대 지수 낙폭 및 국채금리</text>
+
+  <line x1="60" y1="120" x2="840" y2="120" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="134" width="780" height="50" fill="#e0795b" opacity="0.16"/>
+  <text x="76" y="156" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">10년물 국채금리 5.102% — 19년 만에 최고치</text>
+  <text x="76" y="176" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">마이클 바 연준 이사 — "할 일이 남았다" · 10월 추가 금리인상 시사</text>
+
+  <text x="60" y="210" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" letter-spacing="1.5" fill="#62655d">뉴욕증시 3대 지수 (전장 대비)</text>
+
+  <text x="80" y="234" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">다우존스</text>
+  <rect x="170" y="223" width="163" height="16" fill="#e0795b" opacity="0.55"/>
+  <text x="343" y="235" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" fill="#e0795b">-0.68% · 51,511.59</text>
+
+  <text x="80" y="260" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">S&amp;P500</text>
+  <rect x="170" y="249" width="180" height="16" fill="#e0795b" opacity="0.65"/>
+  <text x="360" y="261" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" fill="#e0795b">-0.75% · 7,706.03</text>
+
+  <text x="80" y="286" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">나스닥</text>
+  <rect x="170" y="275" width="271" height="16" fill="#e0795b" opacity="0.8"/>
+  <text x="451" y="287" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" fill="#e0795b">-1.13% · 26,936.04 (최고치 행진 종료)</text>
+
+  <line x1="60" y1="308" x2="840" y2="308" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="330" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" letter-spacing="1.5" fill="#62655d">반도체 종목별 낙폭</text>
+
+  <text x="80" y="352" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#20231f">필라델피아반도체</text>
+  <rect x="220" y="342" width="181.4" height="14" fill="#16756a" opacity="0.4"/>
+  <text x="410" y="353" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#16756a">-1.23%</text>
+
+  <text x="80" y="376" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#20231f">엔비디아</text>
+  <rect x="220" y="366" width="216.8" height="14" fill="#16756a" opacity="0.5"/>
+  <text x="445" y="377" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#16756a">-1.47%</text>
+
+  <text x="80" y="400" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#20231f">마이크론</text>
+  <rect x="220" y="390" width="327.3" height="14" fill="#16756a" opacity="0.6"/>
+  <text x="555" y="401" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#16756a">-2.22%</text>
+
+  <text x="80" y="424" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#20231f">SK하이닉스 ADR</text>
+  <rect x="220" y="414" width="460.1" height="14" fill="#16756a" opacity="0.7"/>
+  <text x="688" y="425" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#16756a">-3.12%</text>
+
+  <text x="80" y="448" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#20231f">샌디스크</text>
+  <rect x="220" y="438" width="550" height="14" fill="#16756a" opacity="0.85"/>
+  <text x="778" y="449" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#16756a">-3.73%</text>
+
+  <line x1="60" y1="470" x2="840" y2="470" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="492" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">막대 길이는 하락률(%)에 비례</text>
+  <text x="60" y="508" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">도표는 파이낸셜뉴스·글로벌이코노믹 보도로 직접 작성</text>
+</svg>
