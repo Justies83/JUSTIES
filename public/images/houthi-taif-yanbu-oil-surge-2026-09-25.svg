@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="후티의 타이프·얀부 공격과 시장 반응 도표. 타이프는 예멘 국경에서 500킬로미터, 얀부는 900킬로미터 넘게 떨어져 있다. 브렌트유는 4.82퍼센트 급등한 배럴당 108.05달러를 기록했다. 유럽 주요 증시가 일제히 하락했고, 미국 10년물 국채금리는 장중 5.15퍼센트로 2007년 7월 이후 최고, 30년물은 5.446퍼센트로 2004년 이후 최고 수준을 기록했다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="48" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">HOUTHI STRIKE — SEP 24</text>
+  <text x="60" y="76" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16.5" fill="#20231f">국경에서 900㎞, 사거리가 늘어난 표적</text>
+  <text x="60" y="100" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">예멘 국경에서 표적까지의 거리</text>
+
+  <line x1="60" y1="120" x2="840" y2="120" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="80" y="150" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">타이프 (전략 군사거점)</text>
+  <rect x="240" y="158" width="326" height="18" fill="#e0795b" opacity="0.55"/>
+  <text x="576" y="171" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#e0795b">500㎞+</text>
+
+  <text x="80" y="196" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">얀부 (핵심 원유 수출항)</text>
+  <rect x="240" y="204" width="600" height="18" fill="#e0795b" opacity="0.75"/>
+  <text x="850" y="217" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#e0795b">900㎞+</text>
+
+  <text x="60" y="248" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">탄도미사일 6발 발사 · 사우디 전량 요격 · NYT "미사일 전력·군사적 야심 확대" 평가</text>
+
+  <line x1="60" y1="268" x2="840" y2="268" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="292" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" letter-spacing="1.5" fill="#62655d">시장 반응 (공격 소식 직후)</text>
+
+  <rect x="60" y="304" width="780" height="46" fill="#e0795b" opacity="0.16"/>
+  <text x="76" y="326" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">브렌트유 — 4.82% 급등, 배럴당 108.05달러</text>
+  <text x="76" y="344" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#62655d">전날 호르무즈 기대로 99.25달러까지 밀렸던 흐름을 하루 만에 뒤집음</text>
+
+  <rect x="60" y="358" width="780" height="46" fill="#62655d" opacity="0.12"/>
+  <text x="76" y="380" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">유럽 증시 — 스톡스600 -0.55%, DAX -0.57%, CAC40 -0.52%, FTSE-MIB -0.85%</text>
+  <text x="76" y="398" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#62655d">주요 지수 일제히 하락</text>
+
+  <rect x="60" y="412" width="780" height="46" fill="#e0795b" opacity="0.16"/>
+  <text x="76" y="434" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">美 국채금리 — 10년물 장중 5.15%(2007.7 이후 최고), 30년물 5.446%(2004 이후 최고)</text>
+  <text x="76" y="452" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#62655d">전날 10년물 5.102%(19년 최고치)를 하루 만에 재경신</text>
+
+  <line x1="60" y1="474" x2="840" y2="474" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="496" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">거리 막대는 예멘 국경 기준 거리(㎞)에 비례 · 도표는 뉴스핌 보도로 직접 작성</text>
+</svg>
