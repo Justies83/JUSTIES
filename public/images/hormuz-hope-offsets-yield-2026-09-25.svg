@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="9월 24일 뉴욕증시 도표. 다우존스는 0.31퍼센트 내려 사흘 연속 하락했지만 S&amp;P500은 보합, 나스닥은 0.01퍼센트 올라 플러스로 마감했다. 30년물 국채금리는 2004년 6월 이후 최고 수준까지 올랐지만, 미국과 이란의 호르무즈해협 재개방 포함 단계적 종전 논의 소식에 지수가 장중 낙폭을 만회했다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">MARKET TUG-OF-WAR — SEP 24</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">금리는 눌렀고, 중동發 훈풍이 받쳤다</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">전장 대비 등락 — 중앙선 기준 좌우로 표시</text>
+
+  <line x1="60" y1="132" x2="840" y2="132" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="156" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">누르는 힘 — 국채금리</text>
+  <rect x="60" y="168" width="780" height="46" fill="#e0795b" opacity="0.15"/>
+  <text x="76" y="192" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">30년물 국채금리 — 2004년 6월 이후 최고 수준</text>
+  <text x="76" y="210" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">전날엔 10년물 5.102%가 19년 최고치를 찍으며 나스닥 최고치 행진을 끊었음</text>
+
+  <text x="60" y="242" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#16756a">받치는 힘 — 미·이란 종전 논의</text>
+  <rect x="60" y="254" width="780" height="46" fill="#16756a" opacity="0.14"/>
+  <text x="76" y="278" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">호르무즈해협 재개방 포함 단계적 종전 논의 소식</text>
+  <text x="76" y="296" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">지수가 장중 낙폭을 대부분 만회하는 계기로 작용</text>
+
+  <line x1="60" y1="320" x2="840" y2="320" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="344" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">결과 — 3대 지수 (전장 대비)</text>
+
+  <line x1="450" y1="356" x2="450" y2="452" stroke="rgba(32,35,31,.25)"/>
+
+  <text x="130" y="378" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">다우존스</text>
+  <rect x="410" y="366" width="40" height="18" fill="#e0795b" opacity="0.7"/>
+  <text x="460" y="379" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#e0795b">-0.31% · 51,349.98 (3일 연속 하락)</text>
+
+  <text x="130" y="408" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">S&amp;P500</text>
+  <text x="460" y="409" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">-0.02% · 7,704.13 (보합)</text>
+
+  <text x="130" y="438" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">나스닥</text>
+  <text x="460" y="439" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#16756a">+0.01% · 26,939.37 (플러스 전환, 사실상 보합)</text>
+
+  <line x1="60" y1="470" x2="840" y2="470" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="494" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" fill="#62655d">막대 길이는 등락률(%)에 비례 · 중앙선 기준 왼쪽 하락(주황)·오른쪽 상승(청록)</text>
+  <text x="60" y="510" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" fill="#62655d">도표는 파이낸셜뉴스·글로벌이코노믹 보도로 직접 작성</text>
+</svg>
