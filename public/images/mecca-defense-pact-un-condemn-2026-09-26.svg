@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="국제사회 대응 도표. 8월 7일 사우디·튀르키예·파키스탄이 메카 공동방위조약을 체결했다. 9월 24일 세 나라 외교장관이 유엔총회에서 회동해 후티 공격을 규탄하는 공동성명을 냈다. 9월 25일에는 유엔 안전보장이사회도 이례적으로 한목소리로 후티를 규탄하는 성명을 냈다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">INTERNATIONAL RESPONSE — SEP 24-25</text>
+  <text x="60" y="82" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">표적이 넓어지자, 대응의 격도 높아졌다</text>
+  <text x="60" y="108" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#62655d">후티 공격 확대와 국제사회 대응 — 시간 축</text>
+
+  <line x1="60" y1="132" x2="840" y2="132" stroke="rgba(32,35,31,.12)"/>
+
+  <line x1="90" y1="230" x2="810" y2="230" stroke="rgba(32,35,31,.3)" stroke-width="2" marker-end="url(#arrowm)"/>
+  <defs>
+    <marker id="arrowm" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="rgba(32,35,31,.3)"/>
+    </marker>
+  </defs>
+
+  <circle cx="150" cy="230" r="5" fill="#62655d"/>
+  <text x="150" y="204" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#20231f">8.7</text>
+  <text x="150" y="256" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">사우디·튀르키예·파키스탄</text>
+  <text x="150" y="274" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">메카 공동방위조약 체결</text>
+
+  <circle cx="470" cy="230" r="7" fill="#e0795b"/>
+  <text x="470" y="204" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#e0795b">9.24</text>
+  <text x="470" y="256" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#e0795b">3국 외교장관 유엔총회서 회동</text>
+  <text x="470" y="274" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#e0795b">조약 첫 실질 가동 — 공동성명 발표</text>
+
+  <circle cx="750" cy="230" r="7" fill="#16756a"/>
+  <text x="750" y="204" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#16756a">9.25</text>
+  <text x="750" y="256" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#16756a">유엔 안보리(의장국 프랑스)</text>
+  <text x="750" y="274" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#16756a">이례적 만장일치 규탄 성명</text>
+
+  <line x1="60" y1="300" x2="840" y2="300" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="324" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">메카 공동방위조약 — 핵심 조항</text>
+  <rect x="60" y="336" width="780" height="46" fill="#e0795b" opacity="0.15"/>
+  <text x="76" y="358" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">한 회원국에 대한 무력 공격 = 3국 전체에 대한 공격 (나토식 집단방위)</text>
+  <text x="76" y="376" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">군 수뇌부 긴급회의 예정 — 방공망 보강 자산 배치·정찰 정보 공유 논의</text>
+
+  <text x="60" y="404" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">유엔 안보리 성명 — 핵심 문구</text>
+  <rect x="60" y="416" width="780" height="46" fill="#16756a" opacity="0.13"/>
+  <text x="76" y="440" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">"여성과 아동을 비롯한 민간인 피해 유발, 민간 인프라·핵심 에너지 시설 타격"</text>
+  <text x="76" y="458" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">규탄에 그침 — 제재·개입은 명시되지 않음</text>
+
+  <text x="60" y="490" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">표적 확대 — 리야드 → 얀부 → 메카 인근 · 도표는 머니투데이·파이낸셜뉴스 보도로 직접 작성</text>
+</svg>
