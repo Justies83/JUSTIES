@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="트럼프-시진핑 회담 실제 거래 도표. 중국은 미국산 대두 2500만톤을 구매하고, 미국은 희토류를 안정 공급받는다. 무역휴전은 중국이 요청한 2년이 아니라 미국 중간선거를 이유로 2개월만 연장됐다. 대만 이란 AI 안보 쟁점은 11월 APEC과 12월 G20으로 미뤄졌다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="48" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">TRUMP-XI SUMMIT — WHAT WAS TRADED</text>
+  <text x="60" y="76" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16.5" fill="#20231f">대두와 희토류를 맞바꾸고, 무거운 의제는 미뤘다</text>
+  <text x="60" y="100" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">회담에서 실제로 오간 것</text>
+
+  <line x1="60" y1="120" x2="840" y2="120" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="140" width="360" height="94" fill="#e0795b" opacity="0.15"/>
+  <text x="76" y="164" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">중국이 주는 것</text>
+  <text x="76" y="188" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#62655d">미국산 대두 2,500만톤 구매</text>
+  <text x="76" y="208" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#62655d">추가 농산물 170억달러는 이행 지연</text>
+
+  <rect x="480" y="140" width="360" height="94" fill="#16756a" opacity="0.14"/>
+  <text x="496" y="164" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">미국이 받는 것</text>
+  <text x="496" y="188" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#62655d">희토류 차질 없는 공급</text>
+  <text x="496" y="208" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#62655d">반도체·배터리 등 제조업 핵심 원료</text>
+
+  <line x1="60" y1="252" x2="840" y2="252" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="276" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">무역휴전 — 왜 2개월뿐인가</text>
+
+  <text x="80" y="302" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">중국이 요청한 기간</text>
+  <rect x="260" y="290" width="500" height="18" fill="#62655d" opacity="0.2"/>
+  <text x="770" y="303" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">2년</text>
+
+  <text x="80" y="332" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">실제 합의된 기간</text>
+  <rect x="260" y="320" width="42" height="18" fill="#e0795b" opacity="0.7"/>
+  <text x="312" y="333" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#e0795b">2개월 (~2027.1.10) — 美 중간선거 일정 이유</text>
+
+  <line x1="60" y1="358" x2="840" y2="358" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="382" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">뒤로 미뤄진 안보 쟁점</text>
+  <rect x="60" y="394" width="780" height="46" fill="#62655d" opacity="0.12"/>
+  <text x="76" y="418" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">대만 · 이란 · AI — 접점 못 찾아 11월 APEC·12월 G20로 이월</text>
+  <text x="76" y="436" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#62655d">USTR 그리어 대표, 9.28(월) 협상 성과 세부 내용 발표 예고</text>
+
+  <text x="60" y="480" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">도표는 한국일보·글로벌이코노믹 보도로 직접 작성</text>
+</svg>
