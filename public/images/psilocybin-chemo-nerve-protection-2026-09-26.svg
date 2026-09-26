@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="실로시빈 항암 신경보호 연구 도표. 시스플라틴 등 항암제가 미토콘드리아 이동을 줄여 신경 말단 에너지 공급을 막는데, 실로시빈이 세로토닌 2A 수용체를 통해 이 미토콘드리아 이동을 보존한다. 환각 효과 없는 화합물로도 같은 보호 효과가 나타났다. 동물 모델 연구이며 2상 임상시험 뉴로가드가 예정돼 있다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="48" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">MD ANDERSON — SCIENCE, SEP 3</text>
+  <text x="60" y="76" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16.5" fill="#20231f">신경은 지키고, 항암 효과는 그대로</text>
+  <text x="60" y="100" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">실로시빈의 항암제 유발 말초신경병증 예방 기전 (동물 모델)</text>
+
+  <line x1="60" y1="120" x2="840" y2="120" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="140" width="360" height="90" fill="#e0795b" opacity="0.15"/>
+  <text x="76" y="164" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">항암제만 투여</text>
+  <text x="76" y="188" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">시스플라틴·파클리탁셀·도세탁셀이</text>
+  <text x="76" y="206" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">미토콘드리아 이동 저하 → 신경 말단</text>
+  <text x="76" y="222" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">에너지 부족 → 냉각 과민·촉각 상실</text>
+
+  <rect x="480" y="140" width="360" height="90" fill="#16756a" opacity="0.14"/>
+  <text x="496" y="164" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">실로시빈 사전 2회 투여</text>
+  <text x="496" y="188" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">세로토닌 2A 수용체 자극 →</text>
+  <text x="496" y="206" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">미토콘드리아 이동 보존 → 신경 보호</text>
+  <text x="496" y="222" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#16756a">항암 효과는 그대로 유지</text>
+
+  <line x1="60" y1="252" x2="840" y2="252" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="276" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">가장 눈에 띄는 발견</text>
+  <rect x="60" y="288" width="780" height="52" fill="#16756a" opacity="0.13"/>
+  <text x="76" y="312" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">환각 효과는 필요 없었다 — 같은 수용체만 자극하는</text>
+  <text x="76" y="332" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">비환각성 화합물로도 동일한 신경 보호 효과 확인</text>
+
+  <line x1="60" y1="360" x2="840" y2="360" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="384" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">단계 — 동물 모델에서 사람으로</text>
+
+  <circle cx="200" cy="420" r="7" fill="#16756a"/>
+  <text x="220" y="425" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">현재 — 동물 모델 연구, 사이언스 게재(9.3)</text>
+
+  <circle cx="200" cy="450" r="7" fill="#e0795b" fill-opacity="0.5" stroke="#e0795b" stroke-width="2"/>
+  <text x="220" y="455" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">다음 — 2상 임상시험 "뉴로가드"(NCT07227909), 여러 암종 환자 대상</text>
+
+  <text x="60" y="490" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">사람 대상 검증은 아직 이뤄지지 않음 · 도표는 MD앤더슨 암센터 보도자료로 직접 작성</text>
+</svg>
