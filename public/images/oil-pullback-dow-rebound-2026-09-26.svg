@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="9월 25일 시장 도표. 브렌트유가 전날 108.05달러에서 2.8퍼센트 내린 97.44달러로 마감했다. 다우존스는 0.9퍼센트 올라 사흘 연속 하락을 끊었다. 10년물 국채금리는 장중 5.22퍼센트로 새 고점을 찍은 뒤 5.15퍼센트로 마감했다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="48" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">OIL SWING — SEP 25</text>
+  <text x="60" y="76" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16.5" fill="#20231f">유가가 내리자, 다우가 사흘 만에 반등했다</text>
+  <text x="60" y="100" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">브렌트유 배럴당 가격 — 하루 만의 되돌림</text>
+
+  <line x1="60" y1="120" x2="840" y2="120" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="80" y="146" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">9.24 (후티 공격)</text>
+  <rect x="240" y="134" width="540" height="18" fill="#e0795b" opacity="0.7"/>
+  <text x="790" y="147" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#e0795b">108.05달러</text>
+
+  <text x="80" y="180" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">9.25 (호르무즈 기대)</text>
+  <rect x="240" y="168" width="487" height="18" fill="#16756a" opacity="0.6"/>
+  <text x="737" y="181" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#16756a">97.44달러 (-2.8%)</text>
+
+  <line x1="60" y1="206" x2="840" y2="206" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="230" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" letter-spacing="1.5" fill="#62655d">9.25 뉴욕증시 — 사흘 만의 반등</text>
+
+  <rect x="60" y="242" width="780" height="80" fill="#16756a" opacity="0.13"/>
+  <text x="76" y="266" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">다우존스 +0.9% · 51,828.62 (3일 연속 하락 종료)</text>
+  <text x="76" y="288" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">S&amp;P500 +0.5% · 7,743.41</text>
+  <text x="76" y="310" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">나스닥 +0.5% · 27,068.72</text>
+
+  <line x1="60" y1="338" x2="840" y2="338" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="362" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" letter-spacing="1.5" fill="#62655d">10년물 국채금리 — 장중 고점과 마감치</text>
+
+  <circle cx="200" cy="400" r="6" fill="#e0795b"/>
+  <text x="220" y="405" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">장중 고점 5.22% — 소비자심리지수 발표 직후, 새 고점</text>
+
+  <circle cx="200" cy="430" r="6" fill="#16756a"/>
+  <text x="220" y="435" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">마감 5.15% — 유가 진정되며 되돌아옴 (전날 장중 고점과 동일)</text>
+
+  <text x="60" y="470" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">이란 전쟁 시작 시점 3.97%에서 계속 상승 중</text>
+  <text x="60" y="490" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">도표는 CP24·신랑재경 보도로 직접 작성</text>
+</svg>
