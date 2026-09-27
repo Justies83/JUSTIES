@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="중국 오픈소스 AI 모델 점유율 도표. 오픈라우터 플랫폼에서 중국산 모델의 글로벌 점유율이 1년 전 15% 미만에서 9월 셋째주 54% 이상으로 늘었다. 에어비앤비 도어대시 쇼피파이가 비용 절감을 위해 도입했다. 한국 메모리 반도체는 HBM 수요가 범용 서버 D램으로 다변화할 가능성을 주시하고 있다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="48" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">CNN — OPENROUTER DATA, SEP 26</text>
+  <text x="60" y="76" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16.5" fill="#20231f">1년 만에 15%에서 54%로 — 중국 오픈소스 AI의 부상</text>
+  <text x="60" y="100" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">오픈라우터 플랫폼 내 중국산 모델 사용 비중</text>
+
+  <line x1="60" y1="120" x2="840" y2="120" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="80" y="164" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">1년 전</text>
+  <rect x="260" y="152" width="131" height="20" fill="#62655d" opacity="0.25"/>
+  <text x="401" y="167" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">15% 미만</text>
+
+  <text x="80" y="204" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">9월 셋째 주</text>
+  <rect x="260" y="192" width="504" height="20" fill="#e0795b" opacity="0.75"/>
+  <text x="774" y="207" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#e0795b">54%+</text>
+
+  <text x="80" y="238" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#62655d">딥시크·문샷AI(키미) 주도 — 수치는 집계 시점에 따라 편차 있음</text>
+
+  <line x1="60" y1="262" x2="840" y2="262" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="286" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">왜 옮기나 — 후퉁 리서치 추청 펑</text>
+  <rect x="60" y="298" width="780" height="52" fill="#16756a" opacity="0.13"/>
+  <text x="76" y="322" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">"비용 10배지만 6개월 앞선 모델 vs 비용 10분의 1이지만 6개월 뒤처진 모델"</text>
+  <text x="76" y="342" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">에어비앤비 · 도어대시 · 쇼피파이 — 비용 절감 위해 일부 시스템에 도입</text>
+
+  <line x1="60" y1="370" x2="840" y2="370" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="394" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">한국 메모리 반도체로 번지는 파장</text>
+  <rect x="60" y="406" width="780" height="70" fill="#e0795b" opacity="0.13"/>
+  <text x="76" y="430" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">삼성전자·SK하이닉스 — 현재는 초고가 HBM 공급에 집중</text>
+  <text x="76" y="450" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">개방형 모델 확산 → 수요가 범용 고성능 서버 D램으로 다변화할 가능성 주시</text>
+  <text x="76" y="468" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">단기 속도는 미 상무부의 대중 AI 규제 수위에 좌우될 수 있음</text>
+
+  <text x="60" y="500" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">시진핑 세계AI협력기구 29개국 참여 · 도표는 CNN·글로벌이코노믹 보도로 직접 작성</text>
+</svg>
