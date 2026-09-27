@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="추석 연휴 전후 코스피 코스닥 도표. 9월 23일 코스피는 0.90% 오른 7080.92, 코스닥은 1.21% 오른 844.48로 마감했고 삼성전자는 3.25%, SK하이닉스는 1.20% 올랐다. 연휴 동안 뉴욕증시는 세 차례 열렸고 25일 다우존스는 0.9% 올랐다. 28일 코스피 7080선 안착과 코스닥 850선 돌파 여부가 관전 포인트다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="48" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">KOSPI REOPENS — SEP 28, AFTER CHUSEOK</text>
+  <text x="60" y="76" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16.5" fill="#20231f">나흘 쉬고 다시 여는 코스피 — 반도체 랠리, 이어질까요</text>
+  <text x="60" y="100" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">9월 23일(연휴 전 마지막 거래일) 마감 등락률</text>
+
+  <line x1="60" y1="120" x2="840" y2="120" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="80" y="156" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">코스피</text>
+  <rect x="220" y="144" width="83" height="18" fill="#62655d" opacity="0.25"/>
+  <text x="311" y="158" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">+0.90% (7,080.92)</text>
+
+  <text x="80" y="188" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">코스닥</text>
+  <rect x="220" y="176" width="112" height="18" fill="#62655d" opacity="0.35"/>
+  <text x="340" y="190" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">+1.21% (844.48)</text>
+
+  <text x="80" y="220" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">삼성전자</text>
+  <rect x="220" y="208" width="300" height="18" fill="#e0795b" opacity="0.75"/>
+  <text x="528" y="222" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#e0795b">+3.25% (28만5,500원)</text>
+
+  <text x="80" y="252" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">SK하이닉스</text>
+  <rect x="220" y="240" width="111" height="18" fill="#16756a" opacity="0.6"/>
+  <text x="339" y="254" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#16756a">+1.20% (186만2,000원)</text>
+
+  <line x1="60" y1="280" x2="840" y2="280" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="304" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">연휴 중 뉴욕증시 — 세 차례 열림 (9.23·24·25 현지시간)</text>
+  <rect x="60" y="316" width="780" height="52" fill="#16756a" opacity="0.1"/>
+  <text x="76" y="340" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">가장 최근(9.25) — 다우 +0.9%(51,828.62), 브렌트유 -2.8%(97.44달러)</text>
+  <text x="76" y="358" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">10년물 국채금리 장중 5.22% 고점 → 5.15%로 되돌림</text>
+
+  <line x1="60" y1="388" x2="840" y2="388" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="412" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">28일 관전 포인트</text>
+  <rect x="60" y="424" width="780" height="70" fill="#e0795b" opacity="0.13"/>
+  <text x="76" y="448" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">코스피 7,080선 안착 · 코스닥 850선 돌파 여부</text>
+  <text x="76" y="468" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">반도체 장비주(주성엔지니어링·원익IPS·이오테크닉스) 동반 강세 여부</text>
+  <text x="76" y="486" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">USTR 그리어 미중 무역협상 세부 발표(현지시간 28일)도 장중 변수</text>
+
+  <text x="60" y="508" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">개장 전 예측 — 실제 반응과 다를 수 있음 · 도표는 서울신문·CBC뉴스 보도로 직접 작성</text>
+</svg>
