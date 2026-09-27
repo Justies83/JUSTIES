@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="대미투자 발표 지연 도표. 9월 22일 국회 보고로 텍사스 엔시날 사업이 대미투자 1호로 확정됐지만, 9월 27일 현재까지 닷새째 공식 발표가 없다. 미국 대통령이 투자위원회 추천을 재가하는 마지막 절차가 남아 있고, 정부는 9월 중 발표와 22억달러 첫 송금을 예상한다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="48" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">KOREA-US INVESTMENT — DAY 5 OF DELAY</text>
+  <text x="60" y="76" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16.5" fill="#20231f">국회 보고는 끝났는데, 발표는 닷새째 감감합니다</text>
+  <text x="60" y="100" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">엔시날 1호 사업 확정 이후 남은 절차</text>
+
+  <line x1="60" y1="120" x2="840" y2="120" stroke="rgba(32,35,31,.12)"/>
+
+  <line x1="90" y1="210" x2="810" y2="210" stroke="rgba(32,35,31,.3)" stroke-width="2" marker-end="url(#arrowk)"/>
+  <defs>
+    <marker id="arrowk" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="rgba(32,35,31,.3)"/>
+    </marker>
+  </defs>
+
+  <circle cx="150" cy="210" r="6" fill="#62655d"/>
+  <text x="150" y="184" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#20231f">9.22</text>
+  <text x="150" y="236" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">국회 비공개 보고</text>
+  <text x="150" y="254" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">엔시날, 1호 사업으로 확정</text>
+
+  <circle cx="470" cy="210" r="7" fill="#e0795b"/>
+  <text x="470" y="184" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#e0795b">9.27</text>
+  <text x="470" y="236" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#e0795b">오늘 — 발표 닷새째 지연</text>
+  <text x="470" y="254" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#e0795b">"미국 측 내부 절차 진행 중"</text>
+
+  <circle cx="750" cy="210" r="7" fill="#16756a" fill-opacity="0.5" stroke="#16756a" stroke-width="2"/>
+  <text x="750" y="184" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#16756a">9월 중(전망)</text>
+  <text x="750" y="236" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#16756a">공식 발표 + 22억달러 첫 송금</text>
+
+  <line x1="60" y1="284" x2="840" y2="284" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="308" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">남은 절차 — MOU상 최종 선정 구조</text>
+
+  <rect x="60" y="320" width="360" height="70" fill="#62655d" opacity="0.13"/>
+  <text x="76" y="344" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">미 투자위원회 (상무장관 위원장)</text>
+  <text x="76" y="364" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">한국 산업부 장관과 협의해 사업 추천</text>
+  <text x="76" y="380" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">→ 이 단계는 이미 완료</text>
+
+  <rect x="480" y="320" width="360" height="70" fill="#e0795b" opacity="0.15"/>
+  <text x="496" y="344" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">트럼프 대통령 — 최종 재가</text>
+  <text x="496" y="364" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">위원회 추천을 최종 선정하는 권한 보유</text>
+  <text x="496" y="380" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">→ 미중 정상회담 등 일정 겹쳐 지연 중</text>
+
+  <line x1="60" y1="410" x2="840" y2="410" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="434" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">사업 개요</text>
+  <text x="60" y="458" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">텍사스 엔시날 가스복합화력발전 · 6,472MW · 총사업비 223억달러</text>
+  <text x="60" y="478" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">2,000억달러 규모 대미투자 프로그램의 1호 사업 — 원전 8기·알래스카 LNG는 별도 절차</text>
+
+  <text x="60" y="504" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">도표는 파이낸셜뉴스·헤럴드경제·재경일보 보도로 직접 작성</text>
+</svg>
