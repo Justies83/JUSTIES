@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="이란 7일 로드맵과 트럼프의 거절 도표. 9월 24일 이란이 동결자산 해제, 원유제재 면제, 해상봉쇄 해제, 전선 적대행위 중단을 조건으로 7일 안에 호르무즈해협을 재개방하겠다고 제안했다. 9월 26일 트럼프는 즉각 개방을 원한다며 이를 거절했다. 9월 27일 이란은 그래도 중재자를 통한 공식 답변을 기다리고 있다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="48" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">HORMUZ — IRAN'S ROADMAP, SEP 24-27</text>
+  <text x="60" y="76" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16.5" fill="#20231f">이란의 '7일 로드맵'을 트럼프가 거절했습니다</text>
+  <text x="60" y="100" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">단계적 제안 vs 즉각 개방 요구</text>
+
+  <line x1="60" y1="120" x2="840" y2="120" stroke="rgba(32,35,31,.12)"/>
+
+  <line x1="90" y1="210" x2="810" y2="210" stroke="rgba(32,35,31,.3)" stroke-width="2" marker-end="url(#arrowi)"/>
+  <defs>
+    <marker id="arrowi" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="rgba(32,35,31,.3)"/>
+    </marker>
+  </defs>
+
+  <circle cx="150" cy="210" r="6" fill="#16756a"/>
+  <text x="150" y="184" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#16756a">9.24</text>
+  <text x="150" y="236" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">아라그치, 카타르 중개로</text>
+  <text x="150" y="254" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">'7일 로드맵' 공식 전달</text>
+
+  <circle cx="470" cy="210" r="7" fill="#e0795b"/>
+  <text x="470" y="184" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#e0795b">9.26</text>
+  <text x="470" y="236" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#e0795b">트럼프 "제안 거부했다"</text>
+  <text x="470" y="254" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#e0795b">"즉시 여는 거래 원해"</text>
+
+  <circle cx="750" cy="210" r="6" fill="#62655d"/>
+  <text x="750" y="184" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#20231f">9.27</text>
+  <text x="750" y="236" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">이란, 그래도</text>
+  <text x="750" y="254" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">"중재자 통한 답변" 대기</text>
+
+  <line x1="60" y1="280" x2="840" y2="280" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="304" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">'7일 로드맵' 이란의 4가지 조건</text>
+  <rect x="60" y="316" width="780" height="90" fill="#16756a" opacity="0.1"/>
+  <text x="76" y="340" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">1. 레바논 포함 전 전선 적대행위 중단</text>
+  <text x="76" y="362" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">2. 미국의 이란 해상봉쇄 해제</text>
+  <text x="450" y="340" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">3. 동결자산 해제 (최소 120억달러)</text>
+  <text x="450" y="362" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">4. 이란산 원유 제재 면제</text>
+  <text x="76" y="392" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">→ 네 조건 충족 후 7일째 호르무즈해협 재개방 + 핵협상 개시</text>
+
+  <line x1="60" y1="422" x2="840" y2="422" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="446" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">간극 — 왜 어긋났나</text>
+  <rect x="60" y="458" width="780" height="46" fill="#e0795b" opacity="0.13"/>
+  <text x="76" y="482" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">이란: 선 조건 충족 → 후 7일 뒤 개방 (단계적)</text>
+  <text x="76" y="498" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">미국: 조건 없는 즉각 개방 요구 — 두 접근이 애초에 맞물리지 않음</text>
+</svg>
