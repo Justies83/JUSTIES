@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="대미투자 협상 쟁점 도표. 가스발전 엔시날 사업은 미국산 기자재 비중과 위험 부담이 쟁점이다. 원전 분야는 웨스팅하우스 지분 투자 규모와 이사회 참여, 이사 지명권이 핵심이다. 한국은 15에서 20퍼센트 지분과 이사회 참여를 요구하고 미국은 의결권 없는 5에서 10퍼센트 소수 지분만 허용하려 한다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="48" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">KOREA-US INVESTMENT — DAY 6</text>
+  <text x="60" y="76" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16.5" fill="#20231f">대미투자, 왜 아직 발표 못하나 — 진짜 쟁점은 원전이었습니다</text>
+  <text x="60" y="100" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">사업 분야별로 갈리는 협상 쟁점</text>
+
+  <line x1="60" y1="120" x2="840" y2="120" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="140" width="360" height="130" fill="#62655d" opacity="0.1"/>
+  <text x="76" y="164" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">가스발전 (엔시날 — 1호 사업 확정)</text>
+  <text x="76" y="192" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">· 가스터빈 등 미국산 기자재 사용 비중</text>
+  <text x="76" y="216" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">· 한국 기업 추가 투자 방식</text>
+  <text x="76" y="240" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">· 사업 지연 시 위험 부담 배분</text>
+
+  <rect x="480" y="140" width="360" height="130" fill="#e0795b" opacity="0.15"/>
+  <text x="496" y="164" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">원전 — 더 무거운 쟁점</text>
+  <text x="496" y="192" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">· 美 정부 금융·정책 지원 수준</text>
+  <text x="496" y="216" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">· 기자재 구매·공급 구조</text>
+  <text x="496" y="240" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#e0795b">· 웨스팅하우스 지분·이사회·이사 지명권</text>
+
+  <line x1="60" y1="292" x2="840" y2="292" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="316" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">웨스팅하우스 지분 — 9일째 그대로인 대립</text>
+
+  <text x="80" y="346" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">한국 요구</text>
+  <rect x="220" y="334" width="180" height="20" fill="#16756a" opacity="0.6"/>
+  <text x="410" y="349" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#16756a">15~20% 지분 + 이사회 참여</text>
+
+  <text x="80" y="382" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">미국 제안</text>
+  <rect x="220" y="370" width="90" height="20" fill="#62655d" opacity="0.3"/>
+  <text x="320" y="385" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">5~10% (의결권 없음)</text>
+
+  <text x="80" y="412" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#62655d">9월 19일 처음 확인된 대립 구도 — 9월 28일 현재도 그대로</text>
+
+  <line x1="60" y1="440" x2="840" y2="440" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="464" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">협상의 본질</text>
+  <rect x="60" y="476" width="780" height="30" fill="#16756a" opacity="0.12"/>
+  <text x="76" y="497" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">발표 시점이 아니라 — 위험 분담·투자금 회수·경영 관여권을 정하는 문제</text>
+
+  <text x="60" y="516" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">도표는 머니투데이방송·파이낸셜뉴스 보도로 직접 작성</text>
+</svg>
