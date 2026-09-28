@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="미중 30대30 관세 인하 도표. 미국은 중국산 77개 품목 300억달러 규모의 관세를 낮추고, 중국은 미국산 1619개 품목 300억달러 규모의 관세를 낮춘다. 합쳐서 600억달러, 지정 품목의 90퍼센트가 최혜국 세율까지 내려간다. 희토류 수출통제, 반도체 AI 규제, 대만 문제는 이번 발표에서 빠졌다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="48" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">USTR ANNOUNCEMENT — SEP 28</text>
+  <text x="60" y="76" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16.5" fill="#20231f">'30대30' 관세 인하 명단이 공개됐습니다</text>
+  <text x="60" y="100" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">합계 600억달러 — 지정 품목의 90%가 MFN 세율로</text>
+
+  <line x1="60" y1="120" x2="840" y2="120" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="140" width="360" height="120" fill="#e0795b" opacity="0.15"/>
+  <text x="76" y="164" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">미국 → 중국산 77개 품목</text>
+  <text x="76" y="186" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="16" fill="#e0795b">300억달러</text>
+  <text x="76" y="212" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">폭죽·식기류·가전제품</text>
+  <text x="76" y="232" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">면도기·스포츠용품·완구류</text>
+
+  <rect x="480" y="140" width="360" height="120" fill="#16756a" opacity="0.14"/>
+  <text x="496" y="164" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">중국 → 미국산 1,619개 품목</text>
+  <text x="496" y="186" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="16" fill="#16756a">300억달러</text>
+  <text x="496" y="212" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">육류·수산물·식용유·대두·밀·옥수수</text>
+  <text x="496" y="232" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">석탄·목재·의료기기</text>
+
+  <line x1="60" y1="278" x2="840" y2="278" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="302" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">시행 방식</text>
+  <rect x="60" y="314" width="780" height="46" fill="#62655d" opacity="0.1"/>
+  <text x="76" y="338" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">양국 각자 국내 법적 절차 완료 → 관세 인하 동시 시행</text>
+  <text x="76" y="354" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#62655d">시점은 미정 — 발표만 나온 단계</text>
+
+  <line x1="60" y1="382" x2="840" y2="382" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="406" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">이번에도 빠진 것</text>
+  <rect x="60" y="418" width="780" height="60" fill="#e0795b" opacity="0.13"/>
+  <text x="76" y="442" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">희토류 수출 통제 · 반도체·AI 기술 규제 · 대만 문제</text>
+  <text x="76" y="464" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">11월 APEC · 12월 G20으로 이월 — 무역휴전은 내년 1.10까지만</text>
+
+  <text x="60" y="502" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">도표는 뉴스핌·한국경제·이데일리 보도로 직접 작성</text>
+</svg>
