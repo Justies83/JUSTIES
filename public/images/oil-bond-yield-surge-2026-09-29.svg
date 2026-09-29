@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="유가 급등과 국채금리 급등 도표. 트럼프가 이란의 호르무즈 제안을 거절하고 중간선거 이후 공습 재개를 검토한다는 보도에 브렌트유가 4.1퍼센트 올라 배럴당 108.59달러를 기록했다. 미 국채 10년물은 장중 5.22퍼센트, 30년물은 5.519퍼센트까지 올라 20년 만의 최고치를 기록했다. 다우존스 나스닥 S&amp;P500 3대 지수가 모두 하락 마감했다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="48" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">SEP 28 — OIL AND YIELDS SPIKE</text>
+  <text x="60" y="76" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16.5" fill="#20231f">이란 거부에 유가 4% 뛰고, 금리 20년 만에 최고</text>
+  <text x="60" y="100" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">뉴욕 3대 지수 모두 하락 마감</text>
+
+  <line x1="60" y1="120" x2="840" y2="120" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="140" width="360" height="94" fill="#e0795b" opacity="0.15"/>
+  <text x="76" y="164" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">브렌트유(11월물)</text>
+  <text x="76" y="190" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="18" fill="#e0795b">+4.1% → 108.59달러</text>
+  <text x="76" y="212" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#62655d">9월 15일 이후 최고 — WSJ "중간선거 후 대이란 공습 재개 검토"</text>
+
+  <rect x="480" y="140" width="360" height="94" fill="#16756a" opacity="0.14"/>
+  <text x="496" y="164" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">미 국채금리</text>
+  <text x="496" y="190" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="18" fill="#16756a">10년 5.22% · 30년 5.519%</text>
+  <text x="496" y="212" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#62655d">약 20년 만 최고 — 연휴 중 국채입찰 부진 수요</text>
+
+  <line x1="60" y1="254" x2="840" y2="254" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="278" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">뉴욕증시 3대 지수 하락률</text>
+
+  <text x="80" y="312" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">다우존스</text>
+  <rect x="220" y="300" width="201" height="20" fill="#62655d" opacity="0.3"/>
+  <text x="431" y="314" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">-0.67% (51,481.51)</text>
+
+  <text x="80" y="344" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">S&amp;P500</text>
+  <rect x="220" y="332" width="231" height="20" fill="#62655d" opacity="0.4"/>
+  <text x="461" y="346" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">-0.77% (7,683.69)</text>
+
+  <text x="80" y="376" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">나스닥</text>
+  <rect x="220" y="364" width="276" height="20" fill="#e0795b" opacity="0.6"/>
+  <text x="506" y="378" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#e0795b">-0.92% (26,820.38)</text>
+
+  <line x1="60" y1="408" x2="840" y2="408" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="432" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">국내로 번지는 여파</text>
+  <rect x="60" y="444" width="780" height="52" fill="#62655d" opacity="0.1"/>
+  <text x="76" y="468" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">국내 국고채 3년물 금리도 4.1% 돌파</text>
+  <text x="76" y="486" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">유가 상승은 정유주엔 우호적 신호일 수 있어 종목별 반응 엇갈릴 가능성</text>
+
+  <text x="60" y="512" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">도표는 아시아경제·머니투데이·뉴스핌 보도로 직접 작성</text>
+</svg>
