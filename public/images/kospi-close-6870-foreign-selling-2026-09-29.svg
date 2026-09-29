@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="9월 29일 코스피 코스닥 마감 도표. 코스피는 0.27퍼센트 내린 6870.81로, 코스닥은 0.38퍼센트 오른 849.80으로 마감했다. 외국인이 3조801억원 순매도, 기관이 598억원 순매도했지만 개인이 1조5013억원 순매수하며 낙폭을 방어했다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="48" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">SEP 29 CLOSE — KOSPI vs KOSDAQ</text>
+  <text x="60" y="76" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16.5" fill="#20231f">예측대로 흔들렸지만, 코스닥은 버텼습니다</text>
+  <text x="60" y="100" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">코스피 6870선 후퇴 — 투자자별 매매 동향</text>
+
+  <line x1="60" y1="120" x2="840" y2="120" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="140" width="360" height="94" fill="#e0795b" opacity="0.15"/>
+  <text x="76" y="164" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">코스피</text>
+  <text x="76" y="192" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="18" fill="#e0795b">-0.27% → 6,870.81</text>
+  <text x="76" y="214" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#62655d">전 거래일 대비 18.93포인트 하락</text>
+
+  <rect x="480" y="140" width="360" height="94" fill="#16756a" opacity="0.14"/>
+  <text x="496" y="164" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">코스닥</text>
+  <text x="496" y="192" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="18" fill="#16756a">+0.38% → 849.80</text>
+  <text x="496" y="214" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#62655d">코스피와 반대 방향 — 매도 압력이 대형주에 집중됐다는 뜻</text>
+
+  <line x1="60" y1="254" x2="840" y2="254" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="278" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">투자자별 순매매 (코스피)</text>
+
+  <text x="80" y="312" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">외국인</text>
+  <rect x="220" y="300" width="298" height="20" fill="#e0795b" opacity="0.7"/>
+  <text x="528" y="314" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#e0795b">-3조801억원</text>
+
+  <text x="80" y="344" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">기관</text>
+  <rect x="220" y="332" width="6" height="20" fill="#62655d" opacity="0.4"/>
+  <text x="236" y="346" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">-598억원</text>
+
+  <text x="80" y="376" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">개인</text>
+  <rect x="220" y="364" width="145" height="20" fill="#16756a" opacity="0.6"/>
+  <text x="375" y="378" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#16756a">+1조5,013억원</text>
+
+  <text x="80" y="404" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#62655d">외국인 매도 3조원대를 개인이 절반 가까이 받아 낸 하루</text>
+
+  <line x1="60" y1="430" x2="840" y2="430" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="454" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">겹친 요인</text>
+  <rect x="60" y="466" width="780" height="40" fill="#62655d" opacity="0.1"/>
+  <text x="76" y="490" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">배당락 여파 남은 반도체 대형주 + 오픈AI 학습 중단 여파 겹침</text>
+
+  <text x="60" y="512" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">도표는 뉴스핌·비즈니스코리아·위키트리 보도로 직접 작성</text>
+</svg>
