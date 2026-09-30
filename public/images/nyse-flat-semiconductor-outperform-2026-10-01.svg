@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="9월 29일 뉴욕증시 도표. 다우 S&amp;P500 나스닥 3대 지수는 0.3퍼센트 안쪽 약세로 마감했지만 반도체 관련주는 강세를 보였다. ASML 3.56퍼센트, 램리서치 2.99퍼센트, SK하이닉스 ADR 2.62퍼센트, 필라델피아반도체지수 1.32퍼센트 올랐다. 반면 엔비디아는 0.72퍼센트 내렸다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="48" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">SEP 29 CLOSE — SEMIS DIVERGE</text>
+  <text x="60" y="76" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16.5" fill="#20231f">지수는 약보합, 반도체는 나 홀로 강세</text>
+  <text x="60" y="100" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">3대 지수 vs 반도체 관련주 등락률</text>
+
+  <line x1="60" y1="120" x2="840" y2="120" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="140" width="780" height="70" fill="#62655d" opacity="0.1"/>
+  <text x="76" y="164" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">다우 -0.26%(51,349.92) · S&amp;P500 -0.17%(7,670.84) · 나스닥 -0.09%(26,797.54)</text>
+  <text x="76" y="186" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">국채금리·유가 부담에 이틀째 약보합 — 등락률 모두 0.3% 안쪽</text>
+
+  <line x1="60" y1="228" x2="840" y2="228" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="252" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">반도체 관련 등락률</text>
+
+  <text x="80" y="286" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">ASML</text>
+  <rect x="220" y="274" width="249" height="20" fill="#16756a" opacity="0.7"/>
+  <text x="479" y="288" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#16756a">+3.56%</text>
+
+  <text x="80" y="318" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">램리서치</text>
+  <rect x="220" y="306" width="209" height="20" fill="#16756a" opacity="0.55"/>
+  <text x="439" y="320" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#16756a">+2.99%</text>
+
+  <text x="80" y="350" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">SK하이닉스 ADR</text>
+  <rect x="220" y="338" width="183" height="20" fill="#e0795b" opacity="0.7"/>
+  <text x="413" y="352" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#e0795b">+2.62%</text>
+
+  <text x="80" y="382" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">필라델피아반도체</text>
+  <rect x="220" y="370" width="92" height="20" fill="#62655d" opacity="0.4"/>
+  <text x="322" y="384" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">+1.32%</text>
+
+  <text x="80" y="414" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">반면 엔비디아 -0.72% · 애플 -2.66% · 테슬라 -1.29%</text>
+
+  <line x1="60" y1="440" x2="840" y2="440" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="464" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">겹쳐 보는 맥락</text>
+  <rect x="60" y="476" width="780" height="30" fill="#16756a" opacity="0.1"/>
+  <text x="76" y="497" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">오픈AI 학습 중단발 반도체 급락 직후 — 메모리·장비주 중심으로 반등</text>
+</svg>
