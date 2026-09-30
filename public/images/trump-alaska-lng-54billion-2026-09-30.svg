@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="트럼프의 알래스카 LNG 투자 발표 도표. 트럼프 대통령이 9월 30일 백악관에서 한국의 2000억달러 대미투자를 발표하는데 여기에 540억달러 알래스카 LNG 사업이 포함될 것으로 보도됐다. 그런데 한국 정부는 이 사업을 아직 추후 협의 과제로 분류하고 있어 발표 내용과 한국 측 합의 범위 사이에 간극이 있을 수 있다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="48" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">KOREA-US INVESTMENT — SEP 30</text>
+  <text x="60" y="76" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16.5" fill="#20231f">트럼프가 오늘 발표합니다 — 그런데 한국은 '추후 협의'</text>
+  <text x="60" y="100" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">알래스카 LNG 540억달러를 둘러싼 간극</text>
+
+  <line x1="60" y1="120" x2="840" y2="120" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="144" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">한국이 그동안 분류해 온 방식 (9.22 국회 보고)</text>
+  <rect x="60" y="156" width="360" height="70" fill="#16756a" opacity="0.14"/>
+  <text x="76" y="180" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">1호 사업 — 확정</text>
+  <text x="76" y="202" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#62655d">텍사스 엔시날 가스발전소 (223억달러)</text>
+
+  <rect x="480" y="156" width="360" height="70" fill="#62655d" opacity="0.13"/>
+  <text x="496" y="180" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">"추후 협의" — 별도 분류</text>
+  <text x="496" y="202" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#62655d">원전 8기 건설 + 알래스카 LNG</text>
+
+  <line x1="60" y1="244" x2="840" y2="244" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="268" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">그런데 오늘 미국이 발표하려는 것</text>
+  <rect x="60" y="280" width="780" height="80" fill="#e0795b" opacity="0.15"/>
+  <text x="76" y="304" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">트럼프, 백악관에서 직접 발표 — 알래스카 LNG 540억달러 포함</text>
+  <text x="76" y="326" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">글렌파른 그룹 프로젝트 — 노스슬로프→니키스키 1,190km 파이프라인 + 수출시설</text>
+  <text x="76" y="346" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">중동發 LNG 공급 차질 속 한국 자금이 사업 성사의 핵심 변수로 지목</text>
+
+  <line x1="60" y1="386" x2="840" y2="386" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="410" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">간극</text>
+  <rect x="60" y="422" width="780" height="60" fill="#62655d" opacity="0.1"/>
+  <text x="76" y="446" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">미국: 오늘 발표에 포함 vs 한국: 아직 "추후 협의 과제"</text>
+  <text x="76" y="466" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">알래스카 LNG 상업성 우려도 국내에서 계속 제기되는 중</text>
+
+  <text x="60" y="500" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">발표 예정 보도 기준 — 도표는 뉴스핌·헤럴드경제·CEO스코어데일리 보도로 직접 작성</text>
+</svg>
