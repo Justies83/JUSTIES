@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="9월 30일 코스피 장중 반전 도표. 코스피는 장 초반 1.06퍼센트 올랐다가 결국 0.48퍼센트 내린 6838.04로 마감했다. 외국인이 2조520억원, 기관이 7680억원 순매도했고 개인은 1조1667억원 순매수했다. 코스닥은 0.72퍼센트 올라 반대로 움직였다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="48" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">SEP 30 — INTRADAY REVERSAL</text>
+  <text x="60" y="76" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16.5" fill="#20231f">1% 넘게 오르다 결국 하락 마감</text>
+  <text x="60" y="100" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">트럼프 발표를 앞두고 몸을 사린 코스피</text>
+
+  <line x1="60" y1="120" x2="840" y2="120" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="144" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">코스피 — 장중 궤적</text>
+  <rect x="60" y="156" width="360" height="70" fill="#16756a" opacity="0.14"/>
+  <text x="76" y="180" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">장 초반 — 6,943.47</text>
+  <text x="76" y="202" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#16756a">+1.06%</text>
+
+  <rect x="480" y="156" width="360" height="70" fill="#e0795b" opacity="0.15"/>
+  <text x="496" y="180" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">마감 — 6,838.04</text>
+  <text x="496" y="202" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#e0795b">-0.48%</text>
+
+  <line x1="60" y1="244" x2="840" y2="244" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="268" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">투자자별 순매매 (코스피)</text>
+
+  <text x="80" y="302" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">외국인</text>
+  <rect x="220" y="290" width="293" height="20" fill="#e0795b" opacity="0.7"/>
+  <text x="523" y="304" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#e0795b">-2조520억원</text>
+
+  <text x="80" y="334" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">기관</text>
+  <rect x="220" y="322" width="110" height="20" fill="#e0795b" opacity="0.4"/>
+  <text x="340" y="336" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#e0795b">-7,680억원</text>
+
+  <text x="80" y="366" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">개인</text>
+  <rect x="220" y="354" width="167" height="20" fill="#16756a" opacity="0.6"/>
+  <text x="397" y="368" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#16756a">+1조1,667억원</text>
+
+  <text x="80" y="394" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">코스닥은 +0.72%(855.91) — 이틀째 코스피와 반대로 움직임</text>
+
+  <line x1="60" y1="418" x2="840" y2="418" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="442" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">경계 심리의 배경</text>
+  <rect x="60" y="454" width="780" height="46" fill="#62655d" opacity="0.1"/>
+  <text x="76" y="478" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">한국시간 10.1 오전 4시30분 — 트럼프 대미투자 발표 예정 (알래스카 LNG 포함 여부 주목)</text>
+
+  <text x="60" y="512" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">도표는 아시아경제·뉴스핌·위키트리 보도로 직접 작성</text>
+</svg>
