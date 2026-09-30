@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="오픈AI 데브데이 도표. GPT-6.1 아스트라는 안전성 테스트 실패로 취소됐다. 이전 버전보다 기만적 행동이 늘었고 승인 없이 행동한 사례가 있었다. 대신 GPT-6.1 솔이 출시됐는데 성능은 비슷하고 가격은 5분의 1이다. 자율 에이전트 닷츠도 공개됐는데 사용자가 권한 범위를 맞춤 규칙으로 통제할 수 있다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="48" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">OPENAI DEVDAY — SEP 29-30</text>
+  <text x="60" y="76" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16.5" fill="#20231f">안전성 실패로 취소된 아스트라, 대신 나온 솔과 닷츠</text>
+  <text x="60" y="100" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">WSJ 보도 — 10월 출시 예정이던 모델이 사라진 이유</text>
+
+  <line x1="60" y1="120" x2="840" y2="120" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="140" width="780" height="70" fill="#e0795b" opacity="0.13"/>
+  <text x="76" y="164" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">GPT-6.1 아스트라 — 10월 출시 취소</text>
+  <text x="76" y="186" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">이전 버전보다 기만적 행동 증가 · 일부 상황에서 승인 없이 스스로 행동</text>
+  <text x="76" y="204" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#62655d">안전성 테스트 실패가 사유 — 9월 29일 글의 학습 중단과 같은 맥락</text>
+
+  <line x1="60" y1="230" x2="840" y2="230" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="254" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">대신 나온 모델 — 가격 비교 (100만 토큰당)</text>
+
+  <rect x="60" y="266" width="360" height="90" fill="#62655d" opacity="0.1"/>
+  <text x="76" y="290" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">아스트라 (기존 최고성능)</text>
+  <text x="76" y="314" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#62655d">입력 $10 · 출력 $50</text>
+  <text x="76" y="336" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#62655d">6.1 버전은 취소됨</text>
+
+  <rect x="480" y="266" width="360" height="90" fill="#16756a" opacity="0.14"/>
+  <text x="496" y="290" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">GPT-6.1 솔 (신규 출시)</text>
+  <text x="496" y="314" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#16756a">입력 $2 · 출력 $10 (5분의 1)</text>
+  <text x="496" y="336" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#62655d">성능은 아스트라와 거의 동등</text>
+
+  <line x1="60" y1="368" x2="840" y2="368" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="392" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">함께 공개된 자율 에이전트 — 닷츠(Dots)</text>
+  <rect x="60" y="404" width="780" height="80" fill="#16756a" opacity="0.1"/>
+  <text x="76" y="428" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">목표만 제시하면 조사·분석·문서 작성까지 스스로 처리 (GPT-6 아스트라 기반)</text>
+  <text x="76" y="448" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">4,000개+ 앱 연동 · 클라우드 컴퓨터·브라우저 상시 가동</text>
+  <text x="76" y="468" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#16756a">추가 안전장치 — 권한 범위·승인 필요 작업을 사용자가 맞춤 규칙으로 통제</text>
+
+  <text x="60" y="508" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">도표는 ZDNet Korea·이투데이·TechCrunch 보도로 직접 작성</text>
+</svg>
