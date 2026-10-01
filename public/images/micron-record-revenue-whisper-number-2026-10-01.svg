@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="마이크론 4분기 실적 도표. 매출 542억3천만달러로 사상 최고, 시장 예상치 510억7천만달러를 넘었다. 조정 EPS는 33.42달러로 공식 컨센서스 31.61달러를 웃돌았지만 위스퍼 넘버 34에서 35달러에는 못 미쳤다. 시간외 주가는 0.69퍼센트 하락했다. 1분기 가이던스는 매출 615억달러, EPS 38.15달러로 월가 전망을 크게 웃돈다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="48" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">MICRON FQ4 2026 — SEP 30</text>
+  <text x="60" y="76" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16.5" fill="#20231f">사상 최대 매출인데 주가는 안 움직였다</text>
+  <text x="60" y="100" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">'위스퍼 넘버'에 발목 잡힌 어닝 서프라이즈</text>
+
+  <line x1="60" y1="120" x2="840" y2="120" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="140" width="360" height="90" fill="#16756a" opacity="0.14"/>
+  <text x="76" y="164" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">매출 — 사상 최고</text>
+  <text x="76" y="190" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="18" fill="#16756a">542.3억달러</text>
+  <text x="76" y="212" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#62655d">예상치 510.7억달러 상회 · 전년比 약 5배</text>
+
+  <rect x="480" y="140" width="360" height="90" fill="#62655d" opacity="0.1"/>
+  <text x="496" y="164" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">데이터센터 매출</text>
+  <text x="496" y="190" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="18" fill="#62655d">180억달러</text>
+  <text x="496" y="212" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#62655d">전년 동기比 11배 이상 증가</text>
+
+  <line x1="60" y1="248" x2="840" y2="248" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="272" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">EPS — 컨센서스는 넘었지만 위스퍼엔 못 미침</text>
+
+  <text x="80" y="306" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">공식 컨센서스</text>
+  <rect x="230" y="294" width="271" height="20" fill="#62655d" opacity="0.3"/>
+  <text x="511" y="308" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">$31.61</text>
+
+  <text x="80" y="338" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">실제 EPS</text>
+  <rect x="230" y="326" width="286" height="20" fill="#16756a" opacity="0.6"/>
+  <text x="526" y="340" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#16756a">$33.42</text>
+
+  <text x="80" y="370" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">위스퍼 넘버</text>
+  <rect x="230" y="358" width="296" height="20" fill="#e0795b" opacity="0.6"/>
+  <text x="536" y="372" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#e0795b">$34~35</text>
+
+  <text x="80" y="398" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#62655d">→ 시간외 주가 -0.69%</text>
+
+  <line x1="60" y1="420" x2="840" y2="420" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="444" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">2027회계연도 1분기 가이던스</text>
+  <rect x="60" y="456" width="780" height="46" fill="#16756a" opacity="0.12"/>
+  <text x="76" y="480" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">매출 615억달러(월가 570억) · EPS $38.15(월가 $35.40) — 전망도 크게 상회</text>
+
+  <text x="60" y="512" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">도표는 한국경제·녹색경제신문·Investing.com 보도로 직접 작성</text>
+</svg>
