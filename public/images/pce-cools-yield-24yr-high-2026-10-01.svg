@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="9월 30일 뉴욕증시 엇갈린 마감 도표. 다우존스는 0.86퍼센트, S&amp;P500은 0.25퍼센트 내렸지만 나스닥은 0.24퍼센트 올랐다. 8월 PCE 물가지수가 예상치를 밑돌아 10월 금리인상 확률이 51퍼센트에서 37퍼센트로 낮아졌지만, 성장 고용지표가 강하게 나오며 10년물 국채금리는 5.304퍼센트로 24년 만의 최고치를 기록했다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="48" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">SEP 30 CLOSE — MIXED SIGNALS</text>
+  <text x="60" y="76" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16.5" fill="#20231f">물가는 식는데 금리는 24년 만에 최고</text>
+  <text x="60" y="100" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">다우 -0.86% vs 나스닥 +0.24%</text>
+
+  <line x1="60" y1="120" x2="840" y2="120" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="80" y="154" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">다우존스</text>
+  <rect x="220" y="142" width="241" height="20" fill="#e0795b" opacity="0.7"/>
+  <text x="471" y="156" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#e0795b">-0.86% (50,908.79)</text>
+
+  <text x="80" y="186" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">S&amp;P500</text>
+  <rect x="220" y="174" width="70" height="20" fill="#e0795b" opacity="0.45"/>
+  <text x="300" y="188" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#e0795b">-0.25% (7,651.54)</text>
+
+  <text x="80" y="218" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">나스닥</text>
+  <rect x="220" y="206" width="67" height="20" fill="#16756a" opacity="0.6"/>
+  <text x="297" y="220" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#16756a">+0.24% (26,861.06)</text>
+
+  <line x1="60" y1="248" x2="840" y2="248" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="260" width="360" height="100" fill="#16756a" opacity="0.13"/>
+  <text x="76" y="284" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">호재 — 물가 둔화</text>
+  <text x="76" y="308" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#62655d">8월 PCE 3.4% (예상 3.7%)</text>
+  <text x="76" y="328" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#62655d">10월 금리인상 확률</text>
+  <text x="76" y="348" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#16756a">51% → 37%</text>
+
+  <rect x="480" y="260" width="360" height="100" fill="#e0795b" opacity="0.15"/>
+  <text x="496" y="284" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">악재 — 성장은 식지 않음</text>
+  <text x="496" y="308" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#62655d">2분기 GDP 확정치 상향 조정</text>
+  <text x="496" y="328" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#62655d">美 10년물 국채금리</text>
+  <text x="496" y="348" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#e0795b">5.304% — 2002.5 이후 최고</text>
+
+  <line x1="60" y1="382" x2="840" y2="382" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="406" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">결과</text>
+  <rect x="60" y="418" width="780" height="46" fill="#62655d" opacity="0.1"/>
+  <text x="76" y="442" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">금리 인상 둔화 호재는 기술주가 흡수, 장기금리 부담은 지수 전반을 짓누름</text>
+  <text x="76" y="458" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#62655d">금리 민감도가 큰 다우·S&amp;P500은 하락, 나스닥만 반등</text>
+
+  <text x="60" y="494" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">도표는 머니투데이·헤럴드경제·서울신문 보도로 직접 작성</text>
+</svg>
