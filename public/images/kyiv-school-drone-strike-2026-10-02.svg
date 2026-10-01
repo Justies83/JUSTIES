@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="키이우 학교 드론 공격 도표. 10월 1일 아침 러시아 드론이 솔로먄스키 지역 학교 건물을 타격했다. 학생 100여명과 교직원 60명이 대피소에 있어 인명피해는 없었지만 3층 외벽이 파손되고 화재가 발생했다. 같은 날 밤 16층 아파트와 주차 차량에도 불이 붙었다. 젤렌스키 대통령은 방공 대책을 지시했고 영국은 러시아인과 기관 31개를 제재했다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="48" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">KYIV — OCT 1, SOLOMIANSKYI DISTRICT</text>
+  <text x="60" y="76" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16.5" fill="#20231f">러시아 드론이 키이우 학교를 때렸습니다</text>
+  <text x="60" y="100" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">학생 100여명은 대피소에 있었습니다</text>
+
+  <line x1="60" y1="120" x2="840" y2="120" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="140" width="780" height="100" fill="#e0795b" opacity="0.13"/>
+  <text x="76" y="164" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">학교 건물 피해</text>
+  <text x="76" y="188" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#62655d">4층 건물 중 3층 외벽 파손 · 화재 발생 후 진화</text>
+  <text x="76" y="208" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#16756a">학생 100여명 · 교직원 약 60명 대피소에 있어 인명 피해 없음</text>
+  <text x="76" y="228" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#62655d">교장 발렌티나 초르나 "그들은 누구도 가리지 않는다"</text>
+
+  <line x1="60" y1="258" x2="840" y2="258" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="282" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">같은 날 밤사이 추가 피해</text>
+  <rect x="60" y="294" width="780" height="60" fill="#62655d" opacity="0.1"/>
+  <text x="76" y="318" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">드론 2대 — 드니프로강 '서던 브리지' 지지대 근처 타격</text>
+  <text x="76" y="338" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">16층 아파트 1층 화재 · 주차 차량 다수 소실 · 도시철도 점검 중단</text>
+
+  <line x1="60" y1="374" x2="840" y2="374" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="386" width="360" height="100" fill="#16756a" opacity="0.13"/>
+  <text x="76" y="410" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">우크라이나 측 대응</text>
+  <text x="76" y="432" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">젤렌스키 — 기반시설 보호 논의 지시</text>
+  <text x="76" y="452" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">방공탄약·F-16 협력국 협정 검토</text>
+  <text x="76" y="472" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">"10월 추가 미사일 확보 중요"</text>
+
+  <rect x="480" y="386" width="360" height="100" fill="#62655d" opacity="0.1"/>
+  <text x="496" y="410" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">국제사회 대응</text>
+  <text x="496" y="432" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">영국 — 러시아인·기관·선박 31개 제재</text>
+  <text x="496" y="452" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">허위정보 유포·에너지 제재 회피</text>
+  <text x="496" y="472" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">점령지 민간인 학대 연관 지목</text>
+
+  <text x="60" y="508" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">도표는 VOA 코리아·Kyiv Post·Ukrinform 보도로 직접 작성</text>
+</svg>
