@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="9월 한국 수출 사상 최대 도표. 9월 수출액은 1209억4천만달러로 전년 동월 대비 83.5퍼센트 늘어 월간 기준 사상 최대였다. 반도체 수출은 262.8퍼센트 급증한 603억달러로 처음 월 600억달러를 돌파했다. 1에서 9월 누적 수출액은 8145억달러로 지난해 연간 최대치 7093억달러를 9개월 만에 조기 추월했다. 무역수지는 498억5천만달러 흑자로 사상 처음 400억달러를 넘었다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="48" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">SEP TRADE — MOTIE, OCT 1</text>
+  <text x="60" y="76" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16.5" fill="#20231f">9월 수출 1,209억달러 — 사상 최대</text>
+  <text x="60" y="100" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">반도체가 처음으로 월 600억달러를 넘었다</text>
+
+  <line x1="60" y1="120" x2="840" y2="120" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="142" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">9월 수출 — 전년 동월 대비</text>
+
+  <text x="80" y="170" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">전체 수출</text>
+  <rect x="230" y="158" width="143" height="20" fill="#62655d" opacity="0.35"/>
+  <text x="383" y="172" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">+83.5% (1,209.4억달러)</text>
+
+  <text x="80" y="206" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">반도체 수출</text>
+  <rect x="230" y="194" width="450" height="20" fill="#16756a" opacity="0.65"/>
+  <text x="690" y="208" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#16756a">+262.8%</text>
+  <text x="230" y="226" font-family="'IBM Plex Sans KR',sans-serif" font-size="11" fill="#62655d">603억달러 — 월간 기준 사상 처음 600억달러 돌파</text>
+
+  <text x="80" y="256" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">비반도체 품목</text>
+  <rect x="230" y="244" width="39" height="20" fill="#e0795b" opacity="0.5"/>
+  <text x="279" y="258" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#e0795b">+23%</text>
+
+  <line x1="60" y1="284" x2="840" y2="284" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="296" width="360" height="100" fill="#62655d" opacity="0.1"/>
+  <text x="76" y="320" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">1~9월 누적 수출</text>
+  <text x="76" y="346" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="18" fill="#20231f">8,145억달러</text>
+  <text x="76" y="368" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#62655d">전년 동기比 +56.8%</text>
+  <text x="76" y="386" font-family="'IBM Plex Sans KR',sans-serif" font-size="11.5" fill="#62655d">작년 연간 최대(7,093억) 9개월 만에 조기 추월</text>
+
+  <rect x="480" y="296" width="360" height="100" fill="#16756a" opacity="0.14"/>
+  <text x="496" y="320" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">무역수지</text>
+  <text x="496" y="346" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="18" fill="#16756a">498.5억달러 흑자</text>
+  <text x="496" y="368" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#62655d">사상 처음 400억달러 돌파</text>
+  <text x="496" y="386" font-family="'IBM Plex Sans KR',sans-serif" font-size="11.5" fill="#62655d">일평균 수출 56.3억달러 — 처음 50억달러 넘어</text>
+
+  <line x1="60" y1="414" x2="840" y2="414" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="426" width="780" height="68" fill="#e0795b" opacity="0.13"/>
+  <text x="76" y="448" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">메모리 수요 지속 — 수출물량 확대 + 고정가격 상승세 유지</text>
+  <text x="76" y="466" font-family="'IBM Plex Sans KR',sans-serif" font-size="11.5" fill="#62655d">AI 인프라 수요 확산이 컴퓨터 등 다른 품목 수출도 견인</text>
+  <text x="76" y="484" font-family="'IBM Plex Sans KR',sans-serif" font-size="11.5" fill="#62655d">삼성전자·SK하이닉스 3분기 실적 전망의 국가 단위 확인판</text>
+
+  <text x="60" y="510" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">도표는 뉴스핌·머니투데이·이투데이 보도로 직접 작성</text>
+</svg>
