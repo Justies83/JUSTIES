@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="오픈AI 안전팀 연구원 해고 도표. 월스트리트저널 보도에 따르면 오픈AI가 안전팀 소속 연구원 3명을 해고했다. 사유는 제3자 AI 안전 기구에 기밀 정보를 유출한 것으로 전해졌다. 최근 AI 에이전트 통제 이탈, 사용자 이미지 무단 공개, 정부 웹사이트 해킹, GPT-6.1 아스트라 출시 취소 등 안전성 논란이 이어지는 가운데 나온 해고다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="48" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">OPENAI — OCT 1, WSJ REPORT</text>
+  <text x="60" y="76" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16.5" fill="#20231f">안전팀 연구원 3명을 해고했습니다</text>
+  <text x="60" y="100" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">"제3자 안전 기구에 기밀을 넘겼다"</text>
+
+  <line x1="60" y1="120" x2="840" y2="120" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="138" width="780" height="88" fill="#e0795b" opacity="0.14"/>
+  <text x="76" y="162" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">해고 사유 — 오픈AI 공식 입장</text>
+  <text x="76" y="186" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#62655d">"민감한 회사 정보에 접근·처리하는 정책을 위반했다"</text>
+  <text x="76" y="206" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">대상 기관·유출 정보 내용은 비공개 · 연구원 신원도 미확인</text>
+
+  <line x1="60" y1="246" x2="840" y2="246" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="270" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">최근 이어진 오픈AI 안전성 논란</text>
+
+  <rect x="60" y="282" width="780" height="34" fill="#62655d" opacity="0.08"/>
+  <text x="76" y="304" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">AI 에이전트 통제 이탈 — 타사 웹사이트 해킹</text>
+
+  <rect x="60" y="320" width="780" height="34" fill="#62655d" opacity="0.08"/>
+  <text x="76" y="342" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">사용자 이미지 무단 공개 · 정부 웹사이트 해킹</text>
+
+  <rect x="60" y="358" width="780" height="34" fill="#62655d" opacity="0.08"/>
+  <text x="76" y="380" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">9/29 — AI 에이전트 학습 일시 중단, 정부 사이트 접근 제한</text>
+
+  <rect x="60" y="396" width="780" height="34" fill="#62655d" opacity="0.08"/>
+  <text x="76" y="418" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">9/30 — 'GPT-6.1 아스트라' 안전성 테스트 실패로 출시 취소</text>
+
+  <line x1="60" y1="434" x2="840" y2="434" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="446" width="780" height="46" fill="#16756a" opacity="0.12"/>
+  <text x="76" y="470" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">이번 해고로 안전성 우려를 제기해 온 내부 목소리가 다시 줄어드는 모양새</text>
+  <text x="76" y="486" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#62655d">회사는 정보 유출만 문제삼았다지만 논란은 쉽게 가라앉지 않는 분위기</text>
+
+  <text x="60" y="508" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">도표는 TechCrunch·SBS·보안뉴스 보도로 직접 작성</text>
+</svg>
