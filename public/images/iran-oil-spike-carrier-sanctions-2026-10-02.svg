@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="10월 1일 국제유가 급등 도표. 브렌트유가 전일 대비 4.4퍼센트 오른 배럴당 102.31달러를 기록했다. 미국의 중동 추가 파병과 중국의 정제유 수출 일부 취소가 겹쳤고, 같은 날 미 재무부는 이란 자동차·철도 기업과 러시아 연계 그림자 금융망을 제재했다. 국내 정유주는 S-Oil 7.33퍼센트를 비롯해 일제히 급등했다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="48" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">OCT 1 — BRENT +4.4%</text>
+  <text x="60" y="76" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16.5" fill="#20231f">중국은 기름을 아끼고, 미국은 항모를 더 보낸다</text>
+  <text x="60" y="100" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">브렌트유 배럴당 102.31달러</text>
+
+  <line x1="60" y1="120" x2="840" y2="120" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="138" width="360" height="100" fill="#e0795b" opacity="0.15"/>
+  <text x="76" y="162" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">공급 불안 — 두 소식이 겹쳤다</text>
+  <text x="76" y="186" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">미군 추가 병력 최대 1만명, 11월 말까지 중동 도착</text>
+  <text x="76" y="206" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">중국 정유사, 10월 휘발유·항공유 수출 일부 취소</text>
+  <text x="76" y="226" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" fill="#e0795b">WTI +2.71% · 배럴당 92.87달러</text>
+
+  <rect x="480" y="138" width="360" height="100" fill="#62655d" opacity="0.1"/>
+  <text x="496" y="162" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">美 재무부 — '경제적 왕따 작전'</text>
+  <text x="496" y="186" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">이란 자동차 IKCO·SAIPA · 철도공사 RAI</text>
+  <text x="496" y="206" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">HEPCO·철강업체 · 해외 부품사도 포함</text>
+  <text x="496" y="226" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#62655d">러시아 그림자 금융망 'A7'도 명단에</text>
+
+  <line x1="60" y1="256" x2="840" y2="256" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="280" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">국내 정유주 반응 (10/2 오전 9시18분 기준)</text>
+
+  <text x="80" y="314" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">S-Oil</text>
+  <rect x="230" y="302" width="296" height="20" fill="#16756a" opacity="0.65"/>
+  <text x="536" y="316" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#16756a">+7.33% (15만9700원)</text>
+
+  <text x="80" y="346" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">SK이노베이션</text>
+  <rect x="230" y="334" width="188" height="20" fill="#16756a" opacity="0.5"/>
+  <text x="428" y="348" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#16756a">+4.66%</text>
+
+  <text x="80" y="378" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">GS</text>
+  <rect x="230" y="366" width="150" height="20" fill="#16756a" opacity="0.4"/>
+  <text x="390" y="380" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#16756a">+3.72%</text>
+
+  <line x1="60" y1="408" x2="840" y2="408" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="420" width="780" height="72" fill="#16756a" opacity="0.1"/>
+  <text x="76" y="444" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">9월 말 한 차례 잠잠해지는 듯했던 유가·안보 리스크가 다시 수면 위로</text>
+  <text x="76" y="464" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#62655d">정유주는 정제마진 개선·재고평가이익 기대감에 즉각 반응</text>
+  <text x="76" y="482" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#62655d">중동발 변수는 당분간 시장을 계속 흔들 전망</text>
+
+  <text x="60" y="508" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">도표는 파이낸셜뉴스·뉴스핌 보도로 직접 작성</text>
+</svg>
