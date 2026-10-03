@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="콩고민주공화국 에볼라 발병 도표. 9월 30일 기준 누적 확진자 8300명, 사망자 4018명으로 치명률 약 48퍼센트다. 5월 15일 선언된 이번 발병은 분디부조 바이러스가 원인으로 승인된 백신이나 치료제가 없다. 환자 이송센터 화재로 약 1만9천명이 피란했고 보건 인력은 임금 체불로 파업했으며 방역을 옹호한 관리가 폭행·살해당하는 등 방역에 어려움을 겪고 있다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="48" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">DR CONGO — AS OF SEP 30</text>
+  <text x="60" y="76" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16.5" fill="#20231f">에볼라 사망자 4,018명 — 백신도 치료제도 없다</text>
+  <text x="60" y="100" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">치명률 약 48% — 둘 중 한 명꼴로 사망</text>
+
+  <line x1="60" y1="120" x2="840" y2="120" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="138" width="243" height="100" fill="#62655d" opacity="0.1"/>
+  <text x="76" y="162" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">누적 확진자</text>
+  <text x="76" y="190" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="19" fill="#20231f">8,300명</text>
+  <text x="76" y="212" font-family="'IBM Plex Sans KR',sans-serif" font-size="11.5" fill="#62655d">7개 주에서 발생</text>
+
+  <rect x="313" y="138" width="243" height="100" fill="#e0795b" opacity="0.16"/>
+  <text x="329" y="162" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">누적 사망자</text>
+  <text x="329" y="190" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="19" fill="#e0795b">4,018명</text>
+  <text x="329" y="212" font-family="'IBM Plex Sans KR',sans-serif" font-size="11.5" fill="#62655d">한 달 새 약 1,000명 추가</text>
+
+  <rect x="566" y="138" width="274" height="100" fill="#16756a" opacity="0.14"/>
+  <text x="582" y="162" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">완치자</text>
+  <text x="582" y="190" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="19" fill="#16756a">2,162명</text>
+  <text x="582" y="212" font-family="'IBM Plex Sans KR',sans-serif" font-size="11.5" fill="#62655d">치명률 약 48.4%</text>
+
+  <line x1="60" y1="256" x2="840" y2="256" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="280" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">왜 멈추지 않나 — 바이러스 + 현장 붕괴</text>
+
+  <rect x="60" y="292" width="780" height="34" fill="#62655d" opacity="0.08"/>
+  <text x="76" y="314" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">분디부조 바이러스 — 승인된 백신·치료제 없음, 콩고 17번째 발병</text>
+
+  <rect x="60" y="330" width="780" height="34" fill="#62655d" opacity="0.08"/>
+  <text x="76" y="352" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">환자 이송센터 화재(부니아 키곤제) — 약 1만9,000명 피란</text>
+
+  <rect x="60" y="368" width="780" height="34" fill="#62655d" opacity="0.08"/>
+  <text x="76" y="390" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">보건 인력 8·9월 임금 체불 — 파업 반복</text>
+
+  <rect x="60" y="406" width="780" height="34" fill="#62655d" opacity="0.08"/>
+  <text x="76" y="428" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">방역 옹호 지역 관리 폭행·살해 — 주민 불신으로 방역 조치 거부</text>
+
+  <line x1="60" y1="444" x2="840" y2="444" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="456" width="780" height="36" fill="#e0795b" opacity="0.13"/>
+  <text x="76" y="479" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">전문가들 "실제 감염 규모는 공식 집계보다 클 수 있다"</text>
+
+  <text x="60" y="510" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">도표는 파이낸셜뉴스·VOA코리아·이투데이 보도로 직접 작성</text>
+</svg>
