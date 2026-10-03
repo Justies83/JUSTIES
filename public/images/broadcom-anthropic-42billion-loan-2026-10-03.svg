@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="브로드컴 앤트로픽 대출 도표. 브로드컴이 앤트로픽에 최대 420억달러 규모의 연산 임대 금융 대출을 제공한다. 이는 앤트로픽이 5년간 약정한 1252억달러 규모 TPU 임대 비용의 약 3분의 1이다. 대출에 포함된 채무증권은 앤트로픽 주식으로 전환될 수 있고 앤트로픽은 이해상충 가능성을 공시했다. 로이터는 이를 AI 업계의 순환금융 논란과 연결지었다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="48" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">BROADCOM × ANTHROPIC — OCT 2</text>
+  <text x="60" y="76" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16.5" fill="#20231f">최대 420억달러를 빌려줍니다</text>
+  <text x="60" y="100" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">"이해상충 우려도 있다" — 앤트로픽 자체 공시</text>
+
+  <line x1="60" y1="120" x2="840" y2="120" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="144" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">대출 규모 vs 5년 TPU 임대 총액</text>
+
+  <text x="80" y="178" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">브로드컴 대출</text>
+  <rect x="240" y="166" width="135" height="20" fill="#16756a" opacity="0.65"/>
+  <text x="385" y="180" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#16756a">최대 420억달러</text>
+
+  <text x="80" y="214" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">5년 TPU 임대 총액</text>
+  <rect x="240" y="202" width="403" height="20" fill="#62655d" opacity="0.3"/>
+  <text x="653" y="216" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">1,252억달러</text>
+
+  <text x="240" y="240" font-family="'IBM Plex Sans KR',sans-serif" font-size="11.5" fill="#62655d">대출이 전체 임대 비용의 약 3분의 1을 충당</text>
+
+  <line x1="60" y1="262" x2="840" y2="262" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="274" width="360" height="106" fill="#e0795b" opacity="0.15"/>
+  <text x="76" y="298" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">이해상충 — 앤트로픽 자체 공시</text>
+  <text x="76" y="322" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">채무증권, 향후 앤트로픽 지분으로</text>
+  <text x="76" y="342" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">전환 가능</text>
+  <text x="76" y="364" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#62655d">하드웨어 공급자 = 금융 파트너 동시 역할</text>
+
+  <rect x="480" y="274" width="360" height="106" fill="#62655d" opacity="0.1"/>
+  <text x="496" y="298" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">로이터의 지적 — '순환금융'</text>
+  <text x="496" y="322" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">공급자가 자금 제공 → 고객이 그 돈으로</text>
+  <text x="496" y="342" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">다시 공급자 제품을 구매하는 구조</text>
+  <text x="496" y="364" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#62655d">월가가 AI 업계 전반에 제기해온 우려</text>
+
+  <line x1="60" y1="398" x2="840" y2="398" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="410" width="780" height="74" fill="#16756a" opacity="0.1"/>
+  <text x="76" y="434" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">앤트로픽, 내년 브로드컴의 최대 컴퓨팅 고객으로 부상 전망</text>
+  <text x="76" y="454" font-family="'IBM Plex Sans KR',sans-serif" font-size="11.5" fill="#62655d">브로드컴은 구글과 TPU를 공동 설계·제조하는 기업</text>
+  <text x="76" y="474" font-family="'IBM Plex Sans KR',sans-serif" font-size="11.5" fill="#62655d">아마존·마이크로소프트와도 별도 컴퓨팅·자금조달 계약 보유</text>
+
+  <text x="60" y="508" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">도표는 블록미디어·이데일리마켓인·SBS Biz 보도로 직접 작성</text>
+</svg>
