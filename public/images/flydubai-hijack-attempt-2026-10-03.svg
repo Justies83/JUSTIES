@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="플라이두바이 FZ1073편 사건 도표. 9월 30일 두바이발 텔아비브행 여객기에서 오만 국적 부기장이 인도 국적 기장 스미트 마차르를 흉기로 공격하고 추락을 시도했다. 비행기는 1분 만에 고도 1만7천피트가 떨어졌다. 승객 4명이 부기장을 제압하고 비번 조종사가 조종간을 넘겨받아 사우디아라비아 타부크 공항에 비상착륙했다. 탑승객 174명 전원이 무사했다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="48" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">FLYDUBAI FZ1073 — SEP 30</text>
+  <text x="60" y="76" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16.5" fill="#20231f">부기장이 추락을 시도했습니다</text>
+  <text x="60" y="100" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">승객들이 비행기를 살렸습니다 — 174명 전원 무사</text>
+
+  <line x1="60" y1="120" x2="840" y2="120" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="144" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">사건 경과</text>
+
+  <rect x="60" y="156" width="780" height="36" fill="#62655d" opacity="0.08"/>
+  <text x="76" y="179" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">이륙 2시간 17분 후 — 부기장, 조종실에서 기장을 흉기로 공격</text>
+
+  <rect x="60" y="196" width="780" height="36" fill="#e0795b" opacity="0.18"/>
+  <text x="76" y="219" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">1분 만에 고도 1만7,000피트(약 5,200m) 급강하</text>
+
+  <rect x="60" y="236" width="780" height="36" fill="#62655d" opacity="0.08"/>
+  <text x="76" y="259" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">피투성이 기장, 마지막 힘으로 조종실 문을 열다</text>
+
+  <rect x="60" y="276" width="780" height="36" fill="#16756a" opacity="0.15"/>
+  <text x="76" y="299" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">승객 4명(배관공 야니브 하윤 등) 부기장 제압 → 비번 조종사가 조종간 인수</text>
+
+  <rect x="60" y="316" width="780" height="36" fill="#16756a" opacity="0.15"/>
+  <text x="76" y="339" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">사우디아라비아 타부크 공항 비상착륙 — 탑승객 174명 전원 생존</text>
+
+  <line x1="60" y1="354" x2="840" y2="354" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="366" width="360" height="90" fill="#62655d" opacity="0.1"/>
+  <text x="76" y="390" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">부기장의 전력</text>
+  <text x="76" y="412" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#62655d">이스라엘 당국 — "이슬람주의 급진화 교육" 주장</text>
+  <text x="76" y="432" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#62655d">WSJ — 오만에서 비행 금지 처분 전력 보도</text>
+
+  <rect x="480" y="366" width="360" height="90" fill="#e0795b" opacity="0.14"/>
+  <text x="496" y="390" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">기장의 증언 (10/3, 모디 총리와 화상통화)</text>
+  <text x="496" y="412" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#62655d">"나는 목숨을 걸고 싸우고 있었다"</text>
+  <text x="496" y="432" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#62655d">"이게 마지막 힘이다, 해, 문이 바로 저기 있다"</text>
+
+  <line x1="60" y1="470" x2="840" y2="470" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="494" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">17년 경력 기장의 판단이 174명의 생명을 구했다</text>
+
+  <text x="60" y="510" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">도표는 뉴시스·국민일보·한국일보 보도로 직접 작성</text>
+</svg>
