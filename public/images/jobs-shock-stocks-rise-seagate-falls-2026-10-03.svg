@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="10월 2일 뉴욕증시 도표. 다우존스 0.49퍼센트, S&amp;P500 0.73퍼센트, 나스닥 1.19퍼센트 상승 마감했다. 9월 비농업 고용이 2만9천명 증가에 그쳐 예상치 9만명을 크게 밑돌며 금리인상 기대가 후퇴했다. 테슬라는 3분기 인도량 호조로 4.7퍼센트 올랐지만 씨게이트와 웨스턴디지털은 도시바의 HDD 증산 소식에 10퍼센트 넘게 급락했다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="48" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">OCT 2 CLOSE — JOBS SHOCK</text>
+  <text x="60" y="76" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16.5" fill="#20231f">고용 쇼크에 증시는 웃고, HDD는 울었다</text>
+  <text x="60" y="100" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">9월 비농업 고용 2만9천명 — 예상치 9만명의 3분의 1</text>
+
+  <line x1="60" y1="120" x2="840" y2="120" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="80" y="154" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">다우존스</text>
+  <rect x="220" y="142" width="185" height="20" fill="#62655d" opacity="0.35"/>
+  <text x="415" y="156" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">+0.49% (51,176.96)</text>
+
+  <text x="80" y="186" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">S&amp;P500</text>
+  <rect x="220" y="174" width="276" height="20" fill="#62655d" opacity="0.5"/>
+  <text x="506" y="188" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">+0.73% (7,722.72)</text>
+
+  <text x="80" y="218" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">나스닥</text>
+  <rect x="220" y="206" width="450" height="20" fill="#16756a" opacity="0.65"/>
+  <text x="680" y="220" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#16756a">+1.19% (27,190.86)</text>
+
+  <line x1="60" y1="246" x2="840" y2="246" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="258" width="360" height="100" fill="#62655d" opacity="0.1"/>
+  <text x="76" y="282" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">고용 쇼크 → 금리인상 기대 후퇴</text>
+  <text x="76" y="306" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">실업률 4.1% → 4.2%</text>
+  <text x="76" y="326" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">10월 FOMC 동결 확률</text>
+  <text x="76" y="346" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#16756a">75.6% → 77.9%</text>
+
+  <rect x="480" y="258" width="360" height="100" fill="#e0795b" opacity="0.15"/>
+  <text x="496" y="282" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">엇갈린 종목 흐름</text>
+  <text x="496" y="306" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#16756a">테슬라 +4.7% — 3분기 인도량 48.6만대, 예상 초과</text>
+  <text x="496" y="326" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#16756a">엔비디아 +1.3%</text>
+  <text x="496" y="346" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#e0795b">씨게이트·웨스턴디지털 각각 -10%대</text>
+
+  <line x1="60" y1="374" x2="840" y2="374" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="386" width="780" height="76" fill="#e0795b" opacity="0.13"/>
+  <text x="76" y="410" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">HDD주 급락 이유 — 도시바發 공급 확대 우려</text>
+  <text x="76" y="430" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#62655d">도시바, 2027회계연도까지 AI 데이터센터용 HDD 생산능력 2배 증설 발표</text>
+  <text x="76" y="450" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#62655d">공급 확대 → 가격 경쟁 우려가 씨게이트·웨스턴디지털 주가에 즉각 반영</text>
+
+  <text x="60" y="490" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">같은 날, 같은 시장 안에서 금리 호재와 공급 악재가 동시에 작용했다</text>
+
+  <text x="60" y="508" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">도표는 디지털데일리·뉴스핌·국제뉴스 보도로 직접 작성</text>
+</svg>
