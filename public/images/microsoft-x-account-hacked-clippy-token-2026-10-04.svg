@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="마이크로소프트 X 계정 해킹 도표. 공격자가 프로필 사진을 클리피로 바꾸고 클리피 사칭 계정 글을 재게시하며 좋아요 50만개를 받으면 클리피를 부활시키겠다는 글로 가짜 토큰을 홍보했다. 마이크로소프트는 약 30분 만에 계정을 되찾았고 가상자산을 승인하거나 후원한 적이 없다며 법적 조치를 예고했다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="48" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">MICROSOFT ON X — OCT 2</text>
+  <text x="60" y="76" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16.5" fill="#20231f">공식 계정이 가짜 토큰을 홍보했습니다</text>
+  <text x="60" y="100" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">30분 만에 되찾았지만, 클리피가 소환됐다</text>
+
+  <line x1="60" y1="120" x2="840" y2="120" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="144" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">사건 경과</text>
+
+  <rect x="60" y="156" width="780" height="34" fill="#62655d" opacity="0.08"/>
+  <text x="76" y="179" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">공격자, 계정 무단 접근 — 프로필 사진을 클리피로 교체</text>
+
+  <rect x="60" y="196" width="780" height="34" fill="#62655d" opacity="0.08"/>
+  <text x="76" y="219" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">클리피 사칭 계정 팔로우 → 그 게시물 재게시</text>
+
+  <rect x="60" y="236" width="780" height="34" fill="#e0795b" opacity="0.18"/>
+  <text x="76" y="259" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">"좋아요 50만개 받으면 클리피 부활" — 클리피 테마 토큰 홍보</text>
+
+  <rect x="60" y="276" width="780" height="34" fill="#16756a" opacity="0.15"/>
+  <text x="76" y="299" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">약 30분 만에 계정 통제권 회복 — 게시물 삭제</text>
+
+  <line x1="60" y1="314" x2="840" y2="314" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="326" width="360" height="96" fill="#62655d" opacity="0.1"/>
+  <text x="76" y="350" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">클리피는 누구인가</text>
+  <text x="76" y="372" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#62655d">MS 오피스 도움말 캐릭터, 2007년 공식 퇴역</text>
+  <text x="76" y="392" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#62655d">작년 '미코'로 부활 시도, 1년 못 돼 비중 축소</text>
+  <text x="76" y="412" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#62655d">공격자가 이 향수를 토큰 홍보에 악용</text>
+
+  <rect x="480" y="326" width="360" height="96" fill="#16756a" opacity="0.14"/>
+  <text x="496" y="350" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">마이크로소프트의 입장</text>
+  <text x="496" y="372" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#62655d">"회사가 작성하지 않은 게시물이었다"</text>
+  <text x="496" y="392" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#62655d">클리피·$MSFT 관련 가상자산 승인·후원 안 함</text>
+  <text x="496" y="412" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#62655d">무단 사용에 법적 조치 추진 — 사칭 계정 1개 정지</text>
+
+  <line x1="60" y1="440" x2="840" y2="440" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="464" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">토큰 거래 피해 규모·시장 영향은 아직 확인되지 않았다</text>
+
+  <text x="60" y="508" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">도표는 토큰포스트·디지털포커스 보도로 직접 작성</text>
+</svg>
