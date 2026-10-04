@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="예멘 식량위기 도표. 세계식량계획 WFP에 따르면 예멘 정부 통제 지역 가구의 74퍼센트가 기본 식량 수요를 충족하지 못한다. 타이즈주에서 후티 반군과 정부군의 교전이 4년 전 휴전 이후 가장 격렬해지며 6월 이후 14만9천명이 피란했다. 전역 기아 인구는 1830만명, 5세 미만 급성 영양실조 아동은 220만명이다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="48" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">YEMEN — WFP, OCT 2-3</text>
+  <text x="60" y="76" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16.5" fill="#20231f">가구 4곳 중 3곳이 기본 식량도 못 구한다</text>
+  <text x="60" y="100" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">올해 들어 가장 심각한 수치</text>
+
+  <line x1="60" y1="120" x2="840" y2="120" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="138" width="360" height="100" fill="#e0795b" opacity="0.16"/>
+  <text x="76" y="162" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">식량 부족 가구</text>
+  <text x="76" y="190" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="19" fill="#e0795b">74%</text>
+  <text x="76" y="212" font-family="'IBM Plex Sans KR',sans-serif" font-size="11.5" fill="#62655d">접근 가능 지역 기준 — 올해 최고치</text>
+
+  <rect x="480" y="138" width="360" height="100" fill="#62655d" opacity="0.1"/>
+  <text x="496" y="162" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">6월 이후 피란민</text>
+  <text x="496" y="190" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="19" fill="#20231f">14만9,000명+</text>
+  <text x="496" y="212" font-family="'IBM Plex Sans KR',sans-serif" font-size="11.5" fill="#62655d">타이즈·라하즈 지역 이주 특히 심각</text>
+
+  <line x1="60" y1="256" x2="840" y2="256" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="280" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">왜 이렇게 됐나 — 타이즈주 교전 격화</text>
+  <rect x="60" y="292" width="780" height="54" fill="#62655d" opacity="0.08"/>
+  <text x="76" y="316" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">후티 반군 vs 정부군·사우디 연합군 동맹 — "4년 전 휴전 이후 최악"</text>
+  <text x="76" y="336" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#62655d">시장 혼란 · 식량 90% 수입 의존 → 공급망 차질에 취약</text>
+
+  <line x1="60" y1="364" x2="840" y2="364" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="388" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">예멘 전역 — 더 무거운 숫자</text>
+
+  <text x="80" y="420" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">전체 기아 인구</text>
+  <text x="300" y="420" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#e0795b">1,830만명</text>
+
+  <text x="80" y="448" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">5세 미만 급성 영양실조</text>
+  <text x="300" y="448" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#e0795b">220만명 (중증 50만명)</text>
+
+  <line x1="60" y1="470" x2="840" y2="470" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="494" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">WFP — "예멘의 기아는 우리 눈앞에서 가속화되고 있다"</text>
+
+  <text x="60" y="510" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">도표는 VOA 코리아·Anadolu Agency 보도로 직접 작성</text>
+</svg>
