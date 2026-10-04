@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="경기샛-2A 메탄 관측 위성 도표. 10월 1일 미국 반덴버그 기지에서 스페이스X 팰컨9에 실려 발사됐고 10월 2일 새벽 지상국과 양방향 교신에 성공했다. 초분광 센서로 메탄이 흡수하는 특정 파장의 빛을 분석해 배출원을 찾는다. 캐나다 스페인 프랑스에 이어 세계 네 번째 메탄 관측 초소형위성이다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="48" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">GYEONGGISAT-2A — OCT 1-2</text>
+  <text x="60" y="76" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16.5" fill="#20231f">우주에서 첫 신호를 보냈습니다</text>
+  <text x="60" y="100" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">국내 최초 메탄 관측 위성 — 세계 네 번째</text>
+
+  <line x1="60" y1="120" x2="840" y2="120" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="144" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">발사부터 교신까지</text>
+
+  <rect x="60" y="156" width="780" height="34" fill="#62655d" opacity="0.08"/>
+  <text x="76" y="179" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">10/1 반덴버그 우주군 기지 — 스페이스X 팰컨9 로켓으로 발사</text>
+
+  <rect x="60" y="196" width="780" height="34" fill="#62655d" opacity="0.08"/>
+  <text x="76" y="219" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">발사 약 55분 후 — 궤도에서 정상 분리</text>
+
+  <rect x="60" y="236" width="780" height="34" fill="#16756a" opacity="0.15"/>
+  <text x="76" y="259" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">10/2 새벽 — 나라스페이스 위성관제센터와 양방향 교신 성공</text>
+
+  <line x1="60" y1="274" x2="840" y2="274" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="286" width="360" height="106" fill="#62655d" opacity="0.1"/>
+  <text x="76" y="310" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">어떻게 메탄을 찾나</text>
+  <text x="76" y="332" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#62655d">초분광 센서로 지표 반사광을 촘촘한</text>
+  <text x="76" y="350" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#62655d">파장대로 분해</text>
+  <text x="76" y="370" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#62655d">메탄이 흡수하는 특정 파장을 역추적해</text>
+  <text x="76" y="388" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#62655d">배출 집중 지점을 특정</text>
+
+  <rect x="480" y="286" width="360" height="106" fill="#16756a" opacity="0.14"/>
+  <text x="496" y="310" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">세계 메탄 관측 초소형위성</text>
+  <text x="496" y="334" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">캐나다 → 스페인 → 프랑스</text>
+  <text x="496" y="358" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#16756a">한국 (경기샛-2A) — 네 번째</text>
+
+  <line x1="60" y1="412" x2="840" y2="412" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="424" width="780" height="68" fill="#e0795b" opacity="0.13"/>
+  <text x="76" y="448" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">경기기후위성 사업 — 경기도·나라스페이스·서울대 기후연구실</text>
+  <text x="76" y="468" font-family="'IBM Plex Sans KR',sans-serif" font-size="11.5" fill="#62655d">광학위성 경기샛-1 + 초분광위성 경기샛-2A·2B, 총 3기 구성</text>
+  <text x="76" y="486" font-family="'IBM Plex Sans KR',sans-serif" font-size="11.5" fill="#62655d">민간 메탄 감시 군집위성 '나르샤(NarSha)'도 준비 중</text>
+
+  <text x="60" y="510" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">도표는 파이낸셜뉴스·이코노미사이언스·산경투데이 보도로 직접 작성</text>
+</svg>
