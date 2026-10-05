@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="IAC 2026 한국관 도표. 우주항공청이 10월 5일부터 9일까지 튀르키예 안탈리아 국제우주대회에 참가한다. 대전 경남 제주 3개 지자체와 항우연이 한국관을 공동 운영하며 우주 혁신기업 9곳이 기술을 전시한다. 누리호 5차 발사 예정일인 7일에는 발사 기념 배지 배포와 한국의 날 피칭데이 행사가 함께 열린다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="48" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">IAC 2026 — ANTALYA, OCT 5-9</text>
+  <text x="60" y="76" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16.5" fill="#20231f">한국 우주기업 9곳이 튀르키예로 갑니다</text>
+  <text x="60" y="100" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">누리호 5차 발사와 같은 주입니다</text>
+
+  <line x1="60" y1="120" x2="840" y2="120" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="138" width="360" height="100" fill="#62655d" opacity="0.1"/>
+  <text x="76" y="162" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">한국관 운영 주체</text>
+  <text x="76" y="186" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">우주항공청 + 한국항공우주연구원</text>
+  <text x="76" y="206" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">대전광역시 · 경상남도 · 제주특별자치도</text>
+  <text x="76" y="228" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" fill="#62655d">3개 지자체 공동 참여</text>
+
+  <rect x="480" y="138" width="360" height="100" fill="#16756a" opacity="0.14"/>
+  <text x="496" y="162" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">참여 기업</text>
+  <text x="496" y="190" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="19" fill="#16756a">한국관 9곳 + 단독부스 7곳</text>
+  <text x="496" y="212" font-family="'IBM Plex Sans KR',sans-serif" font-size="11.5" fill="#62655d">공모 선발 — 핵심 기술 전시</text>
+
+  <line x1="60" y1="256" x2="840" y2="256" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="280" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">한국관 참여 기업 9곳</text>
+  <rect x="60" y="292" width="780" height="54" fill="#62655d" opacity="0.08"/>
+  <text x="76" y="316" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">메카티엔에스 · 무인탐사연구소 · 스페이스 솔루션 · 스페이스맵 · 스펙스</text>
+  <text x="76" y="338" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">스텔라비전 · 지티엘 · 켄코아에어로스페이스 · 페리지에어로스페이스</text>
+
+  <line x1="60" y1="364" x2="840" y2="364" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="376" width="780" height="100" fill="#e0795b" opacity="0.14"/>
+  <text x="76" y="400" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">10월 7일 — 두 행사가 겹치는 날</text>
+  <text x="76" y="424" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">국내: 누리호 5차 발사 예정 — 한국관서 발사 기념 배지 배포</text>
+  <text x="76" y="446" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">현지: '한국의 날: 피칭데이' — 해외 바이어 대상 기술 설명·교류</text>
+  <text x="76" y="466" font-family="'IBM Plex Sans KR',sans-serif" font-size="11.5" fill="#62655d">지구 반대편에서 한국 우주산업의 두 장면이 동시에 펼쳐진다</text>
+
+  <text x="60" y="508" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">도표는 이투데이·데일리안 보도로 직접 작성</text>
+</svg>
