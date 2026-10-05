@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="북한 극초음속 미사일 발사 도표. 10월 3일 원산 일대에서 발사했고 북한은 1000킬로미터 명중을 주장했다. 앞선 두 차례와 달리 속도와 정점고도를 공개하지 않았다. 전문가는 자랑할 숫자가 있었다면 감출 이유가 없다며 성능 미완성 신호로 해석한다. 한국 합동참모본부는 비행거리를 700킬로미터 이상으로 평가했고 정상 발사시 사거리는 3000킬로미터에 달할 수 있다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="48" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">NORTH KOREA — OCT 3-5</text>
+  <text x="60" y="76" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16.5" fill="#20231f">"극초음속 미사일"이라는데, 숫자를 감췄다</text>
+  <text x="60" y="100" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">10/3 원산 일대 발사 — 김정은·리설주·김주애 참관</text>
+
+  <line x1="60" y1="120" x2="840" y2="120" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="144" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">공개한 수치 비교 — 이번엔 비행거리만</text>
+
+  <rect x="60" y="156" width="780" height="34" fill="#62655d" opacity="0.08"/>
+  <text x="76" y="179" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">1차 시험 — 정점고도 101.1km · 72.3km 공개</text>
+
+  <rect x="60" y="196" width="780" height="34" fill="#62655d" opacity="0.08"/>
+  <text x="76" y="219" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">2차 시험 — 속도 마하 12, 정점고도 99.8km · 42.5km 공개</text>
+
+  <rect x="60" y="236" width="780" height="34" fill="#e0795b" opacity="0.18"/>
+  <text x="76" y="259" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">이번 시험 — 비행거리 1,000km만 공개, 속도·정점고도는 없음</text>
+
+  <line x1="60" y1="274" x2="840" y2="274" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="286" width="360" height="106" fill="#e0795b" opacity="0.14"/>
+  <text x="76" y="310" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">전문가의 해석</text>
+  <text x="76" y="334" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">"자랑할 숫자가 있었다면</text>
+  <text x="76" y="354" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">감출 이유가 없다"</text>
+  <text x="76" y="376" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#62655d">→ 활강탄두 비행제어·열방호 미완성 신호</text>
+
+  <rect x="480" y="286" width="360" height="106" fill="#62655d" opacity="0.1"/>
+  <text x="496" y="310" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">한국 측 평가와의 간극</text>
+  <text x="496" y="334" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">북한 주장: 1,000km 명중</text>
+  <text x="496" y="354" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">합참 평가: 700km 이상</text>
+  <text x="496" y="376" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#e0795b">정상 발사 시 최대 3,000km 추정</text>
+
+  <line x1="60" y1="412" x2="840" y2="412" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="424" width="780" height="68" fill="#16756a" opacity="0.1"/>
+  <text x="76" y="448" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">3,000km 사거리면 일본·美괌까지 타격권 — 추진체는 화성-16나형 추정</text>
+  <text x="76" y="468" font-family="'IBM Plex Sans KR',sans-serif" font-size="11.5" fill="#62655d">"300km 음영 구간" 비행 성공 주장도 외부 검증은 불가능</text>
+
+  <text x="60" y="510" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">도표는 뉴스핌·SBS 보도로 직접 작성</text>
+</svg>
