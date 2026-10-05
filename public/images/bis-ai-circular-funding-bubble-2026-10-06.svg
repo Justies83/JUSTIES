@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="BIS AI 순환투자 분석 도표. 2021년부터 2025년까지 AI 기업에 유입된 투자금의 55.2퍼센트가 다른 AI 기업에서 나온 자금이다. 이 중 투자자와 피투자 기업이 공급망 관계도 맺은 거래는 건수 기준 16.1퍼센트지만 거래액 기준으로는 46.4퍼센트에 달한다. BIS는 1990년대 통신 버블과 비슷한 패턴이라며 거품 붕괴 시 세계 경제 장기침체 위험을 경고했다. 한국은 HBM 비중이 높아 AI 경기 사이클에 직결된다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="48" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">BIS BULLETIN NO.137 — OCT 2-3</text>
+  <text x="60" y="76" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16.5" fill="#20231f">AI 투자금의 55%가 AI 기업끼리 오갔다</text>
+  <text x="60" y="100" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">2021~2025년 투자 거래 전수 분석</text>
+
+  <line x1="60" y1="120" x2="840" y2="120" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="80" y="154" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">AI 기업발 자금 비중</text>
+  <rect x="260" y="142" width="248" height="20" fill="#e0795b" opacity="0.65"/>
+  <text x="518" y="156" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#e0795b">55.2%</text>
+
+  <text x="80" y="186" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">공급망 겹침 (거래액 기준)</text>
+  <rect x="260" y="174" width="209" height="20" fill="#62655d" opacity="0.4"/>
+  <text x="479" y="188" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">46.4%</text>
+
+  <text x="80" y="218" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">공급망 겹침 (거래 건수)</text>
+  <rect x="260" y="206" width="72" height="20" fill="#62655d" opacity="0.25"/>
+  <text x="342" y="220" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">16.1%</text>
+
+  <text x="260" y="244" font-family="'IBM Plex Sans KR',sans-serif" font-size="11.5" fill="#62655d">→ 소수의 대형 거래가 전체 금액의 절반 가까이 차지</text>
+
+  <line x1="60" y1="266" x2="840" y2="266" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="278" width="360" height="100" fill="#62655d" opacity="0.1"/>
+  <text x="76" y="302" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">BIS가 본 구조</text>
+  <text x="76" y="326" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#62655d">공급자가 고객사에 자금 대출</text>
+  <text x="76" y="346" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#62655d">→ 그 돈으로 공급자 제품 재구매</text>
+  <text x="76" y="368" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" fill="#e0795b">"1990년대 통신 버블과 유사"</text>
+
+  <rect x="480" y="278" width="360" height="100" fill="#e0795b" opacity="0.14"/>
+  <text x="496" y="302" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">한국에 던지는 경고</text>
+  <text x="496" y="326" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#62655d">HBM 등 AI 반도체 비중 높아 사이클 직결</text>
+  <text x="496" y="346" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#62655d">"AI 주가 급락 시 '빚투' 부실 현실화"</text>
+  <text x="496" y="368" font-family="'IBM Plex Sans KR',sans-serif" font-size="11.5" fill="#62655d">HBM 장기구매약정·장부외보증 미공시</text>
+
+  <line x1="60" y1="396" x2="840" y2="396" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="408" width="780" height="68" fill="#16756a" opacity="0.1"/>
+  <text x="76" y="432" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">BIS 연례보고서 — "AI 투자 거품 위험, 붕괴 시 세계경제 장기침체"</text>
+  <text x="76" y="452" font-family="'IBM Plex Sans KR',sans-serif" font-size="11.5" fill="#62655d">관건은 AI 서비스 기업들이 빌린 돈 없이 스스로 현금을 벌 수 있는가</text>
+
+  <text x="60" y="508" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">도표는 토큰포스트·글로벌이코노믹 보도로 직접 작성</text>
+</svg>
