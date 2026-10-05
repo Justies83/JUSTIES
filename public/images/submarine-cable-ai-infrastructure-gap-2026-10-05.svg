@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="해저케이블 국가전략기술 공백 도표. 국내 운영 중인 국제 해저통신케이블 9개 중 일부는 2001년에서 2002년 개통돼 설계수명 25년에 근접했다. 정부는 해저케이블을 중요 전기통신설비로 규정하면서도 국가전략기술 차세대통신 분야 지원 대상에는 포함하지 않았다. 현재 용량은 약 200테라인데 2035년에는 약 1675테라가 필요할 전망이다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="48" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">NATIONAL ASSEMBLY — OCT 5</text>
+  <text x="60" y="76" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16.5" fill="#20231f">해저케이블, AI 인프라인데 지원은 빠졌다</text>
+  <text x="60" y="100" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">김우영 의원 — 과기정통부 제출자료 분석</text>
+
+  <line x1="60" y1="120" x2="840" y2="120" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="138" width="360" height="100" fill="#e0795b" opacity="0.15"/>
+  <text x="76" y="162" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">노후화 — 설계수명 25년에 근접</text>
+  <text x="76" y="190" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="18" fill="#e0795b">국제 해저케이블 9개</text>
+  <text x="76" y="212" font-family="'IBM Plex Sans KR',sans-serif" font-size="11.5" fill="#62655d">일부 2001~2002년 개통</text>
+
+  <rect x="480" y="138" width="360" height="100" fill="#62655d" opacity="0.1"/>
+  <text x="496" y="162" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">제도적 모순</text>
+  <text x="496" y="186" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">'중요 전기통신설비'로 규정 ○</text>
+  <text x="496" y="208" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">'차세대 통신' 국가전략기술 지원 ×</text>
+
+  <line x1="60" y1="256" x2="840" y2="256" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="280" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">용량 수요 — 지금의 8배 이상</text>
+
+  <text x="80" y="314" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">현재 용량</text>
+  <rect x="230" y="302" width="54" height="20" fill="#62655d" opacity="0.35"/>
+  <text x="294" y="316" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#62655d">약 200테라</text>
+
+  <text x="80" y="346" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">2035년 필요 전망</text>
+  <rect x="230" y="334" width="450" height="20" fill="#e0795b" opacity="0.6"/>
+  <text x="690" y="348" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12.5" fill="#e0795b">약 1,675테라</text>
+
+  <line x1="60" y1="374" x2="840" y2="374" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="386" width="780" height="76" fill="#16756a" opacity="0.1"/>
+  <text x="76" y="410" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">과기정통부 대응 계획 — 재정·세제 지원은 빠진 채</text>
+  <text x="76" y="432" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#62655d">2030년까지 용량 220Tbps 이상 확대</text>
+  <text x="76" y="452" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#62655d">부산 집중 거점을 7곳으로 다변화</text>
+
+  <text x="60" y="488" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">김우영 — "핵심 인프라라 인정하면서도 지원 대상에선 빼놓았다"</text>
+
+  <text x="60" y="508" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">도표는 이데일리 보도로 직접 작성</text>
+</svg>
