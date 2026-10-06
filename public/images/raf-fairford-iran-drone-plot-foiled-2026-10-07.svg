@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="페어퍼드 기지 테러 모의 저지 도표. 이란 혁명수비대가 영국 공군 페어퍼드 기지에 드론과 차량탑재 급조폭발물로 복합 공격을 계획했다는 첩보가 포착됐다. 9월 27일 밤 농민의 신고로 저지돼 복면 남성 5명이 체포됐고 10월 6일 기준 7번째 용의자까지 잡혔다. 미국은 B1 전략폭격기 12대를 모두 본토로 철수시켰다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="48" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">RAF FAIRFORD, UK — OCT 7</text>
+  <text x="60" y="76" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16.5" fill="#20231f">이란의 드론 테러 계획, 농민 신고로 막혔다</text>
+  <text x="60" y="100" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">MI5도 놓친 걸 주민이 잡아냈다</text>
+
+  <line x1="60" y1="120" x2="840" y2="120" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="144" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">계획된 공격 — IRGC 첩보</text>
+
+  <rect x="60" y="156" width="360" height="90" fill="#e0795b" opacity="0.16"/>
+  <text x="76" y="180" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">드론 공격</text>
+  <text x="76" y="202" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">기지 내 군용기 직접 타격 목표</text>
+
+  <rect x="480" y="156" width="360" height="90" fill="#e0795b" opacity="0.16"/>
+  <text x="496" y="180" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">차량탑재 IED</text>
+  <text x="496" y="202" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">미군 조종사 등 병력 살해 목표</text>
+
+  <line x1="60" y1="264" x2="840" y2="264" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="288" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">저지 경위 — 9월 27일 밤 12시 45분</text>
+
+  <rect x="60" y="300" width="780" height="34" fill="#62655d" opacity="0.08"/>
+  <text x="76" y="323" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">MI5는 감지 못함 — 현지 농민이 기지로 향하는 차량 3대 신고</text>
+
+  <rect x="60" y="338" width="780" height="34" fill="#16756a" opacity="0.15"/>
+  <text x="76" y="361" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">글로스터셔 경찰 출동 — 웰퍼드서 복면 남성 5명 체포</text>
+
+  <rect x="60" y="376" width="780" height="34" fill="#16756a" opacity="0.15"/>
+  <text x="76" y="399" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">10/6 기준 — 7번째 용의자까지 추가 체포</text>
+
+  <line x1="60" y1="414" x2="840" y2="414" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="426" width="780" height="68" fill="#62655d" opacity="0.1"/>
+  <text x="76" y="450" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">미 국방부 — B-1 전략폭격기 12대 전부 미국 본토로 철수 확인</text>
+  <text x="76" y="470" font-family="'IBM Plex Sans KR',sans-serif" font-size="11.5" fill="#62655d">이란 공격 계획 자체에 대한 논평은 거부</text>
+
+  <text x="60" y="508" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">도표는 SBS·서울신문 보도로 직접 작성</text>
+</svg>
