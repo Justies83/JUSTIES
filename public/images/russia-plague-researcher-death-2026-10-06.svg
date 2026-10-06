@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="러시아 페스트 연구소 연구원 사망 도표. 이르쿠츠크 방역연구소 소속 28세 여성 연구원이 원인 불명의 폐렴으로 셸레호프 지역 병원에서 사망했다. 러시아 당국은 병원체 사고 흔적이 없다고 부인했지만 병원 입원동이 격리됐고 최대 200명이 관찰 대상에 올랐다. WHO는 공중보건 위험이 낮다고 평가했고 트럼프 대통령은 러시아를 돕겠다고 밝혔다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="48" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">IRKUTSK, RUSSIA — OCT 6</text>
+  <text x="60" y="76" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16.5" fill="#20231f">페스트 연구소 연구원이 숨졌습니다</text>
+  <text x="60" y="100" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">트럼프도 "도와주겠다"고 나섰습니다</text>
+
+  <line x1="60" y1="120" x2="840" y2="120" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="144" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">사건 경과</text>
+
+  <rect x="60" y="156" width="780" height="34" fill="#62655d" opacity="0.08"/>
+  <text x="76" y="179" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">이르쿠츠크 방역연구소 소속 28세 여성 연구원 — '원인 불명 폐렴' 진단</text>
+
+  <rect x="60" y="196" width="780" height="34" fill="#e0795b" opacity="0.18"/>
+  <text x="76" y="219" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">SNS — "살아있는 페스트균 시험관 파손" 소문 확산</text>
+
+  <rect x="60" y="236" width="780" height="34" fill="#62655d" opacity="0.08"/>
+  <text x="76" y="259" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">러시아 당국 — "병원체 취급 사고 흔적 없음" 반박, 셸레호프 병원서 사망</text>
+
+  <line x1="60" y1="274" x2="840" y2="274" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="286" width="360" height="100" fill="#62655d" opacity="0.1"/>
+  <text x="76" y="310" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">방역 조치</text>
+  <text x="76" y="334" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">셸레호프 병원 입원동 격리</text>
+  <text x="76" y="354" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">이르쿠츠크 시내 의료기관·산부인과 일부 폐쇄</text>
+  <text x="76" y="376" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#e0795b">최대 200명 의학적 관찰 대상</text>
+
+  <rect x="480" y="286" width="360" height="100" fill="#16756a" opacity="0.14"/>
+  <text x="496" y="310" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">WHO 평가</text>
+  <text x="496" y="334" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">"현재 정보로는 일반 대중</text>
+  <text x="496" y="354" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">공중보건 위험 낮은 수준"</text>
+  <text x="496" y="376" font-family="'IBM Plex Sans KR',sans-serif" font-size="11.5" fill="#62655d">관찰 대상 중 코로나19 2건·라이노바이러스 2건만 확인</text>
+
+  <line x1="60" y1="404" x2="840" y2="404" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="416" width="780" height="76" fill="#e0795b" opacity="0.13"/>
+  <text x="76" y="440" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">트럼프 대통령 — "러시아에 큰 문제" · "우리가 할 수 있는 최대한으로 도울 것"</text>
+  <text x="76" y="460" font-family="'IBM Plex Sans KR',sans-serif" font-size="11.5" fill="#62655d">루비오 국무장관도 상황을 면밀히 주시 중이라고 전달</text>
+  <text x="76" y="480" font-family="'IBM Plex Sans KR',sans-serif" font-size="11.5" fill="#62655d">러시아는 사고 부인 — 그럼에도 美가 먼저 지원 의사 표명</text>
+
+  <text x="60" y="508" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">도표는 파이낸셜뉴스·아시아투데이 보도로 직접 작성</text>
+</svg>
