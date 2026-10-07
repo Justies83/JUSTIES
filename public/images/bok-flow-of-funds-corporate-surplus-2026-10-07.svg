@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="2026년 2분기 한국은행 자금순환 도표. 기업 순자금운용은 1분기 20.8조원에서 2분기 67.1조원으로 2009년 통계 작성 이후 최대치를 기록했다. 가계 순자금운용은 1분기 79.2조원에서 2분기 60.7조원으로 줄었다. 가계의 국내 주식 투자는 18.3조원에서 67조원으로, 주식과 펀드 합산은 61.4조원에서 101.6조원으로 늘었고 은행 예금에서는 23.3조원이 빠져나갔다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="48" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">SEOUL — OCT 7</text>
+  <text x="60" y="76" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16.5" fill="#20231f">기업 곳간 67조, 가계는 증시로</text>
+  <text x="60" y="100" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">2분기 자금순환이 보여준 돈의 이동</text>
+
+  <line x1="60" y1="120" x2="840" y2="120" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="144" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">순자금운용 (조원) — 1분기 → 2분기</text>
+
+  <text x="60" y="172" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">기업 1분기</text>
+  <rect x="180" y="160" width="166" height="18" fill="#62655d" opacity="0.28"/>
+  <text x="354" y="173" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" fill="#62655d">20.8</text>
+
+  <text x="60" y="200" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">기업 2분기</text>
+  <rect x="180" y="188" width="537" height="18" fill="#16756a" opacity="0.7"/>
+  <text x="725" y="201" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" fill="#16756a">67.1 (역대 최대)</text>
+
+  <text x="60" y="236" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">가계 1분기</text>
+  <rect x="180" y="224" width="634" height="18" fill="#62655d" opacity="0.28"/>
+  <text x="822" y="237" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" fill="#62655d">79.2</text>
+
+  <text x="60" y="264" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">가계 2분기</text>
+  <rect x="180" y="252" width="486" height="18" fill="#e0795b" opacity="0.6"/>
+  <text x="674" y="265" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" fill="#e0795b">60.7</text>
+
+  <line x1="60" y1="292" x2="840" y2="292" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="316" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">가계의 머니무브</text>
+
+  <rect x="60" y="328" width="360" height="100" fill="#16756a" opacity="0.14"/>
+  <text x="76" y="352" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">국내 주식 투자</text>
+  <text x="76" y="374" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#16756a">18.3조원 → 67조원</text>
+  <text x="76" y="396" font-family="'IBM Plex Sans KR',sans-serif" font-size="11.5" fill="#62655d">주식+펀드 합산 61.4조원 → 101.6조원</text>
+
+  <rect x="480" y="328" width="360" height="100" fill="#e0795b" opacity="0.16"/>
+  <text x="496" y="352" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">은행 예금 유출</text>
+  <text x="496" y="374" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#e0795b">-23.3조원</text>
+  <text x="496" y="396" font-family="'IBM Plex Sans KR',sans-serif" font-size="11.5" fill="#62655d">예금에 머물던 돈이 증시로 이동</text>
+
+  <line x1="60" y1="446" x2="840" y2="446" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="470" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">10/8 삼성전자 3분기 잠정실적 발표 — 반도체 흑자·증시 쏠림 지속 여부 주목</text>
+
+  <text x="60" y="508" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">도표는 헤럴드경제·이투데이 보도로 직접 작성</text>
+</svg>
