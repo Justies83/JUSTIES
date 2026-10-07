@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="케냐 첫 에볼라 확진·사망 도표. 콩고민주공화국 부타에서 7년간 거주한 40세 케냐 국적 남성이 우간다 캄팔라를 거쳐 10월 3일 나이로비에 입국했고, 분디부조 바이러스 양성 판정 뒤 10월 5일 밤 11시 30분 사망했다. 가족 8명과 의료진 21명 등 28명이 접촉자로 추적 관찰 중이며, 콩고민주공화국 발병은 9월 30일 기준 누적 사망자 4018명에 달한다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="48" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">NAIROBI, KENYA — OCT 6</text>
+  <text x="60" y="76" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16.5" fill="#20231f">콩고 에볼라, 결국 국경을 넘었다</text>
+  <text x="60" y="100" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">케냐 첫 확진자, 입국 사흘 만에 사망</text>
+
+  <line x1="60" y1="120" x2="840" y2="120" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="144" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">이동 경로 — 부타(DRC) → 캄팔라(우간다) → 나이로비</text>
+
+  <rect x="60" y="156" width="230" height="70" fill="#62655d" opacity="0.1"/>
+  <text x="76" y="178" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">부타, DRC 거주 7년</text>
+  <text x="76" y="198" font-family="'IBM Plex Sans KR',sans-serif" font-size="11.5" fill="#62655d">약 한 달간 증상 — 육로 이동</text>
+
+  <rect x="310" y="156" width="230" height="70" fill="#62655d" opacity="0.1"/>
+  <text x="326" y="178" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">캄팔라, 우간다 경유</text>
+  <text x="326" y="198" font-family="'IBM Plex Sans KR',sans-serif" font-size="11.5" fill="#62655d">참보제트 항공편 탑승</text>
+
+  <rect x="560" y="156" width="280" height="70" fill="#e0795b" opacity="0.18"/>
+  <text x="576" y="178" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">나이로비 입국 — 10월 3일</text>
+  <text x="576" y="198" font-family="'IBM Plex Sans KR',sans-serif" font-size="11.5" fill="#62655d">JKIA 검역 통과 후 지인이 병원 이송</text>
+
+  <line x1="290" y1="191" x2="310" y2="191" stroke="#62655d" stroke-width="2"/>
+  <line x1="540" y1="191" x2="560" y2="191" stroke="#62655d" stroke-width="2"/>
+
+  <line x1="60" y1="244" x2="840" y2="244" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="268" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">진단과 경과</text>
+
+  <rect x="60" y="280" width="780" height="34" fill="#62655d" opacity="0.08"/>
+  <text x="76" y="303" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">나이로비 병원 → 이스트윙 격리시설 이송 — 정밀 검사 실시</text>
+
+  <rect x="60" y="318" width="780" height="34" fill="#e0795b" opacity="0.18"/>
+  <text x="76" y="341" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">에볼라 양성 — 백신·치료제 없는 분디부조 바이러스 확인</text>
+
+  <rect x="60" y="356" width="780" height="34" fill="#e0795b" opacity="0.28"/>
+  <text x="76" y="379" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">10월 5일 밤 11시 30분 사망 — 지지 치료에도 회복하지 못함</text>
+
+  <line x1="60" y1="394" x2="840" y2="394" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="406" width="360" height="90" fill="#16756a" opacity="0.14"/>
+  <text x="76" y="430" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">밀접 접촉자 28명 추적</text>
+  <text x="76" y="454" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">가족 8명 + 의료진 21명</text>
+  <text x="76" y="474" font-family="'IBM Plex Sans KR',sans-serif" font-size="11.5" fill="#62655d">현재까지 2차 감염 사례 없음</text>
+
+  <rect x="480" y="406" width="360" height="90" fill="#62655d" opacity="0.1"/>
+  <text x="496" y="430" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">콩고민주공화국 발병 현황</text>
+  <text x="496" y="454" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">9월 30일 기준 누적 사망 4,018명</text>
+  <text x="496" y="474" font-family="'IBM Plex Sans KR',sans-serif" font-size="11.5" fill="#62655d">17번째 발병 — 역대 최속 확산</text>
+
+  <text x="60" y="508" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">도표는 알자지라·재경일보 보도로 직접 작성</text>
+</svg>
