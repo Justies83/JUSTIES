@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="누리호 5차 발사 성공 도표. 10월 7일 낮 12시 25분 전남 고흥 나로우주센터에서 발사해 약 20분 뒤 고도 570km에서 위성을 분리했다. 주탑재체 네온샛 5기는 모두 성공했고 부탑재체 큐브위성은 10기 중 9기가 성공, 1기(PERSAT02)만 분리에 실패했다. 누적 발사 성공률은 75%에서 80%로 올랐다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="48" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">GOHEUNG, KOREA — OCT 7</text>
+  <text x="60" y="76" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16.5" fill="#20231f">누리호 5차 발사 성공</text>
+  <text x="60" y="100" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">15기 중 14기 위성이 궤도에 올랐다</text>
+
+  <line x1="60" y1="120" x2="840" y2="120" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="144" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">발사 타임라인</text>
+
+  <rect x="60" y="156" width="230" height="60" fill="#62655d" opacity="0.1"/>
+  <text x="76" y="178" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">12:25 발사</text>
+  <text x="76" y="198" font-family="'IBM Plex Sans KR',sans-serif" font-size="11.5" fill="#62655d">나로우주센터, 전남 고흥</text>
+
+  <rect x="310" y="156" width="230" height="60" fill="#62655d" opacity="0.1"/>
+  <text x="326" y="178" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">12:45 위성 분리</text>
+  <text x="326" y="198" font-family="'IBM Plex Sans KR',sans-serif" font-size="11.5" fill="#62655d">발사 약 20분 뒤</text>
+
+  <rect x="560" y="156" width="280" height="60" fill="#16756a" opacity="0.16"/>
+  <text x="576" y="178" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">고도 570km</text>
+  <text x="576" y="198" font-family="'IBM Plex Sans KR',sans-serif" font-size="11.5" fill="#62655d">목표 궤도 진입</text>
+
+  <line x1="290" y1="186" x2="310" y2="186" stroke="#62655d" stroke-width="2"/>
+  <line x1="540" y1="186" x2="560" y2="186" stroke="#62655d" stroke-width="2"/>
+
+  <line x1="60" y1="244" x2="840" y2="244" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="268" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">위성 분리 결과 — 15기 중 14기 성공</text>
+
+  <text x="60" y="296" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">네온샛 (주탑재체)</text>
+  <rect x="220" y="284" width="200" height="18" fill="#16756a" opacity="0.7"/>
+  <text x="428" y="297" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" fill="#16756a">5/5 전부 성공</text>
+
+  <text x="60" y="328" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">큐브위성 (부탑재체)</text>
+  <rect x="220" y="316" width="360" height="18" fill="#16756a" opacity="0.7"/>
+  <rect x="580" y="316" width="40" height="18" fill="#e0795b" opacity="0.6"/>
+  <text x="630" y="329" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" fill="#62655d">9/10 성공, PERSAT02 분리 실패</text>
+
+  <line x1="60" y1="356" x2="840" y2="356" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="380" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">누적 발사 성공률</text>
+
+  <text x="60" y="404" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">4차까지</text>
+  <rect x="160" y="392" width="300" height="18" fill="#62655d" opacity="0.28"/>
+  <text x="470" y="405" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" fill="#62655d">75%</text>
+
+  <text x="60" y="432" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">5차까지</text>
+  <rect x="160" y="420" width="320" height="18" fill="#16756a" opacity="0.7"/>
+  <text x="490" y="433" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" fill="#16756a">80%</text>
+
+  <text x="60" y="508" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">도표는 코리아타임스 보도로 직접 작성</text>
+</svg>
