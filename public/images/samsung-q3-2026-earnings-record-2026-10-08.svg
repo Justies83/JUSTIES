@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="삼성전자 2026년 3분기 잠정실적 도표. 영업이익 107.4조원으로 분기 최초 100조원을 넘었고 전년 동기 12.1조원 대비 782.5% 늘었다. 매출은 195조원으로 전년 동기 86.1조원 대비 126.59% 늘었다. 지난해 4분기부터 4개 분기 연속 역대 최대를 기록했고 올해 1~3분기 누적 매출은 500.37조원, 영업이익은 254.13조원이다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="48" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">SAMSUNG ELECTRONICS — OCT 8</text>
+  <text x="60" y="76" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16.5" fill="#20231f">분기 영업이익 사상 첫 100조원 돌파</text>
+  <text x="60" y="100" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">3분기 잠정실적, 전년 동기 대비 782.5% 증가</text>
+
+  <line x1="60" y1="120" x2="840" y2="120" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="144" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">영업이익 (조원) — 2025 Q3 → 2026 Q3</text>
+
+  <text x="60" y="172" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">2025년 3분기</text>
+  <rect x="220" y="160" width="62" height="18" fill="#62655d" opacity="0.28"/>
+  <text x="290" y="173" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" fill="#62655d">12.1조원</text>
+
+  <text x="60" y="200" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">2026년 3분기</text>
+  <rect x="220" y="188" width="547" height="18" fill="#16756a" opacity="0.7"/>
+  <text x="775" y="201" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" fill="#16756a">107.4조원</text>
+
+  <line x1="60" y1="226" x2="840" y2="226" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="250" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">매출 (조원) — 2025 Q3 → 2026 Q3</text>
+
+  <text x="60" y="278" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">2025년 3분기</text>
+  <rect x="220" y="266" width="241" height="18" fill="#62655d" opacity="0.28"/>
+  <text x="469" y="279" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" fill="#62655d">86.1조원</text>
+
+  <text x="60" y="306" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">2026년 3분기</text>
+  <rect x="220" y="294" width="546" height="18" fill="#e0795b" opacity="0.6"/>
+  <text x="774" y="307" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" fill="#e0795b">195조원</text>
+
+  <line x1="60" y1="332" x2="840" y2="332" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="344" width="360" height="90" fill="#62655d" opacity="0.1"/>
+  <text x="76" y="368" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">4개 분기 연속 역대 최대</text>
+  <text x="76" y="390" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#62655d">2025년 4분기부터 매출·영업이익 모두 경신</text>
+  <text x="76" y="410" font-family="'IBM Plex Sans KR',sans-serif" font-size="11.5" fill="#62655d">사업부문별 세부 수치는 이번 발표에 미포함</text>
+
+  <rect x="480" y="344" width="360" height="90" fill="#16756a" opacity="0.14"/>
+  <text x="496" y="368" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#20231f">2026년 1~3분기 누적</text>
+  <text x="496" y="390" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#16756a">매출 500.37조원</text>
+  <text x="496" y="410" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#16756a">영업이익 254.13조원</text>
+
+  <text x="60" y="508" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">도표는 파이낸셜뉴스 보도로 직접 작성</text>
+</svg>
