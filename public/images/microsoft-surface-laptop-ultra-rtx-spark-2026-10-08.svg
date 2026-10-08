@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="서피스 랩톱 울트라 도표. 10월 7일 샌프란시스코 행사에서 가격 2599.99달러로 공개됐다. 엔비디아 RTX 스파크 칩은 최대 20코어 ARM CPU에 블랙웰 GPU를 결합했다. 통합 메모리 최대 128GB, 저장공간 최대 2TB, 15인치 120Hz 터치스크린에 밝기 2000니트, DCI-P3 색영역 100%를 지원한다. 올해 6월 빌드 2026에서 처음 공개된 뒤 이번 행사에서 가격과 사양이 확정됐다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="48" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">SAN FRANCISCO — OCT 7</text>
+  <text x="60" y="76" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16.5" fill="#20231f">엔비디아 칩 품은 서피스, 가격 공개</text>
+  <text x="60" y="100" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">서피스 랩톱 울트라 2,599.99달러 — 몇 년 만의 오프라인 행사</text>
+
+  <line x1="60" y1="120" x2="840" y2="120" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="132" width="230" height="52" fill="#16756a" opacity="0.14"/>
+  <text x="76" y="154" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">가격</text>
+  <text x="76" y="174" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#16756a">$2,599.99</text>
+
+  <rect x="310" y="132" width="230" height="52" fill="#62655d" opacity="0.1"/>
+  <text x="326" y="154" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">칩</text>
+  <text x="326" y="174" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13.5" fill="#62655d">엔비디아 RTX 스파크</text>
+
+  <rect x="560" y="132" width="280" height="52" fill="#62655d" opacity="0.1"/>
+  <text x="576" y="154" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">참석자</text>
+  <text x="576" y="174" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#62655d">나델라 · 다불루리 · 젠슨 황</text>
+
+  <line x1="60" y1="202" x2="840" y2="202" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="226" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">RTX 스파크 칩 구성</text>
+
+  <rect x="60" y="238" width="780" height="34" fill="#62655d" opacity="0.08"/>
+  <text x="76" y="261" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">최대 20코어 ARM 기반 CPU + 엔비디아 블랙웰 GPU 결합</text>
+
+  <rect x="60" y="276" width="780" height="34" fill="#16756a" opacity="0.15"/>
+  <text x="76" y="299" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">통합 메모리 최대 128GB — CPU·GPU 공유</text>
+
+  <rect x="60" y="314" width="780" height="34" fill="#16756a" opacity="0.15"/>
+  <text x="76" y="337" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">저장공간 최대 2TB · 15인치 120Hz 터치스크린 (2,000니트, DCI-P3 100%)</text>
+
+  <line x1="60" y1="364" x2="840" y2="364" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="376" width="780" height="68" fill="#62655d" opacity="0.1"/>
+  <text x="76" y="400" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">2026년 6월 빌드 2026에서 최초 공개 — 가격·사양 미정</text>
+  <text x="76" y="420" font-family="'IBM Plex Sans KR',sans-serif" font-size="11.5" fill="#62655d">약 넉 달 만인 이번 행사에서 구체적인 가격과 사양 확정</text>
+
+  <text x="60" y="508" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">도표는 Microsoft 공식 제품 페이지 정보로 직접 작성</text>
+</svg>
