@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="2026년 노벨물리학상 도표. 벨기에 출신 물리학자 프랜시스 핼즌이 남극 아이스큐브 중성미자 관측소 연구로 10월 6일 수상자로 발표됐다. 1988년 아이디어를 처음 냈고, 중성미자는 질량과 전하가 거의 없어 초당 100조개가 사람 몸을 통과한다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="48" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">STOCKHOLM — OCT 6</text>
+  <text x="60" y="76" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16.5" fill="#20231f">남극 얼음이 노벨물리학상을 받았다</text>
+  <text x="60" y="100" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">프랜시스 핼즌, 중성미자 관측소 '아이스큐브'로 수상</text>
+
+  <line x1="60" y1="120" x2="840" y2="120" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="144" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">아이디어에서 수상까지</text>
+
+  <rect x="60" y="156" width="230" height="60" fill="#62655d" opacity="0.1"/>
+  <text x="76" y="178" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">1988년</text>
+  <text x="76" y="198" font-family="'IBM Plex Sans KR',sans-serif" font-size="11.5" fill="#62655d">남극 얼음을 망원경으로 쓰자는 구상</text>
+
+  <rect x="310" y="156" width="230" height="60" fill="#62655d" opacity="0.1"/>
+  <text x="326" y="178" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">아이스큐브 건설</text>
+  <text x="326" y="198" font-family="'IBM Plex Sans KR',sans-serif" font-size="11.5" fill="#62655d">남극점 빙하 속 센서 매설</text>
+
+  <rect x="560" y="156" width="280" height="60" fill="#16756a" opacity="0.16"/>
+  <text x="576" y="178" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">2026년 10월 6일</text>
+  <text x="576" y="198" font-family="'IBM Plex Sans KR',sans-serif" font-size="11.5" fill="#62655d">노벨물리학상 수상 발표</text>
+
+  <line x1="290" y1="186" x2="310" y2="186" stroke="#62655d" stroke-width="2"/>
+  <line x1="540" y1="186" x2="560" y2="186" stroke="#62655d" stroke-width="2"/>
+
+  <line x1="60" y1="244" x2="840" y2="244" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="268" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">중성미자 — '유령 입자'로 불리는 이유</text>
+
+  <rect x="60" y="280" width="780" height="34" fill="#62655d" opacity="0.08"/>
+  <text x="76" y="303" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">질량이 거의 없고 전하도 없어 행성·별·사람 몸까지 그대로 통과</text>
+
+  <rect x="60" y="318" width="780" height="34" fill="#16756a" opacity="0.15"/>
+  <text x="76" y="341" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">초당 100조개가 우리 몸을 지나가지만 다른 물질과 거의 반응하지 않음</text>
+
+  <rect x="60" y="356" width="780" height="34" fill="#16756a" opacity="0.15"/>
+  <text x="76" y="379" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">얼음 속 원자핵과 충돌할 때 나오는 희미한 빛을 센서로 포착해 검출</text>
+
+  <line x1="60" y1="406" x2="840" y2="406" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="418" width="780" height="66" fill="#62655d" opacity="0.1"/>
+  <text x="76" y="442" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#20231f">핼즌 — "전혀 예상하지 못했다, 기분이 이상했다"</text>
+  <text x="76" y="462" font-family="'IBM Plex Sans KR',sans-serif" font-size="11.5" fill="#62655d">현재 추진 중인 새 연구 제안이 승인되길 바란다는 농담도 덧붙임</text>
+
+  <text x="60" y="508" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">도표는 알자지라 보도로 직접 작성</text>
+</svg>
