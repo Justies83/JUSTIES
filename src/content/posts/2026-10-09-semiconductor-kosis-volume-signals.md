@@ -75,6 +75,9 @@ source:
 <u>금액 지표가 '호황'을 말하는 동안 생산·출하·재고·가동률이라는 물량 지표는 정체와 둔화를 가리키고 있다는 점, 이것이 KOSIS 데이터가 확인해준 바입니다.</u> 그는 마이크론의 실적 가이던스를 근거로 2026년 3분기가 메모리 업계의 실적 고점이었을 가능성을 제기하기도 했습니다.
 </p>
 
+<p align="center"><a href="https://youtu.be/Azoffhprpf8" target="_blank" rel="noopener"><img src="/images/semiconductor-video-thumb-2026-10-09.jpg" alt="SBS Biz 하우머니 이주완 박사 인터뷰 영상 썸네일" style="max-width:100%;height:auto;"/></a></p>
+<p align="center" class="caption"><em>영상: SBS Biz 하우머니 (2026.10.08) — 클릭하면 유튜브에서 재생됩니다</em></p>
+
 <p align="center">
 물론 데이터가 보여주는 것은 "캐파 대비 산출 축소"라는 사실관계까지입니다<br/>
 그것이 의도적인 감산인지, 수요 둔화에 대한 대응인지는 이 지표만으로 단정할 수 없습니다<br/>
