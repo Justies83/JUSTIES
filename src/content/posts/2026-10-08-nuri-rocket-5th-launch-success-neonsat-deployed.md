@@ -11,28 +11,19 @@ source:
   name: 코리아타임스 (2026.10.07)
   url: https://www.koreatimes.co.kr/business/tech-science/20261007/cover-story-nuri-rocket-successfully-completes-5th-flight
 ---
+<p align="center">한국형 발사체 누리호가 <strong>10월 7일</strong> 낮 <strong>12시 25분</strong> 전남 고흥 나로우주센터에서 다섯 번째 발사에 성공했습니다. <a href="/posts/2026-10-05-iac2026-korea-pavilion-nuri-5th-launch-same-week">같은 주 튀르키예 안탈리아에서 열린 국제우주대회 기간에 예정돼 있던</a> 발사로, 발사 뒤 약 <strong>20분이</strong> 지난 낮 12시 45분쯤 고도 <strong>570km에서</strong> 탑재 위성들을 차례로 분리했습니다.</p>
 
-한국형 발사체 누리호가 **10월 7일** 낮 **12시 25분** 전남 고흥 나로우주센터에서
-다섯 번째 발사에 성공했습니다. [같은 주 튀르키예 안탈리아에서 열린 국제우주대회
-기간에 예정돼 있던](/posts/2026-10-05-iac2026-korea-pavilion-nuri-5th-launch-same-week)
-발사로, 발사 뒤 약 **20분이** 지난 낮 12시 45분쯤 고도 **570km에서** 탑재
-위성들을 차례로 분리했습니다.
+<p align="center">주탑재체인 초소형위성 '네온샛' <strong>5기는</strong> 모두 예정된 순서대로 성공적으로 분리됐습니다. 우주항공청은 네온샛 5기를 한 번에 궤도에 올린 것이 여러 주 탑재체를 동시에 배치한 국내 최초 사례라고 설명했습니다. 반면 부탑재체로 함께 실린 큐브위성 <strong>10기</strong> 중에서는 <strong>9기만</strong> 분리에 성공했고, 콰터니언사의 '<strong>PERSAT02</strong>' 1기는 로켓에서 분리되지 않았습니다.</p>
 
-주탑재체인 초소형위성 '네온샛' **5기는** 모두 예정된 순서대로 성공적으로
-분리됐습니다. 우주항공청은 네온샛 5기를 한 번에 궤도에 올린 것이 여러 주
-탑재체를 동시에 배치한 국내 최초 사례라고 설명했습니다. 반면 부탑재체로
-함께 실린 큐브위성 **10기** 중에서는 **9기만** 분리에 성공했고, 콰터니언사의
-'**PERSAT02**' 1기는 로켓에서 분리되지 않았습니다.
+<p align="center">우주항공청 오태석 청장은 "누리호가 계획된 5차 발사 임무를 성공적으로 완수했으며, 주탑재체인 네온샛 5기도 계획된 순서에 따라 분리에 성공한 것을 확인했다"고 밝혔습니다. 이번 발사로 누리호의 누적 발사 성공률은 기존 <strong>75%에서</strong> <strong>80%로</strong> 올라갔습니다.</p>
 
-우주항공청 오태석 청장은 "누리호가 계획된 5차 발사 임무를 성공적으로
-완수했으며, 주탑재체인 네온샛 5기도 계획된 순서에 따라 분리에 성공한 것을
-확인했다"고 밝혔습니다. 이번 발사로 누리호의 누적 발사 성공률은 기존
-**75%에서** **80%로** 올라갔습니다.
+<p align="center"><img src="/images/nuri-5th-inline-2026-10-08.jpg" alt="AI 생성 이미지: 로켓 발사 장면" style="max-width:100%;height:auto;"/></p>
 
-큐브위성 한 기가 분리에 실패한 원인은 아직 공식적으로 설명되지 않았습니다.
-로켓 자체의 비행과 주탑재체 분리는 계획대로 이뤄졌다는 점에서, 이번 실패는
-발사체보다는 해당 큐브위성 쪽 장치의 문제일 가능성이 높아 보입니다. 다만
-이 부분은 추가 조사 결과가 나와야 분명해질 것으로 보입니다.
+<p align="center" class="caption"><em>AI 생성 이미지: 로켓 발사 장면</em></p>
 
-참고한 기사 —
-[코리아타임스](https://www.koreatimes.co.kr/business/tech-science/20261007/cover-story-nuri-rocket-successfully-completes-5th-flight)
+<p align="center">큐브위성 한 기가 분리에 실패한 원인은 아직 공식적으로 설명되지 않았습니다. 로켓 자체의 비행과 주탑재체 분리는 계획대로 이뤄졌다는 점에서, 이번 실패는 발사체보다는 해당 큐브위성 쪽 장치의 문제일 가능성이 높아 보입니다. 다만 이 부분은 추가 조사 결과가 나와야 분명해질 것으로 보입니다.</p>
+
+<p align="center">
+참고한 기사 —<br/>
+<a href="https://www.koreatimes.co.kr/business/tech-science/20261007/cover-story-nuri-rocket-successfully-completes-5th-flight">코리아타임스</a>
+</p>
