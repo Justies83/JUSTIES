@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="system-ui, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif">
+  <rect x="0" y="0" width="900" height="520" fill="#f4f1ea"/>
+  <text x="450" y="52" text-anchor="middle" font-size="30" font-weight="700" fill="#20231f">리야드 공항 공격 일지 — 2026년 10월 7~9일</text>
+  <text x="450" y="84" text-anchor="middle" font-size="17" fill="#62655d">사우디 민간항공청·연합군 발표와 각 매체 보도를 정리</text>
+
+  <line x1="120" y1="220" x2="780" y2="220" stroke="#16756a" stroke-width="4"/>
+
+  <!-- Node 1 -->
+  <circle cx="150" cy="220" r="26" fill="#16756a"/>
+  <text x="150" y="229" text-anchor="middle" font-size="20" font-weight="700" fill="#f4f1ea">7</text>
+  <text x="150" y="150" text-anchor="middle" font-size="22" font-weight="700" fill="#20231f">10월 7일 (수)</text>
+  <text x="150" y="290" text-anchor="middle" font-size="18" fill="#20231f">리야드·아브하 공항 공격</text>
+  <text x="150" y="318" text-anchor="middle" font-size="18" font-weight="700" fill="#e0795b">사망 3명</text>
+  <text x="150" y="346" text-anchor="middle" font-size="16" fill="#62655d">리야드행 항공편 운항 중단 시작</text>
+
+  <!-- Node 2 -->
+  <circle cx="450" cy="220" r="26" fill="#16756a"/>
+  <text x="450" y="229" text-anchor="middle" font-size="20" font-weight="700" fill="#f4f1ea">8</text>
+  <text x="450" y="150" text-anchor="middle" font-size="22" font-weight="700" fill="#20231f">10월 8일 (목)</text>
+  <text x="450" y="290" text-anchor="middle" font-size="18" fill="#20231f">리야드 공항 2차례 공격</text>
+  <text x="450" y="318" text-anchor="middle" font-size="18" font-weight="700" fill="#e0795b">사망 3명 · 사우디아 기장 포함</text>
+  <text x="450" y="346" text-anchor="middle" font-size="16" fill="#62655d">수백 편 취소 · 오후 6시 공항 정상화</text>
+
+  <!-- Node 3 -->
+  <circle cx="750" cy="220" r="26" fill="#16756a"/>
+  <text x="750" y="229" text-anchor="middle" font-size="20" font-weight="700" fill="#f4f1ea">9</text>
+  <text x="750" y="150" text-anchor="middle" font-size="22" font-weight="700" fill="#20231f">10월 9일 (금)</text>
+  <text x="750" y="290" text-anchor="middle" font-size="18" fill="#20231f">민간항공청 사망 공식 확인</text>
+  <text x="750" y="318" text-anchor="middle" font-size="18" font-weight="700" fill="#e0795b">항공편 점진 재개</text>
+  <text x="750" y="346" text-anchor="middle" font-size="16" fill="#62655d">연합군 보복 · 각국 규탄 성명</text>
+
+  <!-- Summary bar -->
+  <rect x="120" y="392" width="660" height="64" rx="10" fill="#16756a" opacity="0.12"/>
+  <text x="450" y="431" text-anchor="middle" font-size="21" font-weight="700" fill="#20231f">이번 주 사우디 공항 공격 사망자 총 6명 — 후티의 공세 이후 최다</text>
+
+  <text x="450" y="492" text-anchor="middle" font-size="14" fill="#62655d" font-family="ui-monospace, 'SF Mono', Menlo, monospace">자료: AP·The National·Khaleej Times (2026.10.09) — 도표는 기사 수치를 바탕으로 직접 작성</text>
+</svg>
