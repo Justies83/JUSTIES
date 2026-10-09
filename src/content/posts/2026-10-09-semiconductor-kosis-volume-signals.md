@@ -5,8 +5,8 @@ category: finance
 kind: opinion
 takeaway: 9월 반도체 수출이 600억 달러를 돌파했지만, 국가데이터처의 물량 지표를 보면 다른 그림이 나타납니다. 반도체 생산 증가율은 2025년 평균 14.7%에서 2026년 1\~8월 평균 6.3%로 둔화했고 8월에는 1.4%에 그쳤으며, 재고 증가율은 6월 플러스 전환 후 8월 8.8%까지 올랐습니다. 생산능력은 전년보다 8\~9% 늘었는데 가동률지수는 지난해 10월부터 마이너스로 돌아섰습니다. 금액이 아닌 물량으로 보면 2026년 반도체는 사이클 후반부의 패턴을 보이고 있습니다.
 tags: [반도체, KOSIS, 산업활동동향, 재고순환, 메모리]
-cover: /images/semiconductor-kosis-volume-signals-2026-10-09.svg
-coverAlt: 2026년 8월 반도체 물량 지표 — 생산·출하 증가율 둔화, 재고 증가율 플러스 전환, 생산능력 확장과 가동률 하락을 보여주는 도표
+cover: /images/semiconductor-kosis-volume-signals-2026-10-09.jpg
+coverAlt: 클린룸에서 회로 패턴이 새겨진 실리콘 웨이퍼를 집게로 들고 있는 모습
 source:
   name: SBS Biz 하우머니 (2026.10.08)
   url: https://youtu.be/Azoffhprpf8
