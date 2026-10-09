@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="스페인 조기 총선 도표. 10월 2일 하원이 주거 법령 2건을 부결했고, 10월 5일 산체스 총리가 의회를 해산해 11월 29일 총선을 발표했으며, 10월 7일 강제 퇴거를 당했던 87세 마리카르멘 씨가 숨졌다. 엘문도 의뢰 조사에서 의석 전망은 국민당 140석, 사회노동당 103석, 복스 63석이고 과반은 176석이다.">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+
+  <text x="60" y="48" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">MADRID — OCT 2 TO OCT 7</text>
+  <text x="60" y="76" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16.5" fill="#20231f">스페인, 11월 29일 조기 총선</text>
+  <text x="60" y="100" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">주거 법령 부결이 먼저, 마리카르멘의 죽음은 그 뒤였다</text>
+
+  <line x1="60" y1="120" x2="840" y2="120" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="144" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">경과 — 순서 그대로</text>
+
+  <rect x="60" y="156" width="180" height="78" fill="#62655d" opacity="0.1"/>
+  <text x="74" y="178" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">10월 2일</text>
+  <text x="74" y="198" font-family="'IBM Plex Sans KR',sans-serif" font-size="11.5" fill="#62655d">주거 법령 2건 부결</text>
+  <text x="74" y="216" font-family="'IBM Plex Sans KR',sans-serif" font-size="11.5" fill="#62655d">융츠·PP·복스 반대</text>
+
+  <rect x="260" y="156" width="180" height="78" fill="#16756a" opacity="0.16"/>
+  <text x="274" y="178" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">10월 5일</text>
+  <text x="274" y="198" font-family="'IBM Plex Sans KR',sans-serif" font-size="11.5" fill="#62655d">산체스, 의회 해산</text>
+  <text x="274" y="216" font-family="'IBM Plex Sans KR',sans-serif" font-size="11.5" fill="#62655d">총선 11월 29일 발표</text>
+
+  <rect x="460" y="156" width="180" height="78" fill="#e0795b" opacity="0.18"/>
+  <text x="474" y="178" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">10월 7일</text>
+  <text x="474" y="198" font-family="'IBM Plex Sans KR',sans-serif" font-size="11.5" fill="#62655d">마리카르멘 사망 (87세)</text>
+  <text x="474" y="216" font-family="'IBM Plex Sans KR',sans-serif" font-size="11.5" fill="#62655d">9월 23일 퇴거, 입원 약 15일</text>
+
+  <rect x="660" y="156" width="180" height="78" fill="#62655d" opacity="0.1"/>
+  <text x="674" y="178" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">11월 29일</text>
+  <text x="674" y="198" font-family="'IBM Plex Sans KR',sans-serif" font-size="11.5" fill="#62655d">총선 (해산 54일 뒤)</text>
+  <text x="674" y="216" font-family="'IBM Plex Sans KR',sans-serif" font-size="11.5" fill="#62655d">첫 번째 해당 일요일</text>
+
+  <line x1="60" y1="254" x2="840" y2="254" stroke="rgba(32,35,31,.12)"/>
+
+  <text x="60" y="278" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#62655d">의석 전망 — 엘문도 의뢰 시그마도스 (350석 중)</text>
+
+  <text x="60" y="310" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">국민당 (PP)</text>
+  <rect x="200" y="298" width="302" height="18" fill="#16756a" opacity="0.7"/>
+  <text x="510" y="311" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" fill="#16756a">140</text>
+
+  <text x="60" y="340" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">사회노동당</text>
+  <rect x="200" y="328" width="222" height="18" fill="#e0795b" opacity="0.6"/>
+  <text x="430" y="341" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" fill="#e0795b">103</text>
+
+  <text x="60" y="370" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">복스</text>
+  <rect x="200" y="358" width="136" height="18" fill="#62655d" opacity="0.4"/>
+  <text x="344" y="371" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="12" fill="#62655d">63</text>
+
+  <line x1="580" y1="290" x2="580" y2="384" stroke="#20231f" stroke-dasharray="4 4" opacity="0.5"/>
+  <text x="590" y="332" font-family="'IBM Plex Sans KR',sans-serif" font-size="12" fill="#20231f">과반 176석</text>
+
+  <line x1="60" y1="404" x2="840" y2="404" stroke="rgba(32,35,31,.12)"/>
+
+  <rect x="60" y="416" width="780" height="64" fill="#62655d" opacity="0.1"/>
+  <text x="76" y="440" font-family="'IBM Plex Sans KR',sans-serif" font-size="12.5" fill="#20231f">국영 조사기관 CIS는 여전히 사회노동당을 1위로 둠 — 조사마다 구도가 다름</text>
+  <text x="76" y="462" font-family="'IBM Plex Sans KR',sans-serif" font-size="11.5" fill="#62655d">막대 길이는 의석수에 비례하며 점선이 과반(176석)</text>
+
+  <text x="60" y="508" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="11.5" fill="#62655d">도표는 텔레마드리드·IMI Daily 보도로 직접 작성</text>
+</svg>
