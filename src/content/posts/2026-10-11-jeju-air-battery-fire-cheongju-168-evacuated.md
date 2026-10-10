@@ -45,3 +45,4 @@ source:
 <p align="center">승객 입장에서 가장 현실적인 방어선은 한 줄로 정리됩니다.<br/> 보조배터리가 비정상적으로 뜨거워지거나 부풀어 오르면 즉시 승무원에게 알리고, 기내에서는 배터리로 기기를 충전하거나 배터리 자체를 충전하지 않으며, 선반이 아니라 손이 닿는 곳에 두는 것입니다.<br/> 항공사 입장에서는 리튬배터리 화재 진압용 파우치 같은 장비 구비가 '있으면 좋은 것'에서 '없으면 안 되는 것'으로 자리를 옮기고 있는 것으로 보입니다.<br/> 제주항공이 지난해 파우치 탑재를 시작한 것이 이번에 효과를 본 것처럼, 장비와 훈련에 대한 투자는 실제 사고에서 증명됩니다.<br/> 두 달 연속으로 기내 보조배터리 화재가 발생했다는 사실 자체가, 이제는 예방보다 조기 대응 체계의 정비가 더 시급한 과제라는 점을 가리키고 있는 것으로 읽힙니다.</p>
 
 참고한 기사 — [뉴시스](https://www.newsis.com/view/NISX20261010_0003820697) · [위키트리](https://www.wikitree.co.kr/articles/1165195) · [재경일보](https://news.jkn.co.kr/post/1015726) · [동아일보](https://www.donga.com/news/Society/article/all/20260925/134732699/1) · [Korea JoongAng Daily](https://www.koreajoongangdaily.com/korea/air-seoul-flight-delayed-after-portable-power-bank-fire-at-incheon/12891444)
+
