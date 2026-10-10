@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="게놈 크기 비교">
+<rect width="900" height="520" fill="#f4f1ea"/>
+<text x="450" y="44" text-anchor="middle" font-size="26" font-weight="700" fill="#20231f" font-family="sans-serif">게놈 크기 비교 — 염기쌍 수 (로그 스케일)</text>
+<rect x="90" y="90" width="145.0" height="44" rx="6" fill="#e0795b" opacity="0.92"/>
+<text x="76" y="118.0" text-anchor="end" font-size="19" fill="#20231f" font-family="sans-serif">스쿠나아케움 미라빌레 (고세균·이번 논문)</text>
+<text x="246.98212846675722" y="118.0" text-anchor="start" font-size="18" font-weight="700" fill="#20231f" font-family="monospace">238,000 bp</text>
+<rect x="90" y="180" width="265.7" height="44" rx="6" fill="#16756a" opacity="0.92"/>
+<text x="76" y="208.0" text-anchor="end" font-size="19" fill="#20231f" font-family="sans-serif">종전 고세균 최소 게놈 기록</text>
+<text x="367.7254908109778" y="208.0" text-anchor="start" font-size="18" font-weight="700" fill="#20231f" font-family="monospace">약 490,000 bp</text>
+<rect x="90" y="270" width="640.2" height="44" rx="6" fill="#16756a" opacity="0.92"/>
+<text x="76" y="298.0" text-anchor="end" font-size="19" fill="#20231f" font-family="sans-serif">대장균 (E. coli)</text>
+<text x="742.1617651974061" y="298.0" text-anchor="start" font-size="18" font-weight="700" fill="#20231f" font-family="monospace">약 4,600,000 bp</text>
+<line x1="90" y1="430" x2="860" y2="430" stroke="#62655d" stroke-width="1.5"/>
+<line x1="90.0" y1="430" x2="90.0" y2="436" stroke="#62655d" stroke-width="1.5"/>
+<text x="90.0" y="460" text-anchor="middle" font-size="16" fill="#62655d" font-family="monospace">10⁵ bp</text>
+<line x1="475.0" y1="430" x2="475.0" y2="436" stroke="#62655d" stroke-width="1.5"/>
+<text x="475.0" y="460" text-anchor="middle" font-size="16" fill="#62655d" font-family="monospace">10⁶ bp</text>
+<line x1="860.0" y1="430" x2="860.0" y2="436" stroke="#62655d" stroke-width="1.5"/>
+<text x="860.0" y="460" text-anchor="middle" font-size="16" fill="#62655d" font-family="monospace">10⁷ bp</text>
+<text x="450" y="505" text-anchor="middle" font-size="14" fill="#62655d" font-family="monospace">수치: Current Biology 논문 및 보도 자료 (2026.10) · 도표 직접 작성 · x축 로그</text>
+</svg>
