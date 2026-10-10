@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+  
+  <text x="90" y="46" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">10.09 (FRI) CLOSE · 종가 기준</text>
+  <text x="90" y="76" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="20" fill="#20231f">10월 9일 뉴욕증시 3대 지수 마감</text>
+  <line x1="90" y1="428" x2="810" y2="428" stroke="#20231f" stroke-width="1.6"/>
+  <line x1="90" y1="100" x2="810" y2="100" stroke="rgba(32,35,31,.16)" stroke-dasharray="2 5"/>
+  <text x="78" y="105" text-anchor="end" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#62655d">+1.0%</text>
+  <text x="78" y="269" text-anchor="end" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#62655d">+0.5%</text>
+  <rect x="201" y="155.76" width="92" height="272.24" fill="#16756a"/>
+  <text x="247" y="139.76" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="19" fill="#16756a">+0.83%</text>
+  <text x="247" y="115.75999999999999" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="18" fill="#20231f">51,654.95</text>
+  <text x="247" y="462" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="19" fill="#20231f">다우존스</text>
+  <rect x="515" y="234.48000000000002" width="92" height="193.51999999999998" fill="#16756a"/>
+  <text x="561" y="218.48000000000002" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="19" fill="#16756a">+0.59%</text>
+  <text x="561" y="194.48000000000002" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="18" fill="#20231f">7,811.54</text>
+  <text x="561" y="462" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="19" fill="#20231f">S&P 500</text>
+  <rect x="829" y="218.07999999999998" width="92" height="209.92000000000002" fill="#16756a"/>
+  <text x="875" y="202.07999999999998" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="19" fill="#16756a">+0.64%</text>
+  <text x="875" y="178.07999999999998" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="18" fill="#20231f">27,366.17</text>
+  <text x="875" y="462" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="19" fill="#20231f">나스닥</text>
+  <text x="90" y="498" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">도표는 이데일리(2026.10.10)·세계일보(2026.10.10) 기사 수치로 직접 작성 · 브렌트유 $104.72 / WTI $91.85 / 美 10년물 5.243%</text>
+</svg>
