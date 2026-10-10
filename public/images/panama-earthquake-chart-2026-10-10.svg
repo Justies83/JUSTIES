@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="심각한 노출 지역 인구 추정 비교 도표">
+  <rect x="0" y="0" width="900" height="520" rx="14" fill="#f4f1ea"/>
+  <text x="450" y="44" text-anchor="middle" font-size="26" font-weight="700" fill="#20231f" font-family="sans-serif">최근 중남미 강진 — 심각한 노출 지역 인구 추정 (USGS)</text>
+
+  <!-- gridlines and y labels -->
+  <g font-family="sans-serif" font-size="16" fill="#62655d">
+    <line x1="90" y1="420" x2="860" y2="420" stroke="#62655d" stroke-width="1.5"/>
+    <line x1="90" y1="332" x2="860" y2="332" stroke="#d8d4c8" stroke-width="1"/>
+    <line x1="90" y1="245" x2="860" y2="245" stroke="#d8d4c8" stroke-width="1"/>
+    <line x1="90" y1="157" x2="860" y2="157" stroke="#d8d4c8" stroke-width="1"/>
+    <line x1="90" y1="70"  x2="860" y2="70"  stroke="#d8d4c8" stroke-width="1"/>
+    <text x="80" y="425" text-anchor="end">0</text>
+    <text x="80" y="337" text-anchor="end">40만</text>
+    <text x="80" y="250" text-anchor="end">80만</text>
+    <text x="80" y="162" text-anchor="end">120만</text>
+    <text x="80" y="75"  text-anchor="end">160만</text>
+  </g>
+
+  <!-- bars: max 1.6M -> 350px. y = 420 - value/1.6M*350 -->
+  <!-- Venezuela 1.4M -->
+  <rect x="148" y="114" width="140" height="306" fill="#16756a" rx="6"/>
+  <text x="218" y="102" text-anchor="middle" font-size="20" font-weight="700" fill="#20231f" font-family="sans-serif">약 140만 명</text>
+  <!-- Colombia 1.6M -->
+  <rect x="405" y="70" width="140" height="350" fill="#16756a" rx="6"/>
+  <text x="475" y="58" text-anchor="middle" font-size="20" font-weight="700" fill="#20231f" font-family="sans-serif">약 160만 명</text>
+  <!-- Panama 43,000 -> coral, tiny bar -->
+  <rect x="661" y="411" width="140" height="9" fill="#e0795b" rx="3"/>
+  <text x="731" y="398" text-anchor="middle" font-size="20" font-weight="700" fill="#20231f" font-family="sans-serif">약 4.3만 명</text>
+
+  <!-- x labels -->
+  <g font-family="sans-serif" font-size="19" fill="#20231f" text-anchor="middle">
+    <text x="218" y="452">베네수엘라</text>
+    <text x="218" y="478" font-size="16" fill="#62655d">2026년 6월 · 쌍둥이 지진</text>
+    <text x="475" y="452">콜롬비아</text>
+    <text x="475" y="478" font-size="16" fill="#62655d">2026년 8월</text>
+    <text x="731" y="452">파나마</text>
+    <text x="731" y="478" font-size="16" fill="#62655d">2026년 10월 · 규모 7.7</text>
+  </g>
+
+  <text x="450" y="508" text-anchor="middle" font-size="14" fill="#62655d" font-family="monospace">출처: 로이터 보도 속 USGS 추정치 — 도표는 위 기사의 수치로 직접 작성했습니다</text>
+</svg>
