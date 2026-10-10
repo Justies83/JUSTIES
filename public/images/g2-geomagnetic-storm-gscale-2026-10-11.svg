@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="NOAA 지자기 폭풍 G 등급표">
+<rect width="900" height="520" fill="#f4f1ea"/>
+<text x="450" y="44" text-anchor="middle" font-size="26" font-weight="700" fill="#20231f" font-family="sans-serif">NOAA 지자기 폭풍 등급 (G-scale) — 이번 주말 예보는 G2</text>
+<rect x="150" y="80" width="140" height="52" rx="6" fill="#16756a" opacity="0.55"/>
+<text x="135" y="102" text-anchor="end" font-size="20" font-weight="700" fill="#20231f" font-family="sans-serif">G1 약함</text>
+<text x="135" y="126" text-anchor="end" font-size="15" fill="#62655d" font-family="monospace">Kp 5</text>
+<text x="306" y="112" text-anchor="start" font-size="17" fill="#20231f" font-family="sans-serif">고위도 전력망 약한 변동 · 오로라 미시간·메인</text>
+<rect x="150" y="150" width="280" height="52" rx="6" fill="#16756a" opacity="0.92"/>
+<text x="135" y="172" text-anchor="end" font-size="20" font-weight="700" fill="#20231f" font-family="sans-serif">G2 중간</text>
+<text x="135" y="196" text-anchor="end" font-size="15" fill="#62655d" font-family="monospace">Kp 6</text>
+<text x="446" y="182" text-anchor="start" font-size="17" font-weight="700" fill="#20231f" font-family="sans-serif">★ 10월 11일 예보 — 고위도 전압 경보 · 오로라 뉴욕·아이다호</text>
+<rect x="150" y="220" width="420" height="52" rx="6" fill="#e0795b" opacity="0.75"/>
+<text x="135" y="242" text-anchor="end" font-size="20" font-weight="700" fill="#20231f" font-family="sans-serif">G3 강함</text>
+<text x="135" y="266" text-anchor="end" font-size="15" fill="#62655d" font-family="monospace">Kp 7</text>
+<text x="586" y="252" text-anchor="start" font-size="17" fill="#20231f" font-family="sans-serif">전압 보정 필요 · 오로라 일리노이·오리건 (주말 중 소폭 가능성)</text>
+<rect x="150" y="290" width="560" height="52" rx="6" fill="#e0795b" opacity="0.92"/>
+<text x="135" y="312" text-anchor="end" font-size="20" font-weight="700" fill="#20231f" font-family="sans-serif">G4 심함</text>
+<text x="135" y="336" text-anchor="end" font-size="15" fill="#62655d" font-family="monospace">Kp 8</text>
+<text x="726" y="322" text-anchor="start" font-size="17" fill="#20231f" font-family="sans-serif">광범위한 전압 제어 문제 · 오로라 앨라배마·북캘리포니아</text>
+<rect x="150" y="360" width="700" height="52" rx="6" fill="#c0392b" opacity="0.92"/>
+<text x="135" y="382" text-anchor="end" font-size="20" font-weight="700" fill="#20231f" font-family="sans-serif">G5 극심함</text>
+<text x="135" y="406" text-anchor="end" font-size="15" fill="#62655d" font-family="monospace">Kp 9</text>
+<text x="866" y="392" text-anchor="end" font-size="17" fill="#ffffff" font-family="sans-serif">전력망 붕괴 가능 · 오로라 플로리다·남텍사스</text>
+<text x="450" y="470" text-anchor="middle" font-size="14" fill="#62655d" font-family="monospace">NOAA SWPC G-scale 기준 · 오로라 가시 남한계는 보도된 예보 수치 · 도표 직접 작성 (2026.10)</text>
+</svg>
