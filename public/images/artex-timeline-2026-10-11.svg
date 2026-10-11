@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="ARTEX 사건 타임라인">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <text x="450" y="56" text-anchor="middle" font-size="30" font-weight="bold" fill="#20231f" font-family="sans-serif">ARTEX · 한국 은행 공격 타임라인</text>
+  <line x1="60" y1="260" x2="840" y2="260" stroke="#16756a" stroke-width="4"/>
+  <g font-family="sans-serif">
+  <circle cx="90" cy="260" r="13" fill="#e0795b" stroke="#20231f" stroke-width="2"/>
+  <line x1="90" y1="273" x2="90" y2="372" stroke="#62655d" stroke-width="1.5"/>
+  <text x="90" y="402" text-anchor="middle" font-size="20" font-weight="bold" fill="#20231f">9월 말</text>
+  <text x="90" y="430" text-anchor="middle" font-size="18" fill="#62655d">공격 시작</text>
+  <text x="90" y="456" text-anchor="middle" font-size="15" fill="#62655d">신한·KB국민 등 최소 9개 은행 표적</text>
+  <circle cx="238" cy="260" r="13" fill="#e0795b" stroke="#20231f" stroke-width="2"/>
+  <line x1="238" y1="247" x2="238" y2="150" stroke="#62655d" stroke-width="1.5"/>
+  <text x="238" y="130" text-anchor="middle" font-size="20" font-weight="bold" fill="#20231f">10월 6일</text>
+  <text x="238" y="102" text-anchor="middle" font-size="18" fill="#62655d">대통령 보안 강화 주문</text>
+  <text x="238" y="76" text-anchor="middle" font-size="15" fill="#62655d">"AI 사용 흔적" 언급</text>
+  <circle cx="386" cy="260" r="13" fill="#e0795b" stroke="#20231f" stroke-width="2"/>
+  <line x1="386" y1="273" x2="386" y2="372" stroke="#62655d" stroke-width="1.5"/>
+  <text x="386" y="402" text-anchor="middle" font-size="20" font-weight="bold" fill="#20231f">10월 7일</text>
+  <text x="386" y="430" text-anchor="middle" font-size="18" fill="#62655d">크라우드스트라이크 보고서</text>
+  <text x="386" y="456" text-anchor="middle" font-size="15" fill="#62655d">용의자 광둥 26세·ARTEX+Claude Code</text>
+  <circle cx="534" cy="260" r="13" fill="#e0795b" stroke="#20231f" stroke-width="2"/>
+  <line x1="534" y1="247" x2="534" y2="150" stroke="#62655d" stroke-width="1.5"/>
+  <text x="534" y="130" text-anchor="middle" font-size="20" font-weight="bold" fill="#20231f">10월 8일</text>
+  <text x="534" y="102" text-anchor="middle" font-size="18" fill="#62655d">개발자 비공개 전환 공지</text>
+  <text x="534" y="76" text-anchor="middle" font-size="15" fill="#62655d">GitHub 'Autumn-27'</text>
+  <circle cx="682" cy="260" r="13" fill="#e0795b" stroke="#20231f" stroke-width="2"/>
+  <line x1="682" y1="273" x2="682" y2="372" stroke="#62655d" stroke-width="1.5"/>
+  <text x="682" y="402" text-anchor="middle" font-size="20" font-weight="bold" fill="#20231f">10월 9일</text>
+  <text x="682" y="430" text-anchor="middle" font-size="18" fill="#62655d">로이터 보도</text>
+  <text x="682" y="456" text-anchor="middle" font-size="15" fill="#62655d">GitHub 페이지 삭제 확인</text>
+  <circle cx="822" cy="260" r="13" fill="#e0795b" stroke="#20231f" stroke-width="2"/>
+  <line x1="822" y1="247" x2="822" y2="150" stroke="#62655d" stroke-width="1.5"/>
+  <text x="822" y="130" text-anchor="middle" font-size="20" font-weight="bold" fill="#20231f">10월 10일</text>
+  <text x="822" y="102" text-anchor="middle" font-size="18" fill="#62655d">중국 외교부 입장</text>
+  <text x="822" y="76" text-anchor="middle" font-size="15" fill="#62655d">해킹 반대·단속 원칙</text>
+  </g>
+  <text x="450" y="505" text-anchor="middle" font-size="14" fill="#62655d" font-family="monospace">기준: 로이터(10.08·10.09)·크라우드스트라이크(10.07)·조선비즈(10.10)</text>
+</svg>
