@@ -52,6 +52,8 @@ source:
 
 <p align="center">현재 AR4549는 태양의 서쪽 가장자리로 이동하며 지구 반대편으로 넘어가는 중이지만, 떠나기 전 한두 차례 더 폭발할 가능성도 배제할 수 없다는 게 예보관들의 평가입니다.<br/>SWPC는 추가 태양 폭발이 관측되면 교란이 더 커질 수 있다고 밝혔고, 실시간 우주기상 상황은 NOAA SWPC의 예보 페이지에서 확인할 수 있습니다.<br/>태양에서 날아온 입자 구름이 지구 자기장과 부딪히는 일은 매일 일어납니다.<br/>다만 이번처럼 G2급 경보가 발령될 정도로 강한 교란이 주말 밤하늘과 겹치는 경우는 흔치 않습니다.<br/>오로라 관측 가능 지역에 계신다면, 구름 없는 밤하늘을 한 번 올려다보시는 것도 좋겠습니다.<br/>태양이 보내는 주말 선물이 될 수 있습니다.</p>
 
+<p align="center">10월 11일 저녁 업데이트 — 예보보다 강한 폭풍이 실제로 지구를 강타했습니다.<br/>EarthSky의 10월 11일 우주기상 리포트에 따르면, 10월 10일 AR4549의 M6.7급 플레어에서 분출된 CME가 지구에 도달하면서 <strong>G3(강함)급</strong> 지자기 폭풍이 발생했습니다.<br/>태양풍 속도는 초속 약 <strong>900km</strong>까지 치솟았고, 행성간 자기장은 46nT, 남향 Bz 성분은 -29nT까지 떨어졌습니다.<br/>알래스카 페어뱅크스의 전천 카메라는 10월 11일 새벽 구름 사이로 번지는 녹색 오로라를 포착했습니다.<br/>한편 AR4549는 떠나기 전 <strong>M6.4급 플레어</strong>를 한 번 더 터뜨리며 초속 929km의 빠른 CME를 날렸고, NOAA 예보관들은 10월 12일 밤 지구에 스치는 타격을 줄 가능성을 배제하지 않고 있습니다.<br/>10월 11일 오전에는 G1\~G2 수준이 이어지고, 12일에는 코로나홀 고속 태양풍까지 합류해 G1\~G2, 드물게 G3까지 예보됐습니다.<br/>오로라 관측 가능 지역에서는 오늘 밤에도 하늘을 지켜볼 만합니다.</p>
+
 <p align="center">
 참고한 기사 —<br/>
 <a href="https://watchers.live/2026/10/09/g2-moderate-geomagnetic-storm-watch-issued-for-october-11-2026/">watchers.live</a> · <a href="https://people.com/how-to-watch-the-northern-lights-from-28-states-this-weekend-october-9-2026-12166284">PEOPLE</a> · <a href="https://www.timeanddate.com/news/astronomy/aurora-alert-northern-lights-tonight">timeanddate.com</a> · <a href="https://earthsky.org/sun/sun-news-activity-solar-flare-cme-aurora-updates/">EarthSky</a> · <a href="https://www.jagranjosh.com/general-knowledge/solar-tsunami-to-hit-earth-as-sun-releases-big-storm-check-prediction-date-effects-will-india-be-affected-1820012917-1">Jagran Josh</a>
