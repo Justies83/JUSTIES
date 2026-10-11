@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="리플렉션 AI · 엔비디아 협상 타임라인">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <text x="450" y="56" text-anchor="middle" font-size="30" font-weight="bold" fill="#20231f" font-family="sans-serif">리플렉션 AI · 엔비디아 협상 타임라인</text>
+  <line x1="60" y1="260" x2="840" y2="260" stroke="#16756a" stroke-width="4"/>
+  <g font-family="sans-serif">
+  <circle cx="130" cy="260" r="13" fill="#e0795b" stroke="#20231f" stroke-width="2"/>
+  <line x1="130" y1="273" x2="130" y2="372" stroke="#62655d" stroke-width="1.5"/>
+  <text x="130" y="402" text-anchor="middle" font-size="20" font-weight="bold" fill="#20231f">2024년</text>
+  <text x="130" y="430" text-anchor="middle" font-size="18" fill="#62655d">리플렉션 AI 설립</text>
+  <text x="130" y="456" text-anchor="middle" font-size="15" fill="#62655d">딥마인드 출신 라스킨·안토노글루</text>
+  <circle cx="370" cy="260" r="13" fill="#e0795b" stroke="#20231f" stroke-width="2"/>
+  <line x1="370" y1="247" x2="370" y2="150" stroke="#62655d" stroke-width="1.5"/>
+  <text x="370" y="130" text-anchor="middle" font-size="20" font-weight="bold" fill="#20231f">2026년 4월</text>
+  <text x="370" y="102" text-anchor="middle" font-size="18" fill="#62655d">기업가치 250억 달러에 자금 조달</text>
+  <text x="370" y="76" text-anchor="middle" font-size="15" fill="#62655d">엔비디아 8억 달러 투자 (CNBC·FT)</text>
+  <circle cx="610" cy="260" r="13" fill="#e0795b" stroke="#20231f" stroke-width="2"/>
+  <line x1="610" y1="273" x2="610" y2="372" stroke="#62655d" stroke-width="1.5"/>
+  <text x="610" y="402" text-anchor="middle" font-size="20" font-weight="bold" fill="#20231f">10월 5일</text>
+  <text x="610" y="430" text-anchor="middle" font-size="18" fill="#62655d">첫 오픈웨이트 모델 '빔' 공개</text>
+  <text x="610" y="456" text-anchor="middle" font-size="15" fill="#62655d">코딩·에이전트, 딥시크·키미와 경쟁</text>
+  <circle cx="810" cy="260" r="13" fill="#e0795b" stroke="#20231f" stroke-width="2"/>
+  <line x1="810" y1="247" x2="810" y2="150" stroke="#62655d" stroke-width="1.5"/>
+  <text x="810" y="130" text-anchor="middle" font-size="20" font-weight="bold" fill="#20231f">10월 10일</text>
+  <text x="810" y="102" text-anchor="middle" font-size="18" fill="#62655d">FT "추가 투자·인수 협상" 보도</text>
+  <text x="810" y="76" text-anchor="middle" font-size="15" fill="#62655d">로이터 전재, 협상 초기 단계</text>
+  </g>
+  <text x="450" y="505" text-anchor="middle" font-size="14" fill="#62655d" font-family="monospace">기준: FT·로이터(10.10)·CNBC(4월 인터뷰)</text>
+</svg>
