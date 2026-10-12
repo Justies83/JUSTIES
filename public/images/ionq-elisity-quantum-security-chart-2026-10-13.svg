@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+  <text x="450" y="46" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="26" font-weight="700" fill="#20231f">IonQ · Elisity 인수 거래 구조</text>
+  <text x="450" y="74" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">전액 주식 거래 · 최대 13억 달러 · 2026년 4분기 클로징 목표</text>
+
+  <text x="90" y="150" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f" font-weight="700">인수 대가 (최대)</text>
+  <text x="810" y="150" text-anchor="end" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="17" fill="#20231f" font-weight="700">$1.3B</text>
+
+  <rect x="90" y="170" width="616.5" height="64" fill="#16756a"/>
+  <rect x="706.5" y="170" width="103.5" height="64" fill="#e0795b"/>
+  <rect x="90" y="170" width="720" height="64" fill="none" stroke="#20231f" stroke-width="2"/>
+  <line x1="706.5" y1="170" x2="706.5" y2="234" stroke="#20231f" stroke-width="2"/>
+
+  <text x="398" y="209" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#f4f1ea">전액 주식 대가</text>
+  <text x="758" y="202" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#f4f1ea">성과연동</text>
+  <text x="758" y="222" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#f4f1ea">최대 $150M</text>
+
+  <text x="90" y="272" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f" font-weight="700">신주 발행가 밴드</text>
+  <text x="810" y="272" text-anchor="end" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="17" fill="#20231f" font-weight="700">$33.07 ~ $49.61</text>
+  <rect x="90" y="290" width="720" height="18" fill="rgba(32,35,31,.10)"/>
+  <rect x="90" y="290" width="720" height="18" fill="none" stroke="#20231f" stroke-width="2"/>
+  <line x1="90" y1="282" x2="90" y2="316" stroke="#20231f" stroke-width="3"/>
+  <line x1="810" y1="282" x2="810" y2="316" stroke="#20231f" stroke-width="3"/>
+  <text x="90" y="340" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#62655d">$33.07</text>
+  <text x="810" y="340" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#62655d">$49.61</text>
+  <text x="450" y="340" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">클로징 전 20거래일 가중평균주가 기준 (상한·하한)</text>
+
+  <g font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">
+    <text x="90" y="392">· Elisity는 2019년 설립의 제로트러스트 보안 기업 — 글로벌 고객 100곳 이상, 매출·고객 연 2배 성장</text>
+    <text x="90" y="420">· 인수 후에도 제임스 와인브레너 CEO가 사업부를 계속 이끌며 현 리더십 유지</text>
+    <text x="90" y="448">· 규제 승인 등 통상적 클로징 조건 충족 시 2026년 4분기 거래 종료 목표</text>
+  </g>
+
+  <text x="450" y="492" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">도표는 보도자료(Business Wire 2026.10.11) · 로이터(2026.10.12)의 발표 조건으로 직접 작성</text>
+</svg>
