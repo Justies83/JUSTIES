@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" font-family="sans-serif">
+<rect width="900" height="560" fill="#f7f9fb"/>
+<text x="450" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#1a2a3a">두족류 3종 3D 게놈 구조 비교</text>
+<text x="450" y="66" text-anchor="middle" font-size="13" fill="#5a6b7c">자료: Thea Rogers 외, Nature Communications (2026.10.09)</text>
+
+<!-- Panel A: loop counts -->
+<text x="220" y="110" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a2a3a">배아 전체에서 찾은 크로마틴 루프 수</text>
+<g font-size="13" fill="#1a2a3a">
+  <text x="70" y="165">하와이안 작은꼬리오징어</text>
+  <rect x="280" y="148" width="165" height="22" fill="#4a90d9"/>
+  <text x="455" y="164">329</text>
+  <text x="70" y="205">대왕갑오징어(커틀피시)</text>
+  <rect x="280" y="188" width="456" height="22" fill="#4a90d9"/>
+  <text x="746" y="204">912</text>
+  <text x="70" y="245">캘리포니아 두점문어</text>
+  <rect x="280" y="228" width="332" height="22" fill="#4a90d9"/>
+  <text x="622" y="244">663</text>
+</g>
+<text x="220" y="275" text-anchor="middle" font-size="12" fill="#5a6b7c">세 종 모두에서 공유된 루프 중 유전자를 품은 것은 단 3개</text>
+
+<!-- divider -->
+<line x1="450" y1="95" x2="450" y2="530" stroke="#d0d8e0" stroke-width="1"/>
+
+<!-- Panel B: typical loop length -->
+<text x="675" y="110" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a2a3a">전형적인 루프의 길이 (염기 수)</text>
+<g font-size="13" fill="#1a2a3a">
+  <text x="520" y="165">꼬리오징어</text>
+  <rect x="610" y="148" width="88" height="22" fill="#e07b4f"/>
+  <text x="708" y="164">160만</text>
+  <text x="520" y="205">커틀피시</text>
+  <rect x="610" y="188" width="72" height="22" fill="#e07b4f"/>
+  <text x="692" y="204">130만</text>
+  <text x="520" y="245">문어</text>
+  <rect x="610" y="228" width="160" height="22" fill="#e07b4f"/>
+  <text x="780" y="244">290만</text>
+</g>
+<text x="675" y="275" text-anchor="middle" font-size="12" fill="#5a6b7c">게놈이 가장 작은 문어의 루프가 가장 길었다</text>
+
+<!-- Panel C: genome size -->
+<text x="450" y="330" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a2a3a">게놈 크기 (DNA 글자 수)</text>
+<g font-size="13" fill="#1a2a3a">
+  <text x="230" y="385">꼬리오징어 — 50억 초과</text>
+  <rect x="230" y="396" width="440" height="24" fill="#6aab5f"/>
+  <text x="230" y="445">커틀피시 — 50억 초과</text>
+  <rect x="230" y="456" width="440" height="24" fill="#6aab5f"/>
+  <text x="230" y="505">문어 — 약 25억</text>
+  <rect x="230" y="496" width="220" height="24" fill="#6aab5f"/>
+</g>
+<text x="450" y="545" text-anchor="middle" font-size="12" fill="#5a6b7c">큰 게놈이 큰 루프를 만드는 것은 아니었다</text>
+</svg>
