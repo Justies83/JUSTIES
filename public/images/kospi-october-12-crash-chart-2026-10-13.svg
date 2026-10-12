@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+  <text x="450" y="46" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="26" font-weight="700" fill="#20231f">10월 12일 코스피 — 시가 · 고가 · 저가 · 종가</text>
+  <text x="450" y="72" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">점선은 전 거래일(10월 8일) 종가 6,625.93</text>
+  <g font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#62655d">
+    <line x1="120" y1="379.6" x2="780" y2="379.6" stroke="rgba(32,35,31,.12)"/>
+    <text x="108" y="384.6" text-anchor="end">6400</text>
+    <line x1="120" y1="269" x2="780" y2="269" stroke="rgba(32,35,31,.12)"/>
+    <text x="108" y="274" text-anchor="end">6500</text>
+    <line x1="120" y1="158.4" x2="780" y2="158.4" stroke="rgba(32,35,31,.12)"/>
+    <text x="108" y="163.4" text-anchor="end">6600</text>
+  </g>
+  <line x1="120" y1="129.7" x2="780" y2="129.7" stroke="#16756a" stroke-width="2.5" stroke-dasharray="10 6"/>
+  <text x="790" y="134.7" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#16756a">10/8 종가 6,625.93</text>
+  <line x1="400" y1="169.8" x2="400" y2="414.5" stroke="#20231f" stroke-width="4"/>
+  <rect x="355" y="182.5" width="90" height="214.6" fill="#e0795b" stroke="#20231f" stroke-width="2"/>
+  <g font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15">
+    <text x="480" y="174.8" fill="#62655d">고가 <tspan font-family="'IBM Plex Mono',ui-monospace,monospace" fill="#20231f">6,589.69</tspan></text>
+    <text x="480" y="187.5" fill="#62655d">시가 <tspan font-family="'IBM Plex Mono',ui-monospace,monospace" fill="#20231f">6,578.17</tspan></text>
+    <text x="480" y="402.1" fill="#62655d">종가 <tspan font-family="'IBM Plex Mono',ui-monospace,monospace" fill="#20231f">6,384.24</tspan> <tspan fill="#e0795b" font-weight="700">−3.65%</tspan></text>
+    <text x="480" y="419.5" fill="#62655d">저가 <tspan font-family="'IBM Plex Mono',ui-monospace,monospace" fill="#20231f">6,368.49</tspan></text>
+  </g>
+  <text x="450" y="486" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">싱글리스트(2026.10.12) · IT조선(2026.10.12) 수치로 직접 작성 — 종가 기준, 10월 8일 대비 241.69포인트 하락</text>
+</svg>
