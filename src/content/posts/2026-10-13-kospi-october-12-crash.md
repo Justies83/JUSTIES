@@ -48,7 +48,7 @@ source:
 
 <p align="center">밤사이 유럽 증시는 반등의 신호를 보냈습니다.<br/>10월 12일 유럽 증시는 국제유가 진정과 지정학적 우려 완화에 힘입어 상승 마감했습니다.<br/>DAX와 FTSE100이 각각 <strong>0.9%를</strong>, CAC40이 <strong>0.5%를</strong> 기록했습니다.<br/>트럼프 대통령이 이란에 대한 군사행동설을 일축하고 러시아·우크라이나 에너지 휴전 기대가 커진 것이 투자 심리를 되살렸다는 평가입니다.<br/>미국의 인플레이션 지표 발표를 앞둔 관망세도 일부 작용한 것으로 전해집니다.<br/>13일 한국 증시 개장 전에 확인된 선행 지표라는 점에서, 오늘 장의 방향을 가늠하는 잣대가 될 수 있습니다.</p>
 
-<p align="center">미국 증시는 장중 혼조세를 보이고 있습니다.<br/>미 동부시간 12일 오전 11시 31분 기준 다우지수는 <strong>0.49%를</strong> 올랐으나, S&P500은 <strong>0.06%를</strong>, 나스닥은 <strong>0.37%를</strong> 내렸습니다.<br/>엔비디아는 <strong>1.28%를</strong> 하락하며 기술주 약세의 진원지 역할을 이어가고 있습니다.<br/>서부텍사스산원유는 배럴당 <strong>106달러를</strong>, 10년물 국채금리는 <strong>5.24%를</strong>, 금은 온스당 <strong>4,192.70달러를</strong> 기록했습니다.<br/>투자자들이 가치주로 순환매하는 가운데 기술주 조정이 이어지는 모습입니다.<br/>단 정규장 마감(한국시간 13일 오전 5시) 전의 장중 수치이므로, 최종 마감 결과와는 다를 수 있다는 점을 유념해야 합니다.</p>
+<p align="center">미국 증시는 12일 혼조 속에 마감했습니다.<br/>다우지수는 전 거래일보다 **198.22포인트** 오른 **51,853.17에** 마감했고, 상승률은 **0.38%였습니다**.<br/>S&P500은 **3.75포인트** 내린 **7,807.79에**, 나스닥은 **120.17포인트** 내린 **27,246에** 각각 **0.05%와** **0.44%를** 기록했습니다.<br/>세일즈포스가 뱅크오브아메리카의 투자의견 상향에 **2%를** 오르며 다우를 떠받쳤고, 마이크로소프트는 자체 AI 칩 대규모 배치 계획 발표에 **0.9%를** 오르며 장중 한때 1년 만에 시가총액 4조 달러를 회복했습니다.<br/>반면 마이크론은 중국 CXMT의 메모리 신기술 진전 소식에 약 **3%를** 빠지며 기술주 약세를 주도했고, 필라델피아 반도체지수는 3주 만에 최저치로 내려앉았습니다.<br/>서부텍사스산원유는 주말 리야드 공항 테러 여파로 **2.06%** 오른 배럴당 **93.74달러에**, 브렌트유는 **1.84%** 오른 **106.65달러에** 정산됐습니다.<br/>클리블랜드 연은의 베스 해맥 총재가 긴축 기조로의 빠른 전환을 시사하면서 10월 금리 인상 확률은 22% 미만으로 올랐고, 국채시장은 콜럼버스데이로 휴장했습니다.<br/>투자자들의 시선은 13일부터 시작되는 대형 은행들의 실적 발표와 14일 밤 공개될 미국의 9월 소비자물가지수(CPI)로 향하고 있습니다.</p>
 
 <p align="center">
 참고한 기사 —<br/>
@@ -56,7 +56,8 @@ source:
 <a href="https://it.chosun.com/news/articleView.html?idxno=2023092171828">IT조선 (2026.10.12)</a> ·
 <a href="http://m.segyebiz.com/newsView/20261012518826">세계일보 (2026.10.12)</a> ·
 <a href="https://uk.advfn.com/market-news/article/24444/european-stocks-rise-as-oil-prices-ease-and-investors-await-us-inflation-data-dax-cac-ftse100">ADVFN (2026.10.12)</a> ·
-<a href="https://www.fool.com/coverage/stock-market-today/2026/10/12/stock-market-midday-oct-12-dow-edges-higher-as-investors-rotate-into-value-stocks/">Motley Fool (2026.10.12)</a>
+<a href="https://www.fool.com/coverage/stock-market-today/2026/10/12/stock-market-midday-oct-12-dow-edges-higher-as-investors-rotate-into-value-stocks/">Motley Fool (2026.10.12)</a> ·
+<a href="https://invezz.com/news/2026/10/12/dow-closes-198-pts-higher-as-us-stocks-close-mixed-ahead-of-earnings/">Invezz (2026.10.12)</a>
 </p>
 
 <p align="center">
