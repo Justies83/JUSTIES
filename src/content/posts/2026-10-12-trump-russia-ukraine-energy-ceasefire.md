@@ -3,7 +3,7 @@ title: '트럼프 "러시아·우크라이나 에너지 휴전 즉시 발효" �
 date: 2026-10-12
 category: world
 kind: news
-takeaway: '도널드 트럼프 미국 대통령이 10월 11일(현지 시간) 러시아와 우크라이나가 에너지 시설에 대한 공격을 즉시 중단하는 "에너지 휴전"에 합의했다고 선언했습니다. 그러나 러시아 측의 공식 확인은 아직 나오지 않았고, 젤렌스키 대통령 측도 "처음 듣는 소식"이라고 밝혀 합의의 실체는 불투명합니다. 금요일 발표된 러시아산 디젤 대규모 구매 계획과 맞물려, 이번 선언은 갤런당 6.28달러까지 치솟은 미국 내 디젤 가격을 둘러싼 중간선거용 정지 작업으로 읽힙니다. 선언 다음 날에도 러시아의 확인은 없고 키이우 공습은 이어졌으며, 트럼프가 한 달 전에도 같은 선언을 했으나 실효가 없었다는 점이 확인됐습니다.'
+takeaway: '도널드 트럼프 미국 대통령이 10월 11일(현지 시간) 러시아와 우크라이나가 에너지 시설에 대한 공격을 즉시 중단하는 "에너지 휴전"에 합의했다고 선언했습니다. 그러나 러시아 측의 공식 확인은 아직 나오지 않았고, 젤렌스키 대통령 측도 "처음 듣는 소식"이라고 밝혀 합의의 실체는 불투명합니다. 금요일 발표된 러시아산 디젤 대규모 구매 계획과 맞물려, 이번 선언은 갤런당 6.28달러까지 치솟은 미국 내 디젤 가격을 둘러싼 중간선거용 정지 작업으로 읽힙니다. 선언 다음 날에도 러시아의 확인은 없고 키이우 공습은 이어졌으며, 트럼프가 한 달 전에도 같은 선언을 했으나 실효가 없었다는 점이 확인됐습니다. 이후 미국이 정유소 공습 중단을 조건으로 무기 조달(PURL)·정보 공유 중단까지 거론하며 우크라이나를 전방위 압박하고 있고, 우크라이나의 장거리 타격은 얀덱스 데이터센터까지 넓어졌습니다.'
 tags: [트럼프, 러시아, 우크라이나, 에너지 휴전, 디젤, 중간선거]
 cover: /images/trump-russia-ukraine-energy-ceasefire-2026-10-12.jpg
 coverAlt: 해 질 녘 정유 시설 전경 — AI 생성 이미지
@@ -66,9 +66,13 @@ source:
 
 <p align="center">알자지라가 전한 일요일의 또 다른 대목도 있습니다.<br/>젤렌스키 대통령은 푸틴 대통령이 **60일**간의 전면 휴전에 동의하면 선거를 실시하겠다고 말했습니다.<br/>토요일 미국이 러시아 연료에 대한 제재를 일시 해제한 데 대해 그는 "러시아는 디젤 수출 제재 해제에 대한 감사의 표시로 자포리자의 주거 건물에 활공폭탄 다섯 발을 투하했다"고 비꼬았습니다.<br/>토요일 자포리자 공격으로 **16명**이 숨졌고, 희생자 중에는 **6세** 여아도 있었습니다.<br/>젤렌스키 대통령은 "러시아는 압박 완화를 계속 싸워도 된다는 신호로 받아들인다"며, 압력 완화 자체가 공격을 부추긴다고 주장했습니다.</p>
 
+<p align="center">10월 12일 오전(KST) 확인 — 선언의 이면에서는 미국이 우크라이나에 대한 압박을 한층 노골적으로 확대하고 있습니다.<br/>파이낸셜타임스(FT) 보도를 로이터가 전한 바에 따르면, 미국은 우크라이나의 러시아 에너지 인프라 심층 타격을 멈추도록 압박하기 위해 우크라이나 무기 공급 체계를 끊겠다고 위협하고 있습니다.<br/>거론된 수단은 미국산 무기 조달 창구인 **PURL**(Prioritised Ukraine Requirements List) 메커니즘과 정보 공유의 중단입니다.<br/>유럽 관계자들은 미국 관리들로부터 전화를 받았거나 관련 브리핑을 들었다면서, 미국이 키이우와 유럽 각국 수도를 돌며 정유소 공습 중단을 설득하고 있다고 전했습니다.<br/>"그들은 키이우에 전화하고 있다. … 유럽의 모든 이들에게 전화하고 있다"는 것이 미국 국방부 관리와 통화한 유럽 관계자의 증언입니다.<br/>백악관은 논평 요청에 즉시 답하지 않았고, 로이터는 이 보도를 독자적으로 확인하지 못했다고 밝혔습니다.<br/>마이애미 협의에서 나온 "정보 공유 언급"은 미국 관리들이 부인했던 사안인데, FT 보도대로라면 압박은 협상 테이블을 넘어 전방위로 벌어지고 있는 셈입니다.</p>
+
+<p align="center">같은 일요일, 우크라이나의 장거리 타격은 에너지를 넘어 새로운 목표물로 번지고 있습니다.<br/>러시아의 기술·AI 기업 얀덱스는 블라디미르 지역 데이터센터가 드론 공격을 받아 완전히 가동을 중단했다고 밝혔습니다.<br/>사상자는 없었지만 일부 서비스가 중단됐고, 이번 주 들어 얀덱스 시설이 공격받은 것은 **4일** 만에 **세 번째**입니다.<br/>10월 8일에는 사소보 데이터 허브가 공격받아 완전히 멈췄고(얀덱스 AI 모델 개발용 슈퍼컴퓨터 **3대** 중 **2대**가 이곳에 있음), 10월 9일에는 칼루가 지역 시설이 부분 가동 중단됐습니다.<br/>독립 매체 아스트라는 블라디미르 공격으로 러시아 수십 개 도시와 카자흐스탄·벨라루스·아르메니아에서 택시 호출과 뱅킹 서비스 장애가 발생했다고 전했습니다.<br/>우크라이나 측은 러시아가 우크라이나의 데이터 허브를 먼저 공격한 데 대한 대응이라고 주장하고 있습니다.<br/>공습의 목표물이 에너지에서 기술 인프라로 넓어지는 양상으로, "에너지 휴전" 선언이 전장의 현실과 얼마나 동떨어져 있는지를 보여주는 장면입니다.</p>
+
 <p align="center">
 참고한 기사 —<br/>
-<a href="https://www.cnn.com/2026/10/11/politics/trump-ukraine-russia-energy-ceasefire">CNN</a> · <a href="https://nypost.com/2026/10/11/us-news/russia-ukraine-reach-energy-cease-fire-effective-immediately-trump-announces/">New York Post</a> · <a href="https://www.wsj.com/world/trump-declares-a-russia-ukraine-energy-ceasefire-but-moscow-hasnt-confirmed-f57414e9">The Wall Street Journal</a> · <a href="https://www.aljazeera.com/news/2026/10/11/trump-says-ukraine-russia-agree-to-energy-ceasefire-2?traffic_source=rss">Al Jazeera</a> · <a href="https://timesofindia.indiatimes.com/world/us/russia-ukraine-agreed-on-energy-ceasefire-effective-immediately-says-trump/articleshow/134872127.cms">The Times of India</a>
+<a href="https://www.cnn.com/2026/10/11/politics/trump-ukraine-russia-energy-ceasefire">CNN</a> · <a href="https://nypost.com/2026/10/11/us-news/russia-ukraine-reach-energy-cease-fire-effective-immediately-trump-announces/">New York Post</a> · <a href="https://www.wsj.com/world/trump-declares-a-russia-ukraine-energy-ceasefire-but-moscow-hasnt-confirmed-f57414e9">The Wall Street Journal</a> · <a href="https://www.aljazeera.com/news/2026/10/11/trump-says-ukraine-russia-agree-to-energy-ceasefire-2?traffic_source=rss">Al Jazeera</a> · <a href="https://timesofindia.indiatimes.com/world/us/russia-ukraine-agreed-on-energy-ceasefire-effective-immediately-says-trump/articleshow/134872127.cms">The Times of India</a> · <a href="https://www.reuters.com/world/europe/us-threatens-block-arms-ukraine-over-refinery-attacks-ft-reports-2026-10-11/">Reuters</a> · <a href="https://www.reuters.com/world/europe/russias-yandex-says-data-centre-vladimir-area-shut-down-after-drone-attack-2026-10-11/">Reuters</a>
 </p>
 
 <p align="center">
