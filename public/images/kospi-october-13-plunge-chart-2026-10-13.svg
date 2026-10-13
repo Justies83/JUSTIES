@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="10월 13일 코스피 장중 흐름 차트">
+  <rect x="0" y="0" width="900" height="520" fill="#f4f1ea"/>
+  <text x="450" y="52" text-anchor="middle" font-size="26" font-weight="700" fill="#20231f">10월 13일 코스피 장중 흐름</text>
+  <text x="450" y="82" text-anchor="middle" font-size="16" fill="#62655d">시가 6,186.08 · 장중 고가 6,198.46 · 장중 저가 5,911.11 · 종가 6,035.35(−5.46%)</text>
+
+  <line x1="80" y1="345" x2="880" y2="345" stroke="#e0795b" stroke-width="2" stroke-dasharray="8 6"/>
+  <text x="872" y="337" text-anchor="end" font-size="16" fill="#e0795b">6,000선</text>
+
+  <polyline points="120,112 360,97 600,456 840,301" fill="none" stroke="#16756a" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+  <g font-size="17" fill="#20231f">
+    <circle cx="120" cy="112" r="8" fill="#16756a"/>
+    <text x="120" y="148" text-anchor="middle">시가 6,186.08</text>
+    <circle cx="360" cy="97" r="8" fill="#16756a"/>
+    <text x="360" y="133" text-anchor="middle">고가 6,198.46</text>
+    <circle cx="600" cy="456" r="8" fill="#e0795b"/>
+    <text x="600" y="488" text-anchor="middle" fill="#e0795b" font-weight="700">저가 5,911.11 (6,000선 붕괴)</text>
+    <circle cx="840" cy="301" r="8" fill="#16756a"/>
+    <text x="840" y="337" text-anchor="middle">종가 6,035.35</text>
+  </g>
+
+  <text x="450" y="508" text-anchor="middle" font-size="14" fill="#62655d" font-family="monospace">도표는 머니투데이(2026.10.13)·MBN(2026.10.13) 기사의 수치로 직접 작성. 축: 5,900\~6,220</text>
+</svg>
