@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" width="900" height="420" role="img">
+  <rect width="900" height="420" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="418" fill="none" stroke="rgba(32,35,31,.16)"/>
+  <text x="450" y="46" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="26" font-weight="700" fill="#20231f">제조 AI 전환(M.AX) 규제 로드맵</text>
+  <text x="450" y="74" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">제6차 산업융합 규제특례심의위원회(2026.10.13) 발표 기준</text>
+
+  <line x1="110" y1="200" x2="790" y2="200" stroke="#20231f" stroke-width="3"/>
+
+  <circle cx="110" cy="200" r="14" fill="#16756a" stroke="#20231f" stroke-width="2"/>
+  <circle cx="450" cy="200" r="14" fill="#e0795b" stroke="#20231f" stroke-width="2"/>
+  <circle cx="790" cy="200" r="14" fill="#3f6fb4" stroke="#20231f" stroke-width="2"/>
+
+  <text x="110" y="150" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="19" font-weight="700" fill="#20231f">2026.10.13</text>
+  <text x="110" y="250" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">휴머노이드 20대</text>
+  <text x="110" y="276" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">실증특례 승인</text>
+  <text x="110" y="302" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">반도체·자동차·조선·물류</text>
+  <text x="110" y="324" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">4개 현장 · 안전펜스 특례</text>
+
+  <text x="450" y="150" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="19" font-weight="700" fill="#20231f">2026년 말</text>
+  <text x="450" y="250" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">AI 가전 기술수준</text>
+  <text x="450" y="276" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">표준안 개발</text>
+  <text x="450" y="302" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">'AI 워싱' 광고 방지</text>
+  <text x="450" y="324" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">내년부터 제정 절차 착수</text>
+
+  <text x="790" y="150" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="19" font-weight="700" fill="#20231f">2028년 초</text>
+  <text x="790" y="250" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">제조현장 AI</text>
+  <text x="790" y="276" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">사이버보안 기준 마련</text>
+  <text x="790" y="302" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">중소·중견기업 맞춤형</text>
+  <text x="790" y="324" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">데이터 위·변조·해킹 대응</text>
+
+  <text x="450" y="384" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12" fill="#62655d">4족보행 순찰로봇 보도 운행 첫 허용 · 의료 AI 보안 플랫폼 실증도 함께 승인 (총 16건)</text>
+</svg>
