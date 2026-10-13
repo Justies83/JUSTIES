@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+  <text x="450" y="46" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="26" font-weight="700" fill="#20231f">애플 'Welcome Home' 전후 일정</text>
+  <text x="450" y="74" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">틸 = 확정 · 산호 = 보도 기준 전망</text>
+
+  <line x1="90" y1="260" x2="810" y2="260" stroke="#20231f" stroke-width="3"/>
+
+  <g font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+    <!-- 2020.10 -->
+    <circle cx="90" cy="260" r="9" fill="#16756a"/>
+    <text x="90" y="312" text-anchor="middle" font-size="14" font-weight="700" fill="#20231f">2020.10</text>
+    <text x="90" y="334" text-anchor="middle" font-size="13" fill="#62655d">초대 HomePod mini 발표</text>
+
+    <!-- 2022 -->
+    <circle cx="192.9" cy="260" r="9" fill="#16756a"/>
+    <text x="192.9" y="212" text-anchor="middle" font-size="14" font-weight="700" fill="#20231f">2022</text>
+    <text x="192.9" y="190" text-anchor="middle" font-size="13" fill="#62655d">Apple TV 4K(3세대) 출시</text>
+
+    <!-- 2026.09 -->
+    <circle cx="295.7" cy="260" r="9" fill="#16756a"/>
+    <text x="295.7" y="312" text-anchor="middle" font-size="14" font-weight="700" fill="#20231f">2026.09</text>
+    <text x="295.7" y="334" text-anchor="middle" font-size="13" fill="#62655d">Siri AI 베타 시작(보도)</text>
+
+    <!-- 2026.10.08 -->
+    <circle cx="398.6" cy="260" r="9" fill="#16756a"/>
+    <text x="398.6" y="212" text-anchor="middle" font-size="14" font-weight="700" fill="#20231f">2026.10.08</text>
+    <text x="398.6" y="190" text-anchor="middle" font-size="13" fill="#62655d">조스위악 X 티저 공개</text>
+
+    <!-- 2026.10.13 TODAY -->
+    <circle cx="501.4" cy="260" r="14" fill="#e0795b" stroke="#20231f" stroke-width="2.5"/>
+    <text x="501.4" y="312" text-anchor="middle" font-size="15" font-weight="700" fill="#20231f">2026.10.13 오늘</text>
+    <text x="501.4" y="334" text-anchor="middle" font-size="13" fill="#62655d">'Welcome Home' 이벤트</text>
+    <text x="501.4" y="354" text-anchor="middle" font-size="13" fill="#62655d">뉴욕 9시 · 한국시간 밤 10시</text>
+
+    <!-- 2026.10.27 -->
+    <circle cx="604.3" cy="260" r="9" fill="none" stroke="#e0795b" stroke-width="3"/>
+    <text x="604.3" y="212" text-anchor="middle" font-size="14" font-weight="700" fill="#20231f">2026.10.27</text>
+    <text x="604.3" y="190" text-anchor="middle" font-size="13" fill="#62655d">2차 이벤트 전망(보도)</text>
+    <text x="604.3" y="170" text-anchor="middle" font-size="13" fill="#62655d">터치스크린 맥북프로 · M6</text>
+
+    <!-- 2026.10.30 -->
+    <circle cx="707.1" cy="260" r="9" fill="none" stroke="#e0795b" stroke-width="3"/>
+    <text x="707.1" y="312" text-anchor="middle" font-size="14" font-weight="700" fill="#20231f">2026.10.30</text>
+    <text x="707.1" y="334" text-anchor="middle" font-size="13" fill="#62655d">홈팟 미니 2 · 애플TV 출시 전망</text>
+    <text x="707.1" y="354" text-anchor="middle" font-size="13" fill="#62655d">거먼 보도 · 현지시각</text>
+
+    <!-- 2026.11 mid -->
+    <circle cx="810" cy="260" r="9" fill="none" stroke="#e0795b" stroke-width="3"/>
+    <text x="810" y="212" text-anchor="middle" font-size="14" font-weight="700" fill="#20231f">2026.11 중순</text>
+    <text x="810" y="190" text-anchor="middle" font-size="13" fill="#62655d">스마트홈 허브 출시 전망</text>
+    <text x="810" y="170" text-anchor="middle" font-size="13" fill="#62655d">거먼 보도 · 현지시각</text>
+  </g>
+
+  <text x="450" y="452" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">· 허브의 보도명은 'HomeView'(블룸버그) · 'HomePad' 등으로 매체마다 다릅니다</text>
+  <text x="450" y="478" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">· 출시일·2차 이벤트는 모두 공식 발표 전 보도이므로 실제와 다를 수 있습니다</text>
+
+  <text x="450" y="506" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">연표는 블룸버그 · 더 버지 · 맥루머스 · 위키트리(2026.10.08~12) 보도 일정으로 직접 작성</text>
+</svg>
