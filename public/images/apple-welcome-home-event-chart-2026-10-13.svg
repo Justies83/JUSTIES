@@ -27,9 +27,9 @@
     <text x="398.6" y="212" text-anchor="middle" font-size="14" font-weight="700" fill="#20231f">2026.10.08</text>
     <text x="398.6" y="190" text-anchor="middle" font-size="13" fill="#62655d">조스위악 X 티저 공개</text>
 
-    <!-- 2026.10.13 TODAY -->
-    <circle cx="501.4" cy="260" r="14" fill="#e0795b" stroke="#20231f" stroke-width="2.5"/>
-    <text x="501.4" y="312" text-anchor="middle" font-size="15" font-weight="700" fill="#20231f">2026.10.13 오늘</text>
+    <!-- 2026.10.13 -->
+    <circle cx="501.4" cy="260" r="14" fill="#16756a" stroke="#20231f" stroke-width="2.5"/>
+    <text x="501.4" y="312" text-anchor="middle" font-size="15" font-weight="700" fill="#20231f">2026.10.13</text>
     <text x="501.4" y="334" text-anchor="middle" font-size="13" fill="#62655d">'Welcome Home' 이벤트</text>
     <text x="501.4" y="354" text-anchor="middle" font-size="13" fill="#62655d">뉴욕 9시 · 한국시간 밤 10시</text>
 
@@ -40,20 +40,20 @@
     <text x="604.3" y="170" text-anchor="middle" font-size="13" fill="#62655d">터치스크린 맥북프로 · M6</text>
 
     <!-- 2026.10.30 -->
-    <circle cx="707.1" cy="260" r="9" fill="none" stroke="#e0795b" stroke-width="3"/>
+    <circle cx="707.1" cy="260" r="9" fill="#16756a"/>
     <text x="707.1" y="312" text-anchor="middle" font-size="14" font-weight="700" fill="#20231f">2026.10.30</text>
-    <text x="707.1" y="334" text-anchor="middle" font-size="13" fill="#62655d">홈팟 미니 2 · 애플TV 출시 전망</text>
-    <text x="707.1" y="354" text-anchor="middle" font-size="13" fill="#62655d">거먼 보도 · 현지시각</text>
+    <text x="707.1" y="334" text-anchor="middle" font-size="13" fill="#62655d">홈팟 미니 2 출시 확정</text>
+    <text x="707.1" y="354" text-anchor="middle" font-size="13" fill="#62655d">10.13 사전주문 · 현지시각</text>
 
     <!-- 2026.11 mid -->
-    <circle cx="810" cy="260" r="9" fill="none" stroke="#e0795b" stroke-width="3"/>
-    <text x="810" y="212" text-anchor="middle" font-size="14" font-weight="700" fill="#20231f">2026.11 중순</text>
-    <text x="810" y="190" text-anchor="middle" font-size="13" fill="#62655d">스마트홈 허브 출시 전망</text>
-    <text x="810" y="170" text-anchor="middle" font-size="13" fill="#62655d">거먼 보도 · 현지시각</text>
+    <circle cx="810" cy="260" r="9" fill="#16756a"/>
+    <text x="810" y="212" text-anchor="middle" font-size="14" font-weight="700" fill="#20231f">2026.11.13</text>
+    <text x="810" y="190" text-anchor="middle" font-size="13" fill="#62655d">HomeView · 애플TV 4K 출하 확정</text>
+    <text x="810" y="170" text-anchor="middle" font-size="13" fill="#62655d">10.13 사전주문 · 현지시각</text>
   </g>
 
-  <text x="450" y="452" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">· 허브의 보도명은 'HomeView'(블룸버그) · 'HomePad' 등으로 매체마다 다릅니다</text>
-  <text x="450" y="478" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">· 출시일·2차 이벤트는 모두 공식 발표 전 보도이므로 실제와 다를 수 있습니다</text>
+  <text x="450" y="452" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">· 허브의 공식 명칭은 10.13 행사에서 'HomeView'로 확정됐습니다</text>
+  <text x="450" y="478" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">· 10.30 · 11.13 일정은 행사에서 확정, 10.27 2차 이벤트는 보도 기준 전망입니다</text>
 
-  <text x="450" y="506" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">연표는 블룸버그 · 더 버지 · 맥루머스 · 위키트리(2026.10.08~12) 보도 일정으로 직접 작성</text>
+  <text x="450" y="506" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">연표는 블룸버그 · 더 버지 · 맥루머스 · 위키트리(2026.10.08~12) 보도 일정으로 직접 작성 · 확정 내용은 10.13 행사 후 보도 반영</text>
 </svg>
