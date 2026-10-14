@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="sans-serif">
+  <rect x="0" y="0" width="900" height="520" fill="#f4f1ea"/>
+  <text x="60" y="70" font-size="34" font-weight="bold" fill="#20231f">용인 반도체 국가산단 투자 비전 (SEDEX 2026)</text>
+  <text x="60" y="108" font-size="20" fill="#62655d">삼성전자 DS부문 발표 기준 · 투자액 약 360조 원</text>
+
+  <!-- timeline -->
+  <line x1="100" y1="260" x2="800" y2="260" stroke="#62655d" stroke-width="3"/>
+
+  <!-- 2027 -->
+  <circle cx="180" cy="260" r="14" fill="#16756a"/>
+  <text x="180" y="220" font-size="30" font-weight="bold" fill="#20231f" text-anchor="middle">2027년</text>
+  <text x="180" y="300" font-size="22" fill="#20231f" text-anchor="middle">산단 건설 시작</text>
+
+  <!-- 2029.10 -->
+  <circle cx="460" cy="260" r="14" fill="#16756a"/>
+  <text x="460" y="220" font-size="30" font-weight="bold" fill="#20231f" text-anchor="middle">2029년 10월</text>
+  <text x="460" y="300" font-size="22" fill="#20231f" text-anchor="middle">첫 생산라인 가동 목표</text>
+
+  <!-- 70 companies -->
+  <circle cx="740" cy="260" r="14" fill="#e0795b"/>
+  <text x="740" y="220" font-size="30" font-weight="bold" fill="#20231f" text-anchor="middle">약 70개사</text>
+  <text x="740" y="300" font-size="22" fill="#20231f" text-anchor="middle">소재·부품·장비·팹리스</text>
+  <text x="740" y="332" font-size="22" fill="#20231f" text-anchor="middle">입주 생태계 조성 계획</text>
+
+  <!-- 360T bar -->
+  <text x="60" y="410" font-size="22" fill="#20231f">누적 투자 계획</text>
+  <rect x="60" y="430" width="780" height="34" fill="#16756a" opacity="0.25" rx="6"/>
+  <rect x="60" y="430" width="780" height="34" fill="#16756a" rx="6"/>
+  <text x="450" y="454" font-size="22" font-weight="bold" fill="#f4f1ea" text-anchor="middle">약 360조 원</text>
+
+  <text x="450" y="500" font-family="monospace" font-size="15" fill="#62655d" text-anchor="middle">아주경제(2026.10.14) 보도 수치로 직접 작성 · 계획 단계로 변경 가능</text>
+</svg>
