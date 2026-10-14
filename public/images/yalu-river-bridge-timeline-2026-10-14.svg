@@ -1,0 +1,35 @@
+<svg viewBox="0 0 900 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="신압록강대교 12년 연표">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <text x="450" y="58" text-anchor="middle" font-size="30" fill="#20231f" font-weight="bold">신압록강대교, 12년의 표류와 개통</text>
+  <text x="450" y="92" text-anchor="middle" font-size="16" fill="#62655d">북중 최대 육로 교역 통로가 10월 15일 문을 엽니다</text>
+
+  <line x1="90" y1="250" x2="810" y2="250" stroke="#62655d" stroke-width="3"/>
+
+  <g font-size="22" fill="#20231f" font-weight="bold">
+    <circle cx="180" cy="250" r="14" fill="#16756a"/>
+    <text x="180" y="205" text-anchor="middle">2014</text>
+    <text x="180" y="300" text-anchor="middle" font-size="18" font-weight="normal">중국 측 교량 완공</text>
+    <text x="180" y="328" text-anchor="middle" font-size="18" font-weight="normal">북한 진입로 미완공</text>
+
+    <circle cx="380" cy="250" r="14" fill="#16756a"/>
+    <text x="380" y="205" text-anchor="middle">2017</text>
+    <text x="380" y="300" text-anchor="middle" font-size="18" font-weight="normal">유엔 대북제재 강화</text>
+    <text x="380" y="328" text-anchor="middle" font-size="18" font-weight="normal">북중 관계 경색</text>
+
+    <circle cx="580" cy="250" r="14" fill="#16756a"/>
+    <text x="580" y="205" text-anchor="middle">2025</text>
+    <text x="580" y="300" text-anchor="middle" font-size="18" font-weight="normal">대중 대북 수출 <tspan font-weight="bold" fill="#16756a">23억 달러</tspan></text>
+    <text x="580" y="328" text-anchor="middle" font-size="18" font-weight="normal">6년 만에 최대·전년 대비 +25%</text>
+
+    <circle cx="760" cy="250" r="16" fill="#e0795b"/>
+    <text x="760" y="205" text-anchor="middle" fill="#e0795b">2026.10.15</text>
+    <text x="760" y="300" text-anchor="middle" font-size="18" font-weight="normal">신압록강대교 개통</text>
+    <text x="760" y="328" text-anchor="middle" font-size="18" font-weight="normal">양국 공동 개통식</text>
+  </g>
+
+  <rect x="90" y="380" width="720" height="86" fill="none" stroke="#62655d" stroke-width="1.5"/>
+  <text x="450" y="412" text-anchor="middle" font-size="20" fill="#20231f" font-weight="bold">길이 3km · 왕복 2차선 · 단둥—신의주</text>
+  <text x="450" y="444" text-anchor="middle" font-size="17" fill="#62655d">노후한 단선 우의교를 대체하는 최대 육로 교역 통로</text>
+
+  <text x="450" y="500" text-anchor="middle" font-size="14" fill="#62655d" font-family="monospace">기준: 로이터(2026.10.14)·신화사 발표의 수치로 직접 작성</text>
+</svg>
