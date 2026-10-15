@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="sans-serif">
+  <rect x="0" y="0" width="900" height="520" fill="#f4f1ea"/>
+
+  <!-- Panel A -->
+  <text x="40" y="52" font-size="26" font-weight="bold" fill="#20231f">9월 PPI, 예상을 크게 웃돌다 (전월 대비, %)</text>
+  <rect x="640" y="32" width="24" height="16" fill="#7fa8a0"/>
+  <text x="672" y="45" font-size="18" fill="#62655d">예상</text>
+  <rect x="726" y="32" width="24" height="16" fill="#e0795b"/>
+  <text x="758" y="45" font-size="18" fill="#62655d">실제</text>
+
+  <line x1="300" y1="473" x2="300" y2="473" stroke="none"/>
+  <g stroke="#d8d3c4" stroke-width="1">
+    <line x1="473" y1="80" x2="473" y2="232"/>
+    <line x1="647" y1="80" x2="647" y2="232"/>
+    <line x1="820" y1="80" x2="820" y2="232"/>
+  </g>
+  <text x="40" y="120" font-size="20" fill="#20231f">헤드라인 PPI</text>
+  <rect x="300" y="102" width="208" height="24" fill="#7fa8a0"/>
+  <text x="518" y="121" font-size="18" fill="#62655d">0.6%</text>
+  <rect x="300" y="130" width="451" height="24" fill="#e0795b"/>
+  <text x="761" y="149" font-size="18" fill="#62655d">1.3%</text>
+  <text x="40" y="184" font-size="20" fill="#20231f">근원 PPI</text>
+  <rect x="300" y="166" width="104" height="24" fill="#7fa8a0"/>
+  <text x="414" y="185" font-size="18" fill="#62655d">0.3%</text>
+  <rect x="300" y="194" width="243" height="24" fill="#e0795b"/>
+  <text x="553" y="213" font-size="18" fill="#62655d">0.7%</text>
+  <g font-size="16" fill="#62655d">
+    <text x="466" y="254">0.5</text>
+    <text x="640" y="254">1.0</text>
+    <text x="813" y="254">1.5</text>
+  </g>
+
+  <!-- Panel B -->
+  <text x="40" y="300" font-size="26" font-weight="bold" fill="#20231f">물가 급등을 이끈 에너지 (전월 대비, %)</text>
+  <g stroke="#d8d3c4" stroke-width="1">
+    <line x1="418" y1="320" x2="418" y2="430"/>
+    <line x1="536" y1="320" x2="536" y2="430"/>
+    <line x1="655" y1="320" x2="655" y2="430"/>
+    <line x1="773" y1="320" x2="773" y2="430"/>
+  </g>
+  <text x="40" y="360" font-size="20" fill="#20231f">에너지 생산자물가</text>
+  <rect x="300" y="342" width="255" height="24" fill="#e0795b"/>
+  <text x="565" y="361" font-size="18" fill="#62655d">10.8%</text>
+  <text x="40" y="404" font-size="20" fill="#20231f">휘발유</text>
+  <rect x="300" y="386" width="480" height="24" fill="#e0795b"/>
+  <text x="790" y="405" font-size="18" fill="#62655d">20.3%</text>
+  <g font-size="16" fill="#62655d">
+    <text x="414" y="452">5</text>
+    <text x="530" y="452">10</text>
+    <text x="649" y="452">15</text>
+    <text x="767" y="452">20</text>
+  </g>
+
+  <text x="40" y="492" font-size="15" font-family="monospace" fill="#62655d">자료: 미 노동통계국(BLS) 9월 PPI · 이데일리·MTN(2026.10.15) 보도 수치로 직접 작성 (전월 대비 기준)</text>
+</svg>
