@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="44" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">KOSPI · 2026.10.15 INTRADAY</text>
+  <text x="74" y="72" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">개장 후 낙폭 확대 — 서킷브레이커, 그리고 약간의 반등</text>
+
+  <line x1="74" y1="202" x2="826" y2="202" stroke="rgba(32,35,31,.16)"/>
+  <line x1="74" y1="254" x2="826" y2="254" stroke="rgba(32,35,31,.16)"/>
+  <line x1="74" y1="306" x2="826" y2="306" stroke="rgba(32,35,31,.16)"/>
+  <line x1="74" y1="358" x2="826" y2="358" stroke="rgba(32,35,31,.16)"/>
+  <line x1="74" y1="410" x2="826" y2="410" stroke="rgba(32,35,31,.16)"/>
+  <text x="60" y="207" text-anchor="end" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#62655d">5,700</text>
+  <text x="60" y="259" text-anchor="end" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#62655d">5,650</text>
+  <text x="60" y="311" text-anchor="end" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#62655d">5,600</text>
+  <text x="60" y="363" text-anchor="end" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#62655d">5,550</text>
+  <text x="60" y="415" text-anchor="end" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#62655d">5,500</text>
+
+  <line x1="74" y1="110" x2="74" y2="426" stroke="rgba(32,35,31,.16)" stroke-dasharray="2 5"/>
+  <line x1="450" y1="110" x2="450" y2="426" stroke="rgba(32,35,31,.16)" stroke-dasharray="2 5"/>
+  <line x1="826" y1="110" x2="826" y2="426" stroke="rgba(32,35,31,.16)" stroke-dasharray="2 5"/>
+
+  <path d="M74 230.07 L450 381.8 L826 314.43" fill="none" stroke="#e0795b" stroke-width="2.8"/>
+  <circle cx="74" cy="230.07" r="5" fill="#f4f1ea" stroke="#e0795b" stroke-width="2.8"/>
+  <circle cx="450" cy="381.8" r="5" fill="#f4f1ea" stroke="#e0795b" stroke-width="2.8"/>
+  <circle cx="826" cy="314.43" r="5" fill="#f4f1ea" stroke="#e0795b" stroke-width="2.8"/>
+
+  <text x="74" y="206" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="18" fill="#e0795b">5,673.01</text>
+  <text x="74" y="184" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#62655d">-5.59%</text>
+  <text x="450" y="408" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="18" fill="#e0795b">5,527.12</text>
+  <text x="450" y="432" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#62655d">-8.02%</text>
+  <text x="826" y="290" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="18" fill="#e0795b">5,591.89</text>
+  <text x="826" y="268" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#62655d">-6.94%</text>
+
+  <text x="74" y="456" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#62655d">9:00 개장</text>
+  <text x="450" y="456" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#62655d">12:38 서킷브레이커 발동</text>
+  <text x="826" y="456" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#62655d">13:45</text>
+
+  <text x="74" y="496" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">개장·서킷 수치: 조선비즈(2026.10.15) · 13:45 수치: 아시아경제(2026.10.15) — 장중 기준, 종가 아님</text>
+</svg>
