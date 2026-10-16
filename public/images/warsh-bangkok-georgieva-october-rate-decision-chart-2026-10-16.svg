@@ -19,29 +19,32 @@
     <text x="100" y="95" text-anchor="end">80</text>
   </g>
 
-  <!-- line: 70, 25, 22, 55, 40 -->
-  <polyline points="120,137.5 305,351.25 490,365.5 675,208.75 860,280" fill="none" stroke="#16756a" stroke-width="4"/>
+  <!-- line: 70, 25, 22, 55, 40, 15 -->
+  <polyline points="120,137.5 268,351.25 416,365.5 564,208.75 712,280 860,398.75" fill="none" stroke="#16756a" stroke-width="4"/>
   <g fill="#16756a">
     <circle cx="120" cy="137.5" r="8"/>
-    <circle cx="305" cy="351.25" r="8"/>
-    <circle cx="490" cy="365.5" r="8"/>
-    <circle cx="675" cy="208.75" r="8"/>
-    <circle cx="860" cy="280" r="8"/>
+    <circle cx="268" cy="351.25" r="8"/>
+    <circle cx="416" cy="365.5" r="8"/>
+    <circle cx="564" cy="208.75" r="8"/>
+    <circle cx="712" cy="280" r="8"/>
+    <circle cx="860" cy="398.75" r="8"/>
   </g>
   <g font-size="20" font-weight="bold" fill="#20231f" text-anchor="middle">
     <text x="120" y="115">70%</text>
-    <text x="305" y="390">25%</text>
-    <text x="490" y="404">22%</text>
-    <text x="675" y="186">55%</text>
-    <text x="860" y="258">40%</text>
+    <text x="268" y="390">25%</text>
+    <text x="416" y="404">22%</text>
+    <text x="564" y="186">55%</text>
+    <text x="712" y="258">40%</text>
+    <text x="860" y="377">15%</text>
   </g>
   <g font-size="17" fill="#62655d" text-anchor="middle">
     <text x="120" y="505">9월 FOMC 직후</text>
-    <text x="305" y="505">윌리엄스·제퍼슨</text>
-    <text x="305" y="530">발언 후</text>
-    <text x="490" y="505">CPI 발표 전</text>
-    <text x="675" y="505">CPI 발표 직후</text>
-    <text x="860" y="505">현재</text>
+    <text x="268" y="505">윌리엄스·제퍼슨</text>
+    <text x="268" y="530">발언 후</text>
+    <text x="416" y="505">CPI 발표 전</text>
+    <text x="564" y="505">CPI 발표 직후</text>
+    <text x="712" y="505">방콕 대담 직전</text>
+    <text x="860" y="505">발언 후</text>
   </g>
 
   <text x="40" y="556" font-size="14" fill="#62655d">확률은 선물시장 반영치로 수시로 바뀝니다</text>
