@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="백색왜성 색상 분류 도표">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <text x="40" y="52" font-family="sans-serif" font-size="26" font-weight="bold" fill="#20231f">백색왜성은 왜 '흰색'만 아닐까</text>
+  <text x="40" y="80" font-family="sans-serif" font-size="15" fill="#62655d">워릭대 연구팀, 65광년 이내 백색왜성 151개의 실제 색상 분류 (RAS Techniques and Instruments, 2026)</text>
+
+  <!-- palette bar -->
+  <g font-family="sans-serif">
+    <rect x="40" y="120" width="140" height="90" fill="#a8c256" stroke="#20231f" stroke-width="1.5"/>
+    <rect x="180" y="120" width="140" height="90" fill="#f2a0a8" stroke="#20231f" stroke-width="1.5"/>
+    <rect x="320" y="120" width="140" height="90" fill="#f5d54a" stroke="#20231f" stroke-width="1.5"/>
+    <rect x="460" y="120" width="140" height="90" fill="#7fd4d0" stroke="#20231f" stroke-width="1.5"/>
+    <rect x="600" y="120" width="140" height="90" fill="#fbfbf8" stroke="#20231f" stroke-width="1.5"/>
+    <rect x="740" y="120" width="120" height="90" fill="#ffffff" stroke="#20231f" stroke-width="1.5"/>
+  </g>
+
+  <g font-family="sans-serif" font-size="14" fill="#20231f">
+    <text x="48" y="228" font-weight="bold">황록색 (chartreuse)</text>
+    <text x="48" y="248" fill="#62655d">WD J1330+6435</text>
+    <text x="48" y="266" fill="#62655d">나트륨 오염 대기</text>
+
+    <text x="188" y="228" font-weight="bold">연어분홍 (salmon)</text>
+    <text x="188" y="248" fill="#62655d">WD J1011+2845</text>
+    <text x="188" y="266" fill="#62655d">탄소 분자 · 48광년</text>
+
+    <text x="328" y="228" font-weight="bold">노랑</text>
+    <text x="328" y="248" fill="#62655d">행성 잔해 오염형</text>
+
+    <text x="468" y="228" font-weight="bold">시안 · 창백한 파랑</text>
+    <text x="468" y="248" fill="#62655d">저온 혼합 수소-헬륨형</text>
+
+    <text x="608" y="228" font-weight="bold">흰색</text>
+    <text x="608" y="248" fill="#62655d">평균적인 백색왜성</text>
+
+    <text x="748" y="228" font-weight="bold">청백색</text>
+    <text x="748" y="248" fill="#62655d">온도 순수 효과</text>
+  </g>
+
+  <!-- stats -->
+  <line x1="40" y1="300" x2="860" y2="300" stroke="#62655d" stroke-width="1" stroke-dasharray="5,4"/>
+  <g font-family="sans-serif">
+    <text x="40" y="342" font-size="30" font-weight="bold" fill="#16756a">151</text>
+    <text x="40" y="366" font-size="14" fill="#62655d">65광년 이내 조사한 백색왜성 수</text>
+
+    <text x="300" y="342" font-size="30" font-weight="bold" fill="#16756a">5</text>
+    <text x="300" y="366" font-size="14" fill="#62655d">특이 색상을 보인 별</text>
+
+    <text x="560" y="342" font-size="30" font-weight="bold" fill="#16756a">6,800K</text>
+    <text x="560" y="366" font-size="14" fill="#62655d">표본의 중간 색온도 (평균은 '흰색')</text>
+  </g>
+
+  <!-- green star mechanism -->
+  <g font-family="sans-serif">
+    <rect x="40" y="396" width="820" height="70" fill="#eef3ee" stroke="#16756a" stroke-width="2" rx="8"/>
+    <text x="60" y="424" font-size="15" font-weight="bold" fill="#20231f">초록색의 정체: 행성 잔해의 나트륨 + 백색왜성의 초고밀도 대기</text>
+    <text x="60" y="448" font-size="14" fill="#62655d">헬륨 원자와의 잦은 충돌이 나트륨의 원자 에너지 준위를 바꿔 노랑·주황·빨강 빛을 넓게 흡수 — 남은 빛이 초록으로 보인다</text>
+  </g>
+
+  <text x="40" y="502" font-family="monospace" font-size="12" fill="#62655d">출처: M. A. Hollands 외, RAS Techniques and Instruments 5 (2026) rzag069 · 도표는 논문 수치로 직접 작성</text>
+</svg>
