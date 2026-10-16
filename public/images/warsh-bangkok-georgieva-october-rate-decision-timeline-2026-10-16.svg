@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" font-family="sans-serif">
+  <rect x="0" y="0" width="900" height="620" fill="#f4f1ea"/>
+
+  <text x="40" y="52" font-size="26" font-weight="bold" fill="#20231f">10월 FOMC까지 남은 일정</text>
+
+  <line x1="200" y1="100" x2="200" y2="580" stroke="#9a9a92" stroke-width="3"/>
+
+  <g font-size="19" fill="#20231f">
+    <circle cx="200" cy="130" r="10" fill="#16756a"/>
+    <text x="230" y="122" font-weight="bold">9월 16~17일</text>
+    <text x="230" y="152">FOMC — 기준금리 3.75~4.00%로 0.25%p 인상 (3년 2개월 만, 만장일치)</text>
+
+    <circle cx="200" cy="215" r="10" fill="#16756a"/>
+    <text x="230" y="207" font-weight="bold">9월 말</text>
+    <text x="230" y="237">윌리엄스·제퍼슨 "서두를 필요 없다" → 10월 인상 확률 70% → 25%</text>
+
+    <circle cx="200" cy="300" r="10" fill="#e0795b"/>
+    <text x="230" y="292" font-weight="bold">10월 14~15일</text>
+    <text x="230" y="322">9월 CPI 3.7%·PPI 1.3% 쇼크 → 인상 확률 55%까지 반등</text>
+
+    <circle cx="200" cy="385" r="10" fill="#16756a"/>
+    <text x="230" y="377" font-weight="bold">10월 16일</text>
+    <text x="230" y="407">방콕 대담 — 워시, 10월 결정 힌트 거부</text>
+
+    <circle cx="200" cy="470" r="10" fill="#9a9a92"/>
+    <text x="230" y="462" font-weight="bold">10월 17일~</text>
+    <text x="230" y="492">연준 블랙아웃 시작 (관계자 공개 발언 제한)</text>
+
+    <circle cx="200" cy="555" r="10" fill="#20231f"/>
+    <text x="230" y="547" font-weight="bold">10월 27~28일</text>
+    <text x="230" y="577">FOMC — 금리 인상 vs 동결 결정</text>
+  </g>
+</svg>
