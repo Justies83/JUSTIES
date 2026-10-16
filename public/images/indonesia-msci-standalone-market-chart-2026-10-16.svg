@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" font-family="'Pretendard','Noto Sans KR','Apple SD Gothic Neo',sans-serif">
+  <rect width="900" height="560" fill="#faf8f4"/>
+  <text x="450" y="34" text-anchor="middle" font-size="22" font-weight="700" fill="#1a1a1a">MSCI 인도네시아 지위 논란 타임라인</text>
+  <text x="450" y="56" text-anchor="middle" font-size="13" fill="#666">Reuters · Nikkei Asia · 파이낸셜뉴스 (2026.10.16) 보도 수치로 직접 작성</text>
+
+  <!-- timeline -->
+  <line x1="60" y1="140" x2="840" y2="140" stroke="#c9bfae" stroke-width="3"/>
+  <g font-size="13" fill="#333">
+    <circle cx="100" cy="140" r="9" fill="#8a7a5c"/>
+    <text x="100" y="112" text-anchor="middle" font-weight="700">2026년 1월</text>
+    <text x="100" y="170" text-anchor="middle">MSCI, 인도네시아</text>
+    <text x="100" y="188" text-anchor="middle">지수 편입 조건 동결</text>
+    <text x="100" y="206" text-anchor="middle" fill="#999">→ 1월 말 급락장</text>
+
+    <circle cx="268" cy="140" r="9" fill="#8a7a5c"/>
+    <text x="268" y="112" text-anchor="middle" font-weight="700">2026년 4월</text>
+    <text x="268" y="170" text-anchor="middle">자카르타 당국</text>
+    <text x="268" y="188" text-anchor="middle">"개혁 완료" 선언</text>
+    <text x="268" y="206" text-anchor="middle" fill="#999">지분공개·HSC 보고 등</text>
+
+    <circle cx="436" cy="140" r="9" fill="#8a7a5c"/>
+    <text x="436" y="112" text-anchor="middle" font-weight="700">2026년 6월</text>
+    <text x="436" y="170" text-anchor="middle">MSCI 경고</text>
+    <text x="436" y="188" text-anchor="middle">"11월까지 진전 없으면</text>
+    <text x="436" y="206" text-anchor="middle">재분류 의견 수렴 개시"</text>
+
+    <circle cx="604" cy="140" r="12" fill="#b3271e"/>
+    <text x="604" y="112" text-anchor="middle" font-weight="700" fill="#b3271e">10월 15일</text>
+    <text x="604" y="170" text-anchor="middle" font-weight="700">신흥국→스탠드얼론</text>
+    <text x="604" y="188" text-anchor="middle" font-weight="700">재분류 의견 수렴 개시</text>
+
+    <circle cx="772" cy="140" r="9" fill="#ffffff" stroke="#8a7a5c" stroke-width="3"/>
+    <text x="772" y="112" text-anchor="middle" font-weight="700">2027년 6월 말</text>
+    <text x="772" y="170" text-anchor="middle">최종 결정 발표</text>
+    <text x="772" y="188" text-anchor="middle" fill="#999">의견 수렴은 2027년 4월까지</text>
+  </g>
+
+  <line x1="60" y1="240" x2="840" y2="240" stroke="#e3ddd0" stroke-width="1"/>
+  <text x="450" y="272" text-anchor="middle" font-size="20" font-weight="700" fill="#1a1a1a">10월 16일 자카르타종합지수(JCI) 하루 움직임</text>
+
+  <!-- intraday bars -->
+  <g font-size="14" fill="#333">
+    <rect x="120" y="300" width="200" height="34" fill="#b3271e" rx="4"/>
+    <text x="220" y="322" text-anchor="middle" fill="#fff" font-weight="700">개장 −8.01% (5,393.92)</text>
+    <text x="450" y="322" text-anchor="middle" font-weight="700" fill="#b3271e">→ 30분 거래 중단 →</text>
+    <rect x="560" y="300" width="220" height="34" fill="#7d1a14" rx="4"/>
+    <text x="670" y="322" text-anchor="middle" fill="#fff" font-weight="700">종가 −11.5% (5,185.11)</text>
+    <text x="450" y="360" text-anchor="middle" fill="#666">장중 한때 −11.4% · 하루 678.68포인트 증발 · 1998년 1월 이후 28년 만의 최대 낙폭</text>
+  </g>
+
+  <line x1="60" y1="392" x2="840" y2="392" stroke="#e3ddd0" stroke-width="1"/>
+  <text x="450" y="420" text-anchor="middle" font-size="20" font-weight="700" fill="#1a1a1a">같은 날 아시아 주요 증시 등락률</text>
+
+  <!-- comparison bars: center axis at 450, scale 30px per 1% -->
+  <g font-size="13" fill="#333">
+    <line x1="450" y1="438" x2="450" y2="520" stroke="#999" stroke-width="1"/>
+    <!-- Indonesia -11.21 -->
+    <rect x="114" y="442" width="336" height="12" fill="#b3271e" rx="2"/>
+    <text x="106" y="452" text-anchor="end" font-weight="700" fill="#b3271e">인도네시아 JCI −11.2%</text>
+    <!-- Korea +3.14 -->
+    <rect x="450" y="460" width="93" height="12" fill="#2e7d4f" rx="2"/>
+    <text x="106" y="470" text-anchor="end">한국 코스피 +3.1%</text>
+    <!-- Japan +1.47 -->
+    <rect x="450" y="478" width="44" height="12" fill="#2e7d4f" rx="2"/>
+    <text x="106" y="488" text-anchor="end">일본 닛케이 +1.5%</text>
+    <!-- Taiwan +1.14 -->
+    <rect x="450" y="496" width="33" height="12" fill="#2e7d4f" rx="2"/>
+    <text x="106" y="506" text-anchor="end">대만 가권 +1.1%</text>
+    <!-- Singapore +0.76 -->
+    <rect x="450" y="514" width="23" height="12" fill="#2e7d4f" rx="2"/>
+    <text x="106" y="524" text-anchor="end">싱가포르 STI +0.8%</text>
+    <text x="450" y="548" text-anchor="middle" fill="#999" font-size="12">등락률은 10월 16일 장중·종가 기준 (Reuters 집계) · 인도네시아 연초 이후 누적 −39.8%로 아시아 최악</text>
+  </g>
+</svg>
