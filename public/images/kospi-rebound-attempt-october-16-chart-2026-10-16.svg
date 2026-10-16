@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="sans-serif">
+  <rect x="0" y="0" width="900" height="520" fill="#f4f1ea"/>
+
+  <text x="40" y="52" font-size="26" font-weight="bold" fill="#20231f">밤사이 반전된 지표 (10월 15일 밤 기준, %)</text>
+
+  <g font-size="20" fill="#20231f">
+    <text x="40" y="128">코어위브</text>
+    <text x="40" y="186">코스피200 야간선물</text>
+    <text x="40" y="244">마이크론</text>
+    <text x="40" y="302">다우지수</text>
+    <text x="40" y="360">S&amp;P500</text>
+    <text x="40" y="418">나스닥</text>
+    <text x="40" y="476">MSCI 한국 ETF</text>
+  </g>
+
+  <line x1="300" y1="90" x2="300" y2="496" stroke="#9a9a92" stroke-width="2"/>
+
+  <!-- bars: 85px per 1%p, positive teal right, negative coral left -->
+  <g>
+    <rect x="300" y="110" width="505" height="24" fill="#16756a"/>
+    <text x="815" y="129" font-size="18" fill="#62655d">+5.94%</text>
+
+    <rect x="300" y="168" width="332" height="24" fill="#16756a"/>
+    <text x="642" y="187" font-size="18" fill="#62655d">+3.90%</text>
+
+    <rect x="300" y="226" width="159" height="24" fill="#16756a"/>
+    <text x="469" y="245" font-size="18" fill="#62655d">+1.87%</text>
+
+    <rect x="300" y="284" width="92" height="24" fill="#16756a"/>
+    <text x="402" y="303" font-size="18" fill="#62655d">+1.08%</text>
+
+    <rect x="300" y="342" width="28" height="24" fill="#16756a"/>
+    <text x="338" y="361" font-size="18" fill="#62655d">+0.33%</text>
+
+    <rect x="300" y="400" width="7" height="24" fill="#16756a"/>
+    <text x="317" y="419" font-size="18" fill="#62655d">+0.08%</text>
+
+    <rect x="108" y="458" width="192" height="24" fill="#e0795b"/>
+    <text x="108" y="477" font-size="18" fill="#62655d" text-anchor="end" dy="0">-2.26%</text>
+  </g>
+
+  <text x="40" y="510" font-size="14" fill="#62655d" font-family="monospace">뉴시스·이데일리(2026.10.16) 보도 수치로 직접 작성. 등락률은 전일 대비.</text>
+</svg>
