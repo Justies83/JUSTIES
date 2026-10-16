@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="sans-serif">
+  <rect x="0" y="0" width="900" height="520" fill="#f4f1ea"/>
+  <text x="450" y="46" text-anchor="middle" font-size="26" font-weight="bold" fill="#20231f">전작권 전환 이견 — 주요 일지</text>
+  <line x1="90" y1="80" x2="90" y2="470" stroke="#62655d" stroke-width="2"/>
+
+  <circle cx="90" cy="105" r="9" fill="#16756a"/>
+  <text x="118" y="100" font-size="16" fill="#62655d" font-family="monospace">2014.10.23</text>
+  <text x="118" y="122" font-size="18" fill="#20231f">제46차 SCM — 전작권 전환 양해각서(MOU) 체결</text>
+
+  <circle cx="90" cy="160" r="9" fill="#16756a"/>
+  <text x="118" y="155" font-size="16" fill="#62655d" font-family="monospace">2015</text>
+  <text x="118" y="177" font-size="18" fill="#20231f">제47차 SCM — 조건부 전환계획(COTP) 서명, 3개 조건 확정</text>
+
+  <circle cx="90" cy="215" r="9" fill="#16756a"/>
+  <text x="118" y="210" font-size="16" fill="#62655d" font-family="monospace">2024.01</text>
+  <text x="118" y="232" font-size="18" fill="#20231f">북한 SLCM 시험발사 (이후 2년9개월간 추가 발사 없음)</text>
+
+  <circle cx="90" cy="270" r="9" fill="#e0795b"/>
+  <text x="118" y="265" font-size="16" fill="#62655d" font-family="monospace">2026.10.14</text>
+  <text x="118" y="287" font-size="18" fill="#20231f">북한, 동해상에서 잠수함발사 순항미사일(SLCM) 2종 시험발사</text>
+
+  <circle cx="90" cy="325" r="9" fill="#e0795b"/>
+  <text x="118" y="320" font-size="16" fill="#62655d" font-family="monospace">2026.10.14 (美 시간)</text>
+  <text x="118" y="342" font-size="18" fill="#20231f">브런슨 주한미군사령관 "조건이 변했다, 새 기준이 생겼다" (워싱턴D.C.)</text>
+
+  <circle cx="90" cy="380" r="9" fill="#e0795b"/>
+  <text x="118" y="375" font-size="16" fill="#62655d" font-family="monospace">2026.10.15</text>
+  <text x="118" y="397" font-size="18" fill="#20231f">국방부 정례브리핑 "골대를 계속 옮긴다면 전작권 전환 영원히 못 해"</text>
+
+  <circle cx="90" cy="435" r="9" fill="#16756a"/>
+  <text x="118" y="430" font-size="16" fill="#62655d" font-family="monospace">2026.12 (예정)</text>
+  <text x="118" y="452" font-size="18" fill="#20231f">제58차 SCM — FOC 검증 완료·전환 목표연도 건의 (미국 중간선거 이후로 연기 논의)</text>
+
+  <text x="450" y="500" text-anchor="middle" font-size="13" fill="#62655d" font-family="monospace">데일리안·이데일리·세계일보(2026.10.15) 보도 수치로 직접 작성. 시간은 보도 기준.</text>
+</svg>
