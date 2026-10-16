@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 760" font-family="sans-serif">
+  <rect x="0" y="0" width="960" height="760" fill="#f4f1ea"/>
+  <text x="480" y="48" text-anchor="middle" font-size="27" font-weight="bold" fill="#20231f">4F², 셀 면적이 다가 아니다</text>
+  <text x="480" y="78" text-anchor="middle" font-size="15" fill="#62655d">같은 공정에서 6F² → 4F²로 바꾸면 셀 면적 −33%, 이론 밀도 +50% — 단, F(최소 선폭)가 같을 때만 성립한다</text>
+
+  <!-- Panel A: cell diagrams -->
+  <rect x="40" y="110" width="430" height="250" fill="#ffffff" stroke="#62655d" stroke-width="1" opacity="0.9"/>
+  <text x="255" y="142" text-anchor="middle" font-size="17" font-weight="bold" fill="#20231f">기존 셀 — 6F²</text>
+  <text x="255" y="164" text-anchor="middle" font-size="13" fill="#62655d">3F(가로) × 2F(세로) = 6F²</text>
+  <rect x="135" y="185" width="240" height="160" fill="#e0795b" opacity="0.75"/>
+  <text x="255" y="262" text-anchor="middle" font-size="15" fill="#ffffff" font-weight="bold">6F²</text>
+  <text x="255" y="285" text-anchor="middle" font-size="13" fill="#ffffff">수평 채널 트랜지스터</text>
+
+  <rect x="490" y="110" width="430" height="250" fill="#ffffff" stroke="#62655d" stroke-width="1" opacity="0.9"/>
+  <text x="705" y="142" text-anchor="middle" font-size="17" font-weight="bold" fill="#20231f">차세대 셀 — 4F²</text>
+  <text x="705" y="164" text-anchor="middle" font-size="13" fill="#62655d">2F(가로) × 2F(세로) = 4F² · 수직 채널 트랜지스터(VSG)</text>
+  <rect x="585" y="185" width="240" height="160" fill="#16756a" opacity="0.8"/>
+  <text x="705" y="262" text-anchor="middle" font-size="15" fill="#ffffff" font-weight="bold">4F²</text>
+  <text x="705" y="285" text-anchor="middle" font-size="13" fill="#ffffff">수직 서라운드 게이트</text>
+  <text x="705" y="330" text-anchor="middle" font-size="14" fill="#16756a" font-weight="bold">셀 면적 −33% · 이론 밀도 +50%</text>
+
+  <!-- Panel B: the catch -->
+  <text x="480" y="405" text-anchor="middle" font-size="20" font-weight="bold" fill="#20231f">그런데 F가 다르면 — 실제 면적은 정반대일 수 있다</text>
+  <text x="480" y="430" text-anchor="middle" font-size="14" fill="#62655d">로젠블랫·테크인사이츠·성균관대 권석준 교수 분석 종합</text>
+
+  <rect x="60" y="450" width="400" height="60" fill="#16756a" opacity="0.8"/>
+  <text x="76" y="476" font-size="14" fill="#ffffff" font-weight="bold">CXMT 4F²</text>
+  <text x="76" y="497" font-size="13" fill="#ffffff">15nm 선폭 · G4/G5 공정 · DUV 다중패터닝</text>
+
+  <rect x="60" y="520" width="390" height="60" fill="#e0795b" opacity="0.8"/>
+  <text x="76" y="546" font-size="14" fill="#ffffff" font-weight="bold">한국 6F² (삼성·SK)</text>
+  <text x="76" y="567" font-size="13" fill="#ffffff">12.2nm 선폭 · 0a/0b급 공정 · EUV</text>
+
+  <text x="700" y="500" text-anchor="middle" font-size="15" fill="#20231f">두 셀의 실제 면적은 <tspan font-weight="bold">비슷</tspan></text>
+  <text x="700" y="525" text-anchor="middle" font-size="13" fill="#62655d">→ "밀도 역전"이 아니다</text>
+  <text x="700" y="560" text-anchor="middle" font-size="15" fill="#20231f">로젠블랫: CXMT 4F² 셀이</text>
+  <text x="700" y="582" text-anchor="middle" font-size="15" fill="#20231f">경쟁사 6F²보다 <tspan font-weight="bold" fill="#b5432a">34% 클 수도</tspan></text>
+
+  <!-- Panel C: timeline -->
+  <text x="480" y="628" text-anchor="middle" font-size="20" font-weight="bold" fill="#20231f">사건 일지</text>
+  <line x1="120" y1="645" x2="900" y2="645" stroke="#62655d" stroke-width="2"/>
+  <circle cx="150" cy="645" r="9" fill="#e0795b"/>
+  <text x="150" y="678" text-anchor="middle" font-size="13" fill="#62655d" font-family="monospace">10.10</text>
+  <text x="150" y="698" text-anchor="middle" font-size="13" fill="#20231f">CXMT, 4F² DDR5</text>
+  <text x="150" y="716" text-anchor="middle" font-size="13" fill="#20231f">RDIMM 연내 공개 발표</text>
+
+  <circle cx="390" cy="645" r="9" fill="#e0795b"/>
+  <text x="390" y="678" text-anchor="middle" font-size="13" fill="#62655d" font-family="monospace">10.13</text>
+  <text x="390" y="698" text-anchor="middle" font-size="13" fill="#20231f">삼성·SK 7%+ 급락</text>
+  <text x="390" y="716" text-anchor="middle" font-size="13" fill="#20231f">마이크론 4% 하락</text>
+
+  <circle cx="630" cy="645" r="9" fill="#16756a"/>
+  <text x="630" y="678" text-anchor="middle" font-size="13" fill="#62655d" font-family="monospace">10.14</text>
+  <text x="630" y="698" text-anchor="middle" font-size="13" fill="#20231f">서울경제 심층 분석</text>
+  <text x="630" y="716" text-anchor="middle" font-size="13" fill="#20231f">"발표는 양산이 아니다"</text>
+
+  <circle cx="860" cy="645" r="9" fill="#16756a"/>
+  <text x="860" y="678" text-anchor="middle" font-size="13" fill="#62655d" font-family="monospace">10.16</text>
+  <text x="860" y="698" text-anchor="middle" font-size="13" fill="#20231f">조선비즈 — 월가·</text>
+  <text x="860" y="716" text-anchor="middle" font-size="13" fill="#20231f">테크인사이츠 반박</text>
+
+  <text x="480" y="748" text-anchor="middle" font-size="12" fill="#62655d" font-family="monospace">도표는 조선비즈(2026.10.16)·서울경제(2026.10.14) 보도 수치로 직접 작성. 날짜는 보도 기준.</text>
+</svg>
