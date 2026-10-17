@@ -3,7 +3,7 @@ title: 레오 14세 교황, 폐암 진단 — 오른쪽 폐 하엽 절제 수술
 date: 2026-10-15
 category: world
 kind: news
-takeaway: 레오 14세 교황이 10월 13일(현지시간) 오른쪽 폐 하엽 절제 수술을 받는 과정에서 폐선암 진단을 받았습니다. 수술은 합병증 없이 성공했고, 14일 바티칸 의료 공지에 따르면 혈액검사·흉부 X선 수치가 정상 범위이며 회복이 예상대로 진행되고 있습니다. 병기와 추가 치료 여부는 절제 조직 검사 결과를 기다려야 하며, 20일까지 모든 공식 일정이 취소됐고 11월 남미 순방의 향방도 불확실해졌습니다. 즉위 17개월 만에 처음 공개된 교황의 중대 건강 문제로, 대리인 없는 1인 체제인 교황직의 특성상 향후 일정과 교황직 운영 전반에 미칠 영향이 주목됩니다.
+takeaway: 레오 14세 교황이 10월 13일(현지시간) 오른쪽 폐 하엽 절제 수술을 받는 과정에서 폐선암 진단을 받았습니다. 수술은 합병증 없이 성공했고, 14일 바티칸 의료 공지에 따르면 혈액검사·흉부 X선 수치가 정상 범위이며 회복이 예상대로 진행되고 있습니다. 병기와 추가 치료 여부는 절제 조직 검사 결과를 기다려야 하며, 20일까지 모든 공식 일정이 취소됐고 11월 남미 순방의 향방도 불확실해졌습니다. 즉위 17개월 만에 처음 공개된 교황의 중대 건강 문제로, 대리인 없는 1인 체제인 교황직의 특성상 향후 일정과 교황직 운영 전반에 미칠 영향이 주목됩니다. 10월 17일(KST) 추가 — 수술 나흘 만인 17일 토요일 오후, 교황이 제멜리 병원에서 퇴원합니다. 주치의와 집도의는 당일 아침 혈액검사·흉부 X선을 근거로 "퇴원 적합" 판정을 내렸고, 18일에는 사도궁 창가에서 삼종기도를 바칠 예정입니다. 입원 중 푸틴 대통령과의 통화(올레슈키 휴전 촉구)와 첫 공개 미사 사진도 공개됐습니다. 병리 검사 결과와 11월 남미 순방의 향방은 아직 미정입니다.
 tags: [레오14세, 교황, 폐암, 폐선암, 바티칸, 제멜리병원, 교황청, 남미순방]
 cover: /images/pope-leo-xiv-lung-cancer-surgery-2026-10-15.jpg
 coverAlt: "AI 생성 이미지 — 해 질 녘 불 켜진 성 베드로 대성전과 텅 빈 광장 상상도"
@@ -51,9 +51,20 @@ source:
 | 10월 11일 | 교황이 삼종기도에서 폐 결절 발견과 수술 예정을 직접 공개 |
 | 10월 13일 | 제멜리 병원 수술 — 오른쪽 폐 하엽 절제, 수술 중 조직검사로 폐선암 확진 발표 |
 | 10월 14일 | 바티칸 "회복 예상대로" 공지 — 혈액검사·X선 정상, 걷기·일반식 재개 |
-| 10월 20일까지 | 모든 공식 일정 취소, 약 일주일 입원 예정 |
+| 10월 20일까지 | 모든 공식 일정 취소 — 입원은 17일 종료, 수술 나흘 만 |
 | 11월 6\~17일 | 우루과이·아르헨티나·페루 11일 순방 예정 — 진행 여부 불확실 |
+| 10월 17일 | 제멜리 병원 퇴원 — 의료진 "퇴원 적합" 판정, 18일 사도궁 창가 삼종기도 예고 |
 
 <p align="center">앞으로의 관전 포인트는 세 가지입니다.<br/>첫째, 절제 조직의 병리 검사 결과 — 병기와 전이 여부가 추가 치료 필요성을 가릅니다.<br/>둘째, 20일 이후 공식 일정의 재개 여부와 속도입니다.<br/>셋째, 11월 남미 순방의 향방입니다.<br/>교황청이 "약 일주일" 입원을 예고한 만큼, 다음 주에는 퇴원과 일정 복귀에 대한 공지가 나올 것으로 보입니다.<br/>그 전까지는 회복 경과를 알리는 단신 형태의 공지가 이어질 가능성이 큽니다.<br/>다만 그것은 어디까지나 현재 공개된 정보를 토대로 한 전망이며, 병리 결과에 따라 달라질 수 있습니다.</p>
 
-참고한 기사 — [한국일보](https://www.hankookilbo.com/news/article/A2026101408140005863) · [USA Today](https://www.usatoday.com/story/news/world/2026/10/13/pope-leo-diagnosed-with-lung-cancer-successful-surgery/92237630007/) · [Al Jazeera](https://www.aljazeera.com/amp/news/2026/10/14/pope-leo-recovering-well-after-cancer-surgery-vatican-says) · [Reuters](https://www.reuters.com/business/healthcare-pharmaceuticals/shape-pope-leos-papacy-more-uncertain-after-cancer-diagnosis-2026-10-14/)
+<p align="center">10월 17일 오후(KST) 확인 — 교황이 수술 나흘 만에 퇴원합니다.<br/>바티칸은 17일 토요일 아침 의료 공지를 내고 교황이 이날 제멜리 병원을 떠난다고 발표했습니다.<br/>주치의 루이지 카르보네 박사와 집도의 스테파노 마르가리토라 교수가 공동으로 작성한 소견서는 짧습니다.<br/>당일 아침 시행한 <strong>혈액검사</strong>와 <strong>흉부 X선</strong> 결과, 그리고 임상 상태를 종합해 <strong>"퇴원 적합(deemed fit for discharge)"</strong>이라고 판단했다는 것입니다.<br/>교황은 <strong>17일 오후 일찍</strong> 병원을 떠나 바티칸으로 돌아갑니다.<br/>당초 "약 일주일"로 예고됐던 입원 기간이 <strong>나흘</strong>로 끝난 셈입니다.</p>
+
+<p align="center">퇴원 다음 날인 <strong>18일 일요일</strong>에는 정오의 삼종기도(Angelus)를 바티칸 사도궁 창가에서 바친다고 교황청이 전했습니다.<br/>입원 이후 첫 공개 석상이 됩니다.<br/>삼종기도는 원래 성 베드로 광장을 내려다보는 사도궁 창가에서 하는 것이 관례지만, 과거 요한 바오로 2세와 프란치스코는 제멜리 입원 중에 병원 방 창가에서 진행한 전례가 있습니다.<br/>이번에는 퇴원이 확정되면서 사도궁 창으로 복귀하는 형태가 됐습니다.</p>
+
+<p align="center">입원 나흘간의 행보도 하나둘씩 공개됐습니다.<br/>바티칸은 16일 금요일, 수술 이후 교황의 첫 사진을 공개했습니다.<br/>병원 10층 임시 경당의 제단 앞에 서서 <strong>초록색 제의</strong>를 입고 미사를 집전하는 모습입니다.<br/>교황은 미사에서 의료진과 바티칸 헌병대원들에게 성체를 나눠줬고, 대변인 마테오 브루니는 교황이 병원 의료진에게 <strong>"매일 병약한 이들을 돌보는 일, 특히 자신을 위해 해준 일"</strong>에 감사를 표했다고 전했습니다.<br/>17일 토요일 퇴원을 앞둔 아침에도 같은 경당에서 미사를 드렸다고 교황청은 밝혔습니다.</p>
+
+<p align="center">병상에서도 교황의 손은 멈추지 않았습니다.<br/>교황은 16일 금요일 블라디미르 푸틴 러시아 대통령과 전화 통화를 하고, 러시아 점령 하의 우크라이나 도시 <strong>올레슈키</strong>에 대한 휴전을 촉구했다고 AFP가 전했습니다.<br/>고위 보좌진들과의 면담도 입원 중에 이어진 것으로 알려졌습니다.<br/>의료진이 "정상적인 일상을 완전히 혼자서" 이어가고 있다고 평가한 것은 이런 행보와 맞물립니다.</p>
+
+<p align="center">이 글에서 제시했던 관전 포인트도 정리할 때가 됐습니다.<br/>퇴원 후 회복의 첫 시험대는 <strong>10월 20일 이후</strong> 일정입니다.<br/>교황청은 20일까지 모든 공식 알현을 취소한 상태라, 이후 어떤 속도로 일정을 재개하는지가 회복의 바로미터가 됩니다.<br/>둘째, <strong>병리 검사 결과</strong>는 여전히 미공개입니다.<br/>절제 조직의 분자·유전 프로파일, 절제한 폐엽 바깥으로의 전이 여부, 추가 치료 필요성 — 이 세 가지를 가를 검사 결과는 퇴원 후에도 "향후 치료 방침을 결정할" 열쇠로 남아 있습니다.<br/>셋째, 11월 6~17일 <strong>남미 순방</strong>입니다.<br/>ANI 보도에 따르면 일정에는 수많은 항공 이동과 헬리콥터 이동이 포함돼 있어, 퇴원 후 <strong>약 3주</strong>의 회복 기간을 남겨두고 있습니다.<br/>바티칸이 순방 취재 기자단 명단을 이미 공개해 준비는 계속되고 있다는 신호도 나옵니다.<br/>다만 최종 결정은 의료진의 권고에 달렸다는 것이 교황청 안팎의 일치된 관측입니다.<br/>새로운 사실이 확인되는 대로 정리를 이어가겠습니다.</p>
+
+참고한 기사 — [한국일보](https://www.hankookilbo.com/news/article/A2026101408140005863) · [USA Today](https://www.usatoday.com/story/news/world/2026/10/13/pope-leo-diagnosed-with-lung-cancer-successful-surgery/92237630007/) · [Al Jazeera](https://www.aljazeera.com/amp/news/2026/10/14/pope-leo-recovering-well-after-cancer-surgery-vatican-says) · [Reuters](https://www.reuters.com/business/healthcare-pharmaceuticals/shape-pope-leos-papacy-more-uncertain-after-cancer-diagnosis-2026-10-14/) · [Malay Mail (AFP)](https://www.malaymail.com/news/world/2026/10/17/pope-leo-deemed-fit-for-discharge-from-hospital-doctors-say/239488) · [The Tribune (ANI)](https://www.tribuneindia.com/news/world/pope-leo-xiv-to-be-discharged-from-hospital-after-successful-lung-cancer-surgery-on-saturday/)
