@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="sans-serif">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <text x="450" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#20231f">휴전 이후 가자지구 사망자 집계</text>
+  <text x="450" y="64" text-anchor="middle" font-size="13" fill="#62655d">2026년 10월 15일 유엔 안전보장이사회 브리핑 기준</text>
+
+  <!-- bar 1 -->
+  <text x="30" y="112" font-size="15" font-weight="bold" fill="#20231f">가자지구 보건부 집계</text>
+  <text x="30" y="134" font-size="12" fill="#62655d">약 1,500명 (어린이 320명 이상 · 여성 140명 포함)</text>
+  <rect x="30" y="144" width="600" height="34" fill="#16756a" rx="4"/>
+  <text x="640" y="168" font-size="16" font-weight="bold" fill="#16756a">≈1,500</text>
+
+  <!-- bar 2 -->
+  <text x="30" y="212" font-size="15" font-weight="bold" fill="#20231f">유엔 인권사무소 검증치</text>
+  <text x="30" y="234" font-size="12" fill="#62655d">1,135명 (공습·드론 854 / 총격 163 / 기타 118)</text>
+  <rect x="30" y="244" width="454" height="34" fill="#e0795b" rx="4"/>
+  <text x="494" y="268" font-size="16" font-weight="bold" fill="#e0795b">1,135</text>
+
+  <text x="30" y="306" font-size="12" fill="#62655d">※ 인권사무소는 자체 확인분만 집계 — 보건부 집계와의 차이는 미확인 사례</text>
+
+  <line x1="30" y1="326" x2="870" y2="326" stroke="#62655d" stroke-width="1" opacity="0.4"/>
+
+  <!-- timeline -->
+  <text x="450" y="356" text-anchor="middle" font-size="17" font-weight="bold" fill="#20231f">휴전 1년, 그 후의 시간표</text>
+  <line x1="60" y1="408" x2="840" y2="408" stroke="#16756a" stroke-width="3"/>
+  <g font-size="12" fill="#20231f">
+    <circle cx="110" cy="408" r="9" fill="#16756a"/>
+    <text x="110" y="388" text-anchor="middle" font-weight="bold">2025.10</text>
+    <text x="110" y="436" text-anchor="middle">가자 휴전 발효</text>
+
+    <circle cx="330" cy="408" r="9" fill="#16756a"/>
+    <text x="330" y="388" text-anchor="middle" font-weight="bold">2026.10.5</text>
+    <text x="330" y="436" text-anchor="middle">구테흐스, 영구 휴전 촉구</text>
+
+    <circle cx="560" cy="408" r="11" fill="#e0795b"/>
+    <text x="560" y="388" text-anchor="middle" font-weight="bold">2026.10.15</text>
+    <text x="560" y="436" text-anchor="middle">안보리 "전쟁 재개 위험 역대 최고"</text>
+
+    <circle cx="790" cy="408" r="9" fill="#ffffff" stroke="#16756a" stroke-width="3"/>
+    <text x="790" y="388" text-anchor="middle" font-weight="bold">2026.10.17~18</text>
+    <text x="790" y="436" text-anchor="middle">OIC 외무장관 회의 (바그다드)</text>
+  </g>
+
+  <text x="450" y="492" text-anchor="middle" font-size="11" fill="#62655d" font-family="monospace">수치는 유엔 안보리 브리핑(2026.10.15) 관련 보도 기준으로 직접 작성</text>
+  <text x="450" y="508" text-anchor="middle" font-size="11" fill="#62655d" font-family="monospace">Tribune · Insight International · Dawn · Fana News(Petra)</text>
+</svg>
