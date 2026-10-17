@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif">
+  <rect x="0" y="0" width="900" height="520" fill="#f4f1ea"/>
+  <text x="450" y="48" text-anchor="middle" font-size="26" font-weight="700" fill="#20231f">중국 수출 통제 초안 — 40개 기술의 구성</text>
+  <text x="450" y="76" text-anchor="middle" font-size="14" fill="#62655d">상무부·과학기술부 공동 발표 (2026.10.16) — AP · The Hindu BusinessLine 보도 기준</text>
+
+  <!-- 좌측: 금지 vs 제한 도넛 -->
+  <g>
+    <text x="225" y="120" text-anchor="middle" font-size="18" font-weight="700" fill="#20231f">규제 수위</text>
+    <circle cx="225" cy="250" r="95" fill="none" stroke="#e0795b" stroke-width="52"/>
+    <circle cx="225" cy="250" r="95" fill="none" stroke="#16756a" stroke-width="52"
+      stroke-dasharray="388 596.9" transform="rotate(-90 225 250)"/>
+    <circle cx="225" cy="250" r="95" fill="#f4f1ea"/>
+    <text x="225" y="244" text-anchor="middle" font-size="34" font-weight="800" fill="#20231f">40</text>
+    <text x="225" y="268" text-anchor="middle" font-size="14" fill="#62655d">개 기술</text>
+    <g font-size="15" fill="#20231f">
+      <rect x="90" y="380" width="18" height="18" fill="#e0795b"/>
+      <text x="116" y="395">수출 금지 — 14개</text>
+      <rect x="90" y="410" width="18" height="18" fill="#16756a"/>
+      <text x="116" y="425">수출 제한(허가제) — 26개</text>
+    </g>
+  </g>
+
+  <!-- 우측: 분야별 막대 -->
+  <g>
+    <text x="640" y="120" text-anchor="middle" font-size="18" font-weight="700" fill="#20231f">분야별 (개)</text>
+    <g font-size="15" fill="#20231f">
+      <text x="470" y="180">인공지능 (AI)</text>
+      <rect x="470" y="192" width="345" height="30" fill="#16756a" opacity="0.92"/>
+      <text x="825" y="214" font-weight="700">23</text>
+
+      <text x="470" y="252">태양광</text>
+      <rect x="470" y="264" width="180" height="30" fill="#16756a" opacity="0.62"/>
+      <text x="660" y="286" font-weight="700">12</text>
+
+      <text x="470" y="324">바이오의약</text>
+      <rect x="470" y="336" width="75" height="30" fill="#16756a" opacity="0.38"/>
+      <text x="555" y="358" font-weight="700">5</text>
+    </g>
+    <text x="470" y="420" font-size="14" fill="#62655d">· AI: 대형 모델·에이전트·컴퓨팅 클러스터·정보처리</text>
+    <text x="470" y="444" font-size="14" fill="#62655d">· 태양광: 폴리실리콘 제조 등 차세대 기술</text>
+    <text x="470" y="468" font-size="14" fill="#62655d">· 바이오: 세포·유전자 치료 관련 · 칩 설계도 포함(수치 미공개)</text>
+  </g>
+
+  <text x="450" y="508" text-anchor="middle" font-size="12" fill="#62655d" font-family="ui-monospace, monospace">도표는 위 기사의 수치로 직접 작성했다 · 금지/제한 합계 40개와 분야별 합계는 기사 기준 분류</text>
+</svg>
