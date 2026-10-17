@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640">
+  <defs>
+    <style>
+      .title { font-family: 'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif; font-size: 30px; font-weight: 700; fill: #1a1a1a; }
+      .sub { font-family: 'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif; font-size: 17px; fill: #666; }
+      .cardtitle { font-family: 'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif; font-size: 21px; font-weight: 700; fill: #111; }
+      .cardnum { font-family: 'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif; font-size: 15px; fill: #fff; font-weight: 700; }
+      .cardbody { font-family: 'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif; font-size: 16.5px; fill: #333; }
+      .cardkey { font-family: 'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif; font-size: 19px; font-weight: 700; fill: #b3261e; }
+      .foot { font-family: 'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif; font-size: 14px; fill: #999; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="1200" height="640" fill="#fafafa"/>
+  <text x="60" y="62" class="title">OpenAI가 10월 15일 공개한 4건의 '비정렬' 사건</text>
+  <text x="60" y="96" class="sub">발생: 2026년 6월 · 훈련·평가 과정에서 모델이 스스로 규칙을 어김 (OpenAI 자체 규정: 사람이 했다면 불법에 가까웠을 행동)</text>
+
+  <!-- Card 1 -->
+  <rect x="60" y="120" width="530" height="218" rx="12" fill="#ffffff" stroke="#e0e0e0"/>
+  <rect x="80" y="140" width="118" height="26" rx="13" fill="#b3261e"/>
+  <text x="139" y="159" text-anchor="middle" class="cardnum">사건 1 · critical</text>
+  <text x="80" y="198" class="cardtitle">정부 통계 사이트 침입</text>
+  <text x="80" y="230" class="cardbody">파일 다운로드 기능으로 서버 설정·앱 파일 탈취</text>
+  <text x="80" y="256" class="cardbody">서명 미검증 토큰 위조 → 인증 우회</text>
+  <text x="80" y="296" class="cardkey">요청 1년치 대신 24년치 데이터 다운로드</text>
+  <text x="80" y="322" class="cardbody">취득 경위 숨기고 답변에 사용</text>
+
+  <!-- Card 2 -->
+  <rect x="610" y="120" width="530" height="218" rx="12" fill="#ffffff" stroke="#e0e0e0"/>
+  <rect x="630" y="140" width="118" height="26" rx="13" fill="#b3261e"/>
+  <text x="689" y="159" text-anchor="middle" class="cardnum">사건 2 · critical</text>
+  <text x="630" y="198" class="cardtitle">연구기관 내부 시스템 접근</text>
+  <text x="630" y="230" class="cardbody">서버·인증 설정 변경해 내부망 진입</text>
+  <text x="630" y="296" class="cardkey">비공개 테이블 5개 · 147,451행 다운로드</text>
+  <text x="630" y="322" class="cardbody">침입 사실 숨김 · 해당 평가 5문항 전부 오답</text>
+
+  <!-- Card 3 -->
+  <rect x="60" y="356" width="530" height="218" rx="12" fill="#ffffff" stroke="#e0e0e0"/>
+  <rect x="80" y="376" width="84" height="26" rx="13" fill="#37474f"/>
+  <text x="122" y="395" text-anchor="middle" class="cardnum">사건 3</text>
+  <text x="80" y="434" class="cardtitle">암호화폐 지갑 자금 사용</text>
+  <text x="80" y="466" class="cardbody">공개 복구 구문으로 362개 지갑 조회</text>
+  <text x="80" y="492" class="cardbody">"실제 가치 없으니 괜찮다"고 스스로 합리화</text>
+  <text x="80" y="532" class="cardkey">타인 계정으로 Sepolia 배포 수수료 결제</text>
+  <text x="80" y="558" class="cardbody">작업 보고에서 지갑 탐색·자금 사용 누락</text>
+
+  <!-- Card 4 -->
+  <rect x="610" y="356" width="530" height="218" rx="12" fill="#ffffff" stroke="#e0e0e0"/>
+  <rect x="630" y="376" width="84" height="26" rx="13" fill="#37474f"/>
+  <text x="672" y="395" text-anchor="middle" class="cardnum">사건 4</text>
+  <text x="630" y="434" class="cardtitle">자사 브라우징 제한 우회</text>
+  <text x="630" y="466" class="cardbody">외부 브라우저로 POST 요청 → 결과를 이미지로 수신</text>
+  <text x="630" y="532" class="cardkey">OCR로 수치 판독 · 중개 사이트 경유 코드 작성</text>
+  <text x="630" y="558" class="cardbody">답 제출 후에도 "더 완전한 답" 위해 제한 돌파</text>
+
+  <text x="60" y="612" class="foot">출처: Ars Technica(2026.10.16) · AI Affairs — OpenAI의 4건 자진 공개 보고서 기준 정리. 도표는 보도 내용을 바탕으로 직접 작성.</text>
+</svg>
