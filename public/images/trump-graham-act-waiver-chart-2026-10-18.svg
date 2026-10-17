@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="640" viewBox="0 0 900 640" font-family="'Pretendard','Noto Sans KR','Apple SD Gothic Neo',sans-serif">
+  <rect width="900" height="640" fill="#faf8f4"/>
+  <text x="450" y="36" text-anchor="middle" font-size="22" font-weight="700" fill="#1a1a1a">그레이엄 대러시아 제재법: 관세 구조와 주요 일정</text>
+  <text x="450" y="58" text-anchor="middle" font-size="13" fill="#666">AA · Indian Express · Mathrubhumi (2026.10.17) 보도 수치로 직접 작성</text>
+
+  <!-- tariff structure -->
+  <text x="60" y="100" font-size="17" font-weight="700" fill="#1a1a1a">행정명령이 정한 관세 (2026.10.16 밤)</text>
+  <g font-size="14" fill="#333">
+    <rect x="60" y="115" width="250" height="110" rx="8" fill="#ffffff" stroke="#b3271e" stroke-width="2"/>
+    <text x="185" y="142" text-anchor="middle" font-weight="700" fill="#b3271e" font-size="15">러시아산 상품</text>
+    <text x="185" y="172" text-anchor="middle" font-weight="700" fill="#b3271e" font-size="30">+500%</text>
+    <text x="185" y="200" text-anchor="middle" fill="#62655d" font-size="12">법 그대로 시행</text>
+
+    <rect x="325" y="115" width="250" height="110" rx="8" fill="#ffffff" stroke="#e0795b" stroke-width="2" stroke-dasharray="7 5"/>
+    <text x="450" y="142" text-anchor="middle" font-weight="700" fill="#b3502e" font-size="15">5대 러시아 에너지 수입국</text>
+    <text x="450" y="172" text-anchor="middle" font-weight="700" fill="#b3502e" font-size="30">+100%</text>
+    <text x="450" y="200" text-anchor="middle" fill="#62655d" font-size="12">10/18 이후 신규 구매분 — <tspan font-weight="700">면제</tspan></text>
+
+    <rect x="590" y="115" width="250" height="110" rx="8" fill="#ffffff" stroke="#e0795b" stroke-width="2" stroke-dasharray="7 5"/>
+    <text x="715" y="142" text-anchor="middle" font-weight="700" fill="#b3502e" font-size="15">제재 회피 조력 5개국</text>
+    <text x="715" y="172" text-anchor="middle" font-weight="700" fill="#b3502e" font-size="30">+100%</text>
+    <text x="715" y="200" text-anchor="middle" fill="#62655d" font-size="12">러시아산 원유 관련 — <tspan font-weight="700">면제</tspan></text>
+  </g>
+  <text x="60" y="252" font-size="13" fill="#62655d">면제 근거: 법 제112·113조 관세, '미국의 국가이익' 인증서 의회 제출 · 면제는 대통령·국무장관 판단까지 유지 · 기존 대러 제재는 그대로 · USTR이 각국 구매·회피 시도 감시</text>
+
+  <line x1="60" y1="272" x2="840" y2="272" stroke="#e3ddd0" stroke-width="1"/>
+  <text x="60" y="306" font-size="17" font-weight="700" fill="#1a1a1a">주요 일정</text>
+  <line x1="60" y1="360" x2="840" y2="360" stroke="#c9bfae" stroke-width="3"/>
+  <g font-size="13" fill="#333">
+    <circle cx="100" cy="360" r="9" fill="#8a7a5c"/>
+    <text x="100" y="332" text-anchor="middle" font-weight="700">9월 중순</text>
+    <text x="100" y="392" text-anchor="middle">상·하원 양당</text>
+    <text x="100" y="410" text-anchor="middle">압도적 찬성 통과</text>
+
+    <circle cx="280" cy="360" r="9" fill="#8a7a5c"/>
+    <text x="280" y="332" text-anchor="middle" font-weight="700">9월 18일</text>
+    <text x="280" y="392" text-anchor="middle">트럼프 서명</text>
+    <text x="280" y="410" text-anchor="middle">법 발효</text>
+
+    <circle cx="470" cy="360" r="13" fill="#16756a"/>
+    <text x="470" y="332" text-anchor="middle" font-weight="700" fill="#16756a">10월 16일 밤</text>
+    <text x="470" y="392" text-anchor="middle" font-weight="700">시행 행정명령 발동</text>
+    <text x="470" y="410" text-anchor="middle" font-weight="700">+ 동시 면제</text>
+
+    <circle cx="660" cy="360" r="9" fill="#e0795b"/>
+    <text x="660" y="332" text-anchor="middle" font-weight="700">10월 18일</text>
+    <text x="660" y="392" text-anchor="middle">100% 관세 발효</text>
+    <text x="660" y="410" text-anchor="middle">예정이었으나 보류</text>
+
+    <circle cx="810" cy="360" r="9" fill="#ffffff" stroke="#8a7a5c" stroke-width="3"/>
+    <text x="810" y="332" text-anchor="middle" font-weight="700">11월 3일</text>
+    <text x="810" y="392" text-anchor="middle">미국 중간선거</text>
+  </g>
+
+  <line x1="60" y1="440" x2="840" y2="440" stroke="#e3ddd0" stroke-width="1"/>
+  <text x="60" y="474" font-size="17" font-weight="700" fill="#1a1a1a">인도가 안도한 이유</text>
+  <g font-size="14" fill="#333">
+    <rect x="60" y="490" width="780" height="22" rx="4" fill="#e8e2d5"/>
+    <rect x="60" y="490" width="702" height="22" rx="4" fill="#e0795b"/>
+    <text x="770" y="507" text-anchor="end" font-weight="700" fill="#b3502e" font-size="13">원유 수입 의존도 88% 이상</text>
+    <rect x="60" y="524" width="780" height="22" rx="4" fill="#e8e2d5"/>
+    <rect x="60" y="524" width="351" height="22" rx="4" fill="#16756a"/>
+    <text x="420" y="541" text-anchor="start" font-weight="700" fill="#16756a" font-size="13">8월 전체 수입 중 러시아산 45% (하루 208만 배럴)</text>
+  </g>
+  <text x="450" y="596" text-anchor="middle" fill="#999" font-size="12">수치는 Indian Express (2026.10.17) 보도 · 디젤: 러시아, 30만 톤 이상 즉시 공급 + 11월 이후 추가분 (트럼프-푸틴 합의)</text>
+  <text x="450" y="618" text-anchor="middle" fill="#999" font-size="12">기준 시점: 2026년 10월 17일 보도 기준 · 면제 철회 여부는 대통령·국무장관 판단에 달림</text>
+</svg>
