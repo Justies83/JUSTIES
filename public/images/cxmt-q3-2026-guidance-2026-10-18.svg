@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="sans-serif">
+  <rect x="0" y="0" width="900" height="520" fill="#f4f1ea"/>
+  <text x="450" y="46" text-anchor="middle" font-size="26" font-weight="bold" fill="#20231f">CXMT 분기 매출 추이 (단위: 10억 위안)</text>
+  <!-- gridlines -->
+  <g stroke="#d8d4c8" stroke-width="1">
+    <line x1="90" y1="440" x2="810" y2="440"/>
+    <line x1="90" y1="352" x2="810" y2="352"/>
+    <line x1="90" y1="264" x2="810" y2="264"/>
+    <line x1="90" y1="176" x2="810" y2="176"/>
+    <line x1="90" y1="88" x2="810" y2="88"/>
+  </g>
+  <g fill="#62655d" font-size="15" font-family="monospace">
+    <text x="80" y="445">0</text>
+    <text x="60" y="357">400</text>
+    <text x="60" y="269">800</text>
+    <text x="48" y="181">1200</text>
+  </g>
+  <!-- bars: scale 360px / 1250 units -->
+  <rect x="145" y="392" width="110" height="48" fill="#16756a"/>
+  <rect x="395" y="153" width="110" height="287" fill="#16756a"/>
+  <rect x="645" y="110" width="110" height="330" fill="#e0795b"/>
+  <!-- range whisker for Q3 guidance upper bound -->
+  <line x1="700" y1="110" x2="700" y2="95" stroke="#20231f" stroke-width="3"/>
+  <line x1="690" y1="95" x2="710" y2="95" stroke="#20231f" stroke-width="3"/>
+  <!-- value labels -->
+  <g fill="#20231f" font-size="17" font-weight="bold" text-anchor="middle">
+    <text x="200" y="382">167</text>
+    <text x="450" y="143">997</text>
+    <text x="700" y="85">1,147~1,197</text>
+  </g>
+  <!-- quarter labels -->
+  <g fill="#20231f" font-size="18" text-anchor="middle">
+    <text x="200" y="468">2025 Q3</text>
+    <text x="450" y="468">2026 Q2</text>
+    <text x="700" y="468">2026 Q3 가이던스</text>
+  </g>
+  <text x="450" y="502" text-anchor="middle" font-size="14" font-family="monospace" fill="#62655d">Q3'25·Q2'26은 가이던스 성장률(589~619%·15~20%)로 역산한 추정치 / 자료: CXMT 가이던스(2026.10.16), SEDaily·Aju Press(2026.10.17~18)</text>
+</svg>
