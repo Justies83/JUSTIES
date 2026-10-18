@@ -3,7 +3,7 @@ title: "CXMT '4F² DRAM 연내 출시' 선언에 월가가 고개를 갸웃한 �
 date: 2026-10-16
 category: tech
 kind: news
-takeaway: 중국 CXMT가 4F² 구조의 서버용 DDR5를 연내에 공개하겠다고 하자 삼성전자와 SK하이닉스가 7% 넘게 급락했지만 월가와 테크인사이츠는 고개를 갸웃한다. CXMT의 15나노 4F² 셀은 한국의 12나노급 6F² 셀과 실제 면적이 비슷하고 수율과 비트당 원가가 공개되지 않아 기술 역전이라고 보기는 어렵다는 것이다. 진짜 관전 포인트는 선언이 아니라 양산까지의 시간이다.
+takeaway: 중국 CXMT가 4F² 구조의 서버용 DDR5를 연내에 공개하겠다고 하자 삼성전자와 SK하이닉스가 7% 넘게 급락했지만 월가와 테크인사이츠는 고개를 갸웃한다. CXMT의 15나노 4F² 셀은 한국의 12나노급 6F² 셀과 실제 면적이 비슷하고 수율과 비트당 원가가 공개되지 않아 기술 역전이라고 보기는 어렵다는 것이다. 10월 16일 나온 3분기 가이던스에서는 매출 589\~619% 급증과 흑자 전환으로 실적이 선언을 뒷받침하기 시작했다. 진짜 관전 포인트는 선언이 아니라 양산까지의 시간이다.
 tags: [CXMT, 4F², DRAM, DDR5, 삼성전자, SK하이닉스, EUV, DUV, 서버 메모리]
 cover: /images/cxmt-4f2-dram-wall-street-doubts-2026-10-16.jpg
 coverAlt: "DDR5 메모리 모듈 근접 사진"
@@ -40,4 +40,16 @@ source:
 
 <p align="center">정리하면, 이번 소동은 '기술 역전'이라기보다 '추격의 속도'를 확인한 사건에 가까워.<br/>당분간 시장의 눈은 CXMT가 선언한 연내 공개가 실제로 이뤄지는지, 그리고 그 뒤에 수율과 고객사 인증, 비트당 원가라는 세 개의 문턱을 얼마나 빨리 넘는지에 쏠릴 거야.<br/>최 부사장이 짚은 관전 포인트도 그거야.<br/>"앞으로 기술적 허들을 어떻게 넘고, DDR5와 서버 D램에서 비트당 원가 격차를 얼마나 빨리 좁히느냐."<br/>선언은 빨랐고, 증명은 아직 멀었어.<br/>재미있는 건 시점이야.<br/>삼성이 보는 4F² 양산 시점(2028년 전후)과 권 교수가 보는 CXMT의 의미 있는 물량 시점(2027년 말\~2028년 상반기)이 겹치거든.<br/>선언 시점의 격차는 2년처럼 보이지만, 실제 양산 시점의 격차는 0에 수렴할 수도 있다는 얘기야.<br/>물론 이것도 수율이라는 변수 앞에서는 장담할 수 없어.<br/>그 사이를 재는 게 앞으로 1\~2년 메모리 시장의 관전 포인트가 될 것 같아.</p>
 
-참고한 기사 — [CHOSUNBIZ](https://biz.chosun.com/en/en-it/2026/10/16/P7XHTHJNZNHIDFZ3LHVJQPQEXU/) · [서울경제](https://en.sedaily.com/finance/2026/10/14/chinas-cxmt-touts-next-generation-dram-with-no-specs-or) · [Moneyweb(Bloomberg)](https://www.moneyweb.co.za/news-fast-news/chinas-cxmt-claims-memory-breakthrough-ahead-of-samsung-hynix/)
+<p align="center"><strong>[10월 18일 업데이트]</strong> 선언만 있었던 게 아니야. 실적이 받쳐 주기 시작했어.<br/>CXMT가 16일 내놓은 3분기 실적 가이던스에 따르면 매출은 **1,147억\~1,197억 위안(약 22.9조\~23.9조 원)으로** 전년 동기 대비 **589\~619%나** 증가할 전망이야.<br/>전분기 대비로도 **15\~20%나** 늘어.<br/>순이익도 **533.95억\~548.95억 위안(약 10.6조\~10.9조 원)으로** 전년 동기의 적자에서 흑자로 돌아서.<br/>1\~3분기 누적 매출은 **2,650억\~2,700억 위안으로** 전년 동기(321억 위안) 대비 **725\~741%나** 늘었고, 누적 순이익은 **1,310억\~1,325억 위안으로** 작년 같은 기간 53억 위안 적자에서 완전히 반전했어.</p>
+
+<p align="center">실적 발표와 함께 주이밍(Zhu Yiming) 회장은 **10억\~20억 위안(약 2,000억\~4,000억 원)의** 자사주 매입을 제안했어.<br/>상하이 STAR 시장의 자사주 매입이 보통 2억\~8억 위안 규모인 걸 감안하면 몇 배는 되는 규모라, 경영진이 회사 가치를 높게 본다는 신호로 읽혀.<br/>주가는 15일 **5.24%나** 빠지며 시가총액이 3조 위안 아래로 내려갔다가 16일 **3.28%나** 반등하며 다시 3조 위안을 회복, 중국 본토 시총 1위 자리를 되찾았어.</p>
+
+<p align="center"><img src="/images/cxmt-q3-2026-guidance-2026-10-18.svg" alt="CXMT 분기 매출 추이: 2025년 3분기 167억 위안, 2026년 2분기 997억 위안, 2026년 3분기 가이던스 1,147~1,197억 위안" style="max-width:100%;height:auto;"/></p>
+
+<p align="center" class="caption">도표는 CXMT 3분기 가이던스(2026.10.16)와 SEDaily·Aju Press(2026.10.17~18) 보도 수치로 직접 작성했다</p>
+
+<p align="center">빅테크의 구애도 이어지고 있어.<br/>애플의 존 터너스(John Ternus) CEO는 최근 메모리 부족을 "급성 위기(acute crisis)"라고 표현하며 중국산 제품 사용도 검토 중이라는 신호를 보냈고, 업계 소식통에 따르면 애플은 이미 CXMT 메모리 칩을 테스트하고 있대.<br/>일론 머스크도 15일 X에 "중국이 2028년에는 엄청난 규모의 RAM을 생산할 것"이라고 썼어.<br/>이틀 전인 13일에는 "마이크론은 합리적인 가격을 제시했지만 다른 공급사들은 말도 안 되는 가격을 불렀다"고 불만을 터뜨렸는데, 업계에서는 이를 삼성전자·SK하이닉스를 겨냥한 발언으로 읽고 있어.</p>
+
+<p align="center">흥미로운 건 월가의 반응이 갈리고 있다는 점이야.<br/>로젠블랫의 케빈 캐시디는 "시장이 CXMT의 구조 발표에 너무 많은 비중을 두고 있다"며, 공정 기술을 감안하면 CXMT의 4F² 셀이 경쟁사 6F² 제품보다 **34%나** 클 수 있다고 지적했어.<br/>미즈호의 조던 클라인도 스펙과 수율이 공개되지 않은 점을 지적하며 연내 제품 공개를 삼성전자의 2028년 양산 목표와 직접 비교할 수 없다고 했지.<br/>그래도 시장은 일단 숫자에 반응했어.<br/>10월 12\~16일 한 주간 삼성전자는 **17.8%나**, SK하이닉스는 **24.3%나** 빠졌거든.<br/>선언만 있을 때는 "과연"이던 게, 실적이 붙으니 "역시"로 바뀌는 분위기야.<br/>다만 앞에서 짚은 대로, 4F² 셀의 실제 면적 논란과 수율·원가 공개 문제는 여전히 열려 있어.<br/>실적이 증명한 건 수요와 가격 상승의 수혜지, 기술 역전은 아니라는 점은 구분해 두자.</p>
+
+참고한 기사 — [CHOSUNBIZ](https://biz.chosun.com/en/en-it/2026/10/16/P7XHTHJNZNHIDFZ3LHVJQPQEXU/) · [서울경제](https://en.sedaily.com/finance/2026/10/14/chinas-cxmt-touts-next-generation-dram-with-no-specs-or) · [Moneyweb(Bloomberg)](https://www.moneyweb.co.za/news-fast-news/chinas-cxmt-claims-memory-breakthrough-ahead-of-samsung-hynix/) · [Seoul Economic Daily](https://en.sedaily.com/international/2026/10/18/cxmt-sees-third-quarter-revenue-surging-nearly-600-percent) · [Aju Press](https://www.ajupress.com/view/20261017144870053)
