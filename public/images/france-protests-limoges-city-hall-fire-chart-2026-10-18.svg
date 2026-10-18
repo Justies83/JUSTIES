@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="sans-serif">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <text x="450" y="44" text-anchor="middle" font-size="22" font-weight="bold" fill="#20231f">프랑스 시위, 그 전후의 시간표</text>
+  <text x="450" y="70" text-anchor="middle" font-size="13" fill="#62655d">2026년 10월 18일 기준 보도 종합</text>
+
+  <!-- participant comparison -->
+  <text x="30" y="112" font-size="15" font-weight="bold" fill="#20231f">시위 참가자 집계 (10월 17일, 프랑스 전역)</text>
+  <text x="30" y="136" font-size="12" fill="#62655d">프랑스 내무부 발표</text>
+  <rect x="30" y="144" width="440" height="34" fill="#16756a" rx="4"/>
+  <text x="480" y="168" font-size="16" font-weight="bold" fill="#16756a">55만 명</text>
+  <text x="30" y="208" font-size="12" fill="#62655d">주최 측(노동총연맹 CGT) 주장</text>
+  <rect x="30" y="216" width="640" height="34" fill="#e0795b" rx="4"/>
+  <text x="680" y="240" font-size="16" font-weight="bold" fill="#e0795b">80만 명</text>
+  <text x="30" y="276" font-size="12" fill="#62655d">※ 체포 1,200명 · 경찰관 부상 150명 (르코르뉘 총리, 10월 18일 발표)</text>
+
+  <line x1="30" y1="296" x2="870" y2="296" stroke="#62655d" stroke-width="1" opacity="0.4"/>
+
+  <!-- timeline -->
+  <text x="450" y="326" text-anchor="middle" font-size="17" font-weight="bold" fill="#20231f">어떻게 여기까지 왔나</text>
+  <line x1="60" y1="388" x2="840" y2="388" stroke="#16756a" stroke-width="3"/>
+  <g font-size="12" fill="#20231f">
+    <circle cx="100" cy="388" r="9" fill="#16756a"/>
+    <text x="100" y="366" text-anchor="middle" font-weight="bold">9월</text>
+    <text x="100" y="416" text-anchor="middle">고등학생 교원 부족 항의</text>
+    <text x="100" y="434" text-anchor="middle" fill="#62655d">학교 봉쇄 시작</text>
+
+    <circle cx="300" cy="388" r="9" fill="#16756a"/>
+    <text x="300" y="366" text-anchor="middle" font-weight="bold">10.16</text>
+    <text x="300" y="416" text-anchor="middle">이탈리아 주요 도시</text>
+    <text x="300" y="434" text-anchor="middle" fill="#62655d">연대 시위</text>
+
+    <circle cx="510" cy="388" r="12" fill="#e0795b"/>
+    <text x="510" y="366" text-anchor="middle" font-weight="bold">10.17</text>
+    <text x="510" y="416" text-anchor="middle">프랑스 전국 1,750여 곳 시위</text>
+    <text x="510" y="434" text-anchor="middle" fill="#62655d">리모주 시청 방화 · 파리 약탈</text>
+
+    <circle cx="710" cy="388" r="9" fill="#ffffff" stroke="#16756a" stroke-width="3"/>
+    <text x="710" y="366" text-anchor="middle" font-weight="bold">11.20(예정)</text>
+    <text x="710" y="416" text-anchor="middle">이탈리아 CGIL 총파업</text>
+
+    <circle cx="830" cy="388" r="9" fill="#ffffff" stroke="#16756a" stroke-width="3"/>
+    <text x="830" y="366" text-anchor="middle" font-weight="bold">내년 4~5월</text>
+    <text x="830" y="416" text-anchor="middle">프랑스 대선</text>
+  </g>
+
+  <text x="450" y="492" text-anchor="middle" font-size="11" font-family="monospace" fill="#62655d">도표는 이투데이(2026.10.18) · 중앙일보(2026.10.18) 보도의 수치로 직접 작성했다</text>
+</svg>
