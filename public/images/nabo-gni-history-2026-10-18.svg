@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="460" viewBox="0 0 800 460" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <rect width="800" height="460" fill="#fafafa"/>
+  <text x="400" y="38" text-anchor="middle" font-size="20" font-weight="bold" fill="#1a1a1a">GNI·총영업잉여·피용자보수 증가율 비교 (전년 대비, %)</text>
+  <text x="400" y="62" text-anchor="middle" font-size="13" fill="#666">출처: 국회예산정책처 '2027년 NABO 경제전망' (조선비즈·매일경제TV, 2026.10.18 보도)</text>
+  <g font-size="14">
+    <!-- 2023~2024 -->
+    <text x="400" y="104" text-anchor="middle" font-weight="bold" fill="#1a1a1a">2023~2024년 (반도체 경기 회복기)</text>
+    <text x="150" y="140" text-anchor="end" fill="#333">GNI</text>
+    <rect x="170" y="120" width="148" height="26" fill="#94a3b8"/>
+    <text x="326" y="139" fill="#1a1a1a">14.8%</text>
+    <text x="150" y="180" text-anchor="end" fill="#333">총영업잉여</text>
+    <rect x="170" y="160" width="150" height="26" fill="#1d4ed8"/>
+    <text x="328" y="179" fill="#1a1a1a">15.0%</text>
+    <text x="150" y="220" text-anchor="end" fill="#333">피용자보수</text>
+    <rect x="170" y="200" width="105" height="26" fill="#f59e0b"/>
+    <text x="283" y="219" fill="#1a1a1a">10.5%</text>
+    <!-- divider -->
+    <line x1="60" y1="252" x2="740" y2="252" stroke="#ddd"/>
+    <!-- 2026 상반기 -->
+    <text x="400" y="290" text-anchor="middle" font-weight="bold" fill="#1a1a1a">2026년 상반기 (이번 발표)</text>
+    <text x="150" y="330" text-anchor="end" fill="#333">GNI</text>
+    <rect x="170" y="310" width="218" height="26" fill="#94a3b8"/>
+    <text x="396" y="329" fill="#1a1a1a">21.8%</text>
+    <text x="150" y="370" text-anchor="end" fill="#333">총영업잉여 비중</text>
+    <rect x="170" y="350" width="393" height="26" fill="#1d4ed8"/>
+    <text x="571" y="369" fill="#1a1a1a">증가분의 78.7%</text>
+    <text x="150" y="410" text-anchor="end" fill="#333">피용자보수</text>
+    <rect x="170" y="390" width="75" height="26" fill="#f59e0b"/>
+    <text x="253" y="409" fill="#1a1a1a">7.5%</text>
+  </g>
+</svg>
