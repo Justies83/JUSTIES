@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <rect width="800" height="420" fill="#fafafa"/>
+  <text x="400" y="38" text-anchor="middle" font-size="20" font-weight="bold" fill="#1a1a1a">2026년 상반기 명목 GNI 증가분 284조원의 행방</text>
+  <text x="400" y="62" text-anchor="middle" font-size="13" fill="#666">출처: 국회예산정책처 '2027년 NABO 경제전망: 2026~2030' (조선비즈·매일경제TV, 2026.10.18 보도)</text>
+  <!-- bars -->
+  <g font-size="14">
+    <!-- 총영업잉여 224조 78.7% -->
+    <text x="90" y="140" text-anchor="end" fill="#333">총영업잉여</text>
+    <rect x="110" y="118" width="531" height="30" fill="#1d4ed8"/>
+    <text x="650" y="139" fill="#1a1a1a" font-weight="bold">224조원 (78.7%)</text>
+    <!-- 피용자보수 47조 16.5% -->
+    <text x="90" y="190" text-anchor="end" fill="#333">피용자보수</text>
+    <rect x="110" y="168" width="111" height="30" fill="#f59e0b"/>
+    <text x="230" y="189" fill="#1a1a1a" font-weight="bold">47조원 (16.5%)</text>
+    <!-- 순생산·수입세 11.2조 4.0% -->
+    <text x="90" y="240" text-anchor="end" fill="#333">순생산·수입세</text>
+    <rect x="110" y="218" width="27" height="30" fill="#16a34a"/>
+    <text x="146" y="239" fill="#1a1a1a" font-weight="bold">11.2조원 (4.0%)</text>
+    <!-- 국외순수취요소소득 2.3조 0.8% -->
+    <text x="90" y="290" text-anchor="end" fill="#333">국외순수취요소소득</text>
+    <rect x="110" y="268" width="6" height="30" fill="#94a3b8"/>
+    <text x="125" y="289" fill="#1a1a1a" font-weight="bold">2.3조원 (0.8%)</text>
+  </g>
+  <text x="400" y="340" text-anchor="middle" font-size="13" fill="#444">총영업잉여 = 기업·자영업자가 자본을 투입해 얻은 소득 / 피용자보수 = 근로자가 일한 대가로 받은 소득</text>
+  <text x="400" y="366" text-anchor="middle" font-size="13" fill="#444">국민소득 증가분의 5분의 4 가까이가 월급이 아닌 기업의 몫으로 귀속</text>
+</svg>
