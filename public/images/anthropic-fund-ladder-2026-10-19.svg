@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-label="앤트로픽 공익기금 — 기업 가치 연동 지분 출연 구조">
+  <rect width="900" height="560" fill="#f4f1ea"/>
+  <text x="450" y="54" text-anchor="middle" font-size="30" font-weight="bold" fill="#20231f" font-family="sans-serif">공익기금 지분 — 회사 가치와 함께 커지는 구조</text>
+  <text x="450" y="86" text-anchor="middle" font-size="16" fill="#62655d" font-family="sans-serif">앤트로픽 공식 블로그 "Investing in the public benefit" (2026.10.18, 미국 시각)</text>
+  <!-- steps -->
+  <g font-family="sans-serif">
+    <!-- step 1 -->
+    <rect x="70" y="150" width="180" height="240" rx="12" fill="#16756a"/>
+    <text x="160" y="196" text-anchor="middle" font-size="22" font-weight="bold" fill="#ffffff">지금</text>
+    <text x="160" y="248" text-anchor="middle" font-size="52" font-weight="bold" fill="#ffffff">5%</text>
+    <text x="160" y="292" text-anchor="middle" font-size="16" fill="#ffffff">주식 출연</text>
+    <text x="160" y="318" text-anchor="middle" font-size="15" fill="#e8f2ef">(주주 승인 전제)</text>
+    <text x="160" y="356" text-anchor="middle" font-size="15" fill="#ffffff">완전 자회사 LLC</text>
+    <text x="160" y="380" text-anchor="middle" font-size="15" fill="#ffffff">신설 기금에 배정</text>
+    <!-- arrow -->
+    <polygon points="262,265 302,265 302,245 330,278 302,311 302,291 262,291" fill="#e0795b"/>
+    <text x="296" y="345" text-anchor="middle" font-size="14" fill="#62655d">기업 가치</text>
+    <text x="296" y="365" text-anchor="middle" font-size="14" fill="#62655d">+50%마다</text>
+    <!-- step 2 -->
+    <rect x="352" y="150" width="180" height="240" rx="12" fill="#ffffff" stroke="#16756a" stroke-width="3"/>
+    <text x="442" y="196" text-anchor="middle" font-size="22" font-weight="bold" fill="#20231f">가치 +50%</text>
+    <text x="442" y="248" text-anchor="middle" font-size="52" font-weight="bold" fill="#16756a">+2%</text>
+    <text x="442" y="292" text-anchor="middle" font-size="16" fill="#20231f">추가 출연</text>
+    <text x="442" y="318" text-anchor="middle" font-size="15" fill="#62655d">(이사회 재량)</text>
+    <text x="442" y="356" text-anchor="middle" font-size="15" fill="#62655d">기준선은</text>
+    <text x="442" y="380" text-anchor="middle" font-size="15" fill="#62655d">아직 비공개</text>
+    <!-- arrow -->
+    <polygon points="544,265 584,265 584,245 612,278 584,311 584,291 544,291" fill="#e0795b"/>
+    <text x="578" y="345" text-anchor="middle" font-size="14" fill="#62655d">또 +50%</text>
+    <text x="578" y="365" text-anchor="middle" font-size="14" fill="#62655d">오르면</text>
+    <!-- step 3 -->
+    <rect x="634" y="150" width="180" height="240" rx="12" fill="#ffffff" stroke="#16756a" stroke-width="3" stroke-dasharray="8,6"/>
+    <text x="724" y="196" text-anchor="middle" font-size="22" font-weight="bold" fill="#20231f">가치 +100%</text>
+    <text x="724" y="248" text-anchor="middle" font-size="52" font-weight="bold" fill="#16756a">+2%</text>
+    <text x="724" y="292" text-anchor="middle" font-size="16" fill="#20231f">추가 출연</text>
+    <text x="724" y="318" text-anchor="middle" font-size="15" fill="#62655d">(이사회 재량)</text>
+    <text x="724" y="356" text-anchor="middle" font-size="15" fill="#62655d">커질수록 공익 지분도</text>
+    <text x="724" y="380" text-anchor="middle" font-size="15" fill="#62655d">함께 커진다</text>
+  </g>
+  <text x="450" y="440" text-anchor="middle" font-size="17" fill="#20231f" font-family="sans-serif">"테크 기업은 흔히 경영진에게 점증하는 주식 보상을 주지만, 우리는 그 지분을 공익에 돌린다" — 앤트로픽</text>
+  <text x="450" y="472" text-anchor="middle" font-size="15" fill="#62655d" font-family="sans-serif">추가 출연은 자동이 아니라 이사회의 판단에 달려 있다 · 로비·정치자금 기부에는 사용 금지 (미국 안팎)</text>
+  <text x="450" y="548" text-anchor="middle" font-size="14" fill="#62655d" font-family="monospace">기준: 앤트로픽 공식 블로그 · 로이터 · 머니투데이 (2026.10.18–19)</text>
+</svg>
