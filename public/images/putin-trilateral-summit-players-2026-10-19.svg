@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-label="3자 정상회담 관련 주체별 계산">
+  <rect width="900" height="560" fill="#f4f1ea"/>
+  <text x="450" y="50" text-anchor="middle" font-size="30" font-weight="bold" fill="#20231f" font-family="sans-serif">각자의 계산 — 3자 회담을 둘러싼 셈법</text>
+  <g font-family="sans-serif">
+  <!-- Russia -->
+  <rect x="40" y="110" width="380" height="180" rx="14" fill="#ffffff" stroke="#e0795b" stroke-width="3"/>
+  <text x="230" y="148" text-anchor="middle" font-size="24" font-weight="bold" fill="#e0795b">러시아 — 푸틴</text>
+  <text x="230" y="182" text-anchor="middle" font-size="16" fill="#20231f">유럽 배제, 강대국 지위 굳히기</text>
+  <text x="230" y="208" text-anchor="middle" font-size="16" fill="#20231f">"제2의 얄타회담" 야심 (전직 정보요원, WSJ)</text>
+  <text x="230" y="234" text-anchor="middle" font-size="16" fill="#20231f">러시아에 유리한 종전 협상</text>
+  <text x="230" y="260" text-anchor="middle" font-size="14" fill="#62655d">페스코프: "가정적 가능성" 인정, 내용은 미정</text>
+  <!-- USA -->
+  <rect x="480" y="110" width="380" height="180" rx="14" fill="#ffffff" stroke="#16756a" stroke-width="3"/>
+  <text x="670" y="148" text-anchor="middle" font-size="24" font-weight="bold" fill="#16756a">미국 — 트럼프</text>
+  <text x="670" y="182" text-anchor="middle" font-size="16" fill="#20231f">"종전 종식" 대선 공약 이행</text>
+  <text x="670" y="208" text-anchor="middle" font-size="16" fill="#20231f">아직 동의 안 함 (미 고위 당국자, WSJ)</text>
+  <text x="670" y="234" text-anchor="middle" font-size="16" fill="#20231f">에너지 가격·디젤 수입과 연동</text>
+  <text x="670" y="260" text-anchor="middle" font-size="14" fill="#62655d">중간선거 11/3 이후 행보 주목</text>
+  <!-- China -->
+  <rect x="40" y="330" width="380" height="180" rx="14" fill="#ffffff" stroke="#20231f" stroke-width="3"/>
+  <text x="230" y="368" text-anchor="middle" font-size="24" font-weight="bold" fill="#20231f">중국 — 시진핑</text>
+  <text x="230" y="402" text-anchor="middle" font-size="16" fill="#20231f">"트럼프 동의 시 반대 안 함" (외교 경로)</text>
+  <text x="230" y="428" text-anchor="middle" font-size="16" fill="#20231f">외교적 중재 강국 위상 기회</text>
+  <text x="230" y="454" text-anchor="middle" font-size="16" fill="#20231f">부담: 유럽 관계 악화, APEC 주목도 희석</text>
+  <!-- Ukraine/Europe -->
+  <rect x="480" y="330" width="380" height="180" rx="14" fill="#ffffff" stroke="#62655d" stroke-width="3" stroke-dasharray="8,6"/>
+  <text x="670" y="368" text-anchor="middle" font-size="24" font-weight="bold" fill="#62655d">우크라이나·유럽 — 제외됨</text>
+  <text x="670" y="402" text-anchor="middle" font-size="16" fill="#20231f">당사자 없는 '밀실 협상' 우려</text>
+  <text x="670" y="428" text-anchor="middle" font-size="16" fill="#20231f">젤렌스키 "미가 푸틴 편들면 역사적 실수"</text>
+  <text x="670" y="454" text-anchor="middle" font-size="16" fill="#20231f">WSJ: 대만도 "흥정 대상" 우려 커질 것</text>
+  </g>
+  <text x="450" y="545" text-anchor="middle" font-size="14" fill="#62655d" font-family="monospace">기준: WSJ · 연합뉴스 · YTN · 헤럴드경제 (2026.10.18–19)</text>
+</svg>
