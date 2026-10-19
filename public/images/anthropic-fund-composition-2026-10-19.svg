@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-label="앤트로픽 공익 약정 타임라인 — 지분 약 20%가 공익 목적">
+  <rect width="900" height="560" fill="#f4f1ea"/>
+  <text x="450" y="54" text-anchor="middle" font-size="30" font-weight="bold" fill="#20231f" font-family="sans-serif">약 20%의 지분이 공익으로 — 타임라인</text>
+  <text x="450" y="86" text-anchor="middle" font-size="16" fill="#62655d" font-family="sans-serif">이번 5% 출연 + 기존 약정을 합하면 회사 지분의 약 20%가 공익 목적에 쓰인다 (앤트로픽 발표)</text>
+  <line x1="60" y1="210" x2="840" y2="210" stroke="#16756a" stroke-width="4"/>
+  <g font-family="sans-serif">
+    <circle cx="150" cy="210" r="13" fill="#e0795b" stroke="#20231f" stroke-width="2"/>
+    <line x1="150" y1="223" x2="150" y2="370" stroke="#62655d" stroke-width="1.5"/>
+    <text x="150" y="400" text-anchor="middle" font-size="20" font-weight="bold" fill="#20231f">2021</text>
+    <text x="150" y="426" text-anchor="middle" font-size="17" fill="#62655d">창업 시 공동창업자 서약</text>
+    <text x="150" y="452" text-anchor="middle" font-size="15" fill="#62655d">보유 지분의 80%를</text>
+    <text x="150" y="476" text-anchor="middle" font-size="15" fill="#62655d">기부하기로 약속</text>
+    <circle cx="360" cy="210" r="13" fill="#e0795b" stroke="#20231f" stroke-width="2"/>
+    <line x1="360" y1="197" x2="360" y2="120" stroke="#62655d" stroke-width="1.5"/>
+    <text x="360" y="100" text-anchor="middle" font-size="20" font-weight="bold" fill="#20231f">창업 이후</text>
+    <text x="360" y="74" text-anchor="middle" font-size="17" fill="#62655d">직원 지분 기부 매칭</text>
+    <text x="360" y="48" text-anchor="middle" font-size="15" fill="#62655d">절반의 직원이 참여 중</text>
+    <circle cx="555" cy="210" r="13" fill="#e0795b" stroke="#20231f" stroke-width="2"/>
+    <line x1="555" y1="223" x2="555" y2="370" stroke="#62655d" stroke-width="1.5"/>
+    <text x="555" y="400" text-anchor="middle" font-size="20" font-weight="bold" fill="#20231f">기존 약정</text>
+    <text x="555" y="426" text-anchor="middle" font-size="17" fill="#62655d">AI 노동시장 연구·대응</text>
+    <text x="555" y="452" text-anchor="middle" font-size="15" fill="#62655d">2억 달러 투입 약속</text>
+    <circle cx="745" cy="210" r="13" fill="#16756a" stroke="#20231f" stroke-width="2"/>
+    <line x1="745" y1="197" x2="745" y2="120" stroke="#62655d" stroke-width="1.5"/>
+    <text x="745" y="100" text-anchor="middle" font-size="20" font-weight="bold" fill="#20231f">2026.10.18</text>
+    <text x="745" y="74" text-anchor="middle" font-size="17" fill="#62655d">공익기금 5% 출연 발표</text>
+    <text x="745" y="48" text-anchor="middle" font-size="15" fill="#62655d">주주 승인 전제</text>
+  </g>
+  <!-- stacked bar -->
+  <g font-family="sans-serif">
+    <text x="60" y="512" font-size="16" font-weight="bold" fill="#20231f">공익 목적 지분 ≈ 20%</text>
+    <rect x="240" y="496" width="560" height="28" rx="6" fill="#dcd7c9"/>
+    <rect x="240" y="496" width="140" height="28" rx="6" fill="#16756a"/>
+    <rect x="380" y="496" width="420" height="28" fill="#e0795b"/>
+    <text x="310" y="516" text-anchor="middle" font-size="14" font-weight="bold" fill="#ffffff">5% 기금</text>
+    <text x="590" y="516" text-anchor="middle" font-size="14" font-weight="bold" fill="#ffffff">창업자 서약 + 직원 매칭 ≈ 15%</text>
+  </g>
+  <text x="450" y="548" text-anchor="middle" font-size="14" fill="#62655d" font-family="monospace">기준: 앤트로픽 공식 블로그 (2026.10.18)</text>
+</svg>
