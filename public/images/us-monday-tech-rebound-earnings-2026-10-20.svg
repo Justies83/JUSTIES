@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img">
+<rect width="900" height="520" fill="#f4f1ea" rx="12"/>
+<text x="450" y="52" text-anchor="middle" font-size="30" fill="#20231f" font-family='Pretendard, -apple-system, Noto Sans KR, sans-serif' font-weight="700">이번 주 빅테크 실적 발표 일정</text>
+<text x="450" y="88" text-anchor="middle" font-size="18" fill="#62655d" font-family='ui-monospace, SFMono-Regular, Menlo, monospace'>AI 설비투자 지속 가능성이 채점대에 오른다</text>
+<line x1="90" y1="250" x2="810" y2="250" stroke="#62655d" stroke-width="4" stroke-linecap="round"/>
+<circle cx="200" cy="250" r="26" fill="#16756a"/>
+<circle cx="200" cy="250" r="26" fill="none" stroke="#20231f" stroke-width="2" opacity="0.25"/>
+<text x="200" y="150" text-anchor="middle" font-size="26" fill="#20231f" font-family='Pretendard, -apple-system, Noto Sans KR, sans-serif' font-weight="700">10/20 (월)</text>
+<text x="200" y="330" text-anchor="middle" font-size="26" fill="#20231f" font-family='Pretendard, -apple-system, Noto Sans KR, sans-serif' font-weight="700">스페이스X</text>
+<circle cx="450" cy="250" r="26" fill="#16756a"/>
+<circle cx="450" cy="250" r="26" fill="none" stroke="#20231f" stroke-width="2" opacity="0.25"/>
+<text x="450" y="150" text-anchor="middle" font-size="26" fill="#20231f" font-family='Pretendard, -apple-system, Noto Sans KR, sans-serif' font-weight="700">10/21 (화)</text>
+<text x="450" y="330" text-anchor="middle" font-size="26" fill="#20231f" font-family='Pretendard, -apple-system, Noto Sans KR, sans-serif' font-weight="700">테슬라</text>
+<circle cx="700" cy="250" r="26" fill="#a8b8a0"/>
+<circle cx="700" cy="250" r="26" fill="none" stroke="#20231f" stroke-width="2" opacity="0.25"/>
+<text x="700" y="150" text-anchor="middle" font-size="26" fill="#20231f" font-family='Pretendard, -apple-system, Noto Sans KR, sans-serif' font-weight="700">이번 주</text>
+<text x="700" y="330" text-anchor="middle" font-size="24" fill="#20231f" font-family='Pretendard, -apple-system, Noto Sans KR, sans-serif'>메타 · 넷플릭스 · GM</text>
+<text x="700" y="368" text-anchor="middle" font-size="24" fill="#20231f" font-family='Pretendard, -apple-system, Noto Sans KR, sans-serif'>GE에어로스페이스 · IBM · 램리서치</text>
+<text x="450" y="440" text-anchor="middle" font-size="18" fill="#62655d" font-family='Pretendard, -apple-system, Noto Sans KR, sans-serif'>이번 주 발표 기업들의 AI 투자 계획과 수익성 전망이 투자심리 회복의 관건</text>
+<text x="450" y="505" text-anchor="middle" font-size="16" fill="#62655d" font-family='ui-monospace, SFMono-Regular, Menlo, monospace'>일정은 뉴스핌(2026.10.19) 보도 기준, 실제 발표 시점은 변동될 수 있습니다.</text>
+</svg>
