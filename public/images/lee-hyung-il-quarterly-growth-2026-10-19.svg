@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="360" viewBox="0 0 800 360" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <rect width="800" height="360" fill="#fafafa"/>
+  <text x="400" y="38" text-anchor="middle" font-size="20" font-weight="bold" fill="#1a1a1a">분기 성장률이 말해주는 것 — 1분기 1.8%, 2분기 0.6%</text>
+  <text x="400" y="62" text-anchor="middle" font-size="13" fill="#666">전기 대비 성장률 · 출처: 이형일 부총리 방콕 간담회(2026.10.16 현지) 발언 인용</text>
+  <line x1="120" y1="290" x2="680" y2="290" stroke="#999" stroke-width="2"/>
+  <!-- scale: 0% -> y=290, 2.0% -> y=110 (90px per 1pp) -->
+  <rect x="180" y="128" width="90" height="162" fill="#1d4ed8"/>
+  <text x="225" y="116" text-anchor="middle" font-size="18" font-weight="bold" fill="#1a1a1a">1.8%</text>
+  <text x="225" y="314" text-anchor="middle" font-size="14" fill="#444">2026년 1분기</text>
+  <rect x="365" y="236" width="90" height="54" fill="#3b82f6"/>
+  <text x="410" y="224" text-anchor="middle" font-size="18" font-weight="bold" fill="#1a1a1a">0.6%</text>
+  <text x="410" y="314" text-anchor="middle" font-size="14" fill="#444">2026년 2분기</text>
+  <rect x="550" y="180" width="90" height="110" fill="#d1d5db" stroke-dasharray="6,4" stroke="#94a3b8" stroke-width="2"/>
+  <text x="595" y="168" text-anchor="middle" font-size="18" font-weight="bold" fill="#6b7280">호조</text>
+  <text x="595" y="314" text-anchor="middle" font-size="14" fill="#444">2026년 3분기</text>
+  <text x="400" y="86" text-anchor="middle" font-size="14" fill="#444">"1분기 1.8%, 2분기 0.6%로 굉장히 가파르게 올라갔다. 3분기까지 괜찮으면 생각보다 많이 좋아질 것"</text>
+</svg>
