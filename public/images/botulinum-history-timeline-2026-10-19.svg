@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <text x="450" y="52" text-anchor="middle" font-family="sans-serif" font-size="26" font-weight="bold" fill="#1d2b2a">보툴리눔 톡신, 살인 무기에서 미용 주사까지 — 100년의 타임라인</text>
+  <text x="450" y="80" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#5c6b6a">PNAS 2026년 10월 15일 논문과 보도 내용을 연표로 정리</text>
+
+  <line x1="60" y1="260" x2="840" y2="260" stroke="#16756a" stroke-width="4"/>
+
+  <g font-family="sans-serif">
+    <!-- 1919 -->
+    <circle cx="95" cy="260" r="9" fill="#e0795b"/>
+    <text x="95" y="225" text-anchor="middle" font-size="20" font-weight="bold" fill="#e0795b">1919</text>
+    <text x="95" y="300" text-anchor="middle" font-size="15" fill="#1d2b2a">미국 통조림 올리브</text>
+    <text x="95" y="322" text-anchor="middle" font-size="15" fill="#1d2b2a">식중독 사망 약 20명</text>
+    <text x="95" y="344" text-anchor="middle" font-size="13" fill="#5c6b6a">고온 살균 도입 계기</text>
+
+    <!-- 1920s Hall -->
+    <circle cx="235" cy="260" r="9" fill="#16756a"/>
+    <text x="235" y="225" text-anchor="middle" font-size="20" font-weight="bold" fill="#16756a">1920년대</text>
+    <text x="235" y="300" text-anchor="middle" font-size="15" fill="#1d2b2a">홀의 균주 수집</text>
+    <text x="235" y="322" text-anchor="middle" font-size="15" fill="#1d2b2a">Hall A 확보</text>
+    <text x="235" y="344" text-anchor="middle" font-size="13" fill="#5c6b6a">실험실에서 잘 자라 표준 균주</text>
+
+    <!-- 1942 military -->
+    <circle cx="375" cy="260" r="9" fill="#e0795b"/>
+    <text x="375" y="225" text-anchor="middle" font-size="20" font-weight="bold" fill="#e0795b">1942</text>
+    <text x="375" y="300" text-anchor="middle" font-size="15" fill="#1d2b2a">미군 생물무기 연구</text>
+    <text x="375" y="322" text-anchor="middle" font-size="15" fill="#1d2b2a">Hall A로 무기·백신 개발</text>
+    <text x="375" y="344" text-anchor="middle" font-size="13" fill="#5c6b6a">1960년대 초 CIA 카스트로 암살 계획</text>
+
+    <!-- 1969-72 -->
+    <circle cx="515" cy="260" r="9" fill="#16756a"/>
+    <text x="515" y="225" text-anchor="middle" font-size="20" font-weight="bold" fill="#16756a">1969·1972</text>
+    <text x="515" y="300" text-anchor="middle" font-size="15" fill="#1d2b2a">생물무기 프로그램 폐기</text>
+    <text x="515" y="322" text-anchor="middle" font-size="15" fill="#1d2b2a">생물무기협약 서명</text>
+    <text x="515" y="344" text-anchor="middle" font-size="13" fill="#5c6b6a">앨런 스콧, 사시 치료 개발</text>
+
+    <!-- 1989-2002 -->
+    <circle cx="655" cy="260" r="9" fill="#e0795b"/>
+    <text x="655" y="225" text-anchor="middle" font-size="20" font-weight="bold" fill="#e0795b">1989→2002</text>
+    <text x="655" y="300" text-anchor="middle" font-size="15" fill="#1d2b2a">FDA 승인(사시·안검경련)</text>
+    <text x="655" y="322" text-anchor="middle" font-size="15" fill="#1d2b2a">앨러간 인수→보톡스</text>
+    <text x="655" y="344" text-anchor="middle" font-size="13" fill="#5c6b6a">2002년 주름 적응증 승인</text>
+
+    <!-- 2026 PNAS -->
+    <circle cx="800" cy="260" r="11" fill="#16756a" stroke="#1d2b2a" stroke-width="2"/>
+    <text x="800" y="225" text-anchor="middle" font-size="20" font-weight="bold" fill="#16756a">2026</text>
+    <text x="800" y="300" text-anchor="middle" font-size="15" fill="#1d2b2a">PNAS 논문 게재</text>
+    <text x="800" y="322" text-anchor="middle" font-size="15" fill="#1d2b2a">Hall A 90년 실험실 진화</text>
+    <text x="800" y="344" text-anchor="middle" font-size="13" fill="#5c6b6a">1,000개 이상 게놈 비교</text>
+  </g>
+
+  <text x="450" y="430" text-anchor="middle" font-family="sans-serif" font-size="16" font-style="italic" fill="#5c6b6a">"칼을 보습으로" (swords into plowshares) — 폴 카임 교수</text>
+  <text x="450" y="470" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#8a9695">수치는 논문·보도에서 직접 인용해 작성</text>
+</svg>
