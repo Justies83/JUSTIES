@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="380" viewBox="0 0 800 380" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <rect width="800" height="380" fill="#fafafa"/>
+  <text x="400" y="38" text-anchor="middle" font-size="20" font-weight="bold" fill="#1a1a1a">2026년 한국 성장률 전망, 석 달 만에 0.4~0.6%p 올랐다</text>
+  <text x="400" y="62" text-anchor="middle" font-size="13" fill="#666">출처: 재정경제부(2026.7 발표) · IMF·OECD(2026.10) · 이형일 부총리 방콕 간담회(2026.10.16 현지)</text>
+  <!-- axis -->
+  <line x1="70" y1="310" x2="730" y2="310" stroke="#999" stroke-width="2"/>
+  <text x="70" y="334" text-anchor="middle" font-size="13" fill="#666">2026년 7월</text>
+  <text x="260" y="334" text-anchor="middle" font-size="13" fill="#666">2026년 10월</text>
+  <text x="470" y="334" text-anchor="middle" font-size="13" fill="#666">2026년 10월</text>
+  <text x="660" y="334" text-anchor="middle" font-size="13" fill="#666">2026년 10월 16일</text>
+  <text x="70" y="352" text-anchor="middle" font-size="12" fill="#888">정부 공식 전망</text>
+  <text x="260" y="352" text-anchor="middle" font-size="12" fill="#888">IMF</text>
+  <text x="470" y="352" text-anchor="middle" font-size="12" fill="#888">OECD</text>
+  <text x="660" y="352" text-anchor="middle" font-size="12" fill="#888">부총리 언급</text>
+  <!-- bars: scale 2.8% -> y=310, 3.8% -> y=110 (200px per 1pp) -->
+  <rect x="45" y="270" width="50" height="40" fill="#94a3b8"/>
+  <text x="70" y="258" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">3.0%</text>
+  <rect x="235" y="210" width="50" height="100" fill="#1d4ed8"/>
+  <text x="260" y="198" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">3.3%</text>
+  <rect x="445" y="130" width="50" height="180" fill="#f59e0b"/>
+  <text x="470" y="118" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">3.7%</text>
+  <rect x="635" y="130" width="50" height="180" fill="#16a34a"/>
+  <text x="660" y="118" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">3.4~3.6%</text>
+  <text x="400" y="90" text-anchor="middle" font-size="14" fill="#444">반도체 호조에 힘입어 국제기구가 먼저 올렸고, 부총리가 "3%대 중반도 가능"으로 화답</text>
+</svg>
