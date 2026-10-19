@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-label="Treble Clef 두 단계 형성 과정 타임라인">
+  <rect width="900" height="560" fill="#f4f1ea"/>
+  <text x="450" y="54" text-anchor="middle" font-size="30" font-weight="bold" fill="#20231f" font-family="sans-serif">높은음자리표(Treble Clef) 형성 과정 — 두 단계</text>
+  <text x="450" y="86" text-anchor="middle" font-size="16" fill="#62655d" font-family="sans-serif">VLSS J0318.9+5755 — Andrea Botteon 연구팀 (A&A, 2026.10.14)</text>
+  <line x1="60" y1="240" x2="840" y2="240" stroke="#16756a" stroke-width="4"/>
+  <g font-family="sans-serif">
+  <circle cx="130" cy="240" r="13" fill="#e0795b" stroke="#20231f" stroke-width="2"/>
+  <line x1="130" y1="253" x2="130" y2="380" stroke="#62655d" stroke-width="1.5"/>
+  <text x="130" y="410" text-anchor="middle" font-size="20" font-weight="bold" fill="#20231f">1단계 · 먼 옛날</text>
+  <text x="130" y="438" text-anchor="middle" font-size="17" fill="#62655d">은하단 중심 초거대블랙홀 폭발</text>
+  <text x="130" y="464" text-anchor="middle" font-size="15" fill="#62655d">하전 입자·자기장 구름을 빛에 가까운 속도로 분출</text>
+  <text x="130" y="490" text-anchor="middle" font-size="15" fill="#62655d">밝은 전파 방출 → 입자가 에너지를 잃으며 서서히 소멸</text>
+  <circle cx="368" cy="240" r="13" fill="#e0795b" stroke="#20231f" stroke-width="2"/>
+  <line x1="368" y1="227" x2="368" y2="140" stroke="#62655d" stroke-width="1.5"/>
+  <text x="368" y="120" text-anchor="middle" font-size="20" font-weight="bold" fill="#20231f">2단계 · 수억 년 전</text>
+  <text x="368" y="94" text-anchor="middle" font-size="17" fill="#62655d">두 은하단 정면 충돌</text>
+  <text x="368" y="68" text-anchor="middle" font-size="15" fill="#62655d">낡은 입자 구름 압축·재가속 → 전파 재점화</text>
+  <circle cx="590" cy="240" r="13" fill="#16756a" stroke="#20231f" stroke-width="2"/>
+  <line x1="590" y1="253" x2="590" y2="380" stroke="#62655d" stroke-width="1.5"/>
+  <text x="590" y="410" text-anchor="middle" font-size="20" font-weight="bold" fill="#20231f">2026.10.14</text>
+  <text x="590" y="438" text-anchor="middle" font-size="17" fill="#62655d">A&amp;A 논문 발표 · NASA 합성 이미지 공개</text>
+  <text x="590" y="464" text-anchor="middle" font-size="15" fill="#62655d">X선(Chandra+eROSITA) + 전파(LOFAR) + 적외선(UKIRT)</text>
+  <text x="590" y="490" text-anchor="middle" font-size="15" fill="#62655d">원인 규명 — 블랙홀 폭발 + 은하단 충돌</text>
+  <circle cx="792" cy="240" r="13" fill="#16756a" stroke="#20231f" stroke-width="2"/>
+  <line x1="792" y1="227" x2="792" y2="140" stroke="#62655d" stroke-width="1.5"/>
+  <text x="792" y="120" text-anchor="middle" font-size="20" font-weight="bold" fill="#20231f">앞으로</text>
+  <text x="792" y="94" text-anchor="middle" font-size="17" fill="#62655d">LOFAR2.0 후속 관측</text>
+  <text x="792" y="68" text-anchor="middle" font-size="15" fill="#62655d">초저주파 고해상도로 실타래 구조 해부</text>
+  </g>
+  <text x="450" y="545" text-anchor="middle" font-size="14" fill="#62655d" font-family="monospace">기준: NASA Chandra 보도자료(2026.10.14) · arXiv:2607.06659</text>
+</svg>
