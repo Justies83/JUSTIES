@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-label="Treble Clef 합성 이미지 세 망원경 층 설명도">
+  <rect width="900" height="560" fill="#f4f1ea"/>
+  <text x="450" y="54" text-anchor="middle" font-size="30" font-weight="bold" fill="#20231f" font-family="sans-serif">한 장의 사진, 세 대의 망원경</text>
+  <text x="450" y="86" text-anchor="middle" font-size="16" fill="#62655d" font-family="sans-serif">Treble Clef 합성 이미지의 세 층 (은하수 평면 뒤에 숨어 있어 함께 봐야 보임)</text>
+  <g font-family="sans-serif">
+  <!-- X-ray layer -->
+  <rect x="60" y="120" width="780" height="112" rx="10" fill="#cfe0e8" stroke="#16756a" stroke-width="3"/>
+  <circle cx="120" cy="176" r="26" fill="#2f6fb2"/>
+  <text x="165" y="168" font-size="22" font-weight="bold" fill="#20231f">X선 — 파랑</text>
+  <text x="165" y="198" font-size="17" fill="#62655d">Chandra + 독일 eROSITA</text>
+  <text x="470" y="162" text-anchor="middle" font-size="16" fill="#20231f">수백만 도 뜨거운 가스 → 은하단이 있다는 증거</text>
+  <text x="470" y="190" text-anchor="middle" font-size="16" fill="#20231f">대칭 타원 제거한 잔상 이미지에서 좌우가 밝음 → 충돌축 포착</text>
+  <text x="470" y="218" text-anchor="middle" font-size="16" fill="#20231f">두 은하단이 합쳐지는 중이라는 결정적 단서</text>
+  <!-- Radio layer -->
+  <rect x="60" y="252" width="780" height="112" rx="10" fill="#f6ddd4" stroke="#e0795b" stroke-width="3"/>
+  <circle cx="120" cy="308" r="26" fill="#d94f3d"/>
+  <text x="165" y="300" font-size="22" font-weight="bold" fill="#20231f">전파 — 빨강</text>
+  <text x="165" y="330" font-size="17" fill="#62655d">유럽 LOFAR (약 2만 개 안테나)</text>
+  <text x="470" y="294" text-anchor="middle" font-size="16" fill="#20231f">높은음자리표 모양 그대로 — '라디오 피닉스'</text>
+  <text x="470" y="322" text-anchor="middle" font-size="16" fill="#20231f">400~650 MHz에서 스펙트럼 지수 α &gt; 4 — 극도로 가파름</text>
+  <text x="470" y="350" text-anchor="middle" font-size="16" fill="#20231f">늙은 입자 구름이 충돌로 다시 타오른 흔적</text>
+  <!-- Infrared layer -->
+  <rect x="60" y="384" width="780" height="112" rx="10" fill="#e8e6e0" stroke="#62655d" stroke-width="3"/>
+  <circle cx="120" cy="440" r="26" fill="#f2f2f2" stroke="#62655d" stroke-width="2"/>
+  <text x="165" y="432" font-size="22" font-weight="bold" fill="#20231f">적외선 — 흰색</text>
+  <text x="165" y="462" font-size="17" fill="#62655d">영국 적외선 망원경(UKIRT)</text>
+  <text x="470" y="426" text-anchor="middle" font-size="16" fill="#20231f">별과 은하들의 흰 점 — 은하수 앞뒤를 가르는 기준선</text>
+  <text x="470" y="454" text-anchor="middle" font-size="16" fill="#20231f">전파·X선 구조가 은하단 '뒤'에 있다는 것을 확인</text>
+  <text x="470" y="482" text-anchor="middle" font-size="16" fill="#20231f">은하수 먼지 사이를 뚫고 본 배경 지도</text>
+  </g>
+  <text x="450" y="545" text-anchor="middle" font-size="14" fill="#62655d" font-family="monospace">기준: NASA Chandra 보도자료(2026.10.14) · arXiv:2607.06659</text>
+</svg>
