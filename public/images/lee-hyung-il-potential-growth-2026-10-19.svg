@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="380" viewBox="0 0 800 380" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <rect width="800" height="380" fill="#fafafa"/>
+  <text x="400" y="38" text-anchor="middle" font-size="20" font-weight="bold" fill="#1a1a1a">잠재성장률, 하락 추세에서 반등으로 — IMF 추산</text>
+  <text x="400" y="62" text-anchor="middle" font-size="13" fill="#666">출처: IMF 추산 (이형일 부총리 방콕 간담회, 2026.10.16 현지 발언 인용)</text>
+  <!-- axes -->
+  <line x1="80" y1="310" x2="720" y2="310" stroke="#999" stroke-width="2"/>
+  <line x1="80" y1="90" x2="80" y2="310" stroke="#999" stroke-width="2"/>
+  <!-- scale: 1.8% -> y=310, 2.3% -> y=110 (400px per 1pp) -->
+  <!-- points: 2025 1.94% -> y=254; 2026 2.14% -> y=174; 2027 2.20% -> y=150 -->
+  <polyline points="150,254 400,174 650,150" fill="none" stroke="#16a34a" stroke-width="4"/>
+  <circle cx="150" cy="254" r="8" fill="#16a34a"/>
+  <text x="150" y="238" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">1.94%</text>
+  <text x="150" y="334" text-anchor="middle" font-size="14" fill="#444">2025년</text>
+  <circle cx="400" cy="174" r="8" fill="#16a34a"/>
+  <text x="400" y="158" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">2.14%</text>
+  <text x="400" y="334" text-anchor="middle" font-size="14" fill="#444">2026년</text>
+  <circle cx="650" cy="150" r="8" fill="#16a34a"/>
+  <text x="650" y="134" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">2.20%</text>
+  <text x="650" y="334" text-anchor="middle" font-size="14" fill="#444">2027년</text>
+  <text x="400" y="92" text-anchor="middle" font-size="14" fill="#444">"하락하는 추세를 벗어나 반등할 수 있다. 그 시기가 다가오고 있고, 어찌 보면 임박했다"</text>
+</svg>
