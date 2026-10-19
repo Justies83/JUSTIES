@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-label="푸틴 3자 정상회담 제안 타임라인">
+  <rect width="900" height="560" fill="#f4f1ea"/>
+  <text x="450" y="54" text-anchor="middle" font-size="30" font-weight="bold" fill="#20231f" font-family="sans-serif">미·중·러 3자 정상회담 제안 — 타임라인</text>
+  <text x="450" y="86" text-anchor="middle" font-size="16" fill="#62655d" font-family="sans-serif">월스트리트저널(WSJ) 단독 보도, 2026.10.18(현지시간) · 한국 보도 10.19</text>
+  <line x1="60" y1="240" x2="840" y2="240" stroke="#16756a" stroke-width="4"/>
+  <g font-family="sans-serif">
+  <circle cx="120" cy="240" r="13" fill="#e0795b" stroke="#20231f" stroke-width="2"/>
+  <line x1="120" y1="253" x2="120" y2="400" stroke="#62655d" stroke-width="1.5"/>
+  <text x="120" y="430" text-anchor="middle" font-size="20" font-weight="bold" fill="#20231f">10/9</text>
+  <text x="120" y="456" text-anchor="middle" font-size="17" fill="#62655d">트럼프–푸틴 통화</text>
+  <text x="120" y="482" text-anchor="middle" font-size="15" fill="#62655d">러시아산 디젤 30만 톤+ 수입 합의 발표</text>
+  <text x="120" y="508" text-anchor="middle" font-size="15" fill="#62655d">이 통화에서 3자 회담 구상 처음 타진</text>
+  <circle cx="315" cy="240" r="13" fill="#e0795b" stroke="#20231f" stroke-width="2"/>
+  <line x1="315" y1="227" x2="315" y2="130" stroke="#62655d" stroke-width="1.5"/>
+  <text x="315" y="110" text-anchor="middle" font-size="20" font-weight="bold" fill="#20231f">10/16 밤 (미국)</text>
+  <text x="315" y="84" text-anchor="middle" font-size="17" fill="#62655d">그레이엄 대러 제재법 관세 면제</text>
+  <text x="315" y="58" text-anchor="middle" font-size="15" fill="#62655d">행정명령 서명 — '미국의 국가이익' 근거</text>
+  <circle cx="505" cy="240" r="13" fill="#16756a" stroke="#20231f" stroke-width="2"/>
+  <line x1="505" y1="253" x2="505" y2="400" stroke="#62655d" stroke-width="1.5"/>
+  <text x="505" y="430" text-anchor="middle" font-size="20" font-weight="bold" fill="#20231f">10/18 (미국)</text>
+  <text x="505" y="456" text-anchor="middle" font-size="17" fill="#62655d">트럼프 SNS 반박 · WSJ 보도</text>
+  <text x="505" y="482" text-anchor="middle" font-size="15" fill="#62655d">"러를 협상 테이블에 붙잡기 위한 결정"</text>
+  <text x="505" y="508" text-anchor="middle" font-size="15" fill="#62655d">푸틴의 3자 회담 제안 단독 보도</text>
+  <circle cx="695" cy="240" r="13" fill="#16756a" stroke="#20231f" stroke-width="2"/>
+  <line x1="695" y1="227" x2="695" y2="130" stroke="#62655d" stroke-width="1.5"/>
+  <text x="695" y="110" text-anchor="middle" font-size="20" font-weight="bold" fill="#20231f">10/19 (한국)</text>
+  <text x="695" y="84" text-anchor="middle" font-size="17" fill="#62655d">연합뉴스·YTN 등 속보</text>
+  <text x="695" y="58" text-anchor="middle" font-size="15" fill="#62655d">"제2의 얄타회담" 해석 확산</text>
+  <circle cx="860" cy="240" r="13" fill="none" stroke="#20231f" stroke-width="2" stroke-dasharray="5,4"/>
+  <line x1="860" y1="253" x2="860" y2="400" stroke="#62655d" stroke-width="1.5" stroke-dasharray="6,5"/>
+  <text x="860" y="430" text-anchor="middle" font-size="20" font-weight="bold" fill="#20231f">11/18–19</text>
+  <text x="860" y="456" text-anchor="middle" font-size="17" fill="#62655d">APEC 선전 (중국)</text>
+  <text x="860" y="482" text-anchor="middle" font-size="15" fill="#62655d">회담 제안의 무대가 될 정상회의</text>
+  <text x="860" y="508" text-anchor="middle" font-size="15" fill="#62655d">개최 여부 — 아직 미정</text>
+  </g>
+  <text x="450" y="548" text-anchor="middle" font-size="14" fill="#62655d" font-family="monospace">기준: WSJ · 연합뉴스 · YTN · 헤럴드경제 (2026.10.18–19)</text>
+</svg>
