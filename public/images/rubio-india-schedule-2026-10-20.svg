@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520" font-family="'Noto Sans KR','Apple SD Gothic Neo',sans-serif">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f7f9fc"/><stop offset="1" stop-color="#eef2f7"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="520" fill="url(#bg2)" rx="18"/>
+  <text x="40" y="52" font-size="26" font-weight="700" fill="#1a2b4a">루비오 3일 방인 일정 — 뭄바이에서 잠나가르까지</text>
+  <text x="40" y="80" font-size="14" fill="#6b7a90">2026년 10월 20일(화)~22일(목), 5월 이후 두 번째 방인 (ET Now·ABP·Statesman 보도 종합)</text>
+  <rect x="40" y="110" width="920" height="86" rx="12" fill="#ffffff" stroke="#dde4ef"/>
+  <circle cx="86" cy="153" r="22" fill="#1a56a8"/><text x="86" y="161" text-anchor="middle" font-size="18" font-weight="700" fill="#fff">20</text>
+  <text x="124" y="140" font-size="16" font-weight="700" fill="#1a2b4a">10월 20일(화) — 뭄바이</text>
+  <text x="124" y="166" font-size="13.5" fill="#33455e">오후 도착 → 타지호텔 26/11 테러 희생자 추모 → 파드나비스 주총리와 게이트웨이 오브 인디아 →</text>
+  <text x="124" y="188" font-size="13.5" fill="#33455e">자인샹카르 외교장관과 회담(고어 대사·미스리 차관 배석) → 저녁 「Freedom 250 리셉션」</text>
+  <rect x="40" y="214" width="920" height="86" rx="12" fill="#ffffff" stroke="#dde4ef"/>
+  <circle cx="86" cy="257" r="22" fill="#c0392b"/><text x="86" y="265" text-anchor="middle" font-size="18" font-weight="700" fill="#fff">21</text>
+  <text x="124" y="244" font-size="16" font-weight="700" fill="#1a2b4a">10월 21일(수) — 잠나가르(구자라트)</text>
+  <text x="124" y="270" font-size="13.5" fill="#33455e">세계 최대 정제시설 릴라이언스 잠나가르 정유소 방문 → 인도 기업인들과 면담</text>
+  <text x="124" y="292" font-size="13.5" fill="#33455e">에너지 협력 의제의 연장선 — 인도의 에너지 수입 확대·공급 다변화 논의</text>
+  <rect x="40" y="318" width="920" height="86" rx="12" fill="#ffffff" stroke="#dde4ef"/>
+  <circle cx="86" cy="361" r="22" fill="#5b6b82"/><text x="86" y="369" text-anchor="middle" font-size="18" font-weight="700" fill="#fff">22</text>
+  <text x="124" y="348" font-size="16" font-weight="700" fill="#1a2b4a">10월 22일(목)</text>
+  <text x="124" y="374" font-size="13.5" fill="#33455e">3일 방인 일정 마무리 (우즈베키스탄 사마르칸트에서 입국 — 「협상 타결 임박」 사전 언급)</text>
+  <rect x="40" y="424" width="920" height="60" rx="12" fill="#eef4ff" stroke="#c9d8f2"/>
+  <text x="64" y="460" font-size="13.5" fill="#33455e">회담 직전 자인샹카르는 미국 의회 대표단(제이슨 스미스·엘리스 스테파닉 등)과 별도 면담 — 무역·에너지·안보·인도태평양 협력 논의</text>
+</svg>
