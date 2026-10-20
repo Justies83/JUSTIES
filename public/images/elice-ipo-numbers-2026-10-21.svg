@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" font-family="Pretendard, 'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif">
+<rect width="720" height="420" fill="#f7f8fa"/>
+<text x="360" y="38" text-anchor="middle" font-size="21" font-weight="700" fill="#1a1d23">엘리스그룹 IPO: 흥행한 청약, 무너진 주가</text>
+<text x="360" y="62" text-anchor="middle" font-size="13" fill="#6b7280">단위: 원 · 시가총액은 공모가 기준 예상액 대비 종가 기준 추정치</text>
+
+<text x="90" y="120" font-size="15" font-weight="700" fill="#1a1d23">공모가 (상단 확정)</text>
+<rect x="90" y="132" width="400" height="34" rx="6" fill="#2563eb"/>
+<text x="500" y="155" font-size="16" font-weight="700" fill="#2563eb">90,500원</text>
+
+<text x="90" y="205" font-size="15" font-weight="700" fill="#1a1d23">상장 첫날 종가 (10월 20일)</text>
+<rect x="90" y="217" width="272" height="34" rx="6" fill="#dc2626"/>
+<text x="372" y="240" font-size="16" font-weight="700" fill="#dc2626">61,500원 (−32.04%)</text>
+
+<text x="90" y="290" font-size="15" font-weight="700" fill="#1a1d23">상장 전 예상 시가총액</text>
+<rect x="90" y="302" width="400" height="34" rx="6" fill="#2563eb"/>
+<text x="500" y="325" font-size="16" font-weight="700" fill="#2563eb">1조 54억원</text>
+
+<text x="90" y="368" font-size="13" fill="#6b7280">※ 종가 기준 시가총액은 7,000억원대로 추정 (머니투데이·매일경제 2026.10.20)</text>
+
+<text x="90" y="392" font-size="13" fill="#6b7280">기관 수요예측 388.84대 1 (2367개 기관) · 일반청약 408대 1 · 청약증거금 10조 2,599억원 · 총 공모금액 2,011억원</text>
+</svg>
