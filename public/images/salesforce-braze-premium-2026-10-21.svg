@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" font-family="Pretendard, 'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif">
+<rect width="900" height="520" fill="#f4f1ea"/>
+<text x="450" y="48" text-anchor="middle" font-size="26" font-weight="700" fill="#20231f">브레이즈 인수 가격: 월요일 종가보다 58% 높게</text>
+<text x="450" y="80" text-anchor="middle" font-size="15" fill="#62655d">단위: 달러 · 세일즈포스·브레이즈 공동 발표 (2026.10.20)</text>
+
+<text x="90" y="150" font-size="17" font-weight="700" fill="#20231f">브레이즈 월요일 종가 (나스닥, 10월 19일)</text>
+<rect x="90" y="165" width="316" height="44" rx="8" fill="#9aa39b"/>
+<text x="424" y="194" font-size="20" font-weight="700" fill="#62655d">$30.04</text>
+
+<text x="90" y="262" font-size="17" font-weight="700" fill="#20231f">세일즈포스 인수 주당 가격 (현금)</text>
+<rect x="90" y="277" width="500" height="44" rx="8" fill="#16756a"/>
+<text x="608" y="306" font-size="20" font-weight="700" fill="#16756a">$47.50</text>
+
+<text x="90" y="392" font-size="17" fill="#20231f">주당 가격 차이 <tspan font-weight="700" fill="#e0795b">$17.46</tspan> · 프리미엄 <tspan font-weight="700" fill="#e0795b">약 58%</tspan></text>
+<text x="90" y="424" font-size="15" fill="#62655d">기업가치 기준 인수 총액 약 56.6억 달러</text>
+
+<text x="90" y="478" font-size="13" fill="#62655d" font-family="monospace">도표는 위 발표의 수치로 직접 작성</text>
+</svg>
