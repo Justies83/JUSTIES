@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img">
+<rect width="900" height="520" fill="#f4f1ea" rx="12"/>
+<text x="450" y="52" text-anchor="middle" font-size="30" fill="#20231f" font-family='Pretendard, -apple-system, Noto Sans KR, sans-serif' font-weight="700">10월 20일(화) 미국 3대 지수 — 일간 등락률</text>
+<text x="450" y="88" text-anchor="middle" font-size="18" fill="#62655d" font-family='ui-monospace, SFMono-Regular, Menlo, monospace'>NYSE 정규장 마감 기준 (KST 10/21 오전 6시)</text>
+<text x="232" y="176" text-anchor="end" font-size="26" fill="#20231f" font-family='Pretendard, -apple-system, Noto Sans KR, sans-serif' font-weight="600">다우존스 30</text>
+<text x="232" y="206" text-anchor="end" font-size="20" fill="#62655d" font-family='ui-monospace, SFMono-Regular, Menlo, monospace'>52,495.88</text>
+<rect x="646.3" y="150" width="164.3" height="46" rx="8" fill="#16756a"/>
+<text x="821.0" y="182" text-anchor="start" font-size="26" fill="#20231f" font-family='Pretendard, -apple-system, Noto Sans KR, sans-serif' font-weight="700">+1.02%</text>
+<text x="232" y="281" text-anchor="end" font-size="26" fill="#20231f" font-family='Pretendard, -apple-system, Noto Sans KR, sans-serif' font-weight="600">S&amp;P 500</text>
+<text x="232" y="311" text-anchor="end" font-size="20" fill="#62655d" font-family='ui-monospace, SFMono-Regular, Menlo, monospace'>7,712.57</text>
+<rect x="646.3" y="255" width="45.1" height="46" rx="8" fill="#16756a"/>
+<text x="702.0" y="287" text-anchor="start" font-size="26" fill="#20231f" font-family='Pretendard, -apple-system, Noto Sans KR, sans-serif' font-weight="700">+0.28%</text>
+<text x="232" y="386" text-anchor="end" font-size="26" fill="#20231f" font-family='Pretendard, -apple-system, Noto Sans KR, sans-serif' font-weight="600">나스닥 종합</text>
+<text x="232" y="416" text-anchor="end" font-size="20" fill="#62655d" font-family='ui-monospace, SFMono-Regular, Menlo, monospace'>26,424.82</text>
+<rect x="643.1" y="360" width="3.2" height="46" rx="4" fill="#e0795b"/>
+<text x="639.0" y="392" text-anchor="end" font-size="26" fill="#20231f" font-family='Pretendard, -apple-system, Noto Sans KR, sans-serif' font-weight="700">-0.02%</text>
+<line x1="646.3" y1="135" x2="646.3" y2="455" stroke="#62655d" stroke-width="2" stroke-dasharray="6 5"/>
+<text x="565.8" y="478" text-anchor="middle" font-size="18" fill="#62655d" font-family='ui-monospace, SFMono-Regular, Menlo, monospace'>-0.5%</text>
+<text x="646.3" y="478" text-anchor="middle" font-size="18" fill="#62655d" font-family='ui-monospace, SFMono-Regular, Menlo, monospace'>0%</text>
+<text x="726.9" y="478" text-anchor="middle" font-size="18" fill="#62655d" font-family='ui-monospace, SFMono-Regular, Menlo, monospace'>0.5%</text>
+<text x="807.4" y="478" text-anchor="middle" font-size="18" fill="#62655d" font-family='ui-monospace, SFMono-Regular, Menlo, monospace'>1.0%</text>
+<text x="450" y="505" text-anchor="middle" font-size="16" fill="#62655d" font-family='ui-monospace, SFMono-Regular, Menlo, monospace'>도표는 트레이딩키·ad-hoc-news(2026.10.21) 보도 수치를 인용해 직접 작성했습니다.</text>
+</svg>
