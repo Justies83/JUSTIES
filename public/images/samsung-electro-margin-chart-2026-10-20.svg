@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" font-family="'Noto Sans KR','Apple SD Gothic Neo',sans-serif">
+  <rect width="720" height="380" fill="#f4f1ea" rx="12"/>
+  <text x="360" y="38" text-anchor="middle" font-size="20" font-weight="700" fill="#1c1c1c">삼성전기 사업부별 영업이익률</text>
+  <text x="360" y="60" text-anchor="middle" font-size="13" fill="#555">2분기 실적 vs 3분기 추정치 (단위: %)</text>
+
+  <!-- legend -->
+  <rect x="250" y="74" width="16" height="12" fill="#16756a" rx="3"/>
+  <text x="272" y="85" font-size="12" fill="#333">2분기 실적</text>
+  <rect x="380" y="74" width="16" height="12" fill="#e0795b" rx="3"/>
+  <text x="402" y="85" font-size="12" fill="#333">3분기 추정치</text>
+
+  <!-- rows -->
+  <g font-size="14" fill="#222">
+    <text x="40" y="140" font-weight="600">패키지솔루션</text>
+    <rect x="200" y="122" width="220.8" height="26" fill="#16756a" rx="4"/>
+    <text x="212" y="140" font-size="12" fill="#fff">13.8</text>
+    <rect x="200" y="156" width="350.4" height="26" fill="#e0795b" rx="4"/>
+    <text x="212" y="174" font-size="12" fill="#fff">21.9</text>
+
+    <text x="40" y="220" font-weight="600">컴포넌트</text>
+    <rect x="200" y="202" width="283.2" height="26" fill="#16756a" rx="4"/>
+    <text x="212" y="220" font-size="12" fill="#fff">17.7</text>
+    <rect x="200" y="236" width="355.2" height="26" fill="#e0795b" rx="4"/>
+    <text x="212" y="254" font-size="12" fill="#fff">22.2</text>
+
+    <text x="40" y="300" font-weight="600">전체(연결)</text>
+    <rect x="200" y="282" width="203.2" height="26" fill="#16756a" rx="4"/>
+    <text x="212" y="300" font-size="12" fill="#fff">12.7</text>
+    <rect x="200" y="316" width="278.4" height="26" fill="#e0795b" rx="4"/>
+    <text x="212" y="334" font-size="12" fill="#fff">17.4</text>
+  </g>
+
+  <!-- axis ticks 0..25% -->
+  <g font-size="10" fill="#777">
+    <text x="200" y="104" text-anchor="middle">0</text>
+    <text x="280" y="104" text-anchor="middle">5</text>
+    <text x="360" y="104" text-anchor="middle">10</text>
+    <text x="440" y="104" text-anchor="middle">15</text>
+    <text x="520" y="104" text-anchor="middle">20</text>
+    <text x="600" y="104" text-anchor="middle">25</text>
+  </g>
+
+  <text x="360" y="368" text-anchor="middle" font-size="11" fill="#777">수치는 IBK투자증권 리포트(매일경제 2026.10.20) 기준, 3분기는 추정치 — 직접 작성</text>
+</svg>
