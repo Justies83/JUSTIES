@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-label="MMX 미션 타임라인 — 2026년 발사부터 2031년 시료 귀환까지">
+  <rect width="900" height="560" fill="#f4f1ea"/>
+  <text x="450" y="54" text-anchor="middle" font-size="30" font-weight="bold" fill="#20231f" font-family="sans-serif">MMX, 5년의 여정 — 발사부터 시료 귀환까지</text>
+  <text x="450" y="86" text-anchor="middle" font-size="16" fill="#62655d" font-family="sans-serif">JAXA 발표 및 한국일보·연합뉴스 보도 (2026.10.20) 정리</text>
+  <line x1="70" y1="300" x2="830" y2="300" stroke="#16756a" stroke-width="5"/>
+  <g font-family="sans-serif">
+    <!-- 1 -->
+    <circle cx="110" cy="300" r="14" fill="#e0795b"/>
+    <text x="110" y="252" text-anchor="middle" font-size="19" font-weight="bold" fill="#20231f">2026.10</text>
+    <text x="110" y="215" text-anchor="middle" font-size="19" font-weight="bold" fill="#e0795b">발사 성공</text>
+    <text x="110" y="340" text-anchor="middle" font-size="14" fill="#62655d">다네가시마 · H3 10호기</text>
+    <text x="110" y="362" text-anchor="middle" font-size="14" fill="#62655d">발사 1시간 11분 뒤</text>
+    <text x="110" y="384" text-anchor="middle" font-size="14" fill="#62655d">화성 전이궤도 진입</text>
+    <!-- 2 -->
+    <circle cx="254" cy="300" r="14" fill="#16756a"/>
+    <text x="254" y="252" text-anchor="middle" font-size="19" font-weight="bold" fill="#20231f">2027.8</text>
+    <text x="254" y="215" text-anchor="middle" font-size="19" font-weight="bold" fill="#16756a">화성 도착</text>
+    <text x="254" y="340" text-anchor="middle" font-size="14" fill="#62655d">화성 주회궤도 진입</text>
+    <text x="254" y="362" text-anchor="middle" font-size="14" fill="#62655d">포보스(약 6,000km) 관측</text>
+    <!-- 3 -->
+    <circle cx="398" cy="300" r="14" fill="#16756a"/>
+    <text x="398" y="252" text-anchor="middle" font-size="19" font-weight="bold" fill="#20231f">2029 초</text>
+    <text x="398" y="215" text-anchor="middle" font-size="19" font-weight="bold" fill="#16756a">두 차례 착륙</text>
+    <text x="398" y="340" text-anchor="middle" font-size="14" fill="#62655d">로봇팔로 포보스 시료 채취</text>
+    <text x="398" y="362" text-anchor="middle" font-size="14" fill="#62655d">최소 10g 목표</text>
+    <!-- 4 -->
+    <circle cx="542" cy="300" r="14" fill="#16756a"/>
+    <text x="542" y="252" text-anchor="middle" font-size="19" font-weight="bold" fill="#20231f">2029~</text>
+    <text x="542" y="215" text-anchor="middle" font-size="19" font-weight="bold" fill="#16756a">데이모스 관측</text>
+    <text x="542" y="340" text-anchor="middle" font-size="14" fill="#62655d">두 번째 화성 위성</text>
+    <text x="542" y="362" text-anchor="middle" font-size="14" fill="#62655d">고속 플라이바이</text>
+    <!-- 5 -->
+    <circle cx="686" cy="300" r="14" fill="#16756a"/>
+    <text x="686" y="252" text-anchor="middle" font-size="19" font-weight="bold" fill="#20231f">2030.11</text>
+    <text x="686" y="215" text-anchor="middle" font-size="19" font-weight="bold" fill="#16756a">귀환 시작</text>
+    <text x="686" y="340" text-anchor="middle" font-size="14" fill="#62655d">화성권 출발</text>
+    <text x="686" y="362" text-anchor="middle" font-size="14" fill="#62655d">지구로 향하는 궤도</text>
+    <!-- 6 -->
+    <circle cx="810" cy="300" r="14" fill="#e0795b"/>
+    <text x="810" y="252" text-anchor="middle" font-size="19" font-weight="bold" fill="#20231f">2031.7</text>
+    <text x="810" y="215" text-anchor="middle" font-size="19" font-weight="bold" fill="#e0795b">시료 투하</text>
+    <text x="810" y="340" text-anchor="middle" font-size="14" fill="#62655d">호주 사막 지대에</text>
+    <text x="810" y="362" text-anchor="middle" font-size="14" fill="#62655d">캡슐 투하</text>
+  </g>
+  <text x="450" y="445" text-anchor="middle" font-size="17" fill="#20231f" font-family="sans-serif">성공하면 화성권 천체의 시료를 지구에 가져온 <tspan font-weight="bold">세계 최초의 사례</tspan></text>
+  <text x="450" y="478" text-anchor="middle" font-size="15" fill="#62655d" font-family="sans-serif">포보스 직경은 약 20~30km — 달의 100분의 1에 못 미치는 작은 위성</text>
+  <text x="450" y="525" text-anchor="middle" font-size="15" fill="#62655d" font-family="sans-serif">도표는 JAXA 발표 및 2026.10.20 한국일보·연합뉴스 보도로 직접 작성했다</text>
+</svg>
