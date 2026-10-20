@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" font-family="Pretendard, 'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif">
+<rect width="900" height="520" fill="#f4f1ea"/>
+<text x="450" y="48" text-anchor="middle" font-size="26" font-weight="700" fill="#20231f">브레이즈 분기 매출과 영업손실</text>
+<text x="450" y="80" text-anchor="middle" font-size="15" fill="#62655d">단위: 백만 달러 · 회계연도 2분기 기준 (브레이즈 실적 발표)</text>
+
+<text x="90" y="150" font-size="17" font-weight="700" fill="#20231f">분기 매출</text>
+<rect x="90" y="165" width="380" height="44" rx="8" fill="#9aa39b"/>
+<text x="488" y="194" font-size="18" font-weight="700" fill="#62655d">$180.1 (전년)</text>
+<rect x="90" y="225" width="480" height="44" rx="8" fill="#16756a"/>
+<text x="588" y="254" font-size="18" font-weight="700" fill="#16756a">$227.2 (+26.2%)</text>
+
+<text x="90" y="330" font-size="17" font-weight="700" fill="#20231f">영업손실 (손실 폭 축소)</text>
+<rect x="90" y="345" width="160" height="44" rx="8" fill="#e0795b" opacity="0.45"/>
+<text x="268" y="374" font-size="18" font-weight="700" fill="#e0795b">−$38.8 (전년)</text>
+<rect x="90" y="405" width="75" height="44" rx="8" fill="#e0795b"/>
+<text x="183" y="434" font-size="18" font-weight="700" fill="#e0795b">−$18.1</text>
+
+<text x="90" y="478" font-size="13" fill="#62655d" font-family="monospace">도표는 위 실적 발표의 수치로 직접 작성</text>
+</svg>
