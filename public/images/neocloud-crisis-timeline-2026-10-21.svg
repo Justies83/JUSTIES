@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="380" viewBox="0 0 720 380" font-family="Pretendard, 'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif">
+<rect width="720" height="380" fill="#f7f8fa"/>
+<text x="360" y="36" text-anchor="middle" font-size="21" font-weight="700" fill="#1a1d23">네오클라우드 불안을 키운 10월의 한 달</text>
+<rect x="36" y="60" width="648" height="4" fill="#d1d5db"/>
+<g font-size="13">
+<circle cx="90" cy="62" r="9" fill="#dc2626"/>
+<text x="90" y="95" text-anchor="middle" font-weight="700" fill="#1a1d23">10.09</text>
+<text x="90" y="115" text-anchor="middle" fill="#4b5563">호주 퍼머스</text>
+<text x="90" y="134" text-anchor="middle" fill="#4b5563">IPO 계획 철회</text>
+<text x="90" y="153" text-anchor="middle" fill="#6b7280">(기업가치 약 41조원)</text>
+
+<circle cx="243" cy="62" r="9" fill="#dc2626"/>
+<text x="243" y="95" text-anchor="middle" font-weight="700" fill="#1a1d23">10.15</text>
+<text x="243" y="115" text-anchor="middle" fill="#4b5563">IMF 게오르기에바 총재</text>
+<text x="243" y="134" text-anchor="middle" fill="#4b5563">순환거래 비판 기고문</text>
+
+<circle cx="397" cy="62" r="9" fill="#dc2626"/>
+<text x="397" y="95" text-anchor="middle" font-weight="700" fill="#1a1d23">10.18</text>
+<text x="397" y="115" text-anchor="middle" fill="#4b5563">MS, 영국 엔스케일과</text>
+<text x="397" y="134" text-anchor="middle" fill="#4b5563">데이터센터 계약 철회</text>
+
+<circle cx="551" cy="62" r="9" fill="#16a34a"/>
+<text x="551" y="95" text-anchor="middle" font-weight="700" fill="#1a1d23">10.19</text>
+<text x="551" y="115" text-anchor="middle" fill="#4b5563">골드만삭스</text>
+<text x="551" y="134" text-anchor="middle" fill="#4b5563">코어위브 매수 상향</text>
+<text x="551" y="153" text-anchor="middle" fill="#6b7280">(중립→매수)</text>
+
+<circle cx="650" cy="62" r="9" fill="#dc2626"/>
+<text x="650" y="95" text-anchor="middle" font-weight="700" fill="#1a1d23">10.20</text>
+<text x="650" y="115" text-anchor="middle" fill="#4b5563">엘리스 코스닥 상장</text>
+<text x="650" y="134" text-anchor="middle" fill="#4b5563">첫날 −32.04% 마감</text>
+</g>
+<text x="360" y="200" text-anchor="middle" font-size="15" font-weight="700" fill="#1a1d23">왜 불안해졌나 — 시장의 논리</text>
+<g font-size="13.5" fill="#374151">
+<text x="60" y="230">· 코어위브: GPU 구매·데이터센터 건설 자금을 대부분 차입금으로 조달 → 회사채 금리 급등에 주가 25% 넘게 폭락</text>
+<text x="60" y="258">· IMF: "빅테크가 AI 스타트업에 투자하고, 스타트업이 다시 그 빅테크의 클라우드 용량을 사가는 순환 거래가 실제 수요 왜곡"</text>
+<text x="60" y="286">· MS의 계약 철회와 퍼머스의 IPO 철회는 "순환금융의 한계"라는 시장의 의심을 확인시켜 준 사건</text>
+<text x="60" y="314">· 엘리스는 '한국의 코어위브' 격 사업 모델 — 같은 의구심이 상장 첫날 가격에 그대로 반영됐다</text>
+</g>
+<text x="360" y="352" text-anchor="middle" font-size="12" fill="#6b7280">자료: 중앙일보·머니투데이·매일경제 (2026.10.20) — 직접 작성</text>
+</svg>
