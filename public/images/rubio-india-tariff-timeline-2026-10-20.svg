@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" font-family="'Noto Sans KR','Apple SD Gothic Neo',sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f7f9fc"/><stop offset="1" stop-color="#eef2f7"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="560" fill="url(#bg)" rx="18"/>
+  <text x="40" y="52" font-size="26" font-weight="700" fill="#1a2b4a">미·인 관세, 14개월의 굴곡 — 50%에서 「타결 초읽기」까지</text>
+  <text x="40" y="80" font-size="14" fill="#6b7a90">미국이 인도산 제품에 매긴 관세율 추이 (Economic Times·각 매체 보도 종합)</text>
+  <line x1="80" y1="150" x2="920" y2="150" stroke="#c6d2e3" stroke-width="3"/>
+  <!-- 2025-08 -->
+  <circle cx="130" cy="150" r="14" fill="#c0392b"/>
+  <text x="130" y="120" text-anchor="middle" font-size="15" font-weight="700" fill="#c0392b">50%</text>
+  <text x="130" y="190" text-anchor="middle" font-size="15" font-weight="700" fill="#1a2b4a">2025년 8월</text>
+  <text x="130" y="214" text-anchor="middle" font-size="13" fill="#55677f">무역 협상 결렬 뒤</text>
+  <text x="130" y="236" text-anchor="middle" font-size="13" fill="#55677f">대부분 인도산 제품에 부과</text>
+  <!-- 2026-02 -->
+  <circle cx="420" cy="150" r="14" fill="#d4a017"/>
+  <text x="420" y="120" text-anchor="middle" font-size="15" font-weight="700" fill="#d4a017">18%</text>
+  <text x="420" y="190" text-anchor="middle" font-size="15" font-weight="700" fill="#1a2b4a">2026년 2월</text>
+  <text x="420" y="214" text-anchor="middle" font-size="13" fill="#55677f">양국 프레임워크 합의로 인하</text>
+  <text x="420" y="236" text-anchor="middle" font-size="13" fill="#55677f">이후 협상은 정체</text>
+  <!-- 2026-10 early -->
+  <circle cx="700" cy="150" r="14" fill="#7f8c9b"/>
+  <text x="700" y="120" text-anchor="middle" font-size="14" font-weight="700" fill="#7f8c9b">정체</text>
+  <text x="700" y="190" text-anchor="middle" font-size="15" font-weight="700" fill="#1a2b4a">2026년 10월 초</text>
+  <text x="700" y="214" text-anchor="middle" font-size="13" fill="#55677f">시타라만 재무장관 「plateaued」</text>
+  <text x="700" y="236" text-anchor="middle" font-size="13" fill="#55677f">고얄 장관 「1차 tranche 최종 단계」</text>
+  <!-- 2026-10-20 -->
+  <circle cx="880" cy="150" r="18" fill="#1e7e34"/>
+  <text x="880" y="112" text-anchor="middle" font-size="16" font-weight="700" fill="#1e7e34">타결 초읽기</text>
+  <text x="880" y="190" text-anchor="middle" font-size="15" font-weight="700" fill="#1a2b4a">2026년 10월 20일</text>
+  <text x="880" y="214" text-anchor="middle" font-size="13" fill="#55677f">뭄바이 회담 뒤 루비오</text>
+  <text x="880" y="236" text-anchor="middle" font-size="13" fill="#55677f">「very, very close」</text>
+  <!-- connectors -->
+  <line x1="144" y1="150" x2="406" y2="150" stroke="#c0392b" stroke-width="2" stroke-dasharray="6,5"/>
+  <line x1="434" y1="150" x2="686" y2="150" stroke="#d4a017" stroke-width="2" stroke-dasharray="6,5"/>
+  <line x1="714" y1="150" x2="862" y2="150" stroke="#1e7e34" stroke-width="2" stroke-dasharray="6,5"/>
+  <rect x="40" y="300" width="920" height="215" rx="12" fill="#ffffff" stroke="#dde4ef"/>
+  <text x="64" y="336" font-size="17" font-weight="700" fill="#1a2b4a">남은 쟁점</text>
+  <text x="64" y="366" font-size="14" fill="#33455e">• 최종 관세율: 인도는 베트남 등 경쟁 제조국과 비슷한 수준을 요구</text>
+  <text x="64" y="394" font-size="14" fill="#33455e">• 에너지: 인도의 러시아산 원유 수입 — 미국은 제재·관세 연계 가능성을 열어둠</text>
+  <text x="64" y="422" font-size="14" fill="#33455e">• 트럼프, 러시아·이란 제재법(SRIA)의 대러 원유 수입국 처벌 조항은 최근 유예</text>
+  <text x="64" y="450" font-size="14" fill="#33455e">• 루비오 「사인 없이 합의한 것과 거의 같다」 — 남은 건 「소수의 항목」</text>
+  <text x="64" y="486" font-size="13" fill="#8a97a8">* 직접 작성 인포그래픽 (자료: Economic Times, AP, PTI 보도)</text>
+</svg>
