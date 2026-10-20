@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <rect width="800" height="400" fill="#fafafa"/>
+  <text x="400" y="34" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a1a1a">이틀의 코스피 — 10/19 반전에서 10/20 반락으로</text>
+  <text x="400" y="58" text-anchor="middle" font-size="13" fill="#666">10/19: 시가 5,488.41(-3.17%) → 종가 5,768.01(+1.76%) · 10/20: 시가 5,733.57(-0.60%) → 종가 5,552.74(-3.73%)</text>
+  <line x1="90" y1="163.3" x2="760" y2="163.3" stroke="#94a3b8" stroke-dasharray="6,5" stroke-width="1.5"/>
+  <text x="760" y="155" text-anchor="end" font-size="12" fill="#64748b">10/17 종가 5,668.05</text>
+  <line x1="90" y1="300" x2="760" y2="300" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="80" y="304" text-anchor="end" font-size="11" fill="#9ca3af">5,400</text>
+  <line x1="90" y1="163.3" x2="760" y2="163.3" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="80" y="167" text-anchor="end" font-size="11" fill="#9ca3af">5,668.05</text>
+  <text x="80" y="100" text-anchor="end" font-size="11" fill="#9ca3af">5,800</text>
+  <path d="M 90,254.9 L 320,112.3 L 480,129.9 L 620,252.4 L 760,222.1" fill="none" stroke="#94a3b8" stroke-width="2.5"/>
+  <path d="M 90,254.9 L 320,112.3" fill="none" stroke="#16a34a" stroke-width="3.5"/>
+  <path d="M 480,129.9 L 620,252.4 L 760,222.1" fill="none" stroke="#dc2626" stroke-width="3.5"/>
+  <circle cx="90" cy="254.9" r="6" fill="#dc2626"/>
+  <circle cx="320" cy="112.3" r="6" fill="#16a34a"/>
+  <circle cx="480" cy="129.9" r="6" fill="#dc2626"/>
+  <circle cx="760" cy="222.1" r="6" fill="#dc2626"/>
+  <circle cx="620" cy="252.4" r="5" fill="#dc2626" opacity="0.55"/>
+  <text x="90" y="284" text-anchor="middle" font-size="13" fill="#dc2626" font-weight="bold">10/19 시가 5,488.41</text>
+  <text x="320" y="96" text-anchor="middle" font-size="13" fill="#16a34a" font-weight="bold">10/19 종가 5,768.01 (+1.76%)</text>
+  <text x="480" y="113" text-anchor="middle" font-size="13" fill="#dc2626" font-weight="bold">10/20 시가 5,733.57</text>
+  <text x="760" y="248" text-anchor="end" font-size="13" fill="#dc2626" font-weight="bold">10/20 종가 5,552.74 (-3.73%)</text>
+  <text x="620" y="277" text-anchor="middle" font-size="12" fill="#b91c1c">장중 저점 5,493.24</text>
+  <text x="90" y="340" text-anchor="middle" font-size="12" fill="#666">10/19 개장</text>
+  <text x="320" y="340" text-anchor="middle" font-size="12" fill="#666">10/19 마감</text>
+  <text x="480" y="340" text-anchor="middle" font-size="12" fill="#666">10/20 개장</text>
+  <text x="760" y="340" text-anchor="middle" font-size="12" fill="#666">10/20 마감</text>
+  <text x="400" y="368" text-anchor="middle" font-size="12.5" fill="#444">이틀 합쳐 지수는 5,668.05 → 5,552.74, -2.03% — 반전의 하루를 반락의 하루가 되돌린 셈 · 수치: 한국거래소·뉴시스(2026.10.20) 보도 인용</text>
+</svg>
