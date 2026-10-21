@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="340" viewBox="0 0 1000 340">
+<rect width="1000" height="340" fill="#f7f5ef"/>
+<text x="40" y="40" font-family="sans-serif" font-size="24" font-weight="bold" fill="#222">오슬로에서 러시아행까지 — 이번 주 흐름</text>
+<line x1="60" y1="120" x2="940" y2="120" stroke="#888" stroke-width="3"/>
+<circle cx="110" cy="120" r="12" fill="#1f6fb2"/><circle cx="360" cy="120" r="12" fill="#1f6fb2"/><circle cx="610" cy="120" r="12" fill="#c0392b"/><circle cx="860" cy="120" r="12" fill="#e67e22"/>
+<text x="60" y="80" font-family="sans-serif" font-size="18" font-weight="bold" fill="#222">10/19</text>
+<text x="60" y="160" font-family="sans-serif" font-size="16" fill="#333">트럼프, 미·중·러 3자 회담</text>
+<text x="60" y="185" font-family="sans-serif" font-size="16" fill="#333">응한다 — 의제는 비핵화</text>
+<text x="310" y="80" font-family="sans-serif" font-size="18" font-weight="bold" fill="#222">10/20 오슬로</text>
+<text x="310" y="160" font-family="sans-serif" font-size="16" fill="#333">젤렌스키·윗코프·쿠슈너</text>
+<text x="310" y="185" font-family="sans-serif" font-size="16" fill="#333">(화상)·스토레·스투브 회담</text>
+<text x="560" y="80" font-family="sans-serif" font-size="18" font-weight="bold" fill="#222">10/20 밤</text>
+<text x="560" y="160" font-family="sans-serif" font-size="16" fill="#333">젤렌스키, 에너지 휴전</text>
+<text x="560" y="185" font-family="sans-serif" font-size="16" fill="#333">즉시 지지 — 러시아는 거부</text>
+<text x="810" y="80" font-family="sans-serif" font-size="18" font-weight="bold" fill="#222">10/21</text>
+<text x="810" y="160" font-family="sans-serif" font-size="16" fill="#333">윗코프 러시아행,</text>
+<text x="810" y="185" font-family="sans-serif" font-size="16" fill="#333">푸틴에 수정안 제시 예정</text>
+<text x="40" y="250" font-family="sans-serif" font-size="16" fill="#555">관전 포인트: 푸틴의 답변 — 정상회담으로 이어지는지, 에너지 휴전이 성사되는지.</text>
+<text x="40" y="290" font-family="sans-serif" font-size="14" fill="#777">도표는 로이터(재팬타임스 2026.10.21)·악시오스(예루살렘포스트 2026.10.21)·유나이티드24(2026.10.20) 보도 내용을 인용해 직접 작성했습니다.</text>
+</svg>
