@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400">
+  <rect width="1200" height="400" fill="#f7f5f0"/>
+  <text x="600" y="44" font-family="sans-serif" font-size="26" font-weight="bold" text-anchor="middle" fill="#1a1a1a">실적은 위로, 전망은 아래로 — 주가가 반응한 쪽</text>
+  <g font-family="sans-serif" font-size="20">
+    <text x="60" y="110" fill="#1a1a1a">3분기 EPS</text>
+    <text x="340" y="110" fill="#1a1a1a">0.87달러 vs 예상 0.82달러</text>
+    <text x="820" y="110" font-weight="bold" fill="#2e7d32">▲ 상회</text>
+    <text x="60" y="175" fill="#1a1a1a">4분기 매출 전망</text>
+    <text x="340" y="175" fill="#1a1a1a">134.4억 달러 vs 예상 135.2억 달러</text>
+    <text x="820" y="175" font-weight="bold" fill="#b71c1c">▼ 하회</text>
+    <text x="60" y="240" fill="#1a1a1a">4분기 EPS 전망</text>
+    <text x="340" y="240" fill="#1a1a1a">0.67달러 vs 예상 0.73달러</text>
+    <text x="820" y="240" font-weight="bold" fill="#b71c1c">▼ 하회</text>
+    <text x="60" y="305" fill="#1a1a1a">2026 광고 목표</text>
+    <text x="340" y="305" fill="#1a1a1a">27억 달러 (기존 30억 달러에서 하향)</text>
+    <text x="820" y="305" font-weight="bold" fill="#b71c1c">▼ 하향</text>
+  </g>
+  <text x="600" y="365" font-family="sans-serif" font-size="17" text-anchor="middle" fill="#555">출처: 넷플릭스 3분기 실적 발표, AP·모틀리풀·스토리보드18 보도</text>
+</svg>
