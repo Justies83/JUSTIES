@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="320" viewBox="0 0 800 320" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <rect width="800" height="320" fill="#fafafa"/>
+  <text x="400" y="34" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a1a1a">메타 3분기 돈의 흐름 — 버는 속도보다 쓰는 속도가 빨라졌다</text>
+  <text x="400" y="58" text-anchor="middle" font-size="13" fill="#666">단위: 10억 달러 · 메타 2026년 3분기 보도자료 기준</text>
+  <text x="220" y="102" text-anchor="end" font-size="14" fill="#20231f">분기 설비투자</text>
+  <rect x="230" y="84" width="128" height="22" fill="#e0795b"/>
+  <text x="368" y="100" font-size="14" font-weight="bold" fill="#20231f">349억</text>
+  <text x="220" y="152" text-anchor="end" font-size="14" fill="#20231f">영업현금흐름</text>
+  <rect x="230" y="134" width="120" height="22" fill="#3b82f6"/>
+  <text x="360" y="150" font-size="14" font-weight="bold" fill="#20231f">328억</text>
+  <text x="220" y="202" text-anchor="end" font-size="14" fill="#20231f">잉여현금흐름</text>
+  <rect x="230" y="184" width="10" height="22" fill="#c0392b"/>
+  <text x="250" y="200" font-size="14" font-weight="bold" fill="#c0392b">-21억 (1년 전 +106억)</text>
+  <text x="220" y="252" text-anchor="end" font-size="14" fill="#20231f">연간 설비투자 전망</text>
+  <rect x="230" y="234" width="500" height="22" fill="#16756a"/>
+  <text x="400" y="282" text-anchor="middle" font-size="13" fill="#666">연간 전망 1,350억~1,450억 달러 — 하단이 종전 1,300억 달러에서 올라갔다. 현금성 자산 824억 5천만 달러.</text>
+  <text x="400" y="306" text-anchor="middle" font-size="12" fill="#999">도표는 메타 2026년 3분기 보도자료(2026.10.21) 수치를 인용해 직접 작성했습니다.</text>
+</svg>
