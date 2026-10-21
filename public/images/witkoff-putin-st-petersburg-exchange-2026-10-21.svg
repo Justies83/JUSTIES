@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="330" viewBox="0 0 860 330" font-family="sans-serif">
+  <rect width="860" height="330" fill="#fafafa"/>
+  <text x="430" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#111">회담 테이블에서 오간 것</text>
+  <rect x="40" y="60" width="370" height="210" rx="10" fill="#eaf2ff" stroke="#1f6feb"/>
+  <text x="225" y="92" text-anchor="middle" font-size="16" font-weight="bold" fill="#1f6feb">미국이 가져간 것 · 요구한 것</text>
+  <text x="60" y="125" font-size="14" fill="#222">• 오슬로에서 다듬은 수정 평화안 문서 전달</text>
+  <text x="60" y="152" font-size="14" fill="#222">• 미·러·우 3자 기술협상 재개 검토 요청</text>
+  <text x="60" y="179" font-size="14" fill="#222">• “휴전의 토대가 마련돼 있다” 평가</text>
+  <text x="60" y="206" font-size="14" fill="#222">• 경유딜(러시아산 경유 수출)에 감사 표명</text>
+  <text x="60" y="233" font-size="14" fill="#222">• 전후 경제협력 발전 가능성 언급</text>
+  <rect x="450" y="60" width="370" height="210" rx="10" fill="#fff1f0" stroke="#d73a49"/>
+  <text x="635" y="92" text-anchor="middle" font-size="16" font-weight="bold" fill="#d73a49">러시아가 내놓은 것 · 제안한 것</text>
+  <text x="470" y="125" font-size="14" fill="#222">• 구금 미국인 스티븐 허버드 석방</text>
+  <text x="470" y="152" font-size="14" fill="#222">• 10월 22일 경유 4만t 미국행 첫 출항</text>
+  <text x="470" y="179" font-size="14" fill="#222">• 미국에 비료 추가 공급 가능</text>
+  <text x="470" y="206" font-size="14" fill="#222">• 이란 문제 해결 지원 제안</text>
+  <text x="470" y="233" font-size="14" fill="#222">• 11월 APEC 계기 트럼프 회담 논의</text>
+  <text x="430" y="300" text-anchor="middle" font-size="12" fill="#666">출처: 연합뉴스(2026.10.21)·로이터(2026.10.21)·CNN(2026.10.21) 보도 내용을 인용해 직접 작성</text>
+</svg>
