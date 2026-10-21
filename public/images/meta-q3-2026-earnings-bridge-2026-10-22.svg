@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="320" viewBox="0 0 800 320" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <rect width="800" height="320" fill="#fafafa"/>
+  <text x="400" y="34" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a1a1a">메타 3분기, 표면과 속 — 소송비 98억 9천만 달러의 효과</text>
+  <text x="400" y="58" text-anchor="middle" font-size="13" fill="#666">단위: 10억 달러 · 메타 2026년 3분기 보도자료 기준</text>
+  <text x="220" y="102" text-anchor="end" font-size="14" fill="#20231f">매출 (+26%)</text>
+  <rect x="230" y="84" width="480" height="22" fill="#0082fb"/>
+  <text x="720" y="100" font-size="14" font-weight="bold" fill="#20231f">646억</text>
+  <text x="220" y="152" text-anchor="end" font-size="14" fill="#20231f">영업이익 (-37%)</text>
+  <rect x="230" y="134" width="97" height="22" fill="#e0795b"/>
+  <text x="337" y="150" font-size="14" font-weight="bold" fill="#20231f">130억</text>
+  <text x="220" y="202" text-anchor="end" font-size="14" fill="#20231f">소송비 제외 영업이익</text>
+  <rect x="230" y="184" width="170" height="22" fill="#16756a"/>
+  <text x="410" y="200" font-size="14" font-weight="bold" fill="#20231f">229억</text>
+  <text x="400" y="248" text-anchor="middle" font-size="13" fill="#666">주당순이익은 보고 기준 3.83달러, 소송비 제외 7.40달러 — 1년 전 소송·세금 비용 제외 기준 7.25달러와 비교하면 제자리다.</text>
+  <text x="400" y="282" text-anchor="middle" font-size="13" fill="#666">광고 매출 630억 6천만 달러, 광고 노출 +10%, 광고 단가 +14%, 일일 활성 이용자 36억 4천만 명(+3%).</text>
+  <text x="400" y="306" text-anchor="middle" font-size="12" fill="#999">도표는 메타 2026년 3분기 보도자료(2026.10.21) 수치를 인용해 직접 작성했습니다.</text>
+</svg>
