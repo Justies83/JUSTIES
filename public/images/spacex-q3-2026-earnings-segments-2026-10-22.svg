@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <rect width="800" height="300" fill="#fafafa"/>
+  <text x="400" y="34" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a1a1a">스페이스X 3분기 매출 145억 8천만 달러 — 부문별 구성</text>
+  <text x="400" y="58" text-anchor="middle" font-size="13" fill="#666">단위: 10억 달러 · 2026년 3분기 실적 발표 기준</text>
+  <text x="220" y="102" text-anchor="end" font-size="14" fill="#20231f">슈퍼 인텔리전스 (AI)</text>
+  <rect x="230" y="84" width="453" height="22" fill="#16756a"/>
+  <text x="693" y="100" font-size="14" font-weight="bold" fill="#20231f">75.6억</text>
+  <text x="220" y="152" text-anchor="end" font-size="14" fill="#20231f">연결 (스타링크 등)</text>
+  <rect x="230" y="134" width="315" height="22" fill="#3b82f6"/>
+  <text x="555" y="150" font-size="14" font-weight="bold" fill="#20231f">52.5억</text>
+  <text x="220" y="202" text-anchor="end" font-size="14" fill="#20231f">우주 (발사)</text>
+  <rect x="230" y="184" width="106" height="22" fill="#e0795b"/>
+  <text x="346" y="200" font-size="14" font-weight="bold" fill="#20231f">17.7억</text>
+  <text x="400" y="248" text-anchor="middle" font-size="13" fill="#666">AI 매출은 1년 전 8억 1,300만 달러에서 9배 넘게 뛰었고, 전체 매출의 절반을 넘겼다.</text>
+  <text x="400" y="282" text-anchor="middle" font-size="11" fill="#9ca3af">자료: 스페이스X 3분기 실적 발표 · 잭스(2026.10.21) · 모틀리풀 실적 콜 정리</text>
+</svg>
