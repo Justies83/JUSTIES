@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="300" viewBox="0 0 860 300" font-family="sans-serif">
+  <rect width="860" height="300" fill="#fafafa"/>
+  <text x="430" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#111">오슬로에서 상트페테르부르크까지, 이번 주 외교 타임라인</text>
+  <line x1="60" y1="150" x2="800" y2="150" stroke="#999" stroke-width="2"/>
+  <circle cx="120" cy="150" r="10" fill="#1f6feb"/>
+  <circle cx="330" cy="150" r="10" fill="#1f6feb"/>
+  <circle cx="540" cy="150" r="10" fill="#d73a49"/>
+  <circle cx="740" cy="150" r="10" fill="#6a737d"/>
+  <text x="120" y="100" text-anchor="middle" font-size="15" font-weight="bold" fill="#111">10월 20일</text>
+  <text x="120" y="122" text-anchor="middle" font-size="13" fill="#333">오슬로 회담</text>
+  <text x="120" y="185" text-anchor="middle" font-size="13" fill="#333">젤렌스키·윗코프·유럽,</text>
+  <text x="120" y="205" text-anchor="middle" font-size="13" fill="#333">수정 평화안 다듬어</text>
+  <text x="330" y="100" text-anchor="middle" font-size="15" font-weight="bold" fill="#111">10월 21일 오전</text>
+  <text x="330" y="122" text-anchor="middle" font-size="13" fill="#333">윗코프 상트페테르부르크 도착</text>
+  <text x="330" y="185" text-anchor="middle" font-size="13" fill="#333">드미트리예프가 공항에서 영접</text>
+  <text x="330" y="205" text-anchor="middle" font-size="13" fill="#333">회담 전 허버드 석방</text>
+  <text x="540" y="100" text-anchor="middle" font-size="15" font-weight="bold" fill="#111">10월 21일</text>
+  <text x="540" y="122" text-anchor="middle" font-size="13" fill="#333">콘스탄틴 궁전 회담</text>
+  <text x="540" y="185" text-anchor="middle" font-size="13" fill="#333">윗코프 “휴전의 토대 마련”</text>
+  <text x="540" y="205" text-anchor="middle" font-size="13" fill="#333">푸틴 “경제협력 복원 관심”</text>
+  <text x="740" y="100" text-anchor="middle" font-size="15" font-weight="bold" fill="#111">앞으로</text>
+  <text x="740" y="122" text-anchor="middle" font-size="13" fill="#333">10월 22일 경유 첫 출항</text>
+  <text x="740" y="185" text-anchor="middle" font-size="13" fill="#333">11월 APEC 계기 미·러 회담</text>
+  <text x="740" y="205" text-anchor="middle" font-size="13" fill="#333">3자 기술협상 재개 여부</text>
+  <text x="430" y="270" text-anchor="middle" font-size="12" fill="#666">출처: 연합뉴스(2026.10.21)·로이터(2026.10.21)·CNN(2026.10.21) 보도 내용을 인용해 직접 작성</text>
+</svg>
