@@ -16,7 +16,7 @@ source:
 
 <p align="center"><img src="/images/spin-fluctuation-cuprate-superconductivity-body-2026-10-21.jpg" alt="냉각된 초전도체 위에서 자석이 떠 있는 모습" style="max-width:100%;height:auto;"/></p>
 
-<p align="center" class="caption">사진: Wikimedia Commons (CC BY-SA 3.0) · 초전도체 위에서 떠 있는 자석 (이번 연구의 LCCO 시료 사진이 아님)</p>
+<p align="center" class="caption">사진: Wikimedia Commons — Julien Bobroff, Frederic Bouquet, Jeffrey Quilliam (LPS Orsay) (CC BY-SA 3.0) · 영하 196도로 냉각한 구리산화물(YBa2Cu3O7) 초전도체 위에서 떠 있는 자석 (이번 연구의 LCCO 시료 사진이 아님)</p>
 
 <p align="center">먼저 고전적인 그림부터 정리해 보자.<br/>일반적인 초전도체에서는 전자가 격자를 이루는 이온의 진동, 즉 포논과 상호작용하면서 쿠퍼 쌍을 이룬다.<br/>두 전자가 짝을 지으면 저항 없이 흐를 수 있게 된다.<br/>이 설명은 낮은 온도에서 초전도가 되는 물질에는 잘 맞는다.<br/>그런데 구리산화물은 이야기가 다르다.<br/>이온보다 더 높은 진동수로 흔들리는 무언가가 짝짓기를 주도할 거라는 추측이 오래전부터 있었고, 전자가 가진 스핀의 요동이 가장 유력한 후보였다.<br/>전자는 전하뿐 아니라 팽이처럼 도는 스핀도 갖고 있어서, 스핀의 배열이 공간과 시간에 따라 흔들리면 전자의 흐름에 영향을 줄 수 있다.<br/>스핀 요동과 전하 요동의 지도는 이미 정밀하게 그려져 있었다.<br/>빠져 있던 건 연결 고리였다.<br/>전도 전자가 그 요동과 얼마나 세게 상호작용하는지, 그리고 그 세기가 초전도가 시작되는 임계온도 Tc와 어떻게 연결되는지를 보여주는 증거가 없었다.</p>
 
