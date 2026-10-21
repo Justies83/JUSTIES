@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
+  <rect width="1200" height="420" fill="#f7f5f0"/>
+  <text x="600" y="44" font-family="sans-serif" font-size="26" font-weight="bold" text-anchor="middle" fill="#1a1a1a">실험은 어떻게 설계됐나 — 하나의 박막, 19개의 도핑 단계</text>
+  <g font-family="sans-serif" font-size="19" text-anchor="middle">
+    <rect x="30" y="90" width="200" height="180" rx="12" fill="#dce9f7" stroke="#2f5f8f"/>
+    <text x="130" y="130" font-weight="bold" fill="#1a1a1a">1. 박막 제작</text>
+    <text x="130" y="162" fill="#333">란타넘 세륨 구리</text>
+    <text x="130" y="190" fill="#333">산화물(LCCO)을</text>
+    <text x="130" y="218" fill="#333">원자층씩 쌓는다</text>
+    <rect x="270" y="90" width="200" height="180" rx="12" fill="#e2f0dd" stroke="#3a6b35"/>
+    <text x="370" y="130" font-weight="bold" fill="#1a1a1a">2. 도핑 구배</text>
+    <text x="370" y="162" fill="#333">한 장의 박막에</text>
+    <text x="370" y="190" fill="#333">임계온도 최대값부터</text>
+    <text x="370" y="218" fill="#333">0까지 구배 형성</text>
+    <rect x="510" y="90" width="200" height="180" rx="12" fill="#fdf0d5" stroke="#8a6a1f"/>
+    <text x="610" y="130" font-weight="bold" fill="#1a1a1a">3. 미세 도핑</text>
+    <text x="610" y="162" fill="#333">도핑 간격 0.003 이하</text>
+    <text x="610" y="190" fill="#333">x 0.116부터 0.188까지</text>
+    <text x="610" y="218" fill="#333">19개 단계 측정</text>
+    <rect x="750" y="90" width="200" height="180" rx="12" fill="#f3dfe8" stroke="#7a2e4d"/>
+    <text x="850" y="130" font-weight="bold" fill="#1a1a1a">4. 고자기장 측정</text>
+    <text x="850" y="162" fill="#333">네덜란드 고자기장</text>
+    <text x="850" y="190" fill="#333">시설에서 온도·자기장·</text>
+    <text x="850" y="218" fill="#333">도핑별 저항 측정</text>
+    <rect x="990" y="90" width="180" height="180" rx="12" fill="#e8e2f5" stroke="#4a3d7a"/>
+    <text x="1080" y="130" font-weight="bold" fill="#1a1a1a">5. 산란 분석</text>
+    <text x="1080" y="162" fill="#333">저항에서 스핀</text>
+    <text x="1080" y="190" fill="#333">요동 산란 성분을</text>
+    <text x="1080" y="218" fill="#333">분리해 Tc와 비교</text>
+  </g>
+  <g font-size="28" fill="#555" text-anchor="middle">
+    <text x="250" y="195">→</text>
+    <text x="490" y="195">→</text>
+    <text x="730" y="195">→</text>
+    <text x="970" y="195">→</text>
+  </g>
+  <text x="600" y="330" font-family="sans-serif" font-size="19" text-anchor="middle" fill="#444">핵심은 조건 통제다. 한 장의 박막에서 도핑만 바꾸니, 무질서 수준은 그대로 두고 산란과 임계온도의 관계만 볼 수 있다.</text>
+  <text x="600" y="368" font-family="sans-serif" font-size="17" text-anchor="middle" fill="#777">도표는 브리스톨 대학교 보도자료(2026.10.20)와 Nature Physics 논문 내용을 인용해 직접 작성했습니다.</text>
+</svg>
