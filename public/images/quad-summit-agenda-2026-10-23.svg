@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="340" viewBox="0 0 900 340" font-family="sans-serif">
+<rect width="900" height="340" fill="#f7f5ef"/>
+<text x="450" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">마닐라에서 가늠할 세 가지</text>
+<g font-size="16" fill="#222">
+<rect x="60" y="60" width="240" height="110" rx="10" fill="#dcebf7" stroke="#1f6fb2"/>
+<text x="180" y="92" text-anchor="middle" font-weight="bold">4개국 협력 분야</text>
+<text x="180" y="120" text-anchor="middle">핵심광물 · 신기술</text>
+<text x="180" y="145" text-anchor="middle">해양안보 · 에너지안보</text>
+<rect x="330" y="60" width="240" height="110" rx="10" fill="#fdeeda" stroke="#c07a1a"/>
+<text x="450" y="92" text-anchor="middle" font-weight="bold">걸림돌</text>
+<text x="450" y="120" text-anchor="middle">미국의 관세 분쟁</text>
+<text x="450" y="145" text-anchor="middle">러시아산 원유 구매 갈등</text>
+<rect x="600" y="60" width="240" height="110" rx="10" fill="#e2f2e4" stroke="#27864a"/>
+<text x="720" y="92" text-anchor="middle" font-weight="bold">루비오의 약속</text>
+<text x="720" y="120" text-anchor="middle">“사교 모임이 아니라</text>
+<text x="720" y="145" text-anchor="middle">구체적 성과”를 발표</text>
+</g>
+<g font-size="16" fill="#222">
+<rect x="60" y="200" width="780" height="90" rx="10" fill="#ffffff" stroke="#888"/>
+<text x="450" y="232" text-anchor="middle" font-weight="bold">이어지는 일정</text>
+<text x="450" y="260" text-anchor="middle">10월 28~29일 세부 국방장관 회의 → 11월 중순 마닐라 정상회의 → 11월 18~19일 선전 APEC</text>
+</g>
+<text x="450" y="318" text-anchor="middle" font-size="13" fill="#666">도표는 트리뷴·SCMP·NHK 보도를 바탕으로 직접 작성했습니다.</text>
+</svg>
