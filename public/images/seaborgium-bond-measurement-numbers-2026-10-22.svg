@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <text x="450" y="46" font-family="sans-serif" font-size="26" font-weight="bold" text-anchor="middle" fill="#20231f">시보귬 대 텅스텐 — 형성 비율과 결합 에너지</text>
+  <text x="120" y="100" font-family="sans-serif" font-size="20" font-weight="bold" fill="#20231f">헥사카보닐 형성 비율</text>
+  <text x="120" y="140" font-family="sans-serif" font-size="18" fill="#20231f">시보귬 (75개 중 3개)</text>
+  <rect x="120" y="155" width="40" height="34" fill="#e0795b"/>
+  <text x="175" y="180" font-family="sans-serif" font-size="18" font-weight="bold" fill="#20231f">약 4%</text>
+  <text x="120" y="215" font-family="sans-serif" font-size="18" fill="#20231f">텅스텐 (비교 실험)</text>
+  <rect x="120" y="230" width="170" height="34" fill="#16756a"/>
+  <text x="305" y="255" font-family="sans-serif" font-size="18" font-weight="bold" fill="#20231f">17%</text>
+  <text x="120" y="310" font-family="sans-serif" font-size="18" fill="#62655d">막대 길이는 형성 비율에 비례한다. 시보귬 막대는 3개 사건에 근거한다.</text>
+  <line x1="80" y1="340" x2="820" y2="340" stroke="#62655d" stroke-width="1"/>
+  <text x="120" y="385" font-family="sans-serif" font-size="20" font-weight="bold" fill="#20231f">첫 번째 결합 해리 에너지 (kJ/mol)</text>
+  <text x="120" y="425" font-family="sans-serif" font-size="18" fill="#20231f">시보귬 헥사카보닐: 약 188</text>
+  <text x="120" y="455" font-family="sans-serif" font-size="18" fill="#20231f">텅스텐 헥사카보닐: 약 192 (차이 약 4)</text>
+  <text x="450" y="500" font-family="sans-serif" font-size="16" text-anchor="middle" fill="#62655d">수치는 GSI/FAIR 보도자료와 Nature 논문 관련 보도(2026.10)에서 인용해 직접 작성했습니다.</text>
+</svg>
