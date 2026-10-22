@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="320" viewBox="0 0 860 320" font-family="sans-serif">
+  <rect width="860" height="320" fill="#fafafa"/>
+  <text x="430" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#111">10월 22일 업데이트 — 세 평가와 밤새 공습</text>
+  <line x1="60" y1="150" x2="800" y2="150" stroke="#999" stroke-width="2"/>
+  <circle cx="120" cy="150" r="10" fill="#d73a49"/>
+  <circle cx="330" cy="150" r="10" fill="#1f6feb"/>
+  <circle cx="540" cy="150" r="10" fill="#6a737d"/>
+  <circle cx="740" cy="150" r="10" fill="#d73a49"/>
+  <text x="120" y="100" text-anchor="middle" font-size="15" font-weight="bold" fill="#111">모스크바</text>
+  <text x="120" y="122" text-anchor="middle" font-size="13" fill="#333">오슬로 제안, 실질 내용 부족</text>
+  <text x="120" y="185" text-anchor="middle" font-size="13" fill="#333">원칙적 재개는 유지,</text>
+  <text x="120" y="205" text-anchor="middle" font-size="13" fill="#333">날짜는 미확정</text>
+  <text x="330" y="100" text-anchor="middle" font-size="15" font-weight="bold" fill="#111">워싱턴</text>
+  <text x="330" y="122" text-anchor="middle" font-size="13" fill="#333">종전에 가장 가까워졌다</text>
+  <text x="330" y="185" text-anchor="middle" font-size="13" fill="#333">제재 연기 이유도 설명,</text>
+  <text x="330" y="205" text-anchor="middle" font-size="13" fill="#333">기술 논의는 계속</text>
+  <text x="540" y="100" text-anchor="middle" font-size="15" font-weight="bold" fill="#111">키이우</text>
+  <text x="540" y="122" text-anchor="middle" font-size="13" fill="#333">최대한 빠른 재개에 찬성</text>
+  <text x="540" y="185" text-anchor="middle" font-size="13" fill="#333">11월로 미루는 러시아와</text>
+  <text x="540" y="205" text-anchor="middle" font-size="13" fill="#333">속도에서 엇갈려</text>
+  <text x="740" y="100" text-anchor="middle" font-size="15" font-weight="bold" fill="#111">밤새 전장</text>
+  <text x="740" y="122" text-anchor="middle" font-size="13" fill="#333">키이우 15명 부상</text>
+  <text x="740" y="185" text-anchor="middle" font-size="13" fill="#333">모스크바행 드론 630대,</text>
+  <text x="740" y="205" text-anchor="middle" font-size="13" fill="#333">양쪽 도시 동시 피격</text>
+  <text x="430" y="280" text-anchor="middle" font-size="13" fill="#666">출처: CNA(2026.10.22) · AP(2026.10.22) · 로이터(2026.10.22) 보도 인용, 직접 작성</text>
+</svg>
