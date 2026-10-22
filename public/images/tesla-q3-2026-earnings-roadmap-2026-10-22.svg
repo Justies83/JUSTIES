@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <rect width="800" height="300" fill="#fafafa"/>
+  <text x="400" y="34" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a1a1a">테슬라 다음 사업 일정표 — 돈이 되는 시점은 아직 뒤에 있다</text>
+  <text x="400" y="58" text-anchor="middle" font-size="13" fill="#666">테슬라 3분기 실적 발표(2026.10.21) 발언 기준 · 목표 시점이며 확정 일정이 아니다</text>
+  <line x1="60" y1="150" x2="740" y2="150" stroke="#ccc" stroke-width="3"/>
+  <circle cx="130" cy="150" r="12" fill="#cc0000"/>
+  <text x="130" y="110" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">2026년 11월</text>
+  <text x="130" y="185" text-anchor="middle" font-size="13" fill="#20231f">로보택시 댈러스</text>
+  <text x="130" y="205" text-anchor="middle" font-size="13" fill="#20231f">서비스 시작</text>
+  <circle cx="320" cy="150" r="12" fill="#e0795b"/>
+  <text x="320" y="110" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">2027년 2분기</text>
+  <text x="320" y="185" text-anchor="middle" font-size="13" fill="#20231f">로보택시 실적 기여</text>
+  <text x="320" y="205" text-anchor="middle" font-size="13" fill="#20231f">본격화 전망</text>
+  <circle cx="510" cy="150" r="12" fill="#16756a"/>
+  <text x="510" y="110" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">2027년 말쯤</text>
+  <text x="510" y="185" text-anchor="middle" font-size="13" fill="#20231f">옵티머스 외부 기업</text>
+  <text x="510" y="205" text-anchor="middle" font-size="13" fill="#20231f">인도 시작 전망</text>
+  <circle cx="690" cy="150" r="12" fill="#0082fb"/>
+  <text x="690" y="110" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">2028년 3분기</text>
+  <text x="690" y="185" text-anchor="middle" font-size="13" fill="#20231f">테라팹 칩 양산</text>
+  <text x="690" y="205" text-anchor="middle" font-size="13" fill="#20231f">목표</text>
+  <text x="400" y="262" text-anchor="middle" font-size="12" fill="#999">도표는 테슬라 2026년 3분기 실적 발표(2026.10.21) 내용을 인용해 직접 작성했습니다.</text>
+</svg>
