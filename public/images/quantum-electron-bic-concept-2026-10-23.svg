@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="sans-serif">
+<rect width="900" height="520" fill="#f4f1ea"/>
+<text x="450" y="42" text-anchor="middle" font-size="26" font-weight="700" fill="#20231f">양자 간섭이 전자파를 가두는 방식</text>
+<text x="450" y="72" text-anchor="middle" font-size="15" fill="#62655d">왼쪽: 보통 금속에서는 파동이 퍼져 나간다 / 오른쪽: 결함 근처에서 경로가 상쇄돼 파동이 묶인다</text>
+
+<!-- Left panel: free wave -->
+<rect x="40" y="100" width="390" height="330" rx="12" fill="#ffffff" stroke="#d8d2c4"/>
+<text x="235" y="132" text-anchor="middle" font-size="18" font-weight="700" fill="#16756a">보통 금속</text>
+<g fill="#16756a" opacity="0.55">
+<circle cx="90" cy="180" r="7"/><circle cx="160" cy="180" r="7"/><circle cx="230" cy="180" r="7"/><circle cx="300" cy="180" r="7"/><circle cx="370" cy="180" r="7"/>
+<circle cx="125" cy="240" r="7"/><circle cx="195" cy="240" r="7"/><circle cx="265" cy="240" r="7"/><circle cx="335" cy="240" r="7"/>
+<circle cx="90" cy="300" r="7"/><circle cx="160" cy="300" r="7"/><circle cx="230" cy="300" r="7"/><circle cx="300" cy="300" r="7"/><circle cx="370" cy="300" r="7"/>
+<circle cx="125" cy="360" r="7"/><circle cx="195" cy="360" r="7"/><circle cx="265" cy="360" r="7"/><circle cx="335" cy="360" r="7"/>
+</g>
+<path d="M 70 240 Q 120 200, 170 240 T 270 240 T 370 240" fill="none" stroke="#e0795b" stroke-width="3"/>
+<path d="M 70 300 Q 120 260, 170 300 T 270 300 T 370 300" fill="none" stroke="#e0795b" stroke-width="3" opacity="0.6"/>
+<text x="235" y="405" text-anchor="middle" font-size="15" fill="#20231f">전자파가 격자를 가로질러 퍼진다</text>
+
+<!-- Right panel: trapped wave -->
+<rect x="470" y="100" width="390" height="330" rx="12" fill="#ffffff" stroke="#d8d2c4"/>
+<text x="665" y="132" text-anchor="middle" font-size="18" font-weight="700" fill="#e0795b">Pd5AlI2의 결함 근처</text>
+<g fill="#16756a" opacity="0.55">
+<circle cx="520" cy="180" r="7"/><circle cx="590" cy="180" r="7"/><circle cx="660" cy="180" r="7"/><circle cx="730" cy="180" r="7"/><circle cx="800" cy="180" r="7"/>
+<circle cx="555" cy="240" r="7"/><circle cx="625" cy="240" r="7"/><circle cx="695" cy="240" r="7"/><circle cx="765" cy="240" r="7"/>
+<circle cx="520" cy="300" r="7"/><circle cx="590" cy="300" r="7"/><circle cx="660" cy="300" r="7"/><circle cx="730" cy="300" r="7"/><circle cx="800" cy="300" r="7"/>
+<circle cx="555" cy="360" r="7"/><circle cx="625" cy="360" r="7"/><circle cx="695" cy="360" r="7"/><circle cx="765" cy="360" r="7"/>
+</g>
+<circle cx="660" cy="270" r="10" fill="none" stroke="#e0795b" stroke-width="3"/>
+<text x="660" y="274" text-anchor="middle" font-size="13" font-weight="700" fill="#e0795b">결함</text>
+<ellipse cx="660" cy="270" rx="72" ry="46" fill="none" stroke="#e0795b" stroke-width="3"/>
+<ellipse cx="660" cy="270" rx="40" ry="24" fill="none" stroke="#e0795b" stroke-width="2" opacity="0.7"/>
+<path d="M 600 270 Q 630 250, 660 270 T 720 270" fill="none" stroke="#16756a" stroke-width="2" opacity="0.5"/>
+<text x="665" y="405" text-anchor="middle" font-size="15" fill="#20231f">서로 상쇄되는 경로가 파동을 그 자리에 묶는다</text>
+
+<text x="450" y="475" text-anchor="middle" font-size="13" fill="#62655d">도표는 phys.org 보도(2026.10.22)의 설명을 바탕으로 직접 작성했습니다. 실제 분광 이미지가 아닙니다.</text>
+<text x="450" y="498" text-anchor="middle" font-size="13" fill="#62655d">BIC = bound state in the continuum (연속체 속 속박 상태)</text>
+</svg>
