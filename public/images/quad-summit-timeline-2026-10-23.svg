@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" font-family="sans-serif">
+<rect width="900" height="300" fill="#f7f5ef"/>
+<text x="450" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">쿼드 정상회의, 마닐라까지의 경로</text>
+<line x1="60" y1="150" x2="840" y2="150" stroke="#888" stroke-width="2"/>
+<g font-size="15" fill="#222">
+<circle cx="110" cy="150" r="9" fill="#1f6fb2"/><text x="110" y="120" text-anchor="middle" font-weight="bold">2007년</text><text x="110" y="185" text-anchor="middle">아베 전 총리 구상</text><text x="110" y="207" text-anchor="middle">4개 민주주의 협력체</text>
+<circle cx="300" cy="150" r="9" fill="#1f6fb2"/><text x="300" y="120" text-anchor="middle" font-weight="bold">2024년 9월</text><text x="300" y="185" text-anchor="middle">마지막 정상회의</text><text x="300" y="207" text-anchor="middle">윌밍턴 (바이든 주최)</text>
+<circle cx="470" cy="150" r="9" fill="#c0392b"/><text x="470" y="120" text-anchor="middle" font-weight="bold">2025년</text><text x="470" y="185" text-anchor="middle">인도 개최 계획 무산</text><text x="470" y="207" text-anchor="middle">미·인도 관계 악화</text>
+<circle cx="620" cy="150" r="9" fill="#1f6fb2"/><text x="620" y="120" text-anchor="middle" font-weight="bold">2026년 10월 20일</text><text x="620" y="185" text-anchor="middle">루비오 인터뷰</text><text x="620" y="207" text-anchor="middle">마닐라 개최 확인</text>
+<circle cx="790" cy="150" r="9" fill="#27864a"/><text x="790" y="120" text-anchor="middle" font-weight="bold">2026년 11월 중순</text><text x="790" y="185" text-anchor="middle">마닐라 정상회의 예정</text><text x="790" y="207" text-anchor="middle">정확한 날짜 미확정</text>
+</g>
+<text x="450" y="272" text-anchor="middle" font-size="13" fill="#666">연표는 NHK(2026.10.21)·PTI/비즈니스 스탠더드·트리뷴 보도를 바탕으로 직접 작성했습니다.</text>
+</svg>
