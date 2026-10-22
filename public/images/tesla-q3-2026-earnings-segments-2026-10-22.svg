@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <rect width="800" height="300" fill="#fafafa"/>
+  <text x="400" y="34" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a1a1a">테슬라 3분기 부문별 매출 — 차는 줄고 서비스는 뛰었다</text>
+  <text x="400" y="58" text-anchor="middle" font-size="13" fill="#666">단위: 억 달러 · 전년 동기 대비 · 테슬라 3분기 업데이트(2026.10.21) 기준</text>
+  <text x="220" y="102" text-anchor="end" font-size="14" fill="#20231f">자동차 (-3%)</text>
+  <rect x="230" y="84" width="480" height="22" fill="#cc0000"/>
+  <text x="720" y="100" font-size="14" font-weight="bold" fill="#20231f">205.6억</text>
+  <text x="220" y="152" text-anchor="end" font-size="14" fill="#20231f">에너지 (-15.6%)</text>
+  <rect x="230" y="134" width="67" height="22" fill="#e0795b"/>
+  <text x="307" y="150" font-size="14" font-weight="bold" fill="#20231f">28.8억</text>
+  <text x="220" y="202" text-anchor="end" font-size="14" fill="#20231f">서비스·기타 (+33%)</text>
+  <rect x="230" y="184" width="108" height="22" fill="#16756a"/>
+  <text x="348" y="200" font-size="14" font-weight="bold" fill="#20231f">46.1억</text>
+  <text x="400" y="248" text-anchor="middle" font-size="13" fill="#666">전체 매출 280.5억 달러로 전년과 거의 같았다. 서비스·기타에는 FSD 구독, 로보택시, 충전 사업이 포함된다.</text>
+  <text x="400" y="282" text-anchor="middle" font-size="12" fill="#999">도표는 테슬라 2026년 3분기 업데이트(2026.10.21) 수치를 인용해 직접 작성했습니다.</text>
+</svg>
