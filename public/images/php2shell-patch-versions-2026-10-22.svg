@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="340" viewBox="0 0 860 340" font-family="sans-serif">
+  <rect width="860" height="340" fill="#fafafa"/>
+  <text x="430" y="36" text-anchor="middle" font-size="20" font-weight="bold" fill="#111">PHP2Shell — 고쳐진 버전과 영향 규모</text>
+  <text x="430" y="70" text-anchor="middle" font-size="15" fill="#333">CVE-2026-109618 · CVE-2026-109619 · CVSS 4.0 각 9.2점</text>
+  <rect x="60" y="100" width="170" height="110" fill="#fff" stroke="#ddd"/>
+  <text x="145" y="140" text-anchor="middle" font-size="15" fill="#666">PHP 점유율</text>
+  <text x="145" y="180" text-anchor="middle" font-size="28" font-weight="bold" fill="#d73a49">약 70%</text>
+  <rect x="250" y="100" width="170" height="110" fill="#fff" stroke="#ddd"/>
+  <text x="335" y="140" text-anchor="middle" font-size="15" fill="#666">PHP 실행 IP 주소</text>
+  <text x="335" y="180" text-anchor="middle" font-size="28" font-weight="bold" fill="#111">510만 개</text>
+  <rect x="440" y="100" width="170" height="110" fill="#fff" stroke="#ddd"/>
+  <text x="525" y="140" text-anchor="middle" font-size="15" fill="#666">지원 종료 버전</text>
+  <text x="525" y="180" text-anchor="middle" font-size="28" font-weight="bold" fill="#111">약 75.8만 개</text>
+  <rect x="630" y="100" width="170" height="110" fill="#fff" stroke="#ddd"/>
+  <text x="715" y="140" text-anchor="middle" font-size="15" fill="#666">인증 없는 공격</text>
+  <text x="715" y="180" text-anchor="middle" font-size="28" font-weight="bold" fill="#d73a49">가능</text>
+  <text x="430" y="250" text-anchor="middle" font-size="17" font-weight="bold" fill="#111">패치 버전: 8.5.12 · 8.4.27 · 8.3.36 · 8.2.35</text>
+  <text x="430" y="280" text-anchor="middle" font-size="14" fill="#333">지원 종료 계열(8.1·8.0·7.4)은 소스 백포트로 대응</text>
+  <text x="430" y="315" text-anchor="middle" font-size="13" fill="#666">출처: Wiz·VirusTotal·PHP 보안팀·마이크로소프트 안내(2026년 10월 21일과 22일), 직접 작성</text>
+</svg>
