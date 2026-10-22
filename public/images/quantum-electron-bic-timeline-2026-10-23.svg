@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="sans-serif">
+<rect width="900" height="520" fill="#f4f1ea"/>
+<text x="450" y="42" text-anchor="middle" font-size="26" font-weight="700" fill="#20231f">금속 속 전자 BIC까지의 경로</text>
+<text x="450" y="72" text-anchor="middle" font-size="15" fill="#62655d">빛의 속박 상태에서 전자의 속박 상태로 — 그리고 다음 단계</text>
+
+<line x1="90" y1="230" x2="810" y2="230" stroke="#16756a" stroke-width="3"/>
+<g>
+<circle cx="120" cy="230" r="14" fill="#e0795b"/>
+<text x="120" y="300" text-anchor="middle" font-size="16" font-weight="700" fill="#20231f">2013년</text>
+<text x="120" y="326" text-anchor="middle" font-size="14" fill="#20231f">빛의 BIC 관찰</text>
+<text x="120" y="348" text-anchor="middle" font-size="14" fill="#62655d">Nature, 패턴 소자</text>
+
+<circle cx="330" cy="230" r="14" fill="#16756a"/>
+<text x="330" y="300" text-anchor="middle" font-size="16" font-weight="700" fill="#20231f">2024년 10월</text>
+<text x="330" y="326" text-anchor="middle" font-size="14" fill="#20231f">프리프린트 공개</text>
+<text x="330" y="348" text-anchor="middle" font-size="14" fill="#62655d">arXiv, 전자 BIC 예측</text>
+
+<circle cx="540" cy="230" r="14" fill="#16756a"/>
+<text x="540" y="300" text-anchor="middle" font-size="16" font-weight="700" fill="#20231f">2025년</text>
+<text x="540" y="326" text-anchor="middle" font-size="14" fill="#20231f">Pd5AlI2 좌절 호핑</text>
+<text x="540" y="348" text-anchor="middle" font-size="14" fill="#62655d">Nature Physics</text>
+
+<circle cx="770" cy="230" r="16" fill="#e0795b"/>
+<text x="770" y="300" text-anchor="middle" font-size="16" font-weight="700" fill="#20231f">2026년 10월 22일</text>
+<text x="770" y="326" text-anchor="middle" font-size="14" fill="#20231f">금속 속 전자 BIC 확인</text>
+<text x="770" y="348" text-anchor="middle" font-size="14" fill="#62655d">Science, 컬럼비아대</text>
+</g>
+
+<rect x="90" y="390" width="720" height="62" rx="10" fill="#ffffff" stroke="#d8d2c4"/>
+<text x="450" y="417" text-anchor="middle" font-size="16" font-weight="700" fill="#20231f">다음 단계: 결함을 원하는 위치에 일부러 만들어 간섭 패턴을 조절하는 것</text>
+<text x="450" y="440" text-anchor="middle" font-size="14" fill="#62655d">지금 확인된 전자 BIC은 성장 과정에서 생긴 무작위 결함에서 나타났다</text>
+
+<text x="450" y="492" text-anchor="middle" font-size="13" fill="#62655d">연도는 phys.org 보도(2026.10.22)와 논문 서지 정보를 바탕으로 직접 작성했습니다.</text>
+</svg>
