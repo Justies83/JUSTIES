@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <text x="450" y="46" font-family="sans-serif" font-size="26" font-weight="bold" text-anchor="middle" fill="#20231f">원자 한 개씩 잡아 결합을 재는 법 (개념도)</text>
+  <rect x="40" y="100" width="180" height="150" rx="12" fill="#16756a"/>
+  <text x="130" y="150" font-family="sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#ffffff">1. 만들기</text>
+  <text x="130" y="185" font-family="sans-serif" font-size="17" text-anchor="middle" fill="#ffffff">가속기 핵융합 반응으로</text>
+  <text x="130" y="212" font-family="sans-serif" font-size="17" text-anchor="middle" fill="#ffffff">시보귬-259 생성</text>
+  <text x="130" y="239" font-family="sans-serif" font-size="17" text-anchor="middle" fill="#ffffff">수명 0.5초 미만</text>
+  <text x="225" y="180" font-family="sans-serif" font-size="26" fill="#20231f">→</text>
+  <rect x="260" y="100" width="180" height="150" rx="12" fill="#16756a"/>
+  <text x="350" y="150" font-family="sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#ffffff">2. 분리</text>
+  <text x="350" y="185" font-family="sans-serif" font-size="17" text-anchor="middle" fill="#ffffff">TASCA 분리장치로</text>
+  <text x="350" y="212" font-family="sans-serif" font-size="17" text-anchor="middle" fill="#ffffff">원자를 골라낸 뒤</text>
+  <text x="350" y="239" font-family="sans-serif" font-size="17" text-anchor="middle" fill="#ffffff">일산화탄소 기체 속으로</text>
+  <text x="445" y="180" font-family="sans-serif" font-size="26" fill="#20231f">→</text>
+  <rect x="480" y="100" width="180" height="150" rx="12" fill="#e0795b"/>
+  <text x="570" y="150" font-family="sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#ffffff">3. 가르기</text>
+  <text x="570" y="185" font-family="sans-serif" font-size="17" text-anchor="middle" fill="#ffffff">반응 안 한 원자는</text>
+  <text x="570" y="212" font-family="sans-serif" font-size="17" text-anchor="middle" fill="#ffffff">첫 번째 검출기에 들러붙고</text>
+  <text x="570" y="239" font-family="sans-serif" font-size="17" text-anchor="middle" fill="#ffffff">휘발성 화합물만 통과</text>
+  <text x="665" y="180" font-family="sans-serif" font-size="26" fill="#20231f">→</text>
+  <rect x="700" y="100" width="160" height="150" rx="12" fill="#e0795b"/>
+  <text x="780" y="150" font-family="sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#ffffff">4. 잡기</text>
+  <text x="780" y="185" font-family="sans-serif" font-size="17" text-anchor="middle" fill="#ffffff">냉각된 두 번째</text>
+  <text x="780" y="212" font-family="sans-serif" font-size="17" text-anchor="middle" fill="#ffffff">검출기에 헥사카보닐이</text>
+  <text x="780" y="239" font-family="sans-serif" font-size="17" text-anchor="middle" fill="#ffffff">흡착, 방사성 붕괴로 확인</text>
+  <rect x="40" y="300" width="820" height="120" rx="12" fill="#ffffff"/>
+  <text x="450" y="345" font-family="sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#20231f">헥사카보닐이 될 확률이 곧 여섯 번째 결합의 세기</text>
+  <text x="450" y="380" font-family="sans-serif" font-size="18" text-anchor="middle" fill="#62655d">시보귬 원자 75개 중 3개만 두 번째 검출기에 도달했다. 텅스텐은 17%가 도달했다.</text>
+  <text x="450" y="405" font-family="sans-serif" font-size="18" text-anchor="middle" fill="#62655d">이 형성 비율의 차이가 결합 에너지 차이 4kJ/mol 안팎으로 환산된다.</text>
+  <text x="450" y="480" font-family="sans-serif" font-size="16" text-anchor="middle" fill="#62655d">도표는 GSI/FAIR 보도자료(2026.10.14)의 실험 설명을 바탕으로 직접 작성했습니다.</text>
+</svg>
