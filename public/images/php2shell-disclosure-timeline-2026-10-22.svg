@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="320" viewBox="0 0 860 320" font-family="sans-serif">
+  <rect width="860" height="320" fill="#fafafa"/>
+  <text x="430" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#111">PHP2Shell — 유출부터 패치, 사이트 중단까지</text>
+  <line x1="60" y1="150" x2="800" y2="150" stroke="#999" stroke-width="2"/>
+  <circle cx="120" cy="150" r="10" fill="#1f6feb"/>
+  <circle cx="330" cy="150" r="10" fill="#d73a49"/>
+  <circle cx="540" cy="150" r="10" fill="#1f6feb"/>
+  <circle cx="740" cy="150" r="10" fill="#d73a49"/>
+  <text x="120" y="100" text-anchor="middle" font-size="15" font-weight="bold" fill="#111">2026년 8월</text>
+  <text x="120" y="122" text-anchor="middle" font-size="13" fill="#333">Calif, AI로 결함 발견</text>
+  <text x="120" y="185" text-anchor="middle" font-size="13" fill="#333">Wiz도 독자적으로 확인,</text>
+  <text x="120" y="205" text-anchor="middle" font-size="13" fill="#333">공개 일정 조율 시작</text>
+  <text x="330" y="100" text-anchor="middle" font-size="15" font-weight="bold" fill="#111">10월 20일</text>
+  <text x="330" y="122" text-anchor="middle" font-size="13" fill="#333">기술 정보 유출</text>
+  <text x="330" y="185" text-anchor="middle" font-size="13" fill="#333">스크린샷 확산, 악용 영상</text>
+  <text x="330" y="205" text-anchor="middle" font-size="13" fill="#333">잠깐 게시 뒤 삭제</text>
+  <text x="540" y="100" text-anchor="middle" font-size="15" font-weight="bold" fill="#111">10월 21일</text>
+  <text x="540" y="122" text-anchor="middle" font-size="13" fill="#333">긴급 패치 공개</text>
+  <text x="540" y="185" text-anchor="middle" font-size="13" fill="#333">NSA 오프라인 권고,</text>
+  <text x="540" y="205" text-anchor="middle" font-size="13" fill="#333">FBI 신고 안내</text>
+  <text x="740" y="100" text-anchor="middle" font-size="15" font-weight="bold" fill="#111">10월 21일에서 22일</text>
+  <text x="740" y="122" text-anchor="middle" font-size="13" fill="#333">각국 정부·서비스 중단</text>
+  <text x="740" y="185" text-anchor="middle" font-size="13" fill="#333">DigiD·위키미디어 등</text>
+  <text x="740" y="205" text-anchor="middle" font-size="13" fill="#333">예방 차원 오프라인</text>
+  <text x="430" y="280" text-anchor="middle" font-size="13" fill="#666">출처: AFP·테크뉴스월드·PHP 보안팀 관련 보도(2026년 10월 21일과 22일), 직접 작성</text>
+</svg>
