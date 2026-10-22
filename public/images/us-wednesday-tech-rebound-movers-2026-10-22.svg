@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img">
+<rect width="900" height="560" fill="#f4f1ea" rx="12"/>
+<text x="450" y="52" text-anchor="middle" font-size="30" fill="#20231f" font-family='Pretendard, -apple-system, Noto Sans KR, sans-serif' font-weight="700">10월 21일 장을 갈랐던 종목들</text>
+<text x="450" y="88" text-anchor="middle" font-size="18" fill="#62655d" font-family='ui-monospace, SFMono-Regular, Menlo, monospace'>정규장 등락률 — 오른쪽이 상승, 왼쪽이 하락</text>
+<line x1="480" y1="110" x2="480" y2="470" stroke="#62655d" stroke-width="2"/>
+<text x="460" y="160" text-anchor="end" font-size="24" fill="#20231f" font-family='Pretendard, -apple-system, Noto Sans KR, sans-serif' font-weight="600">슈퍼마이크로</text>
+<rect x="480" y="130" width="382" height="40" rx="8" fill="#16756a"/>
+<text x="460" y="240" text-anchor="end" font-size="24" fill="#20231f" font-family='Pretendard, -apple-system, Noto Sans KR, sans-serif' font-weight="600">스페이스X</text>
+<rect x="480" y="210" width="312" height="40" rx="8" fill="#16756a"/>
+<text x="460" y="320" text-anchor="end" font-size="24" fill="#20231f" font-family='Pretendard, -apple-system, Noto Sans KR, sans-serif' font-weight="600">테슬라</text>
+<rect x="480" y="290" width="140" height="40" rx="8" fill="#16756a"/>
+<text x="460" y="400" text-anchor="end" font-size="24" fill="#20231f" font-family='Pretendard, -apple-system, Noto Sans KR, sans-serif' font-weight="600">넷플릭스</text>
+<rect x="280" y="370" width="200" height="40" rx="8" fill="#e0795b"/>
+<text x="460" y="480" text-anchor="end" font-size="24" fill="#20231f" font-family='Pretendard, -apple-system, Noto Sans KR, sans-serif' font-weight="600">AT&amp;T</text>
+<rect x="220" y="450" width="260" height="40" rx="8" fill="#e0795b"/>
+<text x="450" y="530" text-anchor="middle" font-size="16" fill="#62655d" font-family='ui-monospace, SFMono-Regular, Menlo, monospace'>슈퍼마이크로 +9.55% · 스페이스X +7.79% · 테슬라 +3.5% · 넷플릭스 -5%대 · AT&amp;T -6.5%</text>
+</svg>
