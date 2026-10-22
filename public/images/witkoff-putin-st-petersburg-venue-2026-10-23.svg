@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="330" viewBox="0 0 860 330" font-family="sans-serif">
+  <rect width="860" height="330" fill="#fafafa"/>
+  <text x="430" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#111">10월 22일 추가 확인 — 날짜와 장소가 좁혀졌다</text>
+  <line x1="60" y1="150" x2="800" y2="150" stroke="#999" stroke-width="2"/>
+  <circle cx="130" cy="150" r="10" fill="#1f6feb"/>
+  <circle cx="360" cy="150" r="10" fill="#d73a49"/>
+  <circle cx="600" cy="150" r="10" fill="#6a737d"/>
+  <circle cx="760" cy="150" r="10" fill="#e36209"/>
+  <text x="130" y="100" text-anchor="middle" font-size="15" font-weight="bold" fill="#111">러시아 측 제시</text>
+  <text x="130" y="122" text-anchor="middle" font-size="13" fill="#333">11월 10일께 재개</text>
+  <text x="130" y="185" text-anchor="middle" font-size="13" fill="#333">원칙적 준비,</text>
+  <text x="130" y="205" text-anchor="middle" font-size="13" fill="#333">확정 아님</text>
+  <text x="360" y="100" text-anchor="middle" font-size="15" font-weight="bold" fill="#111">장소 후보</text>
+  <text x="360" y="122" text-anchor="middle" font-size="13" fill="#333">아부다비</text>
+  <text x="360" y="185" text-anchor="middle" font-size="13" fill="#333">베스티 보도 인용,</text>
+  <text x="360" y="205" text-anchor="middle" font-size="13" fill="#333">공식 확정 아님</text>
+  <text x="600" y="100" text-anchor="middle" font-size="15" font-weight="bold" fill="#111">우크라이나 희망</text>
+  <text x="600" y="122" text-anchor="middle" font-size="13" fill="#333">11월 초까지 개최</text>
+  <text x="600" y="185" text-anchor="middle" font-size="13" fill="#333">휴전·에너지 휴전 등</text>
+  <text x="600" y="205" text-anchor="middle" font-size="13" fill="#333">어떤 제안도 지지</text>
+  <text x="760" y="100" text-anchor="middle" font-size="15" font-weight="bold" fill="#111">전례</text>
+  <text x="760" y="122" text-anchor="middle" font-size="13" fill="#333">아부다비 1·2차</text>
+  <text x="760" y="185" text-anchor="middle" font-size="13" fill="#333">제네바 3차</text>
+  <text x="760" y="205" text-anchor="middle" font-size="13" fill="#333">(올해 1~2월)</text>
+  <text x="430" y="270" text-anchor="middle" font-size="13" fill="#666">출처: TRT World(2026.10.21)·로이터(GMA 게재, 2026.10.22) 보도 인용, 직접 작성</text>
+  <text x="430" y="295" text-anchor="middle" font-size="13" fill="#666">남은 확인 사항: 세 나라가 같은 날짜·장소에 합의했는지, 오슬로 제안에 대한 문서 답변</text>
+</svg>
