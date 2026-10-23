@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="330" viewBox="0 0 900 330" font-family="sans-serif">
+<rect width="900" height="330" fill="#ffffff"/>
+<text x="450" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111827">토요일 아침, 멈춤은 둘째 날로 이어졌다</text>
+<text x="450" y="68" text-anchor="middle" font-size="14" fill="#6b7280">RTI 금요일 밤 보도와 중앙기상서 발표 기준 — 해상·육상 경보 유지</text>
+<rect x="60" y="100" width="240" height="120" fill="#eff6ff"/>
+<text x="80" y="140" font-size="16" font-weight="bold" fill="#111827">금요일 20:30</text>
+<text x="80" y="175" font-size="20" font-weight="bold" fill="#2563eb">이란 동쪽 약 100㎞</text>
+<text x="80" y="205" font-size="14" fill="#374151">챔피 중심 위치</text>
+<rect x="330" y="100" width="240" height="120" fill="#fef2f2"/>
+<text x="350" y="140" font-size="16" font-weight="bold" fill="#111827">금요일 밤 ~ 토요일 오전</text>
+<text x="350" y="175" font-size="20" font-weight="bold" fill="#dc2626">동북 해역 통과</text>
+<text x="350" y="205" font-size="14" fill="#374151">이 시기 영향 절정</text>
+<rect x="600" y="100" width="240" height="120" fill="#fffbeb"/>
+<text x="620" y="140" font-size="16" font-weight="bold" fill="#111827">토요일</text>
+<text x="620" y="175" font-size="20" font-weight="bold" fill="#d97706">북부·중부 12곳</text>
+<text x="620" y="205" font-size="14" fill="#374151">휴교·휴업 이어짐</text>
+<text x="450" y="270" text-anchor="middle" font-size="15" fill="#374151">지룽·타이베이·신베이·타오위안·신주·먀오리·타이중·장화·난터우·윈린·이란·마쭈</text>
+<text x="450" y="300" text-anchor="middle" font-size="13" fill="#6b7280">금요일 밤 집계 이후의 새 사망·부상자 집계는 아직 나오지 않았다</text>
+</svg>
