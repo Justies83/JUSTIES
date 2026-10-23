@@ -3,7 +3,7 @@ title: "약해졌는데 섬 전체가 멈췄다 — 태풍 챔피에 대만 학�
 date: 2026-10-24
 category: world
 kind: news
-takeaway: "한때 슈퍼태풍이었던 챔피가 약해진 채 10월 23일 대만에 접근하자 섬 전체가 멈췄다. 국내선 262편 전편과 국제선 717편이 취소되고 1명이 숨졌으며, 금요일 밤 집계에서 부상자는 350명 이상, 대피 인원은 4,300명 이상으로 불어났다. 중심이 직접 상륙하지 않았는데도 강풍 반경 320㎞와 최대 1m에 육박하는 비가 피해를 키웠다."
+takeaway: "한때 슈퍼태풍이었던 챔피가 약해진 채 10월 23일 대만에 접근하자 섬 전체가 멈췄다. 국내선 262편 전편과 국제선 717편이 취소되고 1명이 숨졌으며, 금요일 밤 집계에서 부상자는 350명 이상, 대피 인원은 4,300명 이상으로 불어났다. 중심이 직접 상륙하지 않았는데도 강풍 반경 320㎞와 최대 1m에 육박하는 비가 피해를 키웠다. 토요일에도 북부·중부 12곳이 휴교·휴업에 들어갔다."
 tags: [태풍, 챔피, 대만, 타이완, 항공편 취소, 정전, 일본, 필리핀]
 cover: /images/typhoon-champi-taiwan-shutdown-2026-10-24.jpg
 coverAlt: "위성에서 본 태풍의 소용돌이 구름과 뚜렷한 눈"
@@ -58,6 +58,12 @@ source:
 
 <p align="center">정리하면, 챔피는 약해진 태풍이 아니라 넓어진 태풍이었다.<br/>풍속 수치만 보면 슈퍼태풍의 절반 수준으로 줄었지만, 320㎞에 달하는 강풍 반경과 느린 이동 속도, 그리고 1m에 육박하는 비가 합쳐지면서 대만 전체를 멈추게 만들었다.<br/>상륙하지 않았다는 사실이 피해를 줄인 것은 맞다.<br/>그러나 상륙하지 않았다는 사실이 대비를 불필요하게 만든 것은 아니다.<br/>태풍 보도에서 가장 위험한 착각은, 등급이 내려가면 위험도 같이 내려간다고 믿는 것이다.<br/>챔피는 그 착각을 정면으로 반박하는 사례로 남을 가능성이 크다.<br/>24일 새벽, 태풍이 대만을 스치고 지나간 뒤의 집계가 그 판단을 확정할 것이다.</p>
 
-<p align="center">이 글에서 단정하지 않은 것들도 적어둔다.<br/>최종 사망자와 부상자 수는 아직 나오지 않았고, 상륙 여부도 24일 새벽이 지나야 확정된다.<br/>지역별 강수량 총계와 정전 복구 완료 시점도 아직 발표되지 않았다.<br/>풍속 수치는 기관마다 측정 기준과 시점이 달라 AP의 155㎞와 중앙기상서의 순간 최대 풍속 191㎞가 같은 시점의 같은 값이 아니라는 점도 밝혀둔다.<br/>이 글은 오전과 오후 집계를 섞지 않고, 어느 시점의 어느 기관 집계인지 따로 적었다.<br/>24일 새벽에는 금요일 밤 AFP 집계를 덧붙여 업데이트했다.<br/>새로운 집계나 당국 발표가 나오면 그 내용을 덧붙이는 것이 맞다.</p>
+<p align="center">10월 24일 오전 업데이트 — 멈춤은 토요일로 이어졌다.<br/>RTI의 금요일 밤 보도에 따르면 북부와 중부 지방정부들이 토요일에도 휴교와 휴업을 발표했다.<br/>대상은 지룽·타이베이·신베이·타오위안·신주·먀오리·타이중·장화·난터우·윈린·이란·마쭈 등 12곳이다.<br/>금요일의 섬 전체 멈춤이 토요일에는 북부와 중부로 범위를 좁혀 이어지는 셈이다.<br/>중앙기상서는 해상 경보와 육상 경보를 유지하고 있다.<br/>금요일 오후 8시 30분 기준으로 챔피의 중심은 이란 동쪽 약 100㎞ 지점에 있었다.<br/>중앙기상서 예보로는 중심이 금요일 밤부터 토요일 오전 사이 동북부 해역을 지나고, 이 시기에 영향이 절정에 달한다.<br/>북부 대만과 이란에는 강한 바람과 폭우가 이어진다는 전망이다.<br/>금요일 밤 집계 이후의 새로운 사망·부상자 집계는 아직 나오지 않았다.<br/>토요일 오전의 강수 총량과 최근접 거리, 상륙 여부가 확인되는 대로 이 글에 덧붙일 예정이다.</p>
 
-참고한 기사 — [로이터](https://www.dzrh.com.ph/post/taiwan-shuts-down-ahead-of-typhoon-champi-nearly-1000-flights-cancelled) · [AP](https://mb.com.ph/2026/10/23/taiwan-shuts-schools-and-grounds-flights-as-typhoon-champi-brushes-by) · [AFP](https://www.malaymail.com/news/world/2026/10/23/flights-cancelled-homes-evacuated-as-typhoon-champi-closes-in-on-taiwan/240297) · [AFP 금요일 밤 집계](https://phys.org/news/2026-10-taiwan-destructive-typhoon-champi-batters.html) · [알자지라](https://www.aljazeera.com/amp/video/newsfeed/2026/10/23/typhoon-champi-unleashes-huge-waves-along-taiwans-coast) · [더 힌두](https://www.thehindu.com/news/international/taiwan-shuts-down-ahead-of-weakening-typhoon-champi-hundreds-of-flights-cancelled/article71614370.ece)
+<p align="center"><img src="/images/typhoon-champi-saturday-update-2026-10-24.svg" alt="토요일 아침, 멈춤은 둘째 날로 이어졌다 — 금요일 20시 30분 이란 동쪽 약 100km, 금요일 밤부터 토요일 오전 동북 해역 통과하며 영향 절정, 토요일 북부·중부 12곳 휴교·휴업" style="max-width:100%;height:auto;"/></p>
+
+<p align="center" class="caption">도표는 RTI 금요일 밤 보도와 중앙기상서 발표를 바탕으로 직접 작성했습니다.</p>
+
+<p align="center">이 글에서 단정하지 않은 것들도 적어둔다.<br/>최종 사망자와 부상자 수는 아직 나오지 않았고, 상륙 여부도 24일 새벽이 지나야 확정된다.<br/>지역별 강수량 총계와 정전 복구 완료 시점도 아직 발표되지 않았다.<br/>풍속 수치는 기관마다 측정 기준과 시점이 달라 AP의 155㎞와 중앙기상서의 순간 최대 풍속 191㎞가 같은 시점의 같은 값이 아니라는 점도 밝혀둔다.<br/>이 글은 오전과 오후 집계를 섞지 않고, 어느 시점의 어느 기관 집계인지 따로 적었다.<br/>24일 새벽에는 금요일 밤 AFP 집계를, 24일 오전에는 토요일 휴업 발표를 덧붙여 업데이트했다.<br/>새로운 집계나 당국 발표가 나오면 그 내용을 덧붙이는 것이 맞다.</p>
+
+참고한 기사 — [로이터](https://www.dzrh.com.ph/post/taiwan-shuts-down-ahead-of-typhoon-champi-nearly-1000-flights-cancelled) · [AP](https://mb.com.ph/2026/10/23/taiwan-shuts-schools-and-grounds-flights-as-typhoon-champi-brushes-by) · [AFP](https://www.malaymail.com/news/world/2026/10/23/flights-cancelled-homes-evacuated-as-typhoon-champi-closes-in-on-taiwan/240297) · [AFP 금요일 밤 집계](https://phys.org/news/2026-10-taiwan-destructive-typhoon-champi-batters.html) · [알자지라](https://www.aljazeera.com/amp/video/newsfeed/2026/10/23/typhoon-champi-unleashes-huge-waves-along-taiwans-coast) · [더 힌두](https://www.thehindu.com/news/international/taiwan-shuts-down-ahead-of-weakening-typhoon-champi-hundreds-of-flights-cancelled/article71614370.ece) · [RTI 토요일 휴업 보도](https://www.rti.org.tw/en/news?uid=3&pid=239515)
