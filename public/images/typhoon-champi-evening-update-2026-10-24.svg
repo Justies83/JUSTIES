@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="380" viewBox="0 0 900 380" font-family="sans-serif">
+<rect width="900" height="380" fill="#ffffff"/>
+<text x="450" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111827">금요일 밤, 숫자는 다시 커졌다</text>
+<text x="450" y="68" text-anchor="middle" font-size="14" fill="#6b7280">로이터 오후 집계에서 AFP 금요일 밤 집계로 — 아직 최종 집계가 아니다</text>
+<rect x="60" y="100" width="380" height="110" fill="#fef2f2"/>
+<text x="80" y="140" font-size="16" font-weight="bold" fill="#111827">부상자</text>
+<text x="80" y="185" font-size="30" font-weight="bold" fill="#dc2626">171명 → 350명 이상</text>
+<rect x="480" y="100" width="380" height="110" fill="#eff6ff"/>
+<text x="500" y="140" font-size="16" font-weight="bold" fill="#111827">대피 인원</text>
+<text x="500" y="185" font-size="30" font-weight="bold" fill="#2563eb">2,639명 → 4,300명 이상</text>
+<rect x="60" y="230" width="380" height="110" fill="#fffbeb"/>
+<text x="80" y="270" font-size="16" font-weight="bold" fill="#111827">금요일 밤에도 정전 중인 가구</text>
+<text x="80" y="315" font-size="30" font-weight="bold" fill="#d97706">2만 1천 가구 이상</text>
+<rect x="480" y="230" width="380" height="110" fill="#ecfdf5"/>
+<text x="500" y="270" font-size="16" font-weight="bold" fill="#111827">이란현 금요일 하루 강수량</text>
+<text x="500" y="315" font-size="30" font-weight="bold" fill="#059669">40㎝ 이상</text>
+</svg>
