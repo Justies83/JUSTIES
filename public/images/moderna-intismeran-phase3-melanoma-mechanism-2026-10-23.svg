@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360" font-family="sans-serif">
+<rect width="900" height="360" fill="#ffffff"/>
+<text x="450" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111827">인티스메란 — 환자 맞춤 과정</text>
+<text x="450" y="68" text-anchor="middle" font-size="14" fill="#6b7280">한 환자의 종양에서만 만든 백신이 면역계를 학습시킨다</text>
+<rect x="30" y="110" width="190" height="120" rx="12" fill="#dbeafe"/>
+<text x="125" y="150" text-anchor="middle" font-size="16" font-weight="bold" fill="#111827">1. 종양 분석</text>
+<text x="125" y="180" text-anchor="middle" font-size="13" fill="#374151">종양 + 정상 DNA 비교</text>
+<text x="125" y="202" text-anchor="middle" font-size="13" fill="#374151">암만의 돌연변이 찾기</text>
+<text x="240" y="160" font-size="26" fill="#9ca3af">→</text>
+<rect x="280" y="110" width="190" height="120" rx="12" fill="#dbeafe"/>
+<text x="375" y="150" text-anchor="middle" font-size="16" font-weight="bold" fill="#111827">2. 설계도 작성</text>
+<text x="375" y="180" text-anchor="middle" font-size="13" fill="#374151">신생항원 최대 34개 선택</text>
+<text x="375" y="202" text-anchor="middle" font-size="13" fill="#374151">환자별 표적 목록 확정</text>
+<text x="490" y="160" font-size="26" fill="#9ca3af">→</text>
+<rect x="530" y="110" width="190" height="120" rx="12" fill="#dbeafe"/>
+<text x="625" y="150" text-anchor="middle" font-size="16" font-weight="bold" fill="#111827">3. mRNA 합성</text>
+<text x="625" y="180" text-anchor="middle" font-size="13" fill="#374151">합성 mRNA 한 가닥에 담기</text>
+<text x="625" y="202" text-anchor="middle" font-size="13" fill="#374151">3주마다 최대 9회 접종</text>
+<text x="740" y="160" font-size="26" fill="#9ca3af">→</text>
+<rect x="30" y="250" width="420" height="70" rx="12" fill="#dcfce7"/>
+<text x="240" y="280" text-anchor="middle" font-size="15" font-weight="bold" fill="#111827">4. 면역 학습 — T세포가 암 지문을 기억</text>
+<text x="240" y="304" text-anchor="middle" font-size="13" fill="#374151">재발하는 암세포를 알아보고 공격</text>
+<rect x="470" y="250" width="400" height="70" rx="12" fill="#fef3c7"/>
+<text x="670" y="280" text-anchor="middle" font-size="15" font-weight="bold" fill="#111827">키트루다 — PD-1 브레이크 해제</text>
+<text x="670" y="304" text-anchor="middle" font-size="13" fill="#374151">6주마다 최대 9주기, 약 1년 병용</text>
+</svg>
