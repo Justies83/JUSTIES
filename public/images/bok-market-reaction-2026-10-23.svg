@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="440" viewBox="0 0 900 440" font-family="sans-serif">
+<rect width="900" height="440" fill="#ffffff"/>
+<text x="450" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111827">10월 22일 시장 반응 — 동결 발표 날 주가는 급락</text>
+<text x="450" y="68" text-anchor="middle" font-size="14" fill="#6b7280">연합뉴스 증시 속보 (2026년 10월 22일 장 마감 기준)</text>
+<g font-size="18">
+<rect x="70" y="100" width="370" height="110" rx="12" fill="#fef2f2" stroke="#fecaca"/>
+<text x="255" y="135" text-anchor="middle" font-weight="bold" fill="#111827">코스피</text>
+<text x="255" y="170" text-anchor="middle" font-size="26" font-weight="bold" fill="#dc2626">5,533.77 (−3.52%)</text>
+<text x="255" y="195" text-anchor="middle" font-size="13" fill="#6b7280">−201.89포인트 · 하락 706개 vs 상승 174개</text>
+<rect x="460" y="100" width="370" height="110" rx="12" fill="#fef2f2" stroke="#fecaca"/>
+<text x="645" y="135" text-anchor="middle" font-weight="bold" fill="#111827">삼성전자 / SK하이닉스</text>
+<text x="645" y="170" text-anchor="middle" font-size="26" font-weight="bold" fill="#dc2626">−4.03% / −5.49%</text>
+<text x="645" y="195" text-anchor="middle" font-size="13" fill="#6b7280">214,500원 / 1,220,000원</text>
+<rect x="70" y="240" width="370" height="110" rx="12" fill="#eff6ff" stroke="#bfdbfe"/>
+<text x="255" y="275" text-anchor="middle" font-weight="bold" fill="#111827">원·달러 환율 (15:30)</text>
+<text x="255" y="310" text-anchor="middle" font-size="26" font-weight="bold" fill="#1d4ed8">1,324.2원</text>
+<text x="255" y="335" text-anchor="middle" font-size="13" fill="#6b7280">장중 1,323원대까지 원화 강세 뒤 되돌림</text>
+<rect x="460" y="240" width="370" height="110" rx="12" fill="#eff6ff" stroke="#bfdbfe"/>
+<text x="645" y="275" text-anchor="middle" font-weight="bold" fill="#111827">국고채 3년물 금리</text>
+<text x="645" y="310" text-anchor="middle" font-size="26" font-weight="bold" fill="#1d4ed8">3.840%</text>
+<text x="645" y="335" text-anchor="middle" font-size="13" fill="#6b7280">전일 대비 +1.8bp</text>
+</g>
+<text x="450" y="395" text-anchor="middle" font-size="14" fill="#374151">전날 3% 넘게 반등했던 코스피가 하루 만에 반등분을 되돌렸다 — 차익 실현 + AI 수익성 우려 + 자사주 매입 종료</text>
+</svg>
