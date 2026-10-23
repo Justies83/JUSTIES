@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" font-family="sans-serif">
+<rect width="900" height="420" fill="#ffffff"/>
+<text x="450" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111827">기준금리 경로 — 동결이지만 방향은 아직 인상 쪽</text>
+<text x="450" y="68" text-anchor="middle" font-size="14" fill="#6b7280">한국은행 금융통화위원회 결정 (2026년 10월 22일)</text>
+<!-- axis -->
+<line x1="90" y1="320" x2="820" y2="320" stroke="#d1d5db" stroke-width="2"/>
+<!-- points: x 130, 330, 530, 730 ; y for 2.50 -> 260, 2.75 -> 200, 3.00 -> 140 -->
+<polyline points="130,260 330,200 530,140 730,140" fill="none" stroke="#1d4ed8" stroke-width="4"/>
+<circle cx="130" cy="260" r="10" fill="#1d4ed8"/><circle cx="330" cy="200" r="10" fill="#1d4ed8"/><circle cx="530" cy="140" r="10" fill="#1d4ed8"/><circle cx="730" cy="140" r="10" fill="#dc2626"/>
+<text x="130" y="295" text-anchor="middle" font-size="16" font-weight="bold" fill="#111827">2.50%</text>
+<text x="130" y="345" text-anchor="middle" font-size="13" fill="#6b7280">2025.05 ~ 2026.06</text>
+<text x="330" y="235" text-anchor="middle" font-size="16" font-weight="bold" fill="#111827">2.75%</text>
+<text x="330" y="345" text-anchor="middle" font-size="13" fill="#6b7280">2026.07 인상</text>
+<text x="530" y="175" text-anchor="middle" font-size="16" font-weight="bold" fill="#111827">3.00%</text>
+<text x="530" y="345" text-anchor="middle" font-size="13" fill="#6b7280">2026.08 인상</text>
+<text x="730" y="175" text-anchor="middle" font-size="16" font-weight="bold" fill="#dc2626">3.00% 동결</text>
+<text x="730" y="345" text-anchor="middle" font-size="13" fill="#6b7280">2026.10 만장일치</text>
+<text x="450" y="395" text-anchor="middle" font-size="14" fill="#374151">결정문: “추가 인상의 시기와 속도” 결정 — 내년 물가 전망은 8월 전망(2.3%·2.5%) 상회, 다음 회의 11월 26일</text>
+</svg>
