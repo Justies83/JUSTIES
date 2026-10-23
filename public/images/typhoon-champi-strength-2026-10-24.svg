@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360" font-family="sans-serif">
+<rect width="900" height="360" fill="#ffffff"/>
+<text x="450" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111827">챔피, 약해졌지만 작아지지 않았다</text>
+<text x="450" y="68" text-anchor="middle" font-size="14" fill="#6b7280">AP·대만 중앙기상서(CWA) 집계 기준</text>
+<text x="60" y="130" font-size="16" font-weight="bold" fill="#111827">이번 주 초 최대 지속 풍속</text>
+<rect x="330" y="108" width="400" height="34" fill="#e5e7eb"/>
+<rect x="330" y="108" width="400" height="34" fill="#dc2626"/>
+<text x="742" y="131" font-size="16" font-weight="bold" fill="#dc2626">298 km/h</text>
+<text x="60" y="175" font-size="16" font-weight="bold" fill="#111827">대만 접근 시 지속 풍속</text>
+<rect x="330" y="153" width="400" height="34" fill="#e5e7eb"/>
+<rect x="330" y="153" width="208" height="34" fill="#2563eb"/>
+<text x="742" y="176" font-size="16" font-weight="bold" fill="#2563eb">155 km/h</text>
+<text x="60" y="220" font-size="16" font-weight="bold" fill="#111827">중심 근처 순간 최대 풍속</text>
+<rect x="330" y="198" width="400" height="34" fill="#e5e7eb"/>
+<rect x="330" y="198" width="256" height="34" fill="#d97706"/>
+<text x="742" y="221" font-size="16" font-weight="bold" fill="#d97706">191 km/h</text>
+<text x="450" y="285" text-anchor="middle" font-size="17" fill="#111827">강풍 반경 약 <tspan font-weight="bold">320 km</tspan> — 대만 대부분을 덮는 크기</text>
+<text x="450" y="318" text-anchor="middle" font-size="14" fill="#6b7280">풍속은 줄었지만, 영향 범위는 줄지 않았다</text>
+</svg>
