@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" font-family="sans-serif">
+<rect width="900" height="300" fill="#ffffff"/>
+<text x="450" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111827">챔피의 예상 경로</text>
+<text x="450" y="68" text-anchor="middle" font-size="14" fill="#6b7280">대만 중앙기상서 예보 기준, 로이터·AP 보도 종합</text>
+<line x1="80" y1="170" x2="820" y2="170" stroke="#cbd5e1" stroke-width="3"/>
+<circle cx="110" cy="170" r="14" fill="#dc2626"/>
+<circle cx="330" cy="170" r="14" fill="#2563eb"/>
+<circle cx="550" cy="170" r="14" fill="#d97706"/>
+<circle cx="770" cy="170" r="14" fill="#059669"/>
+<text x="110" y="215" text-anchor="middle" font-size="15" font-weight="bold" fill="#111827">10월 23일 오전</text>
+<text x="110" y="238" text-anchor="middle" font-size="13" fill="#6b7280">대만 남단 동쪽 약 330 km</text>
+<text x="330" y="215" text-anchor="middle" font-size="15" font-weight="bold" fill="#111827">10월 23일 오후</text>
+<text x="330" y="238" text-anchor="middle" font-size="13" fill="#6b7280">대만 동쪽 약 220 km</text>
+<text x="550" y="215" text-anchor="middle" font-size="15" font-weight="bold" fill="#111827">23일 밤 ~ 24일 새벽</text>
+<text x="550" y="238" text-anchor="middle" font-size="13" fill="#6b7280">대만 80 km 안까지 접근 가능</text>
+<text x="770" y="215" text-anchor="middle" font-size="15" font-weight="bold" fill="#111827">그 뒤</text>
+<text x="770" y="238" text-anchor="middle" font-size="13" fill="#6b7280">동북쪽 끝 스친 뒤 일본 남서부로</text>
+<text x="450" y="280" text-anchor="middle" font-size="14" fill="#6b7280">상륙 가능성은 배제되지 않았다 — 속도가 느려지면 영향이 길어진다</text>
+</svg>
