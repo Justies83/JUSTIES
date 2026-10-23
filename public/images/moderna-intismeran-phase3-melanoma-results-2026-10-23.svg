@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" font-family="sans-serif">
+<rect width="900" height="420" fill="#ffffff"/>
+<text x="450" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111827">INTerpath-001 — 2년 시점 결과</text>
+<text x="450" y="68" text-anchor="middle" font-size="14" fill="#6b7280">중앙 추적 24.6개월, 환자 1,137명, 머크 보도자료 수치</text>
+<text x="60" y="130" font-size="16" font-weight="bold" fill="#111827">무재발 생존</text>
+<rect x="260" y="108" width="440" height="34" fill="#e5e7eb"/>
+<rect x="260" y="108" width="361" height="34" fill="#1d4ed8"/>
+<text x="712" y="131" font-size="16" font-weight="bold" fill="#1d4ed8">82.2%</text>
+<text x="60" y="130" font-size="13" fill="#6b7280" transform="translate(0,28)">백신 + 키트루다</text>
+<rect x="260" y="150" width="440" height="34" fill="#e5e7eb"/>
+<rect x="260" y="150" width="308" height="34" fill="#9ca3af"/>
+<text x="712" y="173" font-size="16" fill="#374151">70.0%</text>
+<text x="60" y="172" font-size="13" fill="#6b7280">키트루다 단독</text>
+<text x="60" y="240" font-size="16" font-weight="bold" fill="#111827">원격전이 무발생 생존</text>
+<rect x="260" y="218" width="440" height="34" fill="#e5e7eb"/>
+<rect x="260" y="218" width="389" height="34" fill="#059669"/>
+<text x="712" y="241" font-size="16" font-weight="bold" fill="#059669">88.5%</text>
+<rect x="60" y="240" font-size="13" fill="#6b7280" transform="translate(0,28)">백신 + 키트루다</text>
+<rect x="260" y="260" width="440" height="34" fill="#e5e7eb"/>
+<rect x="260" y="260" width="353" height="34" fill="#9ca3af"/>
+<text x="712" y="283" font-size="16" fill="#374151">80.2%</text>
+<text x="60" y="282" font-size="13" fill="#6b7280">키트루다 단독</text>
+<text x="450" y="340" text-anchor="middle" font-size="15" fill="#111827">재발·사망 위험 <tspan font-weight="bold">42% 감소 (HR 0.58)</tspan> · 원격전이·사망 위험 <tspan font-weight="bold">38% 감소 (HR 0.62)</tspan></text>
+<text x="450" y="372" text-anchor="middle" font-size="14" fill="#6b7280">42%는 상대 위험 감소이며, 2년 무재발 생존의 절대 차이는 12.2%포인트</text>
+</svg>
