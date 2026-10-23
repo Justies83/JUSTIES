@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="430" viewBox="0 0 900 430" font-family="sans-serif">
+<rect width="900" height="430" fill="#ffffff"/>
+<text x="450" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111827">티베트 나취 강진 — 첫날 시간표</text>
+<text x="450" y="68" text-anchor="middle" font-size="14" fill="#6b7280">현지 시간 기준, 신화통신·연합뉴스·CGTN 보도 정리</text>
+<line x1="80" y1="200" x2="830" y2="200" stroke="#d1d5db" stroke-width="3"/>
+<circle cx="140" cy="200" r="11" fill="#dc2626"/><circle cx="330" cy="200" r="11" fill="#1d4ed8"/><circle cx="520" cy="200" r="11" fill="#1d4ed8"/><circle cx="710" cy="200" r="11" fill="#dc2626"/>
+<text x="140" y="160" text-anchor="middle" font-size="16" font-weight="bold" fill="#111827">10월 22일 22시 33분</text>
+<text x="140" y="240" text-anchor="middle" font-size="13" fill="#374151">규모 7.0 발생</text>
+<text x="140" y="262" text-anchor="middle" font-size="13" fill="#374151">바칭현, 진원 깊이 10㎞(중국)</text>
+<text x="330" y="160" text-anchor="middle" font-size="16" font-weight="bold" fill="#111827">10월 23일 오전 7시까지</text>
+<text x="330" y="240" text-anchor="middle" font-size="13" fill="#374151">여진 413회, 최대 4.3</text>
+<text x="330" y="262" text-anchor="middle" font-size="13" fill="#374151">철도 일부 구간 운행 중단</text>
+<text x="520" y="160" text-anchor="middle" font-size="16" font-weight="bold" fill="#111827">10월 23일 오전 5시 20분 집계</text>
+<text x="520" y="240" text-anchor="middle" font-size="13" fill="#374151">사망 16명, 부상 46명</text>
+<text x="520" y="262" text-anchor="middle" font-size="13" fill="#374151">중상 11명, 경상 35명</text>
+<text x="710" y="160" text-anchor="middle" font-size="16" font-weight="bold" fill="#111827">10월 23일 오후 1시 집계</text>
+<text x="710" y="240" text-anchor="middle" font-size="13" fill="#374151">사망 16명, 부상 76명</text>
+<text x="710" y="262" text-anchor="middle" font-size="13" fill="#374151">가옥 339채, 축사 20곳 피해</text>
+<text x="450" y="330" text-anchor="middle" font-size="14" fill="#374151">부상자 수가 오전보다 30명 늘었다 — 피해 조사가 진행될수록 집계는 더 바뀔 수 있다.</text>
+<text x="450" y="360" text-anchor="middle" font-size="14" fill="#374151">구조 인력 5천여 명 투입, 조립식 주택 1천 동과 텐트 3천여 동 등 구호물자 도착</text>
+<text x="450" y="405" text-anchor="middle" font-size="13" fill="#6b7280">미국 지질조사국(USGS)은 진원 깊이를 18㎞, 진앙을 나취시 동북동 191㎞로 기록했다 — 기관별 측정값이 다르다.</text>
+</svg>
