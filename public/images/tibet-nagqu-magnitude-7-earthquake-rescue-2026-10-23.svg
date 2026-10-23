@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="440" viewBox="0 0 900 440" font-family="sans-serif">
+<rect width="900" height="440" fill="#ffffff"/>
+<text x="450" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111827">왜 구조가 어려운가 — 고원, 추위, 밤</text>
+<text x="450" y="68" text-anchor="middle" font-size="14" fill="#6b7280">바칭현의 조건과 투입된 자원 (연합뉴스·CGTN 보도 기준)</text>
+<rect x="60" y="100" width="370" height="130" fill="#fef2f2" stroke="#fecaca"/>
+<text x="245" y="130" text-anchor="middle" font-size="17" font-weight="bold" fill="#111827">현장의 조건</text>
+<text x="245" y="162" text-anchor="middle" font-size="14" fill="#374151">평균 해발고도 4,800m 이상</text>
+<text x="245" y="188" text-anchor="middle" font-size="14" fill="#374151">인구 약 5만 6천 명 (2020년 기준)</text>
+<text x="245" y="214" text-anchor="middle" font-size="14" fill="#374151">사흘간 간헐적 눈 예보, 야간 발생</text>
+<rect x="470" y="100" width="370" height="130" fill="#eff6ff" stroke="#bfdbfe"/>
+<text x="655" y="130" text-anchor="middle" font-size="17" font-weight="bold" fill="#111827">투입된 인력</text>
+<text x="655" y="162" text-anchor="middle" font-size="14" fill="#374151">전체 5천여 명</text>
+<text x="655" y="188" text-anchor="middle" font-size="14" fill="#374151">경찰 300여 명, 소방 347명·차량 82대</text>
+<text x="655" y="214" text-anchor="middle" font-size="14" fill="#374151">군·무장경찰 300여 명·차량 20여 대, 드론 정찰</text>
+<rect x="60" y="260" width="780" height="130" fill="#f9fafb" stroke="#e5e7eb"/>
+<text x="450" y="290" text-anchor="middle" font-size="17" font-weight="bold" fill="#111827">도착한 구호물자 (중앙·자치구·시·현 4단계 조달, CGTN 정리)</text>
+<text x="450" y="322" text-anchor="middle" font-size="14" fill="#374151">조립식 주택 1,000동 · 텐트 3,239동 · 접이식 침대 2,821개 · 이불 4,280채</text>
+<text x="450" y="348" text-anchor="middle" font-size="14" fill="#374151">난로 200개 · 방한복 2,000벌 · 군용 외투 1,760벌 · 손전등 1,000개 · 발전기 4대</text>
+<text x="450" y="410" text-anchor="middle" font-size="13" fill="#6b7280">높고 추운 곳에서는 구조대도, 이재민도 체력 소모가 빠르다 — 그래서 방한 물자가 먼저 간다.</text>
+</svg>
