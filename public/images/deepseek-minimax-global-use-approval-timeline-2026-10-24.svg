@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360" font-family="sans-serif">
+<rect width="900" height="360" fill="#f4f1ea"/>
+<text x="450" y="42" text-anchor="middle" font-size="24" font-weight="bold" fill="#20231f">일주일 만에 풍경이 뒤집혔다</text>
+<text x="450" y="70" text-anchor="middle" font-size="14" fill="#62655d">10월 16일부터 23일까지, 중국 AI를 둘러싼 일주일</text>
+<line x1="70" y1="170" x2="830" y2="170" stroke="#16756a" stroke-width="3"/>
+<circle cx="150" cy="170" r="14" fill="#16756a"/>
+<circle cx="380" cy="170" r="14" fill="#e0795b"/>
+<circle cx="570" cy="170" r="14" fill="#e0795b"/>
+<circle cx="770" cy="170" r="14" fill="#16756a"/>
+<text x="150" y="120" text-anchor="middle" font-size="17" font-weight="bold" fill="#20231f">10월 16일</text>
+<text x="150" y="215" text-anchor="middle" font-size="14" fill="#20231f">수출 통제 초안 공개</text>
+<text x="150" y="238" text-anchor="middle" font-size="14" fill="#20231f">40개 기술, 의견수렴은</text>
+<text x="150" y="261" text-anchor="middle" font-size="14" fill="#20231f">11월 15일까지</text>
+<text x="380" y="120" text-anchor="middle" font-size="17" font-weight="bold" fill="#20231f">10월 20일</text>
+<text x="380" y="215" text-anchor="middle" font-size="14" fill="#20231f">미국, 연방 민간기관에</text>
+<text x="380" y="238" text-anchor="middle" font-size="14" fill="#20231f">딥시크 기술 제거 지시</text>
+<text x="380" y="261" text-anchor="middle" font-size="14" fill="#62655d">(10월 22일 보도 기준 이틀 전)</text>
+<text x="570" y="120" text-anchor="middle" font-size="17" font-weight="bold" fill="#20231f">10월 22일</text>
+<text x="570" y="215" text-anchor="middle" font-size="14" fill="#20231f">딥시크, 약 150억 달러</text>
+<text x="570" y="238" text-anchor="middle" font-size="14" fill="#20231f">조달 마무리 보도</text>
+<text x="570" y="261" text-anchor="middle" font-size="14" fill="#20231f">당초 목표의 2배</text>
+<text x="770" y="120" text-anchor="middle" font-size="17" font-weight="bold" fill="#20231f">10월 23일</text>
+<text x="770" y="215" text-anchor="middle" font-size="14" fill="#20231f">딥시크·미니맥스</text>
+<text x="770" y="238" text-anchor="middle" font-size="14" fill="#20231f">해외 사용 승인 보도</text>
+<text x="770" y="261" text-anchor="middle" font-size="14" fill="#20231f">등록 절차 완료</text>
+<text x="450" y="325" text-anchor="middle" font-size="13" fill="#62655d">기준: 로이터(2026.10.23), 비즈니스 타임스(2026.10.23), 테크크런치(2026.10.22) 보도</text>
+</svg>
