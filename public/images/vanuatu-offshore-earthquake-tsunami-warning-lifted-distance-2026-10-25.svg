@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="380" viewBox="0 0 900 380" font-family="sans-serif">
+<rect width="900" height="380" fill="#ffffff"/>
+<text x="450" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111827">왜 바다 한가운데였는지가 결과를 갈랐다</text>
+<text x="450" y="68" text-anchor="middle" font-size="14" fill="#6b7280">미국 지질조사국(USGS) · 유럽지중해지진센터(EMSC) · GDACS 집계 기준</text>
+<text x="60" y="130" font-size="16" font-weight="bold" fill="#111827">첫 지진 진앙에서 포트올리까지</text>
+<rect x="330" y="108" width="400" height="34" fill="#e5e7eb"/>
+<rect x="330" y="108" width="263" height="34" fill="#2563eb"/>
+<text x="742" y="131" font-size="16" font-weight="bold" fill="#2563eb">197 km</text>
+<text x="60" y="175" font-size="16" font-weight="bold" fill="#111827">두 번째 지진 진앙에서 포트올리까지</text>
+<rect x="330" y="153" width="400" height="34" fill="#e5e7eb"/>
+<rect x="330" y="153" width="227" height="34" fill="#d97706"/>
+<text x="742" y="176" font-size="16" font-weight="bold" fill="#d97706">170 km</text>
+<text x="60" y="220" font-size="16" font-weight="bold" fill="#111827">쓰나미 경보 대상 반경</text>
+<rect x="330" y="198" width="400" height="34" fill="#e5e7eb"/>
+<rect x="330" y="198" width="400" height="34" fill="#dc2626"/>
+<text x="742" y="221" font-size="16" font-weight="bold" fill="#dc2626">300 km</text>
+<text x="450" y="285" text-anchor="middle" font-size="17" fill="#111827">진원 깊이 <tspan font-weight="bold">10 km</tspan> — 얕았지만, 사람이 사는 곳에서 멀었다</text>
+<text x="450" y="318" text-anchor="middle" font-size="15" fill="#6b7280">진도 IV 흔들림 노출 인구: 첫 지진 약 40,000명, 두 번째 약 4,000명 (GDACS)</text>
+<text x="450" y="348" text-anchor="middle" font-size="15" fill="#111827">GDACS 경보 등급: 두 지진 모두 <tspan font-weight="bold" fill="#059669">Green</tspan> — 중대한 인명·경제 피해 가능성 낮음</text>
+</svg>
