@@ -6,7 +6,7 @@ kind: news
 takeaway: "말라리아 기생충 플라스모디움이 적혈구에 들어갈 때 잠깐 만드는 고리 구조, 무빙 접합부의 실체가 2026년 6월 Cell 논문으로 밝혀졌고, 콴타 매거진이 10월 23일 그 의미를 풀어 설명했다. 네 개의 단백질이 1대1대1대1로 모인 돛단배 모양의 복합체가 적혈구 막을 직접 휘게 만들어 문을 열고, 기생충이 들어간 뒤에는 막이 다시 봉합된다. 이 문을 막으면 혈액 단계 감염 자체를 멈출 수 있다는 아이디어에, 시험관 단계에서 침입을 막은 설계 단백질까지 나왔다. 아직 동물 실험도 거치지 않은 초기 단계라는 점이 이 소식의 정확한 위치다."
 tags: [말라리아, 플라스모디움, 적혈구, 무빙 접합부, 극저온 전자현미경, Cell, 콴타, 신약]
 cover: /images/malaria-moving-junction-cryo-em-2026-10-24.jpg
-coverAlt: "사람의 피부에 앉아 흡혈 중인 Anopheles 모기"
+coverAlt: "사람에게 흡혈 중인 Anopheles gambiae 모기"
 source:
   name: "콴타 매거진 (2026.10.23)"
   url: https://www.quantamagazine.org/malaria-parasite-caught-in-the-act-of-breaking-and-entering-20261023/
@@ -16,7 +16,7 @@ source:
 
 <p align="center"><img src="/images/malaria-moving-junction-cryo-em-2026-10-24.jpg" alt="사람의 피부에 앉아 흡혈 중인 Anopheles 모기" style="max-width:100%;height:auto;"/></p>
 
-<p align="center" class="caption">사진: Pixnio · 사람에게 흡혈 중인 Anopheles albimanus 모기 — 커버 사진은 기생충 자체가 아니라 매개 모기다.</p>
+<p align="center" class="caption">사진: 미국 질병통제예방센터(CDC), James D. Gathany · 사람에게 흡혈 중인 Anopheles gambiae 모기(퍼블릭 도메인) — 커버 사진은 기생충 자체가 아니라 매개 모기다.</p>
 
 <p align="center">먼저 말라리아가 얼마나 큰 병인지부터 짚어야 이 구조 하나의 무게가 보인다.<br/>세계보건기구(WHO)가 2026년 4월 세계 말라리아의 날에 밝힌 바로는, 2024년에 전 세계에서 약 <strong>2억 8,200만 건</strong>의 말라리아가 발생했고 약 <strong>61만 명</strong>이 숨졌다.<br/>2023년 집계인 약 2억 6,300만 건과 약 59만 7,000명과 비교하면, 환자도 사망자도 줄어들기는커녕 조금 더 늘어난 셈이다.<br/>2023년 기준으로 전 세계 말라리아 환자의 약 94%와 사망자의 약 95%가 아프리카에서 나왔고, 사망자 가운데 5세 미만 어린이가 약 76%를 차지했다.<br/>이 병은 먼 나라의 옛날 병이 아니라, 지금도 매년 수십만 명의 목숨을 앗아가는 현재진행형 병이다.<br/>그런 병의 기생충이 적혈구에 들어가는 문을 이제야 봤다는 건, 늦었지만 의미 있는 진전이다.</p>
 
