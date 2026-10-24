@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="340" viewBox="0 0 1000 340" role="img" aria-label="무빙 접합부 침입 단계">
+  <rect width="1000" height="340" fill="#fdf8f0"/>
+  <text x="500" y="36" text-anchor="middle" font-size="24" font-weight="bold" fill="#1a1a1a">무빙 접합부, 문이 열리고 닫히는 순서</text>
+  <g font-size="17" fill="#1a1a1a">
+    <rect x="20" y="80" width="200" height="120" rx="14" fill="#fde8e0" stroke="#c0392b"/>
+    <text x="120" y="120" text-anchor="middle" font-weight="bold">1. 접근</text>
+    <text x="120" y="148" text-anchor="middle">메로조이트가</text>
+    <text x="120" y="172" text-anchor="middle">적혈구에 닿는다</text>
+    <text x="230" y="148" font-size="26" fill="#c0392b">→</text>
+    <rect x="270" y="80" width="200" height="120" rx="14" fill="#fef3c7" stroke="#b7791f"/>
+    <text x="370" y="120" text-anchor="middle" font-weight="bold">2. 고리 설치</text>
+    <text x="370" y="148" text-anchor="middle">AMA1·RON2·RON4·</text>
+    <text x="370" y="172" text-anchor="middle">RON5가 고리를 만든다</text>
+    <text x="480" y="148" font-size="26" fill="#c0392b">→</text>
+    <rect x="520" y="80" width="200" height="120" rx="14" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="620" y="120" text-anchor="middle" font-weight="bold">3. 막 휘어짐</text>
+    <text x="620" y="148" text-anchor="middle">나선 7개가 막을</text>
+    <text x="620" y="172" text-anchor="middle">쐐기처럼 벌린다</text>
+    <text x="730" y="148" font-size="26" fill="#c0392b">→</text>
+    <rect x="770" y="80" width="200" height="120" rx="14" fill="#dcfce7" stroke="#15803d"/>
+    <text x="870" y="120" text-anchor="middle" font-weight="bold">4. 통과·봉합</text>
+    <text x="870" y="148" text-anchor="middle">기생충이 들어가고</text>
+    <text x="870" y="172" text-anchor="middle">막이 다시 닫힌다</text>
+  </g>
+  <text x="500" y="250" text-anchor="middle" font-size="18" fill="#333">전체 침입 시간은 1분 안팎 · 접합부는 60초에서 90초 남짓만 존재한다</text>
+  <text x="500" y="285" text-anchor="middle" font-size="16" fill="#666">복합체 모양은 돛단배: 돛 AMA1, 선체 RON2·RON4·RON5 (1대1대1대1)</text>
+  <text x="500" y="318" text-anchor="middle" font-size="14" fill="#888">출처: Cell 논문(Haile 외, 2026)과 콴타 매거진 해설(2026.10.23)을 바탕으로 작성</text>
+</svg>
