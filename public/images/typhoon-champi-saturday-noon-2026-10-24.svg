@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="330" viewBox="0 0 900 330" font-family="sans-serif">
+<rect width="900" height="330" fill="#ffffff"/>
+<text x="450" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111827">토요일 낮, 숫자가 정리됐다</text>
+<text x="450" y="68" text-anchor="middle" font-size="14" fill="#6b7280">로이터 토요일 보도와 대만 소방 당국·타이파워·교통부 집계 기준</text>
+<rect x="60" y="100" width="240" height="120" fill="#fef2f2"/>
+<text x="80" y="140" font-size="16" font-weight="bold" fill="#111827">부상자</text>
+<text x="80" y="175" font-size="20" font-weight="bold" fill="#dc2626">527명</text>
+<text x="80" y="205" font-size="14" fill="#374151">금요일 밤 350명 이상에서 증가</text>
+<rect x="330" y="100" width="240" height="120" fill="#fffbeb"/>
+<text x="350" y="140" font-size="16" font-weight="bold" fill="#111827">한때 정전 가구</text>
+<text x="350" y="175" font-size="20" font-weight="bold" fill="#d97706">28만 8천 가구 이상</text>
+<text x="350" y="205" font-size="14" fill="#374151">대부분 복구됐다고 타이파워 발표</text>
+<rect x="600" y="100" width="240" height="120" fill="#eff6ff"/>
+<text x="620" y="140" font-size="16" font-weight="bold" fill="#111827">토요일 취소 항공편</text>
+<text x="620" y="175" font-size="20" font-weight="bold" fill="#2563eb">242편</text>
+<text x="620" y="205" font-size="14" fill="#374151">금요일 거의 1,000편에서 감소</text>
+<text x="450" y="270" text-anchor="middle" font-size="15" fill="#374151">자정 무렵 중심이 이란 해안에서 고리를 그린 뒤 북상 — 해안 순간 최대 풍속 227km/h</text>
+<text x="450" y="300" text-anchor="middle" font-size="13" fill="#6b7280">사망자는 류추섬 파도 사고 1명으로 유지, 대만 상륙 없음</text>
+</svg>
