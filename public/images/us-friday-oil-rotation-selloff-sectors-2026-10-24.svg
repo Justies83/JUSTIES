@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 640" role="img">
+<rect width="900" height="640" fill="#f4f1ea" rx="12"/>
+<text x="450" y="52" text-anchor="middle" font-size="30" fill="#20231f" font-family='Pretendard, -apple-system, Noto Sans KR, sans-serif' font-weight="700">10월 23일 S&amp;P500 섹터 — 오른 곳과 빠진 곳</text>
+<text x="450" y="88" text-anchor="middle" font-size="18" fill="#62655d" font-family='ui-monospace, SFMono-Regular, Menlo, monospace'>CNBC 피드 기준 일간 등락률</text>
+<text x="250" y="166" text-anchor="end" font-size="26" fill="#20231f" font-family='Pretendard, -apple-system, Noto Sans KR, sans-serif' font-weight="600">에너지</text>
+<rect x="270" y="140" width="251" height="46" rx="8" fill="#16756a"/>
+<text x="536" y="172" text-anchor="start" font-size="26" fill="#20231f" font-family='Pretendard, -apple-system, Noto Sans KR, sans-serif' font-weight="700">+2.51%</text>
+<text x="250" y="271" text-anchor="end" font-size="26" fill="#20231f" font-family='Pretendard, -apple-system, Noto Sans KR, sans-serif' font-weight="600">기술</text>
+<rect x="270" y="245" width="35" height="46" rx="8" fill="#16756a"/>
+<text x="320" y="277" text-anchor="start" font-size="26" fill="#20231f" font-family='Pretendard, -apple-system, Noto Sans KR, sans-serif' font-weight="700">+0.35%</text>
+<text x="250" y="376" text-anchor="end" font-size="26" fill="#20231f" font-family='Pretendard, -apple-system, Noto Sans KR, sans-serif' font-weight="600">부동산</text>
+<rect x="270" y="350" width="23" height="46" rx="8" fill="#16756a"/>
+<text x="308" y="382" text-anchor="start" font-size="26" fill="#20231f" font-family='Pretendard, -apple-system, Noto Sans KR, sans-serif' font-weight="700">+0.23%</text>
+<text x="250" y="481" text-anchor="end" font-size="26" fill="#20231f" font-family='Pretendard, -apple-system, Noto Sans KR, sans-serif' font-weight="600">필수소비재</text>
+<rect x="270" y="455" width="183" height="46" rx="8" fill="#a33327"/>
+<text x="468" y="487" text-anchor="start" font-size="26" fill="#20231f" font-family='Pretendard, -apple-system, Noto Sans KR, sans-serif' font-weight="700">-1.83%</text>
+<text x="450" y="560" text-anchor="middle" font-size="16" fill="#62655d" font-family='ui-monospace, SFMono-Regular, Menlo, monospace'>통신서비스 -1.39% · 경기소비재 -1.39% · 금융 -1.33% · 산업재 -1.29%</text>
+</svg>
