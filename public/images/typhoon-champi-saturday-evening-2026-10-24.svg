@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="330" viewBox="0 0 900 330" font-family="sans-serif">
+<rect width="900" height="330" fill="#ffffff"/>
+<text x="450" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111827">토요일 저녁, 고비는 지났다</text>
+<text x="450" y="68" text-anchor="middle" font-size="14" fill="#6b7280">AFP 토요일 오후 보도와 대만 중앙기상서 발표 기준</text>
+<rect x="60" y="100" width="240" height="120" fill="#eff6ff"/>
+<text x="80" y="140" font-size="16" font-weight="bold" fill="#111827">대피 인원</text>
+<text x="80" y="175" font-size="20" font-weight="bold" fill="#2563eb">5,000명 이상</text>
+<text x="80" y="205" font-size="14" fill="#374151">금요일 밤 4,300명 이상에서 증가</text>
+<rect x="330" y="100" width="240" height="120" fill="#fef2f2"/>
+<text x="350" y="140" font-size="16" font-weight="bold" fill="#111827">아직 정전 중</text>
+<text x="350" y="175" font-size="20" font-weight="bold" fill="#dc2626">5만 6천 가구 가량</text>
+<text x="350" y="205" font-size="14" fill="#374151">한때 28만 8천 가구 이상에서 복구 중</text>
+<rect x="600" y="100" width="240" height="120" fill="#fffbeb"/>
+<text x="620" y="140" font-size="16" font-weight="bold" fill="#111827">이란현 강수량</text>
+<text x="620" y="175" font-size="20" font-weight="bold" fill="#d97706">목요일 이후 65cm</text>
+<text x="620" y="205" font-size="14" fill="#374151">먀오리현 토요일 하루 약 24cm</text>
+<text x="450" y="270" text-anchor="middle" font-size="15" fill="#374151">중앙기상서 "가장 심한 영향의 시기는 지났다" — 단, 주변 해역 바람과 파도는 여전히 강함</text>
+<text x="450" y="300" text-anchor="middle" font-size="13" fill="#6b7280">사망 1명 유지, 부상 500명 이상 — 중심은 대만 동북쪽에서 멀어지며 북상 중</text>
+</svg>
