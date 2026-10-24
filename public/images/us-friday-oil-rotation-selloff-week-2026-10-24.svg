@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 640" role="img">
+<rect width="900" height="640" fill="#f4f1ea" rx="12"/>
+<text x="450" y="52" text-anchor="middle" font-size="30" fill="#20231f" font-family='Pretendard, -apple-system, Noto Sans KR, sans-serif' font-weight="700">10월 19-23일 주간 성적 — 지수와 빅테크</text>
+<text x="450" y="88" text-anchor="middle" font-size="18" fill="#62655d" font-family='ui-monospace, SFMono-Regular, Menlo, monospace'>CNBC 주간 집계, Strategitz (2026.10.23)</text>
+<text x="250" y="166" text-anchor="end" font-size="26" fill="#20231f" font-family='Pretendard, -apple-system, Noto Sans KR, sans-serif' font-weight="600">러셀 2000</text>
+<rect x="270" y="140" width="200" height="46" rx="8" fill="#16756a"/>
+<text x="485" y="172" text-anchor="start" font-size="26" fill="#20231f" font-family='Pretendard, -apple-system, Noto Sans KR, sans-serif' font-weight="700">+2.0%</text>
+<text x="250" y="271" text-anchor="end" font-size="26" fill="#20231f" font-family='Pretendard, -apple-system, Noto Sans KR, sans-serif' font-weight="600">다우존스</text>
+<rect x="270" y="245" width="40" height="46" rx="8" fill="#16756a"/>
+<text x="325" y="277" text-anchor="start" font-size="26" fill="#20231f" font-family='Pretendard, -apple-system, Noto Sans KR, sans-serif' font-weight="700">+0.4%</text>
+<text x="250" y="376" text-anchor="end" font-size="26" fill="#20231f" font-family='Pretendard, -apple-system, Noto Sans KR, sans-serif' font-weight="600">S&amp;P 500</text>
+<rect x="270" y="350" width="50" height="46" rx="8" fill="#a33327"/>
+<text x="335" y="382" text-anchor="start" font-size="26" fill="#20231f" font-family='Pretendard, -apple-system, Noto Sans KR, sans-serif' font-weight="700">-0.5%</text>
+<text x="250" y="481" text-anchor="end" font-size="26" fill="#20231f" font-family='Pretendard, -apple-system, Noto Sans KR, sans-serif' font-weight="600">메타</text>
+<rect x="270" y="455" width="376" height="46" rx="8" fill="#a33327"/>
+<text x="661" y="487" text-anchor="start" font-size="26" fill="#20231f" font-family='Pretendard, -apple-system, Noto Sans KR, sans-serif' font-weight="700">-9.4%</text>
+<text x="450" y="560" text-anchor="middle" font-size="16" fill="#62655d" font-family='ui-monospace, SFMono-Regular, Menlo, monospace'>나스닥 종합 -0.7% · 넷플릭스 -6.6% · 알파벳 -6.0% · 사이버보안 ETF +7.4%</text>
+</svg>
