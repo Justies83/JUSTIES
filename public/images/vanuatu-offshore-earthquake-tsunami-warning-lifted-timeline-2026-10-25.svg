@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="430" viewBox="0 0 900 430" font-family="sans-serif">
+<rect width="900" height="430" fill="#ffffff"/>
+<text x="450" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111827">바누아투 지진, 10월 24일의 시간표</text>
+<text x="450" y="68" text-anchor="middle" font-size="14" fill="#6b7280">시각은 협정세계시(UTC), 괄호 안은 바누아투 현지 시각</text>
+<line x1="80" y1="110" x2="80" y2="390" stroke="#d1d5db" stroke-width="3"/>
+<circle cx="80" cy="120" r="9" fill="#dc2626"/>
+<text x="110" y="116" font-size="17" font-weight="bold" fill="#111827">02:31 UTC (13:31) — 규모 6.9 첫 지진</text>
+<text x="110" y="140" font-size="15" fill="#4b5563">포트올리에서 서북서로 197 km, 깊이 10 km</text>
+<circle cx="80" cy="175" r="9" fill="#d97706"/>
+<text x="110" y="171" font-size="17" font-weight="bold" fill="#111827">02:35 UTC (13:35) — 규모 6.3 두 번째 지진</text>
+<text x="110" y="195" font-size="15" fill="#4b5563">첫 지진 4분 29초 뒤, 포트올리에서 북서로 170 km</text>
+<circle cx="80" cy="230" r="9" fill="#2563eb"/>
+<text x="110" y="226" font-size="17" font-weight="bold" fill="#111827">02:38 UTC — 쓰나미 위협 첫 메시지</text>
+<text x="110" y="250" font-size="15" fill="#4b5563">진앙 300 km 이내 해안에서 위험한 파도 가능성 경고</text>
+<circle cx="80" cy="285" r="9" fill="#6b7280"/>
+<text x="110" y="281" font-size="17" font-weight="bold" fill="#111827">03:01 UTC — 에스피리투산토 예상 도달 시각</text>
+<text x="110" y="305" font-size="15" fill="#4b5563">모델로 계산한 값이며, 실제 파도 관측이 아니다</text>
+<circle cx="80" cy="340" r="9" fill="#059669"/>
+<text x="110" y="336" font-size="17" font-weight="bold" fill="#111827">03:28 UTC — 쓰나미 위협 종료 선언</text>
+<text x="110" y="360" font-size="15" fill="#4b5563">사소한 해수면 변동 가능성은 남았고, 해안가 주의 당부</text>
+<text x="450" y="405" text-anchor="middle" font-size="15" fill="#111827">05:23 UTC까지 규모 5 이상 지진 최소 <tspan font-weight="bold">10회</tspan> 기록</text>
+</svg>
