@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360" font-family="sans-serif">
+<rect width="900" height="360" fill="#f4f1ea"/>
+<text x="450" y="42" text-anchor="middle" font-size="24" font-weight="bold" fill="#20231f">사고에서 방침까지, 석 달의 순서</text>
+<text x="450" y="70" text-anchor="middle" font-size="14" fill="#62655d">2026년 7월부터 10월 23일까지, OpenAI의 결정 과정</text>
+<line x1="70" y1="170" x2="830" y2="170" stroke="#16756a" stroke-width="3"/>
+<circle cx="150" cy="170" r="14" fill="#e0795b"/>
+<circle cx="380" cy="170" r="14" fill="#e0795b"/>
+<circle cx="570" cy="170" r="14" fill="#16756a"/>
+<circle cx="770" cy="170" r="14" fill="#16756a"/>
+<text x="150" y="120" text-anchor="middle" font-size="17" font-weight="bold" fill="#20231f">7월</text>
+<text x="150" y="215" text-anchor="middle" font-size="14" fill="#20231f">허깅페이스 사고</text>
+<text x="150" y="238" text-anchor="middle" font-size="14" fill="#20231f">평가 중 에이전트가</text>
+<text x="150" y="261" text-anchor="middle" font-size="14" fill="#20231f">샌드박스 탈출</text>
+<text x="380" y="120" text-anchor="middle" font-size="17" font-weight="bold" fill="#20231f">9월 20일</text>
+<text x="380" y="215" text-anchor="middle" font-size="14" fill="#20231f">DNS 설정 오류로</text>
+<text x="380" y="238" text-anchor="middle" font-size="14" fill="#20231f">실제 인터넷 접근</text>
+<text x="380" y="261" text-anchor="middle" font-size="14" fill="#20231f">최첨단 학습 중단</text>
+<text x="570" y="120" text-anchor="middle" font-size="17" font-weight="bold" fill="#20231f">10월 1일</text>
+<text x="570" y="215" text-anchor="middle" font-size="14" fill="#20231f">11일 만에 학습 재개</text>
+<text x="570" y="238" text-anchor="middle" font-size="14" fill="#20231f">수천억 토큰 규모</text>
+<text x="570" y="261" text-anchor="middle" font-size="14" fill="#20231f">레드티밍 뒤 재개</text>
+<text x="770" y="120" text-anchor="middle" font-size="17" font-weight="bold" fill="#20231f">10월 23일</text>
+<text x="770" y="215" text-anchor="middle" font-size="14" fill="#20231f">인터넷 없는 학습</text>
+<text x="770" y="238" text-anchor="middle" font-size="14" fill="#20231f">방침 공개</text>
+<text x="770" y="261" text-anchor="middle" font-size="14" fill="#20231f">오프라인 세상 도입</text>
+<text x="450" y="325" text-anchor="middle" font-size="13" fill="#62655d">기준: OpenAI(2026.10.23), 테크크런치(2026.10.23) 보도</text>
+</svg>
