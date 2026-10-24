@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="330" viewBox="0 0 900 330" font-family="sans-serif">
+<rect width="900" height="330" fill="#ffffff"/>
+<text x="450" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111827">토요일 밤, 최종 집계가 나왔다</text>
+<text x="450" y="68" text-anchor="middle" font-size="14" fill="#6b7280">중앙통신사 토요일 밤 보도와 대만 중앙재해대응센터 오후 5시 집계 기준</text>
+<rect x="60" y="100" width="240" height="120" fill="#fef2f2"/>
+<text x="80" y="140" font-size="16" font-weight="bold" fill="#111827">부상자</text>
+<text x="80" y="175" font-size="20" font-weight="bold" fill="#dc2626">616명</text>
+<text x="80" y="205" font-size="14" fill="#374151">토요일 낮 527명에서 89명 증가</text>
+<rect x="330" y="100" width="240" height="120" fill="#eff6ff"/>
+<text x="350" y="140" font-size="16" font-weight="bold" fill="#111827">피해 신고</text>
+<text x="350" y="175" font-size="20" font-weight="bold" fill="#2563eb">9,027건</text>
+<text x="350" y="205" font-size="14" fill="#374151">쓰러진 나무 3,287건이 가장 많음</text>
+<rect x="600" y="100" width="240" height="120" fill="#fffbeb"/>
+<text x="620" y="140" font-size="16" font-weight="bold" fill="#111827">정전</text>
+<text x="620" y="175" font-size="20" font-weight="bold" fill="#d97706">34만 가구 이상</text>
+<text x="620" y="205" font-size="14" fill="#374151">저녁 잔여 2만 2천 가구, 밤 11시 복구 전망</text>
+<text x="450" y="270" text-anchor="middle" font-size="15" fill="#374151">육상 경보 토요일 14시 30분 해제, 해상 경보 20시 30분 해제 예정 — 열대폭풍으로 약화</text>
+<text x="450" y="300" text-anchor="middle" font-size="13" fill="#6b7280">사망 1명 유지, 이란현 목요일 이후 강수량 650mm — 중심은 일본 남부 쪽으로 이동 중</text>
+</svg>
