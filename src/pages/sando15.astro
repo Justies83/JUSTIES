@@ -1,0 +1,133 @@
+---
+import Base from '../layouts/Base.astro';
+import SectionHead from '../components/SectionHead.astro';
+import { ZONE, type TradeFile } from '../data/sando15';
+import tradeFile from '../data/sando15-trades.json';
+
+const { updated, trades } = tradeFile as TradeFile;
+const recent = [...trades].sort((a, b) => b.date.localeCompare(a.date)).slice(0, 30);
+const won = (manwon: number) => `${(manwon / 10000).toFixed(2).replace(/\.?0+$/, '')}억`;
+---
+
+<Base
+  title="상도15구역 실거래"
+  description="상도15구역 재개발 구역의 실거래가와 사업 단계를 한 곳에서 봅니다."
+>
+  <div class="shell">
+    <section class="section">
+      <SectionHead
+        eyebrow="REDEVELOPMENT"
+        title={`${ZONE.name} 실거래.`}
+        note={`${ZONE.district}. ${ZONE.method}. 국토교통부 실거래가 신고 자료 중 구역 지번에 해당하는 거래만 모읍니다.`}
+      />
+
+      <dl class="facts reveal">
+        {ZONE.facts.map((f) => (
+          <div>
+            <dt class="mono">{f.label}</dt>
+            <dd>{f.value}</dd>
+          </div>
+        ))}
+      </dl>
+    </section>
+
+    <section class="section">
+      <SectionHead eyebrow="TRADES" title="구역 내 거래." />
+
+      {recent.length > 0 ? (
+        <div class="table-wrap reveal">
+          <table>
+            <thead>
+              <tr>
+                <th>계약일</th>
+                <th>유형</th>
+                <th>건물 · 지번</th>
+                <th class="num">전용㎡</th>
+                <th class="num">층</th>
+                <th class="num">금액</th>
+              </tr>
+            </thead>
+            <tbody>
+              {recent.map((t) => (
+                <tr>
+                  <td class="mono">{t.date}</td>
+                  <td>{t.kind}</td>
+                  <td>{t.where}</td>
+                  <td class="num">{t.area}</td>
+                  <td class="num">{t.floor ?? '—'}</td>
+                  <td class="num">{won(t.price)}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+          <p class="mono table-note">
+            최근 {recent.length}건 · 해제 거래 제외 · 갱신 {updated?.slice(0, 10)}
+          </p>
+        </div>
+      ) : (
+        <div class="empty">
+          <strong>아직 수집한 거래가 없습니다.</strong>
+          <p>국토교통부 API 연결 전입니다. 연결되면 이 표가 채워집니다.</p>
+        </div>
+      )}
+
+      <ul class="limits">
+        <li>조합원 지분·입주권·토지 거래는 공개 API가 없어 포함하지 않습니다.</li>
+        <li>실거래 신고는 계약 후 30일 이내라 최근 거래는 늦게 보입니다.</li>
+        <li>이 표는 참고용 기록이며 투자 권유가 아닙니다.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <SectionHead eyebrow="STAGE" title="사업 단계." note={`${ZONE.checked} 확인. 최신 단계는 서울시 정비사업 정보몽땅이 먼저 갱신됩니다.`} />
+
+      <ol class="timeline reveal">
+        {ZONE.timeline.map((s) => (
+          <li>
+            <span class="mono">{s.date}</span>
+            <span>{s.event}</span>
+          </li>
+        ))}
+      </ol>
+
+      <p class="links">
+        <a class="ink-button" href={ZONE.tracker} rel="noopener" target="_blank">정보몽땅에서 확인 →</a>
+        {ZONE.sources.map((s) => (
+          <a class="plain-link" href={s.href} rel="noopener" target="_blank">{s.title} →</a>
+        ))}
+      </p>
+    </section>
+  </div>
+</Base>
+
+<style>
+  .facts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+    gap: 1px;
+    margin: 2rem 0 0;
+    background: var(--line);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    overflow: hidden;
+  }
+  .facts div { background: var(--card); padding: 1rem 1.2rem; }
+  .facts dt { font-size: 0.75rem; color: var(--soft); letter-spacing: 0.04em; }
+  .facts dd { margin: 0.2rem 0 0; font-weight: 600; }
+
+  .table-wrap { margin-top: 1.5rem; overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+  th, td { padding: 0.6rem 0.8rem; text-align: left; border-bottom: 1px solid var(--line-soft); white-space: nowrap; }
+  th { font-weight: 600; color: var(--soft); font-size: 0.8rem; border-bottom-color: var(--line); }
+  .num { text-align: right; font-variant-numeric: tabular-nums; }
+  .table-note { margin: 0.8rem 0 0; font-size: 0.75rem; color: var(--soft); }
+
+  .limits { margin: 1.5rem 0 0; padding-left: 1.1rem; color: var(--soft); font-size: 0.9rem; }
+
+  .timeline { list-style: none; margin: 1.5rem 0 0; padding: 0; border-left: 2px solid var(--teal-wash); }
+  .timeline li { display: grid; grid-template-columns: 7rem 1fr; gap: 1rem; padding: 0.5rem 0 0.5rem 1.2rem; }
+  .timeline .mono { font-size: 0.85rem; color: var(--teal-dark); }
+  @media (max-width: 34rem) { .timeline li { grid-template-columns: 1fr; gap: 0; } }
+
+  .links { display: flex; flex-wrap: wrap; align-items: center; gap: 0.8rem 1.4rem; margin-top: 1.5rem; }
+</style>
