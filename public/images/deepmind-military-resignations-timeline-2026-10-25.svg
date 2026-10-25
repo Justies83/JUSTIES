@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="sans-serif">
+<rect width="900" height="520" fill="#f4f1ea"/>
+<text x="40" y="48" font-size="26" font-weight="bold" fill="#20231f">딥마인드 군용 AI 갈등, 어떻게 여기까지 왔나</text>
+<text x="40" y="78" font-size="15" fill="#62655d">계약과 사직, 보도가 이어진 순서 — 날짜는 각 보도가 확인한 시점</text>
+<line x1="60" y1="250" x2="840" y2="250" stroke="#20231f" stroke-width="3"/>
+<circle cx="100" cy="250" r="12" fill="#16756a"/>
+<circle cx="260" cy="250" r="12" fill="#16756a"/>
+<circle cx="420" cy="250" r="12" fill="#e0795b"/>
+<circle cx="580" cy="250" r="12" fill="#e0795b"/>
+<circle cx="740" cy="250" r="12" fill="#20231f"/>
+<text x="100" y="210" font-size="17" font-weight="bold" fill="#20231f" text-anchor="middle">2024년</text>
+<text x="100" y="300" font-size="15" fill="#20231f" text-anchor="middle">프로젝트 님부스</text>
+<text x="100" y="324" font-size="15" fill="#20231f" text-anchor="middle">12억 달러 계약</text>
+<text x="100" y="348" font-size="15" fill="#62655d" text-anchor="middle">(아마존과 공동)</text>
+<text x="260" y="210" font-size="17" font-weight="bold" fill="#20231f" text-anchor="middle">2026년 4월</text>
+<text x="260" y="300" font-size="15" fill="#20231f" text-anchor="middle">직원 약 600명 청원</text>
+<text x="260" y="324" font-size="15" fill="#20231f" text-anchor="middle">기밀 군사 업무 중단 요구</text>
+<text x="420" y="210" font-size="17" font-weight="bold" fill="#20231f" text-anchor="middle">2026년 6월</text>
+<text x="420" y="300" font-size="15" fill="#20231f" text-anchor="middle">터너·마이어호퍼 사직</text>
+<text x="420" y="324" font-size="15" fill="#20231f" text-anchor="middle">양심·도덕적 나침반 언급</text>
+<text x="580" y="210" font-size="17" font-weight="bold" fill="#20231f" text-anchor="middle">2026년 10월</text>
+<text x="580" y="300" font-size="15" fill="#20231f" text-anchor="middle">키르슈·리구오리 사직</text>
+<text x="580" y="324" font-size="15" fill="#20231f" text-anchor="middle">실명으로 BBC에 입장 표명</text>
+<text x="740" y="210" font-size="17" font-weight="bold" fill="#20231f" text-anchor="middle">2026.10.21</text>
+<text x="740" y="300" font-size="15" fill="#20231f" text-anchor="middle">BBC 보도</text>
+<text x="740" y="324" font-size="15" fill="#20231f" text-anchor="middle">연쇄 사직 사실 공표</text>
+<text x="40" y="420" font-size="15" fill="#62655d">사직자 총수는 확인되지 않았다. 실명을 밝힌 두 사람 외에 떠났거나 떠날 준비 중인 직원이 있다고 BBC는 전했다.</text>
+<text x="40" y="490" font-size="13" fill="#62655d">도표는 BBC 보도와 관련 보도의 날짜로 직접 작성했다.</text>
+</svg>
