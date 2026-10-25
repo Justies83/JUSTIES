@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360">
+<rect width="900" height="360" fill="#0b1020"/>
+<text x="40" y="42" font-family="sans-serif" font-size="24" font-weight="bold" fill="#ffffff">스위프트, 발사부터 마지막 관측까지</text>
+<text x="40" y="68" font-family="sans-serif" font-size="14" fill="#9aa7c7">설계 수명 2년이 22년으로 늘어난 여정 — 날짜와 수치는 NASA 발표 기준</text>
+<line x1="60" y1="110" x2="860" y2="110" stroke="#3b82f6" stroke-width="3"/>
+<circle cx="90" cy="110" r="8" fill="#fbbf24"/><circle cx="250" cy="110" r="8" fill="#fbbf24"/><circle cx="410" cy="110" r="8" fill="#fbbf24"/><circle cx="570" cy="110" r="8" fill="#fbbf24"/><circle cx="730" cy="110" r="8" fill="#fbbf24"/><circle cx="850" cy="110" r="8" fill="#ef4444"/>
+<text x="90" y="145" font-family="sans-serif" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">2004.11.20</text>
+<text x="90" y="168" font-family="sans-serif" font-size="13" fill="#cbd5e1" text-anchor="middle">델타 II로 발사</text>
+<text x="250" y="145" font-family="sans-serif" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">2005.05</text>
+<text x="250" y="168" font-family="sans-serif" font-size="13" fill="#cbd5e1" text-anchor="middle">GRB 050509B</text>
+<text x="250" y="188" font-family="sans-serif" font-size="13" fill="#cbd5e1" text-anchor="middle">0.03초 폭발 잔광 포착</text>
+<text x="410" y="145" font-family="sans-serif" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">2018</text>
+<text x="410" y="168" font-family="sans-serif" font-size="13" fill="#cbd5e1" text-anchor="middle">닐 게럴스 이름으로</text>
+<text x="410" y="188" font-family="sans-serif" font-size="13" fill="#cbd5e1" text-anchor="middle">개명</text>
+<text x="570" y="145" font-family="sans-serif" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">2026.07.03</text>
+<text x="570" y="168" font-family="sans-serif" font-size="13" fill="#cbd5e1" text-anchor="middle">구조 위성 링크 발사</text>
+<text x="730" y="145" font-family="sans-serif" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">2026.08</text>
+<text x="730" y="168" font-family="sans-serif" font-size="13" fill="#cbd5e1" text-anchor="middle">궤도 올리기 시도 없이</text>
+<text x="730" y="188" font-family="sans-serif" font-size="13" fill="#cbd5e1" text-anchor="middle">구조 중단</text>
+<text x="850" y="145" font-family="sans-serif" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">2026.10.20</text>
+<text x="850" y="168" font-family="sans-serif" font-size="13" fill="#cbd5e1" text-anchor="middle">마지막 관측</text>
+<text x="40" y="240" font-family="sans-serif" font-size="15" fill="#e2e8f0">2026년 10월 23일 — NASA, 과학 임무 종료 발표. 재진입은 앞으로 몇 주 안, 11월로 예상된다.</text>
+<text x="40" y="268" font-family="sans-serif" font-size="15" fill="#e2e8f0">정확한 재진입 날짜와 장소는 아직 발표되지 않았다. NASA 발표는 “앞으로 몇 주 안에”라는 표현까지만 쓴다.</text>
+<text x="40" y="310" font-family="sans-serif" font-size="13" fill="#94a3b8">출처: NASA 스위프트 임무 종료 발표(2026.10.23) · NASA 스위프트 블로그 · AP 보도(링크 구조 미션)</text>
+</svg>
