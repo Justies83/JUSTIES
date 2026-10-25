@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="sans-serif">
+<rect width="900" height="520" fill="#f4f1ea"/>
+<text x="450" y="48" text-anchor="middle" font-size="26" font-weight="bold" fill="#20231f">Terminal-Bench 4.0 점수 비교 (%)</text>
+<text x="450" y="76" text-anchor="middle" font-size="14" fill="#62655d">코딩 에이전트 벤치마크 — 문샷 AI 기술 블로그(2026.10.23) 공개 수치</text>
+<!-- Claude Opus 5.5 -->
+<text x="60" y="150" font-size="18" fill="#20231f">클로드 오퍼스 5.5</text>
+<rect x="240" y="128" width="596" height="34" fill="#62655d"/>
+<text x="828" y="151" text-anchor="end" font-size="18" font-weight="bold" fill="#ffffff">66.4</text>
+<!-- Kimi K3.1 Pro -->
+<text x="60" y="230" font-size="18" font-weight="bold" fill="#20231f">Kimi K3.1 Pro</text>
+<rect x="240" y="208" width="590" height="34" fill="#16756a"/>
+<text x="822" y="231" text-anchor="end" font-size="18" font-weight="bold" fill="#ffffff">65.7</text>
+<!-- GPT-6 Astra -->
+<text x="60" y="310" font-size="18" fill="#20231f">GPT-6 Astra</text>
+<rect x="240" y="288" width="523" height="34" fill="#e0795b"/>
+<text x="755" y="311" text-anchor="end" font-size="18" font-weight="bold" fill="#ffffff">58.2</text>
+<text x="60" y="380" font-size="16" fill="#20231f">K3.1 Pro는 GPT-6 Astra를 앞지르고 오퍼스 5.5에 0.7점 차로 다가섰다.</text>
+<text x="60" y="410" font-size="16" fill="#20231f">다만 이 수치는 문샷 자체 발표이며, 최대 추론 노력 설정에서 측정됐다.</text>
+<text x="60" y="486" font-size="13" font-family="monospace" fill="#62655d">출처: 문샷 AI 기술 블로그(2026.10.23) · 측정: Terminal-Bench 4.0</text>
+</svg>
