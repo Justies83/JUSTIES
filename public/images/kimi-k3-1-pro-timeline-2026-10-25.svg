@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="sans-serif">
+<rect width="900" height="520" fill="#f4f1ea"/>
+<text x="450" y="48" text-anchor="middle" font-size="26" font-weight="bold" fill="#20231f">Kimi K3.1 Pro 관련 일정</text>
+<text x="450" y="76" text-anchor="middle" font-size="14" fill="#62655d">가중치 공개 전까지는 호스티드 서비스로만 이용 가능</text>
+<line x1="80" y1="250" x2="820" y2="250" stroke="#62655d" stroke-width="3"/>
+<circle cx="170" cy="250" r="16" fill="#62655d"/>
+<circle cx="450" cy="250" r="16" fill="#16756a"/>
+<circle cx="730" cy="250" r="16" fill="#e0795b" stroke="#20231f" stroke-width="2" stroke-dasharray="4 3"/>
+<text x="170" y="200" text-anchor="middle" font-size="18" font-weight="bold" fill="#20231f">2026년 7월</text>
+<text x="170" y="300" text-anchor="middle" font-size="16" fill="#20231f">K3 가중치 공개</text>
+<text x="170" y="326" text-anchor="middle" font-size="16" fill="#20231f">당시 최대 규모 오픈 모델</text>
+<text x="450" y="200" text-anchor="middle" font-size="18" font-weight="bold" fill="#20231f">2026년 10월 23일</text>
+<text x="450" y="300" text-anchor="middle" font-size="16" fill="#20231f">K3.1 Pro 호스티드 출시</text>
+<text x="450" y="326" text-anchor="middle" font-size="16" fill="#20231f">앱 · API로 이용 가능</text>
+<text x="730" y="200" text-anchor="middle" font-size="18" font-weight="bold" fill="#20231f">2026년 11월 4일</text>
+<text x="730" y="300" text-anchor="middle" font-size="16" fill="#20231f">K3.1 Pro 가중치 공개 예정</text>
+<text x="730" y="326" text-anchor="middle" font-size="16" fill="#20231f">외부 검증이 시작되는 날</text>
+<text x="60" y="486" font-size="13" font-family="monospace" fill="#62655d">출처: 문샷 AI 기술 블로그(2026.10.23) · CGTN(2026.10.24)</text>
+</svg>
