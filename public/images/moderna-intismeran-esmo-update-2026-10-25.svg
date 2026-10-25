@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" font-family="sans-serif">
+<rect width="900" height="520" fill="#ffffff"/>
+<text x="450" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111827">ESMO 2026 LBA1 — 발표에서 새로 나온 위험비</text>
+<text x="450" y="68" text-anchor="middle" font-size="14" fill="#6b7280">INTerpath-001, 온클라이브 2026.10.24 발표 보도 수치</text>
+<line x1="200" y1="96" x2="800" y2="96" stroke="#d1d5db" stroke-width="1"/>
+<line x1="800" y1="96" x2="800" y2="440" stroke="#ef4444" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="800" y="86" text-anchor="middle" font-size="13" fill="#ef4444">차이 없음 (1.0)</text>
+<text x="40" y="140" font-size="16" font-weight="bold" fill="#111827">전체 무재발 생존</text>
+<rect x="200" y="118" width="600" height="34" fill="#e5e7eb"/>
+<rect x="200" y="118" width="348" height="34" fill="#1d4ed8"/>
+<text x="560" y="141" font-size="16" font-weight="bold" fill="#1d4ed8">0.58</text>
+<text x="40" y="200" font-size="16" font-weight="bold" fill="#111827">병기 낮은 군</text>
+<text x="40" y="222" font-size="13" fill="#6b7280">2B·2C·3A·3B기</text>
+<rect x="200" y="178" width="600" height="34" fill="#e5e7eb"/>
+<rect x="200" y="178" width="360" height="34" fill="#1d4ed8"/>
+<text x="572" y="201" font-size="16" font-weight="bold" fill="#1d4ed8">0.60</text>
+<text x="40" y="260" font-size="16" font-weight="bold" fill="#111827">병기 높은 군</text>
+<text x="40" y="282" font-size="13" fill="#6b7280">3C·3D·4기</text>
+<rect x="200" y="238" width="600" height="34" fill="#e5e7eb"/>
+<rect x="200" y="238" width="342" height="34" fill="#1d4ed8"/>
+<text x="554" y="261" font-size="16" font-weight="bold" fill="#1d4ed8">0.57</text>
+<text x="40" y="320" font-size="16" font-weight="bold" fill="#111827">6개월 이후 무재발</text>
+<rect x="200" y="298" width="600" height="34" fill="#e5e7eb"/>
+<rect x="200" y="298" width="252" height="34" fill="#059669"/>
+<text x="464" y="321" font-size="16" font-weight="bold" fill="#059669">0.42</text>
+<text x="40" y="380" font-size="16" font-weight="bold" fill="#111827">전체 생존</text>
+<text x="40" y="402" font-size="13" fill="#6b7280">유의성 경계 미도달</text>
+<rect x="200" y="358" width="600" height="34" fill="#e5e7eb"/>
+<rect x="200" y="358" width="462" height="34" fill="#9ca3af"/>
+<text x="674" y="381" font-size="16" font-weight="bold" fill="#374151">0.77</text>
+<text x="450" y="440" text-anchor="middle" font-size="15" fill="#111827">막대가 짧을수록 백신 병용군이 유리하다 · 전체 생존만 아직 통계적 확증이 없다</text>
+<text x="450" y="470" text-anchor="middle" font-size="14" fill="#6b7280">전체 생존 95% 신뢰구간 0.45–1.31, p = 0.33 · 중앙 추적 24.6개월</text>
+</svg>
