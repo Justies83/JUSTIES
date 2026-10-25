@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" font-family="sans-serif">
+<rect width="900" height="420" fill="#f4f1ea"/>
+<text x="40" y="55" font-size="30" font-weight="bold" fill="#20231f">MAI-DxO, 프리프린트에서 임상 검증으로</text>
+<line x1="70" y1="200" x2="830" y2="200" stroke="#16756a" stroke-width="4"/>
+<circle cx="120" cy="200" r="16" fill="#16756a"/>
+<circle cx="450" cy="200" r="16" fill="#e0795b"/>
+<circle cx="780" cy="200" r="16" fill="#62655d"/>
+<text x="120" y="150" font-size="22" font-weight="bold" fill="#20231f" text-anchor="middle">2025년 6월</text>
+<text x="120" y="250" font-size="20" fill="#20231f" text-anchor="middle">프리프린트 공개</text>
+<text x="120" y="280" font-size="20" fill="#20231f" text-anchor="middle">o3 모델 80%</text>
+<text x="450" y="150" font-size="22" font-weight="bold" fill="#20231f" text-anchor="middle">2026년 10월 22일</text>
+<text x="450" y="250" font-size="20" fill="#20231f" text-anchor="middle">사이언스 논문 게재</text>
+<text x="450" y="280" font-size="20" fill="#20231f" text-anchor="middle">GPT-5 기준 83.2%</text>
+<text x="780" y="150" font-size="22" font-weight="bold" fill="#20231f" text-anchor="middle">다음 단계</text>
+<text x="780" y="250" font-size="20" fill="#20231f" text-anchor="middle">베스이스라엘 응급실</text>
+<text x="780" y="280" font-size="20" fill="#20231f" text-anchor="middle">환자 분류 검증 예정</text>
+<text x="40" y="360" font-size="15" fill="#62655d">출처: 마이크로소프트 AI 발표, 테크크런치·로이터 보도 내용을 바탕으로 작성</text>
+</svg>
