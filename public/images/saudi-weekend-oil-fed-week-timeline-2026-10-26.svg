@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="sans-serif">
+<rect width="900" height="520" fill="#f4f1ea"/>
+<text x="40" y="48" font-size="26" font-weight="bold" fill="#20231f">주말 요격전부터 연준 주간까지</text>
+<text x="40" y="78" font-size="15" fill="#62655d">10월 23일 유가 마감부터 10월 29일 아마존 실적까지</text>
+<line x1="60" y1="250" x2="840" y2="250" stroke="#20231f" stroke-width="3"/>
+<circle cx="100" cy="250" r="12" fill="#16756a"/>
+<circle cx="250" cy="250" r="12" fill="#e0795b"/>
+<circle cx="400" cy="250" r="12" fill="#e0795b"/>
+<circle cx="550" cy="250" r="12" fill="#20231f"/>
+<circle cx="700" cy="250" r="12" fill="#16756a"/>
+<circle cx="830" cy="250" r="12" fill="#16756a"/>
+<text x="100" y="210" font-size="16" font-weight="bold" fill="#20231f" text-anchor="middle">10월 23일 금</text>
+<text x="100" y="300" font-size="14" fill="#20231f" text-anchor="middle">브렌트 116.72달러</text>
+<text x="100" y="324" font-size="14" fill="#20231f" text-anchor="middle">WTI 103.27달러 마감</text>
+<text x="250" y="210" font-size="16" font-weight="bold" fill="#20231f" text-anchor="middle">10월 24일 토</text>
+<text x="250" y="300" font-size="14" fill="#20231f" text-anchor="middle">메카·메디나 지역</text>
+<text x="250" y="324" font-size="14" fill="#20231f" text-anchor="middle">요격 파편 낙하</text>
+<text x="400" y="210" font-size="16" font-weight="bold" fill="#20231f" text-anchor="middle">10월 25일 일</text>
+<text x="400" y="300" font-size="14" fill="#20231f" text-anchor="middle">리야드 요격, 남부</text>
+<text x="400" y="324" font-size="14" fill="#20231f" text-anchor="middle">10발 요격·공항 부분 재개</text>
+<text x="550" y="210" font-size="16" font-weight="bold" fill="#20231f" text-anchor="middle">10월 26일 월</text>
+<text x="550" y="300" font-size="14" fill="#20231f" text-anchor="middle">연준 주간 시작</text>
+<text x="550" y="324" font-size="14" fill="#20231f" text-anchor="middle">시카고·댈러스 연은 지표</text>
+<text x="700" y="210" font-size="16" font-weight="bold" fill="#20231f" text-anchor="middle">10월 28일 수</text>
+<text x="700" y="300" font-size="14" fill="#20231f" text-anchor="middle">연준 결정 오후 2시</text>
+<text x="700" y="324" font-size="14" fill="#20231f" text-anchor="middle">MS·알파벳 장 마감 뒤 실적</text>
+<text x="830" y="210" font-size="16" font-weight="bold" fill="#20231f" text-anchor="middle">10월 29일 목</text>
+<text x="830" y="300" font-size="14" fill="#20231f" text-anchor="middle">아마존 장 마감</text>
+<text x="830" y="324" font-size="14" fill="#20231f" text-anchor="middle">뒤 3분기 실적</text>
+<text x="40" y="470" font-size="14" fill="#62655d">도표는 로이터 보도와 블룸버그 인용 유가 정산가, 연준 조사와 실적 일정을 정리해 직접 만들었다.</text>
+</svg>
