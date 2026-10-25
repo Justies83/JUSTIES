@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="sans-serif">
+<rect width="900" height="520" fill="#f4f1ea"/>
+<text x="40" y="48" font-size="26" font-weight="bold" fill="#20231f">59장은 어떻게 나왔나 — Cerebras의 웨이퍼 계산</text>
+<text x="40" y="78" font-size="15" fill="#62655d">전제: 약 3조 파라미터 × 4비트 양자화 = 약 1.5TB 가중치 / 93개 층 = 층당 약 16GB / 웨이퍼당 44GB</text>
+<text x="40" y="130" font-size="18" fill="#20231f">선형 어텐션 층 69개 → 웨이퍼 35장 (층 2개씩)</text>
+<rect x="40" y="145" width="560" height="44" fill="#16756a"/>
+<text x="615" y="174" font-size="18" font-weight="bold" fill="#20231f">35장</text>
+<text x="40" y="225" font-size="18" fill="#20231f">밀집 어텐션 층 24개 → 웨이퍼 24장 (층 1개씩, 나머지는 KV 캐시)</text>
+<rect x="40" y="240" width="384" height="44" fill="#e0795b"/>
+<text x="439" y="269" font-size="18" font-weight="bold" fill="#20231f">24장</text>
+<text x="40" y="330" font-size="18" fill="#20231f">합계</text>
+<rect x="40" y="345" width="900" height="0" fill="none"/>
+<text x="40" y="380" font-size="30" font-weight="bold" fill="#20231f">35 + 24 = 59장</text>
+<text x="40" y="420" font-size="15" fill="#62655d">용량만 따지면 1.5TB ÷ 44GB ≈ 35장이면 되지만, 층 구조와 KV 캐시 자리까지 챙기면 59장이 된다.</text>
+<text x="40" y="490" font-size="13" fill="#62655d">도표는 Cerebras(2026.10.22) 기술 블로그의 수치로 직접 작성했다.</text>
+</svg>
