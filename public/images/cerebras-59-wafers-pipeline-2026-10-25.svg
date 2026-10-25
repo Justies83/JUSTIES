@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="sans-serif">
+<rect width="900" height="520" fill="#f4f1ea"/>
+<text x="40" y="48" font-size="26" font-weight="bold" fill="#20231f">파이프라인: 가중치는 제자리, 결과만 이동한다</text>
+<text x="40" y="78" font-size="15" fill="#62655d">웨이퍼 1개 = 조립 라인의 한 공정. 요청 A·B·C가 서로 다른 공정에서 동시에 처리된다.</text>
+<rect x="40" y="130" width="150" height="90" fill="#16756a"/>
+<text x="115" y="170" font-size="17" fill="#ffffff" text-anchor="middle">웨이퍼 1</text>
+<text x="115" y="195" font-size="14" fill="#ffffff" text-anchor="middle">요청 A</text>
+<rect x="230" y="130" width="150" height="90" fill="#16756a"/>
+<text x="305" y="170" font-size="17" fill="#ffffff" text-anchor="middle">웨이퍼 2</text>
+<text x="305" y="195" font-size="14" fill="#ffffff" text-anchor="middle">요청 B</text>
+<rect x="420" y="130" width="150" height="90" fill="#16756a"/>
+<text x="495" y="170" font-size="17" fill="#ffffff" text-anchor="middle">웨이퍼 3</text>
+<text x="495" y="195" font-size="14" fill="#ffffff" text-anchor="middle">요청 C</text>
+<text x="610" y="165" font-size="28" fill="#62655d">…</text>
+<rect x="680" y="130" width="150" height="90" fill="#e0795b"/>
+<text x="755" y="170" font-size="17" fill="#ffffff" text-anchor="middle">웨이퍼 59</text>
+<text x="755" y="195" font-size="14" fill="#ffffff" text-anchor="middle">다음 토큰</text>
+<text x="40" y="280" font-size="17" fill="#20231f">웨이퍼 사이를 오가는 것은 가중치가 아니라 중간 결과(활성화)뿐이다.</text>
+<text x="40" y="312" font-size="17" fill="#20231f">웨이퍼 간 이동은 RDMA over Ethernet, 홉당 약 2마이크로초라고 Cerebras는 설명한다.</text>
+<text x="40" y="360" font-size="17" fill="#20231f">작은 마이크로배치: 개별 요청이 빨라진다. 큰 마이크로배치: 전체 처리량이 늘어난다.</text>
+<text x="40" y="408" font-size="17" fill="#20231f">파이프라인이 길수록 빈 공정을 채울 요청이 많이 필요하고, 그만큼 KV 캐시 자리도 든다.</text>
+<text x="40" y="490" font-size="13" fill="#62655d">도표는 Cerebras(2026.10.22) 기술 블로그의 설명으로 직접 작성했다.</text>
+</svg>
