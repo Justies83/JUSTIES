@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="sans-serif">
+<rect width="900" height="520" fill="#f4f1ea"/>
+<text x="40" y="60" font-size="30" font-weight="bold" fill="#20231f">복잡한 증례 진단 정확도 — NEJM 304건</text>
+<text x="40" y="100" font-size="18" fill="#62655d">MAI-DxO(GPT-5) vs 일반의 — 마이크로소프트 AI 발표(2026.10.22) 수치</text>
+<text x="40" y="170" font-size="22" fill="#20231f">MAI-DxO + GPT-5</text>
+<rect x="40" y="185" width="666" height="44" fill="#16756a"/>
+<text x="716" y="216" font-size="24" font-weight="bold" fill="#20231f">83.2%</text>
+<text x="40" y="290" font-size="22" fill="#20231f">일반의 — 참고 자료 사용</text>
+<rect x="40" y="305" width="289" height="44" fill="#e0795b"/>
+<text x="339" y="336" font-size="24" font-weight="bold" fill="#20231f">36.1%</text>
+<text x="40" y="410" font-size="22" fill="#20231f">일반의 — 참고 자료 없음</text>
+<rect x="40" y="425" width="178" height="44" fill="#62655d"/>
+<text x="228" y="456" font-size="24" font-weight="bold" fill="#20231f">22.3%</text>
+<text x="40" y="505" font-size="15" fill="#62655d">주: 의사 평균은 304건 전체가 아니라 따로 떼어낸 56건 기준. 전문의 팀은 비교군에 없음.</text>
+</svg>
