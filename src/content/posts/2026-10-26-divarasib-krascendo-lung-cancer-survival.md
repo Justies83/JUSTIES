@@ -16,7 +16,7 @@ source:
 
 <p align="center"><img src="/images/divarasib-krascendo-lung-cancer-survival-2026-10-26.jpg" alt="스위스 바젤에 있는 로슈 타워 건물, 2015년 9월 촬영" style="max-width:100%;height:auto;"/></p>
 
-<p align="center" class="caption">사진: 2015년 9월의 스위스 바젤 로슈 타워(빌딩 1). Wikimedia Commons에 공개된 사진으로, 디바라십 자체의 사진이 아니라 개발사 본사 건물 사진이다.</p>
+<p align="center" class="caption">사진: 2015년 9월 27일 촬영한 스위스 바젤 로슈 타워(빌딩 1). Taxiarchos228, Wikimedia Commons, Free Art License — 디바라십 자체의 사진이 아니라 개발사 본사 건물 사진이다.</p>
 
 <p align="center">결과부터 정리하면 이렇다.<br/>이미 치료받은 적 있는 KRAS G12C 변이 비소세포폐암 환자에서, 디바라십을 쓴 그룹은 중앙값 기준으로 <strong>17.7개월을</strong> 살았다.<br/>기존 KRAS 억제제인 소토라십이나 아다그라십을 쓴 그룹은 <strong>12.0개월이었다.</strong><br/>차이는 <strong>5.7개월이다.</strong><br/>사망 위험을 상대적으로 따지면 <strong>44% 낮아졌고</strong>, 위험비는 <strong>0.56</strong>, 95% 신뢰구간은 0.41에서 0.78, p값은 0.0005였다.<br/>우연으로 보기 어려운 수준이라는 뜻이다.<br/>이 결과가 유럽종양학회 ESMO 2026 프레지덴셜 심포지엄에서 늦은 속보 초록으로 발표된 바로 그날, 뉴잉글랜드 저널 오브 메디신에도 함께 실렸다.<br/>학회 발표와 학술지 게재가 같은 날 이뤄졌다는 점 자체가, 이번 결과를 얼마나 무겁게 다루는지 보여준다.</p>
 
