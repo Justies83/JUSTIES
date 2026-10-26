@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="380" viewBox="0 0 880 380" font-family="sans-serif">
+<rect width="880" height="380" fill="#ffffff"/>
+<text x="40" y="36" font-size="22" font-weight="bold" fill="#111111">3분기 중소기업 주요 품목 수출액 (억 달러)</text>
+<text x="40" y="62" font-size="14" fill="#555555">전년 동기 대비 증가율 함께 표시 · 자동차만 감소</text>
+<g font-size="15" fill="#111111">
+<text x="40" y="108">화장품</text>
+<rect x="190" y="90" width="279" height="24" fill="#c0392b"/>
+<text x="480" y="108">27.9 · +28.6%</text>
+<text x="40" y="152">반도체</text>
+<rect x="190" y="134" width="139" height="24" fill="#2471a3"/>
+<text x="340" y="152">13.9 · +68.8%</text>
+<text x="40" y="196">반도체 제조용 장비</text>
+<rect x="190" y="178" width="114" height="24" fill="#2471a3"/>
+<text x="315" y="196">11.4 · +38.3%</text>
+<text x="40" y="240">석유제품</text>
+<rect x="190" y="222" width="66" height="24" fill="#7d6608"/>
+<text x="267" y="240">6.6 · +29.3%</text>
+<text x="40" y="284">자동차</text>
+<rect x="190" y="266" width="151" height="24" fill="#7f8c8d"/>
+<text x="352" y="284">15.1 · -42.4%</text>
+</g>
+<text x="40" y="330" font-size="13" fill="#555555">출처: 중소벤처기업부 2026년 3분기 중소기업 수출 동향 (2026.10.26 발표 보도 기준)</text>
+<text x="40" y="354" font-size="13" fill="#555555">막대 길이는 수출액에 비례. 화장품·반도체·반도체 제조용 장비는 역대 3분기 최대.</text>
+</svg>
