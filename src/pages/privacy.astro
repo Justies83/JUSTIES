@@ -3,7 +3,7 @@ import Base from '../layouts/Base.astro';
 import SectionHead from '../components/SectionHead.astro';
 import { site } from '../data/site';
 
-const updated = '2026-08-25';
+const updated = '2026-10-26';
 ---
 
 <Base
@@ -30,9 +30,9 @@ const updated = '2026-08-25';
         <h2>브라우저에 저장되는 것</h2>
         <ul>
           <li>
-            <strong>화면 모드</strong> — 밝은 화면과 어두운 화면 중 어느 쪽을 고르셨는지
-            브라우저의 로컬 저장소에 남습니다. 이 값은 이 사이트 밖으로 전송되지 않으며,
-            브라우저 데이터를 지우면 함께 사라집니다.
+            <strong>주제 정렬 방식</strong> — 주제 목록에서 최신순과 조회순 중 어느 쪽을
+            고르셨는지 브라우저의 로컬 저장소에 남습니다. 이 값은 이 사이트 밖으로
+            전송되지 않으며, 브라우저 데이터를 지우면 함께 사라집니다.
           </li>
           <li>
             <strong>관리자 세션</strong> — 운영자가 편집 화면이나 비공개 영역에
@@ -98,7 +98,7 @@ const updated = '2026-08-25';
 
         <h2>문의</h2>
         {site.contact ? (
-          <p>정정 요청이나 문의는 <a href={`mailto:${site.contact}`}>{site.contact}</a> 로 보내 주세요.</p>
+          <p>정정 요청이나 문의는 <a href="/contact">연락처</a> 페이지 안내에 따라 <a href={`mailto:${site.contact}`}>{site.contact}</a> 로 보내 주세요.</p>
         ) : (
           <p>
             연락 방법은 아직 공개하지 않았습니다. 필요해지면 이 자리에 적겠습니다.
