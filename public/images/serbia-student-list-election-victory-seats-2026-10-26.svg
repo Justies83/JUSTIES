@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300">
+<rect width="900" height="300" fill="#faf8f3"/>
+<text x="40" y="40" font-size="22" font-weight="bold" fill="#222">세르비아 의회 250석 — 전망 기준 의석 분포</text>
+<text x="40" y="66" font-size="14" fill="#666">Ipsos/CeSID 전망과 부치치의 표본 추산에 근거한 정리. 최종 공식 집계가 아니다.</text>
+<text x="40" y="112" font-size="16" fill="#222">학생 명단</text>
+<rect x="200" y="94" width="552" height="26" fill="#2e6f4e"/>
+<text x="762" y="114" font-size="16" font-weight="bold" fill="#222">138석 (52.0%)</text>
+<text x="40" y="162" font-size="16" fill="#222">부치치 측 명단</text>
+<rect x="200" y="144" width="416" height="26" fill="#8a8a8a"/>
+<text x="626" y="164" font-size="16" font-weight="bold" fill="#222">104석 (39.3%)</text>
+<text x="40" y="212" font-size="16" fill="#222">기타 명단 (나머지)</text>
+<rect x="200" y="194" width="32" height="26" fill="#c9a227"/>
+<text x="242" y="214" font-size="16" font-weight="bold" fill="#222">8석</text>
+<line x1="200" y1="240" x2="200" y2="252" stroke="#b00" stroke-width="2"/>
+<text x="40" y="272" font-size="14" fill="#666">과반 기준은 126석. 부치치 본인의 추산은 학생 명단 135석에서 140석 사이, 자기 진영 105석이었다.</text>
+</svg>
