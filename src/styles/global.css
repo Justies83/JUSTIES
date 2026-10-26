@@ -835,3 +835,15 @@ em, i { font-style: italic; }
 @media (max-width: 560px) {
   .tool-updated { margin-left: 0; }
 }
+
+/* ---------- AdSense pass + tidy-up (2026-10-26) ---------- */
+/* Tone stays warm paper + teal. These are spacing and legibility only:
+   no colour or typeface change, so existing covers and figures keep working. */
+.masthead-stats { margin-top: 0.6rem; color: var(--soft); }
+.home-latest .rows { display: grid; gap: 0.2rem; }
+.site-footer .bar-inner { align-items: flex-start; }
+.site-footer .plain-link { white-space: nowrap; }
+@media (max-width: 720px) {
+  .masthead { padding-block: 1.8rem 0.8rem; }
+  .home-latest .row-thumb { display: none; }
+}
