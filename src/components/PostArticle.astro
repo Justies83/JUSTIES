@@ -30,6 +30,11 @@ const isPrivate = base === '/private';
 const backHref = isPrivate ? '/private' : '/archive';
 const backLabel = isPrivate ? '← 숨긴 기록으로' : '← 전체 기록으로';
 const cover = coverFor(post);
+// Recent posts also put the cover image at the top of the body, with its
+// caption. Showing the header cover as well made the same photo appear
+// twice. Older posts do not repeat it in the body, so they keep the header
+// cover — only skip it when the body already carries the same image.
+const bodyHasCover = Boolean(cover && post.body?.includes(cover));
 ---
 
 <article class="shell">
@@ -70,7 +75,7 @@ const cover = coverFor(post);
         </>
       )}
     </div>
-    {cover && (
+    {cover && !bodyHasCover && (
       <figure class="post-cover" style="margin:1.8rem 0 0">
         <img src={cover} alt={post.data.coverAlt} />
       </figure>
