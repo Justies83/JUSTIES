@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="380" viewBox="0 0 880 380" font-family="sans-serif">
+<rect width="880" height="380" fill="#ffffff"/>
+<text x="40" y="36" font-size="22" font-weight="bold" fill="#111111">3분기 중소기업 주요 수출국 수출액 (억 달러)</text>
+<text x="40" y="62" font-size="14" fill="#555555">미국이 중국을 제치고 최대 수출국에 올랐다</text>
+<g font-size="15" fill="#111111">
+<text x="40" y="108">미국</text>
+<rect x="190" y="90" width="458" height="24" fill="#1a5276"/>
+<text x="660" y="108">57.3 · +19.6%</text>
+<text x="40" y="152">중국</text>
+<rect x="190" y="134" width="434" height="24" fill="#1a5276"/>
+<text x="636" y="152">54.3 · +12.9%</text>
+<text x="40" y="196">홍콩</text>
+<rect x="190" y="178" width="142" height="24" fill="#2e86c1"/>
+<text x="344" y="196">17.7 · +76.1%</text>
+<text x="40" y="240">인도</text>
+<rect x="190" y="222" width="78" height="24" fill="#2e86c1"/>
+<text x="280" y="240">9.8 · +12.0%</text>
+<text x="40" y="284">중동 전체</text>
+<rect x="190" y="266" width="117" height="24" fill="#7f8c8d"/>
+<text x="319" y="284">14.6 · -7.8%</text>
+</g>
+<text x="40" y="330" font-size="13" fill="#555555">출처: 중소벤처기업부 2026년 3분기 중소기업 수출 동향 (2026.10.26 발표 보도 기준)</text>
+<text x="40" y="354" font-size="13" fill="#555555">막대 길이는 수출액에 비례 (억 달러당 8px). 아랍에미리트 수출은 66.6% 급감해 중동 전체 감소를 이끌었다.</text>
+</svg>
