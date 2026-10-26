@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="sans-serif">
+<rect width="900" height="520" fill="#f4f1ea"/>
+<text x="40" y="48" font-size="26" font-weight="bold" fill="#20231f">국내 거래소 하루 평균 거래대금, 절반 가까이 줄었다</text>
+<text x="40" y="78" font-size="15" fill="#62655d">2025년 하반기와 2026년 상반기를 비교한 수치 (단위: 조 원)</text>
+<rect x="140" y="130" width="220" height="270" fill="#16756a"/>
+<rect x="540" y="225" width="220" height="175" fill="#e0795b"/>
+<text x="250" y="115" font-size="28" font-weight="bold" fill="#20231f" text-anchor="middle">5.4조 원</text>
+<text x="650" y="210" font-size="28" font-weight="bold" fill="#20231f" text-anchor="middle">3.1조 원</text>
+<text x="250" y="435" font-size="16" fill="#20231f" text-anchor="middle">2025년 하반기</text>
+<text x="650" y="435" font-size="16" fill="#20231f" text-anchor="middle">2026년 상반기</text>
+<text x="40" y="480" font-size="13" fill="#62655d">도표는 아주프레스 2026년 10월 26일 보도 수치를 정리해 직접 만들었다. 유예만으로 거래가 회복되는 것은 아니다.</text>
+</svg>
