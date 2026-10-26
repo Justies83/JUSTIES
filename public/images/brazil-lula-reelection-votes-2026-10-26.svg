@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" font-family="sans-serif">
+<rect width="900" height="300" fill="#ffffff"/>
+<text x="40" y="36" font-size="22" font-weight="bold" fill="#111111">브라질 대선 득표율 — 1차와 결선은 정반대였다</text>
+<text x="40" y="78" font-size="16" fill="#333333">결선 (개표율 99.76% 기준)</text>
+<text x="40" y="110" font-size="16" fill="#111111">룰라 51.76%</text>
+<rect x="200" y="92" width="362" height="26" fill="#2e7d32"/>
+<text x="40" y="150" font-size="16" fill="#111111">보우소나루 48.24%</text>
+<rect x="200" y="132" width="338" height="26" fill="#1565c0"/>
+<text x="40" y="198" font-size="16" fill="#333333">1차 (유효표 기준)</text>
+<text x="40" y="230" font-size="16" fill="#111111">보우소나루 47.03%</text>
+<rect x="200" y="212" width="329" height="26" fill="#1565c0"/>
+<text x="40" y="270" font-size="16" fill="#111111">룰라 45.16%</text>
+<rect x="200" y="252" width="316" height="26" fill="#2e7d32"/>
+</svg>
