@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="380" viewBox="0 0 900 380">
+<rect width="900" height="380" fill="#faf8f3"/>
+<text x="40" y="40" font-size="22" font-weight="bold" fill="#222">Krascendo 1 — 디바라십 대 기존 KRAS 억제제</text>
+<text x="40" y="66" font-size="14" fill="#666">제넨테크 2026-10-25 보도자료와 MD 앤더슨 발표 자료 기준. 중앙값 기준.</text>
+<text x="40" y="112" font-size="16" fill="#222">전체 생존 중앙값</text>
+<rect x="230" y="94" width="354" height="26" fill="#16756a"/>
+<rect x="230" y="94" width="240" height="26" fill="#e0795b" opacity="0.0"/>
+<text x="594" y="114" font-size="16" font-weight="bold" fill="#222">17.7개월 대 12.0개월</text>
+<text x="40" y="152" font-size="16" fill="#222">무진행 생존 중앙값</text>
+<rect x="230" y="134" width="196" height="26" fill="#16756a"/>
+<text x="436" y="154" font-size="16" font-weight="bold" fill="#222">9.8개월 대 5.7개월</text>
+<text x="40" y="192" font-size="16" fill="#222">반응률</text>
+<rect x="230" y="174" width="292" height="26" fill="#16756a"/>
+<text x="532" y="194" font-size="16" font-weight="bold" fill="#222">58.4% 대 32.3%</text>
+<text x="40" y="232" font-size="16" fill="#222">12개월 무진행 비율</text>
+<rect x="230" y="214" width="220" height="26" fill="#16756a"/>
+<text x="460" y="234" font-size="16" font-weight="bold" fill="#222">44% 대 24%</text>
+<text x="40" y="272" font-size="16" fill="#222">반응 지속 중앙값</text>
+<rect x="230" y="254" width="238" height="26" fill="#16756a"/>
+<text x="478" y="274" font-size="16" font-weight="bold" fill="#222">11.9개월 대 6.9개월</text>
+<text x="40" y="320" font-size="14" fill="#666">막대 길이는 디바라십 값에 비례. 사망 위험 -44% (HR 0.56), 진행·사망 위험 -42% (HR 0.58).</text>
+<text x="40" y="346" font-size="14" fill="#666">시험 참여 338명 (디바라십 167명, 기존 약 171명). 반응률은 평가 가능 328명 기준.</text>
+</svg>
