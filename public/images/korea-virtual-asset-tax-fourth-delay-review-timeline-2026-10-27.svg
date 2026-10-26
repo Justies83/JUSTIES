@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="sans-serif">
+<rect width="900" height="520" fill="#f4f1ea"/>
+<text x="40" y="48" font-size="26" font-weight="bold" fill="#20231f">가상자산 과세, 세 번 미뤄지고 네 번째 검토까지</text>
+<text x="40" y="78" font-size="15" fill="#62655d">2020년 도입부터 2026년 10월 재유예 검토까지의 흐름</text>
+<line x1="60" y1="250" x2="840" y2="250" stroke="#20231f" stroke-width="3"/>
+<circle cx="100" cy="250" r="12" fill="#16756a"/>
+<circle cx="250" cy="250" r="12" fill="#e0795b"/>
+<circle cx="400" cy="250" r="12" fill="#e0795b"/>
+<circle cx="550" cy="250" r="12" fill="#e0795b"/>
+<circle cx="700" cy="250" r="12" fill="#20231f"/>
+<circle cx="830" cy="250" r="12" fill="#16756a"/>
+<text x="100" y="210" font-size="16" font-weight="bold" fill="#20231f" text-anchor="middle">2020년</text>
+<text x="100" y="300" font-size="14" fill="#20231f" text-anchor="middle">소득세법 개정</text>
+<text x="100" y="324" font-size="14" fill="#20231f" text-anchor="middle">과세 도입</text>
+<text x="250" y="210" font-size="16" font-weight="bold" fill="#20231f" text-anchor="middle">2022년</text>
+<text x="250" y="300" font-size="14" fill="#20231f" text-anchor="middle">당초 시행 예정</text>
+<text x="250" y="324" font-size="14" fill="#20231f" text-anchor="middle">미뤄짐</text>
+<text x="400" y="210" font-size="16" font-weight="bold" fill="#20231f" text-anchor="middle">2023년</text>
+<text x="400" y="300" font-size="14" fill="#20231f" text-anchor="middle">1차 유예</text>
+<text x="550" y="210" font-size="16" font-weight="bold" fill="#20231f" text-anchor="middle">2025년</text>
+<text x="550" y="300" font-size="14" fill="#20231f" text-anchor="middle">2차 유예</text>
+<text x="700" y="210" font-size="16" font-weight="bold" fill="#20231f" text-anchor="middle">2027년 1월</text>
+<text x="700" y="300" font-size="14" fill="#20231f" text-anchor="middle">3차 유예 뒤</text>
+<text x="700" y="324" font-size="14" fill="#20231f" text-anchor="middle">시행 예정</text>
+<text x="830" y="210" font-size="16" font-weight="bold" fill="#20231f" text-anchor="middle">2026년 10월</text>
+<text x="830" y="300" font-size="14" fill="#20231f" text-anchor="middle">재유예 검토</text>
+<text x="830" y="324" font-size="14" fill="#20231f" text-anchor="middle">결정 아님</text>
+<text x="40" y="480" font-size="13" fill="#62655d">도표는 아주프레스, 경향신문, 머니투데이 2026년 10월 26일 보도를 정리해 직접 만들었다.</text>
+</svg>
