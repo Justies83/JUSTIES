@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="sans-serif">
+<rect width="900" height="520" fill="#f4f1ea"/>
+<text x="40" y="48" font-size="26" font-weight="bold" fill="#20231f">우리별 3호에서 포획 실증까지</text>
+<text x="40" y="78" font-size="15" fill="#62655d">1999년 발사부터 2027년 누리호 6호기 실증까지의 일정</text>
+<line x1="60" y1="250" x2="840" y2="250" stroke="#20231f" stroke-width="3"/>
+<circle cx="100" cy="250" r="12" fill="#16756a"/>
+<circle cx="250" cy="250" r="12" fill="#e0795b"/>
+<circle cx="400" cy="250" r="12" fill="#e0795b"/>
+<circle cx="550" cy="250" r="12" fill="#20231f"/>
+<circle cx="700" cy="250" r="12" fill="#16756a"/>
+<circle cx="830" cy="250" r="12" fill="#16756a"/>
+<text x="100" y="210" font-size="16" font-weight="bold" fill="#20231f" text-anchor="middle">1999년 5월</text>
+<text x="100" y="300" font-size="14" fill="#20231f" text-anchor="middle">우리별 3호 발사</text>
+<text x="100" y="324" font-size="14" fill="#20231f" text-anchor="middle">인도 PSLV-C2</text>
+<text x="250" y="210" font-size="16" font-weight="bold" fill="#20231f" text-anchor="middle">2002년 12월</text>
+<text x="250" y="300" font-size="14" fill="#20231f" text-anchor="middle">우리별 3호 임무 종료</text>
+<text x="250" y="324" font-size="14" fill="#20231f" text-anchor="middle">이후 24년째 표류</text>
+<text x="400" y="210" font-size="16" font-weight="bold" fill="#20231f" text-anchor="middle">2026년 10월 26일</text>
+<text x="400" y="300" font-size="14" fill="#20231f" text-anchor="middle">시스템통합준비검토회의</text>
+<text x="400" y="324" font-size="14" fill="#20231f" text-anchor="middle">성공 조건 충족</text>
+<text x="550" y="210" font-size="16" font-weight="bold" fill="#20231f" text-anchor="middle">2026년 11월</text>
+<text x="550" y="300" font-size="14" fill="#20231f" text-anchor="middle">비행모델 조립 착수</text>
+<text x="700" y="210" font-size="16" font-weight="bold" fill="#20231f" text-anchor="middle">2027년 하반기</text>
+<text x="700" y="300" font-size="14" fill="#20231f" text-anchor="middle">누리호 6호기 발사</text>
+<text x="830" y="210" font-size="16" font-weight="bold" fill="#20231f" text-anchor="middle">궤도 실증</text>
+<text x="830" y="300" font-size="14" fill="#20231f" text-anchor="middle">접근·포획·소멸 유도</text>
+<text x="40" y="470" font-size="13" fill="#62655d">출처: 우주항공청 2026년 10월 26일 발표 보도 기준. 일정은 보도된 예정이며 변경될 수 있다.</text>
+</svg>
