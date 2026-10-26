@@ -847,3 +847,41 @@ em, i { font-style: italic; }
   .masthead { padding-block: 1.8rem 0.8rem; }
   .home-latest .row-thumb { display: none; }
 }
+
+/* ---------- Magazine home (2026-10-26) ---------- */
+/* Warm paper + teal stay. Only the home featured block becomes a magazine
+   grid: first story spans both columns with a taller cover, the rest sit
+   in two columns with large covers and teal category chips. */
+.mag-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.2rem;
+}
+.mag-grid .card {
+  background: var(--card);
+  border: 1px solid var(--line-soft);
+  border-radius: 14px;
+  overflow: hidden;
+  padding: 0;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.02);
+}
+.mag-grid .card-cover { border: 0; border-radius: 0; }
+.mag-grid .card-lead { grid-column: span 2; }
+.mag-grid .card-cover img { aspect-ratio: 16 / 9; }
+.mag-grid .card-lead .card-cover img { aspect-ratio: 16 / 7; }
+.mag-grid .card-meta { padding: 1rem 1.2rem 0; }
+.mag-grid .card-meta .pill { background: #e6f0ee; border: 0; color: var(--teal-dark); }
+.mag-grid .card h3 {
+  padding: 0.6rem 1.2rem 0;
+  font-size: 1.35rem;
+  line-height: 1.4;
+}
+.mag-grid .card-lead h3 { font-size: 1.8rem; }
+.mag-grid .card p { padding: 0.5rem 1.2rem 0; }
+.mag-grid .card footer { padding: 0.8rem 1.2rem 1.2rem; }
+@media (max-width: 720px) {
+  .mag-grid { grid-template-columns: 1fr; }
+  .mag-grid .card-lead { grid-column: auto; }
+  .mag-grid .card-lead .card-cover img { aspect-ratio: 16 / 9; }
+  .mag-grid .card-lead h3 { font-size: 1.35rem; }
+}
