@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="sans-serif">
+<rect width="900" height="520" fill="#f4f1ea"/>
+<text x="450" y="48" text-anchor="middle" font-size="26" font-weight="bold" fill="#20231f">10월 26일 시가총액 상위 종목 등락률</text>
+<text x="450" y="78" text-anchor="middle" font-size="16" fill="#62655d">단위: % · 삼성생명만 상승, 나머지는 모두 하락</text>
+<line x1="430" y1="110" x2="430" y2="420" stroke="#20231f" stroke-width="1.5"/>
+<g font-size="18" fill="#20231f">
+<text x="410" y="138" text-anchor="end">KB금융</text>
+<rect x="190" y="120" width="240" height="22" fill="#e0795b"/>
+<text x="180" y="138" text-anchor="end" fill="#e0795b" font-weight="bold">-3.79%</text>
+<text x="410" y="188" text-anchor="end">현대차</text>
+<rect x="269" y="170" width="161" height="22" fill="#e0795b"/>
+<text x="259" y="188" text-anchor="end" fill="#e0795b" font-weight="bold">-2.54%</text>
+<text x="410" y="238" text-anchor="end">LG에너지솔루션</text>
+<rect x="297" y="220" width="133" height="22" fill="#e0795b"/>
+<text x="287" y="238" text-anchor="end" fill="#e0795b" font-weight="bold">-2.09%</text>
+<text x="410" y="288" text-anchor="end">삼성전자</text>
+<rect x="356" y="270" width="74" height="22" fill="#e0795b"/>
+<text x="346" y="288" text-anchor="end" fill="#e0795b" font-weight="bold">-1.16%</text>
+<text x="410" y="338" text-anchor="end">SK하이닉스</text>
+<rect x="420" y="320" width="10" height="22" fill="#e0795b"/>
+<text x="410" y="338" text-anchor="end" fill="#e0795b" font-weight="bold">-0.16%</text>
+<text x="410" y="388" text-anchor="end">삼성생명</text>
+<rect x="430" y="370" width="39" height="22" fill="#16756a"/>
+<text x="479" y="388" fill="#16756a" font-weight="bold">+0.61%</text>
+</g>
+<text x="90" y="480" font-size="14" fill="#62655d">기준: 서울신문·신아일보 2026년 10월 26일 보도 · 종가 기준</text>
+<text x="90" y="505" font-size="14" fill="#62655d">코스피 -1.46%, 코스닥 -3.26%와 함께 보면 대형주보다 중소형주의 체감 낙폭이 더 컸던 날이다.</text>
+</svg>
