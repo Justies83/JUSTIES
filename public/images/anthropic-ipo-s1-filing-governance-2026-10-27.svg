@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" font-family="sans-serif">
+<rect width="900" height="560" fill="#f4f1ea"/>
+<text x="40" y="48" font-size="26" font-weight="bold" fill="#20231f">앤트로픽 지배구조 — 돈은 받고 경영권은 넘기지 않는다</text>
+<text x="40" y="78" font-size="15" fill="#62655d">주식 다섯 종류. 일반 투자자 A주는 1주 1표에 그친다</text>
+<rect x="60" y="120" width="360" height="110" fill="#20231f"/>
+<text x="240" y="158" font-size="17" font-weight="bold" fill="#ffffff" text-anchor="middle">창업자 7명의 단체</text>
+<text x="240" y="188" font-size="15" fill="#ffffff" text-anchor="middle">F주 1주 보유 — 경제적 권리 없음</text>
+<text x="240" y="210" font-size="15" fill="#e0795b" text-anchor="middle">일반 주주 안건 의결권 50.1%</text>
+<rect x="480" y="120" width="360" height="110" fill="#16756a"/>
+<text x="660" y="158" font-size="17" font-weight="bold" fill="#ffffff" text-anchor="middle">장기이익신탁</text>
+<text x="660" y="188" font-size="15" fill="#ffffff" text-anchor="middle">T주 보유 — 이사회 과반 선임</text>
+<text x="660" y="210" font-size="15" fill="#ffffff" text-anchor="middle">신탁 관리인은 앤트로픽 주식 보유 금지</text>
+<rect x="60" y="300" width="360" height="110" fill="#ffffff" stroke="#20231f" stroke-width="2"/>
+<text x="240" y="338" font-size="17" font-weight="bold" fill="#20231f" text-anchor="middle">일반 투자자 — A주</text>
+<text x="240" y="368" font-size="15" fill="#20231f" text-anchor="middle">1주 1표, 나스닥 상장 주식</text>
+<text x="240" y="390" font-size="15" fill="#62655d" text-anchor="middle">공모가·공모 주식 수 미정</text>
+<rect x="480" y="300" width="360" height="110" fill="#ffffff" stroke="#20231f" stroke-width="2"/>
+<text x="660" y="338" font-size="17" font-weight="bold" fill="#20231f" text-anchor="middle">전략 파트너 N주 · 직원 E주</text>
+<text x="660" y="368" font-size="15" fill="#20231f" text-anchor="middle">N주 무의결권 · E주 제한적 의결권</text>
+<text x="660" y="390" font-size="15" fill="#62655d" text-anchor="middle">나스닥 통제회사 지위</text>
+<text x="40" y="470" font-size="15" fill="#20231f">창업자 서한: 순전히 거래 관점으로 보지 말 것 — 위험이 크면 수익 사업도 포기할 수 있다.</text>
+<text x="40" y="522" font-size="13" fill="#62655d">도표는 앤트로픽 S-1 서류 내용을 매드로봇, 더레지스터 2026년 10월 26일 보도를 정리해 직접 만들었다.</text>
+</svg>
