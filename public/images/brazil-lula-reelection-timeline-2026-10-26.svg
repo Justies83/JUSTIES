@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320" font-family="sans-serif">
+<rect width="900" height="320" fill="#ffffff"/>
+<text x="40" y="36" font-size="22" font-weight="bold" fill="#111111">룰라 4선까지의 시간표</text>
+<line x1="60" y1="90" x2="840" y2="90" stroke="#999999" stroke-width="2"/>
+<circle cx="100" cy="90" r="10" fill="#2e7d32"/>
+<circle cx="320" cy="90" r="10" fill="#1565c0"/>
+<circle cx="540" cy="90" r="10" fill="#e65100"/>
+<circle cx="760" cy="90" r="10" fill="#6a1b9a"/>
+<text x="60" y="130" font-size="16" font-weight="bold" fill="#111111">10월 4일</text>
+<text x="60" y="155" font-size="15" fill="#333333">1차 투표</text>
+<text x="60" y="178" font-size="15" fill="#333333">보우소나루가 룰라를</text>
+<text x="60" y="201" font-size="15" fill="#333333">약 2%포인트 앞섰다</text>
+<text x="280" y="130" font-size="16" font-weight="bold" fill="#111111">10월 24일</text>
+<text x="280" y="155" font-size="15" fill="#333333">마지막 여론조사</text>
+<text x="280" y="178" font-size="15" fill="#333333">다타폴랴 유효표 기준</text>
+<text x="280" y="201" font-size="15" fill="#333333">보우소나루 51, 룰라 49</text>
+<text x="500" y="130" font-size="16" font-weight="bold" fill="#111111">10월 25일</text>
+<text x="500" y="155" font-size="15" fill="#333333">결선 투표</text>
+<text x="500" y="178" font-size="15" fill="#333333">마감 2시간 연장</text>
+<text x="500" y="201" font-size="15" fill="#333333">개표 초반부터 접전</text>
+<text x="700" y="130" font-size="16" font-weight="bold" fill="#111111">10월 26일 이후</text>
+<text x="700" y="155" font-size="15" fill="#333333">당선 확정, 시장 반응</text>
+<text x="700" y="178" font-size="15" fill="#333333">재무장관 인선과</text>
+<text x="700" y="201" font-size="15" fill="#333333">의회 협상이 관건</text>
+<text x="40" y="260" font-size="15" fill="#666666">날짜는 브라질 현지 기준이다. 1차 투표일은 결선 3주 전 일요일이다.</text>
+<text x="40" y="285" font-size="15" fill="#666666">보도 날짜와 투표일 기사로 날짜를 대조해 직접 정리했다.</text>
+</svg>
