@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="sans-serif">
+<rect width="900" height="520" fill="#f4f1ea"/>
+<text x="450" y="48" text-anchor="middle" font-size="26" font-weight="bold" fill="#20231f">10월 26일 코스피 장중 흐름</text>
+<text x="450" y="78" text-anchor="middle" font-size="16" fill="#62655d">시가 5,499.05 → 고점 5,565.67 → 저점 5,455.11 → 종가 5,469.47</text>
+<line x1="90" y1="440" x2="820" y2="440" stroke="#20231f" stroke-width="1.5"/>
+<line x1="90" y1="117" x2="820" y2="117" stroke="#62655d" stroke-width="0.75" stroke-dasharray="4 4"/>
+<line x1="90" y1="288" x2="820" y2="288" stroke="#62655d" stroke-width="0.75" stroke-dasharray="4 4"/>
+<polyline points="120,288 340,117 560,401 780,364" fill="none" stroke="#e0795b" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="120" cy="288" r="7" fill="#16756a"/>
+<circle cx="340" cy="117" r="7" fill="#16756a"/>
+<circle cx="560" cy="401" r="7" fill="#16756a"/>
+<circle cx="780" cy="364" r="7" fill="#16756a"/>
+<text x="120" y="318" text-anchor="middle" font-size="17" font-weight="bold" fill="#20231f">시가 5,499.05</text>
+<text x="340" y="92" text-anchor="middle" font-size="17" font-weight="bold" fill="#20231f">고점 5,565.67</text>
+<text x="560" y="432" text-anchor="middle" font-size="17" font-weight="bold" fill="#20231f">저점 5,455.11</text>
+<text x="780" y="342" text-anchor="middle" font-size="17" font-weight="bold" fill="#20231f">종가 5,469.47</text>
+<text x="90" y="480" font-size="14" fill="#62655d">기준: 한국거래소 10월 26일 마감 시황 · 전 거래일 종가 5,550.30에서 80.83포인트 하락</text>
+<text x="90" y="505" font-size="14" fill="#62655d">오전에 반등을 시도했지만 오후 매도세에 밀려 5,500선을 내줬다.</text>
+</svg>
