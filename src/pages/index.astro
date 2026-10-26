@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import PostCard from '../components/PostCard.astro';
+import PostRow from '../components/PostRow.astro';
 import SectionHead from '../components/SectionHead.astro';
 import { site } from '../data/site';
 import { CATEGORIES } from '../data/taxonomy';
@@ -32,6 +33,10 @@ for (const post of ordered) {
   if (!featured.includes(post)) featured.push(post);
 }
 featured.sort((a, b) => ordered.indexOf(a) - ordered.indexOf(b));
+
+// Featured cards already show the newest few, so the list below picks up
+// where they leave off instead of repeating the same posts.
+const latestRows = ordered.filter((p) => !featured.includes(p)).slice(0, 10);
 
 const countByCategory = (id: string) => posts.filter((p) => p.data.category === id).length;
 // A section with nothing in it is a dead link, so it is left out.
@@ -92,6 +97,7 @@ const schema = {
   <section class="shell masthead">
     <h1>{site.title}</h1>
     <p>{site.description}</p>
+    <p class="mono masthead-stats">기록 {posts.length}편 · 주제 {usedCategories.length}개 · 누적 방문은 푸터에서 확인하세요</p>
   </section>
 
   <div class="shell">
@@ -116,6 +122,20 @@ const schema = {
         </div>
       )}
     </section>
+
+    {latestRows.length > 0 && (
+      <section class="section home-latest" id="more">
+        <SectionHead
+          eyebrow="MORE"
+          title="이어서 읽을 기록"
+          linkHref="/archive"
+          linkLabel="전체 보기"
+        />
+        <div class="rows">
+          {latestRows.map((post, i) => <PostRow post={post} index={i} />)}
+        </div>
+      </section>
+    )}
 
     <section class="section section-quiet" id="topics">
       <SectionHead eyebrow="TOPICS" linkHref="/topics" linkLabel="전체 주제" />
