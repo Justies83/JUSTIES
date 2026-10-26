@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="280" viewBox="0 0 900 280">
+<rect width="900" height="280" fill="#faf8f3"/>
+<text x="40" y="40" font-size="22" font-weight="bold" fill="#222">노비사드 참사에서 의회 과반까지</text>
+<line x1="60" y1="120" x2="840" y2="120" stroke="#2e6f4e" stroke-width="3"/>
+<circle cx="90" cy="120" r="10" fill="#2e6f4e"/><circle cx="300" cy="120" r="10" fill="#2e6f4e"/><circle cx="510" cy="120" r="10" fill="#2e6f4e"/><circle cx="720" cy="120" r="10" fill="#2e6f4e"/><circle cx="840" cy="120" r="10" fill="#b00"/>
+<text x="40" y="90" font-size="14" font-weight="bold" fill="#222">2024년 11월</text>
+<text x="40" y="155" font-size="14" fill="#333">노비사드 기차역 캐노피 붕괴,</text>
+<text x="40" y="175" font-size="14" fill="#333">16명 사망</text>
+<text x="250" y="90" font-size="14" font-weight="bold" fill="#222">2024-2026년</text>
+<text x="250" y="155" font-size="14" fill="#333">학생 주도 거리 시위 확산,</text>
+<text x="250" y="175" font-size="14" fill="#333">부패 척결 요구로 확대</text>
+<text x="460" y="90" font-size="14" font-weight="bold" fill="#222">2026년 9월</text>
+<text x="460" y="155" font-size="14" fill="#333">조기 총선 소집, 부치치</text>
+<text x="460" y="175" font-size="14" fill="#333">대통령직 사임하고 총리 후보로</text>
+<text x="670" y="90" font-size="14" font-weight="bold" fill="#222">2026년 10월 25일</text>
+<text x="670" y="155" font-size="14" fill="#333">투표율 70% 안팎, 밤에</text>
+<text x="670" y="175" font-size="14" fill="#333">부치치 패배 선언</text>
+<text x="40" y="240" font-size="14" fill="#666">다음 단계: 최종 공식 집계, 총리 지명, 내각 구성이 승리의 실체를 가른다.</text>
+</svg>
