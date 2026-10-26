@@ -103,15 +103,15 @@ const schema = {
   <div class="shell">
     <section class="section" id="latest">
       <SectionHead
-        eyebrow="LATEST"
-        title="최근 글"
+        eyebrow="MAGAZINE"
+        title="매거진"
         linkHref="/archive"
         linkLabel="전체 보기"
       />
 
       {featured.length > 0 ? (
-        <div class="bento bento-even">
-          {featured.map((post) => <PostCard post={post} peek={false} />)}
+        <div class="mag-grid">
+          {featured.map((post, i) => <PostCard post={post} peek={false} lead={i === 0} />)}
         </div>
       ) : (
         <div class="empty">
