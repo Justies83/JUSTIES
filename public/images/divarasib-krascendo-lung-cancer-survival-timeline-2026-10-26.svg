@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300">
+<rect width="900" height="300" fill="#faf8f3"/>
+<text x="40" y="40" font-size="22" font-weight="bold" fill="#222">디바라십 개발 연표</text>
+<line x1="60" y1="140" x2="840" y2="140" stroke="#16756a" stroke-width="3"/>
+<circle cx="120" cy="140" r="10" fill="#16756a"/>
+<circle cx="360" cy="140" r="10" fill="#16756a"/>
+<circle cx="600" cy="140" r="10" fill="#e0795b"/>
+<circle cx="800" cy="140" r="10" fill="#ffffff" stroke="#16756a" stroke-width="3"/>
+<text x="120" y="100" font-size="16" font-weight="bold" fill="#222" text-anchor="middle">2022년</text>
+<text x="120" y="185" font-size="14" fill="#444" text-anchor="middle">FDA 혁신치료제</text>
+<text x="120" y="207" font-size="14" fill="#444" text-anchor="middle">지정</text>
+<text x="360" y="100" font-size="16" font-weight="bold" fill="#222" text-anchor="middle">2026년</text>
+<text x="360" y="185" font-size="14" fill="#444" text-anchor="middle">FDA 희귀의약품</text>
+<text x="360" y="207" font-size="14" fill="#444" text-anchor="middle">지정</text>
+<text x="600" y="100" font-size="16" font-weight="bold" fill="#222" text-anchor="middle">2026-10-25</text>
+<text x="600" y="185" font-size="14" fill="#444" text-anchor="middle">ESMO 발표와</text>
+<text x="600" y="207" font-size="14" fill="#444" text-anchor="middle">NEJM 게재 동시</text>
+<text x="800" y="100" font-size="16" font-weight="bold" fill="#222" text-anchor="middle">다음 단계</text>
+<text x="800" y="185" font-size="14" fill="#444" text-anchor="middle">각국 보건 당국</text>
+<text x="800" y="207" font-size="14" fill="#444" text-anchor="middle">승인 심사 (미정)</text>
+<text x="40" y="260" font-size="14" fill="#666">지정은 승인 자체가 아니다. 승인 여부는 심사 결과에 달려 있다.</text>
+</svg>
