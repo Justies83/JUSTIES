@@ -1,0 +1,35 @@
+---
+import Base from '../layouts/Base.astro';
+import SectionHead from '../components/SectionHead.astro';
+import { site } from '../data/site';
+---
+
+<Base title="연락처" description="정정 요청이나 문의는 이메일로 보내 주세요.">
+  <div class="shell">
+    <section class="section">
+      <SectionHead eyebrow="CONTACT" title="연락처" />
+      <div class="prose">
+        <p>
+          이 사이트는 회원가입이나 댓글, 입력 폼을 두지 않습니다.
+          정정 요청이나 문의는 아래 이메일로 보내 주세요.
+        </p>
+        {site.contact ? (
+          <p>
+            <a href={`mailto:${site.contact}`}>{site.contact}</a>
+          </p>
+        ) : (
+          <p>연락용 이메일은 아직 공개하지 않았습니다.</p>
+        )}
+        <h2>이렇게 보내 주시면 빨리 확인합니다</h2>
+        <ul>
+          <li>정정 요청: 글 제목과 날짜, 틀렸다고 생각하는 부분과 근거가 되는 출처를 함께 적어 주세요.</li>
+          <li>광고·제휴 문의: 제안 내용을 짧게 적어 주세요.</li>
+        </ul>
+        <p class="mono">
+          답장 시기를 약속하지는 않습니다. 개인정보 처리 방식은
+          <a href="/privacy">개인정보 처리방침</a>에서 확인하세요.
+        </p>
+      </div>
+    </section>
+  </div>
+</Base>
