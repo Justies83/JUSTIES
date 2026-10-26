@@ -50,6 +50,7 @@ export const site = {
     { href: '/topics', label: '주제' },
     { href: '/tools', label: 'Tools' },
     { href: '/about', label: '소개' },
+    { href: '/contact', label: '연락처' },
   ],
 
   principles: [
