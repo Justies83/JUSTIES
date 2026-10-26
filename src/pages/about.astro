@@ -14,6 +14,12 @@ import { CATEGORIES, KINDS } from '../data/taxonomy';
       <div class="prose">
         <p class="mono">주인장 · 제의 — {site.seal}</p>
         <p>{site.description}</p>
+        <p>
+          이 사이트는 뉴스 매체가 아니라 개인 기록장입니다.
+          세상에서 벌어진 일을 원문에서 확인하고, 무엇이 사실이고 무엇이 해석인지
+          구분해서 남기는 것이 목적입니다. 글은 한 번 쓰고 끝내지 않고,
+          새로운 사실이 확인되면 갱신일을 남기고 고칩니다.
+        </p>
 
         <h2>기록을 나누는 두 축</h2>
         <p><strong>주제</strong>는 무엇에 대한 글인지, <strong>형식</strong>은 어떤 성격의 글인지를 나타냅니다.</p>
@@ -29,6 +35,14 @@ import { CATEGORIES, KINDS } from '../data/taxonomy';
 
         <h2>알려 둘 것</h2>
         <ul>{site.disclaimers.map((d) => <li>{d}</li>)}</ul>
+
+        <h2>문의와 정정</h2>
+        <p>
+          오류를 찾으시거나 문의가 있으시면
+          <a href="/contact">연락처</a>로 보내 주세요.
+          개인정보 처리 방식은 <a href="/privacy">개인정보 처리방침</a>에서,
+          글 이용 규칙은 <a href="/terms">이용약관</a>에서 확인하세요.
+        </p>
 
         <hr />
         <p class="mono">{site.seal} · EST. {site.established}</p>
