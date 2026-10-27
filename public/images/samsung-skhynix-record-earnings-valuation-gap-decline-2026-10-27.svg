@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="6월 말 고점 대비 주가 하락률">
+<rect width="900" height="520" fill="#f4f1ea"/>
+<text x="60" y="70" font-size="30" font-weight="700" fill="#20231f">6월 말 고점 대비 주가 하락률</text>
+<text x="60" y="112" font-size="20" fill="#62655d">2026년 10월 26일 종가 기준</text>
+<text x="60" y="200" font-size="26" fill="#20231f">삼성전자</text>
+<rect x="220" y="172" width="387" height="52" fill="#e0795b"/>
+<text x="619" y="208" font-size="26" font-weight="700" fill="#20231f">-36.2%</text>
+<text x="60" y="300" font-size="26" fill="#20231f">SK하이닉스</text>
+<rect x="220" y="272" width="554" height="52" fill="#e0795b"/>
+<text x="786" y="308" font-size="26" font-weight="700" fill="#20231f">-51.9%</text>
+<text x="60" y="400" font-size="22" fill="#20231f">삼성전자 37만원대 → 21만3,500원 / SK하이닉스 298만원대 → 129만원</text>
+<text x="60" y="485" font-family="monospace" font-size="18" fill="#62655d">기준: 매일경제 2026.10.27 보도 / 6월 말 고점 대비</text>
+</svg>
