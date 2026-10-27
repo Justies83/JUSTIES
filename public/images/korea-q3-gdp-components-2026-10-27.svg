@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="sans-serif">
+<rect width="900" height="520" fill="#f4f1ea"/>
+<text x="40" y="48" font-size="26" font-weight="bold" fill="#20231f">3분기 지출 항목별 전기 대비 증감률</text>
+<text x="40" y="78" font-size="15" fill="#62655d">수출과 설비투자가 늘고 민간소비만 줄었다</text>
+<line x1="80" y1="430" x2="840" y2="430" stroke="#20231f" stroke-width="3"/>
+<rect x="140" y="269" width="110" height="161" fill="#16756a"/>
+<text x="195" y="249" font-size="16" font-weight="bold" fill="#20231f" text-anchor="middle">2.3%</text>
+<text x="195" y="460" font-size="15" fill="#20231f" text-anchor="middle">수출</text>
+<rect x="330" y="143" width="110" height="287" fill="#20231f"/>
+<text x="385" y="123" font-size="16" font-weight="bold" fill="#20231f" text-anchor="middle">4.1%</text>
+<text x="385" y="460" font-size="15" fill="#20231f" text-anchor="middle">설비투자</text>
+<rect x="520" y="430" width="110" height="14" fill="#e0795b"/>
+<text x="575" y="470" font-size="16" font-weight="bold" fill="#20231f" text-anchor="middle">-0.2%</text>
+<text x="575" y="492" font-size="15" fill="#20231f" text-anchor="middle">민간소비</text>
+<rect x="700" y="297" width="110" height="133" fill="#16756a"/>
+<text x="755" y="277" font-size="16" font-weight="bold" fill="#20231f" text-anchor="middle">1.9%</text>
+<text x="755" y="460" font-size="15" fill="#20231f" text-anchor="middle">정부소비</text>
+<text x="40" y="512" font-size="13" fill="#62655d">도표는 한국은행 2026년 3분기 실질 GDP 속보치 보도를 정리해 직접 만들었다.</text>
+</svg>
