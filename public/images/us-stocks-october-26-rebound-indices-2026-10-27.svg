@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="300" viewBox="0 0 760 300" font-family="sans-serif">
+<rect width="760" height="300" fill="#ffffff"/>
+<text x="30" y="34" font-size="19" font-weight="bold" fill="#111111">10월 26일 미국 주요 지수 일간 등락률</text>
+<text x="30" y="58" font-size="13" fill="#555555">뉴스핌 2026년 10월 27일 기사 기준 · 반도체지수는 이달 들어 약 12% 하락 상태</text>
+<g font-size="14" fill="#111111">
+<text x="30" y="100">다우존스</text><rect x="190" y="86" width="28" height="20" fill="#2563eb"/><text x="226" y="101">+0.28% · 52,361.58</text>
+<text x="30" y="136">S&amp;P500</text><rect x="190" y="122" width="70" height="20" fill="#2563eb"/><text x="268" y="137">+0.70% · 7,676.77</text>
+<text x="30" y="172">나스닥 종합</text><rect x="190" y="158" width="82" height="20" fill="#2563eb"/><text x="280" y="173">+0.82% · 26,169.38</text>
+<text x="30" y="208">러셀2000</text><rect x="190" y="194" width="38" height="20" fill="#64748b"/><text x="236" y="209">+0.38% · 2,786.42</text>
+<text x="30" y="244">필라델피아 반도체</text><rect x="190" y="230" width="282" height="20" fill="#dc2626"/><text x="480" y="245">+2.82%</text>
+</g>
+<text x="30" y="282" font-size="12" fill="#777777">금요일 낙폭: 다우 -1.23%(52,215.16) · S&amp;P500 -0.52%(7,623.68) · 나스닥 -0.21%(25,955.34)</text>
+</svg>
