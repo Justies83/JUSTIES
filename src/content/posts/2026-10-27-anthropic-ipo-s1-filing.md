@@ -4,7 +4,7 @@ date: 2026-10-27
 category: tech
 kind: news
 takeaway: "클로드 개발사 앤트로픽이 10월 26일 미국 증권거래위원회에 IPO 등록서류 S-1을 공개 제출했다. 나스닥 티커는 ANT로 정했지만 공모가와 공모 주식 수는 아직 비어 있다. 2026년 상반기 매출 162억 9,000만 달러와 순손실 807억 달러라는 극단적인 숫자가 나란히 공개됐고, 창업자 7명이 1주만으로 의결권 50.1%를 쥐는 지배구조도 함께 드러났다. 돈은 받되 경영권은 넘기지 않겠다는 선언에 가까운 서류다."
-tags: [앤트로픽, 클로드, IPO, S-1, 나스닥, ANT, AI, 지배구조]
+tags: [앤트로픽, 클로드, IPO, S-1, 나스닥, ANT, AI, 지배구조, 브로드컴]
 cover: /images/anthropic-ipo-s1-filing-2026-10-27.jpg
 coverAlt: "데이터센터 서버실"
 source:
@@ -44,4 +44,19 @@ source:
 
 <p align="center">이 반응을 단순한 동반 상승으로만 보기는 어렵다.<br/>유안타증권 이재원 연구원은 컴퓨팅 비용 1달러당 매출액이 지난해 1분기 <strong>0.4달러</strong>에서 올해 2분기 <strong>2.1달러</strong>로 개선됐다고 평가했다.<br/>연산에 쓴 돈보다 매출이 더 빨리 늘고 있다는 뜻이다.<br/>9월 말 기준 최근 12개월 매출 10만 달러 이상 고객이 <strong>1만1천900개</strong>를 넘었고, 기존 고객 매출유지율은 <strong>약 900%</strong>에 달한다는 점도 함께 짚었다.<br/>기업용 AI가 시범 도입 단계를 넘어 실제 사용과 지출 확대로 이어지고 있다는 분석이다.<br/>수익화 부진을 우려했던 시장에 의미 있는 반론이 나온 셈이다.<br/>사우디아라비아와 파키스탄, 튀르키예 고위 당국자들의 이란 방문 소식에 중동 긴장 완화 기대가 커지면서 국제 유가가 일부 내린 점도 상승에 힘을 보탰다.<br/>이날 오후 3시 30분 기준 달러 대비 원화 환율은 전장보다 <strong>0.6원</strong> 오른 <strong>1,323.7원</strong>이었다.<br/>이날 유가증권시장과 코스닥시장의 거래대금은 각각 <strong>15조2천916억원</strong>과 <strong>5조6천779억원</strong>으로 집계됐다.<br/>서류 제출 첫날 미국 증시에 이어 다음 날 한국 증시까지, 시장의 첫 반응은 같은 방향을 가리키고 있다.<br/>다만 하루의 방향만으로 상장의 성패를 점칠 수는 없다는 점은 이 글 앞부분에서 이미 짚은 그대로다.</p>
 
-참고한 기사 — [The Register (2026.10.26)](https://www.theregister.com/ai-and-ml/2026/10/26/trumpets-blare-and-skies-part-as-ai-hypefest-culminates-in-anthropic-ipo-filing/5305456) · [New York Post (2026.10.26)](https://nypost.com/2026/10/26/business/anthropic-files-for-blockbuster-ipo-that-could-value-ai-giant-at-2-trillion/) · [KuCoin News (2026.10.26)](https://www.kucoin.com/news/flash/anthropic-files-for-ipo-plans-nasdaq-listing-under-ant) · [Decrypt (2026.10.26)](https://decrypt.co/381818/anthropic-makes-ipo-filing-public-plans-nasdaq-listing-under-ant) · [Investopedia (2026.10.26)](https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-10262026-12194076) · [연합뉴스 코스피 마감 (2026.10.27)](https://www.yna.co.kr/view/AKR20261027146100008?section=economy/all&site=major_news01)
+
+<p align="center">서류 공개와 같은 날 발표됐지만 이 글 초판에는 담지 못했던 거래가 있다.<br/>브로드컴은 10월 26일(현지) 뱅크오브아메리카·블랙스톤·시티·모건스탠리와 <strong>630억 달러(약 83조5,000억원) 규모의</strong> 자금조달 계약을 맺었다고 밝혔다.<br/>앤트로픽의 인공지능 연산 인프라를 구축하기 위한 돈이다.<br/>조선비즈가 10월 27일 이 소식을 전했고, 펄스2도 같은 날 거래 구조를 정리했다.<br/>서류의 매출 곡선만 보면 앤트로픽이 연산 능력을 직접 사들이는 회사처럼 보이지만, 실제 돈의 흐름은 다르다.<br/>이 거래가 그 차이를 보여준다.</p>
+
+<p align="center">구조는 이렇다.<br/>금융사들이 낸 돈은 앤트로픽에 직접 들어가지 않는다.<br/>새로 만든 특수목적회사가 그 돈으로 브로드컴의 XPU 가속기와 네트워킹 장비를 산 뒤, 앤트로픽에 임대한다.<br/>앤트로픽은 장비를 사는 대신 임차료를 내고 연산 능력을 빌려 쓴다.<br/>장비 인도는 2027년부터 시작될 예정이다.<br/>선순위 대출은 뱅크오브아메리카·시티·모건스탠리가 주선하고, 후순위 대출의 약정 자금은 블랙스톤이 단독으로 제공한다.<br/>선순위와 후순위를 나누는 것은 상환 순서의 차이인데, 상황이 나빠졌을 때 누가 먼저 돈을 돌려받는지를 정해두는 장치다.</p>
+
+<p align="center"><img src="/images/anthropic-ipo-s1-filing-broadcom-2026-10-28.svg" alt="브로드컴 630억 달러 자금조달 구조 — 금융사 4곳이 특수목적회사에 자금을 대고, 특수목적회사가 브로드컴 장비를 사서 앤트로픽에 임대한다" style="max-width:100%;height:auto;"/></p>
+
+<p align="center" class="caption">도표는 조선비즈·펄스2 2026년 10월 27일 보도와 브로드컴 발표 내용을 정리해 직접 만들었다.</p>
+
+<p align="center">브로드컴의 역할은 장비를 파는 데서 끝나지 않는다.<br/>브로드컴은 특수목적회사에 선순위 대출 규모만큼의 잔존가치 지원을 제공한다.<br/>장비의 되팔 때 가치가 일정 수준 아래로 떨어지면 차액을 메워주는 약속이다.<br/>금융사 대출 전액을 보증하는 것과는 다르다.<br/>브로드컴이 밝힌 설명자료 기준으로는 이 지원에 따른 잠재 부담이 최대 <strong>430억 달러까지</strong> 이를 수 있다.<br/>다만 이 숫자는 확정된 지출이 아니라 잠재적 최대 노출액이고, 임차료가 들어올수록 부담은 줄어든다고 브로드컴은 설명했다.<br/>공급업체가 고객의 장비값 하락 위험 일부를 떠안는 대신, 대규모 공급 계약을 성사시키는 구조다.</p>
+
+<p align="center">이 거래는 4월에 브로드컴·구글·앤트로픽이 발표한 협력의 일부다.<br/>당시 세 회사는 앤트로픽이 2027년부터 브로드컴을 통해 텐서처리장치(TPU) 기반 연산 용량 약 3.5GW를 확보한다고 밝혔다.<br/>이번 자금조달이 뒷받침하는 구축 규모는 그중 약 <strong>1.7GW다.</strong><br/>시장의 반응은 즉각적이었다.<br/>10월 27일 장중 브로드컴 주가는 전장보다 <strong>3.71%를</strong> 올랐고, AMD도 <strong>3.29%를</strong> 올랐으며 SK하이닉스 미국주식예탁증서도 <strong>1.54%</strong> 올랐다고 아시아경제가 전했다.<br/>연산 능력을 둘러싼 돈의 흐름이 반도체 주가에 직접 닿는 하루였다.</p>
+
+<p align="center">이 거래를 이 블로그가 10월 3일에 다룬 브로드컴의 최대 420억 달러 규모 임대료 자금지원과 나란히 놓고 보면 그림이 또렷해진다.<br/>앤트로픽의 연산 확장은 현금을 쌓아두고 장비를 사는 방식이 아니라, 층층이 쌓인 금융 구조로 연산 능력을 빌리는 방식에 가깝다.<br/>그래서 투자자가 봐야 할 숫자는 매출 곡선만이 아니다.<br/>앞으로 몇 년간 내야 할 임차료의 총량, 그리고 그 임차료가 매출 증가 속도를 따라잡을 수 있는지가 상장의 성패를 가르는 또 하나의 축이다.<br/>다만 이번 거래의 금리와 만기 같은 세부 조건은 공개되지 않았다.<br/>잔존가치 지원이 실제로 발동되는 조건의 세부 내용도 브로드컴이 밝힌 범위를 넘어서는 부분은 아직 확인되지 않았다.<br/>확정되지 않은 조건을 두고 구조의 위험을 단정하는 것은 이르다.</p>
+
+참고한 기사 — [The Register (2026.10.26)](https://www.theregister.com/ai-and-ml/2026/10/26/trumpets-blare-and-skies-part-as-ai-hypefest-culminates-in-anthropic-ipo-filing/5305456) · [New York Post (2026.10.26)](https://nypost.com/2026/10/26/business/anthropic-files-for-blockbuster-ipo-that-could-value-ai-giant-at-2-trillion/) · [KuCoin News (2026.10.26)](https://www.kucoin.com/news/flash/anthropic-files-for-ipo-plans-nasdaq-listing-under-ant) · [Decrypt (2026.10.26)](https://decrypt.co/381818/anthropic-makes-ipo-filing-public-plans-nasdaq-listing-under-ant) · [Investopedia (2026.10.26)](https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-10262026-12194076) · [연합뉴스 코스피 마감 (2026.10.27)](https://www.yna.co.kr/view/AKR20261027146100008?section=economy/all&site=major_news01) · [조선비즈 (2026.10.27)](https://biz.chosun.com/en/en-it/2026/10/27/QILVBYZEDJBY3HLUBCJS3AMKFU/) · [아시아경제 (2026.10.27)](https://www.asiae.co.kr/en/article/world-stockmarket/2026102723110512979) · [Pulse2 (2026.10.27)](https://pulse2.com/broadcom-and-financial-partners-arrange-63-billion-financing-for-anthropic-ai-compute-capacity/)
