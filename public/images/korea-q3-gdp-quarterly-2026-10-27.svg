@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="sans-serif">
+<rect width="900" height="520" fill="#f4f1ea"/>
+<text x="40" y="48" font-size="26" font-weight="bold" fill="#20231f">분기별 실질 GDP, 전기 대비 성장률</text>
+<text x="40" y="78" font-size="15" fill="#62655d">2025년 4분기부터 2026년 3분기까지. 3분기는 속보치</text>
+<line x1="80" y1="430" x2="840" y2="430" stroke="#20231f" stroke-width="3"/>
+<rect x="140" y="430" width="110" height="15" fill="#e0795b"/>
+<text x="195" y="470" font-size="16" font-weight="bold" fill="#20231f" text-anchor="middle">-0.1%</text>
+<text x="195" y="492" font-size="15" fill="#20231f" text-anchor="middle">2025년 4분기</text>
+<rect x="330" y="160" width="110" height="270" fill="#16756a"/>
+<text x="385" y="140" font-size="16" font-weight="bold" fill="#20231f" text-anchor="middle">1.8%</text>
+<text x="385" y="460" font-size="15" fill="#20231f" text-anchor="middle">2026년 1분기</text>
+<rect x="520" y="340" width="110" height="90" fill="#16756a"/>
+<text x="575" y="320" font-size="16" font-weight="bold" fill="#20231f" text-anchor="middle">0.6%</text>
+<text x="575" y="460" font-size="15" fill="#20231f" text-anchor="middle">2026년 2분기</text>
+<rect x="700" y="280" width="110" height="150" fill="#20231f"/>
+<text x="755" y="260" font-size="16" font-weight="bold" fill="#20231f" text-anchor="middle">1.0%</text>
+<text x="755" y="460" font-size="15" fill="#20231f" text-anchor="middle">2026년 3분기</text>
+<text x="40" y="512" font-size="13" fill="#62655d">도표는 한국은행 2026년 3분기 실질 GDP 속보치 보도를 정리해 직접 만들었다.</text>
+</svg>
