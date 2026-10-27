@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="340" viewBox="0 0 900 340" font-family="sans-serif">
+<rect width="900" height="340" fill="#fafafa"/>
+<text x="40" y="40" font-size="22" font-weight="bold" fill="#111">이스라엘 총선 출구조사 — 진영별 의석 예측 (120석 중)</text>
+<text x="40" y="68" font-size="14" fill="#555">방송사마다 수치가 조금씩 달라 범위로 표기. 최종 개표 결과가 아님.</text>
+<text x="40" y="115" font-size="16" fill="#111">네타냐후 진영</text>
+<rect x="200" y="95" width="333" height="30" fill="#1f4e79"/>
+<text x="545" y="117" font-size="16" font-weight="bold" fill="#111">50석 안팎</text>
+<text x="40" y="175" font-size="16" fill="#111">아이젠코트 야권</text>
+<rect x="200" y="155" width="353" height="30" fill="#2e7d32"/>
+<text x="565" y="177" font-size="16" font-weight="bold" fill="#111">52~53석 안팎</text>
+<text x="40" y="235" font-size="16" fill="#111">아랍 정당</text>
+<rect x="200" y="215" width="117" height="30" fill="#b7791f"/>
+<text x="330" y="237" font-size="16" font-weight="bold" fill="#111">17~18석</text>
+<line x1="200" y1="275" x2="200" y2="295" stroke="#c0392b" stroke-width="2"/>
+<line x1="607" y1="275" x2="607" y2="295" stroke="#c0392b" stroke-width="2"/>
+<text x="200" y="315" font-size="14" fill="#c0392b">과반 기준 61석 — 어느 진영도 도달하지 못함</text>
+<text x="40" y="315" font-size="13" fill="#777">출처: JPost·USA TODAY 2026.10.27 출구조사 정리</text>
+</svg>
