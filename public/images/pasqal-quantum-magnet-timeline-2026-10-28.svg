@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="260" viewBox="0 0 760 260" font-family="sans-serif">
+<rect width="760" height="260" fill="#ffffff"/>
+<text x="30" y="34" font-size="19" font-weight="bold" fill="#111111">파스칼 양자자석 연구의 단계</text>
+<text x="30" y="58" font-size="13" fill="#555555">파스칼 2026년 10월 27일 보도자료의 경과 설명 기준</text>
+<g font-size="14" fill="#111111">
+<circle cx="60" cy="110" r="10" fill="#2563eb"/>
+<text x="90" y="105" font-weight="bold">올해 초 — 실제 자성 결정 재현</text>
+<text x="90" y="128" font-size="13" fill="#333333">256큐비트 플랫폼이 실험실 측정과 높은 정량적 일치</text>
+<circle cx="60" cy="170" r="10" fill="#dc2626"/>
+<text x="90" y="165" font-weight="bold">10월 27일 — 느린 진정 구간 발표</text>
+<text x="90" y="188" font-size="13" fill="#333333">16×16 격자, 세 가지 진정 구간 중 하나가 설명을 거부</text>
+<circle cx="60" cy="230" r="10" fill="#64748b"/>
+<text x="90" y="225" font-weight="bold">남은 과제 — 동료심사 검증과 스핀 수송 연구</text>
+</g>
+<text x="30" y="252" font-size="12" fill="#777777">이번 결과는 양자우위 입증이 아니며, 프리프린트 단계라는 점을 연구진이 명시했다.</text>
+</svg>
