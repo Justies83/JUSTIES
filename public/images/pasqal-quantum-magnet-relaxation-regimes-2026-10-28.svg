@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="320" viewBox="0 0 760 320" font-family="sans-serif">
+<rect width="760" height="320" fill="#ffffff"/>
+<text x="30" y="34" font-size="19" font-weight="bold" fill="#111111">2차원 양자자석의 세 가지 진정 구간</text>
+<text x="30" y="58" font-size="13" fill="#555555">파스칼 2026년 10월 27일 보도자료와 arXiv 프리프린트 기준 · hx/J는 횡자기장과 상호작용의 비율</text>
+<g font-size="15" fill="#111111">
+<rect x="30" y="80" width="700" height="52" fill="#dbeafe"/>
+<text x="48" y="100" font-weight="bold">빠른 열평형</text>
+<text x="48" y="122" font-size="13" fill="#333333">hx/J가 2 안팎 — 예상대로 빠르게 진정</text>
+<rect x="30" y="144" width="700" height="52" fill="#fef3c7"/>
+<text x="48" y="164" font-weight="bold">전이 구간 — 뜻밖의 느려짐</text>
+<text x="48" y="182" font-size="13" fill="#333333">hx/J가 3.5 안팎 — 1/J를 넘어서도 열평형 값에서 멀리 머무름</text>
+<rect x="30" y="208" width="700" height="52" fill="#dcfce7"/>
+<text x="48" y="228" font-weight="bold">오래 지속되는 전열 상태</text>
+<text x="48" y="246" font-size="13" fill="#333333">자기장이 강한 쪽 — 유효 XY 모형으로 설명되는 비열 상태</text>
+</g>
+<text x="30" y="292" font-size="12" fill="#777777">동적 상전이 경계는 hx/J가 2.5부터 3.0 사이, 열역학적 추정치는 2.6 안팎 · 스캔 범위 hx/J가 2부터 6까지</text>
+</svg>
