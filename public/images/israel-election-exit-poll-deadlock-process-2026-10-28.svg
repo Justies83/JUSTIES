@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220" font-family="sans-serif">
+<rect width="900" height="220" fill="#fafafa"/>
+<text x="40" y="35" font-size="20" font-weight="bold" fill="#111">총선 이후 절차</text>
+<g font-size="15" fill="#111">
+<rect x="30" y="60" width="170" height="70" rx="8" fill="#dce6f1"/>
+<text x="50" y="90" font-weight="bold">1. 출구조사</text>
+<text x="50" y="113">10월 27일 밤 발표</text>
+<rect x="225" y="60" width="170" height="70" rx="8" fill="#dce6f1"/>
+<text x="245" y="90" font-weight="bold">2. 공식 개표</text>
+<text x="245" y="113">예비 결과 이르면 수요일</text>
+<rect x="420" y="60" width="170" height="70" rx="8" fill="#e2efda"/>
+<text x="440" y="90" font-weight="bold">3. 구성권 부여</text>
+<text x="440" y="113">대통령이 지도자 지명</text>
+<rect x="615" y="60" width="170" height="70" rx="8" fill="#fce4d6"/>
+<text x="635" y="90" font-weight="bold">4. 연정 협상</text>
+<text x="635" y="113">실패 시 재선거</text>
+</g>
+<text x="40" y="175" font-size="14" fill="#555">협상 기간 중 네타냐후는 관리 내각 총리로 직무를 이어간다.</text>
+</svg>
