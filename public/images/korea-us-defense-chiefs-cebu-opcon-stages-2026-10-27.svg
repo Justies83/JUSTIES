@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" role="img" aria-label="전작권 전환 검증 3단계">
+<rect width="900" height="420" fill="#f4f1ea"/>
+<text x="60" y="70" font-size="30" font-weight="700" fill="#20231f">전작권 전환 검증 3단계</text>
+<rect x="60" y="130" width="240" height="170" fill="#ffffff" stroke="#16756a" stroke-width="3"/>
+<rect x="330" y="130" width="240" height="170" fill="#ffffff" stroke="#e0795b" stroke-width="3"/>
+<rect x="600" y="130" width="240" height="170" fill="#ffffff" stroke="#16756a" stroke-width="3"/>
+<text x="180" y="180" font-size="22" font-weight="700" fill="#20231f" text-anchor="middle">1단계 IOC</text>
+<text x="180" y="215" font-size="20" fill="#20231f" text-anchor="middle">초기작전운용능력</text>
+<text x="180" y="250" font-size="20" fill="#20231f" text-anchor="middle">검증 완료</text>
+<text x="450" y="180" font-size="22" font-weight="700" fill="#20231f" text-anchor="middle">2단계 FOC</text>
+<text x="450" y="215" font-size="20" fill="#20231f" text-anchor="middle">완전운용능력</text>
+<text x="450" y="250" font-size="20" fill="#20231f" text-anchor="middle">지금 이 단계</text>
+<text x="720" y="180" font-size="22" font-weight="700" fill="#20231f" text-anchor="middle">3단계 FMC</text>
+<text x="720" y="215" font-size="20" fill="#20231f" text-anchor="middle">완전임무수행능력</text>
+<text x="720" y="250" font-size="20" fill="#20231f" text-anchor="middle">이후 단계</text>
+<text x="305" y="225" font-size="28" font-weight="700" fill="#16756a" text-anchor="middle">›</text>
+<text x="575" y="225" font-size="28" font-weight="700" fill="#16756a" text-anchor="middle">›</text>
+<text x="60" y="360" font-size="20" fill="#20231f">검증 완료 후 전환 목표연도(X연도)를 양국 대통령에게 건의한다.</text>
+</svg>
