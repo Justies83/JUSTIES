@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="280" viewBox="0 0 760 280" font-family="sans-serif">
+<rect width="760" height="280" fill="#ffffff"/>
+<text x="30" y="34" font-size="19" font-weight="bold" fill="#111111">이번 주 일정 — 반등 뒤의 갈림길</text>
+<line x1="60" y1="80" x2="700" y2="80" stroke="#cbd5e1" stroke-width="3"/>
+<g font-size="14" fill="#111111">
+<circle cx="80" cy="80" r="9" fill="#2563eb"/><text x="80" y="112" text-anchor="middle" font-weight="bold">10월 27일</text><text x="80" y="134" text-anchor="middle">뉴욕증시 반등 보도</text><text x="80" y="154" text-anchor="middle">(뉴스핌)</text>
+<circle cx="280" cy="80" r="9" fill="#dc2626"/><text x="280" y="112" text-anchor="middle" font-weight="bold">10월 28일</text><text x="280" y="134" text-anchor="middle">연준 금리 결정</text><text x="280" y="154" text-anchor="middle">SK하이닉스 실적</text>
+<circle cx="480" cy="80" r="9" fill="#dc2626"/><text x="480" y="112" text-anchor="middle" font-weight="bold">10월 29일</text><text x="480" y="134" text-anchor="middle">ECB 금리 결정</text><text x="480" y="154" text-anchor="middle">삼성전자 실적</text>
+<circle cx="660" cy="80" r="9" fill="#64748b"/><text x="660" y="112" text-anchor="middle" font-weight="bold">10월 31일</text><text x="660" y="134" text-anchor="middle">APEC 정상회의</text><text x="660" y="154" text-anchor="middle">경주 개막</text>
+</g>
+<text x="30" y="200" font-size="13" fill="#555555">연준은 동결이 널리 예상되나, CME 페드워치 기준 12월 인상 확률은 80%로 집계됐다.</text>
+<text x="30" y="224" font-size="13" fill="#555555">트럼프 방한은 29일 시작 예정으로 보도됐으나, 정상회의 본회의 참석 여부는 확정되지 않았다.</text>
+<text x="30" y="256" font-size="12" fill="#777777">출처: 뉴스핌 2026.10.27 · 이 블로그 10월 27일 삼성·SK하이닉스 글 · KBS 월드 2026.10.26</text>
+</svg>
