@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" font-family="sans-serif">
+<rect width="900" height="600" fill="#f4f1ea"/>
+<text x="40" y="48" font-size="26" font-weight="bold" fill="#20231f">브로드컴 630억 달러 자금조달 — 앤트로픽 연산 능력은 누가 사나</text>
+<text x="40" y="78" font-size="15" fill="#62655d">금융사가 돈을 대고, 특수목적회사가 장비를 사서, 앤트로픽은 임차한다</text>
+<rect x="60" y="120" width="360" height="110" fill="#20231f"/>
+<text x="240" y="158" font-size="17" font-weight="bold" fill="#ffffff" text-anchor="middle">금융사 4곳 — 630억 달러</text>
+<text x="240" y="188" font-size="15" fill="#ffffff" text-anchor="middle">뱅크오브아메리카 · 시티 · 모건스탠리</text>
+<text x="240" y="210" font-size="15" fill="#ffffff" text-anchor="middle">선순위 주선 / 블랙스톤 후순위 단독 제공</text>
+<rect x="480" y="120" width="360" height="110" fill="#16756a"/>
+<text x="660" y="158" font-size="17" font-weight="bold" fill="#ffffff" text-anchor="middle">특수목적회사(SPV)</text>
+<text x="660" y="188" font-size="15" fill="#ffffff" text-anchor="middle">브로드컴 XPU 가속기 · 네트워킹 장비 구매</text>
+<text x="660" y="210" font-size="15" fill="#ffffff" text-anchor="middle">인도 시작 2027년</text>
+<text x="450" y="262" font-size="26" fill="#20231f" text-anchor="middle">↓ 임차 ↓</text>
+<rect x="270" y="290" width="360" height="110" fill="#ffffff" stroke="#20231f" stroke-width="2"/>
+<text x="450" y="328" font-size="17" font-weight="bold" fill="#20231f" text-anchor="middle">앤트로픽 — 직접 사지 않고 임차료 지불</text>
+<text x="450" y="358" font-size="15" fill="#20231f" text-anchor="middle">장비는 사지 않고, 연산 능력만 빌려 쓴다</text>
+<text x="450" y="382" font-size="15" fill="#62655d" text-anchor="middle">전체 계획 3.5GW 중 이번 자금조달분 약 1.7GW</text>
+<rect x="60" y="440" width="780" height="90" fill="#ffffff" stroke="#e0795b" stroke-width="2"/>
+<text x="450" y="478" font-size="17" font-weight="bold" fill="#20231f" text-anchor="middle">브로드컴 잔존가치 지원 — 최대 430억 달러까지 가능 (확정 지출 아님)</text>
+<text x="450" y="506" font-size="15" fill="#62655d" text-anchor="middle">장비 잔존가치가 일정 수준 아래로 떨어지면 차액 보전 — 대출 전액 보증과는 다르다</text>
+<text x="40" y="572" font-size="13" fill="#62655d">도표는 조선비즈·펄스2 2026년 10월 27일 보도와 브로드컴 발표 내용을 정리해 직접 만들었다.</text>
+</svg>
