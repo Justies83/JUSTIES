@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="340" viewBox="0 0 900 340" font-family="sans-serif">
+<rect width="900" height="340" fill="#fafafa"/>
+<text x="40" y="40" font-size="22" font-weight="bold" fill="#111">상륙 전 강수량 — 10월 27일 오전 8시 30분부터 28일 오전 5시 30분까지</text>
+<text x="40" y="68" font-size="14" fill="#555">현지 시간 기준, IMD 집계. 하루도 안 되는 시간에 내린 비다.</text>
+<text x="40" y="115" font-size="16" fill="#111">비샤카파트남</text>
+<rect x="200" y="95" width="432" height="30" fill="#1f4e79"/>
+<text x="645" y="117" font-size="16" font-weight="bold" fill="#111">216mm</text>
+<text x="40" y="175" font-size="16" fill="#111">칼링가파트남</text>
+<rect x="200" y="155" width="294" height="30" fill="#2e7d32"/>
+<text x="507" y="177" font-size="16" font-weight="bold" fill="#111">147mm</text>
+<text x="40" y="235" font-size="16" fill="#111">카키나다</text>
+<rect x="200" y="215" width="236" height="30" fill="#b7791f"/>
+<text x="449" y="237" font-size="16" font-weight="bold" fill="#111">118mm</text>
+<text x="40" y="295" font-size="16" fill="#111">마칠리파트남</text>
+<rect x="200" y="275" width="230" height="30" fill="#5b7fa6"/>
+<text x="443" y="297" font-size="16" font-weight="bold" fill="#111">115mm</text>
+<text x="40" y="325" font-size="13" fill="#777">출처: NDTV가 전한 IMD 집계</text>
+</svg>
