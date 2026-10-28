@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" font-family="sans-serif">
+<rect width="900" height="260" fill="#fafafa"/>
+<text x="40" y="40" font-size="22" font-weight="bold" fill="#111">지오, 상장까지의 걸음</text>
+<line x1="60" y1="120" x2="840" y2="120" stroke="#1f4e79" stroke-width="3"/>
+<circle cx="110" cy="120" r="10" fill="#1f4e79"/>
+<text x="70" y="80" font-size="16" font-weight="bold" fill="#111">2016년</text>
+<text x="55" y="155" font-size="14" fill="#333">지오 서비스 시작</text>
+<text x="55" y="178" font-size="14" fill="#333">무료 음성·저가 데이터</text>
+<circle cx="300" cy="120" r="10" fill="#2e7d32"/>
+<text x="260" y="80" font-size="16" font-weight="bold" fill="#111">2019년</text>
+<text x="245" y="155" font-size="14" fill="#333">지오 플랫폼스 설립</text>
+<circle cx="490" cy="120" r="10" fill="#b7791f"/>
+<text x="450" y="80" font-size="16" font-weight="bold" fill="#111">2020년</text>
+<text x="435" y="155" font-size="14" fill="#333">글로벌 투자 205억 달러 유치</text>
+<circle cx="680" cy="120" r="10" fill="#c0392b"/>
+<text x="610" y="80" font-size="16" font-weight="bold" fill="#111">2026년 10월</text>
+<text x="615" y="155" font-size="14" fill="#333">21~23일 공모 · 28일 상장</text>
+<text x="615" y="178" font-size="14" fill="#333">첫날 1,358루피, 21.36% 상승</text>
+<text x="40" y="230" font-size="13" fill="#777">출처: 회사 연혁 및 공모 일정 보도</text>
+</svg>
