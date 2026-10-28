@@ -1,15 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="3분기 영업이익 비교">
 <rect width="900" height="520" fill="#f4f1ea"/>
 <text x="60" y="70" font-size="30" font-weight="700" fill="#20231f">3분기 영업이익 (조원)</text>
-<text x="60" y="112" font-size="20" fill="#62655d">삼성전자는 잠정 실적, SK하이닉스는 증권가 컨센서스</text>
+<text x="60" y="112" font-size="20" fill="#62655d">삼성전자는 잠정 실적, SK하이닉스는 2026년 10월 28일 공시</text>
 <text x="60" y="200" font-size="26" fill="#20231f">삼성전자</text>
 <rect x="220" y="172" width="573" height="52" fill="#16756a"/>
 <text x="805" y="208" font-size="26" font-weight="700" fill="#20231f">107.4</text>
 <text x="60" y="300" font-size="26" fill="#20231f">SK하이닉스</text>
-<rect x="220" y="272" width="411" height="52" fill="#e0795b"/>
-<text x="643" y="308" font-size="26" font-weight="700" fill="#20231f">77.0</text>
+<rect x="220" y="272" width="444" height="52" fill="#e0795b"/>
+<text x="676" y="308" font-size="26" font-weight="700" fill="#20231f">83.3</text>
 <line x1="60" y1="380" x2="840" y2="380" stroke="#62655d" stroke-width="1"/>
 <text x="60" y="425" font-size="26" fill="#20231f">두 회사 합산</text>
-<text x="220" y="425" font-size="30" font-weight="700" fill="#16756a">184조원 육박</text>
-<text x="60" y="485" font-family="monospace" font-size="18" fill="#62655d">기준: 매일경제·뉴시스 2026.10.27 보도 / 단위: 조원</text>
+<text x="220" y="425" font-size="30" font-weight="700" fill="#16756a">190.7조원</text>
+<text x="60" y="485" font-family="monospace" font-size="18" fill="#62655d">기준: 삼성전자 잠정 실적, SK하이닉스 2026.10.28 공시 / 단위: 조원</text>
 </svg>
