@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="260" viewBox="0 0 800 260" font-family="sans-serif">
+<rect width="800" height="260" fill="#ffffff"/>
+<text x="40" y="36" font-size="20" font-weight="bold" fill="#111111">고점 대비 하락률 비교</text>
+<text x="40" y="60" font-size="13" fill="#666666">로이터 2026년 10월 26일 보도와 토큰포스트 정리 기준</text>
+<text x="40" y="105" font-size="15" fill="#111111">중국 STAR50</text>
+<rect x="200" y="90" width="400" height="22" fill="#c0392b"/>
+<text x="615" y="107" font-size="15" font-weight="bold" fill="#c0392b">-40%</text>
+<text x="40" y="155" font-size="15" fill="#111111">중국 CSI300</text>
+<rect x="200" y="140" width="200" height="22" fill="#e67e22"/>
+<text x="415" y="157" font-size="15" font-weight="bold" fill="#e67e22">-20%</text>
+<text x="40" y="205" font-size="15" fill="#111111">미국 나스닥</text>
+<rect x="200" y="190" width="60" height="22" fill="#2e86c1"/>
+<text x="275" y="207" font-size="15" font-weight="bold" fill="#2e86c1">-6%</text>
+<text x="40" y="240" font-size="12" fill="#888888">STAR50은 4개월이 채 안 되는 기간, CSI300은 6월 고점, 나스닥은 3주 전 기록 대비 기준이다.</text>
+</svg>
