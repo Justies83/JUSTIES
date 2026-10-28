@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="240" viewBox="0 0 900 240" font-family="sans-serif">
+<rect width="900" height="240" fill="#fafafa"/>
+<text x="40" y="40" font-size="22" font-weight="bold" fill="#111">공모 자금 사용 계획 — 전체 3천213억 루피</text>
+<text x="40" y="68" font-size="14" fill="#555">신주 공모라 자금은 회사로 들어간다. 기존 주주의 구주 매각은 없다.</text>
+<rect x="40" y="100" width="746" height="44" fill="#1f4e79"/>
+<rect x="786" y="100" width="74" height="44" fill="#b7791f"/>
+<text x="40" y="175" font-size="16" fill="#111">■ 지오 인포콤 차입금 상환·조기 상환 — 최대 2천750억 루피 (91%)</text>
+<text x="40" y="205" font-size="16" fill="#111">■ 일반 기업 운영 자금 — 나머지 약 463억 루피</text>
+<text x="40" y="230" font-size="13" fill="#777">출처: 공모 설명서 및 회사 발표</text>
+</svg>
