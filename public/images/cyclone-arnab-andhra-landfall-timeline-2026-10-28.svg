@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="330" viewBox="0 0 900 330" font-family="sans-serif">
+<rect width="900" height="330" fill="#fafafa"/>
+<text x="40" y="40" font-size="22" font-weight="bold" fill="#111">사이클론 아르나브 — 발달과 상륙 시간표 (현지 시간 기준)</text>
+<text x="40" y="68" font-size="14" fill="#555">벵골만 저기압에서 매우 강한 사이클론으로, 한국 시간은 3시간 30분 늦다.</text>
+<line x1="60" y1="150" x2="840" y2="150" stroke="#999" stroke-width="2"/>
+<circle cx="120" cy="150" r="10" fill="#1f4e79"/>
+<circle cx="310" cy="150" r="10" fill="#1f4e79"/>
+<circle cx="500" cy="150" r="10" fill="#b7791f"/>
+<circle cx="690" cy="150" r="10" fill="#c0392b"/>
+<circle cx="820" cy="150" r="10" fill="#2e7d32"/>
+<text x="120" y="115" font-size="15" font-weight="bold" fill="#111" text-anchor="middle">10월 24일</text>
+<text x="120" y="195" font-size="14" fill="#333" text-anchor="middle">열대저기압으로</text>
+<text x="120" y="218" font-size="14" fill="#333" text-anchor="middle">발달</text>
+<text x="310" y="115" font-size="15" font-weight="bold" fill="#111" text-anchor="middle">10월 26일</text>
+<text x="310" y="195" font-size="14" fill="#333" text-anchor="middle">사이클론으로</text>
+<text x="310" y="218" font-size="14" fill="#333" text-anchor="middle">강화</text>
+<text x="500" y="115" font-size="15" font-weight="bold" fill="#111" text-anchor="middle">10월 27일</text>
+<text x="500" y="195" font-size="14" fill="#333" text-anchor="middle">강한 사이클론으로</text>
+<text x="500" y="218" font-size="14" fill="#333" text-anchor="middle">강화</text>
+<text x="690" y="115" font-size="15" font-weight="bold" fill="#c0392b" text-anchor="middle">10월 28일 새벽</text>
+<text x="690" y="195" font-size="14" fill="#333" text-anchor="middle">1시 20분 상륙 시작</text>
+<text x="690" y="218" font-size="14" fill="#333" text-anchor="middle">바파트라-비샤카파트남</text>
+<text x="820" y="115" font-size="15" font-weight="bold" fill="#111" text-anchor="middle">28일 이후</text>
+<text x="820" y="195" font-size="14" fill="#333" text-anchor="middle">내륙 이동,</text>
+<text x="820" y="218" font-size="14" fill="#333" text-anchor="middle">오디샤 폭우</text>
+<text x="40" y="290" font-size="13" fill="#777">출처: IMD 속보 · 각 매체 보도 종합</text>
+</svg>
