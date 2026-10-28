@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" font-family="sans-serif">
+  <rect width="1000" height="300" fill="#ffffff"/>
+  <text x="500" y="32" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">인앱결제 강제 제재, 5년의 경과</text>
+  <line x1="70" y1="150" x2="930" y2="150" stroke="#888888" stroke-width="2"/>
+  <circle cx="110" cy="150" r="10" fill="#1a73e8"/>
+  <circle cx="310" cy="150" r="10" fill="#1a73e8"/>
+  <circle cx="510" cy="150" r="10" fill="#1a73e8"/>
+  <circle cx="710" cy="150" r="10" fill="#1a73e8"/>
+  <circle cx="900" cy="150" r="10" fill="#d93025"/>
+  <text x="110" y="105" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">2021년 9월</text>
+  <text x="110" y="200" text-anchor="middle" font-size="15" fill="#333333">인앱결제 강제 금지법</text>
+  <text x="110" y="222" text-anchor="middle" font-size="15" fill="#333333">세계 최초 시행</text>
+  <text x="310" y="105" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">2022년 8월</text>
+  <text x="310" y="200" text-anchor="middle" font-size="15" fill="#333333">방통위 사실조사</text>
+  <text x="310" y="222" text-anchor="middle" font-size="15" fill="#333333">착수</text>
+  <text x="510" y="105" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">2023년 10월</text>
+  <text x="510" y="200" text-anchor="middle" font-size="15" fill="#333333">시정조치안 사전통지</text>
+  <text x="510" y="222" text-anchor="middle" font-size="15" fill="#333333">총 680억 원</text>
+  <text x="710" y="105" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">2025년 3월</text>
+  <text x="710" y="200" text-anchor="middle" font-size="15" fill="#333333">매출액 재산정 조정안</text>
+  <text x="710" y="222" text-anchor="middle" font-size="15" fill="#333333">총 630억 원</text>
+  <text x="900" y="105" text-anchor="middle" font-size="17" font-weight="bold" fill="#d93025">2026년 10월 28일</text>
+  <text x="900" y="200" text-anchor="middle" font-size="15" fill="#333333">방미통위 최종 의결</text>
+  <text x="900" y="222" text-anchor="middle" font-size="15" fill="#333333">총 637억1천만 원</text>
+  <text x="500" y="278" text-anchor="middle" font-size="13" fill="#666666">자료: 연합뉴스·중앙일보·매일경제 2026년 10월 28일 보도 정리</text>
+</svg>
