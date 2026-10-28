@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-label="연방기금금리 목표범위 중간값 추이">
+  <rect width="900" height="420" fill="#ffffff"/>
+  <text x="450" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">연방기금금리 목표범위 중간값 추이</text>
+  <text x="450" y="62" text-anchor="middle" font-size="14" fill="#555555">2025년 9월 인하 종료 지점부터 2026년 10월 동결까지</text>
+  <line x1="90" y1="330" x2="830" y2="330" stroke="#cccccc" stroke-width="1"/>
+  <line x1="90" y1="260" x2="830" y2="260" stroke="#eeeeee" stroke-width="1"/>
+  <line x1="90" y1="190" x2="830" y2="190" stroke="#eeeeee" stroke-width="1"/>
+  <line x1="90" y1="120" x2="830" y2="120" stroke="#eeeeee" stroke-width="1"/>
+  <line x1="90" y1="90" x2="90" y2="330" stroke="#999999" stroke-width="1"/>
+  <text x="80" y="335" text-anchor="end" font-size="14" fill="#333333">3.50%</text>
+  <text x="80" y="265" text-anchor="end" font-size="14" fill="#333333">3.65%</text>
+  <text x="80" y="195" text-anchor="end" font-size="14" fill="#333333">3.80%</text>
+  <text x="80" y="125" text-anchor="end" font-size="14" fill="#333333">3.95%</text>
+  <polyline points="140,285 430,285 430,160 800,160" fill="none" stroke="#1a4d8f" stroke-width="4"/>
+  <circle cx="140" cy="285" r="7" fill="#1a4d8f"/>
+  <circle cx="430" cy="285" r="7" fill="#1a4d8f"/>
+  <circle cx="430" cy="160" r="7" fill="#c0392b"/>
+  <circle cx="800" cy="160" r="7" fill="#c0392b"/>
+  <text x="140" y="315" text-anchor="middle" font-size="14" fill="#333333">2025년 9월</text>
+  <text x="140" y="255" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a4d8f">3.625%</text>
+  <text x="430" y="315" text-anchor="middle" font-size="14" fill="#333333">2026년 9월 인상</text>
+  <text x="430" y="130" text-anchor="middle" font-size="14" font-weight="bold" fill="#c0392b">3.875%</text>
+  <text x="800" y="315" text-anchor="middle" font-size="14" fill="#333333">2026년 10월 28일 동결</text>
+  <text x="800" y="130" text-anchor="middle" font-size="14" font-weight="bold" fill="#c0392b">3.875%</text>
+  <text x="450" y="385" text-anchor="middle" font-size="13" fill="#777777">목표범위 3.50-3.75% → 3.75-4.00% → 3.75-4.00% 유지. 중간값 기준.</text>
+</svg>
