@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="260" viewBox="0 0 800 260" font-family="sans-serif">
+<rect width="800" height="260" fill="#ffffff"/>
+<text x="40" y="36" font-size="20" font-weight="bold" fill="#111111">아직도 비싸다는 경고 — 주가수익비율</text>
+<text x="40" y="60" font-size="13" fill="#666666">로이터 2026년 10월 26일 보도 기준, 과거 이익 대비 배수</text>
+<text x="40" y="105" font-size="15" fill="#111111">STAR50 고점</text>
+<rect x="200" y="90" width="500" height="22" fill="#922b21"/>
+<text x="715" y="107" font-size="15" font-weight="bold" fill="#922b21">250배</text>
+<text x="40" y="155" font-size="15" fill="#111111">STAR50 현재</text>
+<rect x="200" y="140" width="200" height="22" fill="#c0392b"/>
+<text x="415" y="157" font-size="15" font-weight="bold" fill="#c0392b">100배</text>
+<text x="40" y="205" font-size="15" fill="#111111">나스닥100</text>
+<rect x="200" y="190" width="60" height="22" fill="#2e86c1"/>
+<text x="275" y="207" font-size="15" font-weight="bold" fill="#2e86c1">30배</text>
+<text x="40" y="240" font-size="12" fill="#888888">40% 떨어지고도 나스닥100의 세 배가 넘는 배수다. 추가 조정 우려가 나오는 이유다.</text>
+</svg>
