@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-label="10월 28일 코스피 마감과 주요 종목 상승률">
+<rect width="900" height="560" fill="#f4f1ea"/>
+<text x="60" y="70" font-size="30" font-weight="700" fill="#20231f">10월 28일 코스피 마감</text>
+<text x="60" y="112" font-size="20" fill="#62655d">전일 5,638.34에서 374.1포인트 올라 6,012.44로 마감, 장중 고점 6,032.28</text>
+<text x="60" y="170" font-size="26" fill="#20231f">삼성전자</text>
+<rect x="300" y="142" width="385" height="52" fill="#16756a"/>
+<text x="697" y="178" font-size="26" font-weight="700" fill="#20231f">+9.01%</text>
+<text x="60" y="260" font-size="26" fill="#20231f">SK하이닉스</text>
+<rect x="300" y="232" width="465" height="52" fill="#e0795b"/>
+<text x="777" y="268" font-size="26" font-weight="700" fill="#20231f">+10.89%</text>
+<text x="60" y="350" font-size="26" fill="#20231f">SK스퀘어</text>
+<rect x="300" y="322" width="480" height="52" fill="#16756a"/>
+<text x="792" y="358" font-size="26" font-weight="700" fill="#20231f">+11.23%</text>
+<text x="60" y="440" font-size="26" fill="#20231f">삼성전기</text>
+<rect x="300" y="412" width="374" height="52" fill="#e0795b"/>
+<text x="686" y="448" font-size="26" font-weight="700" fill="#20231f">+8.74%</text>
+<text x="60" y="520" font-family="monospace" font-size="18" fill="#62655d">기준: 연합뉴스 2026.10.28 코스피 마감 / 종가: 삼성전자 242,000원, SK하이닉스 149만원</text>
+</svg>
