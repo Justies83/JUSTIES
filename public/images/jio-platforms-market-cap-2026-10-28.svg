@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360" font-family="sans-serif">
+<rect width="900" height="360" fill="#fafafa"/>
+<text x="40" y="40" font-size="22" font-weight="bold" fill="#111">상장 첫날 오전, 인도 시가총액 상위 5개사</text>
+<text x="40" y="68" font-size="14" fill="#555">단위: lakh crore 루피(1 lakh crore = 1조 루피). 장중 수치라 종가와 다를 수 있다.</text>
+<text x="40" y="115" font-size="16" fill="#111">릴라이언스</text>
+<rect x="210" y="95" width="556" height="28" fill="#1f4e79"/>
+<text x="778" y="115" font-size="16" font-weight="bold" fill="#111">15.89</text>
+<text x="40" y="165" font-size="16" fill="#111">지오 플랫폼스</text>
+<rect x="210" y="145" width="438" height="28" fill="#c0392b"/>
+<text x="660" y="165" font-size="16" font-weight="bold" fill="#111">12.50</text>
+<text x="40" y="215" font-size="16" fill="#111">바르티 에어텔</text>
+<rect x="210" y="195" width="422" height="28" fill="#2e7d32"/>
+<text x="644" y="215" font-size="16" font-weight="bold" fill="#111">12.05</text>
+<text x="40" y="265" font-size="16" fill="#111">HDFC은행</text>
+<rect x="210" y="245" width="365" height="28" fill="#b7791f"/>
+<text x="587" y="265" font-size="16" font-weight="bold" fill="#111">10.42</text>
+<text x="40" y="315" font-size="16" fill="#111">ICICI은행</text>
+<rect x="210" y="295" width="343" height="28" fill="#5b7fa6"/>
+<text x="565" y="315" font-size="16" font-weight="bold" fill="#111">9.80</text>
+<text x="40" y="348" font-size="13" fill="#777">출처: 상장 첫날 오전 보도(Mathrubhumi·Inc42 등)</text>
+</svg>
