@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="340" viewBox="0 0 900 340" font-family="sans-serif">
+<rect width="900" height="340" fill="#fafafa"/>
+<text x="40" y="40" font-size="22" font-weight="bold" fill="#111">이스라엘 총선 개표 — 진영별 의석 (120석 중)</text>
+<text x="40" y="68" font-size="14" fill="#555">개표율 93.1% 기준, 이중봉투 투표 약 50만 표는 아직 남음. 최종 결과가 아님.</text>
+<text x="40" y="115" font-size="16" fill="#111">네타냐후 진영</text>
+<rect x="200" y="95" width="353" height="30" fill="#1f4e79"/>
+<text x="565" y="117" font-size="16" font-weight="bold" fill="#111">53석</text>
+<text x="40" y="175" font-size="16" fill="#111">아이젠코트 야권</text>
+<rect x="200" y="155" width="320" height="30" fill="#2e7d32"/>
+<text x="532" y="177" font-size="16" font-weight="bold" fill="#111">48석</text>
+<text x="40" y="235" font-size="16" fill="#111">아랍 정당</text>
+<rect x="200" y="215" width="127" height="30" fill="#b7791f"/>
+<text x="339" y="237" font-size="16" font-weight="bold" fill="#111">19석</text>
+<line x1="607" y1="275" x2="607" y2="295" stroke="#c0392b" stroke-width="2"/>
+<text x="200" y="315" font-size="14" fill="#c0392b">과반 기준 61석 — 어느 진영도 단독으로 도달하지 못함</text>
+<text x="40" y="315" font-size="13" fill="#777">출처: 중앙선거관리위원회 집계 (JPost·Haaretz 2026.10.28 보도)</text>
+</svg>
