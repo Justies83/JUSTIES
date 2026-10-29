@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-label="2026년 6월부터 9월까지 PCE 물가 전년 대비 상승률">
+  <rect width="900" height="420" fill="#ffffff"/>
+  <text x="450" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">PCE 물가 전년 대비 상승률 (2026년 6월에서 9월)</text>
+  <text x="450" y="62" text-anchor="middle" font-size="14" fill="#555555">9월에 전체와 근원 모두 다시 올라갔다 — 연준 목표는 2%</text>
+  <line x1="90" y1="330" x2="830" y2="330" stroke="#cccccc" stroke-width="1"/>
+  <line x1="90" y1="282" x2="830" y2="282" stroke="#eeeeee" stroke-width="1"/>
+  <line x1="90" y1="234" x2="830" y2="234" stroke="#eeeeee" stroke-width="1"/>
+  <line x1="90" y1="186" x2="830" y2="186" stroke="#eeeeee" stroke-width="1"/>
+  <line x1="90" y1="138" x2="830" y2="138" stroke="#eeeeee" stroke-width="1"/>
+  <line x1="90" y1="90" x2="830" y2="90" stroke="#eeeeee" stroke-width="1"/>
+  <text x="80" y="335" text-anchor="end" font-size="14" fill="#333333">2.8%</text>
+  <text x="80" y="287" text-anchor="end" font-size="14" fill="#333333">3.0%</text>
+  <text x="80" y="239" text-anchor="end" font-size="14" fill="#333333">3.2%</text>
+  <text x="80" y="191" text-anchor="end" font-size="14" fill="#333333">3.4%</text>
+  <text x="80" y="143" text-anchor="end" font-size="14" fill="#333333">3.6%</text>
+  <text x="80" y="95" text-anchor="end" font-size="14" fill="#333333">3.8%</text>
+  <polyline points="150,162 380,186 610,186 790,138" fill="none" stroke="#c0392b" stroke-width="4"/>
+  <circle cx="150" cy="162" r="7" fill="#c0392b"/>
+  <circle cx="380" cy="186" r="7" fill="#c0392b"/>
+  <circle cx="610" cy="186" r="7" fill="#c0392b"/>
+  <circle cx="790" cy="138" r="7" fill="#c0392b"/>
+  <polyline points="150,282 380,282 610,282 790,258" fill="none" stroke="#1a4d8f" stroke-width="4"/>
+  <circle cx="150" cy="282" r="7" fill="#1a4d8f"/>
+  <circle cx="380" cy="282" r="7" fill="#1a4d8f"/>
+  <circle cx="610" cy="282" r="7" fill="#1a4d8f"/>
+  <circle cx="790" cy="258" r="7" fill="#1a4d8f"/>
+  <text x="150" y="360" text-anchor="middle" font-size="14" fill="#333333">6월</text>
+  <text x="380" y="360" text-anchor="middle" font-size="14" fill="#333333">7월</text>
+  <text x="610" y="360" text-anchor="middle" font-size="14" fill="#333333">8월</text>
+  <text x="790" y="360" text-anchor="middle" font-size="14" fill="#333333">9월</text>
+  <text x="150" y="142" text-anchor="middle" font-size="14" font-weight="bold" fill="#c0392b">3.5%</text>
+  <text x="380" y="166" text-anchor="middle" font-size="14" font-weight="bold" fill="#c0392b">3.4%</text>
+  <text x="610" y="166" text-anchor="middle" font-size="14" font-weight="bold" fill="#c0392b">3.4%</text>
+  <text x="790" y="118" text-anchor="middle" font-size="14" font-weight="bold" fill="#c0392b">3.6%</text>
+  <text x="150" y="308" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a4d8f">3.0%</text>
+  <text x="790" y="238" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a4d8f">3.1%</text>
+  <text x="200" y="400" font-size="14" fill="#c0392b">● 전체 PCE</text>
+  <text x="360" y="400" font-size="14" fill="#1a4d8f">● 근원 PCE (식품·에너지 제외)</text>
+</svg>
