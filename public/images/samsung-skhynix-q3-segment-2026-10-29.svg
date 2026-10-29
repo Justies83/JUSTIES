@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="삼성전자 3분기 부문별 영업이익">
+<rect width="900" height="520" fill="#f4f1ea"/>
+<text x="60" y="70" font-size="30" font-weight="700" fill="#20231f">삼성전자 3분기 부문별 영업이익 (조원)</text>
+<text x="60" y="112" font-size="20" fill="#62655d">2026년 10월 29일 확정 실적 기준</text>
+<text x="60" y="200" font-size="26" fill="#20231f">반도체(DS)</text>
+<rect x="220" y="172" width="560" height="52" fill="#16756a"/>
+<text x="792" y="208" font-size="26" font-weight="700" fill="#20231f">106.5</text>
+<text x="60" y="290" font-size="26" fill="#20231f">디스플레이</text>
+<rect x="220" y="262" width="10" height="52" fill="#e0795b"/>
+<text x="242" y="298" font-size="26" font-weight="700" fill="#20231f">1.1</text>
+<text x="60" y="380" font-size="26" fill="#20231f">하만</text>
+<rect x="220" y="352" width="10" height="52" fill="#e0795b"/>
+<text x="242" y="388" font-size="26" font-weight="700" fill="#20231f">0.6</text>
+<text x="60" y="470" font-size="26" fill="#20231f">완제품(DX)</text>
+<rect x="220" y="442" width="10" height="52" fill="#b3402f"/>
+<text x="242" y="478" font-size="26" font-weight="700" fill="#b3402f">-0.8</text>
+</svg>
