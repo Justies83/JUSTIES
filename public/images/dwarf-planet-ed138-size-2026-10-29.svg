@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" font-family="sans-serif">
+  <rect width="900" height="300" fill="#0b1020"/>
+  <text x="40" y="40" font-size="22" fill="#ffffff" font-weight="bold">지름 비교 — 2026 ED138은 아직 범위다</text>
+  <text x="40" y="68" font-size="14" fill="#9aa7bd">단위: 킬로미터 / 눈금 0–2,400km</text>
+  <!-- axis -->
+  <line x1="220" y1="250" x2="860" y2="250" stroke="#55607a" stroke-width="1"/>
+  <text x="220" y="272" font-size="12" fill="#9aa7bd">0</text>
+  <text x="540" y="272" font-size="12" fill="#9aa7bd">1,200</text>
+  <text x="855" y="272" font-size="12" fill="#9aa7bd">2,400</text>
+  <!-- ED138 range bar: 600->1500 maps to 220 + 600/2400*640=380, 1500->620 -->
+  <text x="40" y="120" font-size="16" fill="#ffffff">2026 ED138</text>
+  <text x="40" y="142" font-size="13" fill="#9aa7bd">추정치</text>
+  <rect x="380" y="100" width="240" height="34" fill="#f2a33c"/>
+  <text x="380" y="92" font-size="13" fill="#f2a33c">600</text>
+  <text x="600" y="92" font-size="13" fill="#f2a33c">1,500</text>
+  <!-- Ceres ~940 -> 220+940/2400*640=471 -->
+  <text x="40" y="185" font-size="16" fill="#ffffff">세레스</text>
+  <text x="40" y="207" font-size="13" fill="#9aa7bd">인정된 왜소행성</text>
+  <rect x="220" y="165" width="251" height="34" fill="#4f9fd8"/>
+  <text x="471" y="157" font-size="13" fill="#4f9fd8">약 940</text>
+  <!-- Pluto 2377 -> 220+2377/2400*640=854 -->
+  <text x="40" y="240" font-size="16" fill="#ffffff">명왕성</text>
+  <rect x="220" y="220" width="634" height="26" fill="#8a7bd8"/>
+  <text x="800" y="212" font-size="13" fill="#8a7bd8">2,377</text>
+</svg>
