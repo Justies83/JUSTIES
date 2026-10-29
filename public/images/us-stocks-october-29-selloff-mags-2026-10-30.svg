@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="380" viewBox="0 0 760 380" role="img" aria-label="10월 29일 매그니피센트7 일간 등락률">
+<rect width="760" height="380" fill="#ffffff"/>
+<text x="380" y="30" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="700" fill="#111111">10월 29일 매그니피센트7 일간 등락률</text>
+<g font-family="sans-serif" font-size="14" fill="#111111">
+<text x="130" y="75">알파벳</text><rect x="230" y="60" width="380" height="20" fill="#c0392b"/><text x="620" y="76">-12.64%</text>
+<text x="130" y="115">아마존</text><rect x="230" y="100" width="128" height="20" fill="#c0392b"/><text x="368" y="116">-4.25%</text>
+<text x="130" y="155">엔비디아</text><rect x="230" y="140" width="24" height="20" fill="#c0392b"/><text x="264" y="156">-0.80%</text>
+<text x="130" y="195">테슬라</text><rect x="230" y="180" width="7" height="20" fill="#c0392b"/><text x="247" y="196">-0.23%</text>
+<text x="130" y="235">마이크로소프트</text><rect x="230" y="220" width="5" height="20" fill="#c0392b"/><text x="245" y="236">-0.16%</text>
+<text x="130" y="275">애플</text><rect x="230" y="260" width="44" height="20" fill="#2e7d32"/><text x="284" y="276">+1.48%</text>
+<text x="130" y="315">메타</text><rect x="230" y="300" width="59" height="20" fill="#2e7d32"/><text x="299" y="316">+1.96%</text>
+</g>
+<text x="380" y="360" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#777777">출처: 2026년 10월 29일 미국 증시 마감 수치. 알파벳의 낙폭이 압도적이다.</text>
+</svg>
