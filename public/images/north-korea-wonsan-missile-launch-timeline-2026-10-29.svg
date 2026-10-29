@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="330" viewBox="0 0 800 330" role="img" aria-label="지뢰 폭발부터 미사일 발사까지 경과">
+  <rect width="800" height="330" fill="#ffffff"/>
+  <text x="400" y="32" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#111111">지뢰 폭발에서 미사일 발사까지, 38일간의 경과</text>
+  <text x="400" y="56" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#555555">연합뉴스 2026년 10월 29일 보도 · 합동참모본부 발표 기준</text>
+  <g font-family="sans-serif" font-size="15" fill="#111111">
+    <rect x="40" y="75" width="720" height="44" rx="8" fill="#fbeef0"/>
+    <text x="60" y="103">9월 21일 · DMZ 지뢰 폭발 — 한국군 장병 3명 부상</text>
+    <rect x="40" y="129" width="720" height="44" rx="8" fill="#eef3fb"/>
+    <text x="60" y="157">10월 초 · 한·유엔 공동 조사, 북한 매설 결론 — 북한은 부인</text>
+    <rect x="40" y="183" width="720" height="44" rx="8" fill="#fdf3e7"/>
+    <text x="60" y="211">10월 하순 · 한국, 군사회담 제의 — 북한은 무력 시위 위협</text>
+    <rect x="40" y="237" width="720" height="44" rx="8" fill="#eef7ee"/>
+    <text x="60" y="265">10월 26일 · 서부 전선에 북한 자주포 전진 배치 포착</text>
+  </g>
+  <g font-family="sans-serif" font-size="15" font-weight="bold" fill="#ffffff">
+    <rect x="40" y="285" width="720" height="32" rx="8" fill="#b91c1c"/>
+    <text x="400" y="306" text-anchor="middle">10월 29일 12:30 · 원산에서 단거리 미사일 10여 발, 동해로 250km</text>
+  </g>
+</svg>
