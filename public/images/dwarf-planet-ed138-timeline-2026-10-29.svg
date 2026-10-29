@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" font-family="sans-serif">
+  <rect width="900" height="260" fill="#0b1020"/>
+  <text x="40" y="40" font-size="22" fill="#ffffff" font-weight="bold">2026 ED138, 발견에서 확정까지</text>
+  <line x1="60" y1="130" x2="840" y2="130" stroke="#55607a" stroke-width="2"/>
+  <circle cx="90" cy="130" r="12" fill="#4f9fd8"/>
+  <text x="90" y="105" font-size="14" fill="#ffffff" text-anchor="middle">2006년</text>
+  <text x="90" y="170" font-size="12" fill="#9aa7bd" text-anchor="middle">명왕성, 왜소행성으로</text>
+  <text x="90" y="188" font-size="12" fill="#9aa7bd" text-anchor="middle">재분류</text>
+  <circle cx="280" cy="130" r="12" fill="#4f9fd8"/>
+  <text x="280" y="105" font-size="14" fill="#ffffff" text-anchor="middle">2025년</text>
+  <text x="280" y="170" font-size="12" fill="#9aa7bd" text-anchor="middle">루빈 천문대 본격 관측</text>
+  <circle cx="470" cy="130" r="12" fill="#f2a33c"/>
+  <text x="470" y="105" font-size="14" fill="#ffffff" text-anchor="middle">2026년 3월</text>
+  <text x="470" y="170" font-size="12" fill="#9aa7bd" text-anchor="middle">루빈 목록에 첫 관측</text>
+  <text x="470" y="188" font-size="12" fill="#9aa7bd" text-anchor="middle">(나중에 확인)</text>
+  <circle cx="650" cy="130" r="12" fill="#f2a33c"/>
+  <text x="650" y="105" font-size="14" fill="#ffffff" text-anchor="middle">2026년 10월 27일</text>
+  <text x="650" y="170" font-size="12" fill="#9aa7bd" text-anchor="middle">스포캔 회의에서 발표</text>
+  <circle cx="820" cy="130" r="12" fill="#ffffff" stroke="#f2a33c" stroke-width="3"/>
+  <text x="820" y="105" font-size="14" fill="#ffffff" text-anchor="middle">앞으로 수개월</text>
+  <text x="820" y="170" font-size="12" fill="#9aa7bd" text-anchor="middle">알마 크기 측정 후</text>
+  <text x="820" y="188" font-size="12" fill="#9aa7bd" text-anchor="middle">IAU 확인·명명</text>
+</svg>
