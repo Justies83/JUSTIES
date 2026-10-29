@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="300" viewBox="0 0 760 300" role="img" aria-label="10월 29일 미국 주요 지수 일간 등락률">
+<rect width="760" height="300" fill="#ffffff"/>
+<text x="380" y="30" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="700" fill="#111111">10월 29일 미국 주요 지수 일간 등락률</text>
+<g font-family="sans-serif" font-size="14" fill="#111111">
+<text x="130" y="75">다우존스</text><rect x="230" y="60" width="50" height="20" fill="#c0392b"/><text x="290" y="76">-0.25%</text>
+<text x="130" y="115">S&amp;P 500</text><rect x="230" y="100" width="60" height="20" fill="#c0392b"/><text x="300" y="116">-0.30%</text>
+<text x="130" y="155">나스닥 종합</text><rect x="230" y="140" width="276" height="20" fill="#c0392b"/><text x="516" y="156">-1.38%</text>
+<text x="130" y="195">러셀 2000</text><rect x="230" y="180" width="202" height="20" fill="#2e7d32"/><text x="442" y="196">+1.01%</text>
+</g>
+<text x="380" y="245" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#555555">막대 길이는 등락률 크기에 비례한다. 기술주 중심의 나스닥만 유독 깊게 밀렸다.</text>
+<text x="380" y="270" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#777777">출처: 2026년 10월 29일 미국 증시 마감 수치</text>
+</svg>
