@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300" role="img" aria-label="10월 12일 발사와 10월 29일 발사 비교">
+  <rect width="800" height="300" fill="#ffffff"/>
+  <text x="400" y="32" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#111111">10월 12일과 10월 29일, 두 번의 발사 비교</text>
+  <text x="400" y="56" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#555555">비행거리는 보도된 수치 기준 · 발수는 합동참모본부 발표 기준</text>
+  <g font-family="sans-serif" font-size="15" fill="#111111">
+    <text x="60" y="100">10월 12일 · 전술 탄도미사일 시험</text>
+    <rect x="60" y="112" width="540" height="30" rx="6" fill="#94a3b8"/>
+    <text x="610" y="133">900km+</text>
+    <text x="60" y="180">10월 29일 · 단거리 미사일 10여 발 동시 발사</text>
+    <rect x="60" y="192" width="150" height="30" rx="6" fill="#b91c1c"/>
+    <text x="220" y="213">250km 안팎</text>
+  </g>
+  <text x="60" y="262" font-family="sans-serif" font-size="14" fill="#555555">거리보다 발수가 핵심 — 한 번에 10여 발을 쏘는 동시 발사 능력 과시로 해석된다.</text>
+</svg>
