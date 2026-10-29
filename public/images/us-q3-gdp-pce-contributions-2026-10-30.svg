@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="400" viewBox="0 0 900 400" role="img" aria-label="2026년 3분기 미국 GDP 성장 기여도">
+  <rect width="900" height="400" fill="#ffffff"/>
+  <text x="450" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">2026년 3분기 GDP 성장 기여도 (연율, %p)</text>
+  <text x="450" y="62" text-anchor="middle" font-size="14" fill="#555555">실질 GDP 3.4% — 합계는 반올림 차이로 3.37%p로 계산된다</text>
+  <line x1="450" y1="90" x2="450" y2="320" stroke="#999999" stroke-width="1"/>
+  <text x="450" y="345" text-anchor="middle" font-size="13" fill="#555555">0</text>
+  <rect x="450" y="105" width="227" height="34" fill="#1a4d8f"/>
+  <text x="440" y="127" text-anchor="end" font-size="15" fill="#111111">소비</text>
+  <text x="687" y="127" font-size="15" font-weight="bold" fill="#1a4d8f">+2.52</text>
+  <rect x="450" y="160" width="294" height="34" fill="#2e7d32"/>
+  <text x="440" y="182" text-anchor="end" font-size="15" fill="#111111">민간투자</text>
+  <text x="754" y="182" font-size="15" font-weight="bold" fill="#2e7d32">+3.27</text>
+  <rect x="151" y="215" width="299" height="34" fill="#c0392b"/>
+  <text x="440" y="237" text-anchor="end" font-size="15" fill="#111111">순수출</text>
+  <text x="141" y="237" text-anchor="end" font-size="15" font-weight="bold" fill="#c0392b">-3.32</text>
+  <rect x="450" y="270" width="81" height="34" fill="#7d6b00"/>
+  <text x="440" y="292" text-anchor="end" font-size="15" fill="#111111">정부지출</text>
+  <text x="541" y="292" font-size="15" font-weight="bold" fill="#7d6b00">+0.90</text>
+  <text x="450" y="380" text-anchor="middle" font-size="13" fill="#777777">출처: 미국 상무부 경제분석국(BEA), 2026년 3분기 GDP 속보치. 민간투자 안에는 재고 +1.61%p가 포함된다.</text>
+</svg>
