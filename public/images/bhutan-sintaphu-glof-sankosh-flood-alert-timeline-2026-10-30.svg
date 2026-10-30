@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="360" viewBox="0 0 800 360" font-family="sans-serif">
+  <rect width="800" height="360" fill="#ffffff"/>
+  <text x="400" y="36" text-anchor="middle" font-size="21" font-weight="bold" fill="#1a1a1a">10월 29일 저녁부터 30일 아침까지 시간표 (현지 시간)</text>
+  <line x1="60" y1="90" x2="60" y2="300" stroke="#2563eb" stroke-width="3"/>
+  <g font-size="15" fill="#1a1a1a">
+    <circle cx="60" cy="90" r="8" fill="#c0392b"/>
+    <text x="85" y="85" font-weight="bold">10월 29일 저녁 — 신타푸호 붕괴</text>
+    <text x="85" y="108" fill="#555555">모추강을 따라 홍수 물결 하류로 이동, 경보 사이렌 작동</text>
+    <circle cx="60" cy="160" r="8" fill="#2563eb"/>
+    <text x="85" y="155" font-weight="bold">10월 29일 오후 8시 15분 — 타크체마캉 도달</text>
+    <text x="85" y="178" fill="#555555">라야 도로 파손, 가사 차추 온천 시설 유실, 고속도로 일부 절단</text>
+    <circle cx="60" cy="230" r="8" fill="#2563eb"/>
+    <text x="85" y="225" font-weight="bold">10월 29일 밤 — 인도 하류 대피 시작</text>
+    <text x="85" y="248" fill="#555555">산코시강 유역 적색 경보, 1만 명 이상 안전 지대로 이동</text>
+    <circle cx="60" cy="300" r="8" fill="#2563eb"/>
+    <text x="85" y="295" font-weight="bold">10월 30일 오전 6시 30분 — 산코시강 수위 안정</text>
+    <text x="85" y="318" fill="#555555">아삼 재난관리당국 발표, 다만 적색 경보는 유지되고 폭우 예보도 남아 있음</text>
+  </g>
+</svg>
