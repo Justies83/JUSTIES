@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400" font-family="sans-serif">
+  <rect width="800" height="400" fill="#ffffff"/>
+  <text x="400" y="36" text-anchor="middle" font-size="21" font-weight="bold" fill="#1a1a1a">일본은행 10월 전망 보고서 수정 (이전 → 이번)</text>
+  <line x1="90" y1="60" x2="90" y2="330" stroke="#cccccc"/>
+  <line x1="90" y1="330" x2="740" y2="330" stroke="#cccccc"/>
+  <g font-size="14" fill="#555555">
+    <text x="80" y="335" text-anchor="end">0%</text>
+    <text x="80" y="245" text-anchor="end">1%</text>
+    <text x="80" y="155" text-anchor="end">2%</text>
+    <text x="80" y="65" text-anchor="end">3%</text>
+  </g>
+  <g stroke="#eeeeee">
+    <line x1="90" y1="240" x2="740" y2="240"/>
+    <line x1="90" y1="150" x2="740" y2="150"/>
+    <line x1="90" y1="60" x2="740" y2="60"/>
+  </g>
+  <!-- y mapping: 0% -> 330, 3% -> 60 ; value v -> 330 - v*90 -->
+  <!-- group 1: FY2026 growth 0.6 -> 0.7 -->
+  <rect x="150" y="276" width="55" height="54" fill="#999999"/>
+  <rect x="215" y="267" width="55" height="63" fill="#c0392b"/>
+  <!-- group 2: FY2027 growth 0.8 -> 0.7 -->
+  <rect x="370" y="258" width="55" height="72" fill="#999999"/>
+  <rect x="435" y="267" width="55" height="63" fill="#c0392b"/>
+  <!-- group 3: FY2027 core CPI 2.4 -> 2.6 -->
+  <rect x="590" y="114" width="55" height="216" fill="#999999"/>
+  <rect x="655" y="96" width="55" height="234" fill="#c0392b"/>
+  <g font-size="14" fill="#1a1a1a" font-weight="bold" text-anchor="middle">
+    <text x="177" y="262">0.6%</text>
+    <text x="242" y="253">0.7%</text>
+    <text x="397" y="244">0.8%</text>
+    <text x="462" y="253">0.7%</text>
+    <text x="617" y="100">2.4%</text>
+    <text x="682" y="82">2.6%</text>
+  </g>
+  <g font-size="14" fill="#1a1a1a" text-anchor="middle">
+    <text x="210" y="355">2026회계연도 성장률</text>
+    <text x="430" y="355">2027회계연도 성장률</text>
+    <text x="650" y="355">2027회계연도 핵심 CPI</text>
+  </g>
+  <g font-size="13" fill="#555555">
+    <rect x="250" y="372" width="14" height="14" fill="#999999"/>
+    <text x="270" y="384">이전 전망</text>
+    <rect x="370" y="372" width="14" height="14" fill="#c0392b"/>
+    <text x="390" y="384">이번 전망</text>
+  </g>
+</svg>
