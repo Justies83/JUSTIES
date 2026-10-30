@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="340" viewBox="0 0 800 340" font-family="sans-serif">
+  <rect width="800" height="340" fill="#ffffff"/>
+  <text x="400" y="36" text-anchor="middle" font-size="21" font-weight="bold" fill="#1a1a1a">난자 하나의 수십 년 — OMC1이 지키는 구간</text>
+  <line x1="60" y1="100" x2="740" y2="100" stroke="#2563eb" stroke-width="3"/>
+  <g font-size="15" fill="#1a1a1a">
+    <circle cx="110" cy="100" r="9" fill="#c0392b"/>
+    <text x="110" y="140" text-anchor="middle" font-weight="bold">태아기</text>
+    <text x="110" y="165" text-anchor="middle" fill="#555555">감수분열 시작,</text>
+    <text x="110" y="188" text-anchor="middle" fill="#555555">REC8 코헤신 장착</text>
+    <circle cx="400" cy="100" r="9" fill="#2563eb"/>
+    <text x="400" y="140" text-anchor="middle" font-weight="bold">출생 후 수십 년간 정지</text>
+    <text x="400" y="165" text-anchor="middle" fill="#555555">딕티테이트 정지 상태,</text>
+    <text x="400" y="188" text-anchor="middle" fill="#555555">REC8 보충 없음, OMC1이 자리 지킴</text>
+    <circle cx="690" cy="100" r="9" fill="#2563eb"/>
+    <text x="690" y="140" text-anchor="middle" font-weight="bold">배란</text>
+    <text x="690" y="165" text-anchor="middle" fill="#555555">감수분열 재개,</text>
+    <text x="690" y="188" text-anchor="middle" fill="#555555">염색체 분리</text>
+  </g>
+  <g font-size="15" fill="#1a1a1a">
+    <rect x="60" y="220" width="680" height="76" fill="#fef3f2" stroke="#e5b4b0"/>
+    <text x="400" y="250" text-anchor="middle" font-weight="bold">OMC1이 없으면 이 정지 기간에 REC8이 일찍 빠져나간다</text>
+    <text x="400" y="276" text-anchor="middle" fill="#555555">젊은 난자에서도 나이 든 난자와 같은 분리 오류가 나타난다</text>
+  </g>
+</svg>
