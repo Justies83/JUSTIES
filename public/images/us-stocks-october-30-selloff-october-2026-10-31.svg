@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" font-family="sans-serif">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <text x="450" y="42" text-anchor="middle" font-size="24" font-weight="bold" fill="#20231f">2026년 10월 미국 주요 지수 월간 등락률</text>
+  <text x="450" y="72" text-anchor="middle" font-size="14" fill="#62655d">10월 한 달 기준 · 단위: %</text>
+  <line x1="90" y1="100" x2="90" y2="430" stroke="#cccccc"/>
+  <line x1="90" y1="270" x2="840" y2="270" stroke="#cccccc"/>
+  <g font-size="14" fill="#62655d">
+    <text x="80" y="275" text-anchor="end">0%</text>
+    <text x="80" y="195" text-anchor="end">+2%</text>
+    <text x="80" y="355" text-anchor="end">-2%</text>
+    <text x="80" y="435" text-anchor="end">-4%</text>
+  </g>
+  <g stroke="#e5e0d5"><line x1="90" y1="190" x2="840" y2="190"/><line x1="90" y1="350" x2="840" y2="350"/><line x1="90" y1="430" x2="840" y2="430"/></g>
+  <g font-size="18" fill="#20231f" text-anchor="middle">
+    <rect x="180" y="190" width="130" height="80" fill="#16756a"/><text x="245" y="180" font-weight="bold">+1.7%</text><text x="245" y="300">다우</text>
+    <rect x="390" y="270" width="130" height="72" fill="#e0795b"/><text x="455" y="365" font-weight="bold">-0.9%</text><text x="455" y="300">S&amp;P500</text>
+    <rect x="600" y="270" width="130" height="160" fill="#e0795b"/><text x="665" y="453" font-weight="bold">-5.3%</text><text x="665" y="300">나스닥 종합</text>
+  </g>
+  <text x="450" y="500" text-anchor="middle" font-size="12" fill="#62655d" font-family="monospace">출처: Investopedia 2026년 10월 30일 시장 정리</text>
+</svg>
