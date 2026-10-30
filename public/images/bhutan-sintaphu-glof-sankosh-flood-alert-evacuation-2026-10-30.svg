@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="330" viewBox="0 0 800 330" font-family="sans-serif">
+  <rect width="800" height="330" fill="#ffffff"/>
+  <text x="400" y="36" text-anchor="middle" font-size="21" font-weight="bold" fill="#1a1a1a">산코시강 하류 대피 규모 (2026년 10월 30일 아침 기준)</text>
+  <g font-size="15" fill="#1a1a1a">
+    <text x="20" y="105">구호 캠프 입소</text>
+    <rect x="200" y="85" width="250" height="32" fill="#2563eb"/>
+    <text x="465" y="107" font-weight="bold">4천 명에서 5천 명</text>
+    <text x="20" y="165">다른 곳으로 이동</text>
+    <rect x="200" y="145" width="300" height="32" fill="#2e86c1"/>
+    <text x="515" y="167" font-weight="bold">6천 명 이상</text>
+    <text x="20" y="225">안전 지대로 이동 합계</text>
+    <rect x="200" y="205" width="500" height="32" fill="#c0392b"/>
+    <text x="715" y="227" font-weight="bold">1만 명 이상</text>
+  </g>
+  <text x="400" y="285" text-anchor="middle" font-size="13" fill="#888888">출처: 데일리 파이오니어 2026년 10월 30일 보도. 캠프 입소와 이동 인원은 중복 집계 가능성이 있어 합계는 보도된 1만 명 이상으로 표기.</text>
+</svg>
