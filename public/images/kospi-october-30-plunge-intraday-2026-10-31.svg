@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="380" viewBox="0 0 800 380" font-family="sans-serif">
+  <rect width="800" height="380" fill="#ffffff"/>
+  <text x="400" y="36" text-anchor="middle" font-size="21" font-weight="bold" fill="#1a1a1a">10월 30일 코스피 장중 흐름 — 열자마자 밀리고, 5,600선 아래까지</text>
+  <polyline points="80,87 200,184 340,273 700,201" fill="none" stroke="#c0392b" stroke-width="4" stroke-linejoin="round"/>
+  <g font-size="15" fill="#1a1a1a">
+    <circle cx="80" cy="87" r="7" fill="#555555"/>
+    <text x="80" y="65" text-anchor="middle" font-weight="bold">전일 종가</text>
+    <text x="80" y="115" text-anchor="middle" fill="#555555">5,937.66</text>
+    <circle cx="200" cy="184" r="7" fill="#c0392b"/>
+    <text x="200" y="165" text-anchor="middle" font-weight="bold">개장 9:00</text>
+    <text x="200" y="212" text-anchor="middle" fill="#555555">5,760.35 (‑2.99%)</text>
+    <circle cx="340" cy="273" r="7" fill="#c0392b"/>
+    <text x="340" y="300" text-anchor="middle" font-weight="bold">장중 저점</text>
+    <text x="340" y="322" text-anchor="middle" fill="#555555">5,599.42 (‑5.7%)</text>
+    <circle cx="700" cy="201" r="7" fill="#c0392b"/>
+    <text x="700" y="180" text-anchor="middle" font-weight="bold">종가 15:30</text>
+    <text x="700" y="228" text-anchor="middle" fill="#555555">5,730.74 (‑3.48%)</text>
+  </g>
+  <g font-size="14" fill="#555555">
+    <text x="400" y="358" text-anchor="middle">오전 10시 4분 55초 매도 사이드카 발동 — 코스피200 선물 급락으로 프로그램 매도호가 5분간 정지</text>
+  </g>
+</svg>
