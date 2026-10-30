@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="330" viewBox="0 0 800 330" font-family="sans-serif">
+  <rect width="800" height="330" fill="#ffffff"/>
+  <text x="400" y="36" text-anchor="middle" font-size="21" font-weight="bold" fill="#1a1a1a">Omc1 유전자를 없앤 생쥐에서 확인된 변화</text>
+  <g font-size="15" fill="#1a1a1a">
+    <text x="60" y="80" font-weight="bold">8주령 난자의 조기 자매염색분체 분리</text>
+    <text x="60" y="104" fill="#555555">결핍 난자의 약 78%에서 2개에서 8개의 단일 염색분체가 관찰됐다</text>
+    <text x="60" y="140" font-weight="bold">노화 가속</text>
+    <text x="60" y="164" fill="#555555">8주령 결핍 난자의 오류 빈도가 35주령 정상 난자 수준과 맞먹었다</text>
+    <text x="60" y="200" font-weight="bold">번식력 저하</text>
+    <text x="60" y="224" fill="#555555">나이가 들수록 새끼 수가 줄었고 30주 이후에는 거의 태어나지 않았다</text>
+    <text x="60" y="260" font-weight="bold">구조 실험</text>
+    <text x="60" y="284" fill="#555555">Omc1 mRNA를 다시 넣어주면 REC8이 일부 회복되고 분리 오류가 줄었다</text>
+  </g>
+</svg>
