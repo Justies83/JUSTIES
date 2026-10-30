@@ -3,7 +3,7 @@ title: "벵골만에서 온 첫 폭풍이 해안에 닿았다 — 사이클론 �
 date: 2026-10-28
 category: world
 kind: news
-takeaway: "2026년 벵골만에서 발생한 첫 사이클론 아르나브가 10월 28일 새벽 인도 안드라프라데시 해안에 상륙했다. 인도 기상청이 분류한 '매우 강한' 등급으로, 최대 풍속은 시속 135km에 돌풍은 시속 150km에 달했고, 상륙 전부터 양 주에서 10만 명 안팎이 대피했다. 아직 인명 피해 보고는 없지만, 폭풍이 내륙으로 이동하면서 오디샤 남부에 폭우가 이어질 것으로 예보돼 피해 집계는 이제부터가 시작이다."
+takeaway: "2026년 벵골만에서 발생한 첫 사이클론 아르나브가 10월 28일 새벽 인도 안드라프라데시 해안에 상륙했다. 인도 기상청이 분류한 '매우 강한' 등급으로, 최대 풍속은 시속 135km에 돌풍은 시속 150km에 달했고, 상륙 전부터 양 주에서 18만 명이 대피했다. 상륙 다음 날 집계에서는 최소 6명이 숨지고 농작물 3만2천 헥타르가 피해를 입었으며 전봇대 1만5천 개가 파손된 것으로 확인됐다. 상륙 당일 아침까지는 인명 피해 보고가 없었지만, 그건 집계가 시작되기 전이었다는 점이 하루 만에 분명해졌다."
 tags: [사이클론, 아르나브, 인도, 안드라프라데시, 오디샤, IMD, 벵골만]
 cover: /images/cyclone-arnab-andhra-landfall-2026-10-28.jpg
 coverAlt: "벵골만 위의 사이클론 위성 사진"
@@ -13,6 +13,12 @@ source:
 ---
 
 <p align="center">10월 28일 새벽, 벵골만의 폭풍이 마침내 육지에 닿았다.<br/>인도 기상청(IMD)에 따르면 매우 강한 사이클론 아르나브의 상륙 과정은 현지 시간 28일 새벽 1시 20분(한국 시간 오전 4시 50분) 무렵 안드라프라데시 해안에서 시작됐다.<br/>상륙 지점은 바파트라와 비샤카파트남 사이, 야남 남쪽 해안이다.<br/>폭풍의 중심이 해안선에 바짝 붙은 채로 느리게 이동하면서 상륙 과정은 몇 시간에 걸쳐 이어졌다.<br/>IMD는 상륙 당시 최대 지속 풍속을 <strong>시속 125km에서 135km로</strong>, 돌풍을 <strong>시속 150km까지로</strong> 발표했다.<br/>인도 기상청의 등급 체계에서 '매우 강한'은 세 번째로 높은 단계다.</p>
+
+<p align="center"><strong>[10월 30일 업데이트 — 상륙 다음 날 집계, 최소 6명 사망 확인]</strong><br/>상륙 당일 아침까지만 해도 인명 피해 보고는 없었다.<br/>그건 피해가 없어서가 아니라, 집계가 시작되기 전이었기 때문이다.<br/>10월 29일 안드라프라데시주 정부가 내놓은 집계는 그 단서를 하루 만에 지웠다.<br/>아르나브로 인해 최소 <strong>6명이</strong> 숨졌다고 주 정부가 밝혔다.<br/>그 가운데 여성 2명은 감전 사고로 숨졌고, 쓰러진 나무에 맞아 숨진 희생자도 있는 것으로 파악됐다.<br/>인도 매체 타임스오브인디아는 현지 당국자를 인용해 공식 발표보다 많은 <strong>9명이</strong> 사망했다고 보도했다.<br/>공식 집계 6명과 현지 언론 집계 9명 사이의 차이는 아직 좁혀지지 않았다.<br/>어느 쪽을 택하든, 상륙 당일 아침의 '인명 피해 없음'이라는 말은 이제 과거의 기록으로만 남는다.</p>
+
+<p align="center">시설과 농작물 피해의 규모도 이날 함께 나왔다.<br/>주 정부는 강풍과 폭우로 주택이나 도로 등 기반 시설이 주로 피해를 봤고, 특히 해안 쪽 <strong>14개 지역에서</strong> 심각한 피해가 발생했다고 밝혔다.<br/>농작물 피해 규모는 <strong>3만2천 헥타르에</strong> 달했고, 주택 수십 채도 파손됐다.<br/>찬드라바부 나이두 안드라프라데시주 총리는 성명에서 이번 사이클론으로 전봇대 <strong>1만5천 개가</strong> 파손됐다고 밝혔다.<br/>다만 전력 복구는 생각보다 빨리 진행됐다.<br/>나이두 총리는 코나심과 서고다바리를 제외한 대부분 지역에서 전력 공급이 복구됐다고 설명했다.<br/>복구가 안 된 두 지역이 남았다는 단서가 붙은 채로, 일상의 전기는 상당 부분 돌아온 셈이다.</p>
+
+<p align="center">대피 규모에 대한 숫자도 이날 정리됐다.<br/>이달 27일 아르나브가 접근하자 안드라프라데시주뿐만 아니라 가까운 동부 오디샤주의 저지대나 홍수 위험 지역에서도 주민들이 대피했고, 합쳐 <strong>18만 명이</strong> 집을 떠났다.<br/>이 글의 원래 본문에서 AFP 집계 10만 명 안팎과 NDTV 집계 18만 명 이상이 엇갈렸던 대목은, 연합뉴스가 전한 18만 명 집계 쪽으로 무게가 실리게 됐다.<br/>일부 학교가 휴교했고 일부 열차와 항공편 운행도 취소됐다.<br/>이웃 나라들의 대응도 같은 날 보도에 다시 정리됐다.<br/>스리랑카는 아르나브 상륙에 대비해 전국 모든 학교에 휴교령을 내렸고, 네팔은 관광객들에게 고지대 방문을 자제하라고 경고했다.<br/>상륙 당일 아침까지의 정리가 '이제부터가 시작'이라고 했던 피해 집계는, 하루 만에 사망자와 농작물·전력 피해라는 구체적인 숫자로 채워졌다.<br/>앞으로 지켜봐야 할 건 복구 속도다.<br/>전력이 돌아오지 않은 두 지역의 복구 시점, 파손된 주택의 복구, 그리고 농작물 피해에 대한 보상과 지원이 차례로 판가름 날 것이다.</p>
 
 <p align="center"><img src="/images/cyclone-arnab-andhra-landfall-2026-10-28.jpg" alt="벵골만 위의 사이클론 위성 사진" style="max-width:100%;height:auto;"/></p>
 
@@ -42,4 +48,4 @@ source:
 
 <p align="center">카키나다의 35세 주민 코테시 쿠마르는 "이런 건 처음 본다"고 말했다.<br/>정부가 식료품을 비축하라고 미리 경고해 뒀다는 말도 덧붙였다.<br/>3년 전에도 사이클론이 왔지만 그때는 물이 이렇게까지 오르지 않았다는 게 그의 기억이다.<br/>개인의 기억과 공식 경보가 만나는 지점에서 이번 폭풍의 체감이 읽힌다.<br/>공식 수치로는 풍속과 강수량이, 주민의 말로는 물이 차오르는 속도가 남는다.<br/>두 가지가 함께 기록될 때 재난의 크기가 제대로 전해진다.<br/>지금까지 확인된 사실만 놓고 보면 아르나브는 예보대로 상륙했고, 대규모 대피가 이뤄졌고, 아직 인명 피해 보고는 없다.<br/>이 세 문장이 28일 오전까지의 정리다.<br/>하지만 앞으로 며칠이 더 중요하다.<br/>내륙 폭우로 인한 홍수와 산사태, 전력·도로 복구 속도, 그리고 대피 주민들의 귀가 시점이 차례로 판가름 날 것이기 때문이다.<br/>새로운 집계가 나오는 대로 정리를 이어가겠다.</p>
 
-참고한 기사 — [AFP via Malay Mail (2026.10.28)](https://www.malaymail.com/news/world/2026/10/28/india-evacuates-100000-as-cyclone-arnab-makes-landfall-with-135kph-winds/240856) · [NDTV (2026.10.28)](https://www.ndtv.com/india-news/cyclone-arnab-brings-heavy-rain-weather-body-warns-of-winds-up-to-140-kmph-12246086) · [India TV (2026.10.28)](https://www.indiatvnews.com/news/india/cyclone-arnab-live-tracker-landfall-time-latest-updates-bay-of-bengal-imd-rain-alert-odisha-andhra-pradesh-weather-forecast-schools-colleges-closed-1058080) · [The Hindu (2026.10.28)](https://www.thehindu.com/news/national/cyclone-arnab-andhra-pradesh-odisha-rainfall-weather-imd-alert-live-updates-october-27-2026/article71629599.ece) · [The Indian Express (2026.10.25)](https://indianexpress.com/article/india/cyclone-arnab-bay-of-bengal-andhra-pradesh-landfall-october-28-imd-10936070/)
+참고한 기사 — [연합뉴스 (2026.10.29)](https://www.yna.co.kr/view/AKR20261029168700104?section=international/all) · [AFP via Malay Mail (2026.10.28)](https://www.malaymail.com/news/world/2026/10/28/india-evacuates-100000-as-cyclone-arnab-makes-landfall-with-135kph-winds/240856) · [NDTV (2026.10.28)](https://www.ndtv.com/india-news/cyclone-arnab-brings-heavy-rain-weather-body-warns-of-winds-up-to-140-kmph-12246086) · [India TV (2026.10.28)](https://www.indiatvnews.com/news/india/cyclone-arnab-live-tracker-landfall-time-latest-updates-bay-of-bengal-imd-rain-alert-odisha-andhra-pradesh-weather-forecast-schools-colleges-closed-1058080) · [The Hindu (2026.10.28)](https://www.thehindu.com/news/national/cyclone-arnab-andhra-pradesh-odisha-rainfall-weather-imd-alert-live-updates-october-27-2026/article71629599.ece) · [The Indian Express (2026.10.25)](https://indianexpress.com/article/india/cyclone-arnab-bay-of-bengal-andhra-pradesh-landfall-october-28-imd-10936070/)
