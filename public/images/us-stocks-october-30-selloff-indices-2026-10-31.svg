@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" font-family="sans-serif">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <text x="450" y="42" text-anchor="middle" font-size="24" font-weight="bold" fill="#20231f">10월 30일 미국 주요 지수 일간 등락률</text>
+  <text x="450" y="72" text-anchor="middle" font-size="14" fill="#62655d">2026년 10월 30일 종가 기준 · 단위: %</text>
+  <line x1="90" y1="100" x2="90" y2="430" stroke="#cccccc"/>
+  <line x1="90" y1="430" x2="840" y2="430" stroke="#cccccc"/>
+  <g font-size="14" fill="#62655d">
+    <text x="80" y="435" text-anchor="end">0%</text>
+    <text x="80" y="355" text-anchor="end">-1%</text>
+    <text x="80" y="275" text-anchor="end">-2%</text>
+    <text x="80" y="195" text-anchor="end">-3%</text>
+    <text x="80" y="115" text-anchor="end">-4%</text>
+  </g>
+  <g stroke="#e5e0d5"><line x1="90" y1="350" x2="840" y2="350"/><line x1="90" y1="270" x2="840" y2="270"/><line x1="90" y1="190" x2="840" y2="190"/><line x1="90" y1="110" x2="840" y2="110"/></g>
+  <g font-size="16" fill="#20231f" text-anchor="middle">
+    <rect x="130" y="343" width="90" height="87" fill="#16756a"/><text x="175" y="335" font-weight="bold">-1.09%</text><text x="175" y="460">다우</text>
+    <rect x="280" y="283" width="90" height="147" fill="#16756a"/><text x="325" y="275" font-weight="bold">-1.82%</text><text x="325" y="460">S&amp;P500</text>
+    <rect x="430" y="199" width="90" height="231" fill="#e0795b"/><text x="475" y="191" font-weight="bold">-2.86%</text><text x="475" y="460">나스닥 종합</text>
+    <rect x="580" y="152" width="90" height="278" fill="#e0795b"/><text x="625" y="144" font-weight="bold">-3.46%</text><text x="625" y="460">나스닥100</text>
+    <rect x="730" y="296" width="90" height="134" fill="#16756a"/><text x="775" y="288" font-weight="bold">-1.66%</text><text x="775" y="460">러셀2000</text>
+  </g>
+  <text x="450" y="500" text-anchor="middle" font-size="12" fill="#62655d" font-family="monospace">출처: AP 보도 정리 및 Yahoo Finance 마감 수치 (2026.10.30)</text>
+</svg>
