@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="아마존 2026년 3분기 부문별 매출 성장률">
+<rect width="900" height="520" fill="#f4f1ea"/>
+<text x="450" y="44" text-anchor="middle" font-size="26" font-weight="700" fill="#20231f">아마존 3분기, 클라우드만 따로 뛰었다 (전년 동기 대비 %)</text>
+<text x="450" y="74" text-anchor="middle" font-size="16" fill="#62655d">2026년 3분기 (9월 30일 마감) · 아마존 발표 기준</text>
+<g font-size="17" fill="#20231f">
+<text x="60" y="140">AWS</text>
+<rect x="260" y="118" width="472" height="26" fill="#16756a"/>
+<text x="742" y="139" fill="#20231f">39.3% (460억 달러)</text>
+<text x="60" y="225">전체 매출</text>
+<rect x="260" y="203" width="144" height="26" fill="#e0795b"/>
+<text x="414" y="224" fill="#20231f">12% (2,019억 달러)</text>
+<text x="60" y="310">북미</text>
+<rect x="260" y="288" width="72" height="26" fill="#e0795b"/>
+<text x="342" y="309" fill="#20231f">6% (1,129억 달러)</text>
+<text x="60" y="395">해외</text>
+<rect x="260" y="373" width="60" height="26" fill="#e0795b"/>
+<text x="330" y="394" fill="#20231f">5% (431억 달러)</text>
+</g>
+<text x="60" y="470" font-size="17" fill="#20231f">AWS 영업이익은 178억 달러로 1년 전 114억 달러에서 55% 늘었고, 전체 영업이익 281억 달러의 63%를 차지했다.</text>
+<text x="60" y="512" font-size="13" font-family="monospace" fill="#62655d">출처: 아마존 2026년 10월 29일 3분기 실적 발표. 부문 매출은 반올림한 수치다.</text>
+</svg>
