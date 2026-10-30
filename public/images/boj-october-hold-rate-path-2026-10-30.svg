@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="430" viewBox="0 0 800 430" font-family="sans-serif">
+  <rect width="800" height="430" fill="#ffffff"/>
+  <text x="400" y="36" text-anchor="middle" font-size="21" font-weight="bold" fill="#1a1a1a">일본은행 정책금리 추이 (2024년 3월 ~ 2026년 10월)</text>
+  <line x1="90" y1="70" x2="90" y2="350" stroke="#cccccc"/>
+  <line x1="90" y1="350" x2="740" y2="350" stroke="#cccccc"/>
+  <g font-size="14" fill="#555555">
+    <text x="80" y="355" text-anchor="end">0%</text>
+    <text x="80" y="262" text-anchor="end">0.5%</text>
+    <text x="80" y="169" text-anchor="end">1.0%</text>
+    <text x="80" y="76" text-anchor="end">1.5%</text>
+  </g>
+  <g stroke="#eeeeee">
+    <line x1="90" y1="257" x2="740" y2="257"/>
+    <line x1="90" y1="164" x2="740" y2="164"/>
+    <line x1="90" y1="71" x2="740" y2="71"/>
+  </g>
+  <!-- y mapping: 0% -> 350, 1.5% -> 71 ; value v -> 350 - v*186 -->
+  <polyline points="110,341 320,211 470,164 610,118 700,118" fill="none" stroke="#c0392b" stroke-width="3"/>
+  <g fill="#c0392b">
+    <circle cx="110" cy="341" r="6"/><circle cx="320" cy="211" r="6"/><circle cx="470" cy="164" r="6"/><circle cx="610" cy="118" r="6"/><circle cx="700" cy="118" r="6"/>
+  </g>
+  <g font-size="14" fill="#1a1a1a" font-weight="bold">
+    <text x="110" y="368" text-anchor="middle">2024.03</text>
+    <text x="320" y="368" text-anchor="middle">2025.12</text>
+    <text x="470" y="368" text-anchor="middle">2026.06</text>
+    <text x="610" y="368" text-anchor="middle">2026.09</text>
+    <text x="700" y="368" text-anchor="middle">2026.10</text>
+  </g>
+  <g font-size="14" fill="#c0392b" font-weight="bold">
+    <text x="110" y="325" text-anchor="middle">0~0.1%</text>
+    <text x="320" y="195" text-anchor="middle">0.75%</text>
+    <text x="470" y="148" text-anchor="middle">1.00%</text>
+    <text x="610" y="102" text-anchor="middle">1.25%</text>
+    <text x="700" y="102" text-anchor="middle">1.25% 동결</text>
+  </g>
+  <text x="400" y="410" text-anchor="middle" font-size="13" fill="#888888">출처: 일본은행 발표 및 보도자료. 2026년 6월 수치는 2025년 12월 0.75%에서 2026년 두 차례 인상으로 9월 1.25%에 도달한 경로에서 도출.</text>
+</svg>
