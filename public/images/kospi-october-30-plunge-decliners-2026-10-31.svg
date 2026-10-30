@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400" font-family="sans-serif">
+  <rect width="800" height="400" fill="#ffffff"/>
+  <text x="400" y="36" text-anchor="middle" font-size="21" font-weight="bold" fill="#1a1a1a">10월 30일 하락률 — 반도체 대형주가 지수보다 더 빠졌다</text>
+  <g font-size="16" fill="#1a1a1a">
+    <text x="180" y="84" text-anchor="end">삼성전기</text>
+    <rect x="190" y="68" width="450" height="22" fill="#c0392b"/>
+    <text x="650" y="84">‑7.50%</text>
+    <text x="180" y="124" text-anchor="end">SK하이닉스</text>
+    <rect x="190" y="108" width="425" height="22" fill="#c0392b"/>
+    <text x="625" y="124">‑7.08%</text>
+    <text x="180" y="164" text-anchor="end">SK스퀘어</text>
+    <rect x="190" y="148" width="353" height="22" fill="#c0392b"/>
+    <text x="553" y="164">‑5.88%</text>
+    <text x="180" y="204" text-anchor="end">삼성전자우</text>
+    <rect x="190" y="188" width="320" height="22" fill="#c0392b"/>
+    <text x="520" y="204">‑5.33%</text>
+    <text x="180" y="244" text-anchor="end">코스닥</text>
+    <rect x="190" y="228" width="230" height="22" fill="#e67e22"/>
+    <text x="430" y="244">‑3.83%</text>
+    <text x="180" y="284" text-anchor="end">코스피</text>
+    <rect x="190" y="268" width="209" height="22" fill="#e67e22"/>
+    <text x="409" y="284">‑3.48%</text>
+    <text x="180" y="324" text-anchor="end">삼성전자</text>
+    <rect x="190" y="308" width="181" height="22" fill="#e67e22"/>
+    <text x="381" y="324">‑3.02%</text>
+  </g>
+  <g font-size="14" fill="#555555">
+    <text x="400" y="368" text-anchor="middle">삼성전자 종가 22만 5,000원, SK하이닉스 종가 141만 8,000원 — 한국거래소·보도 기준</text>
+  </g>
+</svg>
