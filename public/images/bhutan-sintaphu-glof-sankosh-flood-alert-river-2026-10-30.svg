@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300" font-family="sans-serif">
+  <rect width="800" height="300" fill="#ffffff"/>
+  <text x="400" y="36" text-anchor="middle" font-size="21" font-weight="bold" fill="#1a1a1a">홍수 물길 — 신타푸호에서 산코시강까지</text>
+  <g font-size="15" font-weight="bold" fill="#1a1a1a">
+    <rect x="30" y="110" width="150" height="70" rx="10" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="105" y="140" text-anchor="middle">신타푸호</text>
+    <text x="105" y="162" text-anchor="middle" font-size="13" font-weight="normal">부탄 가사주 라야</text>
+    <rect x="220" y="110" width="150" height="70" rx="10" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="295" y="140" text-anchor="middle">모추강</text>
+    <text x="295" y="162" text-anchor="middle" font-size="13" font-weight="normal">타크체마캉 경유</text>
+    <rect x="410" y="110" width="150" height="70" rx="10" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="485" y="140" text-anchor="middle">푸나창추강</text>
+    <text x="485" y="162" text-anchor="middle" font-size="13" font-weight="normal">부탄 중부 하류</text>
+    <rect x="600" y="110" width="170" height="70" rx="10" fill="#fee2e2" stroke="#c0392b"/>
+    <text x="685" y="140" text-anchor="middle">산코시강 (인도)</text>
+    <text x="685" y="162" text-anchor="middle" font-size="13" font-weight="normal">알리푸르두아르·두브리</text>
+  </g>
+  <g fill="#2563eb" font-size="22" font-weight="bold">
+    <text x="190" y="152" text-anchor="middle">→</text>
+    <text x="380" y="152" text-anchor="middle">→</text>
+    <text x="570" y="152" text-anchor="middle">→</text>
+  </g>
+  <text x="400" y="230" text-anchor="middle" font-size="14" fill="#555555">인도 수자원부 특별 자문: 홍수 물결이 국경에 닿기까지 6시간에서 8시간 소요 예상</text>
+  <text x="400" y="262" text-anchor="middle" font-size="13" fill="#888888">출처: 데일리 파이오니어 2026년 10월 30일 보도, 더힌두 2026년 10월 30일 보도.</text>
+</svg>
