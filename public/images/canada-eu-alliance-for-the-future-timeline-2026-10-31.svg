@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="340" viewBox="0 0 800 340" font-family="sans-serif">
+  <rect width="800" height="340" fill="#ffffff"/>
+  <text x="400" y="36" text-anchor="middle" font-size="21" font-weight="bold" fill="#1a1a1a">CETA에서 동맹으로, 그리고 2027년으로</text>
+  <line x1="60" y1="170" x2="740" y2="170" stroke="#cccccc" stroke-width="2"/>
+  <g font-size="15" fill="#1a1a1a" font-weight="bold">
+    <text x="110" y="130" text-anchor="middle">2017년</text>
+    <text x="300" y="130" text-anchor="middle">2025년 6월</text>
+    <text x="490" y="130" text-anchor="middle">2026년 10월 29~30일</text>
+    <text x="690" y="130" text-anchor="middle">2027년 정상회담</text>
+  </g>
+  <g font-size="14" fill="#555555">
+    <text x="110" y="205" text-anchor="middle">CETA 잠정 적용</text>
+    <text x="110" y="227" text-anchor="middle">무역 토대 마련</text>
+    <text x="300" y="205" text-anchor="middle">안보·방위 파트너십</text>
+    <text x="300" y="227" text-anchor="middle">SAFE 참여 기반</text>
+    <text x="490" y="205" text-anchor="middle">몬트리올 정상회담</text>
+    <text x="490" y="227" text-anchor="middle">미래를 위한 동맹 출범</text>
+    <text x="690" y="205" text-anchor="middle">더욱 긴밀한 연합</text>
+    <text x="690" y="227" text-anchor="middle">개념 정의 예정</text>
+  </g>
+  <g>
+    <circle cx="110" cy="170" r="10" fill="#2e86c1"/>
+    <circle cx="300" cy="170" r="10" fill="#2e86c1"/>
+    <circle cx="490" cy="170" r="10" fill="#c0392b"/>
+    <circle cx="690" cy="170" r="10" fill="#b7791f"/>
+  </g>
+  <text x="400" y="300" text-anchor="middle" font-size="14" fill="#555555">유럽이사회·캐나다 총리실 자료 기준 — 2027년 개념 정의는 공동성명의 공식 일정</text>
+</svg>
