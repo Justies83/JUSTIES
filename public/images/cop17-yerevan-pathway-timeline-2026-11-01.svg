@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 460" font-family="sans-serif">
+<rect width="900" height="460" fill="#f4f1ea"/>
+<text x="450" y="48" text-anchor="middle" font-size="30" font-weight="700" fill="#20231f">자연 협약, 2022년에서 2028년까지</text>
+<text x="450" y="82" text-anchor="middle" font-size="17" fill="#62655d">쿤밍-몬트리올 프레임워크에서 예레반을 거쳐 다음 회의인 키토까지</text>
+
+<line x1="70" y1="210" x2="830" y2="210" stroke="#16756a" stroke-width="4"/>
+<circle cx="110" cy="210" r="16" fill="#16756a"/>
+<circle cx="300" cy="210" r="16" fill="#16756a"/>
+<circle cx="490" cy="210" r="16" fill="#16756a"/>
+<circle cx="650" cy="210" r="16" fill="#e0795b"/>
+<circle cx="800" cy="210" r="16" fill="#20231f"/>
+
+<text x="110" y="130" text-anchor="middle" font-size="19" font-weight="700" fill="#20231f">2022년</text>
+<text x="110" y="158" text-anchor="middle" font-size="15" fill="#62655d">쿤밍-몬트리올</text>
+<text x="110" y="180" text-anchor="middle" font-size="15" fill="#62655d">프레임워크 채택</text>
+<text x="110" y="255" text-anchor="middle" font-size="15" fill="#20231f">2030년까지 자연 손실</text>
+<text x="110" y="277" text-anchor="middle" font-size="15" fill="#20231f">멈추고 되돌리기 · 23개 목표</text>
+
+<text x="300" y="130" text-anchor="middle" font-size="19" font-weight="700" fill="#20231f">2024년</text>
+<text x="300" y="158" text-anchor="middle" font-size="15" fill="#62655d">COP16 칼리에서</text>
+<text x="300" y="180" text-anchor="middle" font-size="15" fill="#62655d">칼리 기금 신설</text>
+<text x="300" y="255" text-anchor="middle" font-size="15" fill="#20231f">유전자 정보 이용 기업이</text>
+<text x="300" y="277" text-anchor="middle" font-size="15" fill="#20231f">자발적으로 기여하는 구조</text>
+
+<text x="490" y="130" text-anchor="middle" font-size="19" font-weight="700" fill="#20231f">2026년 9월</text>
+<text x="490" y="158" text-anchor="middle" font-size="15" fill="#62655d">유엔 글로벌 보고서</text>
+<text x="490" y="180" text-anchor="middle" font-size="15" fill="#62655d">9월 24일 공개</text>
+<text x="490" y="255" text-anchor="middle" font-size="15" fill="#20231f">23개 목표 중 22개가</text>
+<text x="490" y="277" text-anchor="middle" font-size="15" fill="#20231f">뒤처졌다고 평가</text>
+
+<text x="650" y="130" text-anchor="middle" font-size="19" font-weight="700" fill="#e0795b">2026년 10월</text>
+<text x="650" y="158" text-anchor="middle" font-size="15" fill="#62655d">COP17 예레반</text>
+<text x="650" y="180" text-anchor="middle" font-size="15" fill="#62655d">10월 19일~31일</text>
+<text x="650" y="255" text-anchor="middle" font-size="15" fill="#20231f">첫 글로벌 검토와</text>
+<text x="650" y="277" text-anchor="middle" font-size="15" fill="#20231f">예레반 경로 채택</text>
+
+<text x="800" y="130" text-anchor="middle" font-size="19" font-weight="700" fill="#20231f">2028년</text>
+<text x="800" y="158" text-anchor="middle" font-size="15" fill="#62655d">COP18 키토</text>
+<text x="800" y="180" text-anchor="middle" font-size="15" fill="#62655d">에콰도르</text>
+<text x="800" y="255" text-anchor="middle" font-size="15" fill="#20231f">2030 이후 재원 구조와</text>
+<text x="800" y="277" text-anchor="middle" font-size="15" fill="#20231f">칼리 기금 세부 규칙 결정</text>
+
+<text x="450" y="360" text-anchor="middle" font-size="16" fill="#62655d">예레반에서 미뤄진 숙제는 2028년 키토 회의로 넘어갔다</text>
+<text x="450" y="420" text-anchor="middle" font-size="14" fill="#62655d" font-family="monospace">출처: 로이터·카본브리프 2026년 10월 31일 보도 / 직접 작성</text>
+</svg>
