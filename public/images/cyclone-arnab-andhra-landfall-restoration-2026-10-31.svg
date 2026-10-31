@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="사이클론 아르나브 복구 진척">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <text x="450" y="56" text-anchor="middle" font-family="sans-serif" font-size="30" font-weight="bold" fill="#20231f">사이클론 아르나브 복구 진척 (10월 31일 기준)</text>
+  <text x="450" y="92" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#62655d">복구된 곳 / 피해 규모 — 비율은 각 항목의 복구율</text>
+
+  <text x="40" y="158" font-family="sans-serif" font-size="21" fill="#20231f">마을 전력 4,881 / 5,404</text>
+  <rect x="40" y="172" width="560" height="34" fill="#d8d2c4"/>
+  <rect x="40" y="172" width="506" height="34" fill="#16756a"/>
+  <text x="620" y="197" font-family="sans-serif" font-size="21" font-weight="bold" fill="#20231f">90%</text>
+
+  <text x="40" y="248" font-family="sans-serif" font-size="21" fill="#20231f">변전소 513 / 552</text>
+  <rect x="40" y="262" width="560" height="34" fill="#d8d2c4"/>
+  <rect x="40" y="262" width="520" height="34" fill="#16756a"/>
+  <text x="620" y="287" font-family="sans-serif" font-size="21" font-weight="bold" fill="#20231f">93%</text>
+
+  <text x="40" y="338" font-family="sans-serif" font-size="21" fill="#20231f">도로 지점 119 / 137</text>
+  <rect x="40" y="352" width="560" height="34" fill="#d8d2c4"/>
+  <rect x="40" y="352" width="487" height="34" fill="#e0795b"/>
+  <text x="620" y="377" font-family="sans-serif" font-size="21" font-weight="bold" fill="#20231f">87%</text>
+
+  <text x="40" y="428" font-family="sans-serif" font-size="21" fill="#20231f">이동통신 기지국 661 / 1,045</text>
+  <rect x="40" y="442" width="560" height="34" fill="#d8d2c4"/>
+  <rect x="40" y="442" width="354" height="34" fill="#e0795b"/>
+  <text x="620" y="467" font-family="sans-serif" font-size="21" font-weight="bold" fill="#20231f">63%</text>
+
+  <text x="40" y="508" font-family="monospace" font-size="14" fill="#62655d">출처: 아리안 에이지·비즈니스 투데이 2026년 10월 31일 보도 수치로 직접 작성</text>
+</svg>
