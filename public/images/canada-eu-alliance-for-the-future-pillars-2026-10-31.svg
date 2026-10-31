@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="360" viewBox="0 0 800 360" font-family="sans-serif">
+  <rect width="800" height="360" fill="#ffffff"/>
+  <text x="400" y="36" text-anchor="middle" font-size="21" font-weight="bold" fill="#1a1a1a">미래를 위한 동맹, 여섯 갈래</text>
+  <g font-size="15" font-weight="bold" fill="#ffffff">
+    <rect x="40" y="70" width="220" height="100" rx="10" fill="#2e86c1"/>
+    <rect x="290" y="70" width="220" height="100" rx="10" fill="#1a7a4c"/>
+    <rect x="540" y="70" width="220" height="100" rx="10" fill="#b7791f"/>
+    <rect x="40" y="200" width="220" height="100" rx="10" fill="#6c3483"/>
+    <rect x="290" y="200" width="220" height="100" rx="10" fill="#922b21"/>
+    <rect x="540" y="200" width="220" height="100" rx="10" fill="#1a5276"/>
+    <text x="150" y="112" text-anchor="middle">무역과 규제 협력</text>
+    <text x="150" y="138" text-anchor="middle" font-weight="normal" font-size="13">CETA 업그레이드</text>
+    <text x="400" y="112" text-anchor="middle">디지털·연구·통신</text>
+    <text x="400" y="138" text-anchor="middle" font-weight="normal" font-size="13">디지털 무역협정 타결</text>
+    <text x="650" y="112" text-anchor="middle">핵심자원과 에너지</text>
+    <text x="650" y="138" text-anchor="middle" font-weight="normal" font-size="13">EIB 핵심광물 투자</text>
+    <text x="150" y="242" text-anchor="middle">금융서비스와 시장</text>
+    <text x="150" y="268" text-anchor="middle" font-weight="normal" font-size="13">즉시결제 연결 추진</text>
+    <text x="400" y="242" text-anchor="middle">안보와 대비 태세</text>
+    <text x="400" y="268" text-anchor="middle" font-weight="normal" font-size="13">SAFE·사이버·산불 협력</text>
+    <text x="650" y="242" text-anchor="middle">사람 대 사람 교류</text>
+    <text x="650" y="268" text-anchor="middle" font-weight="normal" font-size="13">에라스무스플러스 확대</text>
+  </g>
+  <text x="400" y="335" text-anchor="middle" font-size="14" fill="#555555">공동성명이 밝힌 여섯 개 협력 분야 — 캐나다 총리실, 2026년 10월 30일</text>
+</svg>
