@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300" font-family="sans-serif">
+  <rect width="800" height="300" fill="#ffffff"/>
+  <text x="400" y="36" text-anchor="middle" font-size="21" font-weight="bold" fill="#1a1a1a">산코시강 수위 — 10월 30일 오전 기준</text>
+  <g font-size="16" font-weight="bold" fill="#1a1a1a">
+    <text x="30" y="105">최고홍수위 (HFL)</text>
+    <rect x="230" y="80" width="420" height="34" rx="6" fill="#fee2e2" stroke="#c0392b"/>
+    <rect x="230" y="80" width="420" height="34" rx="6" fill="none" stroke="#c0392b"/>
+    <text x="665" y="104">49미터</text>
+    <text x="30" y="175">실제 수위</text>
+    <rect x="230" y="150" width="377" height="34" rx="6" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="622" y="174">44미터</text>
+  </g>
+  <g font-size="15" fill="#1a1a1a">
+    <text x="400" y="225" text-anchor="middle">여유 5미터 — 강이 제 갈길 안에서 홍수 물결을 받아냈다</text>
+    <text x="400" y="255" text-anchor="middle" font-size="13" fill="#555555">대피 인원: 알리푸르두아르 약 1만 2천 명 (텔레그래프 기준)</text>
+  </g>
+  <text x="400" y="282" text-anchor="middle" font-size="13" fill="#888888">출처: 더 스테이츠먼 2026년 10월 30일 보도, 텔레그래프 2026년 10월 31일 보도.</text>
+</svg>
