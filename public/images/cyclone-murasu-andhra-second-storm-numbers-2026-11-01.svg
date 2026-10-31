@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="380" viewBox="0 0 900 380" font-family="sans-serif">
+<rect width="900" height="380" fill="#fafafa"/>
+<text x="40" y="40" font-size="22" font-weight="bold" fill="#111">아르나브와 무라수, 숫자로 비교</text>
+<text x="40" y="68" font-size="14" fill="#555">아르나브는 실측에 가까운 상륙 당시 수치, 무라수는 10월 31일 기준 예보 수치다.</text>
+<text x="40" y="120" font-size="17" font-weight="bold" fill="#c0392b">아르나브 (10월 28일 상륙)</text>
+<text x="40" y="152" font-size="15" fill="#333">등급: 매우 강한 사이클론 / 최대 풍속 시속 135km, 돌풍 시속 150km</text>
+<text x="40" y="180" font-size="15" fill="#333">대피: 안드라프라데시와 오디샤에서 18만 명 이상 / 사망: 최소 6명</text>
+<text x="40" y="230" font-size="17" font-weight="bold" fill="#1f4e79">무라수 (11월 3일 횡단 예보)</text>
+<text x="40" y="262" font-size="15" fill="#333">예상 풍속: 시속 80에서 90km, 돌풍 시속 100km (인도 기상청장 브리핑)</text>
+<text x="40" y="290" font-size="15" fill="#333">예상 강우: 안드라·라얄라시마 11월 2에서 3일 매우 강한 비, 일부 극심한 비</text>
+<text x="40" y="318" font-size="15" fill="#333">오디샤 남부 11월 3에서 4일 오렌지 경보 5개 지구, 강우 7에서 12cm</text>
+<text x="40" y="356" font-size="14" fill="#555">일부 지역 특보에서는 더 강한 단계를 언급하기도 했다. 예보는 계속 바뀔 수 있다.</text>
+</svg>
