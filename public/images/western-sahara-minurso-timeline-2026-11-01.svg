@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="sans-serif">
+<rect width="900" height="520" fill="#f4f1ea"/>
+<text x="450" y="48" text-anchor="middle" font-size="30" font-weight="700" fill="#20231f">35년 임무, 어떻게 끝까지 왔나</text>
+<text x="450" y="82" text-anchor="middle" font-size="17" fill="#62655d">서부사하라 MINURSO 연표 · 주민투표는 한 번도 열리지 않았다</text>
+
+<line x1="70" y1="230" x2="830" y2="230" stroke="#16756a" stroke-width="4"/>
+<circle cx="110" cy="230" r="14" fill="#16756a"/>
+<circle cx="290" cy="230" r="14" fill="#16756a"/>
+<circle cx="470" cy="230" r="14" fill="#16756a"/>
+<circle cx="650" cy="230" r="14" fill="#e0795b"/>
+<circle cx="810" cy="230" r="14" fill="#e0795b"/>
+
+<text x="110" y="130" text-anchor="middle" font-size="20" font-weight="700" fill="#20231f">1991년</text>
+<text x="110" y="158" text-anchor="middle" font-size="15" fill="#20231f">휴전 합의 뒤</text>
+<text x="110" y="182" text-anchor="middle" font-size="15" fill="#20231f">MINURSO 창설</text>
+<text x="110" y="280" text-anchor="middle" font-size="15" fill="#62655d">결의 690호 · 휴전 감시와</text>
+<text x="110" y="304" text-anchor="middle" font-size="15" fill="#62655d">주민투표 준비가 임무</text>
+
+<text x="290" y="130" text-anchor="middle" font-size="20" font-weight="700" fill="#20231f">2007년</text>
+<text x="290" y="158" text-anchor="middle" font-size="15" fill="#20231f">모로코 자치안 제시</text>
+<text x="290" y="182" text-anchor="middle" font-size="15" fill="#20231f">주권 아래 자치정부안</text>
+<text x="290" y="280" text-anchor="middle" font-size="15" fill="#62655d">폴리사리오는 독립을</text>
+<text x="290" y="304" text-anchor="middle" font-size="15" fill="#62655d">요구하며 맞서다</text>
+
+<text x="470" y="130" text-anchor="middle" font-size="20" font-weight="700" fill="#20231f">2020년 11월</text>
+<text x="470" y="158" text-anchor="middle" font-size="15" fill="#20231f">폴리사리오 무장투쟁 재개 선언</text>
+<text x="470" y="182" text-anchor="middle" font-size="15" fill="#20231f">저강도 적대 이어지다</text>
+<text x="470" y="280" text-anchor="middle" font-size="15" fill="#62655d">유권자 자격 다툼 탓에</text>
+<text x="470" y="304" text-anchor="middle" font-size="15" fill="#62655d">투표는 끝내 열리지 않음</text>
+
+<text x="650" y="130" text-anchor="middle" font-size="20" font-weight="700" fill="#20231f">2025년 10월</text>
+<text x="650" y="158" text-anchor="middle" font-size="15" fill="#20231f">결의 2797호 · 자치안을</text>
+<text x="650" y="182" text-anchor="middle" font-size="15" fill="#20231f">협상 토대로 지지</text>
+<text x="650" y="280" text-anchor="middle" font-size="15" fill="#62655d">사무총장에 임무 검토 요청</text>
+<text x="650" y="304" text-anchor="middle" font-size="15" fill="#62655d">위임은 2026년 10월 31일까지</text>
+
+<text x="810" y="130" text-anchor="middle" font-size="20" font-weight="700" fill="#20231f">2026년 10월</text>
+<text x="810" y="158" text-anchor="middle" font-size="15" fill="#20231f">30일 두 초안 부결</text>
+<text x="810" y="182" text-anchor="middle" font-size="15" fill="#20231f">31일 위임 만료</text>
+<text x="810" y="280" text-anchor="middle" font-size="15" fill="#62655d">미 · 러 상호 거부권</text>
+<text x="810" y="304" text-anchor="middle" font-size="15" fill="#62655d">철수 절차는 미정</text>
+
+<text x="450" y="400" text-anchor="middle" font-size="18" fill="#20231f">군인 155명 · 2026년 6월 시작 회계연도 예산 6,200만 달러 (사무총장 보고서, 로이터 인용)</text>
+<text x="450" y="485" text-anchor="middle" font-size="14" fill="#62655d" font-family="monospace">출처: 유엔 회의 보도자료 · 로이터 2026년 10월 30일 보도 / 직접 작성</text>
+</svg>
