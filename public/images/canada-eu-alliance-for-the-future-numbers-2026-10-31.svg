@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="330" viewBox="0 0 800 330" font-family="sans-serif">
+  <rect width="800" height="330" fill="#ffffff"/>
+  <text x="400" y="36" text-anchor="middle" font-size="21" font-weight="bold" fill="#1a1a1a">합의를 읽는 네 개의 숫자</text>
+  <g font-size="30" font-weight="bold" fill="#1a5276">
+    <text x="120" y="110" text-anchor="middle">1,300억 유로</text>
+    <text x="400" y="110" text-anchor="middle">80% 이상</text>
+    <text x="650" y="110" text-anchor="middle">900억 유로</text>
+  </g>
+  <g font-size="15" fill="#555555">
+    <text x="120" y="140" text-anchor="middle">2025년 양측 상품·서비스 교역</text>
+    <text x="400" y="140" text-anchor="middle">2016년 대비 교역 증가율</text>
+    <text x="650" y="140" text-anchor="middle">우크라이나 지원 차관 규모</text>
+  </g>
+  <g font-size="30" font-weight="bold" fill="#922b21">
+    <text x="400" y="215" text-anchor="middle">5억 유로</text>
+  </g>
+  <g font-size="15" fill="#555555">
+    <text x="400" y="245" text-anchor="middle">캐나다의 우크라이나 차관 초기 기여</text>
+  </g>
+  <text x="400" y="300" text-anchor="middle" font-size="14" fill="#555555">출처: 유럽이사회·캐나다 총리실·알자지라, 2026년 10월 30일</text>
+</svg>
