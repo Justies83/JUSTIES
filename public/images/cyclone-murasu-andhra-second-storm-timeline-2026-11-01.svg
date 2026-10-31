@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="330" viewBox="0 0 900 330" font-family="sans-serif">
+<rect width="900" height="330" fill="#fafafa"/>
+<text x="40" y="40" font-size="22" font-weight="bold" fill="#111">무라수 예상 발달 시간표 (인도 현지 시간 기준)</text>
+<text x="40" y="68" font-size="14" fill="#555">인도 기상청 10월 31일 특보 기준 예보. 한국 시간은 3시간 30분 늦다.</text>
+<line x1="60" y1="150" x2="840" y2="150" stroke="#999" stroke-width="2"/>
+<circle cx="120" cy="150" r="10" fill="#1f4e79"/>
+<circle cx="310" cy="150" r="10" fill="#1f4e79"/>
+<circle cx="500" cy="150" r="10" fill="#b7791f"/>
+<circle cx="690" cy="150" r="10" fill="#c0392b"/>
+<circle cx="820" cy="150" r="10" fill="#2e7d32"/>
+<text x="120" y="115" font-size="15" font-weight="bold" fill="#111" text-anchor="middle">10월 31일 오전</text>
+<text x="120" y="195" font-size="14" fill="#333" text-anchor="middle">저기압이 열대</text>
+<text x="120" y="218" font-size="14" fill="#333" text-anchor="middle">저기압으로 발달</text>
+<text x="310" y="115" font-size="15" font-weight="bold" fill="#111" text-anchor="middle">10월 31일 밤</text>
+<text x="310" y="195" font-size="14" fill="#333" text-anchor="middle">깊은 저기압으로</text>
+<text x="310" y="218" font-size="14" fill="#333" text-anchor="middle">강화 예보</text>
+<text x="500" y="115" font-size="15" font-weight="bold" fill="#111" text-anchor="middle">11월 1일</text>
+<text x="500" y="195" font-size="14" fill="#333" text-anchor="middle">사이클론으로 발달하면</text>
+<text x="500" y="218" font-size="14" fill="#333" text-anchor="middle">이름은 무라수</text>
+<text x="690" y="115" font-size="15" font-weight="bold" fill="#111" text-anchor="middle">11월 2일 저녁</text>
+<text x="690" y="195" font-size="14" fill="#333" text-anchor="middle">안드라프라데시 해안</text>
+<text x="690" y="218" font-size="14" fill="#333" text-anchor="middle">인근 해역 도달</text>
+<text x="820" y="115" font-size="15" font-weight="bold" fill="#111" text-anchor="middle">11월 3일 아침</text>
+<text x="820" y="195" font-size="14" fill="#333" text-anchor="middle">남부 안드라 해안</text>
+<text x="820" y="218" font-size="14" fill="#333" text-anchor="middle">횡단 예보</text>
+<text x="40" y="290" font-size="14" fill="#555">상륙 지점과 강도는 후속 특보에 따라 바뀔 수 있다. 출처: 인도 기상청 특보를 인용한 2026년 10월 31일 보도들.</text>
+</svg>
