@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 580" font-family="sans-serif">
+<rect width="900" height="580" fill="#f4f1ea"/>
+<text x="450" y="48" text-anchor="middle" font-size="30" font-weight="700" fill="#20231f">COP17의 숫자 — 합의는 됐고, 돈은 남았다</text>
+<text x="450" y="82" text-anchor="middle" font-size="17" fill="#62655d">2022년 쿤밍-몬트리올 프레임워크 목표와 2026년 10월 31일 예레반 합의 기준</text>
+
+<rect x="60" y="110" width="370" height="180" rx="12" fill="#ffffff" stroke="#16756a" stroke-width="3"/>
+<text x="245" y="150" text-anchor="middle" font-size="20" font-weight="700" fill="#16756a">자연 목표 23개 중 뒤처진 목표</text>
+<text x="245" y="215" text-anchor="middle" font-size="52" font-weight="700" fill="#16756a">22개</text>
+<text x="245" y="250" text-anchor="middle" font-size="16" fill="#20231f">유엔 글로벌 보고서(2026년 9월 24일) 평가</text>
+
+<rect x="470" y="110" width="370" height="180" rx="12" fill="#ffffff" stroke="#16756a" stroke-width="3"/>
+<text x="655" y="150" text-anchor="middle" font-size="20" font-weight="700" fill="#16756a">2030년까지 연간 조달 목표</text>
+<text x="655" y="215" text-anchor="middle" font-size="52" font-weight="700" fill="#16756a">2,000억 달러</text>
+<text x="655" y="250" text-anchor="middle" font-size="16" fill="#20231f">모든 출처 합산 · 개도국 몫은 연 300억 달러</text>
+
+<rect x="60" y="315" width="370" height="180" rx="12" fill="#ffffff" stroke="#e0795b" stroke-width="3"/>
+<text x="245" y="355" text-anchor="middle" font-size="20" font-weight="700" fill="#e0795b">자연에 해로운 보조금 (연간 최대)</text>
+<text x="245" y="420" text-anchor="middle" font-size="52" font-weight="700" fill="#e0795b">1조 8,000억 달러</text>
+<text x="245" y="455" text-anchor="middle" font-size="16" fill="#20231f">2030년 감축 목표는 연 5,000억 달러 이상</text>
+
+<rect x="470" y="315" width="370" height="180" rx="12" fill="#ffffff" stroke="#e0795b" stroke-width="3"/>
+<text x="655" y="355" text-anchor="middle" font-size="20" font-weight="700" fill="#e0795b">칼리 기금 — 회의 시작 때와 끝날 때</text>
+<text x="655" y="420" text-anchor="middle" font-size="40" font-weight="700" fill="#e0795b">6,000 → 10,565달러</text>
+<text x="655" y="455" text-anchor="middle" font-size="16" fill="#20231f">실제 입금은 9,000달러 미만 · 연간 목표는 10억 달러</text>
+
+<text x="450" y="535" text-anchor="middle" font-size="14" fill="#62655d" font-family="monospace">출처: 로이터·카본브리프 2026년 10월 31일 보도, 유엔 글로벌 보고서 / 직접 작성</text>
+</svg>
