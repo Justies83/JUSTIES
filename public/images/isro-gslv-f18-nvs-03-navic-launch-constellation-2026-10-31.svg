@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="360" viewBox="0 0 800 360" font-family="sans-serif">
+  <rect width="800" height="360" fill="#ffffff"/>
+  <text x="400" y="36" text-anchor="middle" font-size="21" font-weight="bold" fill="#1a1a1a">단독 측위에 필요한 최소 4기, NVS-03으로 채워지다</text>
+  <text x="120" y="90" font-size="15" font-weight="bold" fill="#1a1a1a">발사 전</text>
+  <g>
+    <rect x="120" y="105" width="120" height="42" fill="#2e86c1"/>
+    <rect x="250" y="105" width="120" height="42" fill="#2e86c1"/>
+    <rect x="380" y="105" width="120" height="42" fill="#2e86c1"/>
+    <rect x="510" y="105" width="120" height="42" fill="#ffffff" stroke="#c0392b" stroke-width="2" stroke-dasharray="5 4"/>
+  </g>
+  <text x="120" y="175" font-size="14" fill="#555555">주 기능 수행 가능 위성 3기 — 단독 측위에는 1기 부족</text>
+  <text x="120" y="215" font-size="15" font-weight="bold" fill="#1a1a1a">발사 후</text>
+  <g>
+    <rect x="120" y="230" width="120" height="42" fill="#1e8449"/>
+    <rect x="250" y="230" width="120" height="42" fill="#1e8449"/>
+    <rect x="380" y="230" width="120" height="42" fill="#1e8449"/>
+    <rect x="510" y="230" width="120" height="42" fill="#1e8449"/>
+  </g>
+  <text x="120" y="300" font-size="14" fill="#555555">NVS-03 합류로 4기 체제 회복 — 다만 IRNSS-1B는 설계 수명 10년을 넘긴 상태</text>
+  <text x="400" y="340" text-anchor="middle" font-size="13" fill="#888888">출처: 더힌두 2026년 10월 30일 설명 기사, ISRO 발사 후 발표.</text>
+</svg>
