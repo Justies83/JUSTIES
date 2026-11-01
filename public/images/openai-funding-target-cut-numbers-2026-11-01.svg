@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="460" viewBox="0 0 900 460" font-family="sans-serif">
+  <rect width="900" height="460" fill="#f4f1ea"/>
+  <text x="450" y="42" text-anchor="middle" font-size="24" font-weight="bold" fill="#20231f">오픈AI 자금조달, 무엇이 얼마나 줄었나</text>
+  <text x="450" y="72" text-anchor="middle" font-size="14" fill="#62655d">파이낸셜타임스 보도 기준 · 2026년 10월 30일</text>
+  <text x="120" y="150" font-size="17" fill="#20231f">조달 목표: 300억 달러 → 200억 달러</text>
+  <rect x="120" y="165" width="600" height="42" fill="#e5e0d5"/>
+  <rect x="120" y="165" width="400" height="42" fill="#e0795b"/>
+  <text x="540" y="193" font-size="17" font-weight="bold" fill="#20231f">당초의 66.7%만 남음 (-33.3%)</text>
+  <text x="120" y="280" font-size="17" fill="#20231f">기업가치: 1조4,000억 달러 → 1조2,500억 달러</text>
+  <rect x="120" y="295" width="600" height="42" fill="#e5e0d5"/>
+  <rect x="120" y="295" width="536" height="42" fill="#16756a"/>
+  <text x="676" y="323" font-size="17" font-weight="bold" fill="#20231f">당초의 89.3% 남음 (-10.7%)</text>
+  <text x="450" y="400" text-anchor="middle" font-size="14" fill="#62655d">값은 1,500억 달러 낮아졌지만, 조달 규모는 100억 달러 줄었다 — 투자자는 값을 깎기보다 사는 양을 줄였다</text>
+  <text x="450" y="435" text-anchor="middle" font-size="12" fill="#62655d" font-family="monospace">출처: 파이낸셜타임스 보도 (로이터·마닐라타임스 정리, 2026.10.30~11.01)</text>
+</svg>
