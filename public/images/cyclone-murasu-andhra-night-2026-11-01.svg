@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" font-family="sans-serif">
+<rect width="900" height="520" fill="#fafafa"/>
+<text x="40" y="40" font-size="22" font-weight="bold" fill="#111">무라수 밤 업데이트 — 경보 3단계, 해일 1.5m로 상향</text>
+<text x="40" y="68" font-size="14" fill="#555">인도 기상청 11월 1일 오후 5시 30분 특보(제7호) 기준. 횡단 시각과 풍속 예보는 그대로다.</text>
+<text x="40" y="118" font-size="17" font-weight="bold" fill="#c0392b">해안 경보: 2단계에서 3단계로 — 사이클론 경보, 적색 메시지</text>
+<text x="40" y="148" font-size="15" fill="#333">안드라프라데시와 북 타밀나두 해안 대상. 4단계 중 3단계다.</text>
+<text x="40" y="198" font-size="17" font-weight="bold" fill="#1f4e79">폭풍 해일: 조위보다 약 1m에서 1에서 1.5m로 상향</text>
+<text x="40" y="228" font-size="15" fill="#333">남부 해안 안드라 저지대 침수 가능. 가장 높은 곳: 바팟라, 군투르, 크리슈나, 프라카삼 지구</text>
+<text x="40" y="278" font-size="17" font-weight="bold" fill="#1f4e79">오후 2시 30분 위치: 첸나이 동남동쪽 약 480km, 넬로르 동남동쪽 약 550km</text>
+<text x="40" y="308" font-size="15" fill="#333">서북서쪽 시속 27km 안팎으로 이동 중. 현재 풍속 시속 70에서 80km, 돌풍 시속 90km</text>
+<text x="40" y="358" font-size="17" font-weight="bold" fill="#333">변하지 않은 것: 11월 2일 밤 11시 30분부터 11월 3일 새벽 4시 사이 횡단</text>
+<text x="40" y="388" font-size="15" fill="#333">넬로르와 나르사푸르 사이 해안, 강한 사이클론 상태, 풍속 시속 100에서 110km, 돌풍 시속 120km</text>
+<text x="40" y="438" font-size="17" font-weight="bold" fill="#333">대비: NDRF 6개 팀, SDRF 7개 팀 배치 (WION 11월 1일 저녁 보도)</text>
+<text x="40" y="488" font-size="13" fill="#777">도표는 인도 기상청 제7호 특보를 인용한 트랜스클루 라이브 정리와 WION 보도를 바탕으로 직접 만들었다.</text>
+</svg>
