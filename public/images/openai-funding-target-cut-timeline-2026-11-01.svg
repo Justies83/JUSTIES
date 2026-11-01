@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="460" viewBox="0 0 900 460" font-family="sans-serif">
+  <rect width="900" height="460" fill="#f4f1ea"/>
+  <text x="450" y="42" text-anchor="middle" font-size="24" font-weight="bold" fill="#20231f">오픈AI 자금조달 축소까지의 한 달</text>
+  <text x="450" y="72" text-anchor="middle" font-size="14" fill="#62655d">보도 기준 정리</text>
+  <line x1="80" y1="220" x2="820" y2="220" stroke="#20231f" stroke-width="2"/>
+  <g font-size="15" fill="#20231f" text-anchor="middle">
+    <circle cx="130" cy="220" r="12" fill="#16756a"/>
+    <text x="130" y="180" font-weight="bold">10월 초</text>
+    <text x="130" y="260">300억 달러 조달,</text>
+    <text x="130" y="282">1조4,000억 달러</text>
+    <text x="130" y="304">기업가치 목표 보도</text>
+    <circle cx="360" cy="220" r="12" fill="#16756a"/>
+    <text x="360" y="180" font-weight="bold">10월 22일</text>
+    <text x="360" y="260">기업가치 1조2,500억</text>
+    <text x="360" y="282">달러 논의 보도</text>
+    <text x="360" y="304">(블룸버그)</text>
+    <circle cx="590" cy="220" r="12" fill="#e0795b"/>
+    <text x="590" y="180" font-weight="bold">10월 30일</text>
+    <text x="590" y="260">투자 약정 마감,</text>
+    <text x="590" y="282">파이낸셜타임스</text>
+    <text x="590" y="304">목표 축소 보도</text>
+    <circle cx="790" cy="220" r="12" fill="#e0795b"/>
+    <text x="790" y="180" font-weight="bold">11월 1일</text>
+    <text x="790" y="260">로이터·각국 매체</text>
+    <text x="790" y="282">후속 보도,</text>
+    <text x="790" y="304">첫 마감은 200억 달러 미만 전망</text>
+  </g>
+  <text x="450" y="400" text-anchor="middle" font-size="14" fill="#62655d">나스닥 지수는 10월 30일 2.9% 빠졌고, 10월 6일 역대 최고 종가보다 7.8% 낮아졌다</text>
+  <text x="450" y="435" text-anchor="middle" font-size="12" fill="#62655d" font-family="monospace">출처: 파이낸셜타임스·블룸버그·로이터 보도 정리 (2026.10~11.01)</text>
+</svg>
