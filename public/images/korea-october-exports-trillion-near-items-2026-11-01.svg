@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400" font-family="sans-serif">
+  <rect width="800" height="400" fill="#ffffff"/>
+  <text x="400" y="36" text-anchor="middle" font-size="21" font-weight="bold" fill="#1a1a1a">10월 1~20일 품목별 수출 증가율 (전년 동기 대비)</text>
+  <g font-size="16" fill="#1a1a1a">
+    <text x="180" y="84" text-anchor="end">컴퓨터 주변기기</text>
+    <rect x="190" y="68" width="424" height="22" fill="#2471a3"/>
+    <text x="624" y="84">424.0%</text>
+    <text x="180" y="124" text-anchor="end">반도체</text>
+    <rect x="190" y="108" width="223" height="22" fill="#2471a3"/>
+    <text x="423" y="124">222.5%</text>
+    <text x="180" y="164" text-anchor="end">석유제품</text>
+    <rect x="190" y="148" width="68" height="22" fill="#1e8449"/>
+    <text x="268" y="164">68.3%</text>
+    <text x="180" y="204" text-anchor="end">무선통신기기</text>
+    <rect x="190" y="188" width="43" height="22" fill="#1e8449"/>
+    <text x="243" y="204">42.7%</text>
+    <text x="180" y="244" text-anchor="end">철강제품</text>
+    <rect x="190" y="228" width="43" height="22" fill="#1e8449"/>
+    <text x="243" y="244">42.6%</text>
+    <text x="180" y="284" text-anchor="end">승용차</text>
+    <rect x="190" y="268" width="41" height="22" fill="#1e8449"/>
+    <text x="241" y="284">40.9%</text>
+  </g>
+  <g font-size="14" fill="#555555">
+    <text x="400" y="332" text-anchor="middle">관세청 10월 1~20일 수출입 현황 잠정치 기준 — 월간 확정 수치가 아니다</text>
+    <text x="400" y="360" text-anchor="middle">반도체 비중 44.7%, 전체 수출 증가분의 약 60%는 반도체에서 발생</text>
+  </g>
+</svg>
