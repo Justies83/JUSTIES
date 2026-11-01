@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" font-family="sans-serif">
+<rect width="900" height="420" fill="#fafafa"/>
+<text x="40" y="40" font-size="22" font-weight="bold" fill="#111">무라수 예보 상향 — 11월 1일 오전 특보</text>
+<text x="40" y="68" font-size="14" fill="#555">10월 31일 특보 기준 수치가 11월 1일 오전 특보에서 한 단계 강해졌다.</text>
+<text x="40" y="118" font-size="17" font-weight="bold" fill="#555">10월 31일 특보 (구예보)</text>
+<text x="40" y="148" font-size="15" fill="#333">상륙 풍속: 시속 80에서 90km, 돌풍 시속 100km (인도 기상청장 브리핑)</text>
+<text x="40" y="196" font-size="17" font-weight="bold" fill="#c0392b">11월 1일 오전 특보 (새 예보)</text>
+<text x="40" y="226" font-size="15" fill="#333">등급: 강한 사이클론 / 상륙 풍속 시속 100에서 110km, 돌풍 시속 120km</text>
+<text x="40" y="254" font-size="15" fill="#333">횡단 구간: 넬로르와 나르사푸르 사이 약 375km / 자정 기준 첸나이 동남동쪽 약 830km</text>
+<text x="40" y="302" font-size="17" font-weight="bold" fill="#1f4e79">새 시간표</text>
+<text x="40" y="332" font-size="15" fill="#333">11월 1일 낮 깊은 저기압 → 자정 사이클론(무라수 명명) → 11월 2일 강한 사이클론</text>
+<text x="40" y="360" font-size="15" fill="#333">11월 3일 아침 남부 안드라프라데시 해안 횡단 / 해수면 온도 29에서 30도</text>
+<text x="40" y="398" font-size="14" fill="#555">급발달 속도는 모델 간 의견이 갈린다. 후속 특보에서 조정될 수 있다.</text>
+</svg>
