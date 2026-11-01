@@ -3,8 +3,8 @@ title: "아르나브가 간 지 닷새 만에 또 하나의 폭풍 — 벵골만
 date: 2026-11-01
 category: world
 kind: news
-takeaway: "인도 기상청의 11월 1일 오후 2시 30분 특보는 무라수의 횡단 시각을 11월 2일 밤 11시 30분부터 11월 3일 새벽 4시 사이로 좁혔다. 넬로르와 나르사푸르 사이 해안을 강한 사이클론 상태로 통과할 때 풍속은 시속 100에서 110km, 돌풍은 시속 120km로 예보됐고, 조위보다 약 1m 높은 폭풍 해일로 남부 해안 안드라프라데시 저지대 침수 경고가 처음 나왔다. 11월 2일에는 넬로르와 프라카삼, 바팟라, 군투르, 크리슈나 5개 지구에 적색 경보가 발령됐고, 안드라프라데시 해안 어업은 11월 2일 아침부터 11월 4일 오후까지 제한된다."
-tags: [사이클론, 무라수, 인도, 안드라프라데시, 오디샤, IMD, 벵골만, 아르나브, 강한 사이클론, 정식 명명, 적색 경보, 폭풍 해일]
+takeaway: "인도 기상청의 11월 1일 오후 5시 30분 특보(제7호)는 안드라프라데시와 북 타밀나두 해안 경보를 4단계 중 3단계인 사이클론 경보(적색 메시지)로 올리고, 폭풍 해일 전망을 조위보다 1에서 1.5m로 높였다. 횡단 예보는 그대로다. 11월 2일 밤 11시 30분부터 11월 3일 새벽 4시 사이 넬로르와 나르사푸르 사이 해안을 강한 사이클론 상태로 통과할 때 풍속은 시속 100에서 110km, 돌풍은 시속 120km로 예보됐고, 오후 2시 30분 기준 무라수는 첸나이 동남동쪽 약 480km 해상에서 시속 27km 안팎으로 서북서쪽으로 이동 중이다."
+tags: [사이클론, 무라수, 인도, 안드라프라데시, 오디샤, IMD, 벵골만, 아르나브, 강한 사이클론, 정식 명명, 적색 경보, 폭풍 해일, 사이클론 경보, 밤 업데이트]
 cover: /images/cyclone-murasu-andhra-second-storm-2026-11-01.jpg
 coverAlt: "벵골만 위의 사이클론 위성 사진"
 source:
@@ -35,6 +35,29 @@ source:
 <p align="center"><img src="/images/cyclone-murasu-andhra-evening-2026-11-01.svg" alt="무라수 저녁 업데이트 — 11월 2일 밤 11시 30분부터 11월 3일 새벽 4시 사이 넬로르와 나르사푸르 사이 횡단, 조위보다 약 1m 높은 폭풍 해일 경고 바팟라 크리슈나 프라카삼, 11월 2일 적색 경보 넬로르 프라카삼 바팟라 군투르 크리슈나, 11월 3일 적색 경보 엘루루와 알루리 시타라마 라주로 이동" style="max-width:100%;height:auto;"/></p>
 
 <p align="center" class="caption">도표는 인도 기상청 11월 1일 오후 2시 30분 특보를 인용한 타임스 오브 인디아와 더 위크 보도, 특보 전문을 대조한 라이브 정리본을 바탕으로 직접 만들었다.</p>
+
+<p align="center"><strong>11월 1일 밤 업데이트 — 경보가 3단계로 올라가고, 해일 전망이 1.5m까지 높아졌다.</strong><br/>
+인도 기상청의 11월 1일 오후 5시 30분 특보(제7호)가 해안 경보를 한 단계 더 올렸다.<br/>
+안드라프라데시와 북 타밀나두 해안에 대한 경보는 4단계 중 3단계인 사이클론 경보가 됐고, 메시지는 적색이다.<br/>
+오후 1시 특보의 2단계에서 한 계단 올라간 셈이다.<br/>
+횡단 구간과 시각, 풍속 예보는 그대로다.<br/>
+11월 2일 밤 11시 30분부터 11월 3일 새벽 4시 사이, 넬로르와 나르사푸르 사이 해안을 강한 사이클론 상태로 통과하고, 풍속은 <strong>시속 100에서 110km</strong>, 돌풍은 <strong>시속 120km</strong>로 예보됐다.</p>
+
+<p align="center">달라진 건 해일 전망이다.<br/>
+조위보다 약 1m로 처음 제시됐던 폭풍 해일은 이번 특보에서 <strong>1에서 1.5m</strong>로 높아졌다.<br/>
+남부 해안 안드라프라데시의 저지대가 상륙 시점에 침수될 가능성이 크다는 경고는 그대로고, 가장 높게 지목된 곳도 바팟라를 비롯해 군투르와 크리슈나, 프라카삼 지구로 같다.<br/>
+숫자가 0.5m 올라간 게 작아 보일 수 있지만, 저지대에서는 물이 들어오는 높이 자체가 피해의 경계를 가른다.<br/>
+이 특보 기준 무라수의 위치는 오후 2시 30분에 첸나이 동남동쪽 약 480km, 넬로르 동남동쪽 약 550km 해상으로, 이동 속도는 시속 27km 안팎, 현재 풍속은 시속 70에서 80km, 돌풍은 시속 90km 수준이다.<br/>
+다음 특보는 오후 8시 30분으로 예정돼 있다.</p>
+
+<p align="center">주 정부의 대비도 구체적인 숫자로 나왔다.<br/>
+WION이 11월 1일 저녁에 전한 내용에 따르면, 안드라프라데시주에는 국가재난대응군(NDRF) 6개 팀과 주재난대응군(SDRF) 7개 팀이 배치됐다.<br/>
+어민들에게는 바다에 나가지 말라는 권고가 이어지고, 주총리는 11월 2일 델리 방문을 취소했다.<br/>
+아르나브의 예비 피해액이 4,600크로르 루피로 집계된 상태에서 두 번째 폭풍을 맞는 셈이라, 대비의 초점은 상륙 자체보다 그 뒤의 비와 침수에 맞춰져 있다.</p>
+
+<p align="center"><img src="/images/cyclone-murasu-andhra-night-2026-11-01.svg" alt="무라수 밤 업데이트 — 경보 3단계 사이클론 경보 적색 메시지, 해일 1에서 1.5m로 상향, 오후 2시 30분 위치 첸나이 동남동쪽 약 480km 넬로르 동남동쪽 약 550km, 횡단 11월 2일 밤 11시 30분부터 11월 3일 새벽 4시 사이" style="max-width:100%;height:auto;"/></p>
+
+<p align="center" class="caption">도표는 인도 기상청 11월 1일 오후 5시 30분 특보(제7호)를 인용한 트랜스클루 라이브 정리와 WION 보도를 바탕으로 직접 만들었다.</p>
 
 <p align="center">강해지는 배경도 특보에 함께 실렸다.<br/>해수면 온도가 29에서 30도 수준으로 열과 수증기가 충분하고, 상층의 바람 방향 변화가 낮거나 보통 수준이라 구조가 흐트러지기 어렵고, 상층 발산 환경도 발달에 우호적이라는 설명이다.<br/>인공지능 기반 예보 모델 일부는 11월 1일 오전 8시 30분 기준 앞으로 6에서 12시간 안에 급격한 발달 가능성까지 언급했다.<br/>다만 다른 모델들은 11월 2일 아침쯤 단계적으로 강해지는 쪽을 제시해, 급발달 여부는 아직 모델 간 의견이 갈린다.<br/>일부 글로벌 모델은 공식 명명 전에는 이 시스템을 깊은 저기압 단계로 분류해 임시 명칭 04B로 추적하고 있었다.</p>
 
@@ -70,6 +93,6 @@ source:
 
 <p align="center">넓게 보면 이번 폭풍은 이상한 날씨의 연속이라기보다, 계절이 바뀌는 지점에서 나온 시스템에 가깝다.<br/>남서 몬순은 10월 14일에서 15일쯤 전국에서 물러났고, 철수는 9월 19일에 시작해 대체로 평년 수준이었다.<br/>북동 몬순은 10월 15일에 타밀나두와 푸두체리, 카라이칼, 라얄라시마, 해안 안드라프라데시, 남부 내륙 카르나타카, 케랄라와 마헤 지역에 들어섰고, 이후로는 평년 수준에서 평년 이상을 유지하고 있다.<br/>그런데도 인도 기상청은 11월 전체 강수 전망을 평년보다 적게 잡았다.<br/>남부 반도 지역의 11월 강수량은 장기 평균의 77% 미만으로 예상되고, 중부와 북서부, 북동부 일부를 제외한 대부분 지역에서도 강수 부족이 전망된다.<br/>낮과 밤 기온은 히말라야 산기슭과 중동부 일부를 제외하고는 평년보다 높을 것으로 보인다.<br/>강한 엘니뇨 상태가 이어지고, 인도양 쌍극자는 중립을 유지하고 있다는 게 기상청의 설명이다.<br/>한 달 전망이 건조하다고 해서, 그 사이에 찾아오는 폭풍의 비까지 약해지는 건 아니다.<br/>오히려 건조한 달에 몰아치는 비가 더 눈에 띄는 법이다.</p>
 
-<p align="center">앞으로 며칠의 관전 포인트는 세 가지다.<br/>첫째, 무라수가 11월 2일 오전쯤 강한 사이클론 단계까지 올라가는지다.<br/>둘째, 11월 2일 밤 11시 30분부터 11월 3일 새벽 4시 사이 한밤중 횡단이 예보대로 이뤄지는지, 그리고 처음 경고된 약 1m의 폭풍 해일이 남부 해안 저지대에 실제로 어떤 영향을 미치는지다.<br/>셋째, 횡단 뒤 적색 경보가 엘루루와 알루리 시타라마 라주 같은 내륙으로 옮겨가면서 내리는 비다.<br/>상륙 자체보다 내륙으로 들어간 뒤의 강우 분포가 피해 규모를 가를 가능성이 크다.<br/>아르나브의 사례가 보여주듯, 상륙 당일의 조용함이 피해가 없다는 뜻은 아니다.<br/>집계는 하루 늦게 따라왔고, 그 사이에 비는 계속 내렸다.<br/>무라수에 대해서도, 인도 기상청의 특보와 주 정부의 경보를 번갈아 확인하는 게 가장 안전한 대비법이다.</p>
+<p align="center">앞으로 며칠의 관전 포인트는 세 가지다.<br/>첫째, 무라수가 11월 2일 오전쯤 강한 사이클론 단계까지 올라가는지다.<br/>둘째, 11월 2일 밤 11시 30분부터 11월 3일 새벽 4시 사이 한밤중 횡단이 예보대로 이뤄지는지, 그리고 1에서 1.5m로 상향된 폭풍 해일이 남부 해안 저지대에 실제로 어떤 영향을 미치는지다.<br/>셋째, 횡단 뒤 적색 경보가 엘루루와 알루리 시타라마 라주 같은 내륙으로 옮겨가면서 내리는 비다.<br/>상륙 자체보다 내륙으로 들어간 뒤의 강우 분포가 피해 규모를 가를 가능성이 크다.<br/>아르나브의 사례가 보여주듯, 상륙 당일의 조용함이 피해가 없다는 뜻은 아니다.<br/>집계는 하루 늦게 따라왔고, 그 사이에 비는 계속 내렸다.<br/>무라수에 대해서도, 인도 기상청의 특보와 주 정부의 경보를 번갈아 확인하는 게 가장 안전한 대비법이다.</p>
 
-<p align="center">참고한 기사 — [비즈니스 스탠다드](https://www.business-standard.com/amp/india-news/after-arnab-cyclone-murasu-likely-to-hit-andhra-pradesh-coast-imd-126103101215_1.html) · [NDTV 프로핏](https://www.ndtvprofit.com/india/after-cyclone-arnab-another-storm-threatens-andhra-pradesh-murasu-may-hit-on-nov-3-12264872/amp/1) · [DT 넥스트](https://www.dtnext.in/news/chennai/bay-of-bengal-depression-likely-to-intensify-into-cyclone-murasu-chennai-to-receive-rain-from-sunday) · [아르구스 잉글리시](https://argusenglish.in/odisha/cyclone-murasu-threat-heavy-to-very-heavy-rain-forecast-in-flood-hit-south-odisha) · [더 힌두 비즈니스라인](https://www.thehindubusinessline.com/economy/agri-business/imd-update-andhra-pradesh-coast-now-faces-a-second-severe-cyclone/article71652107.ece) · [뉴 인디안 익스프레스](https://www.newindianexpress.com/states/odisha/2026/Nov/01/new-cyclonic-storm-to-make-landfall-in-andhra-pradesh-on-november-2) · [뉴 인디안 익스프레스](https://www.newindianexpress.com/states/andhra-pradesh/2026/Nov/01/cyclone-murasu-intensifies-over-bay-of-bengal-likely-to-cross-andhra-coast-on-november-3) · [뉴스미터](https://newsmeter.in/regional/andhra-pradesh/cyclone-murasu-is-here-andhra-coast-braces-for-landfall-on-nov-3-778490) · [ETV 바라트](https://www.etvbharat.com/en/bharat/deep-depression-intensifies-into-severe-cyclone-murasu-imd-issues-yellow-alert-for-coastal-andhra-enn26110102434) · [타임스 오브 인디아](https://timesofindia.indiatimes.com/city/visakhapatnam/cyclone-murasu-to-hit-andhra-pradesh-coast-on-november-3-red-alert-in-5-districts-winds-up-to-120kmph-likely/articleshow/135421466.cms) · [더 위크](https://www.theweek.in/news/india/2026/11/01/cyclone-murasu-red-alert-in-andhra-coastal-districts-as-storm-intensifies-where-it-could-rain.amp.html) · [트랜스클루](https://transclew.com/news/cyclone-murasu-andhra-live-updates/)</p>
+<p align="center">참고한 기사 — [비즈니스 스탠다드](https://www.business-standard.com/amp/india-news/after-arnab-cyclone-murasu-likely-to-hit-andhra-pradesh-coast-imd-126103101215_1.html) · [NDTV 프로핏](https://www.ndtvprofit.com/india/after-cyclone-arnab-another-storm-threatens-andhra-pradesh-murasu-may-hit-on-nov-3-12264872/amp/1) · [DT 넥스트](https://www.dtnext.in/news/chennai/bay-of-bengal-depression-likely-to-intensify-into-cyclone-murasu-chennai-to-receive-rain-from-sunday) · [아르구스 잉글리시](https://argusenglish.in/odisha/cyclone-murasu-threat-heavy-to-very-heavy-rain-forecast-in-flood-hit-south-odisha) · [더 힌두 비즈니스라인](https://www.thehindubusinessline.com/economy/agri-business/imd-update-andhra-pradesh-coast-now-faces-a-second-severe-cyclone/article71652107.ece) · [뉴 인디안 익스프레스](https://www.newindianexpress.com/states/odisha/2026/Nov/01/new-cyclonic-storm-to-make-landfall-in-andhra-pradesh-on-november-2) · [뉴 인디안 익스프레스](https://www.newindianexpress.com/states/andhra-pradesh/2026/Nov/01/cyclone-murasu-intensifies-over-bay-of-bengal-likely-to-cross-andhra-coast-on-november-3) · [뉴스미터](https://newsmeter.in/regional/andhra-pradesh/cyclone-murasu-is-here-andhra-coast-braces-for-landfall-on-nov-3-778490) · [ETV 바라트](https://www.etvbharat.com/en/bharat/deep-depression-intensifies-into-severe-cyclone-murasu-imd-issues-yellow-alert-for-coastal-andhra-enn26110102434) · [타임스 오브 인디아](https://timesofindia.indiatimes.com/city/visakhapatnam/cyclone-murasu-to-hit-andhra-pradesh-coast-on-november-3-red-alert-in-5-districts-winds-up-to-120kmph-likely/articleshow/135421466.cms) · [더 위크](https://www.theweek.in/news/india/2026/11/01/cyclone-murasu-red-alert-in-andhra-coastal-districts-as-storm-intensifies-where-it-could-rain.amp.html) · [트랜스클루](https://transclew.com/news/cyclone-murasu-andhra-live-updates/) · [WION](https://www.wionews.com/india-news/after-arnab-andhra-pradesh-braces-for-another-cyclone-as-murasu-intensifies-over-bay-of-bengal-when-will-it-make-landfall-1793536677267/amp)</p>
