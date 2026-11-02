@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" font-family="sans-serif">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <text x="450" y="42" text-anchor="middle" font-size="24" font-weight="bold" fill="#20231f">10월 수출, 반도체 하나가 전체의 절반 가까이</text>
+  <text x="450" y="72" text-anchor="middle" font-size="14" fill="#62655d">2026년 10월 품목별 수출액 · 산업통상부 10월 수출입동향 기준</text>
+  <text x="120" y="130" font-size="17" fill="#20231f">반도체: 564억4,000만 달러 (+259.4%, 전체의 48.9%)</text>
+  <rect x="120" y="145" width="600" height="42" fill="#e5e0d5"/>
+  <rect x="120" y="145" width="600" height="42" fill="#e0795b"/>
+  <text x="120" y="235" font-size="17" fill="#20231f">자동차: 65억5,000만 달러 (+18.1%)</text>
+  <rect x="120" y="250" width="600" height="42" fill="#e5e0d5"/>
+  <rect x="120" y="250" width="70" height="42" fill="#16756a"/>
+  <text x="120" y="340" font-size="17" fill="#20231f">컴퓨터: 58억5,000만 달러 (+496.6%)</text>
+  <rect x="120" y="355" width="600" height="42" fill="#e5e0d5"/>
+  <rect x="120" y="355" width="62" height="42" fill="#16756a"/>
+  <text x="120" y="445" font-size="17" fill="#20231f">전기기기: 19억9,000만 달러 (+74.0%)</text>
+  <rect x="120" y="460" width="600" height="42" fill="#e5e0d5"/>
+  <rect x="120" y="460" width="21" height="42" fill="#16756a"/>
+</svg>
