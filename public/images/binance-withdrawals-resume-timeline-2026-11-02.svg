@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="400" viewBox="0 0 900 400" font-family="sans-serif">
+  <rect width="900" height="400" fill="#f4f1ea"/>
+  <text x="450" y="42" text-anchor="middle" font-size="24" font-weight="bold" fill="#20231f">바이낸스 해킹부터 출금 재개까지</text>
+  <text x="450" y="72" text-anchor="middle" font-size="14" fill="#62655d">2026년 10월 29일부터 11월 3일까지</text>
+  <line x1="80" y1="200" x2="820" y2="200" stroke="#20231f" stroke-width="3"/>
+  <circle cx="120" cy="200" r="12" fill="#e0795b"/>
+  <circle cx="300" cy="200" r="12" fill="#e0795b"/>
+  <circle cx="480" cy="200" r="12" fill="#16756a"/>
+  <circle cx="660" cy="200" r="12" fill="#16756a"/>
+  <circle cx="800" cy="200" r="12" fill="#62655d"/>
+  <text x="120" y="150" text-anchor="middle" font-size="15" font-weight="bold" fill="#20231f">10월 29일</text>
+  <text x="120" y="245" text-anchor="middle" font-size="14" fill="#20231f">63억 달러 절도,</text>
+  <text x="120" y="268" text-anchor="middle" font-size="14" fill="#20231f">출금 중단</text>
+  <text x="300" y="150" text-anchor="middle" font-size="15" font-weight="bold" fill="#20231f">10월 30일</text>
+  <text x="300" y="245" text-anchor="middle" font-size="14" fill="#20231f">금요일 가격 급락,</text>
+  <text x="300" y="268" text-anchor="middle" font-size="14" fill="#20231f">63억4,000만 달러 배정</text>
+  <text x="480" y="150" text-anchor="middle" font-size="15" font-weight="bold" fill="#20231f">10월 31일</text>
+  <text x="480" y="245" text-anchor="middle" font-size="14" fill="#20231f">FBI, 북한 조직 지목,</text>
+  <text x="480" y="268" text-anchor="middle" font-size="14" fill="#20231f">도난 자산 90% 대체</text>
+  <text x="660" y="150" text-anchor="middle" font-size="15" font-weight="bold" fill="#20231f">11월 1일</text>
+  <text x="660" y="245" text-anchor="middle" font-size="14" fill="#20231f">15개 토큰부터 단계적</text>
+  <text x="660" y="268" text-anchor="middle" font-size="14" fill="#20231f">출금 재개, 순유출 2.1%</text>
+  <text x="800" y="150" text-anchor="middle" font-size="15" font-weight="bold" fill="#20231f">11월 3일</text>
+  <text x="800" y="245" text-anchor="middle" font-size="14" fill="#20231f">영지식 준비금</text>
+  <text x="800" y="268" text-anchor="middle" font-size="14" fill="#20231f">증명 예정</text>
+  <text x="450" y="340" text-anchor="middle" font-size="13" fill="#62655d">출처: 로이터·AFP 보도와 바이낸스 발표 (2026.10.29~11.02)</text>
+</svg>
