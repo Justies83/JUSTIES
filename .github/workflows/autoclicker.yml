@@ -1,0 +1,40 @@
+name: autoclicker-apk
+
+on:
+  push:
+    paths:
+      - 'apps/autoclicker/**'
+      - '.github/workflows/autoclicker.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  apk:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: apps/autoclicker
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.9'
+      - run: gradle assembleDebug --no-daemon
+      - run: cp app/build/outputs/apk/debug/app-debug.apk autoclicker.apk
+      - uses: actions/upload-artifact@v4
+        with:
+          name: autoclicker-apk
+          path: apps/autoclicker/autoclicker.apk
+      # 휴대폰에서 바로 받을 수 있도록 고정 릴리스에 APK를 덮어쓴다.
+      - uses: softprops/action-gh-release@v2
+        with:
+          tag_name: autoclicker-latest
+          name: 자동클릭 (최신 빌드)
+          prerelease: true
+          files: apps/autoclicker/autoclicker.apk
