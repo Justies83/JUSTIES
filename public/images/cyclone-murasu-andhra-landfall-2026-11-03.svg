@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" font-family="sans-serif">
+  <rect width="900" height="420" fill="#f4f1ea"/>
+  <text x="450" y="42" text-anchor="middle" font-size="24" font-weight="bold" fill="#20231f">무라수 상륙의 밤 — 접근에서 상륙 과정 시작까지</text>
+  <text x="450" y="72" text-anchor="middle" font-size="14" fill="#62655d">인도 기상청 11월 2일 저녁부터 11월 3일 새벽 특보 기준 · 시각은 인도 표준시</text>
+  <text x="120" y="125" font-size="17" fill="#20231f">11월 2일 오후 8시 30분: 옹골 남동쪽 약 90km, 시속 약 12km</text>
+  <rect x="120" y="138" width="600" height="34" fill="#e5e0d5"/>
+  <rect x="120" y="138" width="540" height="34" fill="#20231f"/>
+  <text x="120" y="215" font-size="17" fill="#20231f">11월 2일 오후 11시 30분: 옹골 남동쪽 약 50km, 시속 약 8km로 느려짐</text>
+  <rect x="120" y="228" width="600" height="34" fill="#e5e0d5"/>
+  <rect x="120" y="228" width="300" height="34" fill="#e0795b"/>
+  <text x="120" y="305" font-size="17" fill="#20231f">11월 3일 오전 1시: 상륙 과정 시작 — 외곽 비구름대 해안 진입, 벽운 접근 중</text>
+  <rect x="120" y="318" width="600" height="34" fill="#e5e0d5"/>
+  <rect x="120" y="318" width="120" height="34" fill="#16756a"/>
+  <text x="450" y="395" text-anchor="middle" font-size="14" fill="#62655d">상륙 완료는 중심이 해안을 통과할 때 — 다음 특보는 오전 4시 30분 예정</text>
+</svg>
