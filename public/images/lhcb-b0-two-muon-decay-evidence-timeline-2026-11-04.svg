@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="460" viewBox="0 0 900 460" font-family="sans-serif">
+  <rect width="900" height="460" fill="#f4f1ea"/>
+  <text x="450" y="42" text-anchor="middle" font-size="24" font-weight="bold" fill="#20231f">B0 두 뮤온 붕괴 탐색 시간표 — 42년의 추적</text>
+  <text x="450" y="72" text-anchor="middle" font-size="14" fill="#62655d">INFN · 버밍엄대 · 리버풀대 2026년 11월 3일 발표 기준</text>
+  <text x="120" y="125" font-size="17" fill="#20231f">1980년대 초: 미국 코넬대 CLEO 실험에서 탐색 시작</text>
+  <rect x="120" y="138" width="600" height="30" fill="#e5e0d5"/>
+  <rect x="120" y="138" width="150" height="30" fill="#20231f"/>
+  <text x="120" y="215" font-size="17" fill="#20231f">2015년: 형제 붕괴 Bs 투 뮤 뮤, LHCb가 최초 관측</text>
+  <rect x="120" y="228" width="600" height="30" fill="#e5e0d5"/>
+  <rect x="120" y="228" width="300" height="30" fill="#e0795b"/>
+  <text x="120" y="305" font-size="17" fill="#20231f">2024년: 업그레이드된 LHCb, 이전보다 5배 속도로 데이터 수집</text>
+  <rect x="120" y="318" width="600" height="30" fill="#e5e0d5"/>
+  <rect x="120" y="318" width="450" height="30" fill="#16756a"/>
+  <text x="120" y="395" font-size="17" fill="#20231f">2026년 11월 3일: CERN 세미나, B0 두 뮤온 붕괴 첫 단일 실험 증거</text>
+  <text x="450" y="440" text-anchor="middle" font-size="14" fill="#62655d">유의성 3.2시그마 — 증거 기준 3시그마 통과, 발견 기준 5시그마 미달</text>
+</svg>
