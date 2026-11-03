@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="440" viewBox="0 0 900 440" font-family="sans-serif">
+  <rect width="900" height="440" fill="#f4f1ea"/>
+  <text x="450" y="42" text-anchor="middle" font-size="24" font-weight="bold" fill="#20231f">바이낸스 복구, 숫자로 정리하면</text>
+  <text x="450" y="72" text-anchor="middle" font-size="14" fill="#62655d">바이낸스 발표와 보도 수치 기준 (2026년 11월 3일 현재)</text>
+  <text x="120" y="130" font-size="17" fill="#20231f">해킹 피해: 63억 달러</text>
+  <rect x="120" y="145" width="600" height="36" fill="#e5e0d5"/>
+  <rect x="120" y="145" width="600" height="36" fill="#e0795b"/>
+  <text x="120" y="215" font-size="17" fill="#20231f">보전 배정: 63억4,000만 달러 이상</text>
+  <rect x="120" y="230" width="600" height="36" fill="#e5e0d5"/>
+  <rect x="120" y="230" width="600" height="36" fill="#16756a"/>
+  <text x="120" y="300" font-size="17" fill="#20231f">동결·추적: 약 30억 달러</text>
+  <rect x="120" y="315" width="600" height="36" fill="#e5e0d5"/>
+  <rect x="120" y="315" width="286" height="36" fill="#62655d"/>
+  <text x="450" y="395" text-anchor="middle" font-size="20" font-weight="bold" fill="#20231f">대체율 95% · 증명 대상 10개 코인 1대1</text>
+</svg>
