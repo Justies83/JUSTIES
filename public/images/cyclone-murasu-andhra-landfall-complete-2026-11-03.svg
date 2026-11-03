@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" font-family="sans-serif">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <text x="450" y="42" text-anchor="middle" font-size="24" font-weight="bold" fill="#20231f">무라수 상륙 완료 — 새벽의 횡단, 낮의 약화 일정</text>
+  <text x="450" y="72" text-anchor="middle" font-size="14" fill="#62655d">인도 기상청 11월 3일 오전 5시 30분 특보 기준 · 시각은 인도 표준시</text>
+  <text x="120" y="125" font-size="17" fill="#20231f">오전 1시: 상륙 과정 시작, 옹골 인근 코타파트남 해안</text>
+  <rect x="120" y="138" width="600" height="34" fill="#e5e0d5"/>
+  <rect x="120" y="138" width="180" height="34" fill="#20231f"/>
+  <text x="120" y="215" font-size="17" fill="#20231f">오전 3시 30분-5시 30분: 횡단 완료, 풍속 100-110km 돌풍 120km</text>
+  <rect x="120" y="228" width="600" height="34" fill="#e5e0d5"/>
+  <rect x="120" y="228" width="360" height="34" fill="#e0795b"/>
+  <text x="120" y="305" font-size="17" fill="#20231f">오전 5시 30분: 중심 북위 15.6도 동경 80.2도, 옹골 인근</text>
+  <rect x="120" y="318" width="600" height="34" fill="#e5e0d5"/>
+  <rect x="120" y="318" width="480" height="34" fill="#16756a"/>
+  <text x="120" y="395" font-size="17" fill="#20231f">정오: 사이클론 단계(80-90km) · 자정: 깊은 저기압(55-65km)</text>
+  <text x="450" y="455" text-anchor="middle" font-size="14" fill="#62655d">사망 보고 없음 · 초가집 붕괴와 비자야와다 도로 침수, 항공 19편 취소</text>
+  <text x="450" y="482" text-anchor="middle" font-size="14" fill="#62655d">다음 관전 포인트는 내륙의 비와 침수 집계</text>
+</svg>
