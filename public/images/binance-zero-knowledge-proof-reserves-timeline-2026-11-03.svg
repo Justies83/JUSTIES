@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="400" viewBox="0 0 900 400" font-family="sans-serif">
+  <rect width="900" height="400" fill="#f4f1ea"/>
+  <text x="450" y="42" text-anchor="middle" font-size="24" font-weight="bold" fill="#20231f">바이낸스 해킹부터 영지식 증명까지</text>
+  <text x="450" y="72" text-anchor="middle" font-size="14" fill="#62655d">2026년 10월 29일부터 11월 4일까지</text>
+  <line x1="80" y1="200" x2="820" y2="200" stroke="#20231f" stroke-width="3"/>
+  <circle cx="110" cy="200" r="12" fill="#e0795b"/>
+  <circle cx="250" cy="200" r="12" fill="#e0795b"/>
+  <circle cx="390" cy="200" r="12" fill="#16756a"/>
+  <circle cx="530" cy="200" r="12" fill="#16756a"/>
+  <circle cx="670" cy="200" r="12" fill="#16756a"/>
+  <circle cx="800" cy="200" r="12" fill="#62655d"/>
+  <text x="110" y="150" text-anchor="middle" font-size="15" font-weight="bold" fill="#20231f">10월 29일</text>
+  <text x="110" y="245" text-anchor="middle" font-size="14" fill="#20231f">63억 달러 절도,</text>
+  <text x="110" y="268" text-anchor="middle" font-size="14" fill="#20231f">출금 중단</text>
+  <text x="250" y="150" text-anchor="middle" font-size="15" font-weight="bold" fill="#20231f">10월 31일</text>
+  <text x="250" y="245" text-anchor="middle" font-size="14" fill="#20231f">스냅샷 촬영,</text>
+  <text x="250" y="268" text-anchor="middle" font-size="14" fill="#20231f">대체율 90%</text>
+  <text x="390" y="150" text-anchor="middle" font-size="15" font-weight="bold" fill="#20231f">11월 1일</text>
+  <text x="390" y="245" text-anchor="middle" font-size="14" fill="#20231f">1단계 출금 재개,</text>
+  <text x="390" y="268" text-anchor="middle" font-size="14" fill="#20231f">대체율 95%</text>
+  <text x="530" y="150" text-anchor="middle" font-size="15" font-weight="bold" fill="#20231f">11월 2일</text>
+  <text x="530" y="245" text-anchor="middle" font-size="14" fill="#20231f">영지식 준비금</text>
+  <text x="530" y="268" text-anchor="middle" font-size="14" fill="#20231f">증명 완성 발표</text>
+  <text x="670" y="150" text-anchor="middle" font-size="15" font-weight="bold" fill="#20231f">11월 3일</text>
+  <text x="670" y="245" text-anchor="middle" font-size="14" fill="#20231f">9개 네트워크</text>
+  <text x="670" y="268" text-anchor="middle" font-size="14" fill="#20231f">2단계 출금 재개</text>
+  <text x="800" y="150" text-anchor="middle" font-size="15" font-weight="bold" fill="#20231f">11월 4일</text>
+  <text x="800" y="245" text-anchor="middle" font-size="14" fill="#20231f">더 많은 코인</text>
+  <text x="800" y="268" text-anchor="middle" font-size="14" fill="#20231f">새 스냅샷 예정</text>
+  <text x="450" y="340" text-anchor="middle" font-size="13" fill="#62655d">출처: 언체인드·카테나 보도와 바이낸스 발표 (2026.10.29~11.03)</text>
+</svg>
