@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="460" viewBox="0 0 900 460" font-family="sans-serif">
+  <rect width="900" height="460" fill="#f4f1ea"/>
+  <text x="450" y="42" text-anchor="middle" font-size="24" font-weight="bold" fill="#20231f">B0 두 뮤온 붕괴 숫자 정리</text>
+  <text x="450" y="72" text-anchor="middle" font-size="14" fill="#62655d">INFN · 버밍엄대 · 리버풀대 2026년 11월 3일 발표 기준</text>
+  <text x="120" y="125" font-size="17" fill="#20231f">발생 확률: B0 입자 100억 개 중 한 번</text>
+  <rect x="120" y="138" width="600" height="30" fill="#e5e0d5"/>
+  <rect x="120" y="138" width="120" height="30" fill="#20231f"/>
+  <text x="120" y="215" font-size="17" fill="#20231f">통계 유의성: 3.2시그마 — 배경 요동 확률 1500분의 1</text>
+  <rect x="120" y="228" width="600" height="30" fill="#e5e0d5"/>
+  <rect x="120" y="228" width="384" height="30" fill="#e0795b"/>
+  <text x="120" y="305" font-size="17" fill="#20231f">B0 수명: 1조 분의 1.5초 · 데이터 흐름: 초당 4테라바이트</text>
+  <rect x="120" y="318" width="600" height="30" fill="#e5e0d5"/>
+  <rect x="120" y="318" width="480" height="30" fill="#16756a"/>
+  <text x="120" y="395" font-size="17" fill="#20231f">VELO 검출기, LHC 빔에서 5mm 거리 · 향후 업그레이드 10배 목표</text>
+  <text x="450" y="440" text-anchor="middle" font-size="14" fill="#62655d">결과는 표준모형 예측과 일치 — 새 물리학의 증거는 아직 아니다</text>
+</svg>
