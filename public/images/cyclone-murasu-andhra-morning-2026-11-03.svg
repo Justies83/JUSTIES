@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480" font-family="sans-serif">
+  <rect width="900" height="480" fill="#f4f1ea"/>
+  <text x="450" y="42" text-anchor="middle" font-size="24" font-weight="bold" fill="#20231f">무라수 상륙의 아침 — 눈이 해안에 닿기까지</text>
+  <text x="450" y="72" text-anchor="middle" font-size="14" fill="#62655d">인도 기상청 11월 3일 새벽 X 게시·오전 3시 특보 기준 · 시각은 인도 표준시</text>
+  <text x="120" y="125" font-size="17" fill="#20231f">11월 3일 오전 2시 30분: 옹골 남동쪽 약 30km, 북위 15.3도 동경 80.3도, 시속 약 9km</text>
+  <rect x="120" y="138" width="600" height="34" fill="#e5e0d5"/>
+  <rect x="120" y="138" width="180" height="34" fill="#20231f"/>
+  <text x="120" y="215" font-size="17" fill="#20231f">오전 4시 16분: 눈이 해안에 닿음 — 벽운 일부 이미 육지</text>
+  <rect x="120" y="228" width="600" height="34" fill="#e5e0d5"/>
+  <rect x="120" y="228" width="360" height="34" fill="#e0795b"/>
+  <text x="120" y="305" font-size="17" fill="#20231f">오전 5시 8분: 벽운 대부분 육지, 눈 해안 진입 중</text>
+  <rect x="120" y="318" width="600" height="34" fill="#e5e0d5"/>
+  <rect x="120" y="318" width="480" height="34" fill="#16756a"/>
+  <text x="120" y="395" font-size="17" fill="#20231f">오전 6시쯤 예상: 중심 횡단 완료, 옹골 인근, 풍속 100-110km 돌풍 120km 유지</text>
+  <text x="450" y="455" text-anchor="middle" font-size="14" fill="#62655d">상륙 완료 확인은 다음 특보(오전 8시 30분)에서 — 피해 집계는 아직 나오지 않았다</text>
+</svg>
