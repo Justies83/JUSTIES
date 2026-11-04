@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="340" viewBox="0 0 800 340" font-family="sans-serif">
+  <rect width="800" height="340" fill="#ffffff"/>
+  <text x="400" y="36" text-anchor="middle" font-size="21" font-weight="bold" fill="#1a1a1a">어떻게 여기까지 왔고, 다음은 무엇인가</text>
+  <g font-size="15" fill="#1a1a1a">
+    <text x="40" y="90" font-weight="bold">2026년 7월</text>
+    <text x="40" y="116">과기정통부-AMD 전략적 파트너십</text>
+    <text x="40" y="150" font-weight="bold">2026년 11월 4일</text>
+    <text x="40" y="176">AMD·퓨리오사AI·망고부스트 3자 MOU</text>
+    <text x="40" y="210" font-weight="bold">2027년 봄</text>
+    <text x="40" y="236">서울에 첫 참조 클러스터 구축</text>
+    <text x="40" y="270" font-weight="bold">2027년 안</text>
+    <text x="40" y="296">하이브리드 참조 인프라 가동 목표</text>
+  </g>
+</svg>
