@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="380" viewBox="0 0 800 380" font-family="sans-serif">
+  <rect width="800" height="380" fill="#ffffff"/>
+  <text x="400" y="36" text-anchor="middle" font-size="21" font-weight="bold" fill="#1a1a1a">선거 전후 권력 지형 — 트라이펙타에서 분점 정부로</text>
+  <g font-size="16" fill="#1a1a1a">
+    <text x="40" y="90" font-weight="bold">선거 전 — 119대 의회</text>
+    <text x="40" y="120" fill="#555555">대통령 공화당 · 하원 공화당 218석 · 민주당 214석</text>
+    <text x="40" y="180" font-weight="bold">선거 후 — 120대 의회</text>
+    <text x="40" y="210" fill="#555555">대통령 공화당 · 상원 민주당 과반 · 하원 민주당 과반</text>
+    <text x="40" y="250" fill="#555555">하원 과반 문턱 218석 · 상원 과반 문턱 51석</text>
+    <text x="40" y="290" fill="#555555">차기 하원의장 유력 후보 하킴 제프리스 · 개원 2027년 1월 3일</text>
+  </g>
+  <g font-size="14" fill="#555555">
+    <text x="400" y="350" text-anchor="middle">최종 하원 의석 차는 개표가 끝나야 확정된다</text>
+  </g>
+</svg>
