@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="380" viewBox="0 0 800 380" font-family="sans-serif">
+  <rect width="800" height="380" fill="#ffffff"/>
+  <text x="400" y="36" text-anchor="middle" font-size="21" font-weight="bold" fill="#1a1a1a">11월 4일 코스피 투자주체별 순매매 (억원)</text>
+  <g font-size="16" fill="#1a1a1a">
+    <text x="120" y="110" text-anchor="end" font-weight="bold">외국인</text>
+    <rect x="140" y="88" width="400" height="34" fill="#e0795b"/>
+    <text x="555" y="111">-25,020</text>
+    <text x="120" y="190" text-anchor="end" font-weight="bold">개인</text>
+    <rect x="140" y="168" width="183" height="34" fill="#16756a"/>
+    <text x="338" y="191">+11,442</text>
+    <text x="120" y="270" text-anchor="end" font-weight="bold">기관</text>
+    <rect x="140" y="248" width="162" height="34" fill="#5a7d7a"/>
+    <text x="317" y="271">+10,136</text>
+  </g>
+  <g font-size="14" fill="#555555">
+    <text x="400" y="340" text-anchor="middle">외국인 매도 규모가 개인과 기관 매수 합계보다 컸다 — 보도 수치 기준</text>
+  </g>
+</svg>
