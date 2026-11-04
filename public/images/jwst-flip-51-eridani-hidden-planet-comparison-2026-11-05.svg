@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480" font-family="sans-serif">
+  <rect width="900" height="480" fill="#ffffff"/>
+  <text x="450" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#1a1a1a">같은 자료, 다른 결과 — KLIP과 FLIP</text>
+  <g font-size="16" fill="#1a1a1a">
+    <rect x="60" y="80" width="360" height="170" rx="10" fill="#f4f1ea"/>
+    <text x="240" y="115" text-anchor="middle" font-weight="bold">기존 방식 KLIP</text>
+    <text x="240" y="150" text-anchor="middle" font-size="15">참조별 사진으로 번짐을 뺀다</text>
+    <text x="240" y="180" text-anchor="middle" font-size="15">51 Eridani b: 기존 분석에서 검출 실패</text>
+    <text x="240" y="210" text-anchor="middle" font-size="15">4.3마이크로미터에서 번짐과 구분 불가</text>
+    <rect x="480" y="80" width="360" height="170" rx="10" fill="#eef2f7"/>
+    <text x="660" y="115" text-anchor="middle" font-weight="bold">새 방식 FLIP</text>
+    <text x="660" y="150" text-anchor="middle" font-size="15">디지털 트윈으로 별빛을 시뮬레이션</text>
+    <text x="660" y="180" text-anchor="middle" font-size="15">51 Eridani b: 5시그마를 넘는 검출</text>
+    <text x="660" y="210" text-anchor="middle" font-size="15">예상 위치와 예상 신호 모양과 일치</text>
+  </g>
+  <g font-size="16" fill="#1a1a1a">
+    <text x="450" y="300" text-anchor="middle">세 항성계 검증에서 감도는 기존 방식보다 <tspan font-weight="bold">2배에서 15배</tspan> 높아졌다.</text>
+    <text x="450" y="330" text-anchor="middle">이득은 항성에 가까울수록 컸다. 지구 같은 행성이 도는 자리가 바로 그곳이다.</text>
+    <text x="450" y="360" text-anchor="middle">다만 이 수치는 세 관측에서 잰 결과라, 모든 관측에 똑같이 적용되지는 않는다.</text>
+  </g>
+  <text x="450" y="430" text-anchor="middle" font-size="13" fill="#62655d">도표는 네이처 2026년 11월 4일 논문과 노스웨스턴대 발표를 바탕으로 직접 만들었다.</text>
+</svg>
