@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="sans-serif">
+<rect width="900" height="520" fill="#f4f1ea"/>
+<text x="450" y="52" text-anchor="middle" font-size="30" font-weight="700" fill="#20231f">무라수, 11월 4일 오후 마지막 특보로 추적 종료</text>
+<line x1="70" y1="100" x2="830" y2="100" stroke="#16756a" stroke-width="3"/>
+<circle cx="110" cy="180" r="12" fill="#16756a"/>
+<text x="110" y="215" text-anchor="middle" font-size="19" font-weight="700" fill="#20231f">11월 3일 밤 8시 30분</text>
+<text x="110" y="245" text-anchor="middle" font-size="18" fill="#62655d">깊은 저기압으로 약화</text>
+<text x="110" y="272" text-anchor="middle" font-size="18" fill="#62655d">적색 사이클론 경보 해제</text>
+<circle cx="330" cy="180" r="12" fill="#16756a"/>
+<text x="330" y="215" text-anchor="middle" font-size="19" font-weight="700" fill="#20231f">11월 4일 오전 5시 30분</text>
+<text x="330" y="245" text-anchor="middle" font-size="18" fill="#62655d">저기압, 캄맘 남쪽 약 30km</text>
+<text x="330" y="272" text-anchor="middle" font-size="18" fill="#62655d">북쪽으로 시속 약 10km 이동</text>
+<circle cx="550" cy="180" r="12" fill="#e0795b"/>
+<text x="550" y="215" text-anchor="middle" font-size="19" font-weight="700" fill="#20231f">11월 4일 오전 11시 30분</text>
+<text x="550" y="245" text-anchor="middle" font-size="18" fill="#62655d">뚜렷한 저기압으로 약화</text>
+<text x="550" y="272" text-anchor="middle" font-size="18" fill="#62655d">동부 텔랑가나 상공</text>
+<circle cx="770" cy="180" r="12" fill="#e0795b"/>
+<text x="770" y="215" text-anchor="middle" font-size="19" font-weight="700" fill="#20231f">11월 4일 오후 2시 30분</text>
+<text x="770" y="245" text-anchor="middle" font-size="18" fill="#62655d">인도 기상청 마지막 특보</text>
+<text x="770" y="272" text-anchor="middle" font-size="18" fill="#62655d">12시간 내 저기압으로 더 약화 전망</text>
+<line x1="70" y1="320" x2="830" y2="320" stroke="#62655d" stroke-width="1"/>
+<text x="450" y="360" text-anchor="middle" font-size="21" font-weight="700" fill="#20231f">11월 4일 오전 8시 30분까지 24시간 강수량: 텔랑가나 물라칼라팔레 238.2mm, 서고다바리 210.4mm</text>
+<text x="450" y="400" text-anchor="middle" font-size="21" font-weight="700" fill="#20231f">첫 피해 추산 343.95크로르 루피, 그중 농업 324.22크로르 루피(94%)</text>
+<text x="450" y="440" text-anchor="middle" font-size="21" fill="#20231f">농작물 피해 50,473헥타르, 465개 마을, 69,828명 농민 영향 — 주총리, 내무장관에 중앙 지원 요청</text>
+<text x="450" y="490" font-family="monospace" font-size="15" fill="#62655d">기준: 인도 기상청 11월 4일 특보, 안드라프라데시 주총리실 11월 3일 밤 게시 — 트랜스클루 정리</text>
+</svg>
