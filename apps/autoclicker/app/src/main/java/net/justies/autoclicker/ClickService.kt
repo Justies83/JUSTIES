@@ -19,21 +19,26 @@ import android.view.View
 import android.view.WindowManager
 import android.view.accessibility.AccessibilityEvent
 import android.widget.LinearLayout
+import android.widget.ScrollView
 import android.widget.TextView
-import android.widget.Toast
+import java.text.SimpleDateFormat
+import java.util.Date
+import java.util.Locale
+import java.util.Random
 
 /**
  * 오버레이 패널 + 녹화 + 재생.
  *
  * 녹화: 화면 전체를 덮는 투명 창이 손가락 움직임을 받아 기록한다. 기록만 하면 아래 앱이
  * 터치를 못 받으므로, 손을 뗄 때마다 그 창을 잠깐 터치 불가로 바꾸고 같은 동작을
- * dispatchGesture() 로 아래 앱에 흘려보낸 뒤 다시 터치를 받는다.
- * 재생: 저장된 동작을 녹화 당시의 시작 시각에 맞춰 순서대로 dispatchGesture() 한다.
+ * dispatchGesture() 로 아래 앱에 흘려보낸 뒤 다시 터치를 받는다. 정지하면 새 모듈로 저장한다.
+ *
+ * 재생: 패널에서 고른 모듈 또는 조합을 Plan 으로 펼쳐, 모듈을 하나씩 꺼내 재생한다.
+ * 모듈 안의 클릭은 (시작 시각 / 속도 배율 ± 흔들림) 에 맞춰 순서대로 dispatchGesture() 한다.
  */
 class ClickService : AccessibilityService() {
 
     companion object {
-        /** MainActivity 가 서비스 상태를 확인하고 패널을 다시 여는 데 쓴다. */
         var instance: ClickService? = null
             private set
     }
@@ -43,14 +48,19 @@ class ClickService : AccessibilityService() {
     private lateinit var wm: WindowManager
     private val handler = Handler(Looper.getMainLooper())
     private val playToken = Any()
+    private val rnd = Random()
 
     private var mode = Mode.IDLE
-    private var recording = Recording.EMPTY
+
+    /** 재생·녹화를 새로 시작하거나 멈출 때마다 올린다. 이전 회차의 늦은 콜백을 무시하기 위함. */
+    private var generation = 0
 
     // 패널
     private var panel: View? = null
     private var panelParams: WindowManager.LayoutParams? = null
     private var statusView: TextView? = null
+    private var pickerScroll: ScrollView? = null
+    private var pickerBox: LinearLayout? = null
 
     // 녹화
     private var capture: View? = null
@@ -61,14 +71,14 @@ class ClickService : AccessibilityService() {
     private val curPoints = ArrayList<Float>()
 
     // 재생
-    private var loopStart = 0L
-    private var loopsDone = 0
+    private var plan: Plan? = null
+    private var moduleBase = 0L
 
     override fun onServiceConnected() {
         super.onServiceConnected()
         instance = this
         wm = getSystemService(WINDOW_SERVICE) as WindowManager
-        recording = Store.load(this)
+        Store.modules(this) // 이전 버전 녹화 이전(migrate)
         showPanel()
     }
 
@@ -91,6 +101,12 @@ class ClickService : AccessibilityService() {
         return false
     }
 
+    /** 앱 화면에서 모듈·조합·선택을 바꾼 뒤 부른다. */
+    fun refresh() {
+        updateStatus()
+        if (pickerScroll?.visibility == View.VISIBLE) rebuildPicker()
+    }
+
     // ───────────────────────── 패널 ─────────────────────────
 
     private fun overlayParams(w: Int, h: Int, flags: Int) = WindowManager.LayoutParams(
@@ -100,14 +116,12 @@ class ClickService : AccessibilityService() {
         PixelFormat.TRANSLUCENT,
     )
 
-    private fun dp(v: Int) = (v * resources.displayMetrics.density).toInt()
-
     private fun pill(color: Int) = GradientDrawable().apply {
         cornerRadius = dp(10).toFloat()
         setColor(color)
     }
 
-    private fun button(label: String, color: Int, onClick: () -> Unit) = TextView(this).apply {
+    private fun panelButton(label: String, color: Int, onClick: () -> Unit) = TextView(this).apply {
         text = label
         textSize = 15f
         setTextColor(Color.WHITE)
@@ -134,16 +148,29 @@ class ClickService : AccessibilityService() {
             textSize = 12f
             setTextColor(Color.WHITE)
             setPadding(0, 0, 0, dp(6))
+            maxWidth = dp(260)
         }
         statusView = status
 
         val row = LinearLayout(this).apply {
             orientation = LinearLayout.HORIZONTAL
-            addView(button("● 녹화", Color.parseColor("#C0392B")) { startRecording() })
-            addView(button("▶ 재생", Color.parseColor("#27AE60")) { startPlayback() })
-            addView(button("■", Color.parseColor("#555555")) { stopAll() })
-            addView(button("✕", Color.parseColor("#333333")) { stopAll(); removePanel() })
+            addView(panelButton("●", Color.parseColor("#C0392B")) { startRecording() })
+            addView(panelButton("▶", Color.parseColor("#27AE60")) { startPlayback() })
+            addView(panelButton("■", Color.parseColor("#555555")) { stopAll() })
+            addView(panelButton("☰", Color.parseColor("#2C6FB7")) { togglePicker() })
+            addView(panelButton("✕", Color.parseColor("#333333")) { stopAll(); removePanel() })
         }
+
+        val box = LinearLayout(this).apply {
+            orientation = LinearLayout.VERTICAL
+            setPadding(0, dp(8), 0, 0)
+        }
+        pickerBox = box
+        val scroll = ScrollView(this).apply {
+            visibility = View.GONE
+            addView(box)
+        }
+        pickerScroll = scroll
 
         val root = LinearLayout(this).apply {
             orientation = LinearLayout.VERTICAL
@@ -152,6 +179,7 @@ class ClickService : AccessibilityService() {
             addView(handle)
             addView(status)
             addView(row)
+            addView(scroll)
         }
 
         val p = overlayParams(
@@ -191,6 +219,8 @@ class ClickService : AccessibilityService() {
         panel?.let { runCatching { wm.removeView(it) } }
         panel = null
         statusView = null
+        pickerScroll = null
+        pickerBox = null
     }
 
     /** 녹화 창 위로 패널을 다시 올린다 — 나중에 추가된 창이 위에 온다. */
@@ -201,18 +231,72 @@ class ClickService : AccessibilityService() {
         wm.addView(v, p)
     }
 
+    private fun togglePicker() {
+        val s = pickerScroll ?: return
+        if (s.visibility == View.VISIBLE) {
+            s.visibility = View.GONE
+        } else {
+            rebuildPicker()
+            s.visibility = View.VISIBLE
+        }
+    }
+
+    /** ☰ 를 누르면 펼쳐지는 모듈·조합 선택 목록. */
+    private fun rebuildPicker() {
+        val box = pickerBox ?: return
+        val scroll = pickerScroll ?: return
+        box.removeAllViews()
+        val sel = Store.selected(this)
+        var count = 0
+
+        fun header(t: String) = box.addView(TextView(this).apply {
+            text = t
+            textSize = 11f
+            setTextColor(Color.parseColor("#AAAAAA"))
+            setPadding(0, dp(6), 0, dp(2))
+        })
+
+        fun entry(key: String, label: String) {
+            count++
+            box.addView(TextView(this).apply {
+                text = (if (key == sel) "✓ " else "   ") + label
+                textSize = 14f
+                setTextColor(if (key == sel) Color.parseColor("#7CDB9A") else Color.WHITE)
+                setPadding(dp(4), dp(7), dp(4), dp(7))
+                setOnClickListener {
+                    if (mode != Mode.IDLE) stopAll()
+                    Store.select(this@ClickService, key)
+                    scroll.visibility = View.GONE
+                    updateStatus()
+                }
+            })
+        }
+
+        val modules = Store.modules(this)
+        val combos = Store.combos(this)
+        if (modules.isEmpty() && combos.isEmpty()) {
+            header("저장된 모듈이 없습니다. ● 로 녹화하세요.")
+        }
+        if (modules.isNotEmpty()) {
+            header("모듈")
+            modules.forEach { entry("m:${it.id}", "${it.name}  ·  ${secs(it.playMs())}초") }
+        }
+        if (combos.isNotEmpty()) {
+            header("조합")
+            combos.forEach { entry("c:${it.id}", it.name) }
+        }
+
+        scroll.layoutParams = LinearLayout.LayoutParams(
+            LinearLayout.LayoutParams.WRAP_CONTENT,
+            if (count > 6) dp(260) else LinearLayout.LayoutParams.WRAP_CONTENT,
+        )
+    }
+
     private fun updateStatus() {
-        val n = recording.strokes.size
-        val sec = "%.1f".format(recording.totalMs / 1000.0)
         statusView?.text = when (mode) {
-            Mode.IDLE ->
-                if (n == 0) "녹화된 동작 없음" else "동작 ${n}개 · ${sec}초"
+            Mode.IDLE -> Store.selectedName(this)?.let { "선택: $it" } ?: "☰ 에서 재생할 모듈을 고르세요"
             Mode.RECORDING -> "녹화 중 · ${recorded.size}개"
-            Mode.PLAYING -> {
-                val max = Store.repeat(this)
-                val total = if (max == 0) "∞" else max.toString()
-                "재생 중 ${loopsDone + 1}/$total · 볼륨↓ 정지"
-            }
+            Mode.PLAYING -> (plan?.status() ?: "재생 중") + "\n볼륨↓ 정지"
         }
     }
 
@@ -221,6 +305,7 @@ class ClickService : AccessibilityService() {
     @SuppressLint("ClickableViewAccessibility")
     private fun startRecording() {
         if (mode != Mode.IDLE) stopAll()
+        pickerScroll?.visibility = View.GONE
 
         recorded.clear()
         curPoints.clear()
@@ -248,6 +333,7 @@ class ClickService : AccessibilityService() {
         captureParams = p
         raisePanel()
 
+        generation++
         mode = Mode.RECORDING
         updateStatus()
     }
@@ -298,7 +384,6 @@ class ClickService : AccessibilityService() {
             }
             i += 2
         }
-        // 마지막 점이 첫 점과 거의 같으면 탭(또는 길게 누르기)
         if (out.size == 4) {
             val dx = out[2] - out[0]; val dy = out[3] - out[1]
             if (dx * dx + dy * dy < minStep * minStep) return floatArrayOf(out[0], out[1])
@@ -308,11 +393,12 @@ class ClickService : AccessibilityService() {
 
     /** 녹화 중 동작을 아래 앱에도 전달한다. */
     private fun passThrough(s: Stroke) {
+        val gen = generation
         setCaptureTouchable(false)
         // 창 플래그 변경이 입력 시스템에 반영될 시간을 조금 준다.
         handler.postDelayed({
-            if (mode != Mode.RECORDING) return@postDelayed
-            dispatch(s) { if (mode == Mode.RECORDING) setCaptureTouchable(true) }
+            if (gen != generation) return@postDelayed
+            dispatch(s.points, s.durationMs) { if (gen == generation) setCaptureTouchable(true) }
         }, 60)
     }
 
@@ -330,63 +416,123 @@ class ClickService : AccessibilityService() {
         capture = null
         captureParams = null
         if (recorded.isNotEmpty()) {
-            recording = Recording(ArrayList(recorded), total)
-            Store.save(this, recording)
+            val name = "녹화 " + SimpleDateFormat("MM-dd HH:mm", Locale.KOREA).format(Date())
+            val m = Module(Store.newId(), name, ArrayList(recorded), total)
+            Store.saveModule(this, m)
+            Store.select(this, "m:${m.id}")
+            toast("‘$name’ 저장 — 앱에서 이름·시간을 고칠 수 있습니다")
         } else {
-            toast("녹화된 동작이 없어 이전 녹화를 유지합니다")
+            toast("녹화된 동작이 없습니다")
         }
         recorded.clear()
     }
 
     // ───────────────────────── 재생 ─────────────────────────
 
+    /** 재생 순서. items 의 각 모듈을 정해진 횟수만큼, 전체를 loops 번(0 = 무한) 돈다. */
+    private class Plan(val title: String, val items: List<Pair<Module, Int>>, val loops: Int) {
+        private var loop = 0
+        private var idx = 0
+        private var rep = 0
+
+        fun next(): Module? {
+            while (true) {
+                if (idx >= items.size) {
+                    loop++
+                    if (loops > 0 && loop >= loops) return null
+                    idx = 0
+                    rep = 0
+                }
+                val (m, r) = items[idx]
+                if (rep < r) {
+                    rep++
+                    return m
+                }
+                idx++
+                rep = 0
+            }
+        }
+
+        fun status(): String {
+            val total = if (loops == 0) "∞" else loops.toString()
+            val head = "$title ${loop + 1}/$total"
+            if (items.size == 1 && items[0].second == 1) return head
+            val (m, r) = items[idx.coerceAtMost(items.size - 1)]
+            return "$head\n${idx + 1}번째 ${m.name} ${rep}/$r"
+        }
+    }
+
+    private fun buildPlan(): Plan? {
+        var key = Store.selected(this)
+        if (key == null) {
+            val first = Store.modules(this).firstOrNull() ?: return null
+            key = "m:${first.id}"
+            Store.select(this, key)
+        }
+        val id = key.substring(2)
+        return when {
+            key.startsWith("m:") -> Store.module(this, id)?.let { Plan(it.name, listOf(it to 1), Store.repeat(this)) }
+            key.startsWith("c:") -> Store.combo(this, id)?.let { c ->
+                val items = c.items.mapNotNull { item ->
+                    Store.module(this, item.moduleId)?.let { it to item.repeat.coerceAtLeast(1) }
+                }
+                if (items.isEmpty()) null else Plan(c.name, items, c.repeat.coerceAtLeast(0))
+            }
+            else -> null
+        }
+    }
+
     private fun startPlayback() {
         if (mode != Mode.IDLE) stopAll()
-        if (recording.strokes.isEmpty()) {
-            toast("먼저 녹화하세요")
+        pickerScroll?.visibility = View.GONE
+        val p = buildPlan()
+        if (p == null) {
+            toast("재생할 모듈이 없습니다. ● 로 녹화하거나 ☰ 에서 고르세요")
             return
         }
-        loopsDone = 0
+        generation++
+        plan = p
         mode = Mode.PLAYING
+        nextModule(generation)
+    }
+
+    private fun nextModule(gen: Int) {
+        if (gen != generation || mode != Mode.PLAYING) return
+        val m = plan?.next()
+        if (m == null) {
+            stopAll()
+            toast("재생 완료")
+            return
+        }
         updateStatus()
-        playLoop()
+        moduleBase = SystemClock.uptimeMillis() + m.preDelayMs
+        playStroke(gen, m, 0)
     }
 
-    private fun playLoop() {
-        loopStart = SystemClock.uptimeMillis()
-        playAt(0)
-    }
+    private fun playStroke(gen: Int, m: Module, i: Int) {
+        if (gen != generation || mode != Mode.PLAYING) return
+        val speed = m.speed.coerceIn(0.1f, 10f)
+        val now = SystemClock.uptimeMillis()
 
-    private fun playAt(i: Int) {
-        if (mode != Mode.PLAYING) return
-        val strokes = recording.strokes
-
-        if (i >= strokes.size) {
-            loopsDone++
-            val max = Store.repeat(this)
-            if (max in 1..loopsDone) {
-                stopAll()
-                toast("${loopsDone}회 재생 완료")
-                return
-            }
-            updateStatus()
-            // 다음 회차: 녹화 길이(정지 버튼까지) + 추가 대기 시간 뒤
-            val next = maxOf(loopStart + recording.totalMs, SystemClock.uptimeMillis()) +
-                Store.gapMs(this)
-            handler.postAtTime({ playLoop() }, playToken, next)
+        if (i >= m.strokes.size) {
+            val end = maxOf(moduleBase + (m.totalMs / speed).toLong(), now) + m.postDelayMs
+            // 길이 0 인 모듈만으로 무한 반복할 때 메인 스레드를 붙잡지 않도록 최소 간격을 둔다.
+            handler.postAtTime({ nextModule(gen) }, playToken, maxOf(end, now + 16))
             return
         }
 
-        val s = strokes[i]
+        val s = m.strokes[i]
+        val jitter = if (m.jitterMs > 0) rnd.nextInt((2 * m.jitterMs + 1).toInt()) - m.jitterMs else 0L
+        val at = moduleBase + (s.startMs / speed).toLong() + jitter
+        val dur = (s.durationMs / speed).toLong().coerceAtLeast(1)
         handler.postAtTime({
-            if (mode == Mode.PLAYING) dispatch(s) { playAt(i + 1) }
-        }, playToken, loopStart + s.startMs)
+            if (gen == generation) dispatch(s.points, dur) { playStroke(gen, m, i + 1) }
+        }, playToken, at)
     }
 
     // ───────────────────────── 공통 ─────────────────────────
 
-    private fun dispatch(s: Stroke, done: () -> Unit) {
-        val pts = s.points
+    private fun dispatch(pts: FloatArray, durationMs: Long, done: () -> Unit) {
         val path = Path().apply {
             moveTo(pts[0].coerceAtLeast(0f), pts[1].coerceAtLeast(0f))
             var i = 2
@@ -395,7 +541,7 @@ class ClickService : AccessibilityService() {
                 i += 2
             }
         }
-        val dur = s.durationMs.coerceIn(1, GestureDescription.getMaxGestureDuration())
+        val dur = durationMs.coerceIn(1, GestureDescription.getMaxGestureDuration())
         val gesture = GestureDescription.Builder()
             .addStroke(GestureDescription.StrokeDescription(path, 0, dur))
             .build()
@@ -412,9 +558,9 @@ class ClickService : AccessibilityService() {
             Mode.PLAYING -> handler.removeCallbacksAndMessages(playToken)
             Mode.IDLE -> {}
         }
+        generation++
+        plan = null
         mode = Mode.IDLE
         updateStatus()
     }
-
-    private fun toast(msg: String) = Toast.makeText(this, msg, Toast.LENGTH_SHORT).show()
 }

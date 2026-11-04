@@ -15,6 +15,9 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".ModuleEditActivity" android:exported="false" />
+        <activity android:name=".ComboEditActivity" android:exported="false" />
+
         <service
             android:name=".ClickService"
             android:exported="true"

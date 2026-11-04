@@ -11,8 +11,8 @@ android {
         applicationId = "net.justies.autoclicker"
         minSdk = 24 // dispatchGesture() 최소 버전
         targetSdk = 34
-        versionCode = 1
-        versionName = "0.1"
+        versionCode = 2
+        versionName = "0.2"
     }
 
     // CI 러너마다 debug 키가 새로 생기면 업데이트 설치가 막힌다. 고정 키를 저장소에 둔다.
