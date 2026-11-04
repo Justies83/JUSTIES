@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480" font-family="sans-serif">
+  <rect width="900" height="480" fill="#ffffff"/>
+  <text x="450" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#1a1a1a">FLIP은 어떻게 별빛을 지우나</text>
+  <g font-size="16" fill="#1a1a1a">
+    <rect x="30" y="80" width="190" height="150" rx="10" fill="#eef2f7"/>
+    <text x="125" y="115" text-anchor="middle" font-weight="bold">1. 코로나그래프</text>
+    <text x="125" y="145" text-anchor="middle" font-size="14">별빛 대부분을</text>
+    <text x="125" y="168" text-anchor="middle" font-size="14">가리는 인공 일식</text>
+    <text x="125" y="191" text-anchor="middle" font-size="14">그래도 번짐이 남는다</text>
+    <rect x="250" y="80" width="190" height="150" rx="10" fill="#eef2f7"/>
+    <text x="345" y="115" text-anchor="middle" font-weight="bold">2. 기존 방식의 한계</text>
+    <text x="345" y="145" text-anchor="middle" font-size="14">다른 별의 사진을</text>
+    <text x="345" y="168" text-anchor="middle" font-size="14">참조로 빼지만</text>
+    <text x="345" y="191" text-anchor="middle" font-size="14">다른 순간의 스냅샷이다</text>
+    <rect x="470" y="80" width="190" height="150" rx="10" fill="#eef2f7"/>
+    <text x="565" y="115" text-anchor="middle" font-weight="bold">3. 디지털 트윈</text>
+    <text x="565" y="145" text-anchor="middle" font-size="14">망원경의 물리 모델로</text>
+    <text x="565" y="168" text-anchor="middle" font-size="14">별빛의 길을 시뮬레이션</text>
+    <text x="565" y="191" text-anchor="middle" font-size="14">수백만 개 변수 조정</text>
+    <rect x="690" y="80" width="190" height="150" rx="10" fill="#eef2f7"/>
+    <text x="785" y="115" text-anchor="middle" font-weight="bold">4. 빼내기</text>
+    <text x="785" y="145" text-anchor="middle" font-size="14">시뮬레이션한 별빛을</text>
+    <text x="785" y="168" text-anchor="middle" font-size="14">실제 사진에서 빼면</text>
+    <text x="785" y="191" text-anchor="middle" font-size="14">숨어 있던 행성이 보인다</text>
+  </g>
+  <g font-size="16" fill="#1a1a1a">
+    <text x="450" y="290" text-anchor="middle">망원경은 가만히 있지 않는다. 열 변화와 냉각기 모터의 진동으로</text>
+    <text x="450" y="320" text-anchor="middle">거울이 나노미터 단위로 움직이고, 그때마다 번짐 패턴이 달라진다.</text>
+    <text x="450" y="350" text-anchor="middle">FLIP은 그 흔들림 자체를 모델에 넣는다는 점이 기존 방식과 다르다.</text>
+  </g>
+  <text x="450" y="430" text-anchor="middle" font-size="13" fill="#62655d">도표는 네이처 2026년 11월 4일 논문과 노스웨스턴대 발표를 바탕으로 직접 만들었다.</text>
+</svg>
