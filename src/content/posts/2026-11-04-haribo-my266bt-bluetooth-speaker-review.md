@@ -45,6 +45,10 @@ gallery:
 
 전원을 켜면 끝면 링에 RGB 조명이 보라, 초록, 파랑 계열로 바뀌며 돌아간다. 낮에도 색이 또렷하게 보여서 무드등처럼 두기에도 좋았다. LED 링이 색을 바꾸며 도는 모습은 45초 비교 영상으로도 찍어뒀다. 전반은 하리보 LED 링, 후반은 브리츠 스피커다.
 
+<video controls preload="metadata" style="max-width:100%;height:auto">
+  <source src="/images/haribo-my266bt-led-2026-11-04.mp4" type="video/mp4" />
+</video>
+
 ## 브리츠와 비교하면
 
 집에서는 브리츠 BZ-JB5606을 거실 고정용으로 쓰고 있다. 브리츠가 묵직하게 자리를 잡고 크게 듣는 용도라면, 하리보는 들고 다니며 적당한 볼륨으로 듣는 용도로 역할이 달랐다.
