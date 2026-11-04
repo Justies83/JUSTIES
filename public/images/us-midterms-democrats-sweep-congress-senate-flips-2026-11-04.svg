@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420" font-family="sans-serif">
+  <rect width="800" height="420" fill="#ffffff"/>
+  <text x="400" y="36" text-anchor="middle" font-size="21" font-weight="bold" fill="#1a1a1a">2026 중간선거 — 민주당이 뒤집은 상원 7석</text>
+  <g font-size="16" fill="#1a1a1a">
+    <text x="40" y="80" font-weight="bold">노스캐롤라이나</text><text x="760" y="80" text-anchor="end">쿠퍼 승</text>
+    <text x="40" y="120" font-weight="bold">사우스캐롤라이나</text><text x="760" y="120" text-anchor="end">앤드루스 승</text>
+    <text x="40" y="160" font-weight="bold">오하이오</text><text x="760" y="160" text-anchor="end">브라운 승</text>
+    <text x="40" y="200" font-weight="bold">텍사스</text><text x="760" y="200" text-anchor="end">탈라리코 승</text>
+    <text x="40" y="240" font-weight="bold">캔자스</text><text x="760" y="240" text-anchor="end">해밀턴 승</text>
+    <text x="40" y="280" font-weight="bold">아이오와</text><text x="760" y="280" text-anchor="end">투렉 승</text>
+    <text x="40" y="320" font-weight="bold">메인</text><text x="760" y="320" text-anchor="end">잭슨 승</text>
+  </g>
+  <g font-size="14" fill="#555555">
+    <text x="400" y="368" text-anchor="middle">상원 과반 문턱 51석 — AP통신은 개표 당일 밤 민주당의 양원 장악을 판정했다</text>
+    <text x="400" y="394" text-anchor="middle">미시시피 등 일부 접전 상원 경선은 아직 판정 전이다</text>
+  </g>
+</svg>
