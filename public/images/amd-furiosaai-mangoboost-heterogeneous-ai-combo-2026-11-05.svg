@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420" font-family="sans-serif">
+  <rect width="800" height="420" fill="#ffffff"/>
+  <text x="400" y="36" text-anchor="middle" font-size="21" font-weight="bold" fill="#1a1a1a">이기종 AI 인프라 — 세 회사가 맡는 자리</text>
+  <g font-size="16" fill="#1a1a1a">
+    <rect x="40" y="70" width="210" height="90" rx="10" fill="#eef2f7"/>
+    <text x="145" y="105" text-anchor="middle" font-weight="bold">AMD</text>
+    <text x="145" y="132" text-anchor="middle" font-size="14">CPU · GPU</text>
+    <rect x="295" y="70" width="210" height="90" rx="10" fill="#eef2f7"/>
+    <text x="400" y="105" text-anchor="middle" font-weight="bold">퓨리오사AI</text>
+    <text x="400" y="132" text-anchor="middle" font-size="14">NPU</text>
+    <rect x="550" y="70" width="210" height="90" rx="10" fill="#eef2f7"/>
+    <text x="655" y="105" text-anchor="middle" font-weight="bold">망고부스트</text>
+    <text x="655" y="132" text-anchor="middle" font-size="14">DPU · 소프트웨어</text>
+  </g>
+  <g font-size="16" fill="#1a1a1a">
+    <text x="400" y="205" text-anchor="middle">↓ 추론 작업의 성격에 따라 연산 자원을 나눠 맡긴다 ↓</text>
+    <rect x="140" y="230" width="520" height="90" rx="10" fill="#fff4e0"/>
+    <text x="400" y="268" text-anchor="middle" font-weight="bold">망고부스트가 서울에서 운영하는 인프라</text>
+    <text x="400" y="295" text-anchor="middle" font-size="14">참조 시스템으로 성능과 호환성을 검증한다</text>
+  </g>
+  <g font-size="14" fill="#555555">
+    <text x="400" y="360" text-anchor="middle">목표 — 추론 비용과 전력 부담을 낮추는 것</text>
+    <text x="400" y="384" text-anchor="middle">2027년 봄 첫 참조 클러스터, 2027년 안에 하이브리드 참조 인프라 가동</text>
+  </g>
+</svg>
