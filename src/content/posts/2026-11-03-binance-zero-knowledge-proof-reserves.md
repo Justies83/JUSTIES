@@ -3,7 +3,7 @@ title: "메웠다고 말만 한 게 아니다 — 바이낸스, 10개 코인 1�
 date: 2026-11-03
 category: tech
 kind: news
-takeaway: "바이낸스가 10월 29일 63억 달러 해킹 이후 10월 31일 기준 스냅샷에 대한 영지식 준비금 증명을 완성해, 비트코인·이더 등 10개 코인에 대해 고객 잔액이 최소 1대1로 뒷받침된다는 것을 이용자가 직접 검증할 수 있게 했다. 같은 날 9개 네트워크에서 2단계 출금 재개가 시작됐고, 11월 4일에는 더 많은 코인을 담은 새 스냅샷이 예정돼 있다. 다만 이번 증명은 스냅샷 시점의 10개 코인에 한정되고, 거래소의 전체 재무 상태나 보안 수준을 보증하지는 않는다."
+takeaway: "바이낸스가 10월 29일 63억 달러 해킹 이후 10월 31일 기준 스냅샷에 대한 영지식 준비금 증명을 완성해, 비트코인·이더 등 10개 코인에 대해 고객 잔액이 최소 1대1로 뒷받침된다는 것을 이용자가 직접 검증할 수 있게 했다. 같은 날 9개 네트워크에서 2단계 출금 재개가 시작됐고, 11월 3일 하루 동안 이더리움과 솔라나에서만 51개 토큰의 출금이 추가로 풀렸으며, 11월 4일에는 더 많은 코인을 담은 새 스냅샷이 예정돼 있다. 다만 이번 증명은 스냅샷 시점의 10개 코인에 한정되고, 거래소의 전체 재무 상태나 보안 수준을 보증하지는 않는다."
 tags: [바이낸스, 암호화폐, 비트코인, 준비금 증명, 영지식 증명, 해킹, TraderTraitor, 북한, 출금, BNB]
 cover: /images/binance-zero-knowledge-proof-reserves-2026-11-03.jpg
 coverAlt: "노트북 키보드 위에 올려진 비트코인 실물 동전"
@@ -46,6 +46,8 @@ source:
 
 <p align="center">이용자 입장에서 당장 유의할 대목도 있다.<br/>바이낸스는 출금 재개를 틈탄 사기 시도를 경고했다.<br/>거래소는 출금을 풀어주는 대가로 수수료를 요구하지 않으며, 지갑 거래 승인을 요청하지도 않는다고 밝혔다.<br/>출금이 늦어지는 틈을 타 수수료를 내면 풀어주겠다는 연락이 오면 사기라는 얘기다.<br/>복구가 진행될수록 이런 2차 피해가 따라붙는 패턴은 이번이 처음이 아니다.<br/>검증기를 내려받을 때도 마찬가지다.<br/>거래소가 안내한 공식 경로가 아닌 곳에서 받은 검증기는, 검증이라는 이름의 또 다른 위험이 될 수 있다.</p>
 
+<p align="center">11월 3일 오후 업데이트 — 2단계 출금의 토큰 명단이 구체적으로 나왔다.<br/>크립토뉴스 보도에 따르면 바이낸스는 11월 3일, 이더리움에서 31개, 솔라나에서 20개, 모두 <strong>51개 토큰</strong>의 출금을 추가로 풀었다.<br/>이더리움에서는 체인링크(LINK)와 시바이누(SHIB), 온도(ONDO), 펜들(PENDLE), 에테나(ENA)와 USDe, 월드코인(WLD), 퀀트(QNT) 등이 포함됐다.<br/>솔라나에서는 트럼프(TRUMP)와 봉크(BONK), 펌프(PUMP), 렌더(RENDER), 주피터(JUP), 파이쓰(PYTH) 등이 문을 열었다.<br/>이날 오전에 먼저 풀린 스테이블코인 5종(RLUSD, USD1, TUSD, FDUSD, XUSD)까지 합치면, 11월 3일 하루 동안 이더리움에서만 <strong>36개 자산</strong>의 출금이 복원된 셈이다.<br/>바이낸스는 출금 재개 순서를 지난 한 주간의 이용자 수요에 따라 정했고, 네트워크와 자산 조합마다 보안 검사를 마친 뒤에야 차례로 연다고 설명했다.<br/>BNB 스마트체인과 XRP 레저, 수이, 아비트럼, 옵티미즘, 트론, 베이스 등 다른 네트워크의 추가 복원도 같은 방식으로 이어질 예정이다.<br/>다만 거래소는 트래픽이 몰리면 일부 출금이 평소보다 늦어질 수 있다고 덧붙였고, 출금이 실패하면 잠시 기다렸다가 다시 시도해 달라고 안내했다.<br/>증명과 출금, 두 축이 같은 날 움직였다는 점에서 11월 3일은 복원의 속도가 아니라 범위가 넓어진 날로 기록될 만하다.</p>
+
 <p align="center">정리하면 이번 발표의 의미는 세 갈래로 나뉜다.<br/>첫째, 돈의 뒷받침에 대한 주장이 검증 가능한 형태로 나왔다는 점이다.<br/>10개 코인, 10월 31일 시점이라는 한계 안에서는 이용자가 직접 확인할 수 있다.<br/>둘째, 출금 재개가 2단계로 넓어지면서 복구의 물리적 범위가 커졌다는 점이다.<br/>셋째, 그럼에도 남은 숙제가 또렷하다는 점이다.<br/>11월 4일 스냅샷과 그 증명, 남은 5%의 대체 속도, 531개에 달했던 중단 코인들의 완전한 복원, 그리고 침투 경로와 재발 방지책을 담은 조사 보고서가 그것이다.<br/>증명은 신뢰를 대신하지 않는다.<br/>신뢰를 확인할 수 있는 도구를 하나 더 얹었을 뿐이다.<br/>그 도구가 다음 스냅샷에서도 같은 답을 내놓는지, 출금 문이 전부 열렸을 때 돈의 흐름이 어떻게 달라지는지가 앞으로의 관전 포인트다.</p>
 
-<p align="center">참고한 기사 — [Unchained](https://unchainedcrypto.com/binance-publishes-zero-knowledge-reserve-proof-for-btc-eth-and-8-other-tokens-after-hack/) · [Catenaa](https://catenaa.com/markets/special-reports/expands-withdrawals-as-hack-recovery-hits-95/) · [FXStreet](https://www.fxstreet.com/cryptocurrencies/news/north-korea-rejects-us-allegations-linking-dprk-hackers-to-63-billion-binance-hack-202611030316) · [CryptosBank](https://cryptosbank.in/2026/11/03/binance-issues-security-warning-as-phased-withdrawal-recovery-continues/)</p>
+<p align="center">참고한 기사 — [Unchained](https://unchainedcrypto.com/binance-publishes-zero-knowledge-reserve-proof-for-btc-eth-and-8-other-tokens-after-hack/) · [Catenaa](https://catenaa.com/markets/special-reports/expands-withdrawals-as-hack-recovery-hits-95/) · [FXStreet](https://www.fxstreet.com/cryptocurrencies/news/north-korea-rejects-us-allegations-linking-dprk-hackers-to-63-billion-binance-hack-202611030316) · [CryptosBank](https://cryptosbank.in/2026/11/03/binance-issues-security-warning-as-phased-withdrawal-recovery-continues/) · [Crypto News](https://crypto.news/binance-restores-withdrawals-for-more-ethereum-solana-tokens-after-6-3b-hack/)</p>
