@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="470" viewBox="0 0 900 470" font-family="sans-serif">
+  <rect width="900" height="470" fill="#f4f1ea"/>
+  <text x="450" y="42" text-anchor="middle" font-size="22" font-weight="bold" fill="#1a1a1a">자성의 세 가지 종류</text>
+  <g>
+    <rect x="40" y="80" width="260" height="290" rx="12" fill="#ffffff" stroke="#cccccc" stroke-width="1"/>
+    <text x="170" y="120" text-anchor="middle" font-size="18" font-weight="bold" fill="#1a1a1a">강자성체</text>
+    <text x="170" y="150" text-anchor="middle" font-size="15" fill="#555555">모든 스핀이 같은 방향</text>
+    <text x="170" y="174" text-anchor="middle" font-size="15" fill="#555555">냉장고 자석, 나침반</text>
+    <text x="170" y="235" text-anchor="middle" font-size="36" fill="#16756a">&#8593; &#8593; &#8593; &#8593;</text>
+    <text x="170" y="290" text-anchor="middle" font-size="15" fill="#20231f">순 자화 있음 — 밖에서 보인다</text>
+    <text x="170" y="318" text-anchor="middle" font-size="15" fill="#20231f">외부 자기장에 쉽게 흔들린다</text>
+    <text x="170" y="348" text-anchor="middle" font-size="15" fill="#62655d">알려진 지 수천 년</text>
+  </g>
+  <g>
+    <rect x="320" y="80" width="260" height="290" rx="12" fill="#ffffff" stroke="#cccccc" stroke-width="1"/>
+    <text x="450" y="120" text-anchor="middle" font-size="18" font-weight="bold" fill="#1a1a1a">반강자성체</text>
+    <text x="450" y="150" text-anchor="middle" font-size="15" fill="#555555">스핀이 번갈아 위·아래</text>
+    <text x="450" y="174" text-anchor="middle" font-size="15" fill="#555555">서로 상쇄돼 자화가 0</text>
+    <text x="450" y="235" text-anchor="middle" font-size="36" fill="#16756a">&#8593; &#8595; &#8593; &#8595;</text>
+    <text x="450" y="290" text-anchor="middle" font-size="15" fill="#20231f">순 자화 없음 — 안정적이다</text>
+    <text x="450" y="318" text-anchor="middle" font-size="15" fill="#20231f">대신 읽고 쓰기가 어렵다</text>
+    <text x="450" y="348" text-anchor="middle" font-size="15" fill="#62655d">1933년 발견</text>
+  </g>
+  <g>
+    <rect x="600" y="80" width="260" height="290" rx="12" fill="#ffffff" stroke="#e0795b" stroke-width="3"/>
+    <text x="730" y="120" text-anchor="middle" font-size="18" font-weight="bold" fill="#1a1a1a">알터마그넷</text>
+    <text x="730" y="150" text-anchor="middle" font-size="15" fill="#555555">번갈아 위·아래, 격자는 비틀림</text>
+    <text x="730" y="174" text-anchor="middle" font-size="15" fill="#555555">위 스핀 주변 격자가 돌아가 있다</text>
+    <text x="730" y="235" text-anchor="middle" font-size="36" fill="#e0795b">&#8593; &#8595; &#8593; &#8595;</text>
+    <text x="655" y="255" text-anchor="middle" font-size="13" fill="#e0795b">&#8635; 격자 회전</text>
+    <text x="730" y="290" text-anchor="middle" font-size="15" fill="#20231f">순 자화 없음 + 스핀 전류 가능</text>
+    <text x="730" y="318" text-anchor="middle" font-size="15" fill="#20231f">안정성과 가독성을 둘 다 갖는다</text>
+    <text x="730" y="348" text-anchor="middle" font-size="15" font-weight="bold" fill="#e0795b">이번에 처음 직접 확인</text>
+  </g>
+  <text x="450" y="415" text-anchor="middle" font-size="15" fill="#555555">알터마그넷은 반강자성체처럼 자화가 0이면서, 강자성체처럼 스핀 전류를 흘릴 수 있다</text>
+  <text x="450" y="440" text-anchor="middle" font-size="13" fill="#888888">출처: SLAC 보도자료(2026.10.29), Science 2026, DOI 10.1126/science.adv3196</text>
+</svg>
