@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420" font-family="sans-serif">
+  <rect width="800" height="420" fill="#ffffff"/>
+  <text x="400" y="36" text-anchor="middle" font-size="21" font-weight="bold" fill="#1a1a1a">11월 4일 시장 반응 — 선거 다음 날</text>
+  <line x1="400" y1="60" x2="400" y2="340" stroke="#cccccc" stroke-width="1"/>
+  <g font-size="16" fill="#1a1a1a">
+    <text x="40" y="96" font-weight="bold">다우</text>
+    <rect x="400" y="76" width="90" height="28" fill="#16756a"/>
+    <text x="498" y="96">+3.0%</text>
+    <text x="40" y="152" font-weight="bold">금</text>
+    <rect x="400" y="132" width="93" height="28" fill="#16756a"/>
+    <text x="501" y="152">+3.1%</text>
+    <text x="40" y="208" font-weight="bold">S&amp;P 500</text>
+    <rect x="400" y="188" width="48" height="28" fill="#16756a"/>
+    <text x="456" y="208">+1.6%</text>
+    <text x="40" y="264" font-weight="bold">나스닥</text>
+    <rect x="400" y="244" width="42" height="28" fill="#16756a"/>
+    <text x="450" y="264">+1.4%</text>
+    <text x="40" y="320" font-weight="bold">브렌트유</text>
+    <rect x="139" y="300" width="261" height="28" fill="#e0795b"/>
+    <text x="131" y="320" text-anchor="end">-8.7%</text>
+  </g>
+  <g font-size="14" fill="#555555">
+    <text x="400" y="368" text-anchor="middle">2026년 11월 4일 종가 기준 — CNN, TradingView 2026년 11월 4일 보도</text>
+    <text x="400" y="394" text-anchor="middle">브렌트유 94.62달러, 8월 31일 이후 최저 종가 · 금 온스당 4,000달러 돌파</text>
+  </g>
+</svg>
