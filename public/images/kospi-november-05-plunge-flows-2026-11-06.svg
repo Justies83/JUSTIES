@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="380" viewBox="0 0 800 380" font-family="sans-serif">
+  <rect width="800" height="380" fill="#ffffff"/>
+  <text x="400" y="36" text-anchor="middle" font-size="21" font-weight="bold" fill="#1a1a1a">11월 5일 유가증권시장 투자주체별 순매매 (억원)</text>
+  <line x1="450" y1="80" x2="450" y2="305" stroke="#999999" stroke-width="1.5"/>
+  <text x="450" y="70" text-anchor="middle" font-size="14" fill="#555555">0</text>
+  <g font-size="16" fill="#1a1a1a">
+    <text x="40" y="134" font-weight="bold">외국인</text>
+    <rect x="190" y="110" width="260" height="36" fill="#e0795b"/>
+    <text x="182" y="134" text-anchor="end" fill="#e0795b" font-weight="bold">-3조8459억원</text>
+    <text x="40" y="209" font-weight="bold">개인</text>
+    <rect x="450" y="185" width="182" height="36" fill="#16756a"/>
+    <text x="640" y="209" fill="#16756a" font-weight="bold">+2조6992억원</text>
+    <text x="40" y="284" font-weight="bold">기관</text>
+    <rect x="450" y="260" width="64" height="36" fill="#16756a"/>
+    <text x="522" y="284" fill="#16756a" font-weight="bold">+9462억원</text>
+  </g>
+  <g font-size="14" fill="#555555">
+    <text x="400" y="350" text-anchor="middle">뉴시스 보도 수치 기준 — 외국인은 5거래일 연속 순매도</text>
+  </g>
+</svg>
