@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="380" viewBox="0 0 800 380" font-family="sans-serif">
+  <rect width="800" height="380" fill="#ffffff"/>
+  <text x="400" y="36" text-anchor="middle" font-size="21" font-weight="bold" fill="#1a1a1a">11월 5일 코스피 장중 흐름 — 하루 만에 300포인트 하락</text>
+  <polyline points="80,80 220,146 340,142 500,300 700,270" fill="none" stroke="#16756a" stroke-width="4" stroke-linejoin="round"/>
+  <g font-size="15" fill="#1a1a1a">
+    <circle cx="80" cy="80" r="7" fill="#555555"/>
+    <text x="80" y="60" text-anchor="middle" font-weight="bold">전일 종가</text>
+    <text x="80" y="106" text-anchor="middle" fill="#555555">5,683.80</text>
+    <circle cx="220" cy="146" r="7" fill="#16756a"/>
+    <text x="220" y="126" text-anchor="middle" font-weight="bold">개장</text>
+    <text x="220" y="172" text-anchor="middle" fill="#555555">5,580.09 (-1.82%)</text>
+    <circle cx="340" cy="142" r="7" fill="#16756a"/>
+    <text x="340" y="122" text-anchor="middle" font-weight="bold">장중 고점</text>
+    <text x="340" y="168" text-anchor="middle" fill="#555555">5,586.46 (-1.71%)</text>
+    <circle cx="500" cy="300" r="7" fill="#e0795b"/>
+    <text x="500" y="280" text-anchor="middle" font-weight="bold">장중 저점</text>
+    <text x="500" y="326" text-anchor="middle" fill="#555555">5,336.88 (-6.10%)</text>
+    <circle cx="700" cy="270" r="7" fill="#16756a"/>
+    <text x="700" y="250" text-anchor="middle" font-weight="bold">종가 15:30</text>
+    <text x="700" y="296" text-anchor="middle" fill="#555555">5,383.80 (-5.28%)</text>
+  </g>
+  <g font-size="14" fill="#555555">
+    <text x="400" y="360" text-anchor="middle">장중 저점 대비 종가 46.92포인트 되돌림 — 전일 종가 대비 등락률 기준</text>
+  </g>
+</svg>
