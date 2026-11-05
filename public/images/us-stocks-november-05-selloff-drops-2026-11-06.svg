@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="440" viewBox="0 0 900 440" font-family="sans-serif">
+  <rect width="900" height="440" fill="#f4f1ea"/>
+  <text x="450" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#20231f">11월 5일 목요일 — 지수별 하락률</text>
+  <g font-size="17" fill="#20231f">
+    <text x="60" y="115">나스닥</text>
+    <rect x="200" y="92" width="440" height="34" fill="#e0795b"/>
+    <text x="655" y="116" font-weight="bold" fill="#e0795b">-5.5%</text>
+    <text x="60" y="185">러셀2000</text>
+    <rect x="200" y="162" width="360" height="34" fill="#e0795b"/>
+    <text x="575" y="186" font-weight="bold" fill="#e0795b">-4.5%</text>
+    <text x="60" y="255">S&amp;P500</text>
+    <rect x="200" y="232" width="352" height="34" fill="#e0795b"/>
+    <text x="567" y="256" font-weight="bold" fill="#e0795b">-4.4%</text>
+    <text x="60" y="325">다우</text>
+    <rect x="200" y="302" width="272" height="34" fill="#e0795b"/>
+    <text x="487" y="326" font-weight="bold" fill="#e0795b">-3.4%</text>
+  </g>
+  <text x="450" y="385" text-anchor="middle" font-size="16" fill="#20231f">나스닥은 10월 6일 사상 최고 종가(27,599.89)보다 11.9% 아래 — 조정 국면 진입</text>
+  <text x="450" y="415" text-anchor="middle" font-size="13" fill="#62655d" font-family="monospace">기준: 마켓워치 · 팩트셋 종가 (2026년 11월 5일)</text>
+</svg>
