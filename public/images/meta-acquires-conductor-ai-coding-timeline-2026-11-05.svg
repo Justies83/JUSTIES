@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" font-family="sans-serif">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <text x="450" y="42" text-anchor="middle" font-size="22" font-weight="bold" fill="#1a1a1a">컨덕터, 인수까지의 시간표</text>
+  <g font-size="16" fill="#1a1a1a">
+    <line x1="120" y1="80" x2="120" y2="450" stroke="#16756a" stroke-width="3"/>
+    <circle cx="120" cy="100" r="8" fill="#16756a"/>
+    <text x="150" y="96" font-weight="bold">2024년</text>
+    <text x="150" y="120">컨덕터 설립, 다중 에이전트 코딩 오케스트레이션 개발 시작</text>
+    <circle cx="120" cy="160" r="8" fill="#16756a"/>
+    <text x="150" y="156" font-weight="bold">2025년 여름</text>
+    <text x="150" y="180">핵심 제품 출시, 여러 코딩 에이전트를 병렬 워크스페이스에 배치</text>
+    <circle cx="120" cy="220" r="8" fill="#16756a"/>
+    <text x="150" y="216" font-weight="bold">2026년 8월</text>
+    <text x="150" y="240">메타, 자체 코딩 에이전트 Muse Code 출시</text>
+    <circle cx="120" cy="280" r="8" fill="#e0795b"/>
+    <text x="150" y="276" font-weight="bold">2026년 11월 4일</text>
+    <text x="150" y="300">액시오스 최초 보도, 테크크런치 확인, 홀츠 합류 발표, 인수 조건 비공개</text>
+    <circle cx="120" cy="340" r="8" fill="#e0795b"/>
+    <text x="150" y="336" font-weight="bold">2026년 11월 13일</text>
+    <text x="150" y="360">컨덕터 클라우드 읽기 전용 전환, 새 메시지 중단</text>
+    <circle cx="120" cy="400" r="8" fill="#e0795b"/>
+    <text x="150" y="396" font-weight="bold">2026년 11월 20일</text>
+    <text x="150" y="420">컨덕터 클라우드 종료, 이후 클라우드 이용자 데이터 삭제 시작</text>
+    <circle cx="120" cy="460" r="8" fill="#16756a"/>
+    <text x="150" y="456" font-weight="bold">2027년 초</text>
+    <text x="150" y="480">로컬 앱 지원 종료 시점, 내년 초 새 인터페이스 예고</text>
+  </g>
+  <text x="450" y="510" text-anchor="middle" font-size="13" fill="#62655d">테크크런치 2026년 11월 4일 보도와 컨덕터 변경 기록을 바탕으로 직접 만들었다.</text>
+</svg>
