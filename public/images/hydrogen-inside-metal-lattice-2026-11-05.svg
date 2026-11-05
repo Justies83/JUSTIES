@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="430" viewBox="0 0 900 430" font-family="sans-serif">
+  <rect width="900" height="430" fill="#f4f1ea"/>
+  <text x="450" y="42" text-anchor="middle" font-size="22" font-weight="bold" fill="#1a1a1a">금속 속 수소의 세 가지 존재 형태</text>
+  <g>
+    <rect x="40" y="80" width="260" height="260" rx="12" fill="#ffffff" stroke="#cccccc" stroke-width="1"/>
+    <text x="170" y="120" text-anchor="middle" font-size="18" font-weight="bold" fill="#1a1a1a">수소화물</text>
+    <text x="170" y="150" text-anchor="middle" font-size="15" fill="#555555">수소와 금속 원소가 결합한</text>
+    <text x="170" y="174" text-anchor="middle" font-size="15" fill="#555555">화합물 형태</text>
+    <circle cx="110" cy="230" r="16" fill="#16756a"/>
+    <circle cx="150" cy="230" r="16" fill="#16756a"/>
+    <circle cx="190" cy="230" r="16" fill="#16756a"/>
+    <circle cx="130" cy="268" r="10" fill="#e0795b"/>
+    <circle cx="170" cy="268" r="10" fill="#e0795b"/>
+    <text x="170" y="318" text-anchor="middle" font-size="15" fill="#16756a">이미 관측된 적 있음</text>
+  </g>
+  <g>
+    <rect x="320" y="80" width="260" height="260" rx="12" fill="#ffffff" stroke="#cccccc" stroke-width="1"/>
+    <text x="450" y="120" text-anchor="middle" font-size="18" font-weight="bold" fill="#1a1a1a">결함에 갇힌 상태</text>
+    <text x="450" y="150" text-anchor="middle" font-size="15" fill="#555555">빈자리·전위·결정립 경계에</text>
+    <text x="450" y="174" text-anchor="middle" font-size="15" fill="#555555">포획된 형태</text>
+    <circle cx="390" cy="230" r="16" fill="#16756a"/>
+    <circle cx="430" cy="230" r="16" fill="#16756a"/>
+    <circle cx="470" cy="230" r="16" fill="#16756a"/>
+    <circle cx="410" cy="268" r="10" fill="#e0795b"/>
+    <circle cx="450" cy="268" r="10" fill="#e0795b"/>
+    <text x="450" y="318" text-anchor="middle" font-size="15" fill="#16756a">이미 관측된 적 있음</text>
+  </g>
+  <g>
+    <rect x="600" y="80" width="260" height="260" rx="12" fill="#ffffff" stroke="#e0795b" stroke-width="3"/>
+    <text x="730" y="120" text-anchor="middle" font-size="18" font-weight="bold" fill="#1a1a1a">격자 틈새 용해 상태</text>
+    <text x="730" y="150" text-anchor="middle" font-size="15" fill="#555555">금속 원자 사이의 틈새에</text>
+    <text x="730" y="174" text-anchor="middle" font-size="15" fill="#555555">녹아 있는 형태</text>
+    <circle cx="670" cy="230" r="16" fill="#16756a"/>
+    <circle cx="710" cy="230" r="16" fill="#16756a"/>
+    <circle cx="750" cy="230" r="16" fill="#16756a"/>
+    <circle cx="690" cy="250" r="10" fill="#e0795b"/>
+    <circle cx="730" cy="250" r="10" fill="#e0795b"/>
+    <text x="730" y="318" text-anchor="middle" font-size="15" font-weight="bold" fill="#e0795b">이번에 처음 직접 확인</text>
+  </g>
+  <text x="450" y="385" text-anchor="middle" font-size="15" fill="#555555">수소는 결함에 갇혀 있기만 한 것이 아니라, 격자 틈새에도 용해된 상태로 존재한다</text>
+  <text x="450" y="410" text-anchor="middle" font-size="13" fill="#888888">출처: Nature 2026, 시드니대 보도자료</text>
+</svg>
