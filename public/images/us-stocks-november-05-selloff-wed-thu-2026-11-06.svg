@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" font-family="sans-serif">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <text x="450" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#20231f">수요일 랠리 vs 목요일 급락 — 3대 지수 등락률</text>
+  <g font-size="15" fill="#20231f">
+    <rect x="300" y="66" width="18" height="18" fill="#16756a"/>
+    <text x="326" y="81">수요일 (11월 4일) 종가</text>
+    <rect x="520" y="66" width="18" height="18" fill="#e0795b"/>
+    <text x="546" y="81">목요일 (11월 5일) 종가</text>
+  </g>
+  <line x1="60" y1="250" x2="840" y2="250" stroke="#20231f" stroke-width="1.5"/>
+  <g font-size="15" fill="#62655d">
+    <text x="50" y="255" text-anchor="end">0%</text>
+    <text x="50" y="165" text-anchor="end">+3%</text>
+    <text x="50" y="345" text-anchor="end">-3%</text>
+    <text x="50" y="435" text-anchor="end">-6%</text>
+  </g>
+  <g>
+    <rect x="150" y="160" width="70" height="90" fill="#16756a"/>
+    <rect x="230" y="250" width="70" height="102" fill="#e0795b"/>
+    <text x="185" y="150" text-anchor="middle" font-size="16" font-weight="bold" fill="#16756a">+3.0%</text>
+    <text x="265" y="376" text-anchor="middle" font-size="16" font-weight="bold" fill="#e0795b">-3.4%</text>
+    <text x="225" y="480" text-anchor="middle" font-size="17" font-weight="bold" fill="#20231f">다우</text>
+    <rect x="390" y="202" width="70" height="48" fill="#16756a"/>
+    <rect x="470" y="250" width="70" height="132" fill="#e0795b"/>
+    <text x="425" y="192" text-anchor="middle" font-size="16" font-weight="bold" fill="#16756a">+1.6%</text>
+    <text x="505" y="406" text-anchor="middle" font-size="16" font-weight="bold" fill="#e0795b">-4.4%</text>
+    <text x="465" y="480" text-anchor="middle" font-size="17" font-weight="bold" fill="#20231f">S&amp;P500</text>
+    <rect x="630" y="208" width="70" height="42" fill="#16756a"/>
+    <rect x="710" y="250" width="70" height="165" fill="#e0795b"/>
+    <text x="665" y="198" text-anchor="middle" font-size="16" font-weight="bold" fill="#16756a">+1.4%</text>
+    <text x="745" y="439" text-anchor="middle" font-size="16" font-weight="bold" fill="#e0795b">-5.5%</text>
+    <text x="705" y="480" text-anchor="middle" font-size="17" font-weight="bold" fill="#20231f">나스닥</text>
+  </g>
+  <text x="450" y="512" text-anchor="middle" font-size="13" fill="#62655d" font-family="monospace">기준: 마켓워치 · 팩트셋 종가 (2026년 11월 4~5일)</text>
+</svg>
