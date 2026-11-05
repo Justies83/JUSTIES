@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="sans-serif">
+<rect width="900" height="520" fill="#f4f1ea"/>
+<text x="450" y="52" text-anchor="middle" font-size="30" font-weight="700" fill="#20231f">무라수 최종 집계 — 11월 5일 기준</text>
+<line x1="70" y1="100" x2="830" y2="100" stroke="#16756a" stroke-width="3"/>
+<text x="70" y="165" font-size="21" font-weight="700" fill="#20231f">육상 사망</text>
+<rect x="230" y="140" width="440" height="34" fill="#16756a"/>
+<text x="685" y="165" font-size="22" font-weight="700" fill="#20231f">4명</text>
+<text x="70" y="235" font-size="21" font-weight="700" fill="#20231f">어선 어민 사망</text>
+<rect x="230" y="210" width="440" height="34" fill="#e0795b"/>
+<text x="685" y="235" font-size="22" font-weight="700" fill="#20231f">4명</text>
+<text x="70" y="305" font-size="21" font-weight="700" fill="#20231f">실종 어민</text>
+<rect x="230" y="280" width="550" height="34" fill="#62655d"/>
+<text x="795" y="305" font-size="22" font-weight="700" fill="#20231f">5명</text>
+<line x1="70" y1="350" x2="830" y2="350" stroke="#62655d" stroke-width="1"/>
+<text x="450" y="392" text-anchor="middle" font-size="21" font-weight="700" fill="#20231f">피해 추산 343크로르 루피 · 농작물 피해 52,458헥타르(벼 50,473 + 상업 작물 1,985)</text>
+<text x="450" y="432" text-anchor="middle" font-size="21" fill="#20231f">심각 피해 마을 465곳(7개 지구) · 군투르 대피소 4,217명(58곳)</text>
+<text x="450" y="472" text-anchor="middle" font-size="21" fill="#20231f">아르나브와 비교하면 피해액은 약 13분의 1 수준(4,563크로르 루피)</text>
+<text x="450" y="505" text-anchor="middle" font-family="monospace" font-size="15" fill="#62655d">기준: ETV 바라트, 내셔널 헤럴드(PTI) 11월 5일 보도</text>
+</svg>
