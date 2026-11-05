@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480" font-family="sans-serif">
+  <rect width="900" height="480" fill="#ffffff"/>
+  <text x="450" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#1a1a1a">인수 뒤 컨덕터 이용자에게 남는 것과 끝나는 것</text>
+  <g font-size="16" fill="#1a1a1a">
+    <rect x="60" y="80" width="360" height="200" rx="10" fill="#f4f1ea"/>
+    <text x="240" y="115" text-anchor="middle" font-weight="bold">이어진다</text>
+    <text x="240" y="150" text-anchor="middle" font-size="15">핵심 기능은 내년 초까지 종전대로</text>
+    <text x="240" y="180" text-anchor="middle" font-size="15">로컬 앱은 2027년 초까지 새 모델과</text>
+    <text x="240" y="210" text-anchor="middle" font-size="15">긴급 버그 수정 지원</text>
+    <text x="240" y="240" text-anchor="middle" font-size="15">내년 초 새 인터페이스 예고</text>
+    <rect x="480" y="80" width="360" height="200" rx="10" fill="#eef2f7"/>
+    <text x="660" y="115" text-anchor="middle" font-weight="bold">끝난다</text>
+    <text x="660" y="150" text-anchor="middle" font-size="15">클라우드 11월 13일 읽기 전용 전환</text>
+    <text x="660" y="180" text-anchor="middle" font-size="15">클라우드 11월 20일 종료</text>
+    <text x="660" y="210" text-anchor="middle" font-size="15">종료 뒤 클라우드 이용자 데이터 삭제 시작</text>
+    <text x="660" y="240" text-anchor="middle" font-size="15">읽기 전용 뒤에는 새 메시지 불가</text>
+  </g>
+  <g font-size="16" fill="#1a1a1a">
+    <text x="450" y="330" text-anchor="middle">옮기는 방법도 공지됐다.</text>
+    <text x="450" y="360" text-anchor="middle">클라우드 워크스페이스는 맥으로 이전하고, 전체 데이터는 설정에서 내보낸다.</text>
+    <text x="450" y="390" text-anchor="middle">마감은 <tspan font-weight="bold">11월 20일</tspan>이다. 클라우드 이용자는 그 전에 옮겨야 한다.</text>
+  </g>
+  <text x="450" y="440" text-anchor="middle" font-size="13" fill="#62655d">컨덕터 변경 기록 2026년 11월 4일 공지를 바탕으로 직접 만들었다.</text>
+</svg>
