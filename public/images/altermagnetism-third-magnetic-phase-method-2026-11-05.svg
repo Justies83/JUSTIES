@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" font-family="sans-serif">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <text x="450" y="42" text-anchor="middle" font-size="22" font-weight="bold" fill="#1a1a1a">어떻게 확인했나 — 편광 X선과 4년의 시간표</text>
+  <g>
+    <rect x="40" y="70" width="390" height="180" rx="12" fill="#ffffff" stroke="#cccccc" stroke-width="1"/>
+    <text x="235" y="108" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">왼손 원편광 X선</text>
+    <text x="235" y="140" text-anchor="middle" font-size="15" fill="#555555">왼쪽으로 도는 빛을 쏜다</text>
+    <text x="235" y="168" text-anchor="middle" font-size="15" fill="#555555">MnTe에서 산란되는 세기를 잰다</text>
+    <text x="235" y="210" text-anchor="middle" font-size="28" fill="#16756a">&#8635; &#8592; 빛 &#8594;</text>
+  </g>
+  <g>
+    <rect x="470" y="70" width="390" height="180" rx="12" fill="#ffffff" stroke="#cccccc" stroke-width="1"/>
+    <text x="665" y="108" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">오른손 원편광 X선</text>
+    <text x="665" y="140" text-anchor="middle" font-size="15" fill="#555555">오른쪽으로 도는 빛을 쏜다</text>
+    <text x="665" y="168" text-anchor="middle" font-size="15" fill="#555555">같은 방식으로 산란 세기를 잰다</text>
+    <text x="665" y="210" text-anchor="middle" font-size="28" fill="#16756a">&#8634; &#8592; 빛 &#8594;</text>
+  </g>
+  <g>
+    <rect x="40" y="270" width="820" height="70" rx="12" fill="#16756a"/>
+    <text x="450" y="298" text-anchor="middle" font-size="17" font-weight="bold" fill="#ffffff">두 빛의 산란 세기가 달랐다 — 카이랄(손지기) 신호</text>
+    <text x="450" y="324" text-anchor="middle" font-size="15" fill="#ffffff">손지기가 없는 일반 반강자성체라면 두 빛이 똑같이 산란돼야 한다</text>
+  </g>
+  <g>
+    <line x1="60" y1="420" x2="840" y2="420" stroke="#16756a" stroke-width="3"/>
+    <circle cx="90" cy="420" r="8" fill="#16756a"/>
+    <circle cx="330" cy="420" r="8" fill="#16756a"/>
+    <circle cx="560" cy="420" r="8" fill="#e0795b"/>
+    <circle cx="800" cy="420" r="8" fill="#e0795b"/>
+    <text x="90" y="395" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">2022년</text>
+    <text x="90" y="455" text-anchor="middle" font-size="14" fill="#555555">알터마그넷 제안</text>
+    <text x="90" y="477" text-anchor="middle" font-size="14" fill="#555555">이론 논문 게재</text>
+    <text x="330" y="395" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">2024년</text>
+    <text x="330" y="455" text-anchor="middle" font-size="14" fill="#555555">ESRF ID32 첫 실험</text>
+    <text x="330" y="477" text-anchor="middle" font-size="14" fill="#555555">분광 증거 축적</text>
+    <text x="560" y="395" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">2025년 초</text>
+    <text x="560" y="455" text-anchor="middle" font-size="14" fill="#555555">실험 반복해 확인</text>
+    <text x="800" y="395" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">2026.10.29</text>
+    <text x="800" y="455" text-anchor="middle" font-size="14" fill="#555555">Science 게재</text>
+    <text x="800" y="477" text-anchor="middle" font-size="14" fill="#555555">카이랄 알터마그논</text>
+  </g>
+  <text x="450" y="510" text-anchor="middle" font-size="13" fill="#888888">출처: SLAC·ESRF 보도자료(2026.10.29), Science 2026, DOI 10.1126/science.adv3196</text>
+</svg>
