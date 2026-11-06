@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400" font-family="sans-serif">
+  <rect width="800" height="400" fill="#f4f1ea"/>
+  <text x="400" y="34" text-anchor="middle" font-size="21" font-weight="bold" fill="#20231f">우에노은행 붕괴에서 대통령 사임까지</text>
+  <text x="400" y="58" text-anchor="middle" font-size="13" fill="#62655d">2026년 11월 2일~6일 (파라과이 현지시간)</text>
+  <line x1="50" y1="200" x2="750" y2="200" stroke="#16756a" stroke-width="3"/>
+  <g font-size="13" fill="#20231f">
+    <circle cx="90" cy="200" r="8" fill="#16756a"/>
+    <text x="90" y="110" text-anchor="middle" font-weight="bold">11/02 월</text>
+    <text x="90" y="132" text-anchor="middle" fill="#62655d">장부 조사</text>
+    <text x="90" y="150" text-anchor="middle" fill="#62655d">자본, 법정 최소치의</text>
+    <text x="90" y="168" text-anchor="middle" fill="#62655d">절반 아래로</text>
+    <circle cx="245" cy="200" r="8" fill="#16756a"/>
+    <text x="245" y="110" text-anchor="middle" font-weight="bold">11/03 화</text>
+    <text x="245" y="132" text-anchor="middle" fill="#62655d">중앙은행, 우에노 접수</text>
+    <text x="245" y="150" text-anchor="middle" fill="#62655d">앱·카드·송금 중단</text>
+    <circle cx="400" cy="200" r="8" fill="#16756a"/>
+    <text x="400" y="110" text-anchor="middle" font-weight="bold">11/04 수</text>
+    <text x="400" y="132" text-anchor="middle" fill="#62655d">예금자 러시, 타 은행 앱 마비</text>
+    <text x="400" y="150" text-anchor="middle" fill="#62655d">간부 8명 구금</text>
+    <circle cx="555" cy="200" r="8" fill="#e0795b"/>
+    <text x="555" y="110" text-anchor="middle" font-weight="bold" fill="#e0795b">11/05 목</text>
+    <text x="555" y="132" text-anchor="middle" fill="#62655d">페냐 사임 발표</text>
+    <text x="555" y="150" text-anchor="middle" fill="#62655d">하원 78-0 탄핵 소추</text>
+    <circle cx="710" cy="200" r="8" fill="#e0795b"/>
+    <text x="710" y="110" text-anchor="middle" font-weight="bold" fill="#e0795b">11/06 금</text>
+    <text x="710" y="132" text-anchor="middle" fill="#62655d">상원 탄핵 심리</text>
+    <text x="710" y="150" text-anchor="middle" fill="#62655d">페냐 오전 10시 소명</text>
+  </g>
+  <g font-size="13" fill="#62655d">
+    <text x="400" y="260" text-anchor="middle">사임은 의회가 수리하지 않아 페냐는 형식상 여전히 대통령</text>
+    <text x="400" y="282" text-anchor="middle">파면에는 상원의원 45명 중 30명 찬성 필요</text>
+    <text x="400" y="330" font-family="monospace" font-size="12">출처: AP통신, 로이터, AFP, 알자지라 보도 (2026.11.05~06)</text>
+  </g>
+</svg>
