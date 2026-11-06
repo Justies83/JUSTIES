@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="380" viewBox="0 0 900 380">
+<rect width="900" height="380" fill="#faf8f3"/>
+<text x="40" y="40" font-size="22" font-weight="bold" fill="#222">OrigAMI-4 코호트 1 — 라이브레반트 패스프로 단독요법 (102명)</text>
+<text x="40" y="66" font-size="14" fill="#666">FDA와 존슨앤드존슨 2026-11-05 발표 기준. 맹검 독립 중앙 판독(RECIST v1.1).</text>
+<text x="40" y="112" font-size="16" fill="#222">전체 반응률</text>
+<rect x="230" y="94" width="350" height="26" fill="#16756a"/>
+<text x="590" y="114" font-size="16" font-weight="bold" fill="#222">42%</text>
+<text x="40" y="152" font-size="16" fill="#222">완전 반응</text>
+<rect x="230" y="134" width="125" height="26" fill="#16756a"/>
+<text x="365" y="154" font-size="16" font-weight="bold" fill="#222">15%</text>
+<text x="40" y="192" font-size="16" fill="#222">부분 반응</text>
+<rect x="230" y="174" width="233" height="26" fill="#16756a"/>
+<text x="473" y="194" font-size="16" font-weight="bold" fill="#222">28%</text>
+<text x="40" y="232" font-size="16" fill="#222">반응자 중 6개월 이상 반응 유지</text>
+<rect x="380" y="214" width="467" height="26" fill="#e0795b"/>
+<text x="380" y="204" font-size="16" font-weight="bold" fill="#222">56%</text>
+<text x="40" y="300" font-size="14" fill="#666">완전 반응 15%와 부분 반응 28%의 합이 반올림 때문에 43%로 보이지만,</text>
+<text x="40" y="324" font-size="14" fill="#666">발표된 전체 반응률은 42%다 (95% 신뢰구간 32~52%). 반응 지속 기간 1.4개월 이상~19.7개월 이상.</text>
+</svg>
