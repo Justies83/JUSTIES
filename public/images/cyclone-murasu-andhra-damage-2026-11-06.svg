@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="sans-serif">
+<rect width="900" height="520" fill="#f4f1ea"/>
+<text x="450" y="52" text-anchor="middle" font-size="30" font-weight="700" fill="#20231f">무라수 피해 집계, 첫 추산에서 5.6배로 — 11월 6일 기준</text>
+<line x1="70" y1="100" x2="830" y2="100" stroke="#16756a" stroke-width="3"/>
+<text x="70" y="150" font-size="21" font-weight="700" fill="#20231f">피해 추산</text>
+<rect x="230" y="128" width="55" height="22" fill="#62655d"/>
+<text x="295" y="145" font-size="18" fill="#20231f">344크로르</text>
+<rect x="230" y="158" width="330" height="22" fill="#e0795b"/>
+<text x="570" y="175" font-size="20" font-weight="700" fill="#20231f">1,918.55크로르 루피</text>
+<text x="70" y="240" font-size="21" font-weight="700" fill="#20231f">농작물 피해</text>
+<rect x="230" y="218" width="100" height="22" fill="#62655d"/>
+<text x="340" y="235" font-size="18" fill="#20231f">52,458헥타르</text>
+<rect x="230" y="248" width="280" height="22" fill="#16756a"/>
+<text x="520" y="265" font-size="20" font-weight="700" fill="#20231f">1,43,122헥타르</text>
+<text x="70" y="330" font-size="21" font-weight="700" fill="#20231f">영향 농민</text>
+<rect x="230" y="308" width="100" height="22" fill="#62655d"/>
+<text x="340" y="325" font-size="18" fill="#20231f">69,828명</text>
+<rect x="230" y="338" width="270" height="22" fill="#16756a"/>
+<text x="510" y="355" font-size="20" font-weight="700" fill="#20231f">1,86,063명</text>
+<line x1="70" y1="390" x2="830" y2="390" stroke="#62655d" stroke-width="1"/>
+<text x="450" y="425" text-anchor="middle" font-size="20" fill="#20231f">사망 8명(변동 없음) · 주택 983채 · 어선 346척 · 어망 220개</text>
+<text x="450" y="455" text-anchor="middle" font-size="20" fill="#20231f">복구 — 송전선 871/1,103 · 전신주 1,493/3,946 · 통신탑 97% · 즉각 구호 37크로르 루피</text>
+<text x="450" y="485" text-anchor="middle" font-size="20" fill="#20231f">정확한 농작물 집계까지 48~72시간 더 필요 · 텔랑가나 보상 요구 에이커당 3만~5만 루피</text>
+<text x="450" y="510" text-anchor="middle" font-family="monospace" font-size="15" fill="#62655d">기준: 데칸 헤럴드(PTI), 뉴 인디안 익스프레스, 텔랑가나 투데이 11월 6일 보도</text>
+</svg>
