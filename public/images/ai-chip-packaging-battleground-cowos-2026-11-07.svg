@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420" font-family="sans-serif">
+  <rect width="800" height="420" fill="#ffffff"/>
+  <text x="400" y="36" text-anchor="middle" font-size="21" font-weight="bold" fill="#1a1a1a">CoWoS — 칩들을 하나의 기판 위에 묶는다</text>
+  <g font-size="15" fill="#1a1a1a">
+    <rect x="90" y="290" width="620" height="56" rx="8" fill="#eef2f7"/>
+    <text x="400" y="325" text-anchor="middle" font-weight="bold">기판 (Substrate) — 칩들을 받치고 회로 기판과 연결한다</text>
+    <rect x="130" y="220" width="540" height="56" rx="8" fill="#fff4e0"/>
+    <text x="400" y="255" text-anchor="middle" font-weight="bold">인터포저 — 칩 사이를 고속으로 이어 주는 중간층</text>
+  </g>
+  <g font-size="16" fill="#1a1a1a">
+    <rect x="150" y="110" width="130" height="80" rx="10" fill="#16756a"/>
+    <text x="215" y="145" text-anchor="middle" font-weight="bold" fill="#ffffff">HBM</text>
+    <text x="215" y="170" text-anchor="middle" font-size="13" fill="#ffffff">고대역폭 메모리</text>
+    <rect x="330" y="100" width="150" height="90" rx="10" fill="#e0795b"/>
+    <text x="405" y="138" text-anchor="middle" font-weight="bold" fill="#ffffff">GPU · 프로세서</text>
+    <text x="405" y="163" text-anchor="middle" font-size="13" fill="#ffffff">연산 칩</text>
+    <rect x="530" y="110" width="130" height="80" rx="10" fill="#16756a"/>
+    <text x="595" y="145" text-anchor="middle" font-weight="bold" fill="#ffffff">HBM</text>
+    <text x="595" y="170" text-anchor="middle" font-size="13" fill="#ffffff">고대역폭 메모리</text>
+  </g>
+  <g font-size="14" fill="#555555">
+    <text x="400" y="382" text-anchor="middle">프로세서와 메모리를 가까이 붙여 데이터가 오가는 속도를 끌어올린다</text>
+    <text x="400" y="404" text-anchor="middle">하나의 패키지에 칩 10개 이상, 많게는 20개까지 들어간다</text>
+  </g>
+</svg>
