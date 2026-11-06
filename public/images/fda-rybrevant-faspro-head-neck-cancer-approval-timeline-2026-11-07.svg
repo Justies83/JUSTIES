@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360">
+<rect width="900" height="360" fill="#faf8f3"/>
+<text x="40" y="40" font-size="22" font-weight="bold" fill="#222">라이브레반트 패스프로 두경부암 적응증 — 승인까지의 일정</text>
+<text x="40" y="66" font-size="14" fill="#666">존슨앤드존슨 보도자료 기준. 가속 승인은 반응률을 근거로 한 결정이다.</text>
+<line x1="80" y1="150" x2="820" y2="150" stroke="#16756a" stroke-width="3"/>
+<circle cx="120" cy="150" r="10" fill="#16756a"/>
+<circle cx="300" cy="150" r="10" fill="#16756a"/>
+<circle cx="480" cy="150" r="10" fill="#16756a"/>
+<circle cx="660" cy="150" r="10" fill="#e0795b"/>
+<circle cx="800" cy="150" r="10" fill="#ffffff" stroke="#16756a" stroke-width="3"/>
+<text x="120" y="110" font-size="16" font-weight="bold" fill="#222" text-anchor="middle">2026년 2월</text>
+<text x="120" y="185" font-size="15" fill="#222" text-anchor="middle">FDA 혁신치료제</text>
+<text x="120" y="208" font-size="15" fill="#222" text-anchor="middle">지정</text>
+<text x="300" y="110" font-size="16" font-weight="bold" fill="#222" text-anchor="middle">2026년 7월</text>
+<text x="300" y="185" font-size="15" fill="#222" text-anchor="middle">FDA 우선심사</text>
+<text x="300" y="208" font-size="15" fill="#222" text-anchor="middle">지정</text>
+<text x="480" y="110" font-size="16" font-weight="bold" fill="#222" text-anchor="middle">2026년</text>
+<text x="480" y="185" font-size="15" fill="#222" text-anchor="middle">ASCO 발표 ·</text>
+<text x="480" y="208" font-size="15" fill="#222" text-anchor="middle">JCO 게재</text>
+<text x="660" y="110" font-size="16" font-weight="bold" fill="#222" text-anchor="middle">2026년 11월 5일</text>
+<text x="660" y="185" font-size="15" fill="#222" text-anchor="middle">FDA 가속 승인</text>
+<text x="800" y="110" font-size="16" font-weight="bold" fill="#222" text-anchor="middle">진행 중</text>
+<text x="800" y="185" font-size="15" fill="#222" text-anchor="middle">3상 OrigAMI-5</text>
+<text x="800" y="208" font-size="15" fill="#222" text-anchor="middle">확증 시험</text>
+<text x="40" y="300" font-size="14" fill="#666">OrigAMI-5는 1차 치료에서 아미반타맙 피하 제형과 카보플라틴·펨브롤리주맙</text>
+<text x="40" y="324" font-size="14" fill="#666">병용을 비교하는 3상 시험으로, 여기서 임상적 유익이 확인돼야 승인이 유지된다.</text>
+</svg>
