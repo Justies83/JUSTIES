@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400" font-family="sans-serif">
+  <rect width="800" height="400" fill="#f4f1ea"/>
+  <text x="400" y="34" text-anchor="middle" font-size="21" font-weight="bold" fill="#20231f">영국 소비자물가 전망 — 영란은행 11월 전망 기준</text>
+  <g stroke="#d8d2c4" stroke-width="1">
+    <line x1="60" y1="90" x2="740" y2="90"/>
+    <line x1="60" y1="170" x2="740" y2="170"/>
+    <line x1="60" y1="250" x2="740" y2="250"/>
+    <line x1="60" y1="330" x2="740" y2="330"/>
+  </g>
+  <g font-size="12" fill="#62655d" text-anchor="end">
+    <text x="52" y="94">6%</text>
+    <text x="52" y="174">4%</text>
+    <text x="52" y="254">2%</text>
+    <text x="52" y="334">0%</text>
+  </g>
+  <line x1="60" y1="250" x2="740" y2="250" stroke="#16756a" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="738" y="240" text-anchor="end" font-size="12" fill="#16756a">물가 목표 2%</text>
+  <g>
+    <rect x="85" y="206" width="90" height="124" fill="#16756a"/>
+    <text x="130" y="196" text-anchor="middle" font-size="16" font-weight="bold" fill="#20231f">3.1%</text>
+    <text x="130" y="352" text-anchor="middle" font-size="13" fill="#20231f">2026년 8월</text>
+    <text x="130" y="370" text-anchor="middle" font-size="13" fill="#62655d">실적</text>
+    <rect x="225" y="190" width="90" height="140" fill="#16756a"/>
+    <text x="270" y="180" text-anchor="middle" font-size="16" font-weight="bold" fill="#20231f">3.5%</text>
+    <text x="270" y="352" text-anchor="middle" font-size="13" fill="#20231f">2026년 9월</text>
+    <text x="270" y="370" text-anchor="middle" font-size="13" fill="#62655d">실적</text>
+    <rect x="365" y="138" width="90" height="192" fill="#e0795b"/>
+    <text x="410" y="128" text-anchor="middle" font-size="16" font-weight="bold" fill="#20231f">4.8%</text>
+    <text x="410" y="352" text-anchor="middle" font-size="13" fill="#20231f">2027년 2분기</text>
+    <text x="410" y="370" text-anchor="middle" font-size="13" fill="#62655d">전망 평균 정점</text>
+    <rect x="505" y="82" width="90" height="248" fill="#a63d22"/>
+    <text x="550" y="72" text-anchor="middle" font-size="16" font-weight="bold" fill="#20231f">6.2%</text>
+    <text x="550" y="352" text-anchor="middle" font-size="13" fill="#20231f">2027년 3분기</text>
+    <text x="550" y="370" text-anchor="middle" font-size="13" fill="#62655d">악화 시나리오</text>
+    <rect x="645" y="250" width="90" height="80" fill="#16756a" opacity="0.45"/>
+    <text x="690" y="240" text-anchor="middle" font-size="16" font-weight="bold" fill="#20231f">2%</text>
+    <text x="690" y="352" text-anchor="middle" font-size="13" fill="#20231f">2028년 3분기</text>
+    <text x="690" y="370" text-anchor="middle" font-size="13" fill="#62655d">목표 복귀 전망</text>
+  </g>
+  <text x="400" y="395" text-anchor="middle" font-size="11" fill="#62655d">악화 시나리오는 유가가 배럴당 130달러까지 오를 경우. 현재 유가는 배럴당 100달러 안팎.</text>
+</svg>
