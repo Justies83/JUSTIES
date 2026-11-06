@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400" font-family="sans-serif">
+  <rect width="800" height="400" fill="#f4f1ea"/>
+  <text x="400" y="34" text-anchor="middle" font-size="21" font-weight="bold" fill="#20231f">올레시키 휴전에서 아부다비 회담까지</text>
+  <text x="400" y="58" text-anchor="middle" font-size="13" fill="#62655d">2026년 10월 23일~11월 11일</text>
+  <line x1="50" y1="200" x2="750" y2="200" stroke="#16756a" stroke-width="3"/>
+  <g font-size="13" fill="#20231f">
+    <circle cx="90" cy="200" r="8" fill="#16756a"/>
+    <text x="90" y="110" text-anchor="middle" font-weight="bold">10/23 금</text>
+    <text x="90" y="132" text-anchor="middle" fill="#62655d">올레시키 휴전 합의 서명</text>
+    <text x="90" y="150" text-anchor="middle" fill="#62655d">백악관이 중재 발표</text>
+    <circle cx="245" cy="200" r="8" fill="#16756a"/>
+    <text x="245" y="110" text-anchor="middle" font-weight="bold">10/27~11/01</text>
+    <text x="245" y="132" text-anchor="middle" fill="#62655d">6일간 국지 휴전</text>
+    <text x="245" y="150" text-anchor="middle" fill="#62655d">약 800명 대피, 구호품 반입</text>
+    <circle cx="400" cy="200" r="8" fill="#e0795b"/>
+    <text x="400" y="110" text-anchor="middle" font-weight="bold" fill="#e0795b">11/05 목</text>
+    <text x="400" y="132" text-anchor="middle" fill="#62655d">백악관 행사, 양국 대표 대면</text>
+    <text x="400" y="150" text-anchor="middle" fill="#62655d">트럼프, 드미트리예프 면담</text>
+    <circle cx="555" cy="200" r="8" fill="#e0795b"/>
+    <text x="555" y="110" text-anchor="middle" font-weight="bold" fill="#e0795b">11/10~11</text>
+    <text x="555" y="132" text-anchor="middle" fill="#62655d">아부다비 3자 회담 예정</text>
+    <text x="555" y="150" text-anchor="middle" fill="#62655d">러·우크라·미국, 2월 이후 처음</text>
+  </g>
+  <g font-size="13" fill="#62655d">
+    <text x="400" y="260" text-anchor="middle">휴전은 6일간 양쪽 모두 지켰고, 개전 이후 가장 긴 휴전으로 기록됐다</text>
+    <text x="400" y="282" text-anchor="middle">멜라니아 트럼프는 푸틴과 젤렌스키에게 보내는 친서를 양국 대표에게 건넸다</text>
+    <text x="400" y="330" font-family="monospace" font-size="12">출처: Dawn, 로이터(예루살렘포스트), AP통신 보도 (2026.11.05~06)</text>
+  </g>
+</svg>
