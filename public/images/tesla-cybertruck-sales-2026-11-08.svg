@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+  <text x="450" y="48" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="24" font-weight="700" fill="#20231f">사이버트럭 미국 판매 추정치 — 목표와 실제</text>
+  <text x="450" y="78" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">단위: 대 · Cox Automotive 추정치 기준</text>
+  <line x1="80" y1="420" x2="820" y2="420" stroke="rgba(32,35,31,.35)" stroke-width="1.5"/>
+  <rect x="130" y="120" width="150" height="300" fill="#62655d"/>
+  <text x="205" y="108" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="19" font-weight="700" fill="#20231f">250,000</text>
+  <text x="205" y="452" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">머스크의 연간 목표</text>
+  <rect x="380" y="373" width="150" height="47" fill="#16756a"/>
+  <text x="455" y="361" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="19" font-weight="700" fill="#20231f">38,965</text>
+  <text x="455" y="452" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">2024년 실제</text>
+  <rect x="630" y="396" width="150" height="24" fill="#e0795b"/>
+  <text x="705" y="384" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="19" font-weight="700" fill="#20231f">20,237</text>
+  <text x="705" y="452" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">2025년 실제</text>
+  <text x="450" y="498" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">Cox Automotive 추정치 기준 · 테슬라는 모델별 판매 대수를 공개하지 않는다</text>
+</svg>
