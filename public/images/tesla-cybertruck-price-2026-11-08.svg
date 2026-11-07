@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+  <text x="450" y="48" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="24" font-weight="700" fill="#20231f">사이버트럭 가격의 궤적 (달러)</text>
+  <text x="450" y="78" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">공개 당시 가격에서 2026년 11월 듀얼모터 AWD 트림까지</text>
+  <line x1="80" y1="430" x2="820" y2="430" stroke="rgba(32,35,31,.35)" stroke-width="1.5"/>
+  <polyline points="130,401 262,274 394,280 526,220 658,190 790,145" fill="none" stroke="#16756a" stroke-width="3"/>
+  <circle cx="130" cy="401" r="5" fill="#f4f1ea" stroke="#16756a" stroke-width="2.5"/>
+  <circle cx="262" cy="274" r="5" fill="#f4f1ea" stroke="#16756a" stroke-width="2.5"/>
+  <circle cx="394" cy="280" r="5" fill="#f4f1ea" stroke="#16756a" stroke-width="2.5"/>
+  <circle cx="526" cy="220" r="5" fill="#f4f1ea" stroke="#16756a" stroke-width="2.5"/>
+  <circle cx="658" cy="190" r="5" fill="#f4f1ea" stroke="#16756a" stroke-width="2.5"/>
+  <circle cx="790" cy="145" r="5" fill="#e0795b" stroke="#e0795b" stroke-width="2.5"/>
+  <text x="130" y="382" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="16" font-weight="700" fill="#20231f">$39,900</text>
+  <text x="262" y="255" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="16" font-weight="700" fill="#20231f">$60,990</text>
+  <text x="394" y="261" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="16" font-weight="700" fill="#20231f">$59,990</text>
+  <text x="526" y="201" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="16" font-weight="700" fill="#20231f">$69,990</text>
+  <text x="658" y="171" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="16" font-weight="700" fill="#20231f">$74,990</text>
+  <text x="790" y="126" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="16" font-weight="700" fill="#e0795b">$82,490</text>
+  <text x="130" y="458" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#62655d">2019.11</text>
+  <text x="262" y="458" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#62655d">2023년 말</text>
+  <text x="394" y="458" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#62655d">2026.02</text>
+  <text x="526" y="458" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#62655d">2026.03</text>
+  <text x="658" y="458" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#62655d">2026.08</text>
+  <text x="790" y="458" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#62655d">2026.11</text>
+  <text x="450" y="498" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">로이터 정리 기준 · 2019년은 싱글모터 공개가, 2023년 말은 기본형, 2026년은 듀얼모터 AWD 트림</text>
+</svg>
