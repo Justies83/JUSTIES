@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="중간선거부터 비서실장 교체까지의 일정">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <text x="450" y="52" text-anchor="middle" font-family="sans-serif" font-size="27" font-weight="700" fill="#20231f">중간선거부터 비서실장 교체까지</text>
+  <text x="450" y="86" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#62655d">2026년 11월 3일 ~ 11월 9일 · AP·NPR 보도 기준</text>
+
+  <line x1="80" y1="260" x2="820" y2="260" stroke="#16756a" stroke-width="3"/>
+
+  <!-- 11/3 -->
+  <circle cx="150" cy="260" r="11" fill="#e0795b"/>
+  <text x="150" y="205" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="700" fill="#20231f">11월 3일 (화)</text>
+  <text x="150" y="170" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#20231f">중간선거</text>
+  <text x="150" y="145" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#20231f">민주당 상·하원 승리</text>
+  <line x1="150" y1="215" x2="150" y2="249" stroke="#62655d" stroke-width="1.5"/>
+
+  <!-- 11/5 -->
+  <circle cx="370" cy="260" r="11" fill="#16756a"/>
+  <text x="370" y="330" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="700" fill="#20231f">11월 5일 (목) 밤</text>
+  <text x="370" y="360" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#20231f">와일스, 트럼프에</text>
+  <text x="370" y="385" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#20231f">사표 제출</text>
+  <line x1="370" y1="271" x2="370" y2="315" stroke="#62655d" stroke-width="1.5"/>
+
+  <!-- 11/6 -->
+  <circle cx="580" cy="260" r="11" fill="#e0795b"/>
+  <text x="580" y="205" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="700" fill="#20231f">11월 6일 (금)</text>
+  <text x="580" y="170" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#20231f">트럼프, 트루스소셜로</text>
+  <text x="580" y="145" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#20231f">밀러 지명 발표</text>
+  <line x1="580" y1="215" x2="580" y2="249" stroke="#62655d" stroke-width="1.5"/>
+
+  <!-- 11/9 -->
+  <circle cx="790" cy="260" r="11" fill="#16756a"/>
+  <text x="790" y="330" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="700" fill="#20231f">11월 9일 (월)</text>
+  <text x="790" y="360" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#20231f">밀러 비서실장 취임</text>
+  <text x="790" y="385" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#20231f">와일스는 정치 조직으로</text>
+  <line x1="790" y1="271" x2="790" y2="315" stroke="#62655d" stroke-width="1.5"/>
+
+  <text x="450" y="480" text-anchor="middle" font-family="monospace" font-size="14" fill="#62655d">발표일 기준: AP 2026-11-06 · NPR 2026-11-06</text>
+</svg>
