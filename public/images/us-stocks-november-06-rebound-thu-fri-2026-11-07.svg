@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" font-family="sans-serif">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <text x="450" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#20231f">목요일 급락, 금요일 반등 — 3대 지수 하루 등락률</text>
+  <text x="450" y="68" text-anchor="middle" font-size="14" fill="#62655d">11월 5일(목) 종가 대비, 11월 6일(금) 종가 대비 — 단위 %</text>
+  <line x1="450" y1="90" x2="450" y2="455" stroke="#20231f" stroke-width="1.5"/>
+  <g font-size="16" fill="#20231f">
+    <text x="40" y="128" font-weight="bold">다우존스</text>
+    <text x="40" y="155" font-size="13" fill="#62655d">목요일</text>
+    <rect x="263" y="138" width="187" height="22" rx="4" fill="#e0795b"/>
+    <text x="253" y="155" text-anchor="end" font-weight="bold" fill="#e0795b">-3.4%</text>
+    <text x="40" y="189" font-size="13" fill="#62655d">금요일</text>
+    <rect x="425" y="172" width="25" height="22" rx="4" fill="#e0795b"/>
+    <text x="462" y="189" font-weight="bold" fill="#e0795b">-0.46%</text>
+    <text x="40" y="248" font-weight="bold">S&amp;P 500</text>
+    <text x="40" y="275" font-size="13" fill="#62655d">목요일</text>
+    <rect x="208" y="258" width="242" height="22" rx="4" fill="#e0795b"/>
+    <text x="198" y="275" text-anchor="end" font-weight="bold" fill="#e0795b">-4.4%</text>
+    <text x="40" y="309" font-size="13" fill="#62655d">금요일</text>
+    <rect x="450" y="292" width="17" height="22" rx="4" fill="#16756a"/>
+    <text x="479" y="309" font-weight="bold" fill="#16756a">+0.31%</text>
+    <text x="40" y="368" font-weight="bold">나스닥</text>
+    <text x="40" y="395" font-size="13" fill="#62655d">목요일</text>
+    <rect x="148" y="378" width="302" height="22" rx="4" fill="#e0795b"/>
+    <text x="138" y="395" text-anchor="end" font-weight="bold" fill="#e0795b">-5.5%</text>
+    <text x="40" y="429" font-size="13" fill="#62655d">금요일</text>
+    <rect x="450" y="412" width="60" height="22" rx="4" fill="#16756a"/>
+    <text x="522" y="429" font-weight="bold" fill="#16756a">+1.09%</text>
+  </g>
+  <text x="450" y="472" text-anchor="middle" font-size="13" fill="#62655d">0%</text>
+  <text x="450" y="500" text-anchor="middle" font-size="13" fill="#62655d">막대 길이는 등락률에 비례 — 산호색은 하락, 틸색은 상승</text>
+</svg>
