@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" font-family="sans-serif">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <text x="450" y="46" text-anchor="middle" font-size="22" font-weight="bold" fill="#20231f">사망자 수, 오후 내내 바뀌었다</text>
+  <line x1="70" y1="250" x2="830" y2="250" stroke="#62655d" stroke-width="2"/>
+  <g>
+    <circle cx="140" cy="250" r="11" fill="#16756a"/>
+    <text x="140" y="212" text-anchor="middle" font-size="17" font-weight="bold" fill="#20231f">15:00</text>
+    <text x="140" y="292" text-anchor="middle" font-size="14" fill="#20231f">총격 시작</text>
+    <text x="140" y="316" text-anchor="middle" font-size="13" fill="#62655d">차량, 광장 진입</text>
+  </g>
+  <g>
+    <circle cx="350" cy="250" r="11" fill="#16756a"/>
+    <text x="350" y="212" text-anchor="middle" font-size="17" font-weight="bold" fill="#20231f">15시 직후</text>
+    <text x="350" y="292" text-anchor="middle" font-size="14" fill="#20231f">소방 초기 집계</text>
+    <text x="350" y="316" text-anchor="middle" font-size="13" fill="#62655d">사망 2명·부상 10명 이상</text>
+  </g>
+  <g>
+    <circle cx="560" cy="250" r="11" fill="#16756a"/>
+    <text x="560" y="212" text-anchor="middle" font-size="17" font-weight="bold" fill="#20231f">오후</text>
+    <text x="560" y="292" text-anchor="middle" font-size="14" fill="#20231f">경찰 발표</text>
+    <text x="560" y="316" text-anchor="middle" font-size="13" fill="#62655d">사망 5명·부상 12명 이상</text>
+  </g>
+  <g>
+    <circle cx="770" cy="250" r="11" fill="#e0795b"/>
+    <text x="770" y="212" text-anchor="middle" font-size="17" font-weight="bold" fill="#20231f">저녁</text>
+    <text x="770" y="292" text-anchor="middle" font-size="14" fill="#20231f">부상자 1명 추가 사망</text>
+    <text x="770" y="316" text-anchor="middle" font-size="13" fill="#62655d">사망 6명·부상 15명</text>
+  </g>
+  <text x="450" y="490" text-anchor="middle" font-family="monospace" font-size="12" fill="#62655d">출처: CNN·더타임스·알자지라 (2026.11.07) · 현지 시간 기준</text>
+</svg>
