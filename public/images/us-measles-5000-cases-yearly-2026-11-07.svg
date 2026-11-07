@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400" font-family="sans-serif">
+  <rect width="800" height="400" fill="#f4f1ea"/>
+  <text x="400" y="34" text-anchor="middle" font-size="21" font-weight="bold" fill="#20231f">미국 홍역 확진자, 4년 만에 88배</text>
+  <g>
+    <rect x="100" y="317" width="100" height="6" fill="#16756a"/>
+    <text x="150" y="305" text-anchor="middle" font-size="17" font-weight="bold" fill="#20231f">59</text>
+    <text x="150" y="348" text-anchor="middle" font-size="14" fill="#20231f">2023년</text>
+    <rect x="280" y="310" width="100" height="13" fill="#16756a"/>
+    <text x="330" y="298" text-anchor="middle" font-size="17" font-weight="bold" fill="#20231f">285</text>
+    <text x="330" y="348" text-anchor="middle" font-size="14" fill="#20231f">2024년</text>
+    <rect x="460" y="217" width="100" height="106" fill="#e0795b"/>
+    <text x="510" y="205" text-anchor="middle" font-size="17" font-weight="bold" fill="#20231f">2,289</text>
+    <text x="510" y="348" text-anchor="middle" font-size="14" fill="#20231f">2025년</text>
+    <rect x="640" y="83" width="100" height="240" fill="#e0795b"/>
+    <text x="690" y="71" text-anchor="middle" font-size="17" font-weight="bold" fill="#20231f">5,182</text>
+    <text x="690" y="348" text-anchor="middle" font-size="14" fill="#20231f">2026년</text>
+    <line x1="60" y1="323" x2="760" y2="323" stroke="#62655d" stroke-width="1"/>
+  </g>
+  <text x="400" y="382" text-anchor="middle" font-family="monospace" font-size="12" fill="#62655d">출처: CDC (2026.11.06), 2026년은 11월 5일 기준 · 2023~2025년은 연간 합계</text>
+</svg>
