@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400" font-family="sans-serif">
+  <rect width="800" height="400" fill="#f4f1ea"/>
+  <text x="400" y="34" text-anchor="middle" font-size="21" font-weight="bold" fill="#20231f">확진자가 몰린 네 개 주</text>
+  <g>
+    <text x="170" y="102" text-anchor="end" font-size="15" fill="#20231f">펜실베이니아</text>
+    <rect x="180" y="82" width="480" height="26" fill="#e0795b"/>
+    <text x="672" y="101" font-size="16" font-weight="bold" fill="#20231f">1,467</text>
+    <text x="170" y="172" text-anchor="end" font-size="15" fill="#20231f">사우스캐롤라이나</text>
+    <rect x="180" y="152" width="219" height="26" fill="#16756a"/>
+    <text x="411" y="171" font-size="16" font-weight="bold" fill="#20231f">670</text>
+    <text x="170" y="242" text-anchor="end" font-size="15" fill="#20231f">유타</text>
+    <rect x="180" y="222" width="175" height="26" fill="#16756a"/>
+    <text x="367" y="241" font-size="16" font-weight="bold" fill="#20231f">536</text>
+    <text x="170" y="312" text-anchor="end" font-size="15" fill="#20231f">위스콘신</text>
+    <rect x="180" y="292" width="141" height="26" fill="#16756a"/>
+    <text x="333" y="311" font-size="16" font-weight="bold" fill="#20231f">431</text>
+  </g>
+  <text x="400" y="352" text-anchor="middle" font-size="14" fill="#20231f">네 개 주 합계 3,104건 — 전체 확진자의 약 60%</text>
+  <text x="400" y="382" text-anchor="middle" font-family="monospace" font-size="12" fill="#62655d">출처: CDC·펜실베이니아·위스콘신 보건당국 (2026.11.04~05 기준)</text>
+</svg>
