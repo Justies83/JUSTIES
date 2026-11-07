@@ -4,13 +4,29 @@ date: 2026-11-06
 category: world
 kind: news
 takeaway: "파라과이 대통령 산티아고 페냐가 디지털은행 우에노의 붕괴 사흘 만에 사임을 발표했다. 우에노가 접수되면서 예금자 300만 명 가까이가 돈에 손을 못 대게 됐고, 하원은 사임 발표 몇 분 만에 78-0 만장일치로 탄핵 소추안을 가결했다. 그런데 의회는 사임을 수리하지 않아 페냐는 형식상 여전히 대통령으로 남아 있고, 금요일 상원 탄핵 심리가 열린다."
-tags: [파라과이, 산티아고 페냐, 우에노은행, 탄핵, 은행 위기, 남미, 페드로 아야나, 콜로라도당]
+tags: [파라과이, 산티아고 페냐, 우에노은행, 탄핵, 은행 위기, 남미, 페드로 아야나, 콜로라도당, 11월 7일 업데이트]
 cover: /images/paraguay-pena-resignation-ueno-bank-collapse-2026-11-06.jpg
 coverAlt: "아순시온의 파라과이 국회의사당"
 source:
   name: "AP통신 (2026.11.06)"
   url: https://gulfnews.com/world/americas/paraguay-faces-crisis-over-bank-collapse-president-santiago-pena-resigns-1.500737533
 ---
+
+<p align="center"><strong>11월 7일 업데이트 — 상원이 페냐를 파면했고, 몇 분 뒤 페냐는 집에 갇혔다.</strong><br/>금요일 파라과이 상원은 출석 의원 <strong>44명 전원</strong> 찬성으로 산티아고 페냐 대통령을 파면했다.<br/>45명 중 1명은 결석했다.<br/>직무 수행 부실이 파면 사유다.<br/>탄핵으로 대통령이 물러난 건 2012년 6월 페르난도 루고 이후 두 번째다.<br/>페냐는 목요일 사임을 발표했지만 의회는 사임을 수리하지 않았고, 결국 탄핵 심판으로 자리가 끝났다.<br/>페냐의 변호인들은 의회가 사임을 받아들였어야 한다고 주장했지만 받아들여지지 않았다.<br/>페냐는 표결 전 작별 메시지에서 "내가 있는 게 더 큰 분열이나 불안정의 원인이 되길 원하지 않는다"고 썼다.<br/>"오늘 답을 기다리는 사람들의 고통을 외면하지 않으면서, 감사한 마음으로 작별한다"는 말도 덧붙였다.</p>
+
+<p align="center">파면 결정이 나오자 검찰은 바로 움직였다.<br/>페냐는 아순시온 자택에 구금됐고, 검찰은 경제범죄·반부패 전담반 앞에 나올 때까지 집에 머물라고 명령했다.<br/>담당 검사는 페냐가 토요일 오전 11시에 검찰에 출석한다고 밝혔다.<br/>판사가 형사 절차 진행 중 페냐를 어디에 둘지 정하기 전까지는 자택 구금이 유지된다는 게 CNN의 설명이다.<br/>검찰총장실은 페냐와 전직 관리들을 상대로 형사 사건 <strong>3건</strong>을 열었다.<br/>혐의는 배임, 영향력 행사, 공금 유용이다.<br/>페냐가 임명한 전 중앙은행 총재 카를로스 카르바요에 대해서도 체포 명령이 나왔고, 당시 기준으로 구금 여부는 확인되지 않았다.<br/>우에노 대주주 미겔 바스케스를 포함해 <strong>27명</strong>이 기소됐고, 은행 이사 6명은 구속 전 구금 상태다.<br/>수사 당국은 바스케스 집에서 고급 차량 9대와 요트, 소형 비행기들을 압수하고 임원들 자택도 수색했다.</p>
+
+<p align="center">빈 자리는 바로 메워졌다.<br/>부통령 페드로 아야나가 금요일 취임 선서를 하고 대통령이 됐다.<br/>임기는 <strong>2028년 8월</strong>까지, 페냐의 남은 임기를 이어받는다.<br/>아야나는 52살, 집권 콜로라도당의 베테랑으로 남부 네엠부쿠주 지사와 하원 의장을 지냈다.<br/>그는 예금자 300만 명 가까이에게 등을 돌리지 않겠다고 말했다.<br/>다만 아야나도 완전히 깨끗한 처지는 아니다.<br/>검찰이 그에 대해서도 수사 중이고, 목요일 야당이 낸 아야나 탄핵안은 의회에서 부결됐다.<br/>파면된 페냐는 전직 대통령에게 주어지는 종신 상원의원 자리도 잃었다.<br/>헌법 189조에 따른 자리인데, 파면되면서 그 자리에 딸린 의회 면책특권도 함께 사라졌다.</p>
+
+<p align="center">사태의 배경에는 스승과 제자의 결별이 있다.<br/>페냐를 정계로 끌어올린 건 콜로라도당 대표이자 오랜 후원자인 호라시오 카르테스 전 대통령이다.<br/>카르테스는 페냐를 재무장관에 앉혔고 두 번이나 대통령 후보로 밀었다.<br/>그런데 페냐는 집권 뒤 카르테스의 그림자에서 벗어나려는 독자 세력 구축에 나섰고, 우에노은행은 그 중심에 있었다.<br/>9월에는 카르테스 계열 상원의원들이 우에노의 계열사 대출이 지급 능력을 위협한다는 내부 보고를 근거로 중앙은행에 답변을 요구했다.<br/>은행이 무너지자 카르테스는 제자의 축출을 공개적으로 요구했다.<br/>버밍엄대 파라과이 전문가 앤드루 닉슨은 "카르테스가 쐐기를 박았다"고 했다.<br/>"페냐는 기댈 정치적 기반이 없었고, 그대로 내버려졌다"는 말이다.</p>
+
+<p align="center">탄핵 소추의 근거가 된 우에노의 구조도 드러나고 있다.<br/>우에노는 몇 년 만에 예금 규모 5위 은행으로 컸고, <strong>8억 달러</strong>가 넘는 공공자금이 확장을 떠받쳤다.<br/>성인 3분의 2가 가입했고, 100만 명이 넘는 파라과이인이 이곳에서 처음 은행 계좌를 텄다.<br/>의원들은 페냐가 우에노 지주사 지분을 갖고 있다가 지난해 압박 속에 매각한 점, 우에노 출신 임원을 중앙은행 총재에 앉힌 점을 문제 삼았다.<br/>국가연금기금(IPS)이 법정 한도를 넘겨 우에노에 <strong>3억5천5백만 달러</strong>를 예치한 대목도 소추 사유에 들어갔다.<br/>아순시온 국립대 정치이론 교수 호세 토마스 산체스는 "지난 20년간 중앙은행은 파라과이 경제 운용의 국제적 신뢰를 떠받친 두 기둥 중 하나였다"며 "페냐 아래서 신뢰와 중립성을 잃고 우에노를 축으로 한 사업 그룹에 유리하게 통제 장치를 풀었다"고 말했다.</p>
+
+<p align="center">예금자 쪽에서는 돈이 조금씩 돌아가기 시작했다.<br/>1천만 과라니 이하 소액 예금부터 반환이 시작됐고, 예금보험 한도는 약 <strong>3만7천 달러</strong>로 우에노 고객 거의 전부를 덮는다고 중앙은행은 설명한다.<br/>중앙은행은 우에노 사태를 금융 시스템 전체의 위기가 아닌 고립된 사례로 보고 있다.<br/>그래도 분노는 가라앉지 않았다.<br/>상원이 심의하는 동안 아순시온 도심에서는 얼어붙은 저축을 돌려달라는 시위대가 "산티 페냐를 타쿰부로!"라고 외치며 행진했다.<br/>타쿰부는 수도의 주 교도소다.<br/>국영 전력회사 직원이자 연금기금이 우에노에 돈을 맡겼던 이날 로페스는 "엄청난 배신이다. 대통령은 국민을 우롱했고, 국민의 돈으로 하고 싶은 대로 했다"고 말했다.</p>
+
+<p align="center"><img src="/images/paraguay-november-07-update-2026-11-07.svg" alt="파라과이 11월 7일 업데이트 — 상원 44-0 파면, 형사 사건 3건, 기소 27명, 아야나 임기 2028년 8월까지" style="max-width:100%;height:auto;"/></p>
+
+<p align="center" class="caption">도표는 AP통신과 CNN 보도 수치를 바탕으로 직접 만들었다.</p>
 
 <p align="center">11월 5일 목요일, 파라과이 대통령 산티아고 페냐가 소셜미디어 X에 올린 짧은 영상에서 사임을 발표했다.<br/>사임 이유는 단 하나, 디지털은행 우에노의 붕괴였다.<br/>중앙은행이 우에노를 접수한 지 이틀 만, 인구 650만 명의 나라에서 예금자 300만 명 가까이가 돈에 손을 못 대는 사태가 대통령직을 삼켰다.<br/>그런데 사임 발표 몇 분 뒤 하원은 만장일치로 탄핵 소추안을 가결했고, 의회는 사임 자체를 수리하지 않았다.<br/>사임한 대통령이 아직 대통령으로 남아 있고, 금요일에는 상원 탄핵 심리가 열리는 기묘한 상태가 됐다.</p>
 
@@ -44,4 +60,4 @@ source:
 
 <p align="center">앞으로 볼 건 세 가지다.<br/>첫째, 금요일 상원 심리다.<br/>페냐가 파면되면 아야나가 2028년 8월 15일까지 남은 임기를 이어받게 되고, 새 부통령도 뽑아야 한다.<br/>둘째, 예금 반환 속도다.<br/>28만 명의 계좌 이전이 시작됐지만, 300만 명에 가까운 예금자 전원이 돈을 온전히 돌려받는 시점은 아직 아무도 모른다.<br/>셋째, 감독의 책임이다.<br/>검사관들이 6월에 위험 신호를 잡았는데도 은행이 5개월 더 굴러갔다는 사실, 그리고 감독기관 수장과 대통령의 인연이 어떻게 작용했는지가 이번 사태의 본질에 가깝다.<br/>국민 절반의 돈을 쥔 디지털은행 하나가 무너지자 사흘 만에 대통령이 물러나겠다고 선언한 나라.<br/>핀테크가 가파르게 자라는 동안 감독이 따라가지 못하면, 그 대가는 예금자의 통장에서 시작해 대통령의 자리까지 번진다는 걸 파라과이가 보여줬다.</p>
 
-참고한 기사 — [AP통신](https://gulfnews.com/world/americas/paraguay-faces-crisis-over-bank-collapse-president-santiago-pena-resigns-1.500737533) · [로이터](https://bworldonline.com/world/2026/11/06/791982/paraguays-pena-resigns-as-bank-collapse-triggers-political-crisis/) · [AFP](https://www.malaymail.com/news/world/2026/11/06/paraguay-president-quits-as-ueno-bank-crisis-sparks-protests-impeachment-proceedings/242135) · [알자지라](https://www.aljazeera.com/economy/2026/11/5/paraguay-president-pena-resigns-in-wake-of-bank-collapse) · [SBS](https://news.sbs.co.kr/english/article.do?news_id=N1008833584) · [MercoPress](https://en.mercopress.com/2026/11/05/paraguay-s-santiago-pena-tenders-his-resignation-but-congress-presses-ahead-with-impeachment)
+참고한 기사 — [AP통신](https://gulfnews.com/world/americas/paraguay-faces-crisis-over-bank-collapse-president-santiago-pena-resigns-1.500737533) · [로이터](https://bworldonline.com/world/2026/11/06/791982/paraguays-pena-resigns-as-bank-collapse-triggers-political-crisis/) · [AFP](https://www.malaymail.com/news/world/2026/11/06/paraguay-president-quits-as-ueno-bank-crisis-sparks-protests-impeachment-proceedings/242135) · [알자지라](https://www.aljazeera.com/economy/2026/11/5/paraguay-president-pena-resigns-in-wake-of-bank-collapse) · [SBS](https://news.sbs.co.kr/english/article.do?news_id=N1008833584) · [MercoPress](https://en.mercopress.com/2026/11/05/paraguay-s-santiago-pena-tenders-his-resignation-but-congress-presses-ahead-with-impeachment) · [AP통신](https://www.1news.co.nz/2026/11/07/ousted-paraguayan-president-placed-under-house-arrest-after-bank-collapse/) · [CNN](https://www.cnn.com/2026/11/05/americas/president-paraguay-resigns-latam-intl?cid=external-feeds_iluminar_meta)
