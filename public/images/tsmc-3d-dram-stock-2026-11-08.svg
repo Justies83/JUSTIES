@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" font-family="sans-serif">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <text x="450" y="46" text-anchor="middle" font-size="22" font-weight="bold" fill="#20231f">TSMC ADR, 목요일 급락 뒤 금요일 반등</text>
+  <text x="450" y="76" text-anchor="middle" font-size="15" fill="#62655d">뉴욕 정규장 종가 기준 (달러)</text>
+  <line x1="150" y1="100" x2="150" y2="400" stroke="#62655d" stroke-width="1"/>
+  <line x1="150" y1="400" x2="800" y2="400" stroke="#62655d" stroke-width="1"/>
+  <line x1="150" y1="250" x2="800" y2="250" stroke="#62655d" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="150" y1="100" x2="800" y2="100" stroke="#62655d" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="140" y="405" text-anchor="end" font-size="13" fill="#62655d">300</text>
+  <text x="140" y="255" text-anchor="end" font-size="13" fill="#62655d">350</text>
+  <text x="140" y="105" text-anchor="end" font-size="13" fill="#62655d">400</text>
+  <rect x="250" y="241" width="120" height="159" fill="#e0795b"/>
+  <text x="310" y="228" text-anchor="middle" font-size="20" font-weight="bold" fill="#20231f">353.10</text>
+  <text x="310" y="430" text-anchor="middle" font-size="16" fill="#20231f">11월 5일(목) 종가</text>
+  <text x="310" y="456" text-anchor="middle" font-size="14" fill="#62655d">전날 42.65달러 급락</text>
+  <rect x="550" y="174" width="120" height="226" fill="#16756a"/>
+  <text x="610" y="161" text-anchor="middle" font-size="20" font-weight="bold" fill="#20231f">375.44</text>
+  <text x="610" y="430" text-anchor="middle" font-size="16" fill="#20231f">11월 6일(금) 종가</text>
+  <text x="610" y="456" text-anchor="middle" font-size="14" fill="#62655d">+22.34달러 (+6.33%)</text>
+  <text x="450" y="490" text-anchor="middle" font-family="monospace" font-size="12" fill="#62655d">출처: Finnhub·TipRanks·StockAnalysis (2026.11.06 뉴욕 정규장 종가)</text>
+</svg>
