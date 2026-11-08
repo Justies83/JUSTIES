@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" font-family="sans-serif">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <text x="450" y="46" text-anchor="middle" font-size="22" font-weight="bold" fill="#20231f">11월 8일 업데이트 — 테러 수사 개시, 희생자 국적 확인</text>
+  <text x="70" y="158" font-size="18" font-weight="bold" fill="#20231f">사망</text>
+  <rect x="170" y="128" width="336" height="44" fill="#e0795b"/>
+  <text x="518" y="158" font-size="20" font-weight="bold" fill="#20231f">9명</text>
+  <text x="170" y="206" font-size="15" fill="#20231f">광장 6명(폴란드 4명·영국 1명·오스트리아 1명) + 자택 3명(부모·여동생)</text>
+  <text x="70" y="268" font-size="18" font-weight="bold" fill="#20231f">총기</text>
+  <rect x="170" y="238" width="410" height="44" fill="#16756a"/>
+  <text x="592" y="268" font-size="20" font-weight="bold" fill="#20231f">11정</text>
+  <text x="170" y="316" font-size="15" fill="#20231f">현장 4정 + 자택 7정 (아버지 합법 소유 10정 이상)</text>
+  <line x1="70" y1="360" x2="830" y2="360" stroke="#62655d" stroke-width="1"/>
+  <text x="450" y="404" text-anchor="middle" font-size="17" fill="#20231f">경찰관 2명 모두 의식 회복 · 여동생 <tspan font-weight="bold">막달레나 옥신스카(21)</tspan>, 미술대학 회화과 3학년</text>
+  <text x="450" y="438" text-anchor="middle" font-size="14" fill="#62655d">부검 월요일 시작 · 연대 촛불 집회 월요일 저녁 8시 · 용의자는 중태라 심문·기소 불가</text>
+  <text x="450" y="490" text-anchor="middle" font-family="monospace" font-size="12" fill="#62655d">출처: AP·가디언·에너지 라디오 (2026.11.08)</text>
+</svg>
