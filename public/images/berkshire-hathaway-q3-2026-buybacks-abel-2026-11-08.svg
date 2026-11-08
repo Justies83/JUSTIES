@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="버크셔 자사주 매입 — 1분기 2.3억 달러, 2분기 45억 달러, 3분기 96억 달러, 10월 약 20억 달러">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <text x="450" y="42" text-anchor="middle" font-size="26" font-weight="bold" fill="#20231f" font-family="sans-serif">버크셔 자사주 매입 — 2026년 분기별</text>
+  <line x1="80" y1="440" x2="860" y2="440" stroke="#20231f" stroke-width="2"/>
+  <rect x="140" y="431.6" width="120" height="8.4" fill="#16756a"/>
+  <rect x="320" y="278" width="120" height="162" fill="#16756a"/>
+  <rect x="500" y="94.4" width="120" height="345.6" fill="#e0795b"/>
+  <rect x="680" y="368" width="120" height="72" fill="#16756a"/>
+  <text x="200" y="419" text-anchor="middle" font-size="22" font-weight="bold" fill="#20231f" font-family="sans-serif">2.3억 달러</text>
+  <text x="380" y="266" text-anchor="middle" font-size="22" font-weight="bold" fill="#20231f" font-family="sans-serif">45억 달러</text>
+  <text x="560" y="82" text-anchor="middle" font-size="22" font-weight="bold" fill="#20231f" font-family="sans-serif">96억 달러</text>
+  <text x="740" y="356" text-anchor="middle" font-size="22" font-weight="bold" fill="#20231f" font-family="sans-serif">약 20억 달러</text>
+  <text x="200" y="472" text-anchor="middle" font-size="20" fill="#62655d" font-family="sans-serif">1분기</text>
+  <text x="380" y="472" text-anchor="middle" font-size="20" fill="#62655d" font-family="sans-serif">2분기</text>
+  <text x="560" y="472" text-anchor="middle" font-size="20" fill="#62655d" font-family="sans-serif">3분기</text>
+  <text x="740" y="472" text-anchor="middle" font-size="20" fill="#62655d" font-family="sans-serif">10월</text>
+  <text x="450" y="505" text-anchor="middle" font-size="14" fill="#62655d" font-family="monospace">단위: 10억 달러 · AP·로이터 2026년 11월 7일 보도 기준</text>
+</svg>
