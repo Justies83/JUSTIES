@@ -3,14 +3,30 @@ title: "관광객으로 붐비던 광장이 총성으로 멈췄다 — 크라쿠
 date: 2026-11-08
 category: world
 kind: news
-takeaway: "폴란드 크라쿠프 구시가지 메인 마켓 광장에서 11월 7일 토요일 오후, 차를 몰고 들어온 남성이 무차별 총격을 가해 광장에서 6명이 숨지고 15명이 다쳤다. 토요일 늦은 밤 용의자의 자택에서 3명이 추가로 숨진 채 발견돼 사망자는 모두 9명이 됐고, 숨진 3명은 용의자의 부모와 여동생(53세 남성, 52세·21세 여성)으로 확인됐다. 내무장관은 용의자가 극우 이념에 영향을 받았다는 정황이 있다고 밝혔고, 용의자는 경찰에 총을 맞아 여러 차례 수술을 받고 위독한 상태다. 11월 8~9일 국가 애도가 시작됐고, 성모 마리아 성당의 매시간 나팔 소리(헤이날)는 1939년 이후 처음으로 12시간 멈췄다."
-tags: [크라쿠프, 폴란드, 총격, 리네크 그우브니, 도널드 투스크, 총기 규제, 테러, 11월 8일 업데이트, 11월 8일 두 번째 업데이트, 11월 8일 세 번째 업데이트]
+takeaway: "폴란드 검찰이 크라쿠프 총격을 테러 범죄로 정식 수사하기 시작했다. 광장 6명과 자택 3명을 한 사건으로 묶었고, 용의자는 아직 중태라 심문도 기소도 이뤄지지 않았다. 광장에서 숨진 6명은 폴란드인 4명, 영국인 1명, 오스트리아인 1명으로 확인됐고, 자택에서 숨진 여동생은 크라쿠프 미술대학 3학년 막달레나 옥신스카(21)였다. 일요일 오후 성모 마리아 성당에서 희생자 미사가 열렸고, 용의자를 막은 경찰관 2명은 모두 의식을 되찾았다. 부검은 월요일 아침 시작되고, 월요일 저녁 광장에서는 연대 촛불 집회가 열린다."
+tags: [크라쿠프, 폴란드, 총격, 리네크 그우브니, 도널드 투스크, 총기 규제, 테러, 11월 8일 업데이트, 11월 8일 두 번째 업데이트, 11월 8일 세 번째 업데이트, 11월 8일 네 번째 업데이트]
 cover: /images/krakow-market-square-shooting-2026-11-08.jpg
 coverAlt: "크라쿠프 메인 마켓 광장 중앙의 수키엔니체(직물회관)"
 source:
   name: "CNN (2026.11.07)"
   url: https://www.cnn.com/2026/11/07/europe/krakow-shooting-poland-killed-intl?cid=external-feeds_iluminar_meta
 ---
+
+<p align="center"><strong>11월 8일 네 번째 업데이트 — 검찰이 테러 범죄로 정식 수사에 들어갔고, 희생자 6명의 국적이 모두 확인됐다.</strong><br/>일요일, 폴란드 국가검찰청이 크라쿠프 광장 살인 6건과 오스트로비에츠시비엥토크시스키 자택 살인 3건을 한 사건으로 묶어 테러 범죄로 정식 수사에 착수했다.<br/>혐의는 살인과 살인미수, 경찰관에 대한 공격도 포함된다.<br/>검찰 대변인 토마시 바슈추크는 테러를 "검찰이 가장 유력하게 보는 방향"이라고 했다.<br/>크라쿠프 지부는 토요일에 이미 같은 사건을 테러 범죄로 수사하겠다고 밝힌 바 있다.<br/>다만 용의자는 아직 정식으로 체포되거나 기소되지 않았다.<br/>여러 차례 수술을 받고 중태에 빠져 있어 심문이 불가능한 상태고, 검찰은 용의자가 살아남으면 월요일에 다음 절차를 정한다고 했다.<br/>유죄가 되면 종신형이 가능하다.</p>
+
+<p align="center">광장에서 숨진 6명의 국적이 모두 확인됐다.<br/>폴란드인 <strong>4명</strong>(여성 3명·남성 1명), 영국인 남성 1명, 오스트리아인 여성 1명이다.<br/>자택에서 숨진 여동생의 이름도 나왔다.<br/><strong>막달레나 옥신스카, 21세</strong>, 크라쿠프 얀 마테이코 미술대학 회화과 3학년 학생이다.<br/>미술대학은 11월 11일까지 애도 기간을 선포하고 행사를 취소했다.<br/>학장 안제이 베드나르치크는 "다시는 예전 같지 않을 것이다. 우리 학술 공동체의 섬세한 조직이 고통스럽게 상처 입었다"고 했다.<br/>미술대학 직원의 여동생도 토요일 총격에서 두 발을 맞아 다쳤다.</p>
+
+<p align="center">일요일 오후 4시, 성모 마리아 성당에서 그레고시 리스 추기경이 집전하는 희생자 미사가 열렸다.<br/>성 안나 성당에도 조문객이 가득 차 추모 예배가 열렸다.<br/>광장은 일요일 저녁 다시 열렸고, 조문객들이 꽃과 촛불을 놓았다.<br/>교황 레오 14세도 리스 추기경에게 조의를 전했다.<br/>국가는 11월 8일과 9일, 크라쿠프시는 11월 11일까지 애도 기간이다.<br/>월요일 저녁 8시에는 메인 마켓 광장 리네크와 스와프코프스카 거리 모퉁이에서 연대 촛불 집회가 열린다.</p>
+
+<p align="center">용의자를 막은 경찰관 2명, 야쿠프 쿨리크와 아르투르 모란스키 상급 순경은 모두 의식을 되찾았다.<br/>한 명은 일요일 오후 혼수에서 깼다.<br/>부상자 2명이 추가로 퇴원했다.<br/>나브로츠키 대통령은 두 경관에게 국가 훈장을 수여할 뜻을 밝혔고, 크라쿠프 시장은 명예시민 추대를 제안했다.<br/>회수된 총기는 모두 <strong>11정</strong>이다.<br/>현장에서 4정, 자택에서 7정이 나왔다.<br/>아버지는 합법적으로 10정 이상을 소유했고, 용의자도 총기를 갖고 있었다.<br/>용의자가 다녔다는 스타라호비체의 시비트 사격장은 용의자와 아버지가 모두 회원이었고, 용의자는 8월 말에 마지막으로 왔다고 했다.<br/>사격장은 정적 사격만 가르쳤고, 동적·전술·전투 사격은 가르친 적이 없다고 했다.</p>
+
+<p align="center">수사는 이제 두 도시를 하나의 범행으로 보고 있다.<br/>검찰은 두 도시의 범행이 동일인의 소행으로 본다고 했다.<br/>경찰은 용의자의 이동 경로도 재구성했다.<br/>슈체판스키 광장에서 출발해 성모 마리아 성당 앞을 지나 그로츠카 거리로 내려가다 디에틀라 거리와 스트라도므스카 거리 교차로에서 다른 차와 부딪혀 붙잡혔다.<br/>목격자는 100명 넘게 나섰다.<br/>광장은 일요일 아침에도 몇 시간 동안 다시 통제돼 낮 시간대 감식이 이어졌다.</p>
+
+<p align="center">가짜 소식도 함께 돌았다.<br/>디지털부 장관 크시슈토프 가프코프스키는 밤새 정부 허위정보 대응 부서와 긴급 회의를 열었다고 했다.<br/>AI로 조작된 사진, 성모 마리아 성당 지붕 위 두 번째 총격범이라는 거짓 보도, 용의자가 현역 군인이라는 주장, 경찰이 늦게 도착했다는 주장이 돌았고, 경찰은 모두 부인했다.<br/>부검은 월요일 아침 시작돼 화요일까지 이어질 전망이다.<br/>앞으로 볼 것은 세 가지다.<br/>첫째, 부검과 수사가 자택 3명의 죽음을 광장 총격과 어떻게 연결하는지다.<br/>둘째, 용의자의 상태가 심문이 가능해지는지다.<br/>셋째, 애도 기간이 끝나는 11월 11일 이후 광장 보안과 크리스마스 마켓 논의가 어떻게 이어지는지다.</p>
+
+<p align="center"><img src="/images/krakow-november-08-update-2026-11-08.svg" alt="크라쿠프 11월 8일 업데이트 — 테러 수사 개시, 사망 9명, 회수 총기 11정, 경찰관 2명 의식 회복, 부검 월요일 시작" style="max-width:100%;height:auto;"/></p>
+
+<p align="center" class="caption">도표는 AP와 가디언, 에너지 라디오 11월 8일 보도를 바탕으로 직접 만들었다.</p>
 
 <p align="center"><strong>11월 8일 세 번째 업데이트 — 자택에서 숨진 3명은 용의자의 부모와 여동생이었다.</strong><br/>지역 경찰이 소셜미디어로 확인했다.<br/>숨진 사람은 <strong>53세 남성</strong>과 <strong>52세·21세 여성</strong>, 용의자의 아버지와 어머니, 여동생이다.<br/>시신에서는 총상으로 보이는 상처가 발견됐고, 집에서는 총기 <strong>7정</strong>이 압수됐다.<br/>경찰 대테러 부대와 감식반, 검사가 밤새 집에서 작업을 이어갔다.<br/>세 사람이 언제, 어떻게 숨졌는지는 아직 수사 중이다.</p>
 
@@ -28,7 +44,7 @@ source:
 
 <p align="center">이제 사건의 성격이 달라졌다.<br/>광장의 무차별 총격만으로 보던 사건에, 자택에서 발견된 3명의 죽음이 더해졌다.<br/>세 사람이 용의자에게 살해된 것인지, 언제 숨졌는지는 수사가 밝혀야 할 핵심이다.<br/>오늘 오후 4시에는 성모 마리아 성당에서 희생자를 위한 특별 미사가 열린다.<br/>국가 애도일은 오늘과 내일, 크라쿠프시의 애도 기간은 11월 11일까지 이어진다.</p>
 
-<p align="center"><strong>11월 8일 업데이트 — 총리가 "테러"라고 불렀고, 희생자 중 영국인이 확인됐다.</strong><br/>토요일 저녁 크라쿠프에 도착한 도널드 투스크 총리는 보안당국 수뇌부와 회의를 마친 뒤 이번 총격을 테러라고 불렀다.<br/>"폴란드에는 지금까지 이렇게 극단적인 테러 사례가 없었다. 크라쿠프 공격은 그렇게 불러야 한다"는 말이다.<br/>국방장관도 "끔찍한 테러 행위"라고 했다.<br/>다만 당국이 사건을 테러 사건으로 공식 분류했는지는 아직 확인되지 않았다.</p>
+<p align="center"><strong>11월 8일 업데이트 — 총리가 "테러"라고 불렀고, 희생자 중 영국인이 확인됐다.</strong><br/>토요일 저녁 크라쿠프에 도착한 도널드 투스크 총리는 보안당국 수뇌부와 회의를 마친 뒤 이번 총격을 테러라고 불렀다.<br/>"폴란드에는 지금까지 이렇게 극단적인 테러 사례가 없었다. 크라쿠프 공격은 그렇게 불러야 한다"는 말이다.<br/>국방장관도 "끔찍한 테러 행위"라고 했다.<br/>다만 당국이 사건을 테러 사건으로 공식 분류했는지는 아직 확인되지 않았다.<br/>이 업데이트 시점에는 공식 분류가 확인되지 않았으나, 이후 검찰이 테러 범죄로 정식 수사에 착수했다. 자세한 내용은 위 11월 8일 네 번째 업데이트를 참고.</p>
 
 <p align="center">이 업데이트 시점의 사망자는 <strong>6명</strong>, 부상자는 <strong>15명</strong>이었다.<br/>이후 용의자 자택에서 3명이 추가로 발견돼 사망자는 <strong>9명</strong>이 됐다. 자세한 내용은 위 두 번째 업데이트를 참고.<br/>숨진 6명 중 4명의 신원이 확인됐고, 그 가운데 영국인 1명이 포함돼 있다.<br/>확인된 희생자 중 2명은 폴란드 여성이다.<br/>영국 외무부는 아직 공식 입장을 내지 않았고, 희생자의 이름은 공개되지 않았다.<br/>부상자 15명 가운데 외국인은 <strong>5명</strong>이다.<br/>포르투갈 외교부는 자국민 여성 1명이 다쳐 병원에서 치료받고 있다고 확인했다.<br/>부상자 중 12명은 중상이고, 경찰관 2명도 포함돼 있다.<br/>중태였던 경찰관 1명의 예후는 좋다는 게 크라쿠프 부시장의 설명이다.</p>
 
@@ -72,4 +88,4 @@ source:
 
 <p align="center">아직 모르는 게 많다.<br/>동기가 가장 큰 미지수다.<br/>경찰은 "배경과 모든 정황"을 조사하고 있다고만 밝혔고, 용의자의 이름도 공식 발표하지 않았다.<br/>총기를 어떻게 구했는지도 확인되지 않았다.<br/>폴란드는 총기 소유에 허가가 필요한 나라라, 군용 소총으로 보이는 총기가 어떻게 24세 남성의 손에 들어갔는지가 수사의 핵심이 될 것으로 보인다.<br/>범행을 미리 계획했는지, 혼자 준비한 것인지도 아직 밝혀지지 않았다.<br/>경찰은 용의자가 혼자 범행했다고 밝혔지만, 배경 조사가 끝나기 전에는 사건의 전모를 단정하기 어렵다.<br/>부상자 중 위중한 사람이 있어 사망자 수는 더 바뀔 수 있다.<br/>앞으로 볼 건 세 가지다.<br/>첫째, 수사 결과다.<br/>동기와 총기 입수 경로가 밝혀지면 사건의 성격이 드러난다.<br/>둘째, 애도 기간 이후의 대응이다.<br/>애도 기간 마지막 날인 11월 11일은 폴란드 독립기념일이다.<br/>11월 11일까지 이어지는 애도 기간이 끝나면, 광장 보안과 공공장소 안전 대책 논의가 본격화할 가능성이 크다.<br/>셋째, 정치권의 움직임이다.<br/>투스크 총리가 "비극을 이용하지 말라"고 먼저 선을 그은 만큼, 사건을 둘러싼 정쟁이 얼마나 자제되는지도 지켜볼 일이다.<br/>관광객이 몰리는 도시 한복판에서 벌어진 일이라, 폴란드의 공공장소 안전을 둘러싼 논의로 이어질 가능성이 크다.</p>
 
-참고한 기사 — [CNN](https://www.cnn.com/2026/11/07/europe/krakow-shooting-poland-killed-intl?cid=external-feeds_iluminar_meta) · [The Times](https://www.thetimes.com/world/europe/article/krakow-shooting-main-square-city-centre-poland-rn2xgdxbd) · [Al Jazeera](https://www.aljazeera.com/news/2026/11/7/casualties-reported-after-shooting-in-polands-krakow) · [에너지 라디오](https://energyradio.uk/krakow-shooting-main-market-square/) · [The Jerusalem Post](https://www.jpost.com/international/article-914135) · [Reuters via TV5](https://news.tv5.com.ph/breaking/read/poland-mourns-six-victims-of-deadly-krakow-incident) · [FMT](https://www.freemalaysiatoday.com/category/world/2026/11/08/poland-mourns-6-dead-from-krakow-shooting-rampage) · [로이터](https://bworldonline.com/world/2026/11/08/792148/poland-in-shock-after-six-die-in-krakow-mass-shooting/)
+참고한 기사 — [CNN](https://www.cnn.com/2026/11/07/europe/krakow-shooting-poland-killed-intl?cid=external-feeds_iluminar_meta) · [The Times](https://www.thetimes.com/world/europe/article/krakow-shooting-main-square-city-centre-poland-rn2xgdxbd) · [Al Jazeera](https://www.aljazeera.com/news/2026/11/7/casualties-reported-after-shooting-in-polands-krakow) · [에너지 라디오](https://energyradio.uk/krakow-shooting-main-market-square/) · [The Jerusalem Post](https://www.jpost.com/international/article-914135) · [Reuters via TV5](https://news.tv5.com.ph/breaking/read/poland-mourns-six-victims-of-deadly-krakow-incident) · [FMT](https://www.freemalaysiatoday.com/category/world/2026/11/08/poland-mourns-6-dead-from-krakow-shooting-rampage) · [로이터](https://bworldonline.com/world/2026/11/08/792148/poland-in-shock-after-six-die-in-krakow-mass-shooting/) · [AP](https://www.bastillepost.com/global/article/6337870-what-to-know-about-the-shooting-in-the-polish-city-of-krakow-that-killed-6-people) · [가디언](https://worldrightnowlive.com/story/polish-prosecutors-open-terrorism-investigation-into-krak-w-shooting) · [에너지 라디오](https://energyradio.uk/krakow-shooting-latest/)
