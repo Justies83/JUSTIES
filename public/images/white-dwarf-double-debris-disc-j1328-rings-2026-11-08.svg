@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" font-family="sans-serif">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <text x="450" y="46" text-anchor="middle" font-size="22" font-weight="bold" fill="#20231f">백색왜성 J1328−1450의 이중 고리 — 태양 반지름 기준 거리</text>
+  <text x="450" y="76" text-anchor="middle" font-size="15" fill="#62655d">안쪽 고리와 바깥 고리 사이에는 약 13만9,000km의 빈틈이 있다</text>
+  <!-- star -->
+  <circle cx="70" cy="200" r="16" fill="#ffffff" stroke="#20231f" stroke-width="2"/>
+  <text x="70" y="248" text-anchor="middle" font-size="15" font-weight="bold" fill="#20231f">백색왜성</text>
+  <text x="70" y="268" text-anchor="middle" font-size="13" fill="#62655d">질량 태양의 47%</text>
+  <text x="70" y="286" text-anchor="middle" font-size="13" fill="#62655d">지름 지구와 비슷</text>
+  <!-- scale bar axis -->
+  <line x1="70" y1="180" x2="830" y2="180" stroke="#20231f" stroke-width="2"/>
+  <!-- inner ring 0.14-0.34 Rsun: x 123 to 199 -->
+  <rect x="123" y="160" width="76" height="40" fill="#16756a"/>
+  <!-- gap 0.34-0.54: 199 to 275 -->
+  <!-- outer ring 0.54-1.93: 275 to 803 -->
+  <rect x="275" y="160" width="528" height="40" fill="#e0795b"/>
+  <!-- ticks -->
+  <line x1="123" y1="180" x2="123" y2="210" stroke="#20231f" stroke-width="1.5"/>
+  <line x1="199" y1="180" x2="199" y2="210" stroke="#20231f" stroke-width="1.5"/>
+  <line x1="275" y1="180" x2="275" y2="210" stroke="#20231f" stroke-width="1.5"/>
+  <line x1="450" y1="180" x2="450" y2="210" stroke="#20231f" stroke-width="1.5"/>
+  <line x1="803" y1="180" x2="803" y2="210" stroke="#20231f" stroke-width="1.5"/>
+  <!-- labels above bar -->
+  <text x="161" y="140" text-anchor="middle" font-size="16" font-weight="bold" fill="#16756a">안쪽 고리</text>
+  <text x="539" y="140" text-anchor="middle" font-size="16" font-weight="bold" fill="#e0795b">바깥 고리</text>
+  <text x="237" y="140" text-anchor="middle" font-size="13" fill="#62655d">빈틈</text>
+  <!-- labels below bar -->
+  <text x="161" y="232" text-anchor="middle" font-size="14" fill="#20231f">0.14–0.34 R☉</text>
+  <text x="539" y="232" text-anchor="middle" font-size="14" fill="#20231f">0.54–1.93 R☉</text>
+  <text x="450" y="262" text-anchor="middle" font-size="14" fill="#20231f">1 R☉ = 태양 반지름 약 69만6,000km</text>
+  <!-- Earth-Moon distance marker: 384400 km = 0.552 Rsun -> x = 70+0.552*380 = 280 -->
+  <line x1="280" y1="150" x2="280" y2="300" stroke="#62655d" stroke-width="1" stroke-dasharray="5,4"/>
+  <text x="292" y="320" font-size="14" fill="#62655d">지구–달 거리 약 38만4,000km (0.55 R☉)</text>
+  <text x="292" y="342" font-size="14" fill="#62655d">— 바깥 고리의 안쪽 가장자리와 거의 같다</text>
+  <!-- distance in km -->
+  <line x1="70" y1="380" x2="830" y2="380" stroke="#62655d" stroke-width="1"/>
+  <text x="450" y="414" text-anchor="middle" font-size="16" fill="#20231f">안쪽 고리 약 10만–24만km · 빈틈 약 13만9,000km · 바깥 고리 약 37만5,000km–130만km 이상</text>
+  <text x="450" y="446" text-anchor="middle" font-size="15" fill="#20231f">고리 기울기 약 77°(거의 옆에서 본 각도) · 2021–2023년 관측에서 구조 안정</text>
+  <text x="450" y="490" text-anchor="middle" font-family="monospace" font-size="12" fill="#62655d">출처: Gentile Fusillo 외, Nature Astronomy (2026) · ESO 보도자료 (2026.10.27)</text>
+</svg>
