@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="3분기 성적표 — 매출 +11%, 영업이익 -5.8%, 순이익 -28%, BNSF +19%, 버크셔 에너지 +8%, 프레시전 캐스트파츠 +30%, 가이코 -45%, 보험 인수이익 -43%">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <text x="450" y="42" text-anchor="middle" font-size="26" font-weight="bold" fill="#20231f" font-family="sans-serif">3분기 성적표 — 엇갈린 숫자들</text>
+  <line x1="470" y1="72" x2="470" y2="448" stroke="#20231f" stroke-width="1.5" opacity="0.35"/>
+  <text x="40" y="99" font-size="20" fill="#20231f" font-family="sans-serif">매출</text>
+  <rect x="470" y="77" width="77" height="30" fill="#16756a"/>
+  <text x="557" y="99" font-size="20" font-weight="bold" fill="#20231f" font-family="sans-serif">+11%</text>
+  <text x="40" y="147" font-size="20" fill="#20231f" font-family="sans-serif">영업이익</text>
+  <rect x="429" y="125" width="41" height="30" fill="#e0795b"/>
+  <text x="419" y="147" text-anchor="end" font-size="20" font-weight="bold" fill="#20231f" font-family="sans-serif">-5.8%</text>
+  <text x="40" y="195" font-size="20" fill="#20231f" font-family="sans-serif">순이익</text>
+  <rect x="274" y="173" width="196" height="30" fill="#e0795b"/>
+  <text x="264" y="195" text-anchor="end" font-size="20" font-weight="bold" fill="#20231f" font-family="sans-serif">-28%</text>
+  <text x="40" y="243" font-size="20" fill="#20231f" font-family="sans-serif">BNSF 철도 이익</text>
+  <rect x="470" y="221" width="133" height="30" fill="#16756a"/>
+  <text x="613" y="243" font-size="20" font-weight="bold" fill="#20231f" font-family="sans-serif">+19%</text>
+  <text x="40" y="291" font-size="20" fill="#20231f" font-family="sans-serif">버크셔 에너지 이익</text>
+  <rect x="470" y="269" width="56" height="30" fill="#16756a"/>
+  <text x="536" y="291" font-size="20" font-weight="bold" fill="#20231f" font-family="sans-serif">+8%</text>
+  <text x="40" y="339" font-size="20" fill="#20231f" font-family="sans-serif">프레시전 캐스트파츠 세전 이익</text>
+  <rect x="470" y="317" width="210" height="30" fill="#16756a"/>
+  <text x="690" y="339" font-size="20" font-weight="bold" fill="#20231f" font-family="sans-serif">+30%</text>
+  <text x="40" y="387" font-size="20" fill="#20231f" font-family="sans-serif">가이코 세전 인수이익</text>
+  <rect x="155" y="365" width="315" height="30" fill="#e0795b"/>
+  <text x="145" y="387" text-anchor="end" font-size="20" font-weight="bold" fill="#20231f" font-family="sans-serif">-45%</text>
+  <text x="40" y="435" font-size="20" fill="#20231f" font-family="sans-serif">보험 인수이익</text>
+  <rect x="169" y="413" width="301" height="30" fill="#e0795b"/>
+  <text x="159" y="435" text-anchor="end" font-size="20" font-weight="bold" fill="#20231f" font-family="sans-serif">-43%</text>
+  <text x="450" y="490" text-anchor="middle" font-size="14" fill="#62655d" font-family="monospace">전년 동기 대비 증감률 · 로이터·AP 2026년 11월 7일 보도 기준</text>
+</svg>
