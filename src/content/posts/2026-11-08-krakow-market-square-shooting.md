@@ -3,8 +3,8 @@ title: "관광객으로 붐비던 광장이 총성으로 멈췄다 — 크라쿠
 date: 2026-11-08
 category: world
 kind: news
-takeaway: "폴란드 크라쿠프 구시가지 메인 마켓 광장에서 11월 7일 토요일 오후, 차를 몰고 들어온 남성이 무차별 총격을 가해 광장에서 6명이 숨지고 15명이 다쳤다. 토요일 늦은 밤 용의자의 자택에서 3명이 추가로 숨진 채 발견돼 사망자는 모두 9명이 됐다. 투스크 총리는 숨진 3명이 용의자의 직계 가족일 가능성이 크다고 했고, 내무장관은 용의자가 극우 이념에 영향을 받았다는 정황이 있다고 밝혔다. 용의자는 경찰에 총을 맞고 체포돼 병원으로 옮겨졌고, 크라쿠프시는 11월 11일까지 애도 기간을 선포했다."
-tags: [크라쿠프, 폴란드, 총격, 리네크 그우브니, 도널드 투스크, 총기 규제, 테러, 11월 8일 업데이트, 11월 8일 두 번째 업데이트]
+takeaway: "폴란드 크라쿠프 구시가지 메인 마켓 광장에서 11월 7일 토요일 오후, 차를 몰고 들어온 남성이 무차별 총격을 가해 광장에서 6명이 숨지고 15명이 다쳤다. 토요일 늦은 밤 용의자의 자택에서 3명이 추가로 숨진 채 발견돼 사망자는 모두 9명이 됐고, 숨진 3명은 용의자의 부모와 여동생(53세 남성, 52세·21세 여성)으로 확인됐다. 내무장관은 용의자가 극우 이념에 영향을 받았다는 정황이 있다고 밝혔고, 용의자는 경찰에 총을 맞아 여러 차례 수술을 받고 위독한 상태다. 11월 8~9일 국가 애도가 시작됐고, 성모 마리아 성당의 매시간 나팔 소리(헤이날)는 1939년 이후 처음으로 12시간 멈췄다."
+tags: [크라쿠프, 폴란드, 총격, 리네크 그우브니, 도널드 투스크, 총기 규제, 테러, 11월 8일 업데이트, 11월 8일 두 번째 업데이트, 11월 8일 세 번째 업데이트]
 cover: /images/krakow-market-square-shooting-2026-11-08.jpg
 coverAlt: "크라쿠프 메인 마켓 광장 중앙의 수키엔니체(직물회관)"
 source:
@@ -12,9 +12,17 @@ source:
   url: https://www.cnn.com/2026/11/07/europe/krakow-shooting-poland-killed-intl?cid=external-feeds_iluminar_meta
 ---
 
+<p align="center"><strong>11월 8일 세 번째 업데이트 — 자택에서 숨진 3명은 용의자의 부모와 여동생이었다.</strong><br/>지역 경찰이 소셜미디어로 확인했다.<br/>숨진 사람은 <strong>53세 남성</strong>과 <strong>52세·21세 여성</strong>, 용의자의 아버지와 어머니, 여동생이다.<br/>시신에서는 총상으로 보이는 상처가 발견됐고, 집에서는 총기 <strong>7정</strong>이 압수됐다.<br/>경찰 대테러 부대와 감식반, 검사가 밤새 집에서 작업을 이어갔다.<br/>세 사람이 언제, 어떻게 숨졌는지는 아직 수사 중이다.</p>
+
+<p align="center">용의자는 위독한 상태다.<br/>경찰에 총을 맞은 뒤 여러 차례 수술을 받았고, 로이터가 전한 당국 설명으로는 "안정적이지만 매우 위독"하다.<br/>현장에서 용의자와 총격전을 벌인 경찰관 2명은 수술을 받고 안정된 상태다.<br/>그중 한 명의 이름이 공개됐다 — <strong>야쿠프 쿨리크</strong> 경관이다.<br/>법무장관이 직접 헌혈을 호소했고, 내무부는 "주저 없이 무장한 공격자와 맞섰다"고 했다.<br/>소셜미디어 영상에는 두 경관이 부상을 입고도 용의자에게 발포하는 장면이 담겼다.</p>
+
+<p align="center">오늘부터 폴란드는 국가 애도에 들어갔다.<br/>나브로츠키 대통령이 선포한 애도일은 오늘과 내일, 11월 8일과 9일이다.<br/>크라쿠프 시내에는 검은 깃발과 검은 리본을 단 국기가 걸렸다.<br/>광장은 일요일인 오늘도 봉쇄된 채로, 조문객들이 촛불을 놓고 있다.<br/>경찰은 광장 카페와 식당 근로자들의 가방을 일일이 확인하고 있다.<br/>성모 마리아 성당 탑에서 매시간 울리던 나팔 소리, 헤이날도 멈췄다.<br/>토요일 밤 9시부터 일요일 오전 9시까지 <strong>12시간</strong> 동안 울리지 않았다.<br/>폴란드 국영통신 PAP에 따르면 1939년 이후 처음 있는 일이다.<br/>오늘 오후 4시에는 성모 마리아 성당에서 희생자를 위한 특별 미사가 열린다.<br/>한국 시간으로는 11월 9일 0시다.</p>
+
+<p align="center">부상자 수는 매체마다 조금씩 다르다.<br/>이 글에서 써 온 집계는 부상자 <strong>15명</strong>(경찰관 2명 포함)이다.<br/>로이터는 경찰관 2명과 용의자 본인까지 포함해 <strong>17명</strong>이 다쳤다고 전했다.<br/>외국인 부상자 5명의 국적은 오스트리아·영국·독일·포르투갈·러시아로 확인돼 있다.</p>
+
 <p align="center"><strong>11월 8일 두 번째 업데이트 — 용의자 자택에서 3명 더 숨진 채 발견됐다. 사망자는 모두 9명이다.</strong><br/>토요일 늦은 밤, 경찰이 용의자의 집을 수색하다 시신 3구를 추가로 발견했다.<br/>숨진 사람은 여성 2명과 남성 1명이다.<br/>집은 크라쿠프에서 북쪽으로 200km 가까이 떨어진 오스트로비에츠시비엥토크시스키에 있다.<br/>투스크 총리는 "직계 가족일 가능성이 크다"고 했다.<br/>광장에서 숨진 6명을 합하면 사망자는 모두 <strong>9명</strong>이 됐다.</p>
 
-<p align="center">세 사람이 언제, 어떻게 숨졌는지는 아직 확인되지 않았다.<br/>경찰과 내무보안국(ABW)·군 방첩국(SKW)이 집과 광장 양쪽에서 수사를 이어가고 있다.<br/>투스크 총리는 집 안에 "상당한 양의 무기"가 있을 수 있어 드론으로 내부를 먼저 살펴봤다고 했다.<br/>건물 주민들은 대피했고, 대테러 부대가 건물에 들어갔다.<br/>세 사람의 신원은 아직 공식 발표되지 않았다.</p>
+<p align="center">세 사람이 언제, 어떻게 숨졌는지는 아직 확인되지 않았다.<br/>경찰과 내무보안국(ABW)·군 방첩국(SKW)이 집과 광장 양쪽에서 수사를 이어가고 있다.<br/>투스크 총리는 집 안에 "상당한 양의 무기"가 있을 수 있어 드론으로 내부를 먼저 살펴봤다고 했다.<br/>건물 주민들은 대피했고, 대테러 부대가 건물에 들어갔다.<br/>세 사람의 신원은 이 업데이트 시점에는 아직 공식 발표되지 않았으나, 이후 지역 경찰이 용의자의 부모와 여동생이라고 확인했다. 자세한 내용은 위 세 번째 업데이트를 참고.</p>
 
 <p align="center">동기에 대한 당국의 말도 한층 분명해졌다.<br/>내무장관 마르신 키에르빈스키는 "모든 정황이 용의자가 극우 이념에 영향을 받았다는 것을 가리킨다"고 했다.<br/>다만 이 역시 수사 대상이라며 단정하지는 않았다.<br/>부상자 가운데 외국인은 <strong>5명</strong>으로, 오스트리아·독일·포르투갈·러시아·영국 국적이다.<br/>내무부 대변인이 로이터에 확인한 내용이다.<br/>경찰은 용의자 혼자 범행했다는 입장을 유지하고 있고, 두 번째 용의자는 없다고 밝혔다.</p>
 
@@ -64,4 +72,4 @@ source:
 
 <p align="center">아직 모르는 게 많다.<br/>동기가 가장 큰 미지수다.<br/>경찰은 "배경과 모든 정황"을 조사하고 있다고만 밝혔고, 용의자의 이름도 공식 발표하지 않았다.<br/>총기를 어떻게 구했는지도 확인되지 않았다.<br/>폴란드는 총기 소유에 허가가 필요한 나라라, 군용 소총으로 보이는 총기가 어떻게 24세 남성의 손에 들어갔는지가 수사의 핵심이 될 것으로 보인다.<br/>범행을 미리 계획했는지, 혼자 준비한 것인지도 아직 밝혀지지 않았다.<br/>경찰은 용의자가 혼자 범행했다고 밝혔지만, 배경 조사가 끝나기 전에는 사건의 전모를 단정하기 어렵다.<br/>부상자 중 위중한 사람이 있어 사망자 수는 더 바뀔 수 있다.<br/>앞으로 볼 건 세 가지다.<br/>첫째, 수사 결과다.<br/>동기와 총기 입수 경로가 밝혀지면 사건의 성격이 드러난다.<br/>둘째, 애도 기간 이후의 대응이다.<br/>애도 기간 마지막 날인 11월 11일은 폴란드 독립기념일이다.<br/>11월 11일까지 이어지는 애도 기간이 끝나면, 광장 보안과 공공장소 안전 대책 논의가 본격화할 가능성이 크다.<br/>셋째, 정치권의 움직임이다.<br/>투스크 총리가 "비극을 이용하지 말라"고 먼저 선을 그은 만큼, 사건을 둘러싼 정쟁이 얼마나 자제되는지도 지켜볼 일이다.<br/>관광객이 몰리는 도시 한복판에서 벌어진 일이라, 폴란드의 공공장소 안전을 둘러싼 논의로 이어질 가능성이 크다.</p>
 
-참고한 기사 — [CNN](https://www.cnn.com/2026/11/07/europe/krakow-shooting-poland-killed-intl?cid=external-feeds_iluminar_meta) · [The Times](https://www.thetimes.com/world/europe/article/krakow-shooting-main-square-city-centre-poland-rn2xgdxbd) · [Al Jazeera](https://www.aljazeera.com/news/2026/11/7/casualties-reported-after-shooting-in-polands-krakow) · [에너지 라디오](https://energyradio.uk/krakow-shooting-main-market-square/) · [The Jerusalem Post](https://www.jpost.com/international/article-914135) · [Reuters via TV5](https://news.tv5.com.ph/breaking/read/poland-mourns-six-victims-of-deadly-krakow-incident)
+참고한 기사 — [CNN](https://www.cnn.com/2026/11/07/europe/krakow-shooting-poland-killed-intl?cid=external-feeds_iluminar_meta) · [The Times](https://www.thetimes.com/world/europe/article/krakow-shooting-main-square-city-centre-poland-rn2xgdxbd) · [Al Jazeera](https://www.aljazeera.com/news/2026/11/7/casualties-reported-after-shooting-in-polands-krakow) · [에너지 라디오](https://energyradio.uk/krakow-shooting-main-market-square/) · [The Jerusalem Post](https://www.jpost.com/international/article-914135) · [Reuters via TV5](https://news.tv5.com.ph/breaking/read/poland-mourns-six-victims-of-deadly-krakow-incident) · [FMT](https://www.freemalaysiatoday.com/category/world/2026/11/08/poland-mourns-6-dead-from-krakow-shooting-rampage) · [로이터](https://bworldonline.com/world/2026/11/08/792148/poland-in-shock-after-six-die-in-krakow-mass-shooting/)
