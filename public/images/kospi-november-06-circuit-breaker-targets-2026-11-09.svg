@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400" font-family="sans-serif">
+  <rect width="800" height="400" fill="#f4f1ea"/>
+  <text x="400" y="34" text-anchor="middle" font-size="21" font-weight="bold" fill="#20231f">증권사 코스피 전망, 줄줄이 하향</text>
+  <g font-size="13" fill="#62655d">
+    <rect x="470" y="50" width="14" height="14" fill="#16756a"/>
+    <text x="490" y="62">이전 목표·상단</text>
+    <rect x="610" y="50" width="14" height="14" fill="#e0795b"/>
+    <text x="630" y="62">새 목표·상단</text>
+  </g>
+  <g stroke="#d8d2c4" stroke-width="1">
+    <line x1="60" y1="85" x2="740" y2="85"/>
+    <line x1="60" y1="143" x2="740" y2="143"/>
+    <line x1="60" y1="200" x2="740" y2="200"/>
+    <line x1="60" y1="258" x2="740" y2="258"/>
+    <line x1="60" y1="315" x2="740" y2="315"/>
+  </g>
+  <g font-size="12" fill="#62655d" text-anchor="end">
+    <text x="52" y="89">12,000</text>
+    <text x="52" y="147">9,000</text>
+    <text x="52" y="204">6,000</text>
+    <text x="52" y="262">3,000</text>
+    <text x="52" y="319">0</text>
+  </g>
+  <g>
+    <rect x="83" y="85" width="52" height="230" fill="#16756a"/>
+    <rect x="145" y="143" width="52" height="172" fill="#e0795b"/>
+    <rect x="263" y="85" width="52" height="230" fill="#16756a"/>
+    <rect x="325" y="143" width="52" height="172" fill="#e0795b"/>
+    <rect x="443" y="95" width="52" height="220" fill="#16756a"/>
+    <rect x="505" y="187" width="52" height="128" fill="#e0795b"/>
+    <rect x="623" y="91" width="52" height="224" fill="#16756a"/>
+    <rect x="685" y="175" width="52" height="140" fill="#e0795b"/>
+  </g>
+  <g font-size="13" fill="#20231f" text-anchor="middle" font-weight="bold">
+    <text x="109" y="75">12,000</text>
+    <text x="171" y="133">9,000</text>
+    <text x="289" y="75">12,000</text>
+    <text x="351" y="133">9,000</text>
+    <text x="469" y="85">11,500</text>
+    <text x="531" y="177">6,700</text>
+    <text x="649" y="81">11,700</text>
+    <text x="711" y="165">7,300</text>
+  </g>
+  <g font-size="14" fill="#20231f" text-anchor="middle">
+    <text x="140" y="340" font-weight="bold">골드만삭스</text>
+    <text x="140" y="360" font-size="12" fill="#62655d">12개월 목표</text>
+    <text x="320" y="340" font-weight="bold">KB증권</text>
+    <text x="320" y="360" font-size="12" fill="#62655d">내년 상단</text>
+    <text x="500" y="340" font-weight="bold">대신증권</text>
+    <text x="500" y="360" font-size="12" fill="#62655d">4분기 상단</text>
+    <text x="680" y="340" font-weight="bold">DB증권</text>
+    <text x="680" y="360" font-size="12" fill="#62655d">4분기 상단</text>
+  </g>
+  <text x="400" y="390" text-anchor="middle" font-size="11" fill="#62655d" font-family="monospace">자료: 뉴시스 2026-11-09 보도. KB 이전값은 7월 연내 상단, 대신·DB 이전값은 6월 연내 상단.</text>
+</svg>
