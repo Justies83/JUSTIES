@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" font-family="sans-serif">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <text x="450" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#20231f">적응 자금, 필요한 돈의 10분의 1</text>
+  <text x="450" y="68" text-anchor="middle" font-size="14" fill="#62655d">개도국 기후 적응에 필요한 돈과 실제 흘러간 돈 (단위: 억 달러)</text>
+
+  <text x="60" y="130" font-size="16" fill="#20231f">2035년 연간 필요액</text>
+  <rect x="60" y="146" width="700" height="52" fill="#16756a"/>
+  <text x="772" y="179" font-size="20" font-weight="bold" fill="#20231f">3,050억 달러</text>
+
+  <text x="60" y="256" font-size="16" fill="#20231f">2024년 국제 공공 적응 자금</text>
+  <rect x="60" y="272" width="69" height="52" fill="#e0795b"/>
+  <text x="141" y="305" font-size="20" font-weight="bold" fill="#20231f">282~317억 달러 (약 300억 달러)</text>
+
+  <rect x="60" y="372" width="780" height="76" fill="#ffffff" stroke="#d8d2c4"/>
+  <text x="450" y="402" text-anchor="middle" font-size="15" fill="#20231f">2024년 실제 자금은 2035년 필요액의 약 10분의 1 수준</text>
+  <text x="450" y="428" text-anchor="middle" font-size="15" fill="#20231f">적응 격차가 그대로면 피해는 고스란히 개도국 주민의 몫</text>
+
+  <text x="450" y="492" text-anchor="middle" font-family="monospace" font-size="13" fill="#62655d">출처: UNEP 2026년 배출 격차 보고서 (The Nation, 2026.11.09)</text>
+</svg>
