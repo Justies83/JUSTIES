@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" font-family="sans-serif">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <text x="450" y="46" text-anchor="middle" font-size="22" font-weight="bold" fill="#20231f">11월 9일 코스피 장중 흐름 — 반등은 2.24%까지, 종가는 하락</text>
+  <line x1="90" y1="381" x2="850" y2="381" stroke="#b9b7ae" stroke-width="1"/>
+  <text x="84" y="385" text-anchor="end" font-size="13" fill="#62655d">5000</text>
+  <line x1="90" y1="299" x2="850" y2="299" stroke="#d8d5cc" stroke-width="1"/>
+  <text x="84" y="303" text-anchor="end" font-size="13" fill="#62655d">5050</text>
+  <line x1="90" y1="217" x2="850" y2="217" stroke="#d8d5cc" stroke-width="1"/>
+  <text x="84" y="221" text-anchor="end" font-size="13" fill="#62655d">5100</text>
+  <line x1="90" y1="135" x2="850" y2="135" stroke="#d8d5cc" stroke-width="1"/>
+  <text x="84" y="139" text-anchor="end" font-size="13" fill="#62655d">5150</text>
+  <line x1="90" y1="283" x2="850" y2="283" stroke="#16756a" stroke-width="1.5" stroke-dasharray="6,5"/>
+  <text x="846" y="272" text-anchor="end" font-size="13" fill="#16756a">전 거래일 종가 5059.69</text>
+  <line x1="90" y1="430" x2="850" y2="430" stroke="#20231f" stroke-width="2"/>
+  <polyline points="200,325 380,396 560,98 740,350" fill="none" stroke="#16756a" stroke-width="3"/>
+  <circle cx="200" cy="325" r="8" fill="#20231f"/>
+  <circle cx="380" cy="396" r="8" fill="#e0795b"/>
+  <circle cx="560" cy="98" r="8" fill="#16756a"/>
+  <circle cx="740" cy="350" r="8" fill="#e0795b"/>
+  <text x="200" y="300" text-anchor="middle" font-size="17" font-weight="bold" fill="#20231f">시가 5034.20</text>
+  <text x="380" y="428" text-anchor="middle" font-size="17" font-weight="bold" fill="#20231f">장중 저점 4990.66</text>
+  <text x="560" y="76" text-anchor="middle" font-size="17" font-weight="bold" fill="#20231f">장중 고점 5172.94</text>
+  <text x="740" y="325" text-anchor="middle" font-size="17" font-weight="bold" fill="#20231f">종가 5018.85</text>
+  <text x="200" y="462" text-anchor="middle" font-size="15" fill="#62655d">09:00 개장</text>
+  <text x="380" y="462" text-anchor="middle" font-size="15" fill="#62655d">장 초반</text>
+  <text x="560" y="462" text-anchor="middle" font-size="15" fill="#62655d">장중</text>
+  <text x="740" y="462" text-anchor="middle" font-size="15" fill="#62655d">15:30 마감</text>
+  <text x="450" y="500" text-anchor="middle" font-family="monospace" font-size="12" fill="#62655d">출처: 이투데이·연합뉴스 (2026.11.09) · 종가 기준 전일 대비 −40.84포인트(−0.81%)</text>
+</svg>
