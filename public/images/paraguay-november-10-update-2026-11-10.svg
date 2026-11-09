@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420" font-family="sans-serif">
+  <rect width="800" height="420" fill="#f4f1ea"/>
+  <text x="400" y="34" text-anchor="middle" font-size="21" font-weight="bold" fill="#20231f">우에노에 묶인 연금자금 — 노조 발표 기준</text>
+  <text x="40" y="70" font-size="14" fill="#20231f">국가연금기금(IPS)</text>
+  <rect x="40" y="82" width="560" height="34" fill="#16756a"/>
+  <text x="612" y="104" font-size="16" font-weight="bold" fill="#20231f">약 1조7,400억 과라니</text>
+  <text x="40" y="158" font-size="14" fill="#20231f">공무원연금기금(카하 피스칼) 원금</text>
+  <rect x="40" y="170" width="80" height="34" fill="#e0795b"/>
+  <text x="132" y="192" font-size="16" font-weight="bold" fill="#20231f">2,500억 과라니</text>
+  <text x="40" y="246" font-size="14" fill="#20231f">카하 피스칼 2030년까지 받을 이자</text>
+  <rect x="40" y="258" width="40" height="34" fill="#e8a88f"/>
+  <text x="92" y="280" font-size="16" font-weight="bold" fill="#20231f">1,238억 과라니</text>
+  <rect x="40" y="312" width="720" height="56" fill="#ffffff" stroke="#d8d2c4"/>
+  <text x="400" y="336" text-anchor="middle" font-size="14" fill="#20231f">카하 피스칼의 우에노 예금은 적립금의 8% — 나머지 92%는 다른 은행에 있다</text>
+  <text x="400" y="358" text-anchor="middle" font-size="14" fill="#20231f">노조는 연금 지급 자체는 보장된다고 밝혔다</text>
+  <text x="400" y="402" text-anchor="middle" font-family="monospace" font-size="12" fill="#62655d">출처: RDN, ABC Color (2026.11.09)</text>
+</svg>
