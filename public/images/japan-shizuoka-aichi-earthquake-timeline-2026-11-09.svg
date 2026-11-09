@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" font-family="sans-serif">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <text x="450" y="46" text-anchor="middle" font-size="22" font-weight="bold" fill="#20231f">11월 8~9일 지진 타임라인 — 본진과 뒤따른 흔들림</text>
+
+  <line x1="120" y1="90" x2="120" y2="400" stroke="#62655d" stroke-width="2"/>
+  <circle cx="120" cy="120" r="10" fill="#e0795b"/>
+  <text x="150" y="114" font-size="18" font-weight="bold" fill="#20231f">11월 8일 01:04 — 규모 5.7, 시즈오카현 서부 (깊이 41km)</text>
+  <text x="150" y="140" font-size="15" fill="#62655d">아이치현 지타시 최대진도 5강 · 나고야시 진도 4 · 쓰나미 없음</text>
+
+  <circle cx="120" cy="190" r="8" fill="#16756a"/>
+  <text x="150" y="184" font-size="18" font-weight="bold" fill="#20231f">11월 8일 02:03 — 규모 3.3, 아이치현 동부</text>
+  <text x="150" y="210" font-size="15" fill="#62655d">최대진도 2 · 9일 오전까지 진도 1 이상 여진은 이 한 차례뿐</text>
+
+  <circle cx="120" cy="260" r="8" fill="#16756a"/>
+  <text x="150" y="254" font-size="18" font-weight="bold" fill="#20231f">11월 9일 03:15 — 규모 3.5, 이바라키현 북부</text>
+  <text x="150" y="280" font-size="15" fill="#62655d">최대진도 2 · 시즈오카·아이치 일대와 진원이 떨어진 별개 지진</text>
+
+  <circle cx="120" cy="330" r="8" fill="#16756a"/>
+  <text x="150" y="324" font-size="18" font-weight="bold" fill="#20231f">11월 9일 05:16 — 규모 4.5, 미야기현 앞바다</text>
+  <text x="150" y="350" font-size="15" fill="#62655d">최대진도 3 · 쓰나미 우려 없음</text>
+
+  <line x1="70" y1="390" x2="830" y2="390" stroke="#62655d" stroke-width="1"/>
+  <text x="450" y="428" text-anchor="middle" font-size="17" fill="#20231f">부상자 <tspan font-weight="bold">22명</tspan> · 신칸센 지연 승객 약 <tspan font-weight="bold">6만 명</tspan> · 아이치 진도 5강은 약 <tspan font-weight="bold">30년 만</tspan></text>
+  <text x="450" y="462" text-anchor="middle" font-size="14" fill="#62655d">기상청: 일주일간 최대 진도 5강 주의 · 첫 2~3일 특히 주의 · 과거 사례에서 비슷한 규모 여진 비율 10~20%</text>
+  <text x="450" y="496" text-anchor="middle" font-size="13" fill="#62655d" font-family="monospace">출처: 이투데이 2026-11-09, 일본 기상청 발표 · 시간은 모두 일본 현지시간</text>
+</svg>
