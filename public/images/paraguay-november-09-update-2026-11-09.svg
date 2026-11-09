@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400" font-family="sans-serif">
+  <rect width="800" height="400" fill="#f4f1ea"/>
+  <text x="400" y="34" text-anchor="middle" font-size="21" font-weight="bold" fill="#20231f">파업이 요구하는 돈</text>
+  <text x="40" y="72" font-size="14" fill="#20231f">공무원연금기금(카하 피스칼)</text>
+  <rect x="40" y="84" width="96" height="36" fill="#e0795b"/>
+  <text x="150" y="108" font-size="16" font-weight="bold" fill="#20231f">6천만 달러</text>
+  <text x="40" y="160" font-size="14" fill="#20231f">국가연금기금(IPS)</text>
+  <rect x="40" y="172" width="560" height="36" fill="#16756a"/>
+  <text x="612" y="196" font-size="16" font-weight="bold" fill="#20231f">약 3억5천만 달러</text>
+  <rect x="40" y="240" width="720" height="80" fill="#ffffff" stroke="#d8d2c4"/>
+  <text x="400" y="272" text-anchor="middle" font-size="14" fill="#20231f">2025년 7월 31일 정기예금 — 카하 피스칼 1조 과라니 중 우에노 몫</text>
+  <text x="400" y="300" text-anchor="middle" font-size="20" font-weight="bold" fill="#16756a">2,500억 과라니 (25%)</text>
+  <text x="400" y="378" text-anchor="middle" font-family="monospace" font-size="12" fill="#62655d">출처: HOY, 라나시온, 파라과이 경제재정부 발표 (2026.11.09)</text>
+</svg>
