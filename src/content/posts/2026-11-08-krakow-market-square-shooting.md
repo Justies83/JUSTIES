@@ -3,14 +3,24 @@ title: "관광객으로 붐비던 광장이 총성으로 멈췄다 — 크라쿠
 date: 2026-11-08
 category: world
 kind: news
-takeaway: "폴란드 검찰이 크라쿠프 총격을 테러 범죄로 정식 수사하기 시작했다. 광장 6명과 자택 3명을 한 사건으로 묶었고, 용의자는 아직 중태라 심문도 기소도 이뤄지지 않았다. 광장에서 숨진 6명은 폴란드인 4명, 영국인 1명, 오스트리아인 1명으로 확인됐고, 자택에서 숨진 여동생은 크라쿠프 미술대학 3학년 막달레나 옥신스카(21)였다. 일요일 오후 성모 마리아 성당에서 희생자 미사가 열렸고, 용의자를 막은 경찰관 2명은 모두 의식을 되찾았다. 부검은 월요일 아침 시작되고, 월요일 저녁 광장에서는 연대 촛불 집회가 열린다."
-tags: [크라쿠프, 폴란드, 총격, 리네크 그우브니, 도널드 투스크, 총기 규제, 테러, 11월 8일 업데이트, 11월 8일 두 번째 업데이트, 11월 8일 세 번째 업데이트, 11월 8일 네 번째 업데이트]
+takeaway: "크라쿠프 총격 용의자 미하우 옥신스키(24)가 월요일 새벽 병원에서 숨졌다. 세 차례 수술을 받았지만 회복하지 못했고, 심문과 기소는 이뤄지지 않게 됐다. 검찰은 용의자가 특정 이념에 영향받았다고 단정할 증거가 없다고 밝혔고, 정부는 총기 허가 제도를 재검토하겠다고 했다. 부상자 15명은 병원에 남아 있고, 경찰관 1명은 중태다. 사망자는 광장 6명과 자택 3명, 모두 9명이다."
+tags: [크라쿠프, 폴란드, 총격, 리네크 그우브니, 도널드 투스크, 총기 규제, 테러, 11월 8일 업데이트, 11월 8일 두 번째 업데이트, 11월 8일 세 번째 업데이트, 11월 8일 네 번째 업데이트, 11월 9일 업데이트]
 cover: /images/krakow-market-square-shooting-2026-11-08.jpg
 coverAlt: "크라쿠프 메인 마켓 광장 중앙의 수키엔니체(직물회관)"
 source:
   name: "CNN (2026.11.07)"
   url: https://www.cnn.com/2026/11/07/europe/krakow-shooting-poland-killed-intl?cid=external-feeds_iluminar_meta
 ---
+
+<p align="center"><strong>11월 9일 업데이트 — 용의자가 병원에서 숨졌다. 동기는 아직 확인되지 않았다.</strong><br/>월요일 새벽, 크라쿠프 총격 용의자 미하우 옥신스키(24)가 병원에서 숨졌다.<br/>경찰에 총을 맞고 이송된 뒤 세 차례 수술을 받았지만 끝내 회복하지 못했다.<br/>지역 당국이 밝힌 사망 시각은 현지 시간 새벽 4시 30분쯤이다.<br/>이로써 심문도 기소도, 월요일에 정해질 예정이던 다음 절차도 모두 사라졌다.<br/>법무장관 발데마르 주레크는 용의자가 숨졌어도 수사는 계속된다고 했다.<br/>혼자 범행했는지, 어떤 단체의 영향을 받았는지 끝까지 밝히겠다는 말이다.</p>
+
+<p align="center">동기를 둘러싼 말은 월요일 하루 사이 갈렸다.<br/>정부는 토요일부터 용의자가 극우 이념에 매료됐다고 했고, 내무장관은 "매우 급진적인 견해"를 갖고 있었다고 했다.<br/>하지만 월요일 기자회견에 나선 국가검찰청 대변인 프셰미스와프 노바크는 "책임 있게 특정 이념에 영향받았다고 단정할 만한 결과가 없다"고 했다.<br/>용의자 방에서 노란색 개즈든 깃발("Don't tread on me" — 발로 밟지 마라)이 나왔지만, 노바크는 그 깃발이 자유나 반항과 관련된 여러 의미를 갖고 있고 극단주의와 널리 연결된 상징은 아니라고 했다.<br/>옷에 달린 여러 표식도 전문가들이 부분적으로 살펴보고 있다.<br/>정부 대변인 아담 슈왑카는 "사안이 완전히 밝혀지고 당국이 완전한 정보를 갖기 전에는 언급을 자제하는 게 좋다"며 한발 물러섰다.<br/>야당 법과정의당의 야로스와프 카친스키 대표는 정부의 극우 주장을 "노골적인 거짓말"이라고 했다.</p>
+
+<p align="center">부상자 15명은 아직 병원에 남아 있다.<br/>14명은 상태가 안정적이고, 용의자를 제압하는 과정에 다친 경찰관 1명은 중태다.<br/>다친 경찰관 2명은 모두 의식을 되찾았고 수술을 받았다.<br/>차 안과 용의자 소지품에서는 총기 4정과 수백 발의 탄약이 나왔다.<br/>검찰은 현장에서 회수한 빈 탄피가 "아주 많다"며 최소 수십 발, 어쩌면 수백 발이 발사됐을 수 있다고 했다.<br/>용의자는 올해 총기 소지 허가를 받았고, 아버지와 함께 사격장 회원이었다.<br/>전과 기록은 없는 것으로 전해진다.<br/>정부는 이번 사건을 계기로 총기 허가 요건을 재검토하겠다고 했다.</p>
+
+<p align="center"><img src="/images/krakow-november-09-update-2026-11-09.svg" alt="크라쿠프 11월 9일 업데이트 — 용의자 사망, 부상자 15명 입원 중, 동기는 미확인" style="max-width:100%;height:auto;"/></p>
+
+<p align="center" class="caption">도표는 로이터·CNN·AFP 11월 9일 보도를 바탕으로 직접 만들었다.</p>
 
 <p align="center"><strong>11월 8일 네 번째 업데이트 — 검찰이 테러 범죄로 정식 수사에 들어갔고, 희생자 6명의 국적이 모두 확인됐다.</strong><br/>일요일, 폴란드 국가검찰청이 크라쿠프 광장 살인 6건과 오스트로비에츠시비엥토크시스키 자택 살인 3건을 한 사건으로 묶어 테러 범죄로 정식 수사에 착수했다.<br/>혐의는 살인과 살인미수, 경찰관에 대한 공격도 포함된다.<br/>검찰 대변인 토마시 바슈추크는 테러를 "검찰이 가장 유력하게 보는 방향"이라고 했다.<br/>크라쿠프 지부는 토요일에 이미 같은 사건을 테러 범죄로 수사하겠다고 밝힌 바 있다.<br/>다만 용의자는 아직 정식으로 체포되거나 기소되지 않았다.<br/>여러 차례 수술을 받고 중태에 빠져 있어 심문이 불가능한 상태고, 검찰은 용의자가 살아남으면 월요일에 다음 절차를 정한다고 했다.<br/>유죄가 되면 종신형이 가능하다.</p>
 
@@ -88,4 +98,4 @@ source:
 
 <p align="center">아직 모르는 게 많다.<br/>동기가 가장 큰 미지수다.<br/>경찰은 "배경과 모든 정황"을 조사하고 있다고만 밝혔고, 용의자의 이름도 공식 발표하지 않았다.<br/>총기를 어떻게 구했는지도 확인되지 않았다.<br/>폴란드는 총기 소유에 허가가 필요한 나라라, 군용 소총으로 보이는 총기가 어떻게 24세 남성의 손에 들어갔는지가 수사의 핵심이 될 것으로 보인다.<br/>범행을 미리 계획했는지, 혼자 준비한 것인지도 아직 밝혀지지 않았다.<br/>경찰은 용의자가 혼자 범행했다고 밝혔지만, 배경 조사가 끝나기 전에는 사건의 전모를 단정하기 어렵다.<br/>부상자 중 위중한 사람이 있어 사망자 수는 더 바뀔 수 있다.<br/>앞으로 볼 건 세 가지다.<br/>첫째, 수사 결과다.<br/>동기와 총기 입수 경로가 밝혀지면 사건의 성격이 드러난다.<br/>둘째, 애도 기간 이후의 대응이다.<br/>애도 기간 마지막 날인 11월 11일은 폴란드 독립기념일이다.<br/>11월 11일까지 이어지는 애도 기간이 끝나면, 광장 보안과 공공장소 안전 대책 논의가 본격화할 가능성이 크다.<br/>셋째, 정치권의 움직임이다.<br/>투스크 총리가 "비극을 이용하지 말라"고 먼저 선을 그은 만큼, 사건을 둘러싼 정쟁이 얼마나 자제되는지도 지켜볼 일이다.<br/>관광객이 몰리는 도시 한복판에서 벌어진 일이라, 폴란드의 공공장소 안전을 둘러싼 논의로 이어질 가능성이 크다.</p>
 
-참고한 기사 — [CNN](https://www.cnn.com/2026/11/07/europe/krakow-shooting-poland-killed-intl?cid=external-feeds_iluminar_meta) · [The Times](https://www.thetimes.com/world/europe/article/krakow-shooting-main-square-city-centre-poland-rn2xgdxbd) · [Al Jazeera](https://www.aljazeera.com/news/2026/11/7/casualties-reported-after-shooting-in-polands-krakow) · [에너지 라디오](https://energyradio.uk/krakow-shooting-main-market-square/) · [The Jerusalem Post](https://www.jpost.com/international/article-914135) · [Reuters via TV5](https://news.tv5.com.ph/breaking/read/poland-mourns-six-victims-of-deadly-krakow-incident) · [FMT](https://www.freemalaysiatoday.com/category/world/2026/11/08/poland-mourns-6-dead-from-krakow-shooting-rampage) · [로이터](https://bworldonline.com/world/2026/11/08/792148/poland-in-shock-after-six-die-in-krakow-mass-shooting/) · [AP](https://www.bastillepost.com/global/article/6337870-what-to-know-about-the-shooting-in-the-polish-city-of-krakow-that-killed-6-people) · [가디언](https://worldrightnowlive.com/story/polish-prosecutors-open-terrorism-investigation-into-krak-w-shooting) · [에너지 라디오](https://energyradio.uk/krakow-shooting-latest/)
+참고한 기사 — [CNN](https://www.cnn.com/2026/11/07/europe/krakow-shooting-poland-killed-intl?cid=external-feeds_iluminar_meta) · [The Times](https://www.thetimes.com/world/europe/article/krakow-shooting-main-square-city-centre-poland-rn2xgdxbd) · [Al Jazeera](https://www.aljazeera.com/news/2026/11/7/casualties-reported-after-shooting-in-polands-krakow) · [에너지 라디오](https://energyradio.uk/krakow-shooting-main-market-square/) · [The Jerusalem Post](https://www.jpost.com/international/article-914135) · [Reuters via TV5](https://news.tv5.com.ph/breaking/read/poland-mourns-six-victims-of-deadly-krakow-incident) · [FMT](https://www.freemalaysiatoday.com/category/world/2026/11/08/poland-mourns-6-dead-from-krakow-shooting-rampage) · [로이터](https://bworldonline.com/world/2026/11/08/792148/poland-in-shock-after-six-die-in-krakow-mass-shooting/) · [AP](https://www.bastillepost.com/global/article/6337870-what-to-know-about-the-shooting-in-the-polish-city-of-krakow-that-killed-6-people) · [가디언](https://worldrightnowlive.com/story/polish-prosecutors-open-terrorism-investigation-into-krak-w-shooting) · [에너지 라디오](https://energyradio.uk/krakow-shooting-latest/) · [CNN](https://www.cnn.com/2026/11/09/europe/krakow-shooting-poland-gunman-dead-intl-hnk?cid=external-feeds_iluminar_meta) · [로이터](https://www.reuters.com/world/europe/krakow-mass-shooting-assailant-died-hospital-polish-police-say-2026-11-09/) · [AFP via IOL](https://iol.co.za/news/world/2026-11-09-poland-gunman-dies-after-deadly-krakow-shooting-that-killed-six/)
