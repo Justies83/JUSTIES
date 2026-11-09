@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" font-family="sans-serif">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <text x="450" y="46" text-anchor="middle" font-size="22" font-weight="bold" fill="#20231f">엔비디아 시가총액 — 10월 고점 이후 한 달</text>
+  <line x1="120" y1="420" x2="820" y2="420" stroke="#20231f" stroke-width="2"/>
+  <rect x="220" y="120" width="150" height="300" fill="#16756a"/>
+  <text x="295" y="105" text-anchor="middle" font-size="20" font-weight="bold" fill="#20231f">5.777조 달러</text>
+  <text x="295" y="450" text-anchor="middle" font-size="16" fill="#20231f">10월 6일 고점</text>
+  <rect x="530" y="204" width="150" height="216" fill="#e0795b"/>
+  <text x="605" y="189" text-anchor="middle" font-size="20" font-weight="bold" fill="#20231f">4.507조 달러</text>
+  <text x="605" y="450" text-anchor="middle" font-size="16" fill="#20231f">11월 6일 종가 기준</text>
+  <text x="450" y="80" text-anchor="middle" font-size="16" fill="#62655d">한 달 새 1.27조 달러(약 22%) 증발 · 금요일 종가 186.64달러(+2.78%)</text>
+  <text x="450" y="492" text-anchor="middle" font-family="monospace" font-size="12" fill="#62655d">출처: YCharts·StockAnalysis (2026.10.06 / 2026.11.06)</text>
+</svg>
