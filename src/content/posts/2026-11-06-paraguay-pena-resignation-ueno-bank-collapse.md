@@ -3,14 +3,24 @@ title: "은행 하나가 대통령을 끌어내렸다 — 파라과이 우에노
 date: 2026-11-06
 category: world
 kind: news
-takeaway: "파라과이 대통령 산티아고 페냐가 디지털은행 우에노의 붕괴 사흘 만에 사임을 발표했고, 의회는 사임을 수리하지 않고 상원 탄핵으로 파면했다. 토요일 검찰은 페냐를 배임과 사적 이익을 위한 관리 혐의로 기소했고, 움베르토 오타수 판사는 군 기지 구금을 명령했다. 두 혐의가 모두 유죄가 되면 최대 20년형이 가능하다. 중앙은행은 우에노 고객 120만 명이 예금의 전부 또는 일부를 돌려받았다고 밝혔고, 새 대통령 페드로 아야나는 새 내각 인선에 들어갔다."
-tags: [파라과이, 산티아고 페냐, 우에노은행, 탄핵, 은행 위기, 남미, 페드로 아야나, 콜로라도당, 11월 7일 업데이트, 11월 8일 업데이트]
+takeaway: "파라과이 대통령 산티아고 페냐가 디지털은행 우에노의 붕괴 사흘 만에 사임을 발표했고, 의회는 사임을 수리하지 않고 상원 탄핵으로 파면했다. 토요일 검찰은 페냐를 배임과 사적 이익을 위한 관리 혐의로 기소했고, 움베르토 오타수 판사는 군 기지 구금을 명령했다. 두 혐의가 모두 유죄가 되면 최대 20년형이 가능하다. 중앙은행은 우에노 고객 120만 명이 예금의 전부 또는 일부를 돌려받았다고 밝혔고, 새 대통령 페드로 아야나는 새 내각 인선에 들어갔다. 11월 9일에는 교원 5개 노조가 우에노에 묶인 공무원연금기금 6천만 달러와 국가연금기금 약 3억5천만 달러의 반환을 요구하며 전국 파업에 들어갔고, 아순시온 등 세 곳에서는 학교 급식도 중단됐다."
+tags: [파라과이, 산티아고 페냐, 우에노은행, 탄핵, 은행 위기, 남미, 페드로 아야나, 콜로라도당, 11월 7일 업데이트, 11월 8일 업데이트, 11월 9일 업데이트]
 cover: /images/paraguay-pena-resignation-ueno-bank-collapse-2026-11-06.jpg
 coverAlt: "아순시온의 파라과이 국회의사당"
 source:
   name: "AP통신 (2026.11.06)"
   url: https://gulfnews.com/world/americas/paraguay-faces-crisis-over-bank-collapse-president-santiago-pena-resigns-1.500737533
 ---
+
+<p align="center"><strong>11월 9일 업데이트 — 전국 교원 파업이 시작됐다. 아야나 정부가 맞는 첫 대규모 시위다.</strong><br/>월요일 오전 8시, 파라과이 전국 공립학교의 수업이 멈췄다.<br/>교사들은 아순시온 국회의사당 앞 아르마스 광장과 각 주의 중심 도시에 모여 우에노은행에 묶인 연금자금 반환을 요구했다.<br/>전국교원연합(UNE), 파라과이교원연맹(FEP), 교원노동자조직(Otep-Auténtica·Otep-SN), 전국교장노조(Sinadi) 등 5개 노조가 함께 나섰다.<br/>금요일 취임한 페드로 아야나 대통령이 취임 사흘 만에 맞는 첫 전국 규모의 시위다.</p>
+
+<p align="center">핵심 요구는 돈의 반환이다.<br/>노조는 공무원연금기금(카하 피스칼)에 묶인 <strong>6천만 달러</strong>의 전액 반환을 요구했고, 국가연금기금(IPS) 자금 <strong>약 3억5천만 달러</strong>의 회수도 함께 걸었다.<br/>교원연맹 대표 실비오 피리스는 "6천만 달러가 날아갈 위기에 처했다. 그렇게 되면 공무원연금기금은 사실상 파산"이라고 말했다.<br/><strong>8%</strong> 임금 인상과 2027년 예산의 교육 투자 확대도 요구안에 들어갔다.<br/>연맹은 연금자금 반환을 보장하는 특별법 제정안도 들고 나왔다.<br/>특별법은 우에노에 예치된 연금자금의 반환 절차와 우선순위를 법으로 정하자는 취지다.</p>
+
+<p align="center">파업 여파는 교실을 넘어 급식까지 번졌다.<br/>사회개발부는 아순시온과 센트랄주, 프레시덴테아예스주에서 오늘 학교 급식 프로그램 '암브레 세로' 운영을 중단한다고 확인했다.<br/>학생이 오지 않는 학교에서 음식을 버리지 않기 위한 조치다.<br/>노조 발표로는 대표단이 오전 <strong>11시 30분</strong> 아야나 대통령과 면담할 예정이다.<br/>이 업데이트 시점에는 면담 결과가 아직 나오지 않았다.<br/>경제재정부는 지난 6일 공무원연금기금이 2025년 7월 31일 네 곳 은행에 정기예금으로 <strong>1조 과라니</strong>를 맡겼고, 그중 우에노 몫이 <strong>2천5백억 과라니(25%)</strong>였다고 확인했다.<br/>노조는 정부가 답을 내놓을 때까지 무기한 파업을 이어가겠다고 밝혔다.</p>
+
+<p align="center"><img src="/images/paraguay-november-09-update-2026-11-09.svg" alt="파업이 요구하는 돈 — 공무원연금기금 6천만 달러, 국가연금기금 약 3억5천만 달러, 2025년 7월 정기예금 중 우에노 몫 2,500억 과라니(25%)" style="max-width:100%;height:auto;"/></p>
+
+<p align="center" class="caption">도표는 HOY·라나시온·파라과이 경제재정부 발표 수치를 바탕으로 직접 만들었다.</p>
 
 <p align="center"><strong>11월 8일 업데이트 — 페냐가 기소됐고, 판사는 군 기지 구금을 명령했다.</strong><br/>토요일 오전, 페냐는 아순시온 검찰청에 출석해 약 <strong>3시간</strong> 동안 조사를 받았다.<br/>수갑은 차지 않았고 경찰의 호위를 받으며 들어갔다.<br/>조사가 끝난 뒤 검찰은 페냐를 두 가지 혐의로 기소했다.<br/>배임과 사적 이익을 위한 관리, 맡은 돈을 자기 이익을 위해 굴렸다는 혐의다.<br/>부패·경제범죄 담당 검사 낸시 살로몬은 두 혐의가 모두 유죄로 인정되면 최대 <strong>20년</strong>의 징역형이 가능하다고 밝혔다.<br/>검찰은 페냐의 자산을 동결하고 수사가 이어지는 동안 구금해 달라고 판사에게 요청했다.</p>
 
@@ -68,4 +78,4 @@ source:
 
 <p align="center">앞으로 볼 건 세 가지다.<br/>첫째, 금요일 상원 심리다.<br/>페냐가 파면되면 아야나가 2028년 8월 15일까지 남은 임기를 이어받게 되고, 새 부통령도 뽑아야 한다.<br/>둘째, 예금 반환 속도다.<br/>28만 명의 계좌 이전이 시작됐지만, 300만 명에 가까운 예금자 전원이 돈을 온전히 돌려받는 시점은 아직 아무도 모른다.<br/>셋째, 감독의 책임이다.<br/>검사관들이 6월에 위험 신호를 잡았는데도 은행이 5개월 더 굴러갔다는 사실, 그리고 감독기관 수장과 대통령의 인연이 어떻게 작용했는지가 이번 사태의 본질에 가깝다.<br/>국민 절반의 돈을 쥔 디지털은행 하나가 무너지자 사흘 만에 대통령이 물러나겠다고 선언한 나라.<br/>핀테크가 가파르게 자라는 동안 감독이 따라가지 못하면, 그 대가는 예금자의 통장에서 시작해 대통령의 자리까지 번진다는 걸 파라과이가 보여줬다.</p>
 
-참고한 기사 — [AP통신](https://gulfnews.com/world/americas/paraguay-faces-crisis-over-bank-collapse-president-santiago-pena-resigns-1.500737533) · [로이터](https://bworldonline.com/world/2026/11/06/791982/paraguays-pena-resigns-as-bank-collapse-triggers-political-crisis/) · [AFP](https://www.malaymail.com/news/world/2026/11/06/paraguay-president-quits-as-ueno-bank-crisis-sparks-protests-impeachment-proceedings/242135) · [알자지라](https://www.aljazeera.com/economy/2026/11/5/paraguay-president-pena-resigns-in-wake-of-bank-collapse) · [SBS](https://news.sbs.co.kr/english/article.do?news_id=N1008833584) · [MercoPress](https://en.mercopress.com/2026/11/05/paraguay-s-santiago-pena-tenders-his-resignation-but-congress-presses-ahead-with-impeachment) · [AP통신](https://www.1news.co.nz/2026/11/07/ousted-paraguayan-president-placed-under-house-arrest-after-bank-collapse/) · [CNN](https://www.cnn.com/2026/11/05/americas/president-paraguay-resigns-latam-intl?cid=external-feeds_iluminar_meta) · [AP통신](https://www.theweek.in/wire-updates/international/2026/11/08/paraguay-s-ousted-president-charged-with-crimes-linked-to-collapse-of-major-bank.html) · [로이터](https://www.gmanetwork.com/news/topstories/world/1008705/judge-orders-paraguay-s-ex-president-pe-a-held-before-trial/story/)
+참고한 기사 — [AP통신](https://gulfnews.com/world/americas/paraguay-faces-crisis-over-bank-collapse-president-santiago-pena-resigns-1.500737533) · [로이터](https://bworldonline.com/world/2026/11/06/791982/paraguays-pena-resigns-as-bank-collapse-triggers-political-crisis/) · [AFP](https://www.malaymail.com/news/world/2026/11/06/paraguay-president-quits-as-ueno-bank-crisis-sparks-protests-impeachment-proceedings/242135) · [알자지라](https://www.aljazeera.com/economy/2026/11/5/paraguay-president-pena-resigns-in-wake-of-bank-collapse) · [SBS](https://news.sbs.co.kr/english/article.do?news_id=N1008833584) · [MercoPress](https://en.mercopress.com/2026/11/05/paraguay-s-santiago-pena-tenders-his-resignation-but-congress-presses-ahead-with-impeachment) · [AP통신](https://www.1news.co.nz/2026/11/07/ousted-paraguayan-president-placed-under-house-arrest-after-bank-collapse/) · [CNN](https://www.cnn.com/2026/11/05/americas/president-paraguay-resigns-latam-intl?cid=external-feeds_iluminar_meta) · [AP통신](https://www.theweek.in/wire-updates/international/2026/11/08/paraguay-s-ousted-president-charged-with-crimes-linked-to-collapse-of-major-bank.html) · [로이터](https://www.gmanetwork.com/news/topstories/world/1008705/judge-orders-paraguay-s-ex-president-pe-a-held-before-trial/story/) · [라나시온](https://www.lanacion.com.py/pais/2026/11/09/arranca-movilizacion-nacional-de-docentes/) · [HOY](https://www.hoy.com.py/nacionales/2026/11/09/docentes-marchan-para-exigir-devolucion-de-usd-60-millones-a-la-caja-fiscal) · [미시오네스 온라인](https://misionesonline.net/2026/11/08/paraguay-ueno-bank-docentes/)
