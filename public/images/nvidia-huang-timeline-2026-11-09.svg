@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" font-family="sans-serif">
+  <rect width="900" height="560" fill="#f4f1ea"/>
+  <text x="450" y="46" text-anchor="middle" font-size="22" font-weight="bold" fill="#20231f">엔비디아 황 CEO 논란 타임라인</text>
+  <line x1="90" y1="86" x2="90" y2="500" stroke="#16756a" stroke-width="3"/>
+  <circle cx="90" cy="108" r="9" fill="#e0795b"/>
+  <text x="120" y="104" font-size="18" font-weight="bold" fill="#20231f">10월 29일 — 뉴욕타임스 첫 보도</text>
+  <text x="120" y="130" font-size="15" fill="#20231f">미 정보기관, 앨리스 황이 베이징에 정보 전달한다고 결론</text>
+  <circle cx="90" cy="172" r="9" fill="#e0795b"/>
+  <text x="120" y="168" font-size="18" font-weight="bold" fill="#20231f">11월 4일 — 하원 3개 위원장 서한</text>
+  <text x="120" y="194" font-size="15" fill="#20231f">11월 18일 비공개 브리핑 요청 · 11월 11일까지 답변 요구</text>
+  <circle cx="90" cy="236" r="9" fill="#e0795b"/>
+  <text x="120" y="232" font-size="18" font-weight="bold" fill="#20231f">11월 6일 — 루비오 메모 보도</text>
+  <text x="120" y="258" font-size="15" fill="#20231f">국무장관이 주도한 메모, 지난봄 고위 관리들에 회람</text>
+  <circle cx="90" cy="300" r="9" fill="#16756a"/>
+  <text x="120" y="296" font-size="18" font-weight="bold" fill="#20231f">11월 8일 — 이사회 독립 조사 착수</text>
+  <text x="120" y="322" font-size="15" fill="#20231f">황 CEO, 직원 메모에서 불륜 인정 · 조사에 전면 협조 약속</text>
+  <circle cx="90" cy="364" r="9" fill="#16756a"/>
+  <text x="120" y="360" font-size="18" font-weight="bold" fill="#20231f">11월 11일 — 하원 브리핑 답변 기한</text>
+  <text x="120" y="386" font-size="15" fill="#20231f">황 CEO가 11월 18일 브리핑 참석 여부를 답해야 하는 날</text>
+  <circle cx="90" cy="428" r="9" fill="#16756a"/>
+  <text x="120" y="424" font-size="18" font-weight="bold" fill="#20231f">11월 17일 — 엔비디아 3분기 실적 발표</text>
+  <text x="120" y="450" font-size="15" fill="#20231f">장 마감 후 발표 · 11월 18일 하원 비공개 브리핑 예정</text>
+  <text x="450" y="528" text-anchor="middle" font-family="monospace" font-size="12" fill="#62655d">출처: 뉴욕타임스·엔비디아 뉴스룸·미 하원·Axios (2026.10.29–11.08)</text>
+</svg>
