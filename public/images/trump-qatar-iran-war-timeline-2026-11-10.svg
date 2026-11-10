@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="44" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">IRAN WAR · 2026.02.28–11.09</text>
+  <text x="74" y="72" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">개전부터 '사실상 종료' 선언까지</text>
+
+  <line x1="90" y1="196" x2="810" y2="196" stroke="#16756a" stroke-width="2.5"/>
+  <circle cx="110" cy="196" r="8" fill="#f4f1ea" stroke="#16756a" stroke-width="3"/>
+  <circle cx="350" cy="196" r="8" fill="#f4f1ea" stroke="#16756a" stroke-width="3"/>
+  <circle cx="570" cy="196" r="8" fill="#f4f1ea" stroke="#16756a" stroke-width="3"/>
+  <circle cx="790" cy="196" r="8" fill="#e0795b" stroke="#e0795b" stroke-width="3"/>
+
+  <text x="110" y="150" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#62655d">2026.02.28</text>
+  <text x="110" y="176" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="16" fill="#20231f">전쟁 시작</text>
+  <text x="110" y="228" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#62655d">미·이스라엘 공습 개시</text>
+  <text x="110" y="250" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#62655d">이란, 호르무즈 봉쇄</text>
+
+  <text x="350" y="150" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#62655d">2026.06</text>
+  <text x="350" y="176" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="16" fill="#20231f">12일 전쟁</text>
+  <text x="350" y="228" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#62655d">농축 프로그램 "궤멸" 주장</text>
+  <text x="350" y="250" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#62655d">이후에도 간헐적 교전</text>
+
+  <text x="570" y="150" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#62655d">2026.11.04</text>
+  <text x="570" y="176" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="16" fill="#20231f">중간선거</text>
+  <text x="570" y="228" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#62655d">공화당 상·하원 패배</text>
+  <text x="570" y="250" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#62655d">밴스 "원인은 전쟁"</text>
+
+  <text x="790" y="150" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#e0795b">2026.11.09</text>
+  <text x="790" y="176" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="16" fill="#20231f">카타르 총리 회동</text>
+  <text x="790" y="228" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#62655d">"군사적으로 사실상 끝났다"</text>
+  <text x="790" y="250" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="13.5" fill="#62655d">봉쇄는 계속</text>
+
+  <rect x="74" y="300" width="240" height="120" fill="none" stroke="rgba(32,35,31,.16)"/>
+  <text x="194" y="336" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="22" fill="#16756a">470억 달러 이상</text>
+  <text x="194" y="366" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">미군 전쟁 비용</text>
+  <text x="194" y="390" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#62655d">10월 16일 기준, 기지 피해액 제외</text>
+
+  <rect x="330" y="300" width="240" height="120" fill="none" stroke="rgba(32,35,31,.16)"/>
+  <text x="450" y="336" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="22" fill="#16756a">약 5만 명</text>
+  <text x="450" y="366" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">중부사령부 관할 파병 병력</text>
+  <text x="450" y="390" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#62655d">국방부 추산 기준</text>
+
+  <rect x="586" y="300" width="240" height="120" fill="none" stroke="rgba(32,35,31,.16)"/>
+  <text x="706" y="336" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="22" fill="#e0795b">사망 23명 · 부상 865명</text>
+  <text x="706" y="366" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="14" fill="#20231f">미군 사상자</text>
+  <text x="706" y="390" text-anchor="middle" font-family="'IBM Plex Sans KR',sans-serif" font-size="13" fill="#62655d">미군 공식 사상자 데이터베이스</text>
+
+  <text x="74" y="472" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">날짜·수치: 알자지라·AP·USA투데이 11월 9일 보도 — 직접 작성</text>
+  <text x="74" y="496" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">비용은 기지 피해액 제외, 사상자는 개전 이후 누적</text>
+</svg>
