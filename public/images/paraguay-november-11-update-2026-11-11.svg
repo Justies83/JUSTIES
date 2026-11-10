@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420" font-family="sans-serif">
+  <rect width="800" height="420" fill="#f4f1ea"/>
+  <text x="400" y="34" text-anchor="middle" font-size="21" font-weight="bold" fill="#20231f">11월 9~10일 — 수사·인사 타임라인</text>
+  <line x1="168" y1="60" x2="168" y2="360" stroke="#16756a" stroke-width="2"/>
+  <circle cx="168" cy="80" r="6" fill="#e0795b"/>
+  <text x="40" y="76" font-size="15" font-weight="bold" fill="#16756a">11월 8일(일)</text>
+  <text x="188" y="84" font-size="15" fill="#20231f">산베르나르디노 별장 압수수색 — 가벽 뒤 장갑 금고 발견</text>
+  <circle cx="168" cy="140" r="6" fill="#e0795b"/>
+  <text x="40" y="136" font-size="15" font-weight="bold" fill="#16756a">11월 9일(월)</text>
+  <text x="188" y="144" font-size="15" fill="#20231f">우에노 증권사·페냐 아순시온 자택 압수수색</text>
+  <circle cx="168" cy="200" r="6" fill="#e0795b"/>
+  <text x="40" y="196" font-size="15" font-weight="bold" fill="#16756a">11월 9일(월)</text>
+  <text x="188" y="204" font-size="15" fill="#20231f">의회, 슈라이너 중앙은행 총재 인준·리바롤라 이사 임명</text>
+  <circle cx="168" cy="260" r="6" fill="#e0795b"/>
+  <text x="40" y="256" font-size="15" font-weight="bold" fill="#16756a">11월 9일(월)</text>
+  <text x="188" y="264" font-size="15" fill="#20231f">아야나, 장관 전원 사표 요구·바리오스 부통령 선출</text>
+  <circle cx="168" cy="320" r="6" fill="#e0795b"/>
+  <text x="40" y="316" font-size="15" font-weight="bold" fill="#16756a">11월 10일(화)</text>
+  <text x="188" y="324" font-size="15" fill="#20231f">우에노 본사 금고 두 번째 문 개봉 작업 재개 예정</text>
+  <text x="400" y="402" text-anchor="middle" font-family="monospace" font-size="12" fill="#62655d">출처: 로이터·메르코프레스·아시아투데이 (2026.11.09~10)</text>
+</svg>
