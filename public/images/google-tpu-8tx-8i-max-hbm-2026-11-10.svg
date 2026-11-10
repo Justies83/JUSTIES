@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="8세대 TPU 칩·패키지당 HBM 용량 — TPU 8t 216GB, TPU 8i 288GB, TPU 8tx 216GB, TPU 8i Max 576GB">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <text x="450" y="48" text-anchor="middle" font-family="system-ui, sans-serif" font-size="30" font-weight="bold" fill="#20231f">8i Max, 한 패키지에 메모리 두 배</text>
+  <text x="450" y="84" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" fill="#62655d">8세대 TPU 칩·패키지당 HBM 용량 (GB)</text>
+  <text x="40" y="158" font-family="system-ui, sans-serif" font-size="22" fill="#20231f">TPU 8t</text>
+  <rect x="330" y="130" width="157" height="40" fill="#16756a"/>
+  <text x="499" y="158" font-family="system-ui, sans-serif" font-size="22" font-weight="bold" fill="#16756a">216 GB</text>
+  <text x="40" y="228" font-family="system-ui, sans-serif" font-size="22" fill="#20231f">TPU 8i</text>
+  <rect x="330" y="200" width="210" height="40" fill="#16756a"/>
+  <text x="552" y="228" font-family="system-ui, sans-serif" font-size="22" font-weight="bold" fill="#16756a">288 GB</text>
+  <text x="40" y="298" font-family="system-ui, sans-serif" font-size="22" fill="#20231f">TPU 8tx</text>
+  <rect x="330" y="270" width="157" height="40" fill="#16756a"/>
+  <text x="499" y="298" font-family="system-ui, sans-serif" font-size="22" font-weight="bold" fill="#16756a">216 GB</text>
+  <text x="40" y="368" font-family="system-ui, sans-serif" font-size="22" fill="#20231f">TPU 8i Max</text>
+  <rect x="330" y="340" width="420" height="40" fill="#e0795b"/>
+  <text x="762" y="368" font-family="system-ui, sans-serif" font-size="22" font-weight="bold" fill="#e0795b">576 GB</text>
+  <text x="450" y="438" text-anchor="middle" font-family="system-ui, sans-serif" font-size="17" fill="#62655d">8tx는 8t와 같은 실리콘, 8i Max는 8i 두 개를 한 패키지에 묶은 것</text>
+  <text x="450" y="495" text-anchor="middle" font-family="ui-monospace, monospace" font-size="15" fill="#62655d">출처: Google Cloud 2026년 4월 기술 설명·11월 9일 발표 수치로 직접 작성</text>
+</svg>
