@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" font-family="sans-serif">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <text x="450" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#20231f">코스피, 4거래일 만에 반등 — 11월 10일 하루 흐름</text>
+  <text x="450" y="68" text-anchor="middle" font-size="14" fill="#62655d">전일 종가·시가·장중 고점·종가 — 단위 포인트</text>
+  <line x1="80" y1="430" x2="860" y2="430" stroke="#20231f" stroke-width="1.5"/>
+  <g font-size="15" fill="#20231f">
+    <rect x="120" y="411" width="120" height="19" rx="4" fill="#62655d"/>
+    <text x="180" y="400" text-anchor="middle" font-weight="bold" fill="#62655d">5,018.85</text>
+    <text x="180" y="462" text-anchor="middle">전일 종가 (11월 9일)</text>
+    <rect x="300" y="183" width="120" height="247" rx="4" fill="#16756a"/>
+    <text x="360" y="172" text-anchor="middle" font-weight="bold" fill="#16756a">5,247.22</text>
+    <text x="360" y="462" text-anchor="middle">시가 (+4.55%)</text>
+    <rect x="480" y="129" width="120" height="301" rx="4" fill="#16756a"/>
+    <text x="540" y="118" text-anchor="middle" font-weight="bold" fill="#16756a">5,300.92</text>
+    <text x="540" y="462" text-anchor="middle">장중 고점 (+5.62%)</text>
+    <rect x="660" y="191" width="120" height="239" rx="4" fill="#e0795b"/>
+    <text x="720" y="180" text-anchor="middle" font-weight="bold" fill="#e0795b">5,239.13</text>
+    <text x="720" y="462" text-anchor="middle">종가 (+4.39%)</text>
+  </g>
+  <text x="450" y="505" text-anchor="middle" font-size="13" fill="#62655d" font-family="monospace">한국거래소·연합뉴스 보도 수치 기준 — 2026년 11월 10일</text>
+</svg>
