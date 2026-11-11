@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="FDA 임상시험 메타분석 NAION 발생률 — GLP-1 투여군 10만 인년당 6.4건, 비교군 3.8건">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <text x="40" y="52" font-family="sans-serif" font-size="26" font-weight="700" fill="#20231f">FDA 임상시험 메타분석 — NAION 발생률</text>
+  <text x="40" y="84" font-family="sans-serif" font-size="16" fill="#62655d">10만 인년당 발생 건수 (126개 임상시험, 134,253명, 288,879인년)</text>
+
+  <text x="40" y="168" font-family="sans-serif" font-size="19" font-weight="700" fill="#20231f">GLP-1 투여군</text>
+  <rect x="230" y="144" width="496" height="34" fill="#16756a"/>
+  <text x="740" y="168" font-family="sans-serif" font-size="19" font-weight="700" fill="#20231f">6.4건</text>
+
+  <text x="40" y="252" font-family="sans-serif" font-size="19" fill="#20231f">비교군</text>
+  <rect x="230" y="228" width="295" height="34" fill="#8a8d84"/>
+  <text x="539" y="252" font-family="sans-serif" font-size="19" fill="#20231f">3.8건</text>
+
+  <text x="40" y="330" font-family="sans-serif" font-size="17" fill="#20231f">확정 사례는 15건에 불과했다. 투여군 10건, 위약군 5건,</text>
+  <text x="40" y="358" font-family="sans-serif" font-size="17" fill="#20231f">GLP-1이 아닌 당뇨병약 투여군 0건이다. 비교군은 위약 또는</text>
+  <text x="40" y="386" font-family="sans-serif" font-size="17" fill="#20231f">GLP-1이 아닌 혈당강하제 투여군을 합친 수치다.</text>
+
+  <text x="40" y="470" font-family="monospace" font-size="14" fill="#62655d">10만 인년당 2.6건의 차이 — 1년에 약 3만8,000명을 치료해야 1건이 더 나오는 셈.</text>
+  <text x="40" y="494" font-family="monospace" font-size="14" fill="#62655d">출처: FDA Drug Safety Communication (2026-11-09)</text>
+</svg>
