@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="44" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">ANTHROPIC IPO · S-1/A 2026.11.10</text>
+  <text x="74" y="72" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">공모가별 조달 규모 — 8억 2,500만 주 기준 (10억 달러)</text>
+  <line x1="74" y1="420" x2="840" y2="420" stroke="rgba(32,35,31,.16)"/>
+  <rect x="114.8" y="189.0" width="110" height="231.0" fill="#16756a" rx="3"/>
+  <text x="169.8" y="177.0" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="18" fill="#16756a">$57.75B</text>
+  <text x="169.8" y="448" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">공모가 $70</text>
+  <rect x="306.3" y="175.8" width="110" height="244.2" fill="#16756a" rx="3"/>
+  <text x="361.3" y="163.8" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="18" fill="#16756a">$61.05B</text>
+  <text x="361.3" y="448" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">공모가 $74</text>
+  <rect x="497.8" y="162.6" width="110" height="257.4" fill="#16756a" rx="3"/>
+  <text x="552.8" y="150.6" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="18" fill="#16756a">$64.35B</text>
+  <text x="552.8" y="448" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">공모가 $78</text>
+  <rect x="689.3" y="316.0" width="110" height="104.0" fill="#e0795b" rx="3"/>
+  <text x="744.3" y="304.0" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="18" fill="#e0795b">$26.00B</text>
+  <text x="744.3" y="448" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">사모배정 (별도)</text>
+  <text x="74" y="468" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">공모가 상단($78) + 사모배정($26.0B)을 합하면 최대 <tspan font-family="'IBM Plex Mono',ui-monospace,monospace">$90.4B</tspan> — 그린슈(1억 2,375만 주)까지 더하면 공모분만 <tspan font-family="'IBM Plex Mono',ui-monospace,monospace">$74.0B</tspan></text>
+  <text x="74" y="496" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">Anthropic S-1/A(2026.11.10) 수치로 직접 계산·작성 · 사모배정은 공모와 별도 계약, 인수수수료 없음</text>
+</svg>
