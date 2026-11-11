@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="44" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">OCEANIC-STROKE · 12,327명 · 중앙값 14.2개월</text>
+  <text x="74" y="72" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">뇌졸중 재발은 줄이고, 주요 출혈은 늘지 않았다</text>
+
+  <line x1="74" y1="400" x2="826" y2="400" stroke="rgba(32,35,31,.16)"/>
+  <line x1="74" y1="283" x2="826" y2="283" stroke="rgba(32,35,31,.16)"/>
+  <line x1="74" y1="167" x2="826" y2="167" stroke="rgba(32,35,31,.16)"/>
+  <text x="60" y="405" text-anchor="end" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#62655d">0%</text>
+  <text x="60" y="288" text-anchor="end" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#62655d">5%</text>
+  <text x="60" y="172" text-anchor="end" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#62655d">10%</text>
+
+  <rect x="106" y="255" width="56" height="145" fill="#16756a" rx="3"/>
+  <rect x="170" y="204" width="56" height="196" fill="#e0795b" rx="3"/>
+  <text x="134" y="237" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="17" fill="#16756a">6.2%</text>
+  <text x="198" y="186" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="17" fill="#e0795b">8.4%</text>
+  <text x="166" y="430" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#62655d">허혈성 뇌졸중</text>
+  <text x="166" y="452" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#16756a">-26%</text>
+
+  <rect x="296" y="351" width="56" height="49" fill="#16756a" rx="3"/>
+  <rect x="360" y="330" width="56" height="70" fill="#e0795b" rx="3"/>
+  <text x="324" y="333" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="17" fill="#16756a">2.1%</text>
+  <text x="388" y="312" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="17" fill="#e0795b">3.0%</text>
+  <text x="356" y="430" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#62655d">장애·사망 뇌졸중</text>
+  <text x="356" y="452" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#16756a">-31%</text>
+
+  <rect x="486" y="356" width="56" height="44" fill="#16756a" rx="3"/>
+  <rect x="550" y="360" width="56" height="40" fill="#e0795b" rx="3"/>
+  <text x="514" y="338" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="17" fill="#16756a">1.9%</text>
+  <text x="578" y="342" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="17" fill="#e0795b">1.7%</text>
+  <text x="546" y="430" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#62655d">주요 출혈</text>
+  <text x="546" y="452" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#62655d">유의차 없음</text>
+
+  <rect x="676" y="185" width="56" height="215" fill="#16756a" rx="3"/>
+  <rect x="740" y="141" width="56" height="259" fill="#e0795b" rx="3"/>
+  <text x="704" y="167" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="17" fill="#16756a">9.2%</text>
+  <text x="768" y="123" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="17" fill="#e0795b">11.1%</text>
+  <text x="736" y="430" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#62655d">심혈관 사망·심근경색·뇌졸중</text>
+  <text x="736" y="452" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#62655d">복합 지표</text>
+
+  <rect x="74" y="100" width="12" height="3" fill="#16756a"/>
+  <text x="94" y="106" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#62655d">선하보 + 항혈소판제</text>
+  <rect x="330" y="100" width="12" height="3" fill="#e0795b"/>
+  <text x="350" y="106" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#62655d">위약 + 항혈소판제</text>
+
+  <text x="74" y="496" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">FDA 2026.11.09 · NEJM 2026;394:1467-1479 · ESOC 2026 추가 분석 수치로 직접 작성</text>
+</svg>
