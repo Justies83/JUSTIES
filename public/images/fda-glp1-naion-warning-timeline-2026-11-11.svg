@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="NAION 경고 타임라인 — 2024년 7월 Hathaway 연구, 2025년 6월 EMA, 2026년 2월 MHRA, 2026년 11월 9일 FDA, 2026년 11월 11일 식약처">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <text x="40" y="52" font-family="sans-serif" font-size="26" font-weight="700" fill="#20231f">NAION 경고, 어떻게 여기까지 왔나</text>
+  <text x="40" y="84" font-family="sans-serif" font-size="16" fill="#62655d">세마글루티드 한 성분에서 시작해 GLP-1 전 계열로 넓어졌다</text>
+
+  <line x1="60" y1="260" x2="840" y2="260" stroke="#16756a" stroke-width="3"/>
+
+  <circle cx="90" cy="260" r="10" fill="#16756a"/>
+  <text x="90" y="200" font-family="sans-serif" font-size="18" font-weight="700" fill="#20231f" text-anchor="middle">2024-07</text>
+  <text x="90" y="170" font-family="sans-serif" font-size="15" fill="#20231f" text-anchor="middle">Hathaway 연구</text>
+  <text x="90" y="148" font-family="sans-serif" font-size="15" fill="#20231f" text-anchor="middle">JAMA Ophthalmol</text>
+
+  <circle cx="260" cy="260" r="10" fill="#16756a"/>
+  <text x="260" y="310" font-family="sans-serif" font-size="18" font-weight="700" fill="#20231f" text-anchor="middle">2025-06</text>
+  <text x="260" y="340" font-family="sans-serif" font-size="15" fill="#20231f" text-anchor="middle">EMA, 세마글루티드</text>
+  <text x="260" y="362" font-family="sans-serif" font-size="15" fill="#20231f" text-anchor="middle">“매우 드묾” 분류</text>
+
+  <circle cx="430" cy="260" r="10" fill="#16756a"/>
+  <text x="430" y="200" font-family="sans-serif" font-size="18" font-weight="700" fill="#20231f" text-anchor="middle">2026-02</text>
+  <text x="430" y="170" font-family="sans-serif" font-size="15" fill="#20231f" text-anchor="middle">MHRA 안전성 서한</text>
+  <text x="430" y="148" font-family="sans-serif" font-size="15" fill="#20231f" text-anchor="middle">(영국)</text>
+
+  <circle cx="600" cy="260" r="10" fill="#e0795b"/>
+  <text x="600" y="310" font-family="sans-serif" font-size="18" font-weight="700" fill="#20231f" text-anchor="middle">2026-11-09</text>
+  <text x="600" y="340" font-family="sans-serif" font-size="15" fill="#20231f" text-anchor="middle">FDA, 전 계열 경고</text>
+  <text x="600" y="362" font-family="sans-serif" font-size="15" fill="#20231f" text-anchor="middle">(미국)</text>
+
+  <circle cx="790" cy="260" r="10" fill="#e0795b"/>
+  <text x="790" y="200" font-family="sans-serif" font-size="18" font-weight="700" fill="#20231f" text-anchor="middle">2026-11-11</text>
+  <text x="790" y="170" font-family="sans-serif" font-size="15" fill="#20231f" text-anchor="middle">식약처 안전성 서한</text>
+  <text x="790" y="148" font-family="sans-serif" font-size="15" fill="#20231f" text-anchor="middle">(한국)</text>
+
+  <text x="40" y="470" font-family="monospace" font-size="14" fill="#62655d">유럽·영국은 세마글루티드에만, 미국은 GLP-1 계열 전체에 경고를 적용했다.</text>
+  <text x="40" y="494" font-family="monospace" font-size="14" fill="#62655d">출처: 각 기관 발표 자료 (JAMA Ophthalmol 2024, EMA 2025-06-06, MHRA 2026-02-05, FDA 2026-11-09)</text>
+</svg>
