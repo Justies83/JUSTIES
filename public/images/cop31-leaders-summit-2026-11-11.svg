@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+  <text x="450" y="52" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="26" font-weight="700" fill="#20231f">COP31 안탈리아 — 첫 주 일정</text>
+  <text x="450" y="82" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">2026년 11월 9일 개막부터 20일 폐막까지</text>
+
+  <line x1="80" y1="268" x2="820" y2="268" stroke="#16756a" stroke-width="3"/>
+
+  <circle cx="90" cy="268" r="10" fill="#16756a"/>
+  <text x="90" y="196" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" font-weight="700" fill="#20231f">11월 9일 월요일</text>
+  <text x="90" y="222" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#20231f">개막</text>
+  <text x="90" y="246" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">개회식 1시간 반 지연</text>
+
+  <circle cx="270" cy="268" r="10" fill="#16756a"/>
+  <text x="270" y="312" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" font-weight="700" fill="#20231f">11월 10일 화요일</text>
+  <text x="270" y="338" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#20231f">옥상 태양광 선언</text>
+  <text x="270" y="362" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">5개국 · 2030년 3억 가구</text>
+
+  <circle cx="450" cy="268" r="13" fill="#e0795b" stroke="#20231f" stroke-width="2"/>
+  <text x="450" y="196" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" font-weight="700" fill="#20231f">11월 11일 수요일</text>
+  <text x="450" y="222" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#20231f">정상회의 첫날</text>
+  <text x="450" y="246" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">70명 이상 연설 · G7 7명 중 1명</text>
+
+  <circle cx="630" cy="268" r="10" fill="#16756a"/>
+  <text x="630" y="312" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" font-weight="700" fill="#20231f">11월 12일 목요일</text>
+  <text x="630" y="338" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#20231f">정상회의 둘째 날</text>
+  <text x="630" y="362" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">정상 연설 계속</text>
+
+  <circle cx="810" cy="268" r="10" fill="#16756a"/>
+  <text x="810" y="196" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" font-weight="700" fill="#20231f">11월 20일 금요일</text>
+  <text x="810" y="222" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#20231f">폐막 예정</text>
+  <text x="810" y="246" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">최종 합의문 타결 시도</text>
+
+  <text x="74" y="440" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">정상회의는 11월 11~12일 이틀간 열리고, 협상은 20일 폐막까지 이어진다.</text>
+  <text x="74" y="468" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">주황색 표시가 이번 업데이트가 다루는 날이다.</text>
+  <text x="74" y="494" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">출처: AP·로이터 2026년 11월 11일 보도, COP31 일정. 날짜는 현지 기준.</text>
+</svg>
