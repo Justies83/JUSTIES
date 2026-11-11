@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="FrontierCode 2.0 에이전트 코딩 점수 — Fable 5.2 49.1%, Opus 5.5 45.5%, GPT-6 Astra 42.8%, Gemini 4 Carbon 41.1%, Fable 5.1 32.4%">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <text x="40" y="52" font-family="sans-serif" font-size="26" font-weight="700" fill="#20231f">FrontierCode 2.0 — 에이전트 코딩 점수</text>
+  <text x="40" y="84" font-family="sans-serif" font-size="16" fill="#62655d">Anthropic 2026년 11월 9일 발표 수치 (단위: %)</text>
+
+  <text x="40" y="150" font-family="sans-serif" font-size="19" font-weight="700" fill="#20231f">Fable 5.2</text>
+  <rect x="200" y="126" width="625" height="34" fill="#16756a"/>
+  <text x="835" y="150" font-family="sans-serif" font-size="19" font-weight="700" fill="#20231f">49.1%</text>
+
+  <text x="40" y="214" font-family="sans-serif" font-size="19" fill="#20231f">Opus 5.5</text>
+  <rect x="200" y="190" width="579" height="34" fill="#8a8d84"/>
+  <text x="789" y="214" font-family="sans-serif" font-size="19" fill="#20231f">45.5%</text>
+
+  <text x="40" y="278" font-family="sans-serif" font-size="19" fill="#20231f">GPT-6 Astra</text>
+  <rect x="200" y="254" width="545" height="34" fill="#8a8d84"/>
+  <text x="755" y="278" font-family="sans-serif" font-size="19" fill="#20231f">42.8%</text>
+
+  <text x="40" y="342" font-family="sans-serif" font-size="19" fill="#20231f">Gemini 4 Carbon</text>
+  <rect x="200" y="318" width="523" height="34" fill="#8a8d84"/>
+  <text x="733" y="342" font-family="sans-serif" font-size="19" fill="#20231f">41.1%</text>
+
+  <text x="40" y="406" font-family="sans-serif" font-size="19" fill="#20231f">Fable 5.1</text>
+  <rect x="200" y="382" width="412" height="34" fill="#e0795b"/>
+  <text x="622" y="406" font-family="sans-serif" font-size="19" fill="#20231f">32.4%</text>
+
+  <text x="40" y="470" font-family="monospace" font-size="14" fill="#62655d">벤더 자체 측정. 각 모델 최고 노력 수준 기준 (Gemini 4 Carbon은 Medium effort).</text>
+  <text x="40" y="494" font-family="monospace" font-size="14" fill="#62655d">출처: Anthropic, Introducing Claude Fable 5.2 and Claude Mythos 5.2 (2026-11-09)</text>
+</svg>
