@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+  <text x="450" y="52" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="26" font-weight="700" fill="#20231f">청해부대 파견 연장 수정 동의안 — 무엇이 바뀌나</text>
+  <text x="450" y="82" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">국무회의 의결 · 국회 제출 (2026년 11월 10일)</text>
+
+  <text x="74" y="132" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="18" font-weight="700" fill="#20231f">작전구역 (해리)</text>
+  <text x="74" y="172" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">기존</text>
+  <rect x="150" y="150" width="280" height="28" fill="#16756a"/>
+  <text x="440" y="170" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="16" fill="#20231f">약 600</text>
+  <text x="74" y="216" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">확대 후</text>
+  <rect x="150" y="194" width="560" height="28" fill="#e0795b"/>
+  <text x="720" y="214" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="16" fill="#20231f">약 1,200</text>
+
+  <text x="74" y="282" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="18" font-weight="700" fill="#20231f">파견 인력 (명)</text>
+  <text x="74" y="322" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">기존</text>
+  <rect x="150" y="300" width="454" height="28" fill="#16756a"/>
+  <text x="614" y="320" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="16" fill="#20231f">320명</text>
+  <text x="74" y="366" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">확대 후</text>
+  <rect x="150" y="344" width="560" height="28" fill="#e0795b"/>
+  <text x="720" y="364" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="16" fill="#20231f">395명</text>
+
+  <text x="74" y="424" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">추가 전력: P-8A 해상초계기 1대 · EOD 30명 · 초계기 운용 45명 · 무인 소해장비 (UUV · USV · ROV)</text>
+  <text x="74" y="452" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">임무 추가: 국제 해상교통로 항행의 자유 회복 지원 · 파견 기한: 동의안 통과 시 2027년 12월 31일까지</text>
+  <text x="74" y="494" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">출처: 국방부 2026년 11월 10일 발표. 작전구역은 해협 남단에서 약 650km 떨어진 지점까지.</text>
+</svg>
