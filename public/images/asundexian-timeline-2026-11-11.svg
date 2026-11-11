@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="44" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">SUNHARBO · ASUNDEXIAN</text>
+  <text x="74" y="72" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">심방세동에서의 좌절에서 첫 FXIa 승인까지</text>
+
+  <line x1="90" y1="250" x2="810" y2="250" stroke="#16756a" stroke-width="2.5"/>
+
+  <circle cx="120" cy="250" r="9" fill="#f4f1ea" stroke="#e0795b" stroke-width="3"/>
+  <text x="120" y="200" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="16" fill="#e0795b">2023.11</text>
+  <text x="120" y="300" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#20231f">심방세동 임상 3상</text>
+  <text x="120" y="326" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#20231f">조기 중단</text>
+  <text x="120" y="352" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#62655d">아픽사반보다 열세</text>
+
+  <circle cx="300" cy="250" r="9" fill="#f4f1ea" stroke="#16756a" stroke-width="3"/>
+  <text x="300" y="200" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="16" fill="#16756a">2026.04</text>
+  <text x="300" y="300" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#20231f">OCEANIC-STROKE 결과</text>
+  <text x="300" y="326" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#20231f">NEJM 게재</text>
+  <text x="300" y="352" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#62655d">재발 위험 26% 감소</text>
+
+  <circle cx="470" cy="250" r="9" fill="#f4f1ea" stroke="#16756a" stroke-width="3"/>
+  <text x="470" y="200" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="16" fill="#16756a">2026.05</text>
+  <text x="470" y="300" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#20231f">FDA 우선심사 접수 ·</text>
+  <text x="470" y="326" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#20231f">ESOC 추가 분석</text>
+  <text x="470" y="352" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#62655d">장애·사망 뇌졸중 -31%</text>
+
+  <circle cx="640" cy="250" r="9" fill="#f4f1ea" stroke="#16756a" stroke-width="3"/>
+  <text x="640" y="200" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="16" fill="#16756a">2026.10.26</text>
+  <text x="640" y="300" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#20231f">중국 NMPA 허가</text>
+  <text x="640" y="326" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#20231f">세계 최초</text>
+
+  <circle cx="800" cy="250" r="11" fill="#16756a" stroke="#16756a" stroke-width="3"/>
+  <text x="800" y="200" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="16" fill="#16756a">2026.11.09</text>
+  <text x="800" y="300" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#20231f">FDA 승인</text>
+  <text x="800" y="326" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#20231f">첫 FXIa 억제제</text>
+
+  <text x="74" y="440" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#20231f">유럽·일본에서는 아직 심사 중이고, 국내 식약처 허가도 아직 없다.</text>
+  <text x="74" y="496" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">FDA · NEJM · 바이오타임즈 · 팜뉴스 발표 자료로 직접 작성</text>
+</svg>
