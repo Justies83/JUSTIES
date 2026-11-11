@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="국고채 입찰 담합 과징금 상위 10개 금융사">
+<rect width="900" height="520" fill="#f4f1ea"/>
+<text x="450" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#20231f">국고채 입찰 담합 — 과징금 상위 10곳 (억원)</text>
+<text x="165" y="87" text-anchor="end" font-size="16" fill="#20231f">KB증권</text>
+<rect x="175" y="66" width="545" height="30" fill="#e0795b"/>
+<text x="728" y="87" font-size="16" fill="#20231f">3,321.8</text>
+<text x="165" y="129" text-anchor="end" font-size="16" fill="#20231f">NH투자증권</text>
+<rect x="175" y="108" width="398" height="30" fill="#16756a"/>
+<text x="581" y="129" font-size="16" fill="#20231f">2,427.8</text>
+<text x="165" y="171" text-anchor="end" font-size="16" fill="#20231f">미래에셋증권</text>
+<rect x="175" y="150" width="352" height="30" fill="#16756a"/>
+<text x="535" y="171" font-size="16" fill="#20231f">2,148.3</text>
+<text x="165" y="213" text-anchor="end" font-size="16" fill="#20231f">신한투자증권</text>
+<rect x="175" y="192" width="242" height="30" fill="#16756a"/>
+<text x="425" y="213" font-size="16" fill="#20231f">1,473.1</text>
+<text x="165" y="255" text-anchor="end" font-size="16" fill="#20231f">IBK기업은행</text>
+<rect x="175" y="234" width="223" height="30" fill="#16756a"/>
+<text x="406" y="255" font-size="16" fill="#20231f">1,358.5</text>
+<text x="165" y="297" text-anchor="end" font-size="16" fill="#20231f">대신증권</text>
+<rect x="175" y="276" width="197" height="30" fill="#16756a"/>
+<text x="380" y="297" font-size="16" fill="#20231f">1,200.5</text>
+<text x="165" y="339" text-anchor="end" font-size="16" fill="#20231f">삼성증권</text>
+<rect x="175" y="318" width="195" height="30" fill="#16756a"/>
+<text x="378" y="339" font-size="16" fill="#20231f">1,188.6</text>
+<text x="165" y="381" text-anchor="end" font-size="16" fill="#20231f">키움증권</text>
+<rect x="175" y="360" width="138" height="30" fill="#16756a"/>
+<text x="321" y="381" font-size="16" fill="#20231f">838.1</text>
+<text x="165" y="423" text-anchor="end" font-size="16" fill="#20231f">메리츠증권</text>
+<rect x="175" y="402" width="106" height="30" fill="#16756a"/>
+<text x="289" y="423" font-size="16" fill="#20231f">645.6</text>
+<text x="165" y="465" text-anchor="end" font-size="16" fill="#20231f">한국산업은행</text>
+<rect x="175" y="444" width="102" height="30" fill="#16756a"/>
+<text x="285" y="465" font-size="16" fill="#20231f">623.1</text>
+<text x="450" y="505" text-anchor="middle" font-size="13" font-family="monospace" fill="#62655d">공정거래위원회 2026.11.11 발표 기준 · 총 과징금 1조6265억7500만원</text>
+</svg>
