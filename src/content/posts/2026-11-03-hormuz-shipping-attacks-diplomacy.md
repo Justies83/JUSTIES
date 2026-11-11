@@ -3,14 +3,78 @@ title: "배는 맞았는데 유가는 떨어졌다 — 호르무즈, 공격의 �
 date: 2026-11-03
 category: world
 kind: news
-takeaway: "11월 8일 일요일, 혁명수비대는 해협에서 유조선 3척에 불이 붙었다고 주장했다. 선박명은 밝히지 않았고 독립적인 확인은 없다. UKMTO는 토요일 늦은 시간의 사건 2건을 따로 확인했고, 지난 일주일 동안 해협에서 8건, 아라비아만에서 3건의 공격을 확인했다. 미국은 육상 국경을 막는 태스크포스 아이언 게이트를 가동했고, 브렌트유는 금요일 98.32달러에 장을 마쳤다. 해협 통항량은 전쟁 전의 20% 수준에 머물러 있다."
-tags: [호르무즈, 이란, 유조선, 원유, 브렌트, 카타르, LNG, UKMTO, 중동, 해운, 케슘, IMO, 알주수피, 미국-공습, 중간선거, 11월 4일 업데이트, 11월 4일 오후 업데이트, 11월 5일 업데이트, 11월 7일 업데이트, 11월 8일 업데이트, 청해부대, 두쿰]
+takeaway: "11월 10일 국무회의가 청해부대 파견 연장 수정 동의안을 의결했고, 같은 날 국회에 제출됐다. 임무구역은 아덴만 일대 약 600해리에서 호르무즈 해협 남단 650킬로미터 떨어진 오만 남방 외해 약 1,200해리까지 약 두 배로 넓어지고, P-8A 해상초계기 1대와 폭발물처리반 등 75명이 늘어 총 395명이 파견된다. 국방부는 호르무즈 해협 자체는 임무지역에 포함되지 않는다고 선을 그었고, 해협 내 작전에는 별도 국회 동의가 필요하다는 단서도 그대로 남았다."
+tags: [호르무즈, 이란, 유조선, 원유, 브렌트, 카타르, LNG, UKMTO, 중동, 해운, 케슘, IMO, 알주수피, 미국-공습, 중간선거, 11월 4일 업데이트, 11월 4일 오후 업데이트, 11월 5일 업데이트, 11월 7일 업데이트, 11월 8일 업데이트, 11월 10일 업데이트, 청해부대, 두쿰]
 cover: /images/hormuz-shipping-attacks-diplomacy-2026-11-03.jpg
 coverAlt: "카타르 라스라판 항에 정박한 LNG선 모자"
 source:
   name: "Xinde Maritime News (2026.11.02)"
   url: https://www.xindemarinenews.com/news/2117102697737138177
 ---
+
+<p align="center"><strong>11월 10일 업데이트 — 국무회의 의결, 국회로 간 청해부대 확대안.</strong><br/>
+11월 10일 화요일, 이재명 대통령이 주재한 국무회의에서 청해부대 파견 연장 수정 동의안이 의결됐다.<br/>
+11월 5일 차관회의를 통과한 개정안이 닷새 만에 국무회의 문턱까지 넘은 셈이다.<br/>
+국방부는 같은 날 오후, 동의안이 국회에 제출됐다고 언론에 공지했다.<br/>
+이제 공은 국회로 넘어갔다.<br/>
+소관 상임위인 국방위원회 심사를 거쳐 본회의 표결을 밟는다.<br/>
+재적 의원 과반이 출석하고 출석 의원 과반이 찬성하면 통과된다.<br/>
+통과되면 파견 기한은 <strong>2027년 12월 31일</strong>까지로 연장된다.<br/>
+올해 말이면 끝나는 임무가 1년 더 이어지는 것이다.</p>
+
+<p align="center">개정안의 핵심은 작전 구역이다.<br/>
+지금은 소말리아 앞 아덴만 일대, 약 600해리(약 1,100킬로미터)가 청해부대의 무대다.<br/>
+개정안이 통과되면 오만 남방 외해까지, 약 <strong>1,200해리</strong>로 넓어진다.<br/>
+범위로는 지금의 약 두 배다.<br/>
+호르무즈 해협 남단에서 약 <strong>650킬로미터</strong>, 350해리 떨어진 지점까지다.<br/>
+11월 5일 업데이트에서 정리한 두쿰항 인근까지의 확대가 숫자로 확인된 셈이다.</p>
+
+<p align="center">전력도 함께 늘어난다.<br/>
+지금은 4,400톤급 구축함 1척과 해상작전헬기 1대, 고속단정 3척 이내, 320여 명으로 굴러간다.<br/>
+여기에 해상초계기 P-8A 포세이돈 1대와 폭발물처리반 30명, 초계기 운용 인력 45명이 더해진다.<br/>
+무인잠수정과 무인수상정, 수중무인탐사기 같은 무인 소해장비도 함께 간다.<br/>
+파견 인력은 75명이 늘어 총 <strong>395명</strong> 수준이 된다.<br/>
+임무 문구도 바뀐다.<br/>
+기존의 우리 국민과 선박 보호에 국제 해상교통로 항행의 자유 회복 지원이 추가된다.</p>
+
+<p align="center">국방부는 선을 분명히 그었다.<br/>
+동의안의 임무 지역은 아덴만 해역과 오만 남방 외해이며, 호르무즈 해협은 포함되지 않는다는 것이다.<br/>
+초계기는 이란 영토인 호르무즈 해협 탐지를 제한하고, 임무 확대 지역을 오만 남방으로 한정하며, 독자 지휘체계를 갖춰 활동한다는 방침도 함께 밝혔다.<br/>
+강신철 국방부 장관은 전날 국회 국방위원회에서 전쟁에 불관여하고 불간섭한다는 원칙을 분명히 말씀드렸다고 했다.<br/>
+해협 안에 우리 전력을 투입하려면 이란 전쟁 종전 같은 허용적 환경이 먼저 조성돼야 하고, 이번과는 별도의 새로운 파견 동의안 통과가 필요하다는 게 정부의 설명이다.<br/>
+11월 5일 업데이트에서 정리한 단서가 그대로 살아 있는 셈이다.</p>
+
+<p align="center">배경 설명도 함께 나왔다.<br/>
+국방부는 해적 증가 등 정세 악화로 기존 작전 구역만으로는 우리 선박 보호에 한계가 있고, 다국적 전력이 호르무즈 해협에 집중되면서 오만 남방 해역에 작전 공백이 발생했다고 설명했다.<br/>
+소말리아 앞바다 해적 사건이 지난해 11건에서 올해 들어 36건으로 늘었다는 수치는 11월 5일 업데이트에서 이미 정리한 대로다.<br/>
+호르무즈 해협 안정화를 위한 군사적 노력에 기여하는 첫 사례라는 평가도 나온다.<br/>
+폭발물처리반과 무인 소해장비 파견, 항행의 자유 회복 지원 임무 추가는 미·이란 종전 이후 시작될 수 있는 국제사회의 호르무즈 해협 기뢰제거 작전 참여 가능성에 대비하려는 목적도 있다는 해석이다.</p>
+
+<p align="center">반발도 여전하다.<br/>
+조국혁신당을 비롯한 범여권 소수정당과 일부 시민단체는 이번 조치가 사실상 우회 파병이라며 반대하고 있다.<br/>
+11월 5일 업데이트에서 정리한 김준형 원내대표의 비판과 같은 선이다.<br/>
+2020년 1월에는 미국·이란 충돌이 격화되자 정부가 국회 비준 동의 없이 청해부대 작전 영역을 호르무즈 해협으로 넓혀 한국 선박 호위 작전을 수행한 적이 있다.<br/>
+당시에는 유사시 우리 국민 보호 활동 시 지시되는 해역 포함이라는 조항이 근거가 됐다.<br/>
+야당과 시민사회는 헌법을 우회했다는 비판을 냈다.<br/>
+이번에는 정부가 처음부터 국회 동의 절차를 밟는 쪽을 택했다.<br/>
+그 차이가 이번 개정안을 둘러싼 논쟁의 배경이다.</p>
+
+<p align="center">맥락도 짚어야 한다.<br/>
+트럼프 대통령은 11월 10일 카타르 총리와 만난 뒤 이란과의 전쟁이 사실상 끝났다고 말했다. ([지난 글](/posts/2026-11-10-trump-qatar-iran-war-effectively-over))<br/>
+다만 해상 봉쇄는 계속되고, 해협을 통한 원유 흐름이 완전히 돌아온 것은 아니다.<br/>
+전쟁이 끝났다는 말과 해협이 열렸다는 말은 여전히 다르다.<br/>
+한국이 해협에서 650킬로미터 떨어진 곳까지 임무를 넓히는 것도, 그 간극 안에서 읽어야 한다.<br/>
+앞으로 볼 것은 세 가지다.<br/>
+첫째, 국회 국방위원회 심사와 본회의 표결이 언제, 어떤 조건으로 이뤄지는지다.<br/>
+해협 내 작전에 별도 승인이 필요하다는 단서가 그대로 남는지, 아니면 더 넓은 권한으로 바뀌는지가 관전 포인트다.<br/>
+둘째, 이란의 반응이다.<br/>
+외교부는 이란 등 관련국들과 지속적으로 소통하고 있다고 밝혔지만, 테헤란이 이번 결정을 어떻게 받아들이는지는 아직 나오지 않았다.<br/>
+셋째, 아크부대 파병 연장 동의안도 같은 날 국무회의를 통과해 국회에 제출됐다는 점이다.<br/>
+두 동의안이 국회에서 어떻게 함께 처리되는지도 지켜볼 대목이다.</p>
+
+<p align="center"><img src="/images/hormuz-november-10-update-2026-11-10.svg" alt="호르무즈 11월 10일 업데이트 — 청해부대 작전구역 기존 약 600해리에서 확대 후 약 1200해리, 파견 인력 기존 320명에서 확대 후 395명, 추가 전력 P-8A 해상초계기 1대 EOD 30명 초계기 운용 45명 무인 소해장비, 파견 기한 2027년 12월 31일까지" style="max-width:100%;height:auto;"/></p>
+
+<p align="center" class="caption">도표는 국방부 2026년 11월 10일 발표 수치를 바탕으로 직접 만들었다.</p>
 
 <p align="center"><strong>11월 8일 업데이트 — 일요일에 유조선 3척 화재 주장, UKMTO는 토요일 사건 2건을 따로 확인했다.</strong><br/>일요일 아침, 혁명수비대가 먼저 말을 꺼냈다.<br/>해협에서 유조선 3척에 불이 붙었다는 성명이다.<br/>이른 아침부터 비인가 항로를 지나던 배들이 기뢰 폭발 뒤 큰 화재를 냈고, 연기 때문에 해협 위 하늘이 가려졌다는 표현까지 붙었다.<br/>이 배들이 항법 장치를 끄고 있었다는 말도 덧붙였다.<br/>다른 배가 비인가 항로를 택하면 같은 운명이 될 거라는 경고도 함께 나왔다.<br/>선박명은 이번에도 밝히지 않았다.<br/>어느 나라 배인지, 사상자는 있는지도 말하지 않았다.<br/>혁명수비대는 이달 들어 기뢰에 부딪혀 불이 붙었다고 주장한 배가 최소 12척이라고 했다.<br/>이 숫자는 혁명수비대가 내놓은 누적 주장일 뿐, 독립적으로 확인된 피격 건수가 아니다.<br/>11월 5일 업데이트에서 정리한 대로, 밤사이 2척 주장이 4척 주장과 같은 배인지 별개인지 확인되지 않았던 것처럼, 이번 3척 주장도 앞선 주장들과 겹치는지 별개인지 알 수 없다.<br/>숫자를 더해서 읽으면 안 된다.</p>
 
@@ -137,4 +201,4 @@ source:
 
 <p align="center">한국을 비롯한 아시아 수입국 입장에서 이 해협은 남의 일이 아니다.<br/>에너지정보청에 따르면 전쟁 전 해협을 통과한 원유와 콘덴세이트의 89%가 아시아로 향했고, 중국과 인도, 일본, 한국이 그중 74%를 차지했다.<br/>한국이 직접 해협을 통과하는 배를 많이 보유했는지를 떠나서, 세계 유가가 움직이면 국내 기름값과 물가에 그대로 전달된다.<br/>해협이 막히든 열리든, 그 비용은 결국 수입국의 몫으로 돌아온다.<br/>그래서 48시간 재개안이 실제로 이행되는지 여부는 아시아 수입국에게도 직접적인 이슈다.<br/>앞으로 볼 것은 세 가지다.<br/>첫째, 미국이 2일짜리 계획에 어떤 답을 내놓는가다.<br/>트럼프 대통령이 중간선거 이후를 언급해 온 만큼, 11월 3일 미국 중간선거 전후의 발언이 분기점이 될 수 있다.<br/>둘째, UKMTO 경보가 계속 나오는가다.<br/>협상이 진행되는 와중에도 배가 맞는다면, 재개안의 신뢰는 흔들린다.<br/>셋째, 유가가 105달러 아래에 머무는가다.<br/>105달러 아래 안착은 시장이 외교를 믿는다는 신호가 되겠지만, 새로운 피격 소식 하나면 단숨에 되돌려질 수 있는 자리다.<br/>배는 맞았는데 유가는 떨어진 주말, 그 역설이 풀리는 방향이 이번 주 호르무즈의 향방을 정할 것이다.</p>
 
-참고한 기사 — [로이터](https://www.reuters.com/world/middle-east/irans-irgc-navy-says-two-tankers-exploded-after-hitting-mines-hormuz-2026-11-01/) · [Xinde Maritime News](https://www.xindemarinenews.com/news/2117102697737138177) · [알자지라](https://www.aljazeera.com/news/liveblog/2026/11/1/iran-war-live-araghchi-says-talks-under-way-on-2-day-plan-to-reopen-hormuz?update=5108539) · [걸프뉴스](https://gulfnews.com/amp/story/world%2Fmena%2Fmiddle-east-conflict-trump-says-us-still-has-to-take-care-of-one-or-two-targets-in-iran-1.500731311) · [튀르키예 투데이](https://www.turkiyetoday.com/business/brent-crude-falls-nearly-8-below-105-as-us-iran-diplomacy-eases-supply-fears-3231573) · [힌두 비즈니스라인](https://www.thehindubusinessline.com/markets/commodities/oil-prices-fall-over-1-as-iran-qatar-talks-raise-hopes-of-diplomatic-progress/article71655114.ece) · [더 서스데이 타임스](https://thursdaytimes.com/2026/11/01/news/economy/pakistan-bound-lng-tanker-al-mayeda-hit-hormuz-iran-cleared-passage/) · [AP via ETV 바라트](https://www.etvbharat.com/en/international/us-has-conducted-defensive-strikes-on-iranian-targets-in-the-strait-of-hormuz-us-official-says-enn26110300659) · [아랍뉴스](https://www.arabnews.com/middle-east/indian-sailor-killed-after-vessel-attacked-off-oman-3009541) · [NHK 월드](https://www3.nhk.or.jp/nhkworld/news/20261103de69889/) · [네이션 프레스](https://www.nationpress.com/international/imo-hormuz-still-unsafe-mines-unconfirmed) · [GMA 뉴스](https://www.gmanetwork.com/news/topstories/world/1008060/vessel-struck-near-strait-of-hormuz-maritime-agency/story/) · [NDTV (AP)](https://www.ndtv.com/world-news/us-strikes-in-the-strait-of-hormuz-create-more-questions-about-what-s-ahead-12278996/amp/1) · [마닐라 타임스 (AP)](https://www.manilatimes.net/2026/11/04/world/us-strikes-in-the-strait-of-hormuz-create-more-questions-about-whats-ahead/2461055/amp) · [알자지라](https://www.aljazeera.com/news/2026/11/4/iran-says-us-reply-to-hormuz-plan-unconvincing-trump-confirms-strikes) · [Report.az](https://report.az/en/region/four-oil-tankers-ablaze-after-striking-mines-in-strait-of-hormuz-irgc-says) · [걸프뉴스](https://gulfnews.com/world/mena/middle-east-conflict-trump-says-us-locked-and-loaded-as-four-tankers-catch-fire-near-hormuz-1.500735100) · [메흐르통신](https://en.mehrnews.com/news/249182/IRGC-reports-tanker-explosions-in-Hormuz-US-drone-seizures) · [아랍뉴스](https://www.arabnews.com/middle-east/irans-irgc-says-two-tankers-and-tugboat-caught-fire-in-strait-of-hormuz-3009888) · [코리아헤럴드](https://www.koreaherald.com/article/10927147) · [로이터](https://www.reuters.com/world/asia-pacific/south-korea-expand-anti-piracy-unit-operations-closer-strait-hormuz-2026-11-05/) · [AP](https://www.newindianexpress.com/amp/story/world/2026/Nov/07/us-military-carries-out-new-targeted-strikes-on-iran-as-tehrans-leaders-weigh-mediators-proposals) · [알자지라](https://www.aljazeera.com/amp/news/2026/11/7/trump-confirms-new-us-strikes-on-irans-qeshm-island) · [마트루부미](https://english.mathrubhumi.com/news/world/us-middle-east-security-alert-iran-tensions-flight-disruptions-lpe7pc5e) · [The National](https://www.thenationalnews.com/news/mena/2026/11/08/smoke-blanketing-the-strait-iran-steps-up-campaign-of-threats-to-shipping/) · [아랍뉴스 (AFP)](https://www.arabnews.com/middle-east/iran-says-3-tankers-caught-fire-in-hormuz-3010518) · [FinanceFeeds](https://financefeeds.com/brent-crude-oil-price-98-32-saturday-week-ahead-us-iran-deal-bets-cpi-10-november-bull-105-bear-93/)
+참고한 기사 — [로이터](https://www.reuters.com/world/middle-east/irans-irgc-navy-says-two-tankers-exploded-after-hitting-mines-hormuz-2026-11-01/) · [Xinde Maritime News](https://www.xindemarinenews.com/news/2117102697737138177) · [알자지라](https://www.aljazeera.com/news/liveblog/2026/11/1/iran-war-live-araghchi-says-talks-under-way-on-2-day-plan-to-reopen-hormuz?update=5108539) · [걸프뉴스](https://gulfnews.com/amp/story/world%2Fmena%2Fmiddle-east-conflict-trump-says-us-still-has-to-take-care-of-one-or-two-targets-in-iran-1.500731311) · [튀르키예 투데이](https://www.turkiyetoday.com/business/brent-crude-falls-nearly-8-below-105-as-us-iran-diplomacy-eases-supply-fears-3231573) · [힌두 비즈니스라인](https://www.thehindubusinessline.com/markets/commodities/oil-prices-fall-over-1-as-iran-qatar-talks-raise-hopes-of-diplomatic-progress/article71655114.ece) · [더 서스데이 타임스](https://thursdaytimes.com/2026/11/01/news/economy/pakistan-bound-lng-tanker-al-mayeda-hit-hormuz-iran-cleared-passage/) · [AP via ETV 바라트](https://www.etvbharat.com/en/international/us-has-conducted-defensive-strikes-on-iranian-targets-in-the-strait-of-hormuz-us-official-says-enn26110300659) · [아랍뉴스](https://www.arabnews.com/middle-east/indian-sailor-killed-after-vessel-attacked-off-oman-3009541) · [NHK 월드](https://www3.nhk.or.jp/nhkworld/news/20261103de69889/) · [네이션 프레스](https://www.nationpress.com/international/imo-hormuz-still-unsafe-mines-unconfirmed) · [GMA 뉴스](https://www.gmanetwork.com/news/topstories/world/1008060/vessel-struck-near-strait-of-hormuz-maritime-agency/story/) · [NDTV (AP)](https://www.ndtv.com/world-news/us-strikes-in-the-strait-of-hormuz-create-more-questions-about-what-s-ahead-12278996/amp/1) · [마닐라 타임스 (AP)](https://www.manilatimes.net/2026/11/04/world/us-strikes-in-the-strait-of-hormuz-create-more-questions-about-whats-ahead/2461055/amp) · [알자지라](https://www.aljazeera.com/news/2026/11/4/iran-says-us-reply-to-hormuz-plan-unconvincing-trump-confirms-strikes) · [Report.az](https://report.az/en/region/four-oil-tankers-ablaze-after-striking-mines-in-strait-of-hormuz-irgc-says) · [걸프뉴스](https://gulfnews.com/world/mena/middle-east-conflict-trump-says-us-locked-and-loaded-as-four-tankers-catch-fire-near-hormuz-1.500735100) · [메흐르통신](https://en.mehrnews.com/news/249182/IRGC-reports-tanker-explosions-in-Hormuz-US-drone-seizures) · [아랍뉴스](https://www.arabnews.com/middle-east/irans-irgc-says-two-tankers-and-tugboat-caught-fire-in-strait-of-hormuz-3009888) · [코리아헤럴드](https://www.koreaherald.com/article/10927147) · [로이터](https://www.reuters.com/world/asia-pacific/south-korea-expand-anti-piracy-unit-operations-closer-strait-hormuz-2026-11-05/) · [AP](https://www.newindianexpress.com/amp/story/world/2026/Nov/07/us-military-carries-out-new-targeted-strikes-on-iran-as-tehrans-leaders-weigh-mediators-proposals) · [알자지라](https://www.aljazeera.com/amp/news/2026/11/7/trump-confirms-new-us-strikes-on-irans-qeshm-island) · [마트루부미](https://english.mathrubhumi.com/news/world/us-middle-east-security-alert-iran-tensions-flight-disruptions-lpe7pc5e) · [The National](https://www.thenationalnews.com/news/mena/2026/11/08/smoke-blanketing-the-strait-iran-steps-up-campaign-of-threats-to-shipping/) · [아랍뉴스 (AFP)](https://www.arabnews.com/middle-east/iran-says-3-tankers-caught-fire-in-hormuz-3010518) · [FinanceFeeds](https://financefeeds.com/brent-crude-oil-price-98-32-saturday-week-ahead-us-iran-deal-bets-cpi-10-november-bull-105-bear-93/) · [파이낸셜뉴스](https://www.fnnews.com/news/202611101827182086) · [머니투데이](https://www.mt.co.kr/politics/2026/11/10/2026111021222821939) · [문화일보](https://www.munhwa.com/article/11630349) · [한국일보](https://www.hankookilbo.com/news/article/A2026101611130002156?dtypecode=pancode_politics)
