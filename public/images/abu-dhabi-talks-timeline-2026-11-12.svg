@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="44" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">올레시키 휴전에서 아부다비 회담까지 · 2026.10.20–11.12</text>
+  <text x="74" y="72" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">6일 휴전이 백악관을 거쳐 아부다비 3자 회담으로 이어졌다</text>
+
+  <line x1="60" y1="260" x2="840" y2="260" stroke="#20231f" stroke-width="2"/>
+
+  <!-- 1 오슬로 (above) -->
+  <circle cx="90" cy="260" r="8" fill="#16756a"/>
+  <text x="90" y="196" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#16756a">10.20</text>
+  <text x="90" y="220" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#20231f">오슬로</text>
+  <text x="90" y="242" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">미국·우크라이나·EU</text>
+
+  <!-- 2 상트페테르부르크 (below) -->
+  <circle cx="205" cy="260" r="8" fill="#16756a"/>
+  <text x="205" y="296" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#16756a">10.21</text>
+  <text x="205" y="320" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#20231f">상트페테르부르크</text>
+  <text x="205" y="342" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">미국·러시아 회동</text>
+
+  <!-- 3 올레시키 (above) -->
+  <circle cx="320" cy="260" r="8" fill="#16756a"/>
+  <text x="320" y="176" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#16756a">10.23–11.01</text>
+  <text x="320" y="200" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#20231f">올레시키 휴전</text>
+  <text x="320" y="222" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">6일간 휴전 · 약 800명 대피</text>
+  <text x="320" y="242" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">10.23 서명 · 10.27 개시</text>
+
+  <!-- 4 백악관 (below) -->
+  <circle cx="435" cy="260" r="8" fill="#16756a"/>
+  <text x="435" y="296" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#16756a">11.05</text>
+  <text x="435" y="320" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#20231f">백악관</text>
+  <text x="435" y="342" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">러시아·우크라이나 대표 한자리</text>
+
+  <!-- 5 아부다비 (above, highlight) -->
+  <circle cx="550" cy="260" r="12" fill="#e0795b"/>
+  <text x="550" y="176" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#e0795b">11.10–11</text>
+  <text x="550" y="200" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#20231f">아부다비 3자 회담</text>
+  <text x="550" y="222" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">9개월 만의 직접 회담</text>
+  <text x="550" y="242" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">대규모 포로 교환 합의</text>
+
+  <!-- 6 모스크바 (below) -->
+  <circle cx="665" cy="260" r="8" fill="none" stroke="#62655d" stroke-width="2"/>
+  <text x="665" y="296" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#62655d">11.12</text>
+  <text x="665" y="320" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#20231f">모스크바</text>
+  <text x="665" y="342" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">쿠슈너·위트코프, 푸틴 면담</text>
+
+  <!-- 7 더블린 (above) -->
+  <circle cx="780" cy="260" r="8" fill="none" stroke="#62655d" stroke-width="2"/>
+  <text x="780" y="200" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#62655d">이후</text>
+  <text x="780" y="224" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#20231f">더블린</text>
+  <text x="780" y="246" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">젤렌스키와 면담 예정</text>
+
+  <text x="74" y="420" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#62655d">빈 원은 아직 열리지 않은 일정이다. 올해 아부다비에서 열린 세 번째 회담이다.</text>
+  <text x="74" y="496" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">로이터·알자지라·더 내셔널 보도 내용을 바탕으로 직접 만들었다</text>
+</svg>
