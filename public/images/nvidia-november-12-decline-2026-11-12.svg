@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="sans-serif">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <text x="450" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#20231f">엔비디아 주가 — 11월 6일 종가부터 11월 12일 장전까지 (달러)</text>
+  <text x="830" y="64" text-anchor="end" font-size="13" fill="#62655d">■ 정규장 종가  ■ 시간외 · 장전</text>
+  <g stroke="#d8d2c4" stroke-width="1">
+    <line x1="80" y1="60" x2="860" y2="60"/>
+    <line x1="80" y1="186.7" x2="860" y2="186.7"/>
+    <line x1="80" y1="313.3" x2="860" y2="313.3"/>
+    <line x1="80" y1="440" x2="860" y2="440"/>
+  </g>
+  <g font-size="13" fill="#62655d" text-anchor="end">
+    <text x="72" y="64">200</text>
+    <text x="72" y="190.7">180</text>
+    <text x="72" y="317.3">160</text>
+    <text x="72" y="444">140</text>
+  </g>
+  <g>
+    <rect x="110" y="144.6" width="70" height="295.4" fill="#16756a"/>
+    <rect x="240" y="195.1" width="70" height="244.9" fill="#16756a"/>
+    <rect x="370" y="257" width="70" height="183" fill="#16756a"/>
+    <rect x="500" y="226.4" width="70" height="213.6" fill="#16756a"/>
+    <rect x="630" y="321.2" width="70" height="118.8" fill="#e0795b"/>
+    <rect x="760" y="299.9" width="70" height="140.1" fill="#e0795b"/>
+  </g>
+  <g font-size="15" font-weight="bold" fill="#20231f" text-anchor="middle">
+    <text x="145" y="134.6">$186.64</text>
+    <text x="275" y="185.1">$178.67</text>
+    <text x="405" y="247">$168.89</text>
+    <text x="535" y="216.4">$173.73</text>
+    <text x="665" y="311.2">$158.76</text>
+    <text x="795" y="289.9">$162.12</text>
+  </g>
+  <g font-size="15" fill="#20231f" text-anchor="middle">
+    <text x="145" y="468">11/6 종가</text>
+    <text x="275" y="468">11/9 종가</text>
+    <text x="405" y="468">11/10 종가</text>
+    <text x="535" y="468">11/11 종가</text>
+    <text x="665" y="468">11/11 시간외</text>
+    <text x="795" y="468">11/12 장전</text>
+  </g>
+  <text x="450" y="505" text-anchor="middle" font-size="13" font-family="monospace" fill="#62655d">종가는 뉴욕 정규장 마감가. 시간외는 11월 11일 오후 7시 59분(미 동부), 장전은 11월 12일 오전 4시 9분(미 동부) 기준. Y축은 140달러부터.</text>
+</svg>
