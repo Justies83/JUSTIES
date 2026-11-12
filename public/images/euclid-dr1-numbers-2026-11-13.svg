@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="유클리드 DR1 파운데이션 — 은하 9억 개 이상, 퀘이사 후보 6,000만 개 이상, 스펙트럼 1억6,000만 개 이상, 강력 중력렌즈 후보 1만5,000개, 데이터 170만 GB, 관측 면적 1,900제곱도">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <text x="450" y="58" text-anchor="middle" font-family="sans-serif" font-size="30" font-weight="bold" fill="#20231f">유클리드 DR1, 숫자로 보는 첫 데이터</text>
+  <text x="450" y="92" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#62655d">13개월 관측을 한 번에 — 6년 임무 하늘의 14%</text>
+  <rect x="60" y="120" width="180" height="120" fill="#16756a"/>
+  <text x="150" y="172" text-anchor="middle" font-family="sans-serif" font-size="30" font-weight="bold" fill="#f4f1ea">9억 개+</text>
+  <text x="150" y="206" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#f4f1ea">은하</text>
+  <rect x="255" y="120" width="180" height="120" fill="#16756a"/>
+  <text x="345" y="172" text-anchor="middle" font-family="sans-serif" font-size="30" font-weight="bold" fill="#f4f1ea">6,000만 개+</text>
+  <text x="345" y="206" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#f4f1ea">퀘이사 후보</text>
+  <rect x="450" y="120" width="180" height="120" fill="#16756a"/>
+  <text x="540" y="172" text-anchor="middle" font-family="sans-serif" font-size="30" font-weight="bold" fill="#f4f1ea">1억6,000만 개+</text>
+  <text x="540" y="206" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#f4f1ea">스펙트럼</text>
+  <rect x="645" y="120" width="195" height="120" fill="#e0795b"/>
+  <text x="742" y="172" text-anchor="middle" font-family="sans-serif" font-size="30" font-weight="bold" fill="#f4f1ea">1만5,000개</text>
+  <text x="742" y="206" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#f4f1ea">강력 중력렌즈 후보</text>
+  <text x="450" y="282" text-anchor="middle" font-family="sans-serif" font-size="19" fill="#20231f">데이터 170만 GB · 관측 면적 1,900제곱도 · 보름달 9,500개 넓이 · 이미지 약 1만 장</text>
+  <line x1="70" y1="350" x2="830" y2="350" stroke="#16756a" stroke-width="3"/>
+  <circle cx="120" cy="350" r="10" fill="#16756a"/>
+  <circle cx="290" cy="350" r="10" fill="#16756a"/>
+  <circle cx="460" cy="350" r="10" fill="#16756a"/>
+  <circle cx="630" cy="350" r="10" fill="#16756a"/>
+  <circle cx="800" cy="350" r="10" fill="#e0795b"/>
+  <text x="120" y="322" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#20231f">2023년 7월</text>
+  <text x="290" y="322" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#20231f">2024년 2월</text>
+  <text x="460" y="322" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#20231f">2026년 11월 12일</text>
+  <text x="630" y="322" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#20231f">2027년 중반</text>
+  <text x="800" y="322" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#20231f">2031년</text>
+  <text x="120" y="392" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#20231f">발사</text>
+  <text x="290" y="392" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#20231f">본격 관측 시작</text>
+  <text x="460" y="392" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#20231f">DR1 파운데이션</text>
+  <text x="630" y="392" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#20231f">DR1 완성</text>
+  <text x="800" y="392" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#20231f">3D 지도 완성</text>
+  <text x="450" y="452" text-anchor="middle" font-family="monospace" font-size="14" fill="#62655d">도표는 ESA·Phys.org·Physics World 2026년 11월 12일 보도를 바탕으로 직접 만들었다.</text>
+  <text x="450" y="478" text-anchor="middle" font-family="monospace" font-size="14" fill="#62655d">DR1 완성과 3D 지도 일정은 ESA 발표 기준 예정일이다.</text>
+</svg>
