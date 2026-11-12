@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="엔비디아 주가 — 11월 11일 종가 173.73달러, 11월 12일 시가 151.01달러, 장중 저점 148.80달러, 오전 10시 10분 160.39달러">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <text x="450" y="40" text-anchor="middle" font-family="sans-serif" font-size="24" font-weight="bold" fill="#20231f">엔비디아 주가 — 황 CEO 사임 발표일</text>
+  <text x="450" y="68" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#62655d">달러 · 2026년 11월 11일 종가 ~ 11월 12일 오전 10시 10분(미 동부 시간)</text>
+  <g font-family="monospace" font-size="13" fill="#62655d">
+    <line x1="90" y1="80" x2="860" y2="80" stroke="#d8d2c4" stroke-width="1"/>
+    <text x="78" y="85" text-anchor="end">180</text>
+    <line x1="90" y1="175" x2="860" y2="175" stroke="#d8d2c4" stroke-width="1"/>
+    <text x="78" y="180" text-anchor="end">170</text>
+    <line x1="90" y1="270" x2="860" y2="270" stroke="#d8d2c4" stroke-width="1"/>
+    <text x="78" y="275" text-anchor="end">160</text>
+    <line x1="90" y1="365" x2="860" y2="365" stroke="#d8d2c4" stroke-width="1"/>
+    <text x="78" y="370" text-anchor="end">150</text>
+    <line x1="90" y1="460" x2="860" y2="460" stroke="#d8d2c4" stroke-width="1"/>
+    <text x="78" y="465" text-anchor="end">140</text>
+  </g>
+  <polyline points="140,140 360,355 580,376 800,266" fill="none" stroke="#e0795b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <g font-family="sans-serif" font-size="17" font-weight="bold" fill="#20231f">
+    <circle cx="140" cy="140" r="7" fill="#16756a"/>
+    <text x="140" y="112" text-anchor="middle">173.73</text>
+    <circle cx="360" cy="355" r="7" fill="#e0795b"/>
+    <text x="360" y="395" text-anchor="middle">151.01</text>
+    <circle cx="580" cy="376" r="7" fill="#e0795b"/>
+    <text x="580" y="416" text-anchor="middle">148.80</text>
+    <circle cx="800" cy="266" r="7" fill="#16756a"/>
+    <text x="800" y="238" text-anchor="middle">160.39</text>
+  </g>
+  <g font-family="sans-serif" font-size="15" fill="#62655d" text-anchor="middle">
+    <text x="140" y="490">11/11 종가</text>
+    <text x="360" y="490">11/12 시가</text>
+    <text x="580" y="490">장중 저점</text>
+    <text x="800" y="490">10:10</text>
+  </g>
+  <text x="450" y="516" text-anchor="middle" font-family="monospace" font-size="12" fill="#62655d">도표는 Finnhub 2026년 11월 11일~12일 수치를 바탕으로 직접 만들었다. 11월 12일은 뉴욕 정규장 오전 10시 10분 기준.</text>
+</svg>
