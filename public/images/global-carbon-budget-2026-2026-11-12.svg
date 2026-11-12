@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="44" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">남은 탄소예산 · 지금 속도로 배출하면 몇 년 남았나</text>
+  <text x="74" y="72" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">1.5도를 지킬 예산은 4년도 채 남지 않았다</text>
+
+  <!-- bar 1: 1.5C -> 150 GtCO2 -->
+  <text x="74" y="150" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">1.5도</text>
+  <rect x="200" y="128" width="87" height="34" fill="#e0795b"/>
+  <text x="299" y="151" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="16" fill="#20231f">150억 톤 · 4년 미만</text>
+
+  <!-- bar 2: 1.7C -> 510 GtCO2 -->
+  <text x="74" y="240" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">1.7도</text>
+  <rect x="200" y="218" width="296" height="34" fill="#16756a"/>
+  <text x="508" y="241" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="16" fill="#20231f">510억 톤 · 약 12년</text>
+
+  <!-- bar 3: 2C -> 1035 GtCO2 -->
+  <text x="74" y="330" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">2도</text>
+  <rect x="200" y="308" width="600" height="34" fill="#16756a"/>
+  <text x="812" y="331" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="16" fill="#20231f">1,035억 톤 · 약 24년</text>
+
+  <text x="74" y="420" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#62655d">남은 예산은 해당 온도 상승을 넘지 않고 앞으로 더 배출할 수 있는</text>
+  <text x="74" y="444" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#62655d">이산화탄소의 총량이다. 연수는 현재 배출 속도를 그대로 유지한다는 가정이다.</text>
+  <text x="74" y="496" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">글로벌 탄소 프로젝트 2026년 탄소예산(ESSD 프리프린트, 2026.11.10) 수치로 직접 만들었다</text>
+</svg>
