@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="sans-serif">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <text x="450" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#20231f">콩고민주공화국 에볼라 누적 확진자·사망자 (명)</text>
+  <text x="830" y="64" text-anchor="end" font-size="13" fill="#62655d">■ 확진자  ■ 사망자</text>
+  <line x1="80" y1="440.0" x2="860" y2="440.0" stroke="#d8d2c4" stroke-width="1"/>
+  <line x1="80" y1="345.0" x2="860" y2="345.0" stroke="#d8d2c4" stroke-width="1"/>
+  <line x1="80" y1="250.0" x2="860" y2="250.0" stroke="#d8d2c4" stroke-width="1"/>
+  <line x1="80" y1="155.0" x2="860" y2="155.0" stroke="#d8d2c4" stroke-width="1"/>
+  <line x1="80" y1="60.0" x2="860" y2="60.0" stroke="#d8d2c4" stroke-width="1"/>
+  <g font-size="13" fill="#62655d" text-anchor="end">
+    <text x="72" y="444.0">0</text>
+    <text x="72" y="349.0">3,000</text>
+    <text x="72" y="254.0">6,000</text>
+    <text x="72" y="159.0">9,000</text>
+    <text x="72" y="64.0">12,000</text>
+  </g>
+  <g>
+    <rect x="109.5" y="177.2" width="62" height="262.8" fill="#16756a"/>
+    <rect x="183.5" y="312.8" width="62" height="127.2" fill="#e0795b"/>
+    <rect x="304.5" y="102.2" width="62" height="337.8" fill="#16756a"/>
+    <rect x="378.5" y="275.4" width="62" height="164.6" fill="#e0795b"/>
+    <rect x="499.5" y="92.0" width="62" height="348.0" fill="#16756a"/>
+    <rect x="573.5" y="270.5" width="62" height="169.5" fill="#e0795b"/>
+    <rect x="694.5" y="90.3" width="62" height="349.7" fill="#16756a"/>
+    <rect x="768.5" y="269.4" width="62" height="170.6" fill="#e0795b"/>
+  </g>
+  <g font-size="15" font-weight="bold" fill="#20231f" text-anchor="middle">
+    <text x="143.5" y="169.2">8,300</text>
+    <text x="211.5" y="304.8">4,018</text>
+    <text x="338.5" y="94.2">10,668</text>
+    <text x="406.5" y="267.4">5,198</text>
+    <text x="533.5" y="84.0">10,990</text>
+    <text x="601.5" y="262.5">5,354</text>
+    <text x="728.5" y="82.3">11,042</text>
+    <text x="796.5" y="261.4">5,387</text>
+  </g>
+  <g font-size="15" fill="#20231f" text-anchor="middle">
+    <text x="177.5" y="468">9/30</text>
+    <text x="372.5" y="468">11/3</text>
+    <text x="567.5" y="468">11/8</text>
+    <text x="762.5" y="468">11/11</text>
+  </g>
+  <text x="450" y="505" text-anchor="middle" font-size="13" fill="#62655d">9/30 콩고 보건당국 집계 · 11/3 WHO · 11/8 유럽질병예방통제센터(ECDC) · 11/11 콩고 보건부(AP)</text>
+</svg>
