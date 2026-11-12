@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="44" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">TSMC가 사는 앤트로픽 주식 수 · 5억 달러 상한 기준</text>
+  <text x="74" y="72" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">공모가가 높을수록 같은 돈으로 사는 주식은 줄어든다</text>
+
+  <!-- bar 1: $70 -> 7,142,857 -->
+  <text x="74" y="150" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">주당 70달러</text>
+  <rect x="200" y="128" width="600" height="34" fill="#16756a"/>
+  <text x="812" y="151" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="16" fill="#20231f">7,142,857주</text>
+
+  <!-- bar 2: $74 -> 6,756,756 -->
+  <text x="74" y="240" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">주당 74달러</text>
+  <rect x="200" y="218" width="568" height="34" fill="#16756a"/>
+  <text x="780" y="241" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="16" fill="#20231f">6,756,756주</text>
+
+  <!-- bar 3: $78 -> 6,410,256 -->
+  <text x="74" y="330" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">주당 78달러</text>
+  <rect x="200" y="308" width="538" height="34" fill="#e0795b"/>
+  <text x="750" y="331" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="16" fill="#20231f">6,410,256주</text>
+
+  <text x="74" y="420" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#62655d">5억 달러 상한을 공모가로 나눈 계산이다. 중간값 74달러 기준 6,756,756주는</text>
+  <text x="74" y="444" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#62655d">Anthropic S-1/A에 적힌 TSMC 파트너스 배정 주식 수와 같다. 지분율은 전체의 0.05% 남짓이다.</text>
+  <text x="74" y="496" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">TSMC 이사회 결의문(2026.11.10)과 Anthropic S-1/A(2026.11.10) 수치로 직접 계산했다</text>
+</svg>
