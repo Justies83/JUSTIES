@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="44" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">인도 소매물가(CPI) 전년 동월 대비 상승률 · 2026년 1~10월</text>
+  <text x="74" y="72" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">열 달 연속 상승, 10월에 RBI 상한 6%를 넘어섰다</text>
+
+  <!-- gridlines: 2% y=440, 3% y=364, 4% y=288, 5% y=212, 6% y=136, 7% y=60 -->
+  <line x1="80" y1="440" x2="860" y2="440" stroke="#20231f" stroke-opacity="0.12"/>
+  <line x1="80" y1="364" x2="860" y2="364" stroke="#20231f" stroke-opacity="0.12"/>
+  <line x1="80" y1="212" x2="860" y2="212" stroke="#20231f" stroke-opacity="0.12"/>
+  <line x1="80" y1="60" x2="860" y2="60" stroke="#20231f" stroke-opacity="0.12"/>
+  <text x="66" y="445" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d" text-anchor="end">2%</text>
+  <text x="66" y="369" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d" text-anchor="end">3%</text>
+  <text x="66" y="217" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d" text-anchor="end">5%</text>
+  <text x="66" y="65" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d" text-anchor="end">7%</text>
+
+  <!-- RBI target 4% line y=288 -->
+  <line x1="80" y1="288" x2="860" y2="288" stroke="#62655d" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <text x="852" y="278" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d" text-anchor="end">RBI 목표 4%</text>
+
+  <!-- RBI ceiling 6% line y=136 -->
+  <line x1="80" y1="136" x2="860" y2="136" stroke="#e0795b" stroke-width="2" stroke-dasharray="8 5"/>
+  <text x="852" y="126" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#e0795b" text-anchor="end">RBI 상한 6%</text>
+
+  <!-- CPI line: x 80,167,253,340,427,513,600,687,773,860; y 384,348,334,328,293,259,254,225,171,129 -->
+  <polyline points="80,384 167,348 253,334 340,328 427,293 513,259 600,254 687,225 773,171 860,129" fill="none" stroke="#16756a" stroke-width="3"/>
+  <circle cx="80" cy="384" r="5" fill="#16756a"/>
+  <circle cx="167" cy="348" r="4" fill="#16756a"/>
+  <circle cx="253" cy="334" r="4" fill="#16756a"/>
+  <circle cx="340" cy="328" r="4" fill="#16756a"/>
+  <circle cx="427" cy="293" r="4" fill="#16756a"/>
+  <circle cx="513" cy="259" r="4" fill="#16756a"/>
+  <circle cx="600" cy="254" r="4" fill="#16756a"/>
+  <circle cx="687" cy="225" r="4" fill="#16756a"/>
+  <circle cx="773" cy="171" r="4" fill="#16756a"/>
+  <circle cx="860" cy="129" r="6" fill="#e0795b"/>
+
+  <!-- value labels -->
+  <text x="80" y="410" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#20231f" text-anchor="middle">2.74%</text>
+  <text x="513" y="285" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#20231f" text-anchor="middle">4.38%</text>
+  <text x="773" y="197" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#20231f" text-anchor="middle">5.54%</text>
+  <text x="852" y="112" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="16" fill="#e0795b" text-anchor="end">6.09%</text>
+
+  <!-- month labels -->
+  <text x="80" y="472" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d" text-anchor="middle">1월</text>
+  <text x="167" y="472" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d" text-anchor="middle">2월</text>
+  <text x="253" y="472" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d" text-anchor="middle">3월</text>
+  <text x="340" y="472" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d" text-anchor="middle">4월</text>
+  <text x="427" y="472" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d" text-anchor="middle">5월</text>
+  <text x="513" y="472" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d" text-anchor="middle">6월</text>
+  <text x="600" y="472" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d" text-anchor="middle">7월</text>
+  <text x="687" y="472" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d" text-anchor="middle">8월</text>
+  <text x="773" y="472" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d" text-anchor="middle">9월</text>
+  <text x="860" y="472" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d" text-anchor="middle">10월</text>
+
+  <text x="74" y="505" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">MoSPI 월별 CPI 발표(2026년 1~10월, 2024년 기준) 수치를 바탕으로 직접 만들었다. 10월은 잠정치</text>
+</svg>
