@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img">
   <rect width="900" height="520" fill="#f4f1ea"/>
   <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
-  <text x="74" y="44" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">올레시키 휴전에서 아부다비 회담까지 · 2026.10.20–11.12</text>
-  <text x="74" y="72" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">6일 휴전이 백악관을 거쳐 아부다비 3자 회담으로 이어졌다</text>
+  <text x="74" y="44" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">올레시키 휴전에서 모스크바 회담까지 · 2026.10.20–11.13</text>
+  <text x="74" y="72" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">6일 휴전이 백악관을 거쳐 아부다비 3자 회담, 모스크바 회담으로 이어졌다</text>
 
   <line x1="60" y1="260" x2="840" y2="260" stroke="#20231f" stroke-width="2"/>
 
@@ -39,14 +39,14 @@
   <text x="550" y="242" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">대규모 포로 교환 합의</text>
 
   <!-- 6 모스크바 (below) -->
-  <circle cx="665" cy="260" r="8" fill="none" stroke="#62655d" stroke-width="2"/>
-  <text x="665" y="296" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#62655d">11.12</text>
+  <circle cx="665" cy="260" r="8" fill="#16756a"/>
+  <text x="665" y="296" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#16756a">11.12</text>
   <text x="665" y="320" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#20231f">모스크바</text>
-  <text x="665" y="342" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">쿠슈너·위트코프, 푸틴 면담</text>
+  <text x="665" y="342" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">유럽 합류 합의 · 임무 제안</text>
 
   <!-- 7 더블린 (above) -->
   <circle cx="780" cy="260" r="8" fill="none" stroke="#62655d" stroke-width="2"/>
-  <text x="780" y="200" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#62655d">이후</text>
+  <text x="780" y="200" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#62655d">11.13</text>
   <text x="780" y="224" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#20231f">더블린</text>
   <text x="780" y="246" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">젤렌스키와 면담 예정</text>
 
