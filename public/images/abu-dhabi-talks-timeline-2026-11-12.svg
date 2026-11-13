@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img">
   <rect width="900" height="520" fill="#f4f1ea"/>
   <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
-  <text x="74" y="44" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">올레시키 휴전에서 모스크바 회담까지 · 2026.10.20–11.13</text>
+  <text x="74" y="44" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">올레시키 휴전에서 더블린 면담까지 · 2026.10.20–11.13</text>
   <text x="74" y="72" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">6일 휴전이 백악관을 거쳐 아부다비 3자 회담, 모스크바 회담으로 이어졌다</text>
 
   <line x1="60" y1="260" x2="840" y2="260" stroke="#20231f" stroke-width="2"/>
@@ -45,11 +45,11 @@
   <text x="665" y="342" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">유럽 합류 합의 · 임무 제안</text>
 
   <!-- 7 더블린 (above) -->
-  <circle cx="780" cy="260" r="8" fill="none" stroke="#62655d" stroke-width="2"/>
-  <text x="780" y="200" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#62655d">11.13</text>
+  <circle cx="780" cy="260" r="8" fill="#16756a"/>
+  <text x="780" y="200" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#16756a">11.13</text>
   <text x="780" y="224" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#20231f">더블린</text>
-  <text x="780" y="246" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">젤렌스키와 면담 예정</text>
+  <text x="780" y="246" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">젤렌스키 면담 · 3가지 결과</text>
 
-  <text x="74" y="420" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#62655d">빈 원은 아직 열리지 않은 일정이다. 올해 아부다비에서 열린 세 번째 회담이다.</text>
-  <text x="74" y="496" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">로이터·알자지라·더 내셔널 보도 내용을 바탕으로 직접 만들었다</text>
+  <text x="74" y="420" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#62655d">아부다비에서 시작된 협상은 모스크바와 더블린을 거쳐 다음 회담으로 이어진다.</text>
+  <text x="74" y="496" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">로이터·알자지라·더 내셔널·우크린포름 보도 내용을 바탕으로 직접 만들었다</text>
 </svg>
