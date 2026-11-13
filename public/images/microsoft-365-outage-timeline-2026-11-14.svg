@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" width="900" height="560" role="img">
+  <rect width="900" height="560" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="558" fill="none" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="44" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">마이크로소프트 365 장애 · 2026년 11월 12~13일 타임라인</text>
+  <text x="74" y="72" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">시작 2시간 만에 신고가 평시의 1,300배로 치솟았다</text>
+
+  <!-- stat row -->
+  <text x="74" y="128" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="27" fill="#e0795b">74개국·지역</text>
+  <text x="74" y="152" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">1시간 만에 확산</text>
+  <text x="290" y="128" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="27" fill="#e0795b">19,650건/분</text>
+  <text x="290" y="152" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">장애 신고 피크</text>
+  <text x="520" y="128" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="27" fill="#e0795b">평시의 1,300배</text>
+  <text x="520" y="152" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">신고량 비교 (분당 15건 미만 → 19,650건)</text>
+  <text x="74" y="196" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="27" fill="#16756a">약 18시간</text>
+  <text x="74" y="220" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">수백만 명이 서비스에 접근하지 못했다</text>
+  <text x="290" y="196" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="27" fill="#16756a">2,000배</text>
+  <text x="290" y="220" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">아웃룩 신고량, 평시 대비 피크</text>
+
+  <!-- timeline axis -->
+  <line x1="60" y1="330" x2="840" y2="330" stroke="#20231f" stroke-width="2"/>
+  <circle cx="90" cy="330" r="8" fill="#e0795b"/>
+  <circle cx="234" cy="330" r="8" fill="#e0795b"/>
+  <circle cx="378" cy="330" r="8" fill="#e0795b"/>
+  <circle cx="522" cy="330" r="8" fill="#e0795b"/>
+  <circle cx="666" cy="330" r="8" fill="#16756a"/>
+  <circle cx="810" cy="330" r="8" fill="#16756a"/>
+
+  <!-- milestone 1 (above) -->
+  <line x1="90" y1="330" x2="90" y2="292" stroke="#62655d" stroke-width="1.5"/>
+  <text x="90" y="276" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#20231f" text-anchor="middle">11.12 16:17 UTC</text>
+  <text x="90" y="252" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f" text-anchor="middle">장애 시작</text>
+  <text x="90" y="230" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f" text-anchor="middle">Exchange Online</text>
+
+  <!-- milestone 2 (below) -->
+  <line x1="234" y1="330" x2="234" y2="368" stroke="#62655d" stroke-width="1.5"/>
+  <text x="234" y="392" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#20231f" text-anchor="middle">17:25 UTC</text>
+  <text x="234" y="416" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f" text-anchor="middle">아웃룩 신고 급증</text>
+  <text x="234" y="438" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#62655d" text-anchor="middle">뉴욕 낮 12시 25분</text>
+
+  <!-- milestone 3 (above) -->
+  <line x1="378" y1="330" x2="378" y2="292" stroke="#62655d" stroke-width="1.5"/>
+  <text x="378" y="276" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#20231f" text-anchor="middle">18:25 UTC</text>
+  <text x="378" y="252" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f" text-anchor="middle">신고 피크</text>
+  <text x="378" y="230" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f" text-anchor="middle">분당 19,650건</text>
+
+  <!-- milestone 4 (below) -->
+  <line x1="522" y1="330" x2="522" y2="368" stroke="#62655d" stroke-width="1.5"/>
+  <text x="522" y="392" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#20231f" text-anchor="middle">19:38 UTC</text>
+  <text x="522" y="416" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f" text-anchor="middle">여전히 분당</text>
+  <text x="522" y="438" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#62655d" text-anchor="middle">11,000건 이상</text>
+
+  <!-- milestone 5 (above) -->
+  <line x1="666" y1="330" x2="666" y2="292" stroke="#62655d" stroke-width="1.5"/>
+  <text x="666" y="276" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#20231f" text-anchor="middle">11.13 오전</text>
+  <text x="666" y="252" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f" text-anchor="middle">복구 착수</text>
+  <text x="666" y="230" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f" text-anchor="middle">메일 타임아웃 48시간</text>
+
+  <!-- milestone 6 (below) -->
+  <line x1="810" y1="330" x2="810" y2="368" stroke="#62655d" stroke-width="1.5"/>
+  <text x="810" y="392" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#20231f" text-anchor="middle">11.13 14:36 UTC</text>
+  <text x="810" y="416" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f" text-anchor="middle">대기열 정상 근접</text>
+  <text x="810" y="438" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#62655d" text-anchor="middle">복구 진행 중</text>
+
+  <text x="74" y="505" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">마이크로소프트 발표·다운데텍터·더 힌두 2026년 11월 12~13일 보도를 바탕으로 직접 만들었다. 시간은 UTC 기준, 한국 시간은 9시간을 더한다</text>
+  <text x="74" y="530" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">장애 시작 16:17 UTC는 한국 시간 11월 13일 오전 1시 17분, 대기열 정상 근접 14:36 UTC는 11월 13일 오후 11시 36분이다</text>
+</svg>
