@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 430" width="900" height="430" role="img">
+  <rect width="900" height="430" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="428" fill="none" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="44" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">모스크바 회담(11.12) 결과 정리</text>
+  <text x="74" y="72" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">테이블은 넓어졌는데, 핵심 쟁점은 그대로다</text>
+
+  <!-- left: agreed -->
+  <rect x="60" y="96" width="380" height="240" fill="#e8efe9"/>
+  <text x="84" y="132" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" font-weight="bold" fill="#16756a">정해진 것</text>
+  <text x="84" y="166" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">· 유럽, 다음 회담부터 합류</text>
+  <text x="84" y="192" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">· 새 3자 회담 개최 합의 (날짜 미정)</text>
+  <text x="84" y="218" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">· 코스티안티니우카 인도적 임무 제안</text>
+  <text x="84" y="244" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">  미국, 제안 지지 · 주민 400~500명</text>
+  <text x="84" y="268" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">  지뢰 제거에 5일 필요</text>
+  <text x="84" y="300" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">· 푸틴–트럼프, APEC에서 계속 논의</text>
+  <text x="84" y="326" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">  이달 말 중국 선전 APEC 정상회의</text>
+
+  <!-- right: unresolved -->
+  <rect x="460" y="96" width="380" height="240" fill="#f6e8e2"/>
+  <text x="484" y="132" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" font-weight="bold" fill="#b0512f">안 정해진 것</text>
+  <text x="484" y="166" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">· 포로 교환 최종 숫자 (목요일 발표 없음)</text>
+  <text x="484" y="192" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">· 돈바스 영토 — 푸틴, 전역 요구 유지</text>
+  <text x="484" y="218" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">· 휴전 후 유럽군 주둔 — 푸틴 “절대 불가”</text>
+  <text x="484" y="244" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">  푸틴 “평화냐 전쟁이냐 결단하라”</text>
+  <text x="484" y="276" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">· 나토 동진 — 러시아, 확대 불가 요구</text>
+  <text x="484" y="302" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">· 스타실드 제한 — 전선 전역 통신 차질</text>
+  <text x="484" y="328" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">  젤렌스키 “미국의 안보 논의, 다소 이상”</text>
+
+  <text x="74" y="380" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#62655d">다음 관문은 11월 13일 더블린의 젤렌스키 면담, 월요일 EU 추가 제재다.</text>
+  <text x="74" y="406" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">로이터·알자지라 2026년 11월 12일 보도 내용을 바탕으로 직접 만들었다</text>
+</svg>
