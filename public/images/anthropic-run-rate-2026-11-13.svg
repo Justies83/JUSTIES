@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="44" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">ANTHROPIC IPO · S-1/A 2026.11.10 / BLOOMBERG 2026.11.12</text>
+  <text x="74" y="72" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">연환산 매출(run rate) 추이 (10억 달러)</text>
+  <line x1="74" y1="420" x2="840" y2="420" stroke="rgba(32,35,31,.16)"/>
+  <rect x="114.8" y="195.3" width="110" height="224.7" fill="#16756a" rx="3"/>
+  <text x="169.8" y="183.3" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="18" fill="#16756a">$65B</text>
+  <text x="169.8" y="448" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">2026년 7월 말</text>
+  <rect x="306.3" y="174.6" width="110" height="245.4" fill="#16756a" rx="3"/>
+  <text x="361.3" y="162.6" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="18" fill="#16756a">$71B</text>
+  <text x="361.3" y="448" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">2026년 9월 말</text>
+  <rect x="497.8" y="140.0" width="110" height="280.0" fill="#16756a" rx="3"/>
+  <text x="552.8" y="128.0" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="18" fill="#16756a">$81B</text>
+  <text x="552.8" y="448" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">2026년 10월 31일</text>
+  <text x="744.3" y="200" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">3개월 새</text>
+  <text x="744.3" y="228" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="20" fill="#16756a">+$16B</text>
+  <text x="744.3" y="256" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">한 달 새 +$10B</text>
+  <text x="74" y="492" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">소비 기반 수수료는 직전 28일, 구독 기반 수수료는 한 달 치를 연 단위로 환산한 추정치다.</text>
+</svg>
