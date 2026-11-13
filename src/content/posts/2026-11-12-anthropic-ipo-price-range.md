@@ -3,7 +3,7 @@ title: "앤트로픽, 공모가 주당 70~78달러로 확정 — 최대 644억 �
 date: 2026-11-12
 category: finance
 kind: news
-takeaway: "클로드 개발사 앤트로픽이 11월 10일 미국 증권거래위원회에 낸 수정 신고서에서 공모가 범위를 주당 70~78달러로 확정하고 로드쇼를 시작했다. 8억 2,500만 주를 팔아 최대 643억 5,000만 달러를 조달하고, 구글·엔비디아 등 7곳의 사모배정 260억 달러까지 합하면 총 904억 달러 규모다. 나스닥 종목코드는 ANT, 공모가 확정은 11월 18일, 첫 거래는 11월 19일로 보도되고 있다."
+takeaway: "클로드 개발사 앤트로픽이 11월 10일 미국 증권거래위원회에 낸 수정 신고서에서 공모가 범위를 주당 70~78달러로 확정하고 로드쇼를 시작했다. 8억 2,500만 주를 팔아 최대 643억 5,000만 달러를 조달하고, 구글·엔비디아 등 7곳의 사모배정 260억 달러까지 합하면 총 904억 달러 규모다. 나스닥 종목코드는 ANT, 공모가 확정은 11월 18일, 첫 거래는 11월 19일로 보도되고 있다. 11월 13일에는 블룸버그 보도로 공모 주문이 물량의 약 6배에 달하고 기존 투자자 우선 배정 방침이 전해졌으며, 신고서 기준 10월 31일 연환산 매출은 810억 달러로 나타났다."
 tags: [앤트로픽, IPO, 클로드, 나스닥, 공모가, 골드만삭스, 엔비디아, 구글, AI 밸류에이션]
 cover: /images/anthropic-ipo-price-range-2026-11-12.jpg
 coverAlt: "2021년 9월 뉴욕 타임스스퀘어의 나스닥 마켓사이트"
@@ -38,4 +38,63 @@ source:
 
 <p align="center">앞으로 볼 것은 세 가지다.<br/>첫째, 로드쇼 반응이다.<br/>기관 수요가 몰리면 최종가는 범위 상단에서 정해지고, 주저하면 하단이나 범위 자체가 다시 조정될 수 있다.<br/>둘째, 11월 18일 공모가 확정과 11월 19일 첫 거래가 보도대로 흘러가는지다.<br/>셋째, 상장 뒤 첫 분기 실적이다.<br/>매출 성장률이 꺾이는 속도와 컴퓨팅 약정의 실제 집행 속도가 맞물리는 지점에서 이 회사의 가치가 다시 매겨질 것이다.<br/>공모가 범위는 출발선일 뿐이다.<br/>숫자가 말해주는 건 여기까지고, 나머지는 시장이 정한다.</p>
 
-참고한 기사 — [Anthropic S-1/A, SEC EDGAR](https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm) · [Reuters via The Hindu BusinessLine](https://www.thehindubusinessline.com/markets/anthropic-ipo-could-raise-up-to-644-billion-at-share-price-of-70-78/article71685870.ece) · [Invezz](https://invezz.com/en-ae/news/2026/11/10/anthropic-sets-ipo-price-range-at-dollar70-dollar78-a-share-targets-up-to-dollar6435-billion/) · [Financial Express](https://www.financialexpress.com/market/global-markets/anthropic-ipo-priced-at-70-78-per-share-roadshow-launched-for-public-listing/4380838/) · [FinanceFeeds](https://financefeeds.com/anthropic-ipo-date-price-range-70-78-trading-19-november/)
+<p align="center"><strong>11월 13일 업데이트</strong> — 로드쇼 사흘 만에 수요 숫자가 나왔다.<br/>
+블룸버그가 11월 12일(현지시간 목요일) 전한 바에 따르면, 앤트로픽 공모에 들어온 주문은 팔 주식 물량의 <strong>약 6배</strong>에 달한다.<br/>
+역대 최대 규모의 첫 상장이 될 수 있다는 전망에, 기관 수요가 범위 상단을 향해 몰리고 있는 셈이다.<br/>
+다만 이 수치는 확정된 게 아니다.<br/>
+사정에 정통한 소식통들의 전언이고, 블룸버그 보도도 수요를 포함한 공모 세부 사항이 바뀔 수 있다고 덧붙였으며, 앤트로픽은 논평 요청에 바로 답하지 않았다.<br/>
+주문 장부가 두꺼워졌다고 최종가가 자동으로 올라가는 건 아니지만, 11월 18일 가격 확정 때까지 남은 닷새 동안 은행들이 가격을 끌어올릴 여지는 커졌다.</p>
+
+<p align="center">수요가 몰리면서 배정 싸움도 시작됐다.<br/>
+주관 은행들은 투자자들에게 앤트로픽이 <strong>기존 투자자를 우선 배정</strong>하겠다고 전했다고 블룸버그는 보도했다.<br/>
+새로 들어오려는 투자자 가운데 일부는 원한 만큼 주식을 받지 못할 수 있다는 얘기다.<br/>
+일부 투자자는 자기에게 배정될 몫의 일부를 다른 투자자에게 넘기며 수수료를 챙기고 리스크를 나누는 거래도 하고 있다.<br/>
+상장 전 지분을 특수목적법인(SPV)을 통해 사려는 움직임도 나온다.<br/>
+상장 전부터 주식이 웃돈을 얹어 오가는 풍경이다.<br/>
+수요가 6배라는 말과, 그 수요를 다 채워주지 못한다는 말은 같은 소식의 양면이다.</p>
+
+<p align="center">기업가치도 숫자로 좁혀졌다.<br/>
+블룸버그는 앤트로픽이 완전희석 기준으로 <strong>약 1조 4,000억 달러</strong>의 가치를 목표로 한다고 전했다.<br/>
+이 글에서 전한 뉴욕타임스 계산(1조 2,600억\~1조 4,100억 달러)의 상단과 겹치는 수준이다.<br/>
+일부 투자자가 기대했던 1조 5,000억 달러에는 못 미친다.<br/>
+블룸버그는 일부 기업이 정식 마케팅을 시작할 때 가격을 보수적으로 잡아 강한 수요가 최종가를 밀어 올리고 데뷔 첫날 강세를 노린다고 설명했다.<br/>
+지금의 70\~78달러 범위가 낮은 출발선인지, 시장의 냉정한 평가인지는 11월 18일 최종가에서 갈린다.</p>
+
+<p align="center">신고서에 들어 있던 매출 숫자도 새삼 주목받고 있다.<br/>
+11월 10일 제출된 신고서에 따르면 앤트로픽의 <strong>연환산 매출(run rate)은 10월 31일 기준 810억 달러</strong>다.<br/>
+9월 말 710억 달러에서 한 달 만에 100억 달러가 늘었고, 7월 말 650억 달러와 비교하면 석 달 만에 160억 달러가 불어났다.<br/>
+이 지표는 소비 기반 수수료는 직전 28일, 구독 기반 수수료는 한 달 치를 연 단위로 환산해 계산한다.<br/>
+9개월 누적 매출 332억 달러라는 장부 숫자와는 다른, 가장 최근의 속도를 보여주는 숫자다.<br/>
+성장 속도가 꺾였다는 앞선 글의 지적과, 연환산 기준으로는 여전히 가파르다는 이 숫자는 함께 읽어야 한다.<br/>
+분기 매출이 아니라 연환산 추정치라는 점도 함께 기억해 둘 일이다.</p>
+
+<p align="center"><img src="/images/anthropic-run-rate-2026-11-13.svg" alt="앤트로픽 연환산 매출 추이 — 2026년 7월 말 650억 달러, 9월 말 710억 달러, 10월 31일 810억 달러" style="max-width:100%;height:auto;"/></p>
+
+<p align="center" class="caption">도표는 Anthropic S-1/A(2026년 11월 10일)와 블룸버그 보도 내용을 바탕으로 직접 만들었다.</p>
+
+<p align="center">로드쇼의 공개 행사도 오늘 열린다.<br/>
+다리오 아모데이 CEO와 JP모건체이스 제이미 다이먼 CEO의 생중계 대담이 11월 13일 금요일 뉴욕 점심시간쯤 예정돼 있다.<br/>
+JP모건은 미국 내 개인 투자자 대상 마케팅과 배정을 주도하고 있다.<br/>
+공모 주식의 최대 20%를 개인 투자자에게 배정한다는 계획과 맞물리는 대목이다.<br/>
+스페이스X가 6월 상장 때 일론 머스크를 내세워 홍보 행사를 열었던 방식을 본뜬 것이지만, 규모와 요란함은 훨씬 절제된 수준이라고 블룸버그는 전했다.</p>
+
+<p align="center">수요 소식과 나란히, 시장의 시선은 반대쪽으로도 쏠렸다.<br/>
+앤트로픽의 사모배정 참여사이자 전략적 파트너인 엔비디아의 CEO 젠슨 황의 사임이 11월 12일 발표됐다.<br/>
+불륜 보도와 중국 스파이 연루 의혹이 불거진 뒤 이사회가 개입했고, 최고재무책임자(CFO) 콜레트 크레스가 임시 CEO를 맡았다.<br/>
+엔비디아는 사모배정으로 앤트로픽 주식 약 100억 달러어치를 사기로 돼 있다.<br/>
+주가는 발표 뒤 한때 13%까지 밀렸다가 낙폭을 약 4%로 줄였고, 주말 이후 시가총액은 약 4,500억 달러가 줄었다.<br/>
+앤트로픽 공모에 6배의 주문이 몰린 날, 그 공모의 가장 큰 후원사 중 한 곳이 최고경영자를 잃은 셈이다.<br/>
+두 소식은 따로 읽히지 않는다.<br/>
+AI 투자 열기가 식지 않았다는 증거와, 그 열기를 이끈 회사의 지배구조 리스크가 같은 날에 나왔다.<br/>
+황 CEO 사임의 전말은 따로 정리할 예정이다.</p>
+
+<p align="center">정리하면, 11월 13일 현재 달라진 것은 세 가지다.<br/>
+첫째, 수요는 확인됐다. 주문이 물량의 약 6배다.<br/>
+둘째, 배정은 가려진다. 기존 투자자가 우선이고, 나머지는 나눠 갖는다.<br/>
+셋째, 매출 속도는 신고서보다 빠르다. 연환산 810억 달러다.<br/>
+안 달라진 것도 있다.<br/>
+최종가는 11월 18일에 정해지고, 첫 거래는 11월 19일이다.<br/>
+수요 수치는 그때까지 바뀔 수 있다.<br/>
+로드쇼 첫 관문은 통과했지만, 가격을 정하는 건 다음 주다.</p>
+
+참고한 기사 — [Anthropic S-1/A, SEC EDGAR](https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm) · [Reuters via The Hindu BusinessLine](https://www.thehindubusinessline.com/markets/anthropic-ipo-could-raise-up-to-644-billion-at-share-price-of-70-78/article71685870.ece) · [Invezz](https://invezz.com/en-ae/news/2026/11/10/anthropic-sets-ipo-price-range-at-dollar70-dollar78-a-share-targets-up-to-dollar6435-billion/) · [Financial Express](https://www.financialexpress.com/market/global-markets/anthropic-ipo-priced-at-70-78-per-share-roadshow-launched-for-public-listing/4380838/) · [FinanceFeeds](https://financefeeds.com/anthropic-ipo-date-price-range-70-78-trading-19-november/) · [Reuters via The Hindu BusinessLine (6배 수요)](https://www.thehindubusinessline.com/markets/anthropic-ipo-draws-sixfold-demand-targets-14-trillion-valuation/article71696359.ece) · [Reuters via Interaksyon](https://interaksyon.philstar.com/trends-spotlights/2026/11/13/321853/anthropics-ipo-is-about-six-times-oversubscribed-bloomberg-news-reports/) · [Malay Mail (AFP, 엔비디아 CEO 사임)](https://www.malaymail.com/news/money/2026/11/13/jensen-huang-resigns-as-nvidia-ceo-after-affair-revelations-ending-33-years-at-helm/243032)
