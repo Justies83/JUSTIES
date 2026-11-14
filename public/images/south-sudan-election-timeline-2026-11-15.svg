@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="sans-serif">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <text x="450" y="48" text-anchor="middle" font-size="27" font-weight="bold" fill="#20231f">남수단 첫 총선, 미뤄진 15년</text>
+  <text x="450" y="80" text-anchor="middle" font-size="15" fill="#62655d">2011년 독립부터 2027년 2월 새 투표일까지</text>
+
+  <line x1="50" y1="250" x2="850" y2="250" stroke="#16756a" stroke-width="3"/>
+
+  <!-- 1: independence above -->
+  <circle cx="80" cy="250" r="7" fill="#16756a"/>
+  <text x="80" y="150" text-anchor="middle" font-size="14" fill="#20231f">수단에서 독립</text>
+  <text x="80" y="172" text-anchor="middle" font-size="14" fill="#20231f">첫 총선은 아직 없었다</text>
+  <text x="80" y="200" text-anchor="middle" font-size="15" font-weight="bold" fill="#16756a">2011.7</text>
+
+  <!-- 2: civil war below -->
+  <circle cx="225" cy="250" r="7" fill="#e0795b"/>
+  <text x="225" y="292" text-anchor="middle" font-size="15" font-weight="bold" fill="#e0795b">2013~2018</text>
+  <text x="225" y="316" text-anchor="middle" font-size="14" fill="#20231f">내전, 최소 40만 명 사망</text>
+  <text x="225" y="338" text-anchor="middle" font-size="14" fill="#20231f">2018년 평화협정으로 종전</text>
+
+  <!-- 3: first target above -->
+  <circle cx="370" cy="250" r="7" fill="#16756a"/>
+  <text x="370" y="150" text-anchor="middle" font-size="14" fill="#20231f">첫 선거 목표 2022년</text>
+  <text x="370" y="172" text-anchor="middle" font-size="14" fill="#20231f">이후 세 번 이상 연기</text>
+  <text x="370" y="200" text-anchor="middle" font-size="15" font-weight="bold" fill="#16756a">2022</text>
+
+  <!-- 4: dissolution below -->
+  <circle cx="515" cy="250" r="7" fill="#e0795b"/>
+  <text x="515" y="292" text-anchor="middle" font-size="15" font-weight="bold" fill="#e0795b">2026.9.22</text>
+  <text x="515" y="316" text-anchor="middle" font-size="14" fill="#20231f">키르, 과도정부 해산</text>
+  <text x="515" y="338" text-anchor="middle" font-size="14" fill="#20231f">헌법·인구조사 없이 선거로</text>
+
+  <!-- 5: postponement above -->
+  <circle cx="660" cy="250" r="7" fill="#16756a"/>
+  <text x="660" y="150" text-anchor="middle" font-size="14" fill="#20231f">연기 발표·등록 시작</text>
+  <text x="660" y="172" text-anchor="middle" font-size="14" fill="#20231f">이유 밝히지 않음</text>
+  <text x="660" y="200" text-anchor="middle" font-size="15" font-weight="bold" fill="#16756a">2026.11.14</text>
+
+  <!-- 6: new polling day below -->
+  <circle cx="815" cy="250" r="7" fill="#16756a"/>
+  <text x="815" y="292" text-anchor="middle" font-size="15" font-weight="bold" fill="#16756a">2027.2.11</text>
+  <text x="815" y="316" text-anchor="middle" font-size="14" fill="#20231f">새 투표일(목)</text>
+  <text x="815" y="338" text-anchor="middle" font-size="14" fill="#20231f">12월 22일에서 51일 연기</text>
+
+  <text x="450" y="470" text-anchor="middle" font-size="13" font-family="monospace" fill="#62655d">요청액 2억 7,600만 달러 중 확보는 2,100만 달러 · 인구의 90%는 국가 인정 신분증 없음</text>
+</svg>
