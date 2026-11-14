@@ -3,8 +3,8 @@ title: "아웃룩·팀즈가 18시간 멈췄다 — 마이크로소프트 365, 7
 date: 2026-11-14
 category: tech
 kind: news
-takeaway: "마이크로소프트 365가 11월 12일 오후부터 13일까지 이어진 전 세계 장애로 아웃룩과 팀즈, 코파일럿을 멈춰 세웠다. 장애 신고는 한 시간 만에 74개국·지역으로 번졌고, 아웃룩 신고는 평시의 2,000배를 넘겼다. 마이크로소프트는 서버들이 자동 상태 점검에 잇따라 실패하면서 생긴 내부 인프라 문제라고 설명했고, 사이버 공격 가능성은 없다고 밝혔다. 복구는 13일 저녁 들어 속도가 붙어 이메일 대기열이 정상 수준에 근접했지만, 일부 이용자는 여전히 간헐적인 접속 문제를 겪고 있다. 올해 들어 세 번째 대규모 장애다."
-tags: [마이크로소프트, Microsoft 365, 아웃룩, 팀즈, 장애, 클라우드, 다운데텍터]
+takeaway: "마이크로소프트 365가 11월 12일 오후부터 13일까지 이어진 전 세계 장애로 아웃룩과 팀즈, 코파일럿을 멈춰 세웠다. 장애 신고는 한 시간 만에 74개국·지역으로 번졌고, 아웃룩 신고는 평시의 2,000배를 넘겼다. 마이크로소프트는 서버들이 자동 상태 점검에 잇따라 실패하면서 생긴 내부 인프라 문제라고 설명했고, 사이버 공격 가능성은 없다고 밝혔다. 복구는 13일 저녁 들어 속도가 붙어 이메일 대기열이 정상 수준에 근접했고, 13일 밤 늦게 두 건의 상태 기록이 모두 '복원됨'으로 바뀌었다. 원인은 이전 네트워크 용량 증설 과정에서 들어간 문제가 최근 네트워크 변경 뒤에 모습을 드러낸 것으로 확인됐다. 올해 들어 세 번째 대규모 장애다."
+tags: [마이크로소프트, Microsoft 365, 아웃룩, 팀즈, 장애, 클라우드, 다운데텍터, 11월 14일 업데이트]
 cover: /images/microsoft-365-outage-2026-11-14.jpg
 coverAlt: "마이크로소프트 본사 92번 건물(레드먼드)"
 source:
@@ -36,4 +36,6 @@ source:
 
 <p align="center">이번 장애가 남기는 질문은 원인이 아니라 구조다.<br/>이메일 한 통이 안 되는 게 아니라, 이메일과 회의와 문서와 AI 비서가 한꺼번에 같은 인프라에 묶여 있다는 점이 드러났다.<br/>장애가 터진 뒤 기업들이 팩스와 전화로 돌아간 건 우스운 장면이 아니라, 백업 채널이 없었다는 증거다.<br/>인도 오픈소스 단체 FOSS 유나이티드의 대표는 이번 일을 계기로 단일 업체 의존을 줄이고 이메일 서비스 업체를 다양화해야 한다고 했다.<br/>벵갈루루의 한 재단 임원은 “클라우드 장애는 가정이 아니라 확실한 일로 다뤄야 한다. 백업 소통 채널과 다중 업체 구성, 정기적으로 테스트하는 연속성 계획이 필요하다”고 했다.<br/>마이크로소프트가 내놓을 사후 보고서가 자동 상태 점검 실패의 근본 원인을 어디까지 밝힐지, 그리고 같은 도미노를 막을 대책이 무엇인지가 다음에 볼 대목이다.</p>
 
-참고한 기사 — [The Hindu](https://www.thehindu.com/sci-tech/technology/microsoft-outage-live-updates-november-13-2026-steps-to-fix-outlook-and-other-apps-ongoing/article71696624.ece) · [Business Today](https://www.businesstoday.in/amp/technology/story/microsoft-365-disruption-hits-74-countries-outlook-teams-and-copilot-knocked-offline-567213-2026-11-13) · [Financial Express](https://www.financialexpress.com/life/technology-microsoft-365-outage-live-updates-global-disruption-hits-outlook-teams-and-copilot-4383368/) · [Daily Caller](https://dailycaller.com/2026/11/13/microsoft-email-outlook-outage-announcement-downdetector)
+<p align="center"><strong>11월 14일 업데이트</strong> — 장애는 끝났다.<br/>마이크로소프트는 미 동부 시간 13일 밤 11시 15분(Exchange Online, EX1550543)과 11시 17분(Microsoft 365, MO1550821)에 두 건의 상태 기록을 모두 '복원됨'으로 바꿨다.<br/>상태 기록에 적힌 종료 시점은 13일 오전 11시 10분(미 동부 시간)이다.<br/>원인은 이전 네트워크 용량 증설 과정에서 들어간 문제가 최근 네트워크 변경 뒤에 모습을 드러낸 것으로, 사이버 공격이나 AI 에이전트와는 무관하다는 설명이다.<br/>마이크로소프트는 2영업일 안에 예비 사후 보고서를, 5영업일 안에 최종 보고서를 내겠다고 밝혔다.<br/>다만 상태 기록이 적는 종료 시점(13일 오전 11시 10분)과 오후까지 이어진 복구 소식 사이에는 어긋남이 있다.<br/>13일 오후 3시와 5시 업데이트에서도 복구가 계속되고 있다고 했기 때문이다.<br/>정확한 종료 시점과 근본 원인은 사후 보고서가 나와야 가려질 일이다.</p>
+
+참고한 기사 — [The Hindu](https://www.thehindu.com/sci-tech/technology/microsoft-outage-live-updates-november-13-2026-steps-to-fix-outlook-and-other-apps-ongoing/article71696624.ece) · [Business Today](https://www.businesstoday.in/amp/technology/story/microsoft-365-disruption-hits-74-countries-outlook-teams-and-copilot-knocked-offline-567213-2026-11-13) · [Financial Express](https://www.financialexpress.com/life/technology-microsoft-365-outage-live-updates-global-disruption-hits-outlook-teams-and-copilot-4383368/) · [Daily Caller](https://dailycaller.com/2026/11/13/microsoft-email-outlook-outage-announcement-downdetector) · [MacRumors](https://www.macrumors.com/2026/11/13/microsoft-365-outage-resolving/) · [StatusStack](https://statusstack.com/blog/microsoft-365-exchange-online-outage-november-12-2026)
