@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="44" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">지역별 결핵 발생률 변화 · 2015년 대비 2025년</text>
+  <text x="74" y="72" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">유럽은 42% 줄었고, 아메리카는 5년 연속 늘었다</text>
+
+  <!-- gridlines: -40% x=182, -20% x=428, 0% x=675, +10% x=798 -->
+  <line x1="182" y1="100" x2="182" y2="440" stroke="#20231f" stroke-opacity="0.08"/>
+  <line x1="428" y1="100" x2="428" y2="440" stroke="#20231f" stroke-opacity="0.08"/>
+  <line x1="798" y1="100" x2="798" y2="440" stroke="#20231f" stroke-opacity="0.08"/>
+  <line x1="675" y1="100" x2="675" y2="440" stroke="#20231f" stroke-opacity="0.35" stroke-width="1.5"/>
+  <text x="182" y="94" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d" text-anchor="middle">-40%</text>
+  <text x="428" y="94" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d" text-anchor="middle">-20%</text>
+  <text x="675" y="94" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d" text-anchor="middle">0</text>
+  <text x="798" y="94" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d" text-anchor="middle">+10%</text>
+
+  <!-- rows: label x=110 end, bar y-13 height 26 -->
+  <!-- 전 세계 -14% : x 502 to 675 -->
+  <text x="110" y="124" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f" text-anchor="end">전 세계</text>
+  <rect x="502" y="105" width="173" height="26" fill="#20231f"/>
+  <text x="494" y="124" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#20231f" text-anchor="end">-14%</text>
+
+  <!-- 유럽 -42% : x 157 to 675 -->
+  <text x="110" y="174" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f" text-anchor="end">유럽</text>
+  <rect x="157" y="155" width="518" height="26" fill="#16756a"/>
+  <text x="149" y="174" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#16756a" text-anchor="end">-42%</text>
+
+  <!-- 아프리카 -30% : x 305 to 675 -->
+  <text x="110" y="224" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f" text-anchor="end">아프리카</text>
+  <rect x="305" y="205" width="370" height="26" fill="#16756a"/>
+  <text x="297" y="224" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#16756a" text-anchor="end">-30%</text>
+
+  <!-- 동남아시아 -18% : x 453 to 675 -->
+  <text x="110" y="274" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f" text-anchor="end">동남아시아</text>
+  <rect x="453" y="255" width="222" height="26" fill="#16756a"/>
+  <text x="445" y="274" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#16756a" text-anchor="end">-18%</text>
+
+  <!-- 동지중해 -6.6% : x 594 to 675 -->
+  <text x="110" y="324" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f" text-anchor="end">동지중해</text>
+  <rect x="594" y="305" width="81" height="26" fill="#16756a"/>
+  <text x="586" y="324" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#16756a" text-anchor="end">-6.6%</text>
+
+  <!-- 서태평양 0% : marker at 675 -->
+  <text x="110" y="374" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f" text-anchor="end">서태평양</text>
+  <rect x="671" y="355" width="8" height="26" fill="#62655d"/>
+  <text x="687" y="374" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#62655d">0%</text>
+
+  <!-- 아메리카 +13% : x 675 to 835 -->
+  <text x="110" y="424" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f" text-anchor="end">아메리카</text>
+  <rect x="675" y="405" width="160" height="26" fill="#e0795b"/>
+  <text x="843" y="424" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#e0795b">+13%</text>
+
+  <text x="74" y="478" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">도표는 WHO Global Tuberculosis Report 2026 보도자료(2026.11.12) 수치로 직접 만들었다.</text>
+  <text x="74" y="500" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">발생률은 인구 10만 명당 신규 환자 수 기준, 2015년 대비 변화율이다.</text>
+</svg>
