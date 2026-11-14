@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="sans-serif">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <text x="450" y="48" text-anchor="middle" font-size="27" font-weight="bold" fill="#20231f">슈퍼 인텔리전스 포스 타임라인</text>
+  <text x="450" y="80" text-anchor="middle" font-size="15" fill="#62655d">2026년 9월~12월 · 채찍에서 당근으로</text>
+
+  <line x1="50" y1="250" x2="850" y2="250" stroke="#16756a" stroke-width="3"/>
+
+  <!-- 1: formation above -->
+  <circle cx="90" cy="250" r="7" fill="#16756a"/>
+  <text x="90" y="150" text-anchor="middle" font-size="14" fill="#20231f">SI 포스 출범</text>
+  <text x="90" y="172" text-anchor="middle" font-size="14" fill="#20231f">5개 AI 기업과 비구속 합의</text>
+  <text x="90" y="200" text-anchor="middle" font-size="15" font-weight="bold" fill="#16756a">9월 말</text>
+
+  <!-- 2: October mandate below -->
+  <circle cx="270" cy="250" r="7" fill="#e0795b"/>
+  <text x="270" y="292" text-anchor="middle" font-size="15" font-weight="bold" fill="#e0795b">10/9</text>
+  <text x="270" y="316" text-anchor="middle" font-size="14" fill="#20231f">사고 즉시 공개·시정 성명</text>
+  <text x="270" y="338" text-anchor="middle" font-size="14" fill="#20231f">"선택 사항이 아니다"</text>
+
+  <!-- 3: second meeting above -->
+  <circle cx="450" cy="250" r="7" fill="#16756a"/>
+  <text x="450" y="150" text-anchor="middle" font-size="14" fill="#20231f">2차 공식 회의</text>
+  <text x="450" y="172" text-anchor="middle" font-size="14" fill="#20231f">사이버 신고·책임 면제 논의</text>
+  <text x="450" y="200" text-anchor="middle" font-size="15" font-weight="bold" fill="#16756a">11/12</text>
+
+  <!-- 4: reporting below -->
+  <circle cx="630" cy="250" r="7" fill="#16756a"/>
+  <text x="630" y="292" text-anchor="middle" font-size="15" font-weight="bold" fill="#16756a">11/13</text>
+  <text x="630" y="316" text-anchor="middle" font-size="14" fill="#20231f">최소 12개월 책임 제한 권고</text>
+  <text x="630" y="338" text-anchor="middle" font-size="14" fill="#20231f">블룸버그·다이브 보도</text>
+
+  <!-- 5: December deadline above -->
+  <circle cx="810" cy="250" r="7" fill="#e0795b"/>
+  <text x="810" y="150" text-anchor="middle" font-size="14" fill="#20231f">정보공유법 만료 예정</text>
+  <text x="810" y="172" text-anchor="middle" font-size="14" fill="#20231f">재승인 여부가 첫 시한</text>
+  <text x="810" y="200" text-anchor="middle" font-size="15" font-weight="bold" fill="#e0795b">12월</text>
+
+  <text x="450" y="470" text-anchor="middle" font-size="13" font-family="monospace" fill="#62655d">권고는 행정명령도 법도 아니다 · 어느 기관이 따를지는 아직 미정</text>
+</svg>
