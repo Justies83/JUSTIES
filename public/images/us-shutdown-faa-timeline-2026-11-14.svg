@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="sans-serif">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <text x="450" y="48" text-anchor="middle" font-size="27" font-weight="bold" fill="#20231f">43일 셧다운, 그리고 금요일의 하늘</text>
+  <text x="450" y="80" text-anchor="middle" font-size="15" fill="#62655d">2026년 10월 1일 ~ 11월 13일 · 시간은 미 동부 기준</text>
+
+  <line x1="50" y1="250" x2="850" y2="250" stroke="#16756a" stroke-width="3"/>
+
+  <!-- 1: 10/1 above -->
+  <circle cx="70" cy="250" r="7" fill="#16756a"/>
+  <text x="70" y="150" text-anchor="middle" font-size="14" fill="#20231f">셧다운 시작</text>
+  <text x="70" y="172" text-anchor="middle" font-size="14" fill="#20231f">43일의 첫날</text>
+  <text x="70" y="200" text-anchor="middle" font-size="15" font-weight="bold" fill="#16756a">10/1</text>
+
+  <!-- 2: 11/7 below -->
+  <circle cx="175" cy="250" r="7" fill="#16756a"/>
+  <text x="175" y="292" text-anchor="middle" font-size="15" font-weight="bold" fill="#16756a">11/7</text>
+  <text x="175" y="316" text-anchor="middle" font-size="14" fill="#20231f">FAA 감축 4%</text>
+  <text x="175" y="338" text-anchor="middle" font-size="14" fill="#20231f">40개 공항</text>
+
+  <!-- 3: 11/9 above -->
+  <circle cx="280" cy="250" r="7" fill="#16756a"/>
+  <text x="280" y="150" text-anchor="middle" font-size="14" fill="#20231f">결항 피크</text>
+  <text x="280" y="172" text-anchor="middle" font-size="14" fill="#20231f">~2,900편 · 상원 60-40</text>
+  <text x="280" y="200" text-anchor="middle" font-size="15" font-weight="bold" fill="#16756a">11/9</text>
+
+  <!-- 4: 11/10 below -->
+  <circle cx="385" cy="250" r="7" fill="#16756a"/>
+  <text x="385" y="292" text-anchor="middle" font-size="15" font-weight="bold" fill="#16756a">11/10</text>
+  <text x="385" y="316" text-anchor="middle" font-size="14" fill="#20231f">감축 6%로 상향</text>
+  <text x="385" y="338" text-anchor="middle" font-size="14" fill="#20231f">10% 계획은 보류</text>
+
+  <!-- 5: 11/11 above -->
+  <circle cx="490" cy="250" r="7" fill="#16756a"/>
+  <text x="490" y="150" text-anchor="middle" font-size="14" fill="#20231f">하원 222-209 가결</text>
+  <text x="490" y="172" text-anchor="middle" font-size="14" fill="#20231f">트럼프 밤 9시 45분 서명</text>
+  <text x="490" y="200" text-anchor="middle" font-size="15" font-weight="bold" fill="#16756a">11/11</text>
+
+  <!-- 6: 11/12 below -->
+  <circle cx="595" cy="250" r="7" fill="#16756a"/>
+  <text x="595" y="292" text-anchor="middle" font-size="15" font-weight="bold" fill="#16756a">11/12</text>
+  <text x="595" y="316" text-anchor="middle" font-size="14" fill="#20231f">정부 재개</text>
+  <text x="595" y="338" text-anchor="middle" font-size="14" fill="#20231f">공무원 출근</text>
+
+  <!-- 7: 11/13 morning above -->
+  <circle cx="700" cy="250" r="7" fill="#16756a"/>
+  <text x="700" y="150" text-anchor="middle" font-size="14" fill="#20231f">감축 3%로 완화</text>
+  <text x="700" y="172" text-anchor="middle" font-size="14" fill="#20231f">토요일 오전 6시부터</text>
+  <text x="700" y="200" text-anchor="middle" font-size="15" font-weight="bold" fill="#16756a">11/13 오전</text>
+
+  <!-- 8: 11/13 afternoon below, coral -->
+  <circle cx="805" cy="250" r="10" fill="#e0795b"/>
+  <text x="805" y="292" text-anchor="middle" font-size="15" font-weight="bold" fill="#e0795b">11/13 오후</text>
+  <text x="805" y="316" text-anchor="middle" font-size="14" font-weight="bold" fill="#20231f">전국 운항 중단</text>
+  <text x="805" y="338" text-anchor="middle" font-size="14" fill="#20231f">3:54~8:15 · 4시간 21분</text>
+
+  <!-- stat boxes -->
+  <g>
+    <rect x="30" y="380" width="198" height="92" rx="6" fill="#fffdf8" stroke="#16756a" stroke-width="1.5"/>
+    <text x="129" y="418" text-anchor="middle" font-size="26" font-weight="bold" fill="#16756a">43일</text>
+    <text x="129" y="448" text-anchor="middle" font-size="14" fill="#20231f">역대 최장 셧다운</text>
+
+    <rect x="244" y="380" width="198" height="92" rx="6" fill="#fffdf8" stroke="#16756a" stroke-width="1.5"/>
+    <text x="343" y="418" text-anchor="middle" font-size="26" font-weight="bold" fill="#16756a">4,000편+</text>
+    <text x="343" y="448" text-anchor="middle" font-size="14" fill="#20231f">금요일 결항 (플라이트어웨어)</text>
+
+    <rect x="458" y="380" width="198" height="92" rx="6" fill="#fffdf8" stroke="#16756a" stroke-width="1.5"/>
+    <text x="557" y="418" text-anchor="middle" font-size="26" font-weight="bold" fill="#16756a">1만 편+</text>
+    <text x="557" y="448" text-anchor="middle" font-size="14" fill="#20231f">금요일 지연</text>
+
+    <rect x="672" y="380" width="198" height="92" rx="6" fill="#fffdf8" stroke="#e0795b" stroke-width="1.5"/>
+    <text x="771" y="418" text-anchor="middle" font-size="26" font-weight="bold" fill="#e0795b">약 150만 명</text>
+    <text x="771" y="448" text-anchor="middle" font-size="14" fill="#20231f">피해 승객 (AP 추산)</text>
+  </g>
+
+  <text x="450" y="505" text-anchor="middle" font-size="12" font-family="monospace" fill="#62655d">수치는 알자지라·스테이트 뉴스룸·AP 등 2026년 11월 12~14일 보도 기준</text>
+</svg>
