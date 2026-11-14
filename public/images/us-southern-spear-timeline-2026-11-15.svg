@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="sans-serif">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <text x="450" y="48" text-anchor="middle" font-size="27" font-weight="bold" fill="#20231f">서던 스피어 작전 타임라인</text>
+  <text x="450" y="80" text-anchor="middle" font-size="15" fill="#62655d">2026년 9월 2일~11월 13일 · 사망자 수는 국방부·언론 집계</text>
+
+  <line x1="50" y1="250" x2="850" y2="250" stroke="#16756a" stroke-width="3"/>
+
+  <!-- 1: first strike above -->
+  <circle cx="80" cy="250" r="7" fill="#16756a"/>
+  <text x="80" y="150" text-anchor="middle" font-size="14" fill="#20231f">첫 보트 공습 시작</text>
+  <text x="80" y="172" text-anchor="middle" font-size="14" fill="#20231f">카리브해 마약선 격침</text>
+  <text x="80" y="200" text-anchor="middle" font-size="15" font-weight="bold" fill="#16756a">9/2</text>
+
+  <!-- 2: 10th strike below -->
+  <circle cx="224" cy="250" r="7" fill="#e0795b"/>
+  <text x="224" y="292" text-anchor="middle" font-size="15" font-weight="bold" fill="#e0795b">10/23</text>
+  <text x="224" y="316" text-anchor="middle" font-size="14" fill="#20231f">10번째 공습 · 첫 야간 타격</text>
+  <text x="224" y="338" text-anchor="middle" font-size="14" fill="#20231f">6명 사망 · 포드호 남하 명령</text>
+
+  <!-- 3: 10,000 troops above -->
+  <circle cx="368" cy="250" r="7" fill="#16756a"/>
+  <text x="368" y="150" text-anchor="middle" font-size="14" fill="#20231f">지역 병력 약 1만 명</text>
+  <text x="368" y="172" text-anchor="middle" font-size="14" fill="#20231f">절반은 푸에르토리코</text>
+  <text x="368" y="200" text-anchor="middle" font-size="15" font-weight="bold" fill="#16756a">10/28</text>
+
+  <!-- 4: 20th strike below -->
+  <circle cx="512" cy="250" r="7" fill="#e0795b"/>
+  <text x="512" y="292" text-anchor="middle" font-size="15" font-weight="bold" fill="#e0795b">11/10</text>
+  <text x="512" y="316" text-anchor="middle" font-size="14" fill="#20231f">20번째 공습 · 4명 사망</text>
+  <text x="512" y="338" text-anchor="middle" font-size="14" fill="#20231f">영국 정보공유 중단 보도</text>
+
+  <!-- 5: Ford arrives above -->
+  <circle cx="656" cy="250" r="7" fill="#16756a"/>
+  <text x="656" y="150" text-anchor="middle" font-size="14" fill="#20231f">포드 항모전단 도착</text>
+  <text x="656" y="172" text-anchor="middle" font-size="14" fill="#20231f">병력 약 1만 5,000명</text>
+  <text x="656" y="200" text-anchor="middle" font-size="15" font-weight="bold" fill="#16756a">11/11</text>
+
+  <!-- 6: announcement below -->
+  <circle cx="800" cy="250" r="7" fill="#16756a"/>
+  <text x="800" y="292" text-anchor="middle" font-size="15" font-weight="bold" fill="#16756a">11/13</text>
+  <text x="800" y="316" text-anchor="middle" font-size="14" fill="#20231f">헤그세스 장관</text>
+  <text x="800" y="338" text-anchor="middle" font-size="14" fill="#20231f">서던 스피어 공식 발표</text>
+
+  <text x="450" y="470" text-anchor="middle" font-size="13" font-family="monospace" fill="#62655d">공습 사망자: 국방부 집계 최소 76명(약 20척) · 언론 집계 79~80명</text>
+</svg>
