@@ -3,7 +3,7 @@ title: "43일 셧다운 끝나자마자 하늘이 멈췄다 — 미국 정부 �
 date: 2026-11-14
 category: world
 kind: news
-takeaway: "미국 역사상 최장인 43일 셧다운이 11월 11일 밤 끝나고 연방정부가 다시 문을 열었지만, 바로 다음 날 오후 FAA가 전국 운항 중단을 명령했다. 통신 장애로 4시간 21분 동안 출발이 멈췄고, 4,000편 넘게 결항하고 약 150만 명의 승객이 피해를 봤다. 체불 급여는 부처별로 11월 15~19일에 지급되고 식품 지원 전액도 풀렸지만, 항공편 감축 3%는 당분간 이어지고 임시 자금은 1월 30일에 끝난다. 문이 열린 것과 일상으로 돌아오는 것은 다르다."
+takeaway: "미국 역사상 최장인 43일 셧다운이 11월 11일 밤 끝나고 연방정부가 다시 문을 열었지만, 바로 다음 날 오후 FAA가 전국 운항 중단을 명령했다. 통신 장애로 4시간 21분 동안 출발이 멈췄고, 4,000편 넘게 결항하고 약 150만 명의 승객이 피해를 봤다. 체불 급여는 부처별로 11월 15~19일에 지급되고 식품 지원 전액도 풀렸지만, 항공편 감축 3%는 당분간 이어지고 임시 자금은 1월 30일에 끝난다. 토요일에도 2,500편 넘게 결항했고, 더피 장관은 비슷한 중단이 '더 있을 것'이라고 했다. 문이 열린 것과 일상으로 돌아오는 것은 다르다."
 tags: [미국 셧다운, 연방정부, FAA, 운항 중단, 항공, 트럼프, 추수감사절]
 cover: /images/us-shutdown-aftermath-faa-ground-stop-2026-11-14.jpg
 coverAlt: "미국 국회의사당 돔 (워싱턴 D.C.)"
@@ -36,4 +36,10 @@ source:
 
 <p align="center">돈 얘기도 다시 나왔다.<br/>의회는 지난해 관제 시스템 개편에 125억 달러를 승인했고, 교통부와 백악관은 금요일에 301억 달러의 추가 지원을 의회에 요청했다.<br/>더피 장관은 '느리게 돌아갈 것'이라고 했고, 추수감사절 대이동이 시작될 무렵에는 정상에 가깝게 돌아갈 거라고 했다.<br/>추수감사절은 2주도 채 남지 않았다.<br/>상원 항공소위원회 야당 간사는 '철저하고 완전한 조사'를 요구했다.<br/>이번 일에서 드러난 건 셧다운의 여파가 아니라 시스템 자체의 낡음이다.<br/>문이 열린 것과 일상으로 돌아오는 것은 다르다.<br/>공무원의 월급은 다음 주면 들어오고, 박물관은 다음 주면 다 열리고, 항공편 감축도 언젠가는 풀린다.<br/>하지만 1960년대 구리 케이블과 과부하에 걸린 라우터는 그대로고, 임시 자금은 1월 30일에 끝난다.<br/>43일 셧다운이 끝난 다음 날 하늘이 멈춘 건 우연이 아니라, 시스템이 얼마나 얇은 선 위에 서 있었는지를 보여준 장면이다.</p>
 
-참고한 기사 — [알자지라](https://www.aljazeera.com/amp/news/2026/11/14/faa-ground-stop-lifted-why-were-us-flights-grounded-and-whats-next) · [알자지라](https://www.aljazeera.com/news/2026/11/13/us-grounds-all-flights-after-communication-issue) · [스테이트 뉴스룸](https://sandhillspost.com/posts/c550d9fe-6896-48e7-8138-5802744f6e0a) · [NLIHC](https://nlihc.org/resource/congress-passes-and-president-trump-signs-law-cr-funding-federal-programs-until-january-30) · [머코프레스](https://en.mercopress.com/2026/11/14/us-resumes-flights-after-a-four-and-a-half-hour-shutdown-caused-by-obsolete-equipment) · [디 에어포트 가이드](https://theairportguide24.blogspot.com/2026/11/faa-flight-cuts-ease-to-3-this-weekend.html)
+<p align="center"><strong>11월 14일 업데이트</strong> — 운항 중단이 풀렸다고 하늘이 바로 돌아오지는 않았다.<br/>토요일에도 미국 전역에서 <strong>2,500편</strong> 넘게 결항했고, 수백 편이 지연됐다고 AP는 플라이트어웨어 집계를 인용해 전했다.<br/>금요일 저녁에 이미 토요일분 700편이 취소된 상태였는데, 토요일 아침이 되자 취소는 그 세 배를 넘겼다.<br/>항공기와 승무원이 제자리에 없어서다.<br/>금요일에 멈춘 비행기들이 흩어진 채 밤을 보냈고, 토요일 스케줄은 그 여파를 그대로 물려받았다.<br/>교통부는 추수감사절 대이동이 시작될 무렵에는 정상에 가깝게 돌아갈 거라고 했지만, '며칠은 걸린다'는 말이 먼저 나왔다.</p>
+
+<p align="center">현장에서 하루는 더 길게 흘렀다.<br/>댈러스 공항에서 딸과 함께 콜럼버스로 가려던 에밀리 브라운은 4시간 넘게 기다리다 결국 포기했다.<br/>딸의 절친을 깜짝 방문하려던 계획이었다.<br/>로스앤젤레스 공항에서는 뉴어크발 비행기가 착륙한 뒤 게이트가 열리지 않아 승객들이 5시간 넘게 기내에 갇혔다.<br/>샬럿 공항에서는 활주로 위에서 4시간을 보낸 승객이 100달러짜리 우버를 타고 호텔로 갔다.<br/>대학 미식축구팀들도 발이 묶였다.<br/>오번대는 버스를 타고 미시시피주로 이동했고, 경기 시작은 정오에서 오후 4시 15분으로 밀렸다.<br/>베일러, 워싱턴, 캔자스주립, 미네소타, 올미스도 일정이 흔들렸다.<br/>교통부 장관은 대학 팀들에 FAA에 직접 연락해 달라고 했다.</p>
+
+<p align="center">장관의 말도 달라졌다.<br/>숀 더피 교통부 장관은 "이런 중단이 생길 줄 몰랐다. 생겼다"며 "더 있을 것"이라고 했다.<br/>원인은 새로 도입 중인 AI 시스템이 아니라 낡은 장비라고 선을 그었다.<br/>새로 배치된 장비는 하나도 멈추지 않았다는 말도 덧붙였다.<br/>국토안보부 장관은 금요일에 3,000편 넘게 무사히 착륙했고 아무도 위험하지 않았다고 했다.<br/>다만 의회가 신기술 자금을 승인하지 않은 탓도 있다는 말은 빼지 않았다.<br/>중단은 끝났지만, 원인은 그대로다.<br/>토요일의 결항 2,500편이 그걸 보여준다.</p>
+
+참고한 기사 — [알자지라](https://www.aljazeera.com/amp/news/2026/11/14/faa-ground-stop-lifted-why-were-us-flights-grounded-and-whats-next) · [알자지라](https://www.aljazeera.com/news/2026/11/13/us-grounds-all-flights-after-communication-issue) · [스테이트 뉴스룸](https://sandhillspost.com/posts/c550d9fe-6896-48e7-8138-5802744f6e0a) · [NLIHC](https://nlihc.org/resource/congress-passes-and-president-trump-signs-law-cr-funding-federal-programs-until-january-30) · [머코프레스](https://en.mercopress.com/2026/11/14/us-resumes-flights-after-a-four-and-a-half-hour-shutdown-caused-by-obsolete-equipment) · [디 에어포트 가이드](https://theairportguide24.blogspot.com/2026/11/faa-flight-cuts-ease-to-3-this-weekend.html) · [AP (타임스오브이스라엘)](https://www.timesofisrael.com/over-2000-flights-remain-canceled-saturday-across-us-after-air-traffic-control-failure/amp/)
