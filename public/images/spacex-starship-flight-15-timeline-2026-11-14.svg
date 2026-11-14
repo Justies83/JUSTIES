@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="sans-serif">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <text x="450" y="48" text-anchor="middle" font-size="27" font-weight="bold" fill="#20231f">스타십 15차 비행 타임라인</text>
+  <text x="450" y="80" text-anchor="middle" font-size="15" fill="#62655d">2026년 11월 13~14일 · 시간은 미 동부 기준 · 회수 시도는 예정</text>
+
+  <line x1="50" y1="250" x2="850" y2="250" stroke="#16756a" stroke-width="3"/>
+
+  <!-- 1: liftoff above -->
+  <circle cx="80" cy="250" r="7" fill="#16756a"/>
+  <text x="80" y="150" text-anchor="middle" font-size="14" fill="#20231f">스타베이스 2번 발사대</text>
+  <text x="80" y="172" text-anchor="middle" font-size="14" fill="#20231f">33기 랩터 점화</text>
+  <text x="80" y="200" text-anchor="middle" font-size="15" font-weight="bold" fill="#16756a">11/13 17:47</text>
+
+  <!-- 2: booster abort below -->
+  <circle cx="260" cy="250" r="7" fill="#e0795b"/>
+  <text x="260" y="292" text-anchor="middle" font-size="15" font-weight="bold" fill="#e0795b">T+6분 30초</text>
+  <text x="260" y="316" text-anchor="middle" font-size="14" fill="#20231f">부스터 회수 중단</text>
+  <text x="260" y="338" text-anchor="middle" font-size="14" fill="#20231f">GNC 문제 · 멕시코만 착수</text>
+
+  <!-- 3: orbit above -->
+  <circle cx="440" cy="250" r="7" fill="#16756a"/>
+  <text x="440" y="150" text-anchor="middle" font-size="14" fill="#20231f">우주선 궤도 진입</text>
+  <text x="440" y="172" text-anchor="middle" font-size="14" fill="#20231f">약 275km · 두 번째 궤도 도달</text>
+  <text x="440" y="200" text-anchor="middle" font-size="15" font-weight="bold" fill="#16756a">T+27분</text>
+
+  <!-- 4: satellites below -->
+  <circle cx="620" cy="250" r="7" fill="#16756a"/>
+  <text x="620" y="292" text-anchor="middle" font-size="15" font-weight="bold" fill="#16756a">T+35~77분</text>
+  <text x="620" y="316" text-anchor="middle" font-size="14" fill="#20231f">스타링크 V3 26기 전개 완료</text>
+  <text x="620" y="338" text-anchor="middle" font-size="14" fill="#20231f">기당 1테라비트 용량</text>
+
+  <!-- 5: ship catch above -->
+  <circle cx="800" cy="250" r="7" fill="#16756a"/>
+  <text x="800" y="150" text-anchor="middle" font-size="14" fill="#20231f">우주선 발사대 회수 시도</text>
+  <text x="800" y="172" text-anchor="middle" font-size="14" fill="#20231f">14바퀴 · 22시간 비행 뒤</text>
+  <text x="800" y="200" text-anchor="middle" font-size="15" font-weight="bold" fill="#16756a">11/14 16:19</text>
+
+  <text x="450" y="470" text-anchor="middle" font-size="13" font-family="monospace" fill="#62655d">회수 시도: 현지 토요일 오후 3:19(중부시간) · 한국시간 일요일 오전 6:19 · 조건 충족 시에만 실행</text>
+</svg>
