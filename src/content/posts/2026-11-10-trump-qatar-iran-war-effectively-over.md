@@ -3,8 +3,8 @@ title: "트럼프, 카타르 총리와 만난 뒤 '이란 전쟁 사실상 끝�
 date: 2026-11-10
 category: world
 kind: news
-takeaway: "11월 9일 트럼프 대통령이 카타르 총리와 비공개 회동을 마친 뒤 이란 전쟁이 '군사적으로 사실상 끝났다'고 선언했다. 해상 봉쇄와 태스크포스 아이언 게이트는 유지하고, 'locked and loaded'라며 재개 가능성도 열어둔 채다. 중간선거 패배 뒤 확전 동력이 꺾인 가운데 나온 선언이지만, 핵 프로그램 무력화와 이란의 일곱 가지 조건 등 풀어야 할 숙제는 그대로 남아 있다. 11월 13~14일에는 루비오 장관이 '군사 행동은 필요 없다'고 했지만, 미 중부사령부가 바레인행 이란 드론 2대를 격추했고 호르무즈에서는 유조선 2척이 기뢰에 닿았다고 이란이 주장했다. 11월 14일에는 이란 혁명수비대가 호르무즈 해협에서 마셜제도 선적 유조선 탈라라호를 나포했고, 미 중부사령부는 15일 이를 '국제법의 노골적인 위반'이라고 규탄했다. 유엔 집계로는 2월 개전 이후 호르무즈 일대에서 선원 최소 25명이 숨졌다. 11월 14일 로이터 보도에 따르면 트럼프 대통령은 새 도발이 없으면 공습을 보류하는 방안을 참모들에게 얘기했고, 사우디·튀르키예 정상이 공습 재개를 말리고 있다. 11월 15일에는 후티가 리야드를 향해 쏜 탄도미사일 2발과 드론 3대를 사우디가 요격했고, 9월 23일 이후 후티 공격으로 사우디에서 최소 26명이 숨졌다. 같은 날 새벽에는 바레인 미군 기지의 방공 레이더를 노린 이란 드론 6대 공격도 있었고, 바레인군은 이를 요격했다고 밝혔다."
-tags: [트럼프, 이란, 카타르, 호르무즈 해협, 중동, 해상 봉쇄, 중간선거, 핵 프로그램, 탈라라호, 후티, 바레인, 11월 15일 업데이트]
+takeaway: "11월 9일 트럼프 대통령이 카타르 총리와 비공개 회동을 마친 뒤 이란 전쟁이 '군사적으로 사실상 끝났다'고 선언했다. 해상 봉쇄와 태스크포스 아이언 게이트는 유지하고, 'locked and loaded'라며 재개 가능성도 열어둔 채다. 중간선거 패배 뒤 확전 동력이 꺾인 가운데 나온 선언이지만, 핵 프로그램 무력화와 이란의 일곱 가지 조건 등 풀어야 할 숙제는 그대로 남아 있다. 11월 13~14일에는 루비오 장관이 '군사 행동은 필요 없다'고 했지만, 미 중부사령부가 바레인행 이란 드론 2대를 격추했고 호르무즈에서는 유조선 2척이 기뢰에 닿았다고 이란이 주장했다. 11월 14일에는 이란 혁명수비대가 호르무즈 해협에서 마셜제도 선적 유조선 탈라라호를 나포했고, 미 중부사령부는 15일 이를 '국제법의 노골적인 위반'이라고 규탄했다. 유엔 집계로는 2월 개전 이후 호르무즈 일대에서 선원 최소 25명이 숨졌다. 11월 14일 로이터 보도에 따르면 트럼프 대통령은 새 도발이 없으면 공습을 보류하는 방안을 참모들에게 얘기했고, 사우디·튀르키예 정상이 공습 재개를 말리고 있다. 11월 15일에는 후티가 리야드를 향해 쏜 탄도미사일 2발과 드론 3대를 사우디가 요격했고, 9월 23일 이후 후티 공격으로 사우디에서 최소 26명이 숨졌다. 같은 날 새벽에는 바레인 미군 기지의 방공 레이더를 노린 이란 드론 6대 공격도 있었고, 바레인군은 이를 요격했다고 밝혔다. 11월 15일에는 예멘 정부군이 바브엘만데브 해협 일대에서 철수해 후티가 두 번째 해상 병목을 넘보게 됐고, 이란 해군은 토요일 호르무즈에서 기뢰에 맞은 유조선 3척에 불이 붙었다고 확인했으며, 걸프 증시는 일제히 하락했다."
+tags: [트럼프, 이란, 카타르, 호르무즈 해협, 중동, 해상 봉쇄, 중간선거, 핵 프로그램, 탈라라호, 후티, 바레인, 바브엘만데브, 11월 16일 업데이트]
 cover: /images/trump-qatar-iran-war-effectively-over-2026-11-10.jpg
 coverAlt: "백악관 북쪽 정면"
 source:
@@ -91,4 +91,44 @@ source:
 
 <p align="center">바레인을 노린 공격은 사흘 새 두 번째다.<br/>금요일에는 혁명수비대가 바레인의 미군 조기경보 레이더를 노렸다고 주장했고, 미 중부사령부는 이란 드론 <strong>2대</strong>를 격추했다고 밝혔다.<br/>당시에는 사상자나 피해가 없다고 했다.<br/>트럼프 대통령이 "새 도발이 없으면 공습을 보류할 수 있다"고 참모들에게 얘기한 지 하루 만에, 바레인에서는 새 도발이 터진 셈이다.<br/>로이터는 외교적 노력이 아직 돌파구를 만들지 못한 가운데 산발적인 공격이 이어지고 있다고 전했다.<br/>"끝났다"는 선언이 나온 지 엿새째, 전쟁은 호르무즈와 사우디에 이어 바레인까지 세 전선에서 이어지고 있다.</p>
 
-참고한 기사 — [알자지라](https://www.aljazeera.com/amp/news/2026/11/9/trump-calls-iran-war-effectively-over-after-talks-with-qatar-pm) · [USA투데이](https://www.usatoday.com/story/news/world/2026/11/09/donald-trump-iran-war-status-quo/92644694007/) · [더내셔널](https://www.thenationalnews.com/news/us/2026/11/09/trump-meets-qatari-pm-and-calls-renewed-military-action-on-iran-quite-unlikely/?utm_source=twitter&utm_medium=socialsharebtn&related=TheNatWorld,NationalComment,LifeNationalUAE,NatSportUAE&via=TheNationalNews) · [힌두 비즈니스라인(AP)](https://www.thehindubusinessline.com/news/world/trump-says-iran-war-is-effectively-over-signals-shift-away-from-renewed-strikes/article71684126.ece/amp/) · [테헤란타임스](https://www.tehrantimes.com/news/532104/Bahrain-in-focus-as-Iran-targets-US-radar-downs-MQ-1-drone) · [타임스나우](https://www.timesnownews.com/world/middle-east/iran-says-it-downed-us-mq-1-predator-drone-over-hormuz-destroyed-us-radar-in-bahrain-article-156505086) · [사일런트도시어](https://silentdossier.com/articles/iran-shot-down-us-drone-mq-1-sirik-strait-of-hormuz) · [타임스오브이스라엘](https://www.timesofisrael.com/liveblog-november-14-2026/amp/) · [하레츠](https://www.haaretz.com/middle-east-news/iran/2026-11-13/ty-article/u-s-downs-two-iranian-drones-as-iran-says-it-struck-u-s-radar-in-bahrain/000001a1-d63d-d1ce-a9a3-f63f97d80000) · [걸프뉴스](https://gulfnews.com/world/mena/us-israel-iran-war-turkey-qatar-sign-defence-pact-as-trump-warns-tehran-hormuz-risks-persist-1.500745854) · [더내셔널](https://www.thenationalnews.com/news/mena/2026/11/14/iran-war-live-irgc-strait-of-hormuz/?utm_source=twitter&utm_medium=socialsharebtn&related=TheNatWorld,NationalComment,LifeNationalUAE,NatSportUAE&via=TheNationalNews) · [NPR](https://www.classicalwmht.org/2026-11-13/whats-trumps-strategy-now-with-iran-to-keep-things-as-they-are) · [더미디어라인](https://themedialine.org/headlines/iran-seizes-tanker-in-gulf-of-oman-heightening-tensions-along-key-shipping-route/print/) · [BasNews](https://www.basnews.com/en/babat/899318) · [Briefly](https://briefly.co/anchor/World_news/story/un-says-25-seafarers-killed-in-around-hormuz-since-us-israel-war-on-iran) · [Reuters (2026.11.14)](https://www.reuters.com/world/middle-east/trump-tells-advisers-he-may-hold-off-iran-attacks-barring-new-provocations-2026-11-14/) · [알자지라 (2026.11.15)](https://www.aljazeera.com/news/2026/11/15/saudi-led-coalition-intercepts-two-missiles-two-drones-in-riyadh) · [마닐라타임스 (2026.11.15)](https://beta.manilatimes.net/2026/11/15/world/americas-emea/iran-3-oil-tankers-hit-naval-mines-in-strait-of-hormuz/2470080) · [Reuters (2026.11.15)](https://985theriver.com/2026/11/14/bahrains-interior-ministry-issues-alerts-of-potential-threats/) · [말레이메일 (AFP, 2026.11.15)](https://www.malaymail.com/news/world/2026/11/15/blasts-sirens-in-bahrain-as-iran-announces-attack-on-us-base/243363)
+<p align="center"><strong>11월 16일 업데이트</strong> — "사실상 끝났다"는 선언이 나온 지 일주일, 전쟁의 지도는 오히려 넓어지고 있다.<br/>
+11월 15일 일요일, 예멘 정부군이 홍해와 아덴만을 잇는 바브엘만데브 해협을 내려다보는 두브압 일대에서 철수했다.<br/>
+호르무즈에서는 토요일 기뢰에 맞은 유조선 3척에 불이 붙었다는 이란 해군의 확인이 나왔고, 걸프 증시는 일요일 일제히 내렸다.<br/>
+선언과 현장의 간극이 일주일 만에 두 번째 해상 병목까지 번진 셈이다.</p>
+
+<p align="center">바브엘만데브 철수는 일요일 나온 남부군(Southern Armed Forces)의 성명이다.<br/>
+두브압 공항과 바브엘만데브 일대에서 병력을 재배치한다며, 목적은 임시수도 아덴을 지키고 타이즈 포위를 푸는 데 있다고 했다.<br/>
+지난달 정부군이 되찾았다고 했던 두브압과 모카 일대를 후티에 다시 내주는 모양새다.<br/>
+바브엘만데브는 홍해와 아덴만을 잇는 길로, 수에즈 운하로 가는 상선이 지나는 관문이다.<br/>
+후티가 이 일대를 장악하면 호르무즈에 이어 두 번째 해상 병목이 이란 진영의 압력 아래 들어간다.<br/>
+더내셔널은 정부군의 철수가 후티에게 세계 해운에 대한 지렛대를 더 쥐여주는 결과가 될 수 있다고 전했다.<br/>
+타이즈 시는 최근 전투로 집을 떠난 30만 명 가운데 절반가량이 머물고 있는 도시로, 지금도 포위된 상태다.</p>
+
+<p align="center">호르무즈 기뢰 사건의 윤곽도 조금 더 분명해졌다.<br/>
+로이터는 일요일, 이란 해군이 토요일 호르무즈에서 기뢰에 맞은 유조선 <strong>3척</strong>에 불이 붙었다고 확인했다고 전했다.<br/>
+토요일 저녁에 맞은 2척 가운데 1척은 초대형 유조선이었다는 앞선 이란 측 설명과 이어지는 숫자다.<br/>
+테헤란타임스에 따르면 해협 동쪽에서 맞은 2척은 항법·식별 장치를 끄고 금지 구역으로 들어갔다가 기뢰에 닿았다.<br/>
+이란 해군은 해협 동쪽 접근로가 자국 통제 아래 있다며, 금지 구역에 들어서는 배는 화재와 폭발 위험에 노출될 거라고 경고했다.<br/>
+배 이름이나 선적은 여전히 밝히지 않았다.</p>
+
+<p align="center">무인기를 둘러싼 주장도 이어졌다.<br/>
+혁명수비대는 토요일 케슘섬 상공에서 미군 MQ-1을 격추했다고 밝혔다.<br/>
+자기들 집계로는 전쟁 시작 이후 <strong>17번째</strong> MQ-1이고, MQ-9 <strong>56대</strong>까지 합치면 격추 주장은 <strong>73대</strong>가 된다.<br/>
+금요일 시리크 앞바다 격추 주장에 이어 이틀 연속이다.<br/>
+독립적인 확인은 없고, 미군 측 반응도 아직 없다.<br/>
+이란이 주장하는 격추 수와 미 국방부 감사관실의 집계 사이에는 여전히 큰 간극이 있다.</p>
+
+<p align="center">경제적 파장도 숫자로 나온다.<br/>
+로이터에 따르면 일요일 걸프 증시는 일제히 내렸다.<br/>
+사우디 기준지수(TASI)는 <strong>0.7%</strong> 내린 10,258, 카타르 지수(QSI)는 <strong>1.8%</strong> 내린 9,848에 마감했다.<br/>
+카타르의 액화천연가스(LNG) 장기계약이 취소됐다는 소식도 나왔다.<br/>
+전쟁 시작 이후 처음 있는 일로, 폴란드 오를렌은 이번 취소로 최대 <strong>20억 달러</strong>를 아낄 수 있다는 분석이다.<br/>
+금요일에는 튀르키예와 카타르가 상호방위협정을 맺었다.<br/>
+어느 한쪽에 대한 무력 공격에 함께 대응한다는 내용이다.<br/>
+호르무즈 봉쇄와 후티의 사우디 공격이 이어지는 가운데, 걸프 국가들은 각자 방패를 챙기는 모양새다.</p>
+
+<p align="center">"끝났다"는 선언이 나온 지 일주일, 전쟁은 호르무즈와 사우디, 바레인에 이어 예멘 해협까지 네 전선에서 이어지고 있다.<br/>
+트럼프 대통령은 목요일 중국 선전에서 푸틴 대통령, 시진핑 주석과 만나 이란 전쟁을 논의할 예정이다.<br/>
+그 자리에서 "현상 유지"가 무엇을 뜻하는지 다시 묻게 될 가능성이 크다.</p>
+
+참고한 기사 — [알자지라](https://www.aljazeera.com/amp/news/2026/11/9/trump-calls-iran-war-effectively-over-after-talks-with-qatar-pm) · [USA투데이](https://www.usatoday.com/story/news/world/2026/11/09/donald-trump-iran-war-status-quo/92644694007/) · [더내셔널](https://www.thenationalnews.com/news/us/2026/11/09/trump-meets-qatari-pm-and-calls-renewed-military-action-on-iran-quite-unlikely/?utm_source=twitter&utm_medium=socialsharebtn&related=TheNatWorld,NationalComment,LifeNationalUAE,NatSportUAE&via=TheNationalNews) · [힌두 비즈니스라인(AP)](https://www.thehindubusinessline.com/news/world/trump-says-iran-war-is-effectively-over-signals-shift-away-from-renewed-strikes/article71684126.ece/amp/) · [테헤란타임스](https://www.tehrantimes.com/news/532104/Bahrain-in-focus-as-Iran-targets-US-radar-downs-MQ-1-drone) · [타임스나우](https://www.timesnownews.com/world/middle-east/iran-says-it-downed-us-mq-1-predator-drone-over-hormuz-destroyed-us-radar-in-bahrain-article-156505086) · [사일런트도시어](https://silentdossier.com/articles/iran-shot-down-us-drone-mq-1-sirik-strait-of-hormuz) · [타임스오브이스라엘](https://www.timesofisrael.com/liveblog-november-14-2026/amp/) · [하레츠](https://www.haaretz.com/middle-east-news/iran/2026-11-13/ty-article/u-s-downs-two-iranian-drones-as-iran-says-it-struck-u-s-radar-in-bahrain/000001a1-d63d-d1ce-a9a3-f63f97d80000) · [걸프뉴스](https://gulfnews.com/world/mena/us-israel-iran-war-turkey-qatar-sign-defence-pact-as-trump-warns-tehran-hormuz-risks-persist-1.500745854) · [더내셔널](https://www.thenationalnews.com/news/mena/2026/11/14/iran-war-live-irgc-strait-of-hormuz/?utm_source=twitter&utm_medium=socialsharebtn&related=TheNatWorld,NationalComment,LifeNationalUAE,NatSportUAE&via=TheNationalNews) · [NPR](https://www.classicalwmht.org/2026-11-13/whats-trumps-strategy-now-with-iran-to-keep-things-as-they-are) · [더미디어라인](https://themedialine.org/headlines/iran-seizes-tanker-in-gulf-of-oman-heightening-tensions-along-key-shipping-route/print/) · [BasNews](https://www.basnews.com/en/babat/899318) · [Briefly](https://briefly.co/anchor/World_news/story/un-says-25-seafarers-killed-in-around-hormuz-since-us-israel-war-on-iran) · [Reuters (2026.11.14)](https://www.reuters.com/world/middle-east/trump-tells-advisers-he-may-hold-off-iran-attacks-barring-new-provocations-2026-11-14/) · [알자지라 (2026.11.15)](https://www.aljazeera.com/news/2026/11/15/saudi-led-coalition-intercepts-two-missiles-two-drones-in-riyadh) · [마닐라타임스 (2026.11.15)](https://beta.manilatimes.net/2026/11/15/world/americas-emea/iran-3-oil-tankers-hit-naval-mines-in-strait-of-hormuz/2470080) · [Reuters (2026.11.15)](https://985theriver.com/2026/11/14/bahrains-interior-ministry-issues-alerts-of-potential-threats/) · [말레이메일 (AFP, 2026.11.15)](https://www.malaymail.com/news/world/2026/11/15/blasts-sirens-in-bahrain-as-iran-announces-attack-on-us-base/243363) · [더내셔널 (2026.11.15)](https://www.thenationalnews.com/news/mena/2026/11/15/southern-yemeni-forces-withdraw-from-area-near-bab-al-mandab/) · [Reuters (2026.11.15)](https://www.reuters.com/world/middle-east/gulf-bourses-slide-hormuz-tensions-houthi-strikes-rattle-traders-2026-11-15/) · [테헤란타임스 (2026.11.14)](https://www.tehrantimes.com/news/532150/Iran-downs-17th-US-MQ-1-drone-reports-two-tankers-hit-by-sea) · [Ynet (2026.11.15)](https://www.ynetnews.com/article/b1zs0jvagx)
