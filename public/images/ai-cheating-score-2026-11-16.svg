@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">세법학개론 점수 · 제63회 세무사 1차</text>
+  <text x="74" y="80" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">수석 100점, 응시자 16,856명 평균 30.18점</text>
+
+  <text x="74" y="212" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">수석</text>
+  <rect x="210" y="176" width="600" height="64" fill="#16756a" rx="3"/>
+  <text x="824" y="216" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="20" fill="#16756a">100점</text>
+
+  <text x="74" y="332" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">응시자 평균</text>
+  <rect x="210" y="296" width="181" height="64" fill="#e0795b" rx="3"/>
+  <text x="405" y="336" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="20" fill="#e0795b">30.18점</text>
+
+  <text x="74" y="432" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">수석을 빼면 90점 이상 응시자는 0명 — 1차 4과목 160문항 중 수석은 159개 정답</text>
+
+  <text x="74" y="492" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">중앙일보·이투데이 2026년 11월 15일 보도 수치로 직접 작성</text>
+</svg>
