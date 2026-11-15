@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="운항 중단 주말 타임라인">
+  <rect x="0" y="0" width="900" height="520" fill="#f4f1ea"/>
+  <text x="450" y="52" text-anchor="middle" font-family="sans-serif" font-size="26" font-weight="bold" fill="#20231f">운항 중단 주말 — 금요일 멈춤에서 토요일 밤 충돌까지</text>
+  <line x1="120" y1="90" x2="120" y2="450" stroke="#16756a" stroke-width="3"/>
+  <circle cx="120" cy="130" r="10" fill="#16756a"/>
+  <text x="150" y="124" font-family="sans-serif" font-size="20" font-weight="bold" fill="#20231f">11월 13일 금요일 오후</text>
+  <text x="150" y="152" font-family="sans-serif" font-size="18" fill="#62655d">FAA 전국 운항 중단 약 5시간 · 취소 9,200편 · 지연 7,500편</text>
+  <circle cx="120" cy="220" r="10" fill="#16756a"/>
+  <text x="150" y="214" font-family="sans-serif" font-size="20" font-weight="bold" fill="#20231f">11월 14일 토요일</text>
+  <text x="150" y="242" font-family="sans-serif" font-size="18" fill="#62655d">취소 6,785편 · 지연 7,343편 · 비행기·승무원 재배치 지연</text>
+  <circle cx="120" cy="310" r="12" fill="#e0795b"/>
+  <text x="150" y="304" font-family="sans-serif" font-size="20" font-weight="bold" fill="#20231f">11월 14일 토요일 21시 15분</text>
+  <text x="150" y="332" font-family="sans-serif" font-size="18" fill="#62655d">마이애미공항 유도로 충돌 · 코파 737 날개가 UPS 767 기수 타격 · 승객 2명 경상</text>
+  <circle cx="120" cy="400" r="10" fill="#16756a"/>
+  <text x="150" y="394" font-family="sans-serif" font-size="20" font-weight="bold" fill="#20231f">11월 15일 일요일 오전</text>
+  <text x="150" y="422" font-family="sans-serif" font-size="18" fill="#62655d">일요일 취소 1,200편 돌파 · 늦은 일요일 정상화 전망</text>
+  <text x="450" y="492" text-anchor="middle" font-family="monospace" font-size="14" fill="#62655d">취소·지연 수치는 FlightAware 집계 (더 스테이츠먼·WION·로이터 11월 15일 보도 기준)</text>
+</svg>
