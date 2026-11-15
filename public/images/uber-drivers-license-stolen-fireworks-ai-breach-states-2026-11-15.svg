@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="주별 피해 기사 수 — 사우스캐롤라이나 3,430명, 아이오와 약 2,999명, 매사추세츠 2,567명, 로드아일랜드 1,873명, 버몬트 1,071명">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <text x="450" y="52" text-anchor="middle" font-family="sans-serif" font-size="28" font-weight="bold" fill="#20231f">주별 피해 기사 수 — 확인된 신고 기준</text>
+  <text x="450" y="84" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#62655d">운전면허증 정보가 유출된 우버 기사 (명)</text>
+
+  <text x="190" y="142" text-anchor="end" font-family="sans-serif" font-size="20" fill="#20231f">사우스캐롤라이나</text>
+  <rect x="200" y="112" width="560" height="44" fill="#16756a"/>
+  <text x="772" y="142" font-family="sans-serif" font-size="20" font-weight="bold" fill="#20231f">3,430</text>
+
+  <text x="190" y="212" text-anchor="end" font-family="sans-serif" font-size="20" fill="#20231f">아이오와</text>
+  <rect x="200" y="182" width="489" height="44" fill="#16756a"/>
+  <text x="701" y="212" font-family="sans-serif" font-size="20" font-weight="bold" fill="#20231f">약 2,999</text>
+
+  <text x="190" y="282" text-anchor="end" font-family="sans-serif" font-size="20" fill="#20231f">매사추세츠</text>
+  <rect x="200" y="252" width="419" height="44" fill="#16756a"/>
+  <text x="631" y="282" font-family="sans-serif" font-size="20" font-weight="bold" fill="#20231f">2,567</text>
+
+  <text x="190" y="352" text-anchor="end" font-family="sans-serif" font-size="20" fill="#20231f">로드아일랜드</text>
+  <rect x="200" y="322" width="306" height="44" fill="#16756a"/>
+  <text x="518" y="352" font-family="sans-serif" font-size="20" font-weight="bold" fill="#20231f">1,873</text>
+
+  <text x="190" y="422" text-anchor="end" font-family="sans-serif" font-size="20" fill="#20231f">버몬트</text>
+  <rect x="200" y="392" width="175" height="44" fill="#e0795b"/>
+  <text x="387" y="422" font-family="sans-serif" font-size="20" font-weight="bold" fill="#20231f">1,071</text>
+
+  <text x="450" y="480" text-anchor="middle" font-family="monospace" font-size="15" fill="#62655d">다섯 개 주 합계 약 11,940명 — 전체 규모는 아직 미정</text>
+  <text x="450" y="505" text-anchor="middle" font-family="monospace" font-size="15" fill="#62655d">출처: 테크크런치(2026.11.13)·PCMag·아이오와주 법무장관 신고서</text>
+</svg>
