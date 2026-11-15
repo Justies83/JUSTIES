@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="sans-serif">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <text x="450" y="48" text-anchor="middle" font-size="27" font-weight="bold" fill="#20231f">뉴올리언스 유람선 전복, 197명 전원 구조</text>
+  <text x="450" y="80" text-anchor="middle" font-size="15" fill="#62655d">2026년 11월 13일 금요일, 미시시피강 — 충돌부터 조사까지</text>
+
+  <line x1="50" y1="250" x2="850" y2="250" stroke="#16756a" stroke-width="3"/>
+
+  <!-- 1: docking above -->
+  <circle cx="80" cy="250" r="7" fill="#16756a"/>
+  <text x="80" y="150" text-anchor="middle" font-size="14" fill="#20231f">아메리칸 헤리티지 입항</text>
+  <text x="80" y="172" text-anchor="middle" font-size="14" fill="#20231f">8일 항해 마치고 하선 시작</text>
+  <text x="80" y="200" text-anchor="middle" font-size="15" font-weight="bold" fill="#16756a">10:53 a.m.</text>
+
+  <!-- 2: impact below -->
+  <circle cx="225" cy="250" r="7" fill="#e0795b"/>
+  <text x="225" y="292" text-anchor="middle" font-size="15" font-weight="bold" fill="#e0795b">12:30 p.m.</text>
+  <text x="225" y="316" text-anchor="middle" font-size="14" fill="#20231f">탱커 조타 상실, 정박 중 배</text>
+  <text x="225" y="338" text-anchor="middle" font-size="14" fill="#20231f">옆구리 들이받아</text>
+
+  <!-- 3: capsize above -->
+  <circle cx="370" cy="250" r="7" fill="#e0795b"/>
+  <text x="370" y="150" text-anchor="middle" font-size="14" fill="#20231f">충돌 15분 뒤 전복</text>
+  <text x="370" y="172" text-anchor="middle" font-size="14" fill="#20231f">약 100명 강물에, 수온 19°C</text>
+  <text x="370" y="200" text-anchor="middle" font-size="15" font-weight="bold" fill="#e0795b">~12:45 p.m.</text>
+
+  <!-- 4: all accounted below -->
+  <circle cx="515" cy="250" r="7" fill="#16756a"/>
+  <text x="515" y="292" text-anchor="middle" font-size="15" font-weight="bold" fill="#16756a">금요일 저녁</text>
+  <text x="515" y="316" text-anchor="middle" font-size="14" fill="#20231f">197명 전원 확인, 사망자 없음</text>
+  <text x="515" y="338" text-anchor="middle" font-size="14" fill="#20231f">32명 입원, 위중 없음</text>
+
+  <!-- 5: lawsuit + NTSB above -->
+  <circle cx="660" cy="250" r="7" fill="#16756a"/>
+  <text x="660" y="150" text-anchor="middle" font-size="14" fill="#20231f">토요일, 항만청 소송·영장</text>
+  <text x="660" y="172" text-anchor="middle" font-size="14" fill="#20231f">NTSB 기록장치 회수, 8명 입원 중</text>
+  <text x="660" y="200" text-anchor="middle" font-size="15" font-weight="bold" fill="#16756a">11.14</text>
+
+  <!-- 6: reports below -->
+  <circle cx="815" cy="250" r="7" fill="#16756a"/>
+  <text x="815" y="292" text-anchor="middle" font-size="15" font-weight="bold" fill="#16756a">30일 이내</text>
+  <text x="815" y="316" text-anchor="middle" font-size="14" fill="#20231f">NTSB 예비보고서</text>
+  <text x="815" y="338" text-anchor="middle" font-size="14" fill="#20231f">최종보고서는 18~24개월</text>
+
+  <text x="450" y="470" text-anchor="middle" font-size="13" font-family="monospace" fill="#62655d">197명 = 승객+승무원(AP 기준) · 탱커 길이 약 160m · 연료 6만 500L 먼저 제거</text>
+</svg>
