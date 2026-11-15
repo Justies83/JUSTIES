@@ -3,8 +3,8 @@ title: "43일 셧다운 끝나자마자 하늘이 멈췄다 — 미국 정부 �
 date: 2026-11-14
 category: world
 kind: news
-takeaway: "미국 역사상 최장인 43일 셧다운이 11월 11일 밤 끝나고 연방정부가 다시 문을 열었지만, 바로 다음 날 오후 FAA가 전국 운항 중단을 명령했다. 통신 장애로 4시간 21분 동안 출발이 멈췄고, 4,000편 넘게 결항하고 약 150만 명의 승객이 피해를 봤다. 체불 급여는 부처별로 11월 15~19일에 지급되고 식품 지원 전액도 풀렸지만, 항공편 감축 3%는 당분간 이어지고 임시 자금은 1월 30일에 끝난다. 토요일에도 2,500편 넘게 결항했고, 더피 장관은 비슷한 중단이 '더 있을 것'이라고 했다. 문이 열린 것과 일상으로 돌아오는 것은 다르다."
-tags: [미국 셧다운, 연방정부, FAA, 운항 중단, 항공, 트럼프, 추수감사절]
+takeaway: "미국 역사상 최장인 43일 셧다운이 11월 11일 밤 끝나고 연방정부가 다시 문을 열었지만, 바로 다음 날 오후 FAA가 전국 운항 중단을 명령했다. 통신 장애로 4시간 21분 동안 출발이 멈췄고, 4,000편 넘게 결항하고 약 150만 명의 승객이 피해를 봤다. 체불 급여는 부처별로 11월 15~19일에 지급되고 식품 지원 전액도 풀렸지만, 항공편 감축 3%는 당분간 이어지고 임시 자금은 1월 30일에 끝난다. 토요일 저녁 기준 취소는 6,785편까지 늘었고, 원인은 L3Harris의 광섬유 교체 작업 중 라우터 문제로 좁혀졌다. 문이 열린 것과 일상으로 돌아오는 것은 다르다."
+tags: [미국 셧다운, 연방정부, FAA, 운항 중단, 항공, 트럼프, 추수감사절, 11월 15일 업데이트]
 cover: /images/us-shutdown-aftermath-faa-ground-stop-2026-11-14.jpg
 coverAlt: "미국 국회의사당 돔 (워싱턴 D.C.)"
 source:
@@ -42,4 +42,8 @@ source:
 
 <p align="center">장관의 말도 달라졌다.<br/>숀 더피 교통부 장관은 "이런 중단이 생길 줄 몰랐다. 생겼다"며 "더 있을 것"이라고 했다.<br/>원인은 새로 도입 중인 AI 시스템이 아니라 낡은 장비라고 선을 그었다.<br/>새로 배치된 장비는 하나도 멈추지 않았다는 말도 덧붙였다.<br/>국토안보부 장관은 금요일에 3,000편 넘게 무사히 착륙했고 아무도 위험하지 않았다고 했다.<br/>다만 의회가 신기술 자금을 승인하지 않은 탓도 있다는 말은 빼지 않았다.<br/>중단은 끝났지만, 원인은 그대로다.<br/>토요일의 결항 2,500편이 그걸 보여준다.</p>
 
-참고한 기사 — [알자지라](https://www.aljazeera.com/amp/news/2026/11/14/faa-ground-stop-lifted-why-were-us-flights-grounded-and-whats-next) · [알자지라](https://www.aljazeera.com/news/2026/11/13/us-grounds-all-flights-after-communication-issue) · [스테이트 뉴스룸](https://sandhillspost.com/posts/c550d9fe-6896-48e7-8138-5802744f6e0a) · [NLIHC](https://nlihc.org/resource/congress-passes-and-president-trump-signs-law-cr-funding-federal-programs-until-january-30) · [머코프레스](https://en.mercopress.com/2026/11/14/us-resumes-flights-after-a-four-and-a-half-hour-shutdown-caused-by-obsolete-equipment) · [디 에어포트 가이드](https://theairportguide24.blogspot.com/2026/11/faa-flight-cuts-ease-to-3-this-weekend.html) · [AP (타임스오브이스라엘)](https://www.timesofisrael.com/over-2000-flights-remain-canceled-saturday-across-us-after-air-traffic-control-failure/amp/)
+<p align="center"><strong>11월 15일 업데이트</strong> — 운항 중단의 원인이 드러나기 시작했다.<br/>숀 더피 교통부 장관은 토요일 기자회견에서, 연방 하청업체 L3Harris 작업자들이 외딴 FAA 시설에서 낡은 구리 통신선을 광섬유로 교체하던 중 시스템이 고장 났다고 밝혔다.<br/>교체 중이던 라우터가 다른 라우터들을 향해 4\~5초마다 1,000번 넘게 접속을 시도하면서 비행기와의 통신과 레이더 신호에 문제가 생겼다는 설명이다.<br/>고장 난 장비는 장애 발생 45분 만에 분리됐다.<br/>다만 정확한 원인은 아직 정해지지 않았다.<br/>더피 장관은 L3Harris의 설치 실수인지, 라우터 자체가 불량이었는지 조사 중이라고 했다.<br/>L3Harris는 국가 공역 통신망의 구리선-광섬유 전환 작업을 FAA와 긴밀히 협의하며 진행해 왔고, 계획의 70% 넘게 마쳤다고 밝혔다.<br/>사이버 공격이나 외국 개입, AI 관련 원인이라는 증거는 없다고 FAA 청장은 거듭 밝혔다.</p>
+
+<p align="center">토요일의 최종 피해는 아침 집계보다 컸다.<br/>베드퍼드 청장은 토요일 예정된 4만 1,000편 가운데 최대 5,000편이 취소될 수 있다고 했고, 토요일 저녁 기준 플라이트어웨어 집계로는 취소 <strong>6,785편</strong>, 지연 <strong>7,343편</strong>이었다.<br/>토요일 아침 집계 2,500편보다 크게 늘어난 수치다.<br/>베드퍼드 청장은 "오늘도 지연과 취소는 이어지겠지만, 내일이면 완전히 회복될 것"이라고 했다.<br/>더피 장관은 금요일 밤 의회에 최첨단 관제 시스템 구축을 위한 <strong>500억 달러</strong> 신규 자금 승인을 요청했다.<br/>구리선을 광섬유로 바꾸는 작업이 수십 년 전 끝났어야 했다는 말도 덧붙였다.</p>
+
+참고한 기사 — [알자지라](https://www.aljazeera.com/amp/news/2026/11/14/faa-ground-stop-lifted-why-were-us-flights-grounded-and-whats-next) · [알자지라](https://www.aljazeera.com/news/2026/11/13/us-grounds-all-flights-after-communication-issue) · [스테이트 뉴스룸](https://sandhillspost.com/posts/c550d9fe-6896-48e7-8138-5802744f6e0a) · [NLIHC](https://nlihc.org/resource/congress-passes-and-president-trump-signs-law-cr-funding-federal-programs-until-january-30) · [머코프레스](https://en.mercopress.com/2026/11/14/us-resumes-flights-after-a-four-and-a-half-hour-shutdown-caused-by-obsolete-equipment) · [디 에어포트 가이드](https://theairportguide24.blogspot.com/2026/11/faa-flight-cuts-ease-to-3-this-weekend.html) · [AP (타임스오브이스라엘)](https://www.timesofisrael.com/over-2000-flights-remain-canceled-saturday-across-us-after-air-traffic-control-failure/amp/) · [NY Post (2026.11.14)](https://nypost.com/2026/11/14/us-news/cause-of-faa-ground-stop-revealed-after-a-million-us-fliers-stranded-chaos-at-airports/)
