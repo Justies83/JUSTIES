@@ -3,8 +3,8 @@ title: "스타십 15차 비행, 부스터는 놓치고 우주선은 궤도에 �
 date: 2026-11-14
 category: science
 kind: news
-takeaway: "스페이스X 스타십 15차 비행이 11월 13일 텍사스 스타베이스에서 발사됐다. 슈퍼헤비 부스터의 발사대 회수는 유도·항법·제어 문제로 중단돼 멕시코만에 떨어졌지만, 우주선은 약 275km 궤도에 올라 스타링크 V3 위성 26기를 모두 전개했다. 우주선은 22시간 넘게 14바퀴를 돈 뒤 토요일 오후 발사대로 돌아와 기계 팔에 잡히는 데 성공하면 궤도 발사 시스템의 첫 완전 회수가 된다."
-tags: [스페이스X, 스타십, 스타링크, 슈퍼헤비, 아르테미스, 일론 머스크, 우주]
+takeaway: "스페이스X 스타십 15차 비행이 11월 13일 텍사스 스타베이스에서 발사됐다. 슈퍼헤비 부스터의 발사대 회수는 부스트백 연소가 일찍 끝나면서 중단돼 멕시코만에 떨어졌지만, 우주선은 약 275km 궤도에 올라 스타링크 V3 위성 26기를 모두 전개했고, 22시간 반 뒤인 토요일 오후 발사대로 돌아와 기계 팔에 잡혔다. 궤도를 다녀온 우주선을 발사대에서 잡은 첫 사례다. 부스터까지 잡는 '왕복'은 다음 비행으로 미뤄졌다."
+tags: [스페이스X, 스타십, 스타링크, 슈퍼헤비, 아르테미스, 일론 머스크, 우주, 11월 15일 업데이트]
 cover: /images/spacex-starship-flight-15-2026-11-14.jpg
 coverAlt: "사우스 파드레 아일랜드에서 본 스타십 발사 장면"
 source:
@@ -24,7 +24,7 @@ source:
 
 <p align="center"><img src="/images/spacex-starship-flight-15-timeline-2026-11-14.svg" alt="스타십 15차 비행 타임라인 — 11월 13일 17:47 발사, 발사 6분 30초 부스터 회수 중단, 발사 27분 우주선 궤도 진입, 발사 35분부터 42분간 스타링크 V3 26기 전개, 11월 14일 16:19 우주선 발사대 회수 시도 예정" style="max-width:100%;height:auto;"/></p>
 
-<p align="center" class="caption">도표는 스페이스X·플로리다투데이·이코노믹타임스 2026년 11월 13\~14일 보도의 수치로 직접 만들었다. 시간은 미 동부 기준, 회수 시도 시각은 예정.</p>
+<p align="center" class="caption">도표는 스페이스X·플로리다투데이·이코노믹타임스·AP·에어로스페이스아메리카 2026년 11월 13\~14일 보도의 수치로 직접 만들었다. 시간은 미 동부 기준, 회수 결과 반영.</p>
 
 <p align="center">우주선 쪽은 계획대로 흘렀다.<br/>발사 26분 10초쯤 두 번째 엔진 점화로 약 <strong>275km</strong> 저궤도에 들어섰다.<br/>스타십이 온전히 궤도에 오른 건 지난 9월 28일 14차 비행에 이어 두 번째다.<br/>14차 비행은 스타십이 처음으로 궤도에 올라 위성을 실은 비행이었고, 이번 15차 비행이 그 성공을 반복한 셈이다.<br/>우주선은 '돈 패닉'이라는 이름이 붙은 42호기로, 궤도에 오른 뒤에는 14바퀴를 도는 22시간 넘는 긴 체류에 들어갔다.</p>
 
@@ -42,4 +42,12 @@ source:
 
 <p align="center">15차 비행은 스타십이 시험 단계를 넘어 실제 화물을 나르는 운영 단계로 들어섰다는 걸 보여줬다.<br/>14차 비행에 이어 두 번째로 궤도에 올랐고, 두 번째로 위성 26기를 실어 날랐다.<br/>부스터 회수 실패는 V3 기체의 첫 관문에서 나온 일이라, 다음 비행에서 같은 지점을 어떻게 고치는지가 관전 포인트가 된다.<br/>토요일 오후 우주선 회수 시도 결과는 다음 실행에서 이 글에 이어 적을 예정이다.<br/>16차 비행 일정은 아직 발표되지 않았다.</p>
 
-참고한 기사 — [SpaceX](https://www.spacex.com/launches/starship-flight-15) · [Florida Today](https://www.floridatoday.com/story/tech/science/space/spacex/2026/11/13/spacexs-starship-flight-15-launches-from-texas-reaches-orbit-but-misses-booster-catch/92758185007/) · [The Economic Times (Reuters)](https://economictimes.indiatimes.com/news/science/spacex-launches-15th-starship-flight-with-hopes-of-achieving-first-round-trip/articleshow/135819806.cms) · [Aerospace Global News](https://aerospaceglobalnews.com/news/spacex-aborts-super-heavy-catch-starship-flight-15/) · [Digital Today](https://www.digitaltoday.co.kr/en/view/125700/spacex-starship-15th-launch-successful-booster-catch-aborted)
+<p align="center"><strong>11월 15일 업데이트</strong> — 기다리던 토요일 오후, 우주선이 돌아왔다.<br/>현지시간 토요일 오후 3시 20분쯤(중부시간), 한국시간 일요일 오전 6시 20분쯤, 스타십 우주선이 스타베이스 발사대의 기계 팔 사이에 내려앉았다.<br/>발사 뒤 22시간 반, 지구 14바퀴를 돈 뒤였다.<br/>궤도를 다녀온 우주선을 발사대에서 잡은 첫 사례다.<br/>스페이스X는 엑스(X)에 "기계 팔이 스타십을 잡았다"고 적었다.<br/>중계를 맡은 댄 휴엇은 "빠진 고리가 채워졌다. 우주 비행의 성배다. 스타십을 잡았고, 이제 모든 게 바뀐다"고 했다.</p>
+
+<p align="center">돌아오는 길도 만만치 않았다.<br/>우주선은 토요일 오후 2시 20분쯤 랩터 엔진 하나를 10초간 켜 궤도를 이탈했고, 시속 약 2만 7,000km로 대기권에 들어갔다.<br/>100km 고도에 닿은 뒤에는 방열판을 가린 주황빛 플라스마가 기체 옆으로 흘렀다.<br/>방열판은 육각형 세라믹 타일 <strong>1만 8,000장</strong>으로 덮여 있다.<br/>우주선은 멕시코 상공을 지나 배를 뒤집는 '벨리 플롭' 자세로 내려오다 엔진을 켜 수직으로 선 뒤 기계 팔 사이에 안착했다.<br/>AP는 우주선을 비롯해 방열판까지 모든 장치가 잘 작동한 것으로 보인다고 전했다.<br/>스페이스X는 방열판을 교체하지 않고 바로 다시 날리는 게 목표라고 밝혀 왔다.</p>
+
+<p align="center">부스터를 놓친 이유도 처음 설명과 달라졌다.<br/>발사 직후 스페이스X는 유도·항법·제어(GNC) 문제를 이유로 들었지만, 토요일 중계에서는 설명을 바꿨다.<br/>케이트 타이스 품질관리 이사는 "초기 징후로는 부스터가 연료 부족 경보 때문에 부스트백 연소를 일찍 마쳤다"고 했다.<br/>머스크도 연료가 부족했다는 취지로 말했다.<br/>안내 시스템은 제대로 작동했고, 위치가 맞지 않자 스스로 발사대 접근을 멈추고 바다 쪽으로 방향을 틀어 안전 절차를 지켰다는 설명이다.<br/>정확한 원인은 아직 조사 중이다.<br/>어쨌든 부스터 회수 실패의 원인이 항법 오류가 아니라 연료 쪽으로 좁혀진 셈이다.</p>
+
+<p align="center">이번 비행의 성적표는 이렇게 정리된다.<br/>부스터 회수 실패, 우주선 궤도 진입 성공, 스타링크 V3 26기 전개 성공, 우주선 발사대 회수 성공.<br/>두 단계를 한 비행에서 다 잡는 '왕복'은 아직 이뤄지지 않았다.<br/>NASA는 토요일 소식을 환영했다.<br/>스타십은 아르테미스 계획의 유인 달 착륙선이다.<br/>스페이스X는 몇 달 안에 플로리다 케네디우주센터에서도 스타십을 쏘아 올릴 계획이다.<br/>AP에 따르면 아르테미스 3호 임무는 달 착륙이 아니라 지구 궤도에서 2주간 머물며 오리온 캡슐과 스타십·블루문 시험체를 도킹하는 시범 비행으로 바뀌었고, 첫 달 착륙인 아르테미스 4호는 이르면 2028년을 목표로 한다.<br/>16차 비행 일정은 아직 발표되지 않았다.</p>
+
+참고한 기사 — [SpaceX](https://www.spacex.com/launches/starship-flight-15) · [Florida Today](https://www.floridatoday.com/story/tech/science/space/spacex/2026/11/13/spacexs-starship-flight-15-launches-from-texas-reaches-orbit-but-misses-booster-catch/92758185007/) · [The Economic Times (Reuters)](https://economictimes.indiatimes.com/news/science/spacex-launches-15th-starship-flight-with-hopes-of-achieving-first-round-trip/articleshow/135819806.cms) · [Aerospace Global News](https://aerospaceglobalnews.com/news/spacex-aborts-super-heavy-catch-starship-flight-15/) · [Digital Today](https://www.digitaltoday.co.kr/en/view/125700/spacex-starship-15th-launch-successful-booster-catch-aborted) · [AP (2026.11.14)](https://www.nprillinois.org/2026-11-14/spacex-successfully-catches-starship-and-makes-history) · [Aerospace America](https://aerospaceamerica.aiaa.org/spacex-achieves-first-starship-tower-catch/) · [USA Today](https://www.usatoday.com/story/tech/space/2026/11/14/spacex-flight-15-catches-starship-makes-history/92785462007/) · [Interesting Engineering](https://interestingengineering.com/space/spacex-starship-ship-42-first-upper-stage-catch)
