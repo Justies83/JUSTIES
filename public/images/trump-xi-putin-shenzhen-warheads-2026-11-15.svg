@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="미·중·러 핵탄두 총 비축량 비교 — 러시아 약 5,420개, 미국 약 5,042개, 중국 620개 (SIPRI 2026년 1월 기준)">
+  <rect x="0" y="0" width="900" height="520" fill="#f4f1ea"/>
+  <text x="60" y="58" font-family="sans-serif" font-size="30" font-weight="bold" fill="#20231f">세 나라의 핵탄두, 얼마나 갖고 있나</text>
+  <text x="60" y="92" font-family="sans-serif" font-size="17" fill="#62655d">총 비축량 추정치 — SIPRI 연감, 2026년 1월 기준</text>
+
+  <text x="60" y="170" font-family="sans-serif" font-size="22" fill="#20231f">러시아</text>
+  <rect x="200" y="140" width="620" height="46" fill="#16756a"/>
+  <text x="832" y="172" font-family="monospace" font-size="22" font-weight="bold" fill="#20231f">5,420</text>
+
+  <text x="60" y="270" font-family="sans-serif" font-size="22" fill="#20231f">미국</text>
+  <rect x="200" y="240" width="576" height="46" fill="#e0795b"/>
+  <text x="788" y="272" font-family="monospace" font-size="22" font-weight="bold" fill="#20231f">5,042</text>
+
+  <text x="60" y="370" font-family="sans-serif" font-size="22" fill="#20231f">중국</text>
+  <rect x="200" y="340" width="71" height="46" fill="#62655d"/>
+  <text x="283" y="372" font-family="monospace" font-size="22" font-weight="bold" fill="#20231f">620</text>
+
+  <text x="60" y="440" font-family="sans-serif" font-size="17" fill="#62655d">미국과 러시아는 비축량의 대부분이 배치·예비 탄두이고, 중국은</text>
+  <text x="60" y="466" font-family="sans-serif" font-size="17" fill="#62655d">그 8분의 1 수준이다. 펜타곤 추정치도 비슷하다 — 미·러 각 5,000개</text>
+  <text x="60" y="492" font-family="monospace" font-size="15" fill="#62655d">이상, 중국 600개 이상. 도표는 AP · SIPRI 2026년 11월 14일 보도의 수치로 직접 만들었다.</text>
+</svg>
