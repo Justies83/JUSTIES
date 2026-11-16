@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">글로벌 펩타이드 의약품 시장 전망</text>
+  <text x="74" y="80" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">940억 달러에서 연평균 13.4% 성장해 2031년 2000억 달러</text>
+
+  <text x="74" y="212" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">지난해 (2025년)</text>
+  <rect x="210" y="176" width="282" height="64" fill="#16756a" rx="3"/>
+  <text x="506" y="216" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="20" fill="#16756a">940억 달러</text>
+
+  <text x="74" y="332" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">2031년 전망</text>
+  <rect x="210" y="296" width="600" height="64" fill="#e0795b" rx="3"/>
+  <text x="824" y="336" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="20" fill="#e0795b">2000억 달러</text>
+
+  <text x="74" y="432" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">연평균 성장률 13.4% — 약 130조원에서 약 276조원으로</text>
+
+  <text x="74" y="492" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">아주경제 2026년 11월 16일 보도에 실린 시장조사기관 전망 수치로 직접 작성</text>
+</svg>
