@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">AI 빅위크 일정 (미국 현지시간)</text>
+  <text x="74" y="80" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">엔비디아 실적부터 앤트로픽 상장까지, 나흘 연속 시험대</text>
+
+  <line x1="110" y1="260" x2="790" y2="260" stroke="#16756a" stroke-width="3" stroke-linecap="round"/>
+
+  <circle cx="170" cy="260" r="10" fill="#16756a"/>
+  <circle cx="370" cy="260" r="10" fill="#e0795b"/>
+  <circle cx="570" cy="260" r="10" fill="#16756a"/>
+  <circle cx="770" cy="260" r="10" fill="#e0795b"/>
+
+  <text x="170" y="210" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="18" fill="#20231f">11월 16일</text>
+  <text x="370" y="210" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="18" fill="#20231f">11월 17일</text>
+  <text x="570" y="210" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="18" fill="#20231f">11월 18일</text>
+  <text x="770" y="210" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="18" fill="#20231f">11월 19일</text>
+
+  <text x="170" y="310" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">케빈 워시</text>
+  <text x="170" y="336" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">연준 의장 연설</text>
+  <text x="370" y="310" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">엔비디아</text>
+  <text x="370" y="336" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">3분기 실적 발표</text>
+  <text x="570" y="310" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">연준 10월</text>
+  <text x="570" y="336" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">FOMC 의사록 공개</text>
+  <text x="770" y="310" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">앤트로픽</text>
+  <text x="770" y="336" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">나스닥 상장</text>
+
+  <text x="74" y="430" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">엔비디아 실적은 한국시간 11월 18일 새벽에 확인된다.</text>
+
+  <text x="74" y="492" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">연합뉴스 2026년 11월 16일 보도 내용을 바탕으로 직접 작성</text>
+</svg>
