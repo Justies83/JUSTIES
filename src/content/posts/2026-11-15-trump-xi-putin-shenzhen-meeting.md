@@ -3,8 +3,8 @@ title: "미·중·러 정상, 목요일 선전에서 첫 3자 회담 — 핵군�
 date: 2026-11-15
 category: world
 kind: news
-takeaway: "백악관이 금요일, 크렘린궁이 토요일 확인했다. 트럼프·시진핑·푸틴 세 정상이 목요일(11월 19일) 선전 APEC 정상회의를 계기로 만난다. 세계 최대 핵보유국 세 나라의 정상이 한 테이블에 앉는 건 처음이다. 의제는 핵무기 감축과 이란 전쟁이고, 우크라이나는 논의하지 않기로 했다. 합의문은 나올 것으로 기대되지 않지만, 한 달 전 '가정적 가능성'으로 시작했던 얘기가 날짜까지 박힌 회담이 됐다."
-tags: [트럼프, 시진핑, 푸틴, 3자 정상회담, 선전, APEC, 핵군축, 이란 전쟁, 우크라이나]
+takeaway: "백악관이 금요일, 크렘린궁이 토요일 확인했다. 트럼프·시진핑·푸틴 세 정상이 목요일(11월 19일) 선전 APEC 정상회의를 계기로 만난다. 세계 최대 핵보유국 세 나라의 정상이 한 테이블에 앉는 건 처음이다. 의제는 핵무기 감축과 이란 전쟁이고, 우크라이나는 논의하지 않기로 했다. 합의문은 나올 것으로 기대되지 않지만, 한 달 전 '가정적 가능성'으로 시작했던 얘기가 날짜까지 박힌 회담이 됐다. 16일에는 중국 외교부가 19일 선전 회담 개최를 공식 확인했고, 트럼프 대통령은 같은 날 김정은 위원장과 중국에서 만날 수도 있다고 말해 3자 회담에 4자 만남 가능성까지 얹혔다."
+tags: [트럼프, 시진핑, 푸틴, 3자 정상회담, 선전, APEC, 핵군축, 이란 전쟁, 우크라이나, 김정은, 북한]
 cover: /images/trump-xi-putin-shenzhen-meeting-2026-11-15.jpg
 coverAlt: "선전 스카이라인"
 source:
@@ -40,4 +40,14 @@ source:
 
 <p align="center">기대는 낮다는 게 대체적인 평가다.<br/>AP는 분석가들의 말을 인용해 이번 회담이 실질보다는 상징에 무게가 실릴 거라고 전했다.<br/>합의문도 없을 전망이다.<br/>그래도 세 정상이 한 자리에 앉는 장면 자체가 신호다.<br/>지난 2월 신전략무기감축조약이 만료된 뒤 미·러 간 핵 상한이 사라진 상태에서, 세 나라 정상이 핵 문제를 직접 얘기하는 자리가 처음 마련됐다는 점이 그렇다.<br/>목요일 회담 뒤에 볼 지점은 세 가지다.<br/>핵군축 대화가 후속 협의로 이어지는지, 이란 전쟁 논의가 실제 움직임으로 번지는지, 그리고 우크라이나를 빼고 논의한다는 조건이 지켜지는지다.<br/>회담이 끝나면 이 글에 결과를 이어 적을 예정이다.</p>
 
-참고한 기사 — [AP (2026.11.14)](https://www.wvlt.tv/2026/11/14/trump-xi-putin-plan-an-unprecedented-joint-meeting-white-house-says/) · [Firstpost](https://www.firstpost.com/world/trump-xi-and-putin-to-hold-unprecedented-trilateral-meeting-at-apec-summit-in-china-14059913.html) · [Gulf News](https://gulfnews.com/world/trump-xi-putin-to-hold-historic-meeting-in-china-next-week-white-house-1.500746884) · [The Raisina Post](https://theraisinapost.com/24-hours/world-news/2026-11-14/) · [Reuters (2026.11.14)](https://www.reuters.com/world/middle-east/trump-tells-advisers-he-may-hold-off-iran-attacks-barring-new-provocations-2026-11-14/)
+<p align="center"><strong>11월 16일 밤 업데이트</strong> — 중국이 회담 개최를 공식 확인했고, 트럼프 대통령은 김정은 위원장과의 만남 가능성까지 꺼냈다.<br/>16일 중국 외교부 대변인은 신화통신을 통해 "시 주석이 19일 선전에서 푸틴 대통령, 트럼프 대통령과 중·러·미 정상회담을 개최한다"고 밝혔다.<br/>중국이 회담 개최를 공식 확인한 건 이번이 처음이다.<br/>지난 4일만 해도 중국 외교부는 "관련국과 소통하고 있다"는 입장만 밝혔었다.<br/>백악관이 13일, 크렘린궁이 14일 확인한 데 이어 세 나라가 모두 회담을 공식화한 셈이다.<br/>구체적인 의제와 회담 형식은 공개하지 않았고, 마오닝 중국 외교부 대변인은 세계 평화와 전략적 안정을 논의할 거라고 했다.<br/>원래 글에 남겨뒀던 "중국 측의 공식 입장이 어떻게 나왔는지는 아직 확인되지 않았다"는 대목은 이렇게 채워졌다.</p>
+
+<p align="center"><img src="/images/trump-xi-putin-shenzhen-timeline-2026-11-16.svg" alt="선전 3자 회담까지의 일정 — 10월 9일 푸틴 제안, 11월 13일 백악관 확인, 11월 14일 크렘린궁 확인, 11월 16일 중국 외교부 공식 확인, 11월 16일 밤 트럼프 김정은 만남 가능성 언급, 11월 19일 선전 3자 회담" style="max-width:100%;height:auto;"/></p>
+
+<p align="center" class="caption">도표는 경향신문·뉴스1·로이터 2026년 11월 16일 보도 내용을 바탕으로 직접 만들었다.</p>
+
+<p align="center">같은 날 저녁, 트럼프 대통령이 백악관을 떠나며 기자들 앞에서 던진 한마디가 더 큰 파장을 불렀다.<br/>"시진핑 주석과 만날 예정이고, 푸틴 대통령과도 만날 예정"이라며 "김정은 위원장과도 만날 수 있다"고 한 것이다.<br/>"김 위원장이 중국에 올 수 있다. 시 주석에 달려 있다."<br/>기자들이 김 위원장과의 만남을 묻지도 않았는데 자발적으로 꺼낸 말이라 더 주목받았다.<br/>금요일 고위 당국자가 북한과의 접촉 계획이 "전혀 없다"고 했던 것과는 정반대 방향이다.<br/>트럼프 대통령은 1기 때 김 위원장과 세 차례 만났고, 2018년 6월 싱가포르, 2019년 2월 하노이, 2019년 6월 판문점이다.<br/>이번 임기 들어서도 다시 만나고 싶다는 뜻을 여러 번 밝혀왔다.<br/>만남이 성사되면 3자 회담에 김 위원장까지 얹히는 4자 구도가 된다.<br/>다만 아직 확정된 건 아무것도 없고, 시 주석이 김 위원장을 부르느냐에 달렸다는 게 트럼프 본인의 말이다.<br/>전문가들은 북한 핵 문제가 3자 회담의 중심 의제가 되기는 어렵다고 본다.<br/>회담의 간판은 어디까지나 핵군축과 이란이다.</p>
+
+<p align="center">의제를 두고는 트럼프 본인의 말과 당국자의 설명이 어긋나는 지점도 생겼다.<br/>트럼프 대통령은 선전에서 비핵화와 이란, 우크라이나, 경제·무역을 얘기하겠다고 했다.<br/>반면 미 당국자는 우크라이나는 별도 외교 채널에서 다룬다며 이번 회담의 공식 의제가 아니라는 입장을 유지하고 있다.<br/>원래 글에서 "우크라이나는 논의하지 않기로 했다"고 적은 건 당국자 설명이었고, 트럼프 본인 발언과는 다르다.<br/>목요일 일정은 이렇다.<br/>트럼프 대통령은 오전에 APEC 정상회의에 참석하고, 오후에 시 주석과 양자 회담과 업무 오찬을 한 뒤 3자 회담에 들어간다.<br/>트럼프 대통령은 화요일 새벽 필리핀에 도착해 ASEAN 일정을 소화한 뒤 선전으로 향한다.<br/>올해 두 번째 방중이자, 시 주석과의 네 번째 만남이다.</p>
+
+참고한 기사 — [AP (2026.11.14)](https://www.wvlt.tv/2026/11/14/trump-xi-putin-plan-an-unprecedented-joint-meeting-white-house-says/) · [Firstpost](https://www.firstpost.com/world/trump-xi-and-putin-to-hold-unprecedented-trilateral-meeting-at-apec-summit-in-china-14059913.html) · [Gulf News](https://gulfnews.com/world/trump-xi-putin-to-hold-historic-meeting-in-china-next-week-white-house-1.500746884) · [The Raisina Post](https://theraisinapost.com/24-hours/world-news/2026-11-14/) · [Reuters (2026.11.14)](https://www.reuters.com/world/middle-east/trump-tells-advisers-he-may-hold-off-iran-attacks-barring-new-provocations-2026-11-14/) · [경향신문 (2026.11.16)](https://www.khan.co.kr/article/202611161109001) · [뉴스1 (2026.11.16)](https://www.news1.kr/world/northeast-asia/6355063) · [Reuters (2026.11.16)](https://www.reuters.com/world/trump-says-he-might-meet-with-north-koreas-kim-jong-un-china-2026-11-16/) · [연합뉴스 (2026.11.16)](https://www.yna.co.kr/view/AKR20261116181400071)
