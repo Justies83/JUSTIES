@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 460" width="900" height="460" role="img">
+  <rect width="900" height="460" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="458" fill="none" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">남아공 집단 총격 사망자 — 월별 합계</text>
+  <text x="74" y="80" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">2025년 12월 – 2026년 11월 15일</text>
+
+  <text x="60" y="152" text-anchor="end" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#20231f">2025년 12월</text>
+  <rect x="280" y="132" width="294" height="30" fill="#16756a"/>
+  <text x="586" y="153" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#20231f">21명 (2건)</text>
+
+  <text x="60" y="212" text-anchor="end" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#20231f">2026년 6월</text>
+  <rect x="280" y="192" width="336" height="30" fill="#16756a"/>
+  <text x="628" y="213" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#20231f">24명 (2건)</text>
+
+  <text x="60" y="272" text-anchor="end" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#20231f">2026년 9월</text>
+  <rect x="280" y="252" width="532" height="30" fill="#16756a"/>
+  <text x="824" y="273" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#20231f">38명 (3건)</text>
+
+  <text x="60" y="332" text-anchor="end" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#20231f">2026년 11월 15일</text>
+  <rect x="280" y="312" width="238" height="30" fill="#e0795b"/>
+  <text x="530" y="333" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#20231f">17명 (2건, 이번 사건)</text>
+
+  <line x1="74" y1="380" x2="826" y2="380" stroke="rgba(32,35,31,.16)" stroke-width="1"/>
+  <text x="74" y="414" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#20231f">2026년 4~6월 살인 사건 5,427건 — 하루 평균 약 60명 (남아공 경찰청 통계)</text>
+  <text x="74" y="440" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">9월 38명 = 더반 파티장 11명 + 웨델라 주점 17명 + 르완들 가게 10명 · 6월 24명 = 요하네스버그 12명 × 2건</text>
+</svg>
