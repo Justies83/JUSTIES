@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">코스피 추이 — 11월 들어 보름 만에 12.9% 하락</text>
+  <text x="74" y="80" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">11월 2일 5,859.08에서 11월 16일 5,100.50으로</text>
+
+  <line x1="90" y1="420" x2="830" y2="420" stroke="#20231f" stroke-width="1" opacity=".35"/>
+  <line x1="90" y1="260" x2="830" y2="260" stroke="#20231f" stroke-width="1" opacity=".18"/>
+  <line x1="90" y1="100" x2="830" y2="100" stroke="#20231f" stroke-width="1" opacity=".18"/>
+  <text x="80" y="424" text-anchor="end" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">5,000</text>
+  <text x="80" y="264" text-anchor="end" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">5,500</text>
+  <text x="80" y="104" text-anchor="end" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">6,000</text>
+
+  <polyline points="170,145 450,327 730,388" fill="none" stroke="#e0795b" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="170" cy="145" r="7" fill="#16756a"/>
+  <circle cx="450" cy="327" r="7" fill="#16756a"/>
+  <circle cx="730" cy="388" r="7" fill="#e0795b"/>
+
+  <text x="170" y="118" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="19" fill="#20231f">5,859.08</text>
+  <text x="450" y="300" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="19" fill="#20231f">5,290.53</text>
+  <text x="730" y="361" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="19" fill="#e0795b">5,100.50</text>
+
+  <text x="170" y="452" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">11월 2일</text>
+  <text x="450" y="452" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">11월 13일</text>
+  <text x="730" y="452" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">11월 16일</text>
+
+  <text x="590" y="200" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#e0795b">보름 만에 -758.58포인트 (-12.9%)</text>
+
+  <text x="74" y="492" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">연합뉴스·이투데이 2026년 11월 16일 보도 수치로 직접 작성</text>
+</svg>
