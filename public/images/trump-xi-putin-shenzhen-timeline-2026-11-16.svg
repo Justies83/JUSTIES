@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">선전 3자 회담까지의 일정</text>
+  <text x="74" y="80" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">2026년 10월 9일 – 11월 19일</text>
+
+  <line x1="60" y1="300" x2="840" y2="300" stroke="rgba(32,35,31,.16)" stroke-width="2"/>
+
+  <line x1="90" y1="272" x2="90" y2="300" stroke="#16756a" stroke-width="2"/>
+  <circle cx="90" cy="300" r="7" fill="#f4f1ea" stroke="#16756a" stroke-width="2.5"/>
+  <text x="90" y="212" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#16756a">10/09</text>
+  <text x="90" y="240" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#20231f">푸틴 3자 회담 제안</text>
+  <text x="90" y="264" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#20231f">트럼프·푸틴 통화</text>
+
+  <line x1="234" y1="300" x2="234" y2="328" stroke="#16756a" stroke-width="2"/>
+  <circle cx="234" cy="300" r="7" fill="#f4f1ea" stroke="#16756a" stroke-width="2.5"/>
+  <text x="234" y="356" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#16756a">11/13</text>
+  <text x="234" y="384" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#20231f">백악관 확인</text>
+
+  <line x1="378" y1="272" x2="378" y2="300" stroke="#16756a" stroke-width="2"/>
+  <circle cx="378" cy="300" r="7" fill="#f4f1ea" stroke="#16756a" stroke-width="2.5"/>
+  <text x="378" y="212" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#16756a">11/14</text>
+  <text x="378" y="240" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#20231f">크렘린궁 확인</text>
+
+  <line x1="522" y1="300" x2="522" y2="328" stroke="#16756a" stroke-width="2"/>
+  <circle cx="522" cy="300" r="7" fill="#f4f1ea" stroke="#16756a" stroke-width="2.5"/>
+  <text x="522" y="356" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#16756a">11/16</text>
+  <text x="522" y="384" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#20231f">중국 외교부 공식 확인</text>
+
+  <line x1="666" y1="272" x2="666" y2="300" stroke="#e0795b" stroke-width="2"/>
+  <circle cx="666" cy="300" r="7" fill="#f4f1ea" stroke="#e0795b" stroke-width="2.5"/>
+  <text x="666" y="212" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#e0795b">11/16 밤</text>
+  <text x="666" y="240" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#20231f">트럼프 “김정은 만날 수도”</text>
+
+  <line x1="810" y1="300" x2="810" y2="328" stroke="#e0795b" stroke-width="2"/>
+  <circle cx="810" cy="300" r="7" fill="#f4f1ea" stroke="#e0795b" stroke-width="2.5"/>
+  <text x="810" y="356" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#e0795b">11/19</text>
+  <text x="810" y="384" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#20231f">선전 3자 회담 (목요일)</text>
+</svg>
