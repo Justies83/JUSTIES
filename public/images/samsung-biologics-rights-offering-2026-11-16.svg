@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">유상증자 청약 요약 · 삼성바이오로직스</text>
+  <text x="74" y="80" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">신주 227만주 발행, 일반공모에 11조4407억원 몰렸다</text>
+
+  <rect x="74" y="118" width="376" height="140" fill="#ffffff" stroke="rgba(32,35,31,.16)" rx="4"/>
+  <text x="98" y="152" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">신주 발행</text>
+  <text x="98" y="196" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="30" fill="#20231f">227만주</text>
+  <text x="98" y="228" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#20231f">주당 117만4000원 · 조달 2조6650억원</text>
+
+  <rect x="450" y="118" width="376" height="140" fill="#ffffff" stroke="rgba(32,35,31,.16)" rx="4"/>
+  <text x="474" y="152" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">구주주·우리사주 청약 (11월 9~10일)</text>
+  <text x="474" y="196" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="30" fill="#16756a">96.8%</text>
+  <text x="474" y="228" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#20231f">219만8146주 접수</text>
+
+  <rect x="74" y="282" width="376" height="140" fill="#ffffff" stroke="rgba(32,35,31,.16)" rx="4"/>
+  <text x="98" y="316" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">일반공모 경쟁률 (11월 12~13일)</text>
+  <text x="98" y="360" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="30" fill="#e0795b">135.6대 1</text>
+  <text x="98" y="392" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#20231f">잔여주 7만1854주에 974만5071주 청약</text>
+
+  <rect x="450" y="282" width="376" height="140" fill="#ffffff" stroke="rgba(32,35,31,.16)" rx="4"/>
+  <text x="474" y="316" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">청약 증거금</text>
+  <text x="474" y="360" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="30" fill="#20231f">11조4407억원</text>
+  <text x="474" y="392" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#20231f">주주배정 유상증자 중 역대 최대 규모</text>
+
+  <text x="74" y="492" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">아주경제·아시아투데이·스마트비즈 2026년 11월 16일 보도 수치로 직접 작성</text>
+</svg>
