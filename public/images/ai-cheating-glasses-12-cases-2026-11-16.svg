@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="52" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">스마트안경 부정행위 적발 · 2026년 국가자격시험</text>
+  <text x="74" y="80" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">어제까지 알려진 6건의 두 배 — 모두 12건</text>
+
+  <text x="74" y="212" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">수사 의뢰</text>
+  <rect x="210" y="176" width="450" height="64" fill="#16756a" rx="3"/>
+  <text x="674" y="216" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="20" fill="#16756a">9건</text>
+
+  <text x="74" y="332" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">수사 미의뢰</text>
+  <rect x="210" y="296" width="150" height="64" fill="#e0795b" rx="3"/>
+  <text x="374" y="336" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="20" fill="#e0795b">3건</text>
+
+  <text x="74" y="432" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">가스기사·공인중개사·소방설비기사·건축기사 등 — 528개 종목 전수조사 착수</text>
+
+  <text x="74" y="492" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">SBS·매일경제 2026년 11월 16일 보도 수치로 직접 작성</text>
+</svg>
