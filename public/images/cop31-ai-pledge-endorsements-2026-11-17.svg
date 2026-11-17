@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" width="900" height="420" role="img">
+  <rect width="900" height="420" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="418" fill="none" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="44" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">ENDORSEMENTS · 16 NOV 2026</text>
+  <text x="74" y="72" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">안탈리아 AI 서약 지지 80개 — 국가는 9개국뿐</text>
+
+  <text x="74" y="150" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">국가</text>
+  <rect x="250" y="124" width="66" height="44" fill="#16756a" rx="3"/>
+  <text x="326" y="153" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="16" fill="#16756a">9개</text>
+
+  <text x="74" y="228" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">기업·시민사회 등</text>
+  <rect x="250" y="202" width="522" height="44" fill="#e0795b" rx="3"/>
+  <text x="782" y="231" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="16" fill="#e0795b">71개</text>
+
+  <text x="74" y="320" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">구체적인 약속</text>
+  <rect x="250" y="294" width="560" height="44" fill="#8a8d84" rx="3"/>
+  <text x="820" y="323" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="16" fill="#62655d">271개</text>
+
+  <text x="74" y="396" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">AP 보도·ITU 발표 — 독일은 서명 의사 표명, 미국·중국·EU는 명단에서 빠짐</text>
+</svg>
