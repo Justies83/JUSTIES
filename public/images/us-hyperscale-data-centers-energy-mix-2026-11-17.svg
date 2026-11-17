@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="44" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">ENERGY MIX · 2024.05–2025.04</text>
+  <text x="74" y="72" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">403곳 초대형 데이터센터의 전력원 — 화석연료가 절반 넘는다</text>
+
+  <line x1="250" y1="110" x2="250" y2="410" stroke="rgba(32,35,31,.16)"/>
+  <line x1="437" y1="110" x2="437" y2="410" stroke="rgba(32,35,31,.16)" stroke-dasharray="2 5"/>
+  <line x1="623" y1="110" x2="623" y2="410" stroke="rgba(32,35,31,.16)" stroke-dasharray="2 5"/>
+  <line x1="810" y1="110" x2="810" y2="410" stroke="rgba(32,35,31,.16)" stroke-dasharray="2 5"/>
+  <text x="250" y="436" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#62655d">0%</text>
+  <text x="437" y="436" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#62655d">20%</text>
+  <text x="623" y="436" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#62655d">40%</text>
+  <text x="810" y="436" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#62655d">60%</text>
+
+  <text x="74" y="166" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">화석연료</text>
+  <rect x="250" y="140" width="504" height="44" fill="#e0795b" rx="3"/>
+  <text x="764" y="169" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="16" fill="#e0795b">54%</text>
+
+  <text x="74" y="241" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">재생에너지</text>
+  <rect x="250" y="215" width="233" height="44" fill="#16756a" rx="3"/>
+  <text x="493" y="244" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="16" fill="#16756a">25%</text>
+
+  <text x="74" y="316" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">원자력</text>
+  <rect x="250" y="290" width="196" height="44" fill="#8a8d84" rx="3"/>
+  <text x="456" y="319" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="16" fill="#62655d">21%</text>
+
+  <text x="74" y="496" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">화석연료 54%는 천연가스 38%와 석탄 15%의 합 — 하버드 연구 중앙 시나리오, 지역 전력망 발전 믹스 귀속 기준</text>
+</svg>
