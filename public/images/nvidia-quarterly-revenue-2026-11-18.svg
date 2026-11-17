@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+  <text x="60" y="44" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">NVIDIA QUARTERLY REVENUE · BILLION USD</text>
+  <text x="60" y="70" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">분기 매출 57억 달러에서 1,158억 달러로, 1년 새 두 배</text>
+  <line x1="60" y1="442.0" x2="860" y2="442.0" stroke="rgba(32,35,31,.16)"/><text x="50" y="447.0" text-anchor="end" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">0</text>
+  <line x1="60" y1="318.4" x2="860" y2="318.4" stroke="rgba(32,35,31,.16)"/><text x="50" y="323.4" text-anchor="end" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">50</text>
+  <line x1="60" y1="194.9" x2="860" y2="194.9" stroke="rgba(32,35,31,.16)"/><text x="50" y="199.9" text-anchor="end" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">100</text>
+  <rect x="84.7" y="301.1" width="84" height="140.9" fill="#16756a" stroke="none" stroke-width="2.5"/>
+  <text x="126.7" y="289.1" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="17" font-weight="bold" fill="#16756a">57.0</text>
+  <text x="126.7" y="474.0" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#62655d">FY26 Q3</text>
+  <rect x="218.0" y="273.7" width="84" height="168.3" fill="#16756a" stroke="none" stroke-width="2.5"/>
+  <text x="260.0" y="261.7" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="17" font-weight="bold" fill="#16756a">68.1</text>
+  <text x="260.0" y="474.0" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#62655d">FY26 Q4</text>
+  <rect x="351.3" y="240.3" width="84" height="201.7" fill="#16756a" stroke="none" stroke-width="2.5"/>
+  <text x="393.3" y="228.3" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="17" font-weight="bold" fill="#16756a">81.6</text>
+  <text x="393.3" y="474.0" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#62655d">FY27 Q1</text>
+  <rect x="484.7" y="204.2" width="84" height="237.8" fill="#16756a" stroke="none" stroke-width="2.5"/>
+  <text x="526.7" y="192.2" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="17" font-weight="bold" fill="#16756a">96.2</text>
+  <text x="526.7" y="474.0" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#62655d">FY27 Q2</text>
+  <rect x="618.0" y="155.8" width="84" height="286.2" fill="#16756a" stroke="none" stroke-width="2.5"/>
+  <text x="660.0" y="143.8" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="17" font-weight="bold" fill="#16756a">115.8</text>
+  <text x="660.0" y="474.0" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#62655d">FY27 Q3</text>
+  <rect x="751.3" y="120.7" width="84" height="321.3" fill="none" stroke="#e0795b" stroke-width="2.5" stroke-dasharray="7 5"/>
+  <text x="793.3" y="108.7" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="17" font-weight="bold" fill="#e0795b">130.0</text>
+  <text x="793.3" y="474.0" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#62655d">FY27 Q4E</text>
+  <text x="60" y="498" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">FY27 Q4E는 회사 가이던스 중간값 1,300억 달러 (추가 1주 포함) — 엔비디아 공시 수치로 직접 작성</text>
+</svg>
