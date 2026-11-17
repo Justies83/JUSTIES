@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 580" width="900" height="580" role="img">
+  <rect width="900" height="580" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="578" fill="none" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="44" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">SEMIANALYSIS · AI ACCELERATOR CAPEX</text>
+  <text x="74" y="72" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">AI 가속기 투자 전망, 얼마나 깎였나 — 수정 전 vs 수정 후</text>
+
+  <text x="640" y="104" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#62655d">■ 수정 전</text>
+  <text x="740" y="104" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#16756a">■ 수정 후</text>
+
+  <text x="74" y="156" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">2027년</text>
+  <rect x="180" y="130" width="347" height="28" fill="#8a8d86" rx="3"/>
+  <text x="537" y="150" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#62655d">7,700억</text>
+  <rect x="180" y="164" width="282" height="28" fill="#16756a" rx="3"/>
+  <text x="472" y="184" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#16756a">6,270억</text>
+  <text x="820" y="167" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="16" fill="#b0512f">-19%</text>
+
+  <text x="74" y="256" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">2028년</text>
+  <rect x="180" y="230" width="474" height="28" fill="#8a8d86" rx="3"/>
+  <text x="664" y="250" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#62655d">1조 540억</text>
+  <rect x="180" y="264" width="341" height="28" fill="#16756a" rx="3"/>
+  <text x="531" y="284" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#16756a">7,580억</text>
+  <text x="820" y="267" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="16" fill="#b0512f">-28%</text>
+
+  <text x="74" y="356" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">2029년</text>
+  <rect x="180" y="330" width="608" height="28" fill="#8a8d86" rx="3"/>
+  <text x="798" y="350" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#62655d">1조 3,520억</text>
+  <rect x="180" y="364" width="358" height="28" fill="#16756a" rx="3"/>
+  <text x="548" y="384" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#16756a">7,960억</text>
+  <text x="820" y="367" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="16" fill="#b0512f">-41%</text>
+
+  <text x="74" y="456" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">2030년</text>
+  <rect x="180" y="430" width="689" height="28" fill="#8a8d86" rx="3"/>
+  <text x="860" y="450" text-anchor="end" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#ffffff">1조 5,310억</text>
+  <rect x="180" y="464" width="415" height="28" fill="#16756a" rx="3"/>
+  <text x="605" y="484" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" fill="#16756a">9,230억</text>
+  <text x="820" y="467" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="16" fill="#b0512f">-40%</text>
+
+  <text x="74" y="540" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">단위: 달러 · 세미애널리시스 11월 13일 모델 업데이트, 유료 모델 요약 보도 기준</text>
+  <text x="74" y="562" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">2027~2030년 누적 하향분 약 1조 6,000억 달러 · 2028년 HBM 출하 전망도 30% 하향</text>
+</svg>
