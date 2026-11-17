@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" width="900" height="620" role="img">
+  <rect width="900" height="620" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="618" fill="none" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="44" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">CYCLONE AKVAN · IMD BULLETIN NO. 15</text>
+  <text x="74" y="74" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="18" fill="#20231f">오후 특보에서 바뀐 것 — 상륙 구간은 넓어지고, 해일은 낮아졌다</text>
+
+  <line x1="74" y1="110" x2="826" y2="110" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="140" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">현재 위치 · 11월 17일 오전 11시 30분</text>
+  <text x="74" y="168" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">북위 12.3° 동경 85.7° — 첸나이 동쪽 약 600km</text>
+  <text x="74" y="194" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">풍속 시속 75–85km, 돌풍 95km · 6시간 동안 북쪽으로 시속 3km</text>
+
+  <line x1="74" y1="214" x2="826" y2="214" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="244" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">상륙 구간</text>
+  <text x="74" y="272" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">넬로르–투니 → 넬로르–비샤카파트남</text>
+  <text x="74" y="298" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">북쪽 끝 약 80km 확대 · 상륙 11월 20일 정오쯤, 120–130km, 돌풍 145km</text>
+
+  <line x1="74" y1="318" x2="826" y2="318" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="348" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">폭풍 해일</text>
+  <text x="74" y="376" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">조위보다 1–2m → 0.6–1.3m</text>
+  <text x="74" y="402" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">침수 예상 7개 지구 — 비샤카파트남 추가 · 최고 바팟라·크리슈나·서고다바리·카키나다</text>
+
+  <line x1="74" y1="422" x2="826" y2="422" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="452" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">발달 일정 · 예보표</text>
+  <text x="74" y="480" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">17일 23:30 강한 사이클론 · 19일 11:30 매우 강한 사이클론</text>
+  <text x="74" y="506" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">20일 11:30 코나시마 앞바다 강한 사이클론 100–110km</text>
+
+  <line x1="74" y1="526" x2="826" y2="526" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="556" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">다음 특보</text>
+  <text x="74" y="584" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">11월 17일 오후 8시 30분 IST (한국 시간 자정)</text>
+
+  <text x="74" y="610" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">출처: 인도 기상청 제15호 특보(11월 17일 오후 4시 30분) · 트랜스클루 라이브 정리</text>
+</svg>
