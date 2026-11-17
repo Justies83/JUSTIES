@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" font-family="sans-serif">
+<rect width="900" height="520" fill="#f4f1ea"/>
+<text x="40" y="42" font-size="22" font-weight="bold" fill="#20231f">아크반 예보 일정표 — 11월 17일 오전 특보 기준</text>
+<text x="40" y="70" font-size="14" fill="#62655d">인도 기상청 제11호 특보, 11월 17일 오전 2시 45분(인도 표준시) 기준. 한국 시간은 3시간 30분 뒤다.</text>
+<text x="40" y="120" font-size="16" fill="#20231f">11월 16일 저녁 — 사이클론 아크반 명명 (북위 12.2도, 동경 85.7도)</text>
+<text x="40" y="156" font-size="16" fill="#20231f">11월 17일 오전 2시 45분 현재 — 첸나이 동쪽 약 610km, 풍속 시속 65~75km, 돌풍 85km</text>
+<text x="40" y="192" font-size="16" fill="#20231f">11월 17일 저녁 — 강한 사이클론으로 발달 예보</text>
+<text x="40" y="228" font-size="16" fill="#20231f">11월 19일 오전 — 매우 강한 사이클론으로 발달 예보</text>
+<text x="40" y="264" font-size="18" font-weight="bold" fill="#e0795b">11월 20일 정오 — 넬로르와 투니 사이 상륙 예보, 풍속 120~130km, 돌풍 145km</text>
+<text x="40" y="300" font-size="16" fill="#20231f">폭풍 해일 — 조위보다 1~2m, 6개 지구 저지대 침수, 11월 20일 오전~오후</text>
+<text x="40" y="336" font-size="16" fill="#20231f">비 — 해안 안드라 11월 19~20일 곳곳에 21cm 이상 극심한 비</text>
+<text x="40" y="372" font-size="16" fill="#20231f">경보 — 안드라·남부 오디샤 해안 사이클론 경보 (오렌지, 4단계 중 2단계)</text>
+<text x="40" y="408" font-size="16" fill="#20231f">상륙 뒤 — 11월 21일 오전 사이클론 단계로 약해지며 내륙으로 이동 예보</text>
+<text x="40" y="470" font-size="14" fill="#62655d">출처: 인도 기상청 제11호 특보를 인용한 트랜스클루 라이브 정리와 PTI 보도.</text>
+<text x="40" y="494" font-size="14" fill="#62655d">숫자는 기상청 예보이며, 특보가 나올 때마다 바뀔 수 있다.</text>
+</svg>
