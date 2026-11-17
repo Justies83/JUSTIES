@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="코스피 종가 추이 — 2월 2일 4,949.67에서 6월 22일 9,114.55를 거쳐 11월 17일 4,968.48로 하락">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <text x="450" y="42" text-anchor="middle" font-size="24" font-weight="700" fill="#20231f">코스피 종가, 9천에서 5천 아래로</text>
+  <line x1="70" y1="451" x2="860" y2="451" stroke="#e0795b" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <text x="852" y="443" text-anchor="end" font-size="14" fill="#e0795b">5,000선</text>
+  <polyline points="80,455 228,68 376,371 524,424 672,441 820,454" fill="none" stroke="#16756a" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+  <g fill="#16756a">
+    <circle cx="80" cy="455" r="6"/>
+    <circle cx="228" cy="68" r="6"/>
+    <circle cx="376" cy="371" r="6"/>
+    <circle cx="524" cy="424" r="6"/>
+    <circle cx="672" cy="441" r="6"/>
+    <circle cx="820" cy="454" r="7"/>
+  </g>
+  <g font-size="17" fill="#20231f" text-anchor="middle">
+    <text x="80" y="432">4,949.67</text>
+    <text x="228" y="52">9,114.55</text>
+    <text x="376" y="352">5,859.08</text>
+    <text x="524" y="405">5,290.53</text>
+    <text x="672" y="422">5,100.50</text>
+    <text x="820" y="432">4,968.48</text>
+  </g>
+  <g font-size="15" fill="#62655d" text-anchor="middle">
+    <text x="80" y="492">2월 2일</text>
+    <text x="228" y="492">6월 22일</text>
+    <text x="376" y="492">11월 2일</text>
+    <text x="524" y="492">11월 13일</text>
+    <text x="672" y="492">11월 16일</text>
+    <text x="820" y="492">11월 17일</text>
+  </g>
+  <text x="450" y="516" text-anchor="middle" font-size="13" font-family="monospace" fill="#62655d">종가 기준 · 시점 간 간격은 일정하지 않음 · 출처: 한국거래소·연합뉴스·조선비즈 보도 수치</text>
+</svg>
