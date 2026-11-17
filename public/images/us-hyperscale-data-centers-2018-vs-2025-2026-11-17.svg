@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="44" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">2018 vs 2024–25 · CENTRAL SCENARIO</text>
+  <text x="74" y="72" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">6년 사이 전력 사용 3.6배, 탄소 배출 2.4배로</text>
+
+  <text x="74" y="124" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">연간 전력 사용량 (테라와트시)</text>
+  <text x="74" y="179" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">2018년</text>
+  <rect x="250" y="153" width="145" height="44" fill="#8a8d84" rx="3"/>
+  <text x="405" y="182" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="16" fill="#62655d">22.85</text>
+
+  <text x="74" y="254" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">2024–25년</text>
+  <rect x="250" y="228" width="520" height="44" fill="#16756a" rx="3"/>
+  <text x="780" y="257" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="16" fill="#16756a">82</text>
+
+  <text x="74" y="322" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">연간 CO2 배출량 (백만 톤)</text>
+  <text x="74" y="377" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">2018년</text>
+  <rect x="250" y="351" width="212" height="44" fill="#8a8d84" rx="3"/>
+  <text x="472" y="380" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="16" fill="#62655d">약 10.5</text>
+
+  <text x="74" y="452" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">2024–25년</text>
+  <rect x="250" y="426" width="520" height="44" fill="#e0795b" rx="3"/>
+  <text x="780" y="455" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="16" fill="#e0795b">25.7</text>
+
+  <text x="74" y="496" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">2018년 수치는 직전 동료심사 추정치, 2024–25년은 이번 연구 중앙 시나리오 — 하버드·Nature Sustainability</text>
+</svg>
