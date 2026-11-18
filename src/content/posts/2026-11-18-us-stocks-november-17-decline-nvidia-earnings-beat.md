@@ -76,4 +76,47 @@ source:
 
 <p align="center">정리하면, 숫자는 좋아졌는데 회사를 둘러싼 질문은 더 커졌다.<br/>실적과 가이던스는 AI 수요가 꺾이지 않았다는 걸 보여줬지만, SEC 조사와 의회 청문회, 수출통제 단속이라는 세 갈래 압박이 앞으로 몇 달간 엔비디아의 발목을 잡을 수 있다.<br/>12월 1일 황 전 CEO의 하원 면담이 첫 번째 관문이다.<br/>면담은 비공개라 당일 내용이 바로 알려지진 않겠지만, 위원회들의 입장 발표가 뒤따를 수 있다.</p>
 
-참고한 기사 — [GlobeNewswire via Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/nvidia-announces-financial-results-third-212000678.html) · [The Wall Street Journal](https://www.wsj.com/finance/stocks/u-s-stocks-fall-as-ai-doubts-fester-a0979bdb) · [U.S. Census Bureau, CB26-181](https://www.census.gov/retail/marts/www/marts_current.pdf) · [AP via Stuff](https://www.stuff.co.nz/world-news/361060624/another-wipeout-hits-wall-street-nvidia-and-jittery-ai-stocks-swing-lower) · [Reuters via Euronext](https://live.euronext.com/en/financial-news/stocks-fall-nvidia-focus-oil-ticks) · [AlphaStreet 실적 콜 전문](https://news.alphastreet.com/nvidia-corporation-nvda-q3-2027-earnings-call-transcript/) · [Investor's Business Daily](https://www.investors.com/news/technology/nvidia-stock-fiscal-q3-2027-earnings-nvda-stock/) · [The Times](https://www.thetimes.com/us/business-us/article/record-third-quarter-revenue-brings-relief-for-nvidia-2kx6sn6j6) · [Reuters via Free Malaysia Today](https://www.freemalaysiatoday.com/category/business/2026/11/18/asian-stocks-set-to-snap-losing-streak-on-upbeat-nvidia-earnings) · [The Wall Street Journal](https://www.wsj.com/business/sec-is-probing-nvidia-amid-departure-of-ceo-jensen-huang-ee7643f8) · [Reuters](https://www.reuters.com/world/former-nvidia-ceo-huang-appear-before-us-congressional-committees-december-2026-11-17/) · [New York Post](https://nypost.com/2026/11/14/world-news/congress-prepares-to-rake-lutnick-and-huang-over-chip-spy-fiasco/)
+<p align="center"><strong>11월 18일 저녁 업데이트 — 코스피, 롤러코스터 끝에 5,067로 마감. 5,000선 하루 만에 회복.</strong><br/>
+아침 글에서 장중 수치라며 마감을 지켜봐야 한다고 적었던 코스피가 결국 상승으로 하루를 마쳤다.<br/>
+코스피는 전 거래일보다 <strong>98.96포인트(1.99%)가</strong> 오른 <strong>5,067.44에</strong> 거래를 마쳤다.<br/>
+5거래일 만의 상승 마감이고, 전날 내줬던 5,000선을 하루 만에 되찾았다.</p>
+
+<p align="center">하루의 흐름은 롤러코스터였다.<br/>
+지수는 전장보다 <strong>130.34포인트(2.62%)가</strong> 오른 <strong>5,098.82로</strong> 출발해 개장 직후 <strong>5,133.14까지</strong> 올랐다.<br/>
+오전 한때는 하락으로 돌아서 11시 55분쯤 <strong>4,943.17까지</strong> 밀리며 5,000선을 다시 내주기도 했다.<br/>
+오후 들어 우상향으로 방향을 잡으면서 결국 2% 가까운 상승으로 마감했다.<br/>
+장중 고점과 저점의 차이가 190포인트에 가까웠다.</p>
+
+<p align="center">외국인은 4거래일 연속 순매도였지만, 매도 규모는 줄었다.<br/>
+외국인은 이날 <strong>3,280억 원을</strong> 순매도했고, 개인도 <strong>6,310억 원을</strong> 순매도했다.<br/>
+기관이 <strong>5,050억 원을</strong> 순매수하며 지수를 떠받쳤다.<br/>
+외국인 매도 규모는 하루 1조 3천억\~1조 4천억 원대를 웃돌던 최근 2거래일보다 완화됐다.<br/>
+코스피200 선물시장에서도 기관만 1,300억 원 순매수했고, 외국인과 개인은 각각 680억 원, 590억 원 순매도했다.</p>
+
+<p align="center">반등의 중심은 역시 반도체였다.<br/>
+장중 한때 하락권에 머물렀던 삼성전자는 <strong>2.31% 상승</strong> 마감했고, SK하이닉스는 <strong>4.19% 올라</strong> 다시 110만 원대에 올라섰다.<br/>
+전날 SK하이닉스 주가는 7개월 만에 110만 원이 무너졌었다.<br/>
+시가총액 상위주 중에서는 삼성전기(7.43%), 삼성생명(5.37%), SK스퀘어(4.42%), 현대차(3.09%) 등이 급등했다.<br/>
+반면 삼성바이오로직스(-3.39%), 셀트리온(-2.58%), LG에너지솔루션(-0.16%), KB금융(-0.26%)은 하락했다.<br/>
+업종별로는 오락·문화(3.85%), 보험(3.73%), 전기·전자(2.95%), 증권(2.40%), 제조(2.22%)가 코스피 상승률을 웃돌았고, 제약(-2.68%), 종이·목재(-2.43%), 통신(-1.42%) 등은 내렸다.</p>
+
+<p align="center">코스닥도 함께 올랐다.<br/>
+코스닥은 전장보다 <strong>12.75포인트(1.96%)가</strong> 오른 <strong>662.81로</strong> 장을 마쳤다.<br/>
+3거래일 만의 상승 마감이다.<br/>
+레인보우로보틱스(20.06%)와 로보티즈(13.24%) 등 로봇주가 반등을 이끌었고, 외국인과 개인이 각각 450억 원, 1천230억 원 매도 우위였지만 기관이 1천770억 원 매수 우위였다.<br/>
+반면 삼천당제약(-14.56%), HLB(-4.06%), 알테오젠(-1.21%) 등 제약·바이오 관련주는 하락했다.<br/>
+이날 신규 상장한 에이엘로봇은 공모가 1만 7천600원 대비 24.32% 하락한 1만 3천320원에 거래를 마쳤다.</p>
+
+<p align="center">원/달러 환율은 전장보다 <strong>5.2원이</strong> 내린 <strong>1,333.0원에</strong> 주간 거래를 마쳤다.<br/>
+유가증권시장과 코스닥시장의 거래대금은 각각 <strong>20조 3,426억 원과</strong> <strong>5조 5,167억 원으로</strong> 집계됐다.</p>
+
+<p align="center">증권가에서는 엔비디아 실적이 반등의 불씨가 됐다는 평가가 나온다.<br/>
+이경민 대신증권 연구원은 엔비디아가 2028 회계연도 매출 성장률 전망을 기존 70%에서 75%로 상향하고 공급계약과 생산능력 확대로 성장에 대한 자신감을 피력했다며, 견조한 AI 수요와 성장성이 재차 확인된 호재였다고 평가했다.<br/>
+대형 반도체를 중심으로 저가 매수세가 유입됐고 기술주 전반의 투자심리가 개선됐다는 설명이다.<br/>
+다만 19일로 예정된 앤트로픽의 미국 나스닥 상장을 앞둔 관망심리가 상단을 일부 제약했고, 미국채 10년물 금리가 5.08%로 높은 수준을 유지하고 있어 반등 탄력이 제약됐다는 지적도 함께 나왔다.</p>
+
+<p align="center">이제 남은 이번 주 일정은 수요일에 공개되는 연방공개시장위원회 10월 회의 의사록과 19일로 예정된 앤트로픽 기업공개, 그리고 수요일 뉴욕 정규장의 반응이다.<br/>
+엔비디아의 시간외 상승이 아시아 증시에 불을 붙였지만, 코스피가 장중 5,000선을 내줬다가 되찾은 하루였듯 반등이 하루짜리인지는 아직 모른다.<br/>
+외국인의 매도 규모가 줄었다는 점은 긍정적이지만, 4거래일 연속 순매도라는 방향 자체는 바뀌지 않았다.</p>
+
+참고한 기사 — [GlobeNewswire via Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/nvidia-announces-financial-results-third-212000678.html) · [The Wall Street Journal](https://www.wsj.com/finance/stocks/u-s-stocks-fall-as-ai-doubts-fester-a0979bdb) · [U.S. Census Bureau, CB26-181](https://www.census.gov/retail/marts/www/marts_current.pdf) · [AP via Stuff](https://www.stuff.co.nz/world-news/361060624/another-wipeout-hits-wall-street-nvidia-and-jittery-ai-stocks-swing-lower) · [Reuters via Euronext](https://live.euronext.com/en/financial-news/stocks-fall-nvidia-focus-oil-ticks) · [AlphaStreet 실적 콜 전문](https://news.alphastreet.com/nvidia-corporation-nvda-q3-2027-earnings-call-transcript/) · [Investor's Business Daily](https://www.investors.com/news/technology/nvidia-stock-fiscal-q3-2027-earnings-nvda-stock/) · [The Times](https://www.thetimes.com/us/business-us/article/record-third-quarter-revenue-brings-relief-for-nvidia-2kx6sn6j6) · [Reuters via Free Malaysia Today](https://www.freemalaysiatoday.com/category/business/2026/11/18/asian-stocks-set-to-snap-losing-streak-on-upbeat-nvidia-earnings) · [The Wall Street Journal](https://www.wsj.com/business/sec-is-probing-nvidia-amid-departure-of-ceo-jensen-huang-ee7643f8) · [Reuters](https://www.reuters.com/world/former-nvidia-ceo-huang-appear-before-us-congressional-committees-december-2026-11-17/) · [연합뉴스](https://www.yna.co.kr/view/AKR20261118143200008?section=economy/all)
