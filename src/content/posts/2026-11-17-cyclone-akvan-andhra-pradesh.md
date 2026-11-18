@@ -3,8 +3,8 @@ title: "세 번째 폭풍이 온다 — 사이클론 아크반, 11월 20일 안�
 date: 2026-11-17
 category: world
 kind: news
-takeaway: "벵골만의 사이클론 아크반은 11월 17일 밤에도 시속 75에서 85km, 돌풍 95km의 사이클론 단계에 머물러 있다. 인도 기상청 제18호 특보(오후 10시 30분) 기준 아크반은 오후 8시 30분 현재 북위 12.4도, 동경 85.6도, 첸나이 동쪽 약 590km 해상에서 시속 3km로 북북서쪽으로 기어가고 있다. 저녁에 강한 사이클론이 될 거라는 예보는 빗나갔고, 기상청은 강한 사이클론 진입을 18일 오전, 매우 강한 사이클론 진입을 19일 저녁으로 각각 반나절씩 늦췄다. 11월 20일 정오 넬로르와 비샤카파트남 사이 상륙 예보는 그대로고, 상륙 당시 풍속 시속 120에서 130km, 돌풍 145km도 그대로다. 폭풍 해일 전망은 0.6에서 1.3m에서 0.4에서 1.2m로 한 번 더 낮아졌다."
-tags: [사이클론, 아크반, 인도, 안드라프라데시, 오디샤, 타밀나두, IMD, 벵골만, 무라수, 아르나브, 매우 강한 사이클론, 폭풍 해일, 사이클론 경보, 첸나이, 넬로르, 투니, 비샤카파트남, 오후 업데이트, 제15호 특보, 상륙 구간 확대, 해일 전망 하향, 제18호 특보, 밤 업데이트, 발달 지연, 해일 전망 추가 하향]
+takeaway: "사이클론 아크반은 11월 18일 오전 5시 30분 강한 사이클론이 됐다. 오전 11시 30분 기준 북위 13.1도, 동경 85.4도, 나르사푸르 남동쪽 약 540km 해상에서 시속 8km로 북북서쪽으로 이동 중이고, 풍속은 시속 90에서 100km, 돌풍 110km다. 인도 기상청은 11월 20일 정오 상륙 구간을 넬로르와 비샤카파트남 사이에서 나르사푸르와 푸리 사이로 북쪽으로 옮겼고, 상륙 당시 강도도 매우 강한 사이클론(시속 120에서 130km, 돌풍 145km)에서 강한 사이클론(시속 90에서 100km, 돌풍 110km)으로 한 단계 낮췄다. 폭풍 해일은 조위보다 0.5에서 1m로 안드라 6개 지구와 오디샤 3개 지구에 예보됐고, 북부 안드라와 남부 오디샤 해안에는 11월 18일 오후 2시 30분부터 사이클론 경보(적색 메시지)가 내려졌다."
+tags: [사이클론, 아크반, 인도, 안드라프라데시, 오디샤, 타밀나두, IMD, 벵골만, 무라수, 아르나브, 매우 강한 사이클론, 폭풍 해일, 사이클론 경보, 첸나이, 넬로르, 투니, 비샤카파트남, 오후 업데이트, 제15호 특보, 상륙 구간 확대, 해일 전망 하향, 제18호 특보, 밤 업데이트, 발달 지연, 해일 전망 추가 하향, 11월 18일 낮 업데이트, 나르사푸르, 푸리, 상륙 구간 북상, 강도 하향, 적색 메시지, 제23호 특보]
 cover: /images/cyclone-akvan-andhra-pradesh-2026-11-17.jpg
 coverAlt: "벵골만 위의 사이클론 위성 사진"
 source:
@@ -70,6 +70,22 @@ source:
 
 <p align="center" class="caption">도표는 인도 기상청 제18호 특보(11월 17일 오후 10시 30분) 전문과 이를 인용한 트랜스클루 라이브 정리를 바탕으로 직접 만들었다.</p>
 
-<p align="center">다음 특보는 11월 18일 오전 2시 30분(인도 표준시, 한국 시간 오전 6시)으로 예정돼 있다.<br/>예보표대로라면 오전 5시 30분쯤 아크반은 강한 사이클론이 된다.<br/>이번에 늦춰진 일정이 지켜지는지, 경보가 3단계 적색 메시지로 올라가는지가 다음 확인 사항이다.<br/>이 글의 숫자는 모두 인도 기상청의 예보를 인용한 것이고, 예보는 특보가 나올 때마다 바뀔 수 있다.<br/>특보가 새로 나오면 이 글도 그에 맞춰 다시 정리한다.</p>
+<p align="center"><strong>11월 18일 낮 업데이트 — 상륙 구간이 오디샤까지 북상하고, 강도는 한 단계 내려갔다.</strong><br/>밤 글에서 다음 확인 사항으로 남겼던 두 가지는 둘 다 가려졌다.<br/>아크반은 18일 오전 5시 30분쯤 강한 사이클론이 됐고, 경보는 오후 2시 30분부터 적색 메시지로 올라갔다.<br/>다만 상륙 예보는 그 사이에 크게 바뀌었다.<br/>상륙 구간이 북쪽으로 200km 넘게 올라가 오디샤까지 닿았고, 상륙 당시 강도는 매우 강한 사이클론에서 강한 사이클론으로 한 단계 내려갔다.</p>
 
-참고한 기사 — [The Times of India (PTI)](https://timesofindia.indiatimes.com/city/visakhapatnam/cyclone-akvan-alert-very-severe-storm-likely-near-andhra-coast-by-nov-19-tamil-nadu-districts-brace-for-rain/articleshow/135894488.cms) · [트랜스클루 라이브 정리 (IMD 특보)](https://transclew.com/news/cyclone-akvan-live-updates/) · [New Indian Express](https://www.newindianexpress.com/states/andhra-pradesh/2026/Nov/16/andhra-braces-for-akvan-after-back-to-back-severe-cyclonic-storms) · [인도 기상청 제15호 특보 (2026.11.17)](https://mausam.imd.gov.in/backend/assets/cyclone_pdf/15__National_Bulletin_No_15-17Nov2026_1130IST.pdf) · [인도 기상청 제18호 특보 (2026.11.17)](https://mausam.imd.gov.in/backend/assets/cyclone_pdf/18__National_Bulletin_No_18-17Nov2026_2030IST.pdf)
+<p align="center">강한 사이클론 진입은 밤에 늦춰진 일정 그대로 이뤄졌다.<br/>인도 기상청의 11월 18일 오전 9시 30분 특보에 따르면 아크반은 오전 5시 30분 기준 북위 12.7도, 동경 85.5도에 있었다.<br/>첸나이 동쪽 약 580km, 마칠리파트남 남동쪽 약 610km, 비샤카파트남 남남동쪽 약 610km 해상이다.<br/>풍속은 <strong>시속 90에서 100km</strong>, 돌풍은 <strong>시속 110km로</strong>, 강한 사이클론의 문턱인 시속 89km를 막 넘긴 수준이다.<br/>새벽 2시 30분 기준으로는 아직 시속 85에서 95km, 돌풍 105km의 사이클론 단계였고, 오전 3시 특보까지만 해도 기상청은 19일 저녁 매우 강한 사이클론 진입을 그대로 그리고 있었다.<br/>9시 30분 특보에서 그 그림이 처음 바뀌었다.<br/>매우 강한 사이클론 진입 예보가 사라지고, 상륙 당시 강도는 시속 100에서 110km, 돌풍 120km의 강한 사이클론으로 낮아졌다.</p>
+
+<p align="center">상륙 구간은 정오 특보에서 한 번 더, 크게 움직였다.<br/>기상청의 11월 18일 오후 1시 특보는 아크반이 11월 20일 정오쯤 <strong>나르사푸르와 푸리 사이</strong> 해안에 상륙할 것으로 본다.<br/>북부 안드라프라데시와 야남, 남부 오디샤 해안이다.<br/>아침까지의 넬로르와 비샤카파트남 사이에서 구간 전체가 북쪽으로 200km 넘게 올라간 셈이다.<br/>상륙 당시 풍속도 시속 90에서 100km, 돌풍 110km로 한 번 더 낮아졌다.<br/>오전 8시 30분 기준 아크반은 북위 12.9도, 동경 85.4도, 첸나이 동쪽 약 570km, 비샤카파트남 남남동쪽 약 580km, 고팔푸르 남쪽 약 710km 해상에 있었다.<br/>이동 속도도 시속 3km에서 <strong>시속 7km로</strong> 빨라졌다.<br/>오전 11시 30분 기준으로는 북위 13.1도, 동경 85.4도, 나르사푸르 남동쪽 약 540km, 고팔푸르 남쪽 690km 해상에서 시속 8km로 북북서쪽으로 가고 있다.</p>
+
+<p align="center"><img src="/images/cyclone-akvan-andhra-daytime-2026-11-18.svg" alt="아크반 낮 업데이트 — 오전 11시 30분 북위 13.1도 동경 85.4도 나르사푸르 남동쪽 약 540km 풍속 90에서 100km 돌풍 110km, 상륙 11월 20일 정오 나르사푸르와 푸리 사이 90에서 100km 돌풍 110km, 폭풍 해일 조위보다 0.5에서 1m 9개 지구, 경보 적색 메시지 11월 18일 오후 2시 30분부터" style="max-width:100%;height:auto;"/></p>
+
+<p align="center" class="caption">도표는 인도 기상청 제23호 특보(11월 18일 오후 2시 30분) 전문과 이를 인용한 트랜스클루 라이브 정리를 바탕으로 직접 만들었다.</p>
+
+<p align="center">해일 전망도 상륙 구간을 따라 북상했다.<br/>오후 2시 30분 특보(제23호) 기준 폭풍 해일은 <strong>조위보다 0.5에서 1m로</strong>, 안드라프라데시 6개 지구(서고다바리, 코나시마, 카키나다, 비샤카파트남, 비지아나가람, 스리카쿨람)와 오디샤 3개 지구(간잠, 코르다, 푸리) 저지대에 예보됐다.<br/>17일 밤의 0.4에서 1.2m, 7개 지구에서 구간은 북쪽으로 옮겨가고 지구는 9곳으로 늘었다.<br/>프라카삼과 바팟라, 크리슈나는 이번 해일 예보에서 빠졌다.<br/>해일은 상륙 무렵인 11월 20일 오전부터 오후 사이 가장 높을 것으로 보인다.</p>
+
+<p align="center">경보 단계도 올라갔다.<br/>오후 2시 30분 특보부터 북부 안드라프라데시와 야남, 남부 오디샤 해안에는 사이클론 경보, 즉 <strong>적색 메시지</strong>가 내려졌다.<br/>기상청의 4단계 경보 가운데 3단계다.<br/>해안 오두막에 사는 주민은 안전한 곳으로 옮기라는 지시가 나왔고, 영향권 주민에게는 실내 대기를, 중서부 벵골만에서는 11월 21일까지 모든 조업을 멈추라는 권고가 나왔다.<br/>밤 글에서 다음 확인 사항으로 꼽았던 적색 메시지 격상은 이렇게 가려졌다.</p>
+
+<p align="center">비 예보의 범위도 넓어졌다.<br/>해안 안드라프라데시와 남부 오디샤에는 19일과 20일 곳곳에 <strong>21cm가 넘는</strong> 극심한 비가 예보됐고, 북부 오디샤에도 강한 비에서 매우 강한 비가 내릴 것으로 보인다.<br/>동부 텔랑가나는 20일, 갠지스 서벵골은 20일, 차티스가르와 자르칸드, 동비다르바, 동마디아프라데시는 20일과 21일에 비가 예보됐다.<br/>첸나이와 주변 타밀나두 지구에는 18일과 19일에 비가 오고, 첸나이 기상센터는 타밀나두 일부 지역의 비가 23일까지 이어질 수 있다고 본다.<br/>안드라프라데시 정부는 등록 어선 3만808척을 관리하며 어민들에게 10만8,000건이 넘는 음성 경보를 보냈고, 국가재난대응군과 주재난대응군을 취약 지역에 배치했다.<br/>오디샤에서도 대피가 진행 중이다.</p>
+
+<p align="center">정리하면, 아크반은 세지는 속도가 느려 상륙 강도가 한 단계 낮아졌지만, 상륙 지점은 오디샤 쪽으로 올라가면서 영향권이 넓어졌다.<br/>예보표는 19일 오전까지 강한 사이클론을 유지하다 20일 오전 11시 30분에는 사이클론 단계로 약해진 상태로 상륙 무렵을 그리고 있다.<br/>다음 특보에서 상륙 구간이 또 움직이는지, 풍속이 더 떨어지는지가 확인 사항이다.<br/>이 글의 숫자는 모두 인도 기상청의 예보를 인용한 것이고, 예보는 특보가 나올 때마다 바뀔 수 있다.<br/>특보가 새로 나오면 이 글도 그에 맞춰 다시 정리한다.</p>
+
+참고한 기사 — [The Times of India (PTI)](https://timesofindia.indiatimes.com/city/visakhapatnam/cyclone-akvan-alert-very-severe-storm-likely-near-andhra-coast-by-nov-19-tamil-nadu-districts-brace-for-rain/articleshow/135894488.cms) · [트랜스클루 라이브 정리 (IMD 특보)](https://transclew.com/news/cyclone-akvan-live-updates/) · [New Indian Express](https://www.newindianexpress.com/states/andhra-pradesh/2026/Nov/16/andhra-braces-for-akvan-after-back-to-back-severe-cyclonic-storms) · [인도 기상청 제15호 특보 (2026.11.17)](https://mausam.imd.gov.in/backend/assets/cyclone_pdf/15__National_Bulletin_No_15-17Nov2026_1130IST.pdf) · [인도 기상청 제18호 특보 (2026.11.17)](https://mausam.imd.gov.in/backend/assets/cyclone_pdf/18__National_Bulletin_No_18-17Nov2026_2030IST.pdf) · [Mathrubhumi (2026.11.18)](https://english.mathrubhumi.com/amp/news/india/cyclone-akvan-andhra-pradesh-landfall-chennai-rain-alert-c9r80qz7) · [The Week (2026.11.18)](https://www.theweek.in/news/india/2026/11/18/cyclonic-storm-akvan-imds-latest-rainfall-forecast-maharashtra-west-bengal-along-with-andhra.html) · [ETV Bharat (2026.11.18)](https://www.etvbharat.com/en/bharat/severe-cyclone-akvan-changes-path-landfall-between-odisha-puri-andhra-pradesh-narsapur-november-20-noon-evacuation-underway-imd-rainfall-forecast-enn26111801569)
