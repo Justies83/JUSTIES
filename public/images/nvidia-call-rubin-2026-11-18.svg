@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+  <text x="60" y="44" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">NVIDIA Q3 FY27 DATA CENTER · BILLION USD</text>
+  <text x="60" y="70" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">데이터센터 1,076억 달러 — 하이퍼스케일 601억 · AI 클라우드 475억</text>
+  <text x="60" y="140" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" font-weight="bold" fill="#20231f">하이퍼스케일</text>
+  <rect x="60" y="152" width="640" height="58" fill="#16756a"/>
+  <text x="712" y="178" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="17" font-weight="bold" fill="#16756a">601억 달러</text>
+  <text x="712" y="200" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#62655d">전분기 대비 +23%</text>
+  <text x="60" y="268" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" font-weight="bold" fill="#20231f">AI 클라우드 · 산업 · 기업</text>
+  <rect x="60" y="280" width="506" height="58" fill="#e0795b"/>
+  <text x="578" y="306" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="17" font-weight="bold" fill="#e0795b">475억 달러</text>
+  <text x="578" y="328" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#62655d">전분기 대비 +18% · 전년 동기 대비 3배 가까이</text>
+  <text x="60" y="400" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">베라 루빈, 첫 출하 분기에 약 200억 달러 — 회사 역사상 가장 빠른 램프</text>
+  <text x="60" y="432" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">2028 회계연도 매출 성장 전망 70% → 75%로 상향</text>
+  <text x="60" y="498" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">도표는 엔비디아 실적 콜(2026.11.17) 수치로 직접 작성 — 데이터센터 매출 1,076억 달러</text>
+</svg>
