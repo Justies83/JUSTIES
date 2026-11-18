@@ -3,8 +3,8 @@ title: "화요일 뉴욕증시 나흘째 하락 — 다우 848포인트 급락, 
 date: 2026-11-18
 category: finance
 kind: news
-takeaway: "11월 17일 화요일 뉴욕증시는 3대 지수가 모두 내렸다. 다우는 848.75포인트(1.64%)가 빠진 50,759.42, S&P500은 76.06포인트(1.03%)가 내린 7,340.53, 나스닥은 181.38포인트(0.74%)가 떨어진 24,328.38에 마감했고, S&P500은 나흘 연속 하락했다. 장 마감 뒤 나온 엔비디아 3분기 실적은 매출 1,158억 달러(전년 동기 대비 103% 증가), 조정 주당순이익 2.68달러로 시장 예상과 회사 가이던스를 모두 웃돌았고, 4분기 매출 가이던스 1,300억 달러(±3%)도 애널리스트 기대를 웃돌아 시간외 거래에서 주가가 2.5% 넘게 올랐다."
-tags: [뉴욕증시, 다우존스, S&P500, 나스닥, 엔비디아, 실적, 데이터센터, 콜레트 크레스, 젠슨 황, 소매판매, 연준, 금리, 코스피, 삼성전자, SK하이닉스, VIX, 국채금리]
+takeaway: "11월 17일 화요일 뉴욕증시는 3대 지수가 모두 내렸다. 다우는 848.75포인트(1.64%)가 빠진 50,759.42, S&P500은 76.06포인트(1.03%)가 내린 7,340.53, 나스닥은 181.38포인트(0.74%)가 떨어진 24,328.38에 마감했고, S&P500은 나흘 연속 하락했다. 장 마감 뒤 나온 엔비디아 3분기 실적은 매출 1,158억 달러(전년 동기 대비 103% 증가), 조정 주당순이익 2.68달러로 시장 예상과 회사 가이던스를 모두 웃돌았고, 4분기 매출 가이던스 1,300억 달러(±3%)도 애널리스트 기대를 웃돌았다. 이어진 실적 콘퍼런스 콜에서는 베라 루빈이 첫 출하 분기에 200억 달러 가까운 매출을 올렸고, 2028 회계연도 매출 성장 전망이 70%에서 75%로 올라갔으며, 이사회가 젠슨 황 전 최고경영자의 복귀를 검토하지 않는다고 밝혔다. 주가는 콜이 끝난 뒤 시간외 거래에서 4% 안팎 올랐다."
+tags: [뉴욕증시, 다우존스, S&P500, 나스닥, 엔비디아, 실적, 데이터센터, 콜레트 크레스, 젠슨 황, 소매판매, 연준, 금리, 코스피, 삼성전자, SK하이닉스, VIX, 국채금리, 베라 루빈, 자사주 매입, 네오클라우드, 허깅페이스]
 cover: /images/us-stocks-november-17-decline-nvidia-earnings-beat-2026-11-18.jpg
 coverAlt: "엔비디아 산타클라라 본사 엔데버 건물 앞 잔디"
 source:
@@ -40,4 +40,28 @@ source:
 
 <p align="center">앞으로 확인할 건 세 가지다.<br/>첫째, 18일 오전 7시 엔비디아 콘퍼런스 콜에서 크레스가 내놓는 설명이다.<br/>베라 루빈 플랫폼 수요와 공급 병목, 메모리 가격, 중국 사업에 대한 언급이 가이던스 숫자보다 중요할 수 있다.<br/>둘째, 수요일에 공개되는 연방공개시장위원회 10월 회의 의사록이다.<br/>12월 금리 인상에 대한 위원들의 속내가 드러나면 국채금리와 달러가 다시 움직일 수 있다.<br/>셋째, 이번 주 예정된 앤트로픽의 기업공개다.<br/>AI 투자 열기가 식는 와중에 사상 최대 규모로 거론되는 상장이 어떤 반응을 얻느냐가, AI주 전반의 분위기를 가르는 시험대가 될 수 있다.</p>
 
-참고한 기사 — [GlobeNewswire via Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/nvidia-announces-financial-results-third-212000678.html) · [The Wall Street Journal](https://www.wsj.com/finance/stocks/u-s-stocks-fall-as-ai-doubts-fester-a0979bdb) · [U.S. Census Bureau, CB26-181](https://www.census.gov/retail/marts/www/marts_current.pdf) · [AP via Stuff](https://www.stuff.co.nz/world-news/361060624/another-wipeout-hits-wall-street-nvidia-and-jittery-ai-stocks-swing-lower) · [Reuters via Euronext](https://live.euronext.com/en/financial-news/stocks-fall-nvidia-focus-oil-ticks)
+<p align="center"><strong>11월 18일 아침 업데이트 — 콜이 끝났다. 루빈 200억 달러, 내년 성장 전망은 75%로.</strong><br/>아침 글에서 첫 번째 확인 사항으로 꼽았던 콘퍼런스 콜이 끝났다.<br/>한국 시간으로 18일 오전 7시에 시작한 콜은 오전 7시 49분쯤 끝났다.<br/>임시 최고경영자로서 콜레트 크레스가 처음으로 이끈 콜이다.<br/>이사회 의장 하비 존스가 먼저 나서서 이사회의 입장을 정리했다.<br/>이사회는 젠슨 황 전 최고경영자의 복귀를 검토하지 않으며, 후임 최고경영자 물색은 헤이드릭앤드스트러글스에 맡겼다고 밝혔다.<br/>17일 오전에는 국가안보와 수출통제를 감독하는 이사회 위원회도 새로 만들었다.<br/>사임 경위와 진행 중인 조사에 대해서는 콜에서 질문을 받지 않겠다고 선을 그었다.<br/>황 전 CEO는 이날 이사회가 최선이라고 판단하면 돌아올 용의가 있다고 밝혔지만, 이사회는 복귀를 검토하지 않는다는 입장이다.</p>
+
+<p align="center">숫자보다 먼저 나온 건 베라 루빈이다.<br/>크레스는 루빈 플랫폼이 첫 생산 출하 분기에 <strong>200억 달러에</strong> 육박하는 매출을 올렸다고 밝혔다.<br/>회사 역사상 가장 빠른 제품 램프라는 설명이다.<br/>8월에 제시했던 데이터센터 매출의 약 20%라는 전망에 거의 들어맞는 수치다.<br/>데이터센터 매출 <strong>1,076억 달러의</strong> 내역은 하이퍼스케일 <strong>601억 달러</strong>(전분기 대비 23% 증가), AI 클라우드·산업·기업 <strong>475억 달러</strong>(18% 증가, 전년 동기 대비 3배 가까이)다.<br/>주요 프론티어 랩들이 데이터센터 매출에서 차지하는 비중은 올해 약 15%다.<br/>앤트로픽의 연환산 매출은 10월 말 기준 <strong>810억 달러에</strong> 이르렀다.<br/>하이퍼스케일 고객들의 클라우드 매출 증가율은 6분기 연속 빨라졌고, 클라우드 업계의 수주 잔량은 3개월 전 2조 달러에서 <strong>2조5,000억 달러로</strong> 불어났다.</p>
+
+<p align="center"><img src="/images/nvidia-call-rubin-2026-11-18.svg" alt="엔비디아 Q3 FY27 데이터센터 매출 — 하이퍼스케일 601억 달러, AI 클라우드·산업·기업 475억 달러, 베라 루빈 첫 분기 약 200억 달러" style="max-width:100%;height:auto;"/></p>
+
+<p align="center" class="caption">도표는 엔비디아 실적 콜(2026.11.17) 수치로 직접 작성했다.</p>
+
+<p align="center">내년 전망도 올려 잡았다.<br/>엔비디아는 2028 회계연도 매출 성장 전망을 기존 <strong>70%에서</strong> <strong>약 75%로</strong> 높였다.<br/>높아진 2027 회계연도 실적을 기준으로 삼는 숫자라, 절대 규모로 보면 상향 폭은 더 크다.<br/>수요가 공급을 계속 웃돌고, 추가 공급도 확보되고 있다는 게 근거다.<br/>새로 나온 미국의 수출통제 규칙에 대해서는 아직 검토 중이라고 했다.<br/>8월 콜에서 나왔던 "무제약 수요는 100% 성장"이라는 표현은 이번에는 되풀이되지 않았다.<br/>모건스탠리 애널리스트가 그 숫자를 그대로 믿어도 되느냐고 묻자, 크레스는 수요와 공급을 합쳐 75%를 자신한다고 답했다.</p>
+
+<p align="center">마진 얘기도 8월의 그림 그대로다.<br/>4분기 매출총이익률 <strong>71\~72%가</strong> 바닥이고, 2028 회계연도에는 <strong>72\~73%로</strong> 회복한다는 전망을 그대로 유지했다.<br/>애널리스트가 가격 결정력을 묻자 크레스는 "지금으로서는 변한 게 없다"고 답했다.<br/>3분기 마진은 GAAP 기준 <strong>74.8%와</strong> 조정 기준 <strong>74.9%로</strong> 제품 믹스 덕분에 가이던스를 웃돌았다.<br/>다만 메모리 가격 상승이 마진을 갉아먹는 흐름은 4분기에 더 뚜렷해진다.<br/>4분기 마진 전망이 3분기보다 3%포인트 안팎 낮아지는 이유다.</p>
+
+<p align="center">주주에게 돌려준 돈도 역대 최대 규모다.<br/>3분기에만 <strong>280억 달러를</strong> 주주에게 돌려줬다.<br/>자사주 매입 220억 달러, 현금 배당 60억 달러다.<br/>올해 들어 잉여현금흐름의 65%를 주주환원에 썼고, 앞으로는 전략적 용도를 뺀 잉여현금흐름을 전부 돌려주겠다는 방침이다.<br/>자사주 매입 한도도 <strong>1,500억 달러를</strong> 더 늘렸다.<br/>회사 역사상 가장 큰 한도 증액이고, 남은 한도는 2,270억 달러다.<br/>2028 회계연도 말까지 전액 집행한다는 계획이다.</p>
+
+<p align="center">재무 약속의 규모도 함께 공개됐다.<br/>매입 약속은 <strong>3,900억 달러로</strong> 늘었고, 보증 총액은 <strong>1,180억 달러</strong>다.<br/>이 중 1,050억 달러는 오픈AI 전용으로 20년간 임대하는 포트스파이크 캠퍼스의 부지·전력·건물에 대한 신용지원이다.<br/>네오클라우드 관련 약속은 320억 달러, 데이터센터 임대와 클라우드 서비스 약속은 1,000억 달러를 조금 넘겼다.<br/>애널리스트들의 질문은 네오클라우드에 집중됐다.<br/>이번에 공개된 CFO 코멘터리에는 네오클라우드가 자금조달에 성공해야 약속이 발효되고, 안 되면 약속이 줄거나 사라질 수 있다는 문장이 새로 들어갔기 때문이다.<br/>크레스는 새로운 방침이 아니라 명확히 한 것뿐이라고 설명했다.<br/>보증은 부지·전력·건물이 준비되고 자금이 갖춰진 시점부터 시작된다는 얘기다.<br/>다만 앞으로의 지원은 더 가려서 하겠다는 뉘앙스도 분명했다.<br/>토지·전력·건물 확보와 투자등급 고객의 선급금이 우선순위라고 했다.</p>
+
+<p align="center">중국 사업은 정리되는 쪽으로 가고 있다.<br/>3분기 중국 대상 라이선스 호퍼 데이터센터 제품 매출은 <strong>24억 달러</strong>였지만, 이제는 중국에 라이선스 호퍼를 더 이상 출하하지 않는다고 밝혔다.<br/>4분기 가이던스에도 중국 데이터센터 컴퓨팅 매출은 들어 있지 않다.<br/>이번 주에 새로 나온 미 상무부의 수출통제 규칙이 실적에 미칠 영향은 아직 검토 중이라고 했다.</p>
+
+<p align="center">그 밖에도 눈에 띄는 숫자가 몇 가지 있다.<br/>9월에 합의한 허깅페이스 인수는 개발자 1,800만 명, 기업 20만 곳이 쓰는 오픈 모델의 본거지를 품에 안는 거래다.<br/>피지컬 AI 매출은 전년 동기 대비 3배 가까이 늘었고, 연간으로는 250억 달러를 넘길 전망이다.<br/>소버린 AI 매출도 3배 이상 늘었다.<br/>네트워킹 매출은 210억 달러를 넘겼다.<br/>토큰 가격은 5월 이후 <strong>60%</strong> 가까이 떨어졌고, 그만큼 토큰 사용량이 늘면서 호퍼 GPU는 재계약 때 최대 2배 가격에, B300 요금은 <strong>60%</strong> 넘게 올랐다고 했다.<br/>베라 루빈 울트라는 내년에, 그다음 세대인 파인만은 2028년에 나온다.</p>
+
+<p align="center">주가는 콜이 끝난 뒤 더 올랐다.<br/>미 동부 시간 오후 7시 기준 시간외 거래에서 엔비디아는 <strong>161.46달러로</strong>, 정규장 종가보다 <strong>3.86% 올랐다</strong>.<br/>콜이 끝난 직후에는 <strong>162.60달러까지</strong> 오르기도 했다.<br/>정규장 종가 <strong>155.46달러는</strong> 52주 최저 종가를 새로 쓴 수준이었으니, 하루 만에 분위기가 뒤집힌 셈이다.<br/>다만 시간외 거래는 물량이 적어 가격이 크게 흔들리기 쉽다.<br/>콜의 내용이 수요일 정규장에서 어떻게 받아들여지는지가 진짜 시험대다.</p>
+
+<p align="center">아침 글에서 꼽았던 세 가지 확인 사항 중 첫 번째인 콘퍼런스 콜은 끝났다.<br/>남은 건 수요일(미 동부 시간)에 공개되는 연방공개시장위원회 10월 회의 의사록과 19일로 예정된 앤트로픽의 기업공개, 그리고 수요일 뉴욕 정규장의 반응이다.<br/>엔비디아의 시간외 상승은 메모리 공급사인 삼성전자와 SK하이닉스에는 우호적인 신호다.<br/>다만 달러가 19개월 최고치에 머무르고 미국 증시가 나흘 연속 내린 뒤라, 개장 초반에는 경계 심리가 먼저 나올 수 있다.<br/>이 역시 개장 전 예측이고, 실제 반응은 다를 수 있다.</p>
+
+참고한 기사 — [GlobeNewswire via Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/nvidia-announces-financial-results-third-212000678.html) · [The Wall Street Journal](https://www.wsj.com/finance/stocks/u-s-stocks-fall-as-ai-doubts-fester-a0979bdb) · [U.S. Census Bureau, CB26-181](https://www.census.gov/retail/marts/www/marts_current.pdf) · [AP via Stuff](https://www.stuff.co.nz/world-news/361060624/another-wipeout-hits-wall-street-nvidia-and-jittery-ai-stocks-swing-lower) · [Reuters via Euronext](https://live.euronext.com/en/financial-news/stocks-fall-nvidia-focus-oil-ticks) · [AlphaStreet 실적 콜 전문](https://news.alphastreet.com/nvidia-corporation-nvda-q3-2027-earnings-call-transcript/) · [Investor's Business Daily](https://www.investors.com/news/technology/nvidia-stock-fiscal-q3-2027-earnings-nvda-stock/) · [The Times](https://www.thetimes.com/us/business-us/article/record-third-quarter-revenue-brings-relief-for-nvidia-2kx6sn6j6)
