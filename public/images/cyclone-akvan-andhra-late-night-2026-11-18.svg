@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 680" width="900" height="680" role="img">
+  <rect width="900" height="680" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="678" fill="none" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="44" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">CYCLONE AKVAN · IMD BULLETIN NO. 25</text>
+  <text x="74" y="74" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="18" fill="#20231f">밤 특보에서 바뀐 것 — 정점에 도달했다, 더는 세지지 않는다</text>
+
+  <line x1="74" y1="110" x2="826" y2="110" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="140" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">현재 위치 · 11월 18일 오후 5시 30분</text>
+  <text x="74" y="168" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">북위 13.6° 동경 85.3° — 나르사푸르 남동쪽 약 500km</text>
+  <text x="74" y="194" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">풍속 시속 90–100km, 돌풍 110km · 북북서쪽으로 시속 9km</text>
+
+  <line x1="74" y1="214" x2="826" y2="214" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="244" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">예보표 — 정점 100–110km, 19일 저녁까지 유지</text>
+  <text x="74" y="272" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">18일 오후 11시 30분 95–105km, 돌풍 115km</text>
+  <text x="74" y="298" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">19일 오전 5시 30분부터 오후 5시 30분까지 100–110km, 돌풍 120km</text>
+  <text x="74" y="324" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">20일 오전 5시 30분 90–100km, 돌풍 110km · 20일 저녁 깊은 저기압으로 약화</text>
+
+  <line x1="74" y1="344" x2="826" y2="344" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="374" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">인도 기상청장 발언</text>
+  <text x="74" y="402" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">“더 이상 세질 가능성 없다 — 이미 정점에 도달했다”</text>
+
+  <line x1="74" y1="422" x2="826" y2="422" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="452" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">비 — 남부 오디샤 19일 20–30cm</text>
+  <text x="74" y="480" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">간잠·가자파티·코르다·푸리 극심한 비</text>
+  <text x="74" y="506" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">해안 안드라 19–20일 곳곳 21cm 이상 · 폭풍 해일 0.5–1m, 8개 지구 그대로</text>
+
+  <line x1="74" y1="526" x2="826" y2="526" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="556" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">다음 확인 사항</text>
+  <text x="74" y="584" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">11월 19일 오전 2시 30분 특보 — 19일 오전 100km 돌파 여부, 상륙 구간 이동 여부</text>
+
+  <line x1="74" y1="604" x2="826" y2="604" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="636" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">출처: 인도 기상청 제25호 특보(11월 18일 오후 9시) · 트랜스클루 라이브 정리</text>
+</svg>
