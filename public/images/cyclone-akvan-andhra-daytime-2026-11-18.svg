@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 680" width="900" height="680" role="img">
+  <rect width="900" height="680" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="678" fill="none" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="44" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">CYCLONE AKVAN · IMD BULLETIN NO. 23</text>
+  <text x="74" y="74" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="18" fill="#20231f">낮 특보에서 바뀐 것 — 상륙 구간이 오디샤까지 북상했다</text>
+
+  <line x1="74" y1="110" x2="826" y2="110" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="140" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">현재 위치 · 11월 18일 오전 11시 30분</text>
+  <text x="74" y="168" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">북위 13.1° 동경 85.4° — 나르사푸르 남동쪽 약 540km</text>
+  <text x="74" y="194" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">풍속 시속 90–100km, 돌풍 110km · 북북서쪽으로 시속 8km</text>
+
+  <line x1="74" y1="214" x2="826" y2="214" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="244" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">상륙 예보 — 북상하고 약해졌다</text>
+  <text x="74" y="272" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">11월 20일 정오쯤 나르사푸르–푸리, 90–100km, 돌풍 110km</text>
+  <text x="74" y="298" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">넬로르–비샤카파트남에서 구간 전체가 북쪽으로 200km 넘게 이동</text>
+  <text x="74" y="324" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">매우 강한 사이클론(120–130km) 예보는 사라졌다</text>
+
+  <line x1="74" y1="344" x2="826" y2="344" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="374" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">폭풍 해일 — 북상했다</text>
+  <text x="74" y="402" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">조위보다 0.5–1m · 9개 지구(안드라 6곳·오디샤 3곳)</text>
+  <text x="74" y="428" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">서고다바리·코나시마·카키나다·비샤카파트남·비지아나가람·스리카쿨람</text>
+  <text x="74" y="454" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">간잠·코르다·푸리 — 프라카삼·바팟라·크리슈나는 제외</text>
+
+  <line x1="74" y1="474" x2="826" y2="474" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="504" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">경보 — 적색 메시지로 격상</text>
+  <text x="74" y="532" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">북부 안드라·야남·남부 오디샤 해안, 11월 18일 오후 2시 30분부터</text>
+  <text x="74" y="558" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">해안 오두막 주민 대피, 실내 대기, 중서부 벵골만 조업 21일까지 중단</text>
+
+  <line x1="74" y1="578" x2="826" y2="578" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="608" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">다음 확인 사항</text>
+  <text x="74" y="636" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">상륙 구간이 또 움직이는지, 풍속이 더 떨어지는지</text>
+
+  <text x="74" y="668" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">출처: 인도 기상청 제23호 특보(11월 18일 오후 2시 30분) · 트랜스클루 라이브 정리</text>
+</svg>
