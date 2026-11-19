@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 760" width="900" height="760" role="img">
+  <rect width="900" height="760" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="758" fill="none" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="44" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">CYCLONE AKVAN · IMD BULLETIN NO. 28</text>
+  <text x="74" y="74" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="18" fill="#20231f">오전 특보에서 바뀐 것 — 비가 먼저 도착했다</text>
+
+  <line x1="74" y1="110" x2="826" y2="110" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="140" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">현재 위치 · 11월 19일 오전 2시 30분</text>
+  <text x="74" y="168" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">북위 14.1° 동경 85.3° — 나르사푸르 동남동쪽 약 470km</text>
+  <text x="74" y="194" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">풍속 시속 90–100km, 돌풍 110km · 북쪽으로 시속 5km</text>
+
+  <line x1="74" y1="214" x2="826" y2="214" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="244" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">예보표 — 19일 하루 90–100km 유지, 밤부터 약해진다</text>
+  <text x="74" y="272" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">19일 오전 5시 30분 14.6/85.1 · 오전 11시 30분 15.6/85.0 · 오후 5시 30분 16.6/84.9</text>
+  <text x="74" y="298" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">19일 오후 11시 30분 85–95km, 돌풍 105km</text>
+  <text x="74" y="324" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">20일 오전 11시 30분 사이클론 단계 70–80km · 20일 밤 저기압으로 약화</text>
+
+  <line x1="74" y1="344" x2="826" y2="344" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="374" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">본문과 예보표 엇갈림 여전</text>
+  <text x="74" y="402" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">본문은 상륙 시점 강한 사이클론 90–100km</text>
+  <text x="74" y="428" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">예보표는 상륙 한 시간 전 이미 70–80km의 사이클론 단계</text>
+
+  <line x1="74" y1="448" x2="826" y2="448" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="478" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">땅에서는 이미 시작됐다</text>
+  <text x="74" y="506" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">오디샤 5만 명 대피 · 6개 지구 학교 3일간 휴교</text>
+  <text x="74" y="532" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">푸리 새벽부터 강한 비, 그랜드로드 침수 · 콜카타에도 비 시작</text>
+  <text x="74" y="558" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">해안 안드라·남부 오디샤 19–20일 곳곳 21cm 이상 · 해일 0.5–1m, 8개 지구 그대로</text>
+
+  <line x1="74" y1="578" x2="826" y2="578" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="608" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">다음 확인 사항</text>
+  <text x="74" y="636" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">11월 19일 오전 9시 특보 — 본문과 예보표 간극 정리 여부, 상륙 구간 이동 여부</text>
+
+  <line x1="74" y1="656" x2="826" y2="656" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="688" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">출처: 인도 기상청 제28호 특보(11월 19일 오전 5시 30분) 전문 · 데일리 자그란 라이브 정리</text>
+</svg>
