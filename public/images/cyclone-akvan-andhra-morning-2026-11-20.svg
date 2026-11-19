@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 850" width="900" height="850" role="img">
+  <rect width="900" height="850" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="848" fill="none" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="44" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">CYCLONE AKVAN · IMD BULLETIN NO. 35</text>
+  <text x="74" y="74" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="18" fill="#20231f">아침 특보에서 바뀐 것 — 속도는 뛰고, 상륙 풍속은 내려갔다</text>
+
+  <line x1="74" y1="110" x2="826" y2="110" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="140" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">현재 위치 · 11월 19일 오후 11시 30분</text>
+  <text x="74" y="168" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">북위 17.1° 동경 85.1° — 칼링가파트남 남동쪽 약 170km</text>
+  <text x="74" y="194" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">풍속 시속 85–95km, 돌풍 105km · 북북서쪽으로 시속 19km</text>
+  <text x="74" y="220" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">고팔푸르 남쪽 240km · 푸리 남남서쪽 310km, 가장 빠르게 접근</text>
+
+  <line x1="74" y1="240" x2="826" y2="240" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="270" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">상륙 — 고팔푸르 가까이로 좁혀지고, 풍속은 한 단계 더</text>
+  <text x="74" y="298" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">11월 20일 정오, 고팔푸르 가까이 상륙</text>
+  <text x="74" y="324" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">상륙 당시 70–80km, 돌풍 90km — 본문과 표가 이제 일치</text>
+  <text x="74" y="350" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">처음 예보 120–130km보다 50km 가까이 하락</text>
+  <text x="74" y="376" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">20일 오전 5시 30분 이미 사이클론 단계 80–90km</text>
+  <text x="74" y="402" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">20일 오후 5시 30분 깊은 저기압 · 21일 오전 5시 30분 뚜렷한 저기압</text>
+
+  <line x1="74" y1="422" x2="826" y2="422" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="452" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">비·해일 — 해일 지구가 이름으로 확정</text>
+  <text x="74" y="480" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">오디샤 20일 곳곳 21cm 이상 극심한 비</text>
+  <text x="74" y="506" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">북부 해안 안드라 곳곳 강한 비에서 매우 강한 비</text>
+  <text x="74" y="532" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">해일 0.5–1m 지구 6곳 — 카키나다·비지아나가람·스리카쿨람</text>
+  <text x="74" y="558" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">비샤카파트남·간잠·푸리 · 파고 9–12m · 돌발홍수 그대로</text>
+
+  <line x1="74" y1="578" x2="826" y2="578" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="608" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">땅에서는 새 소식 없음</text>
+  <text x="74" y="636" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">더 힌두 라이브 밤 9시 24분 이후 새 항목 없음</text>
+  <text x="74" y="662" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">오디샤 대피 약 29만 8천 명 그대로 최신 · 제34호 특보는 서버 미게시</text>
+
+  <line x1="74" y1="682" x2="826" y2="682" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="712" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">다음 확인 사항</text>
+  <text x="74" y="740" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">11월 20일 오전 5시 30분 특보(제36호) — 한국 시간 오전 9시</text>
+  <text x="74" y="766" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">상륙 오늘 정오(한국 시간 오후 3시 30분) 고팔푸르 가까이</text>
+
+  <line x1="74" y1="786" x2="826" y2="786" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="818" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">출처: 인도 기상청 제35호 특보(11월 20일 오전 2시 15분) 전문 · 더 힌두 라이브</text>
+</svg>
