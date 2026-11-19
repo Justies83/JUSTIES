@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1030" width="900" height="1030" role="img">
+  <rect width="900" height="1030" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="1028" fill="none" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="44" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">CYCLONE AKVAN · IMD BULLETIN NO. 30</text>
+  <text x="74" y="74" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="18" fill="#20231f">저녁 특보에서 바뀐 것 — 속도는 다시 빨라졌고, 대피는 10만 명을 넘겼다</text>
+
+  <line x1="74" y1="110" x2="826" y2="110" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="140" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">현재 위치 · 11월 19일 오전 8시 30분</text>
+  <text x="74" y="168" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">북위 14.9° 동경 85.3° — 나르사푸르 동남동쪽 약 420km</text>
+  <text x="74" y="194" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">풍속 시속 90–100km, 돌풍 110km · 북쪽으로 시속 15km</text>
+  <text x="74" y="220" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">새벽 5km, 낮 12km, 저녁 15km — 세 번의 특보에서 속도가 계속 올랐다</text>
+
+  <line x1="74" y1="240" x2="826" y2="240" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="270" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">상륙 — 그대로</text>
+  <text x="74" y="298" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">11월 20일 정오, 나르사푸르와 푸리 사이 — 고팔푸르 동쪽 가까이</text>
+  <text x="74" y="324" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">상륙 당시 풍속 시속 90–100km, 돌풍 110km 그대로</text>
+
+  <line x1="74" y1="344" x2="826" y2="344" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="374" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">예보표 — 낮과 똑같다</text>
+  <text x="74" y="402" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">19일 하루부터 20일 오전 5시 30분까지 90–100km 유지</text>
+  <text x="74" y="428" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">20일 오후 5시 30분 깊은 저기압 50–60km · 21일 오전 5시 30분 뚜렷한 저기압 20–30km</text>
+  <text x="74" y="454" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">20일 오전 11시 30분 행 여전히 없음 — 약화는 상륙 뒤부터</text>
+
+  <line x1="74" y1="474" x2="826" y2="474" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="504" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">땅에서는 대피가 10만 명을 넘겼다</text>
+  <text x="74" y="532" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">오디샤 1,05,304명 대피(11월 19일 오후 1시 6분 기준) · 간잠 45,364명</text>
+  <text x="74" y="558" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">구조팀 74개(ODRAF 60 · NDRF 14) + 20개 팀 대기 · 임산부 1,313명 이송</text>
+  <text x="74" y="584" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">구호·구조 자금 20.5크로르 루피 미리 배정</text>
+
+  <line x1="74" y1="604" x2="826" y2="604" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="634" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">교통과 통신 — 멈추고, 백업하고</text>
+  <text x="74" y="662" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">열차 23편 운행 조정 · 2편 취소(비샤카파트남–키란둘)</text>
+  <text x="74" y="688" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">해변·페리·동물원 통제, 산사태 위험 도로 폐쇄, 모든 항구에 3호 신호</text>
+  <text x="74" y="714" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">이동식 기지국 70대 · 발전기 197대 · 지원팀 61개, 14개 지구 배치</text>
+
+  <line x1="74" y1="734" x2="826" y2="734" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="764" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">비와 돌발홍수 — 위험 지구가 조금 바뀌었다</text>
+  <text x="74" y="792" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">해안 안드라·오디샤 19–20일 곳곳 21cm 이상 그대로</text>
+  <text x="74" y="818" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">오디샤 돌발홍수 위험: 푸리 빠지고 케온즈하르·자이푸르 추가</text>
+  <text x="74" y="844" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">서벵골: 서미드나포르 빠지고 나디아 추가 · 해일 0.5–1m, 8개 지구 그대로</text>
+
+  <line x1="74" y1="864" x2="826" y2="864" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="894" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#62655d">다음 확인 사항</text>
+  <text x="74" y="922" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" fill="#20231f">11월 19일 오후 2시 30분 특보 — 시속 15km 유지 여부, 고팔푸르 동쪽 유지 여부</text>
+  <text x="74" y="948" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">예보표 상륙 시각 행 복원 여부 · 상륙 시각이 앞당겨지는지</text>
+
+  <line x1="74" y1="968" x2="826" y2="968" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="1000" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">출처: 인도 기상청 제30호 특보(11월 19일 오후 1시 45분) 전문 · 이스턴 렌스 · 인디아닷컴</text>
+</svg>
