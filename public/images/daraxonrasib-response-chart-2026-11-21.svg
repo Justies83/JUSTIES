@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+  <text x="450" y="46" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="25" font-weight="700" fill="#20231f">다라손라십 병용요법 vs 기존 항암화학요법</text>
+  <text x="450" y="74" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#62655d">전이성 췌장암 1차 치료 — 이번 1/2상에는 비교군이 없어 기존 항암제 수치는 과거 성적 참고값이다</text>
+
+  <text x="60" y="126" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="19" font-weight="700" fill="#20231f">종양 반응률 — 종양이 줄거나 사라진 환자 비율</text>
+  <rect x="60" y="140" width="456" height="30" fill="#16756a"/>
+  <text x="528" y="162" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="19" font-weight="700" fill="#16756a">60.7%</text>
+  <text x="60" y="192" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#62655d">다라손라십 + 항암화학요법 (61명)</text>
+  <rect x="60" y="202" width="315" height="30" fill="#e0795b" opacity="0.35"/>
+  <rect x="233" y="202" width="142" height="30" fill="#e0795b"/>
+  <text x="387" y="224" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="19" font-weight="700" fill="#e0795b">23~42%</text>
+  <text x="60" y="254" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#62655d">기존 항암화학요법 단독 (과거 성적)</text>
+
+  <text x="60" y="308" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="19" font-weight="700" fill="#20231f">12개월 생존율 — 치료 시작 1년 뒤 살아 있는 환자 비율</text>
+  <rect x="60" y="322" width="575" height="30" fill="#16756a"/>
+  <text x="647" y="344" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="19" font-weight="700" fill="#16756a">76.6%</text>
+  <text x="60" y="374" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#62655d">다라손라십 + 항암화학요법 (61명)</text>
+  <rect x="60" y="384" width="338" height="30" fill="#e0795b" opacity="0.35"/>
+  <rect x="360" y="384" width="38" height="30" fill="#e0795b"/>
+  <text x="410" y="406" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="19" font-weight="700" fill="#e0795b">40~45%</text>
+  <text x="60" y="436" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#62655d">기존 항암화학요법 단독 (과거 성적)</text>
+
+  <text x="60" y="484" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">출처: EORTC 2026.11.20 발표(RMC-GI-102, n=61) · 기존 항암제 성적은 과거 데이터. 도표는 발표 수치로 직접 작성했다.</text>
+  <text x="60" y="504" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">연한 구간은 과거 성적의 범위(반응률 23~42%, 12개월 생존율 40~45%)를 뜻한다.</text>
+</svg>
