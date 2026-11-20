@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+  <text x="74" y="44" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="15" letter-spacing="3" fill="#62655d">COP31 ANTALYA · 2026.11.09–20</text>
+  <text x="74" y="72" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="19" fill="#20231f">이틀 만에 바뀐 초안 — 협상 타임라인</text>
+
+  <line x1="80" y1="270" x2="830" y2="270" stroke="#20231f" stroke-width="2" opacity="0.35"/>
+
+  <!-- 11/09 -->
+  <circle cx="100" cy="270" r="8" fill="#f4f1ea" stroke="#16756a" stroke-width="3"/>
+  <text x="100" y="212" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="17" font-weight="bold" fill="#16756a">11/09</text>
+  <text x="100" y="238" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">COP31 개막</text>
+  <text x="100" y="308" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#62655d">안탈리아</text>
+  <text x="100" y="330" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#62655d">약 200개국 참석</text>
+
+  <!-- 11/11 -->
+  <circle cx="272" cy="270" r="8" fill="#f4f1ea" stroke="#16756a" stroke-width="3"/>
+  <text x="272" y="212" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="17" font-weight="bold" fill="#16756a">11/11</text>
+  <text x="272" y="238" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">정상회의</text>
+  <text x="272" y="308" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#62655d">미·중·인 정상 불참</text>
+  <text x="272" y="330" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#62655d">G7 중 참석 1명</text>
+
+  <!-- 11/16 -->
+  <circle cx="444" cy="270" r="8" fill="#f4f1ea" stroke="#16756a" stroke-width="3"/>
+  <text x="444" y="212" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="17" font-weight="bold" fill="#16756a">11/16</text>
+  <text x="444" y="238" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">첫 초안 공개</text>
+  <text x="444" y="308" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#62655d">화석연료 2회 언급</text>
+  <text x="444" y="330" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#62655d">적응 재원 1,200억 달러</text>
+
+  <!-- 11/19 -->
+  <circle cx="616" cy="270" r="10" fill="#e0795b" stroke="#e0795b" stroke-width="3"/>
+  <text x="616" y="212" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="17" font-weight="bold" fill="#e0795b">11/19</text>
+  <text x="616" y="238" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">둘째 초안 공개</text>
+  <text x="616" y="308" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#62655d">화석연료 문구 삭제</text>
+  <text x="616" y="330" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#62655d">1,200억 달러 목표 삭제</text>
+
+  <!-- 11/20 -->
+  <circle cx="788" cy="270" r="8" fill="#f4f1ea" stroke="#16756a" stroke-width="3"/>
+  <text x="788" y="212" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="17" font-weight="bold" fill="#16756a">11/20</text>
+  <text x="788" y="238" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" fill="#20231f">폐막 예정일</text>
+  <text x="788" y="308" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#62655d">새 초안 없이</text>
+  <text x="788" y="330" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#62655d">주말 연장 전망</text>
+
+  <text x="74" y="470" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">로이터·UN 뉴스·카본브리프 보도 기준 (2026.11.20) — 날짜는 현지 시간</text>
+  <text x="74" y="494" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#62655d">11/17 안탈리아 AI 서약 출범 — 별도 글 참고</text>
+</svg>
