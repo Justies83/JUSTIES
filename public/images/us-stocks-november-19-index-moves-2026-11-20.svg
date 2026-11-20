@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520">
+<rect width="900" height="520" fill="#f4f1ea"/>
+<text x="450" y="48" text-anchor="middle" font-size="26" font-weight="bold" fill="#20231f">11월 19일 뉴욕증시 · 11월 20일 한국증시 일간 등락률</text>
+<text x="190" y="108" text-anchor="end" font-size="22" fill="#20231f">다우</text>
+<rect x="210" y="90" width="190" height="34" fill="#e0795b"/>
+<text x="412" y="115" font-size="22" fill="#20231f">-2.19%</text>
+<text x="190" y="170" text-anchor="end" font-size="22" fill="#20231f">S&P500</text>
+<rect x="210" y="152" width="175" height="34" fill="#e0795b"/>
+<text x="397" y="177" font-size="22" fill="#20231f">-2.02%</text>
+<text x="190" y="232" text-anchor="end" font-size="22" fill="#20231f">나스닥</text>
+<rect x="210" y="214" width="195" height="34" fill="#e0795b"/>
+<text x="417" y="239" font-size="22" fill="#20231f">-2.25%</text>
+<text x="190" y="294" text-anchor="end" font-size="22" fill="#20231f">러셀2000</text>
+<rect x="210" y="276" width="189" height="34" fill="#e0795b"/>
+<text x="411" y="301" font-size="22" fill="#20231f">-2.18%</text>
+<text x="190" y="356" text-anchor="end" font-size="22" fill="#20231f">코스피 (11/20)</text>
+<rect x="210" y="338" width="452" height="34" fill="#e0795b"/>
+<text x="674" y="363" font-size="22" fill="#20231f">-5.21%</text>
+<text x="190" y="418" text-anchor="end" font-size="22" fill="#20231f">코스닥 (11/20)</text>
+<rect x="210" y="400" width="495" height="34" fill="#e0795b"/>
+<text x="717" y="425" font-size="22" fill="#20231f">-5.71%</text>
+<text x="450" y="492" text-anchor="middle" font-size="16" font-family="monospace" fill="#62655d">기준: 인베스토피디아·연합뉴스 종가 (2026.11.19~20)</text>
+</svg>
