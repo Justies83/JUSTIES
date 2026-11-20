@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="공습까지 나흘, 무슨 일이 있었나">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <text x="45" y="48" font-family="sans-serif" font-size="24" font-weight="bold" fill="#20231f">공습까지 나흘, 무슨 일이 있었나</text>
+  <line x1="110" y1="110" x2="110" y2="395" stroke="#16756a" stroke-width="3"/>
+  <circle cx="110" cy="110" r="9" fill="#16756a"/>
+  <circle cx="110" cy="190" r="9" fill="#16756a"/>
+  <circle cx="110" cy="285" r="9" fill="#16756a"/>
+  <circle cx="110" cy="395" r="9" fill="#e0795b"/>
+  <text x="140" y="110" font-family="sans-serif" font-size="19" font-weight="bold" fill="#20231f">11월 17일 새벽</text>
+  <text x="140" y="138" font-family="sans-serif" font-size="18" fill="#20231f">우크라이나, 플라밍고 미사일로 크림대교 구간 하나 붕괴</text>
+  <text x="140" y="190" font-family="sans-serif" font-size="19" font-weight="bold" fill="#20231f">11월 19일 낮</text>
+  <text x="140" y="218" font-family="sans-serif" font-size="18" fill="#20231f">키이우 종일 드론 공습 — 대사관·대성당 피해, 1명 사망</text>
+  <text x="140" y="285" font-family="sans-serif" font-size="19" font-weight="bold" fill="#20231f">11월 19일</text>
+  <text x="140" y="313" font-family="sans-serif" font-size="18" fill="#20231f">선전 3자 회담, '평화 선언' 서명</text>
+  <text x="140" y="339" font-family="sans-serif" font-size="18" fill="#20231f">푸틴, '훨씬 더 고통스러운' 보복 예고</text>
+  <text x="140" y="395" font-family="sans-serif" font-size="19" font-weight="bold" fill="#20231f">11월 20일 01:25</text>
+  <text x="140" y="423" font-family="sans-serif" font-size="18" fill="#20231f">키이우 첫 폭발 — 8시간 넘는 공습, 다리 3곳 피격·8명 사망</text>
+  <text x="45" y="495" font-family="monospace" font-size="14" fill="#62655d">출처: Kyiv Independent·CNN (2026.11.20)</text>
+</svg>
