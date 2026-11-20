@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="rgba(32,35,31,.16)"/>
+  <text x="450" y="52" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="25" font-weight="700" fill="#20231f">다라손라십, 2026년 타임라인</text>
+  <text x="450" y="80" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#62655d">3상 성공에서 FDA 승인, 1차 치료 병용요법 데이터까지 — 7개월 사이의 전개</text>
+
+  <line x1="70" y1="260" x2="830" y2="260" stroke="#20231f" stroke-width="2" opacity="0.35"/>
+
+  <circle cx="110" cy="260" r="8" fill="#16756a"/>
+  <line x1="110" y1="252" x2="110" y2="200" stroke="#16756a" stroke-width="2"/>
+  <text x="110" y="186" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" font-weight="700" fill="#16756a">2026.04.13</text>
+  <text x="110" y="150" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">3상 톱라인 발표</text>
+  <text x="110" y="122" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">생존기간 13.2개월</text>
+  <text x="110" y="100" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">vs 항암제 6.7개월</text>
+
+  <circle cx="290" cy="260" r="8" fill="#16756a"/>
+  <line x1="290" y1="268" x2="290" y2="320" stroke="#16756a" stroke-width="2"/>
+  <text x="290" y="344" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" font-weight="700" fill="#16756a">2026.05.31</text>
+  <text x="290" y="372" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">ASCO 연례회의</text>
+  <text x="290" y="394" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">3상 결과 발표 (500명)</text>
+
+  <circle cx="470" cy="260" r="8" fill="#16756a"/>
+  <line x1="470" y1="252" x2="470" y2="200" stroke="#16756a" stroke-width="2"/>
+  <text x="470" y="186" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" font-weight="700" fill="#16756a">2026.08.26</text>
+  <text x="470" y="150" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">FDA 승인 — 라손크</text>
+  <text x="470" y="122" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">이전 치료 경험자 대상</text>
+  <text x="470" y="100" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">전이성 췌장선암</text>
+
+  <circle cx="650" cy="260" r="8" fill="#e0795b"/>
+  <line x1="650" y1="268" x2="650" y2="320" stroke="#e0795b" stroke-width="2"/>
+  <text x="650" y="344" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" font-weight="700" fill="#e0795b">2026.11.03</text>
+  <text x="650" y="372" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">FDA 혁신치료제 지정</text>
+  <text x="650" y="394" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">1차 치료 병용요법 대상</text>
+
+  <circle cx="820" cy="260" r="8" fill="#e0795b"/>
+  <line x1="820" y1="252" x2="820" y2="200" stroke="#e0795b" stroke-width="2"/>
+  <text x="820" y="186" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" font-weight="700" fill="#e0795b">2026.11.20</text>
+  <text x="820" y="150" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">ENA 바르셀로나</text>
+  <text x="820" y="122" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">1차 병용 1/2상 발표</text>
+  <text x="820" y="100" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#20231f">반응률 60.7%</text>
+
+  <text x="450" y="470" text-anchor="middle" font-family="'IBM Plex Sans KR',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#62655d">출처: Revolution Medicines·FDA·EORTC 발표. 타임라인은 공개 발표 내용을 직접 정리했다.</text>
+</svg>
