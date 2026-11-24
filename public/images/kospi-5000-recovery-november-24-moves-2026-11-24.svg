@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520">
+<rect width="900" height="520" fill="#f4f1ea"/>
+<text x="450" y="48" text-anchor="middle" font-size="26" font-weight="bold" fill="#20231f">11월 코스피 일간 등락률</text>
+<line x1="450" y1="80" x2="450" y2="400" stroke="#62655d" stroke-width="2"/>
+<text x="430" y="118" text-anchor="end" font-size="22" fill="#20231f">11월 5일</text>
+<rect x="206" y="90" width="244" height="34" fill="#e0795b"/>
+<text x="194" y="115" text-anchor="end" font-size="22" fill="#20231f">-5.28%</text>
+<text x="430" y="180" text-anchor="end" font-size="22" fill="#20231f">11월 6일</text>
+<rect x="172" y="152" width="278" height="34" fill="#e0795b"/>
+<text x="160" y="177" text-anchor="end" font-size="22" fill="#20231f">-6.02%</text>
+<text x="430" y="242" text-anchor="end" font-size="22" fill="#20231f">11월 20일</text>
+<rect x="210" y="214" width="240" height="34" fill="#e0795b"/>
+<text x="198" y="239" text-anchor="end" font-size="22" fill="#20231f">-5.21%</text>
+<text x="430" y="304" text-anchor="end" font-size="22" fill="#20231f">11월 23일</text>
+<rect x="297" y="276" width="153" height="34" fill="#e0795b"/>
+<text x="285" y="301" text-anchor="end" font-size="22" fill="#20231f">-3.31%</text>
+<text x="430" y="366" text-anchor="end" font-size="22" fill="#20231f">11월 24일</text>
+<rect x="450" y="338" width="292" height="34" fill="#16756a"/>
+<text x="754" y="363" font-size="22" fill="#20231f">+6.32%</text>
+<text x="450" y="440" text-anchor="middle" font-size="19" fill="#62655d">11월 들어 5,730.74에서 5,006.03까지 12.65% 하락</text>
+<text x="450" y="492" text-anchor="middle" font-size="16" font-family="monospace" fill="#62655d">기준: 세계일보·연합뉴스 보도 수치 (2026.11.05~24)</text>
+</svg>
