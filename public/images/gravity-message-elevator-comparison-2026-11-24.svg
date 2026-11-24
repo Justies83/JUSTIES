@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="중력 통신과 보이저 1호 업링크 비교">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <text x="450" y="46" text-anchor="middle" font-family="sans-serif" font-size="26" font-weight="bold" fill="#20231f">중력 통신, 지금과 앞으로 — 보이저 1호와 비교</text>
+
+  <g font-family="sans-serif" font-size="20" fill="#20231f">
+    <!-- header row -->
+    <rect x="60" y="80" width="180" height="56" fill="#20231f"/>
+    <text x="150" y="115" text-anchor="middle" font-weight="bold" fill="#f4f1ea">항목</text>
+    <rect x="240" y="80" width="200" height="56" fill="#20231f"/>
+    <text x="340" y="115" text-anchor="middle" font-weight="bold" fill="#f4f1ea">이번 실험</text>
+    <rect x="440" y="80" width="200" height="56" fill="#20231f"/>
+    <text x="540" y="115" text-anchor="middle" font-weight="bold" fill="#f4f1ea">개선 시 예측</text>
+    <rect x="640" y="80" width="200" height="56" fill="#20231f"/>
+    <text x="740" y="115" text-anchor="middle" font-weight="bold" fill="#f4f1ea">보이저 1호 업링크</text>
+
+    <!-- row 1: data rate -->
+    <rect x="60" y="136" width="180" height="76" fill="#e8e2d4" stroke="#20231f" stroke-width="1"/>
+    <text x="150" y="182" text-anchor="middle" font-weight="bold">전송 속도</text>
+    <rect x="240" y="136" width="200" height="76" fill="#ffffff" stroke="#20231f" stroke-width="1"/>
+    <text x="340" y="182" text-anchor="middle">분당 1비트</text>
+    <rect x="440" y="136" width="200" height="76" fill="#ffffff" stroke="#20231f" stroke-width="1"/>
+    <text x="540" y="182" text-anchor="middle">분당 약 15비트</text>
+    <rect x="640" y="136" width="200" height="76" fill="#ffffff" stroke="#20231f" stroke-width="1"/>
+    <text x="740" y="182" text-anchor="middle">분당 약 960비트</text>
+
+    <!-- row 2: range -->
+    <rect x="60" y="212" width="180" height="76" fill="#e8e2d4" stroke="#20231f" stroke-width="1"/>
+    <text x="150" y="258" text-anchor="middle" font-weight="bold">거리</text>
+    <rect x="240" y="212" width="200" height="76" fill="#ffffff" stroke="#20231f" stroke-width="1"/>
+    <text x="340" y="258" text-anchor="middle">약 0.7m</text>
+    <rect x="440" y="212" width="200" height="76" fill="#ffffff" stroke="#20231f" stroke-width="1"/>
+    <text x="540" y="258" text-anchor="middle">약 500m</text>
+    <rect x="640" y="212" width="200" height="76" fill="#ffffff" stroke="#20231f" stroke-width="1"/>
+    <text x="740" y="258" text-anchor="middle">약 10조m</text>
+
+    <!-- row 3: medium -->
+    <rect x="60" y="288" width="180" height="76" fill="#e8e2d4" stroke="#20231f" stroke-width="1"/>
+    <text x="150" y="334" text-anchor="middle" font-weight="bold">매질</text>
+    <rect x="240" y="288" width="200" height="76" fill="#ffffff" stroke="#20231f" stroke-width="1"/>
+    <text x="340" y="334" text-anchor="middle">중력장</text>
+    <rect x="440" y="288" width="200" height="76" fill="#ffffff" stroke="#20231f" stroke-width="1"/>
+    <text x="540" y="334" text-anchor="middle">중력장</text>
+    <rect x="640" y="288" width="200" height="76" fill="#ffffff" stroke="#20231f" stroke-width="1"/>
+    <text x="740" y="334" text-anchor="middle">전파</text>
+
+    <!-- row 4: blocking -->
+    <rect x="60" y="364" width="180" height="76" fill="#e8e2d4" stroke="#20231f" stroke-width="1"/>
+    <text x="150" y="410" text-anchor="middle" font-weight="bold">차단 가능성</text>
+    <rect x="240" y="364" width="200" height="76" fill="#ffffff" stroke="#20231f" stroke-width="1"/>
+    <text x="340" y="410" text-anchor="middle">사실상 불가</text>
+    <rect x="440" y="364" width="200" height="76" fill="#ffffff" stroke="#20231f" stroke-width="1"/>
+    <text x="540" y="410" text-anchor="middle">사실상 불가</text>
+    <rect x="640" y="364" width="200" height="76" fill="#ffffff" stroke="#20231f" stroke-width="1"/>
+    <text x="740" y="410" text-anchor="middle">방해·차단 가능</text>
+  </g>
+
+  <text x="450" y="486" text-anchor="middle" font-family="monospace" font-size="16" fill="#62655d">개선 시 예측은 논문의 모델링 기반. 출처: Science Advances (2026.11.18)</text>
+</svg>
