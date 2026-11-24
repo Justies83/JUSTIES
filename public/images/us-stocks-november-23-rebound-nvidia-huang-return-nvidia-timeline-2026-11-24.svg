@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520">
+<rect width="900" height="520" fill="#f4f1ea"/>
+<text x="450" y="48" text-anchor="middle" font-size="26" font-weight="bold" fill="#20231f">엔비디아 CEO 복귀까지 11일</text>
+<text x="450" y="88" text-anchor="middle" font-size="20" fill="#62655d">사임 뒤 2주간 주가는 3분의 1 안팎 빠졌다</text>
+<line x1="60" y1="280" x2="840" y2="280" stroke="#20231f" stroke-width="3"/>
+<circle cx="130" cy="280" r="10" fill="#16756a"/>
+<circle cx="350" cy="280" r="10" fill="#16756a"/>
+<circle cx="570" cy="280" r="10" fill="#16756a"/>
+<circle cx="790" cy="280" r="10" fill="#e0795b"/>
+<text x="130" y="180" text-anchor="middle" font-size="20" font-weight="bold" fill="#20231f">11월 12일</text>
+<text x="130" y="212" text-anchor="middle" font-size="20" fill="#20231f">젠슨 황 사임</text>
+<text x="130" y="242" text-anchor="middle" font-size="17" fill="#62655d">불륜 의혹 보도 뒤</text>
+<text x="350" y="330" text-anchor="middle" font-size="20" font-weight="bold" fill="#20231f">11월 17일</text>
+<text x="350" y="362" text-anchor="middle" font-size="20" fill="#20231f">이사회 “복귀 안 한다”</text>
+<text x="350" y="392" text-anchor="middle" font-size="17" fill="#62655d">실적 콘퍼런스 콜</text>
+<text x="570" y="180" text-anchor="middle" font-size="20" font-weight="bold" fill="#20231f">11월 22일</text>
+<text x="570" y="212" text-anchor="middle" font-size="20" fill="#20231f">이사회 복귀 결정</text>
+<text x="570" y="242" text-anchor="middle" font-size="17" fill="#62655d">SEC 신고 기준</text>
+<text x="790" y="330" text-anchor="middle" font-size="20" font-weight="bold" fill="#20231f">11월 23일</text>
+<text x="790" y="362" text-anchor="middle" font-size="20" fill="#20231f">복귀 발표·주가 +31.48%</text>
+<text x="790" y="392" text-anchor="middle" font-size="17" fill="#62655d">$125.53 → $165.05</text>
+<text x="450" y="492" text-anchor="middle" font-size="16" font-family="monospace" fill="#62655d">기준: 엔비디아 발표·WSJ·알자지라 (2026.11.23)</text>
+</svg>
