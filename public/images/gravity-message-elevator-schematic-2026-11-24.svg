@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="중력 통신 실험 구조">
+  <rect width="900" height="520" fill="#f4f1ea"/>
+  <text x="450" y="46" text-anchor="middle" font-family="sans-serif" font-size="26" font-weight="bold" fill="#20231f">중력 통신 실험 구조 — 파넬 빌딩, 퀸즐랜드대</text>
+
+  <!-- elevator shaft -->
+  <rect x="70" y="90" width="250" height="330" fill="#e8e2d4" stroke="#20231f" stroke-width="2"/>
+  <text x="195" y="118" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#20231f">엘리베이터 승강로</text>
+  <!-- elevator car -->
+  <rect x="100" y="300" width="90" height="100" fill="#8a94a6" stroke="#20231f" stroke-width="2"/>
+  <text x="145" y="352" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#ffffff">엘리베이터</text>
+  <text x="145" y="374" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#ffffff">1950년대</text>
+  <!-- counterweight positions -->
+  <rect x="240" y="150" width="56" height="90" fill="#c98a5b" stroke="#20231f" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="268" y="142" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#20231f">1 (위)</text>
+  <rect x="240" y="300" width="56" height="90" fill="#b45a2e" stroke="#20231f" stroke-width="2"/>
+  <text x="268" y="446" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#20231f">0 (아래)</text>
+  <text x="195" y="272" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#20231f">균형추 1,800kg</text>
+  <line x1="268" y1="240" x2="268" y2="300" stroke="#20231f" stroke-width="2" stroke-dasharray="4 4" marker-end="url(#arrow)"/>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#20231f"/>
+    </marker>
+  </defs>
+
+  <!-- brick wall -->
+  <rect x="340" y="90" width="46" height="330" fill="#b06a4a" stroke="#20231f" stroke-width="2"/>
+  <line x1="340" y1="145" x2="386" y2="145" stroke="#7d4630" stroke-width="2"/>
+  <line x1="340" y1="200" x2="386" y2="200" stroke="#7d4630" stroke-width="2"/>
+  <line x1="340" y1="255" x2="386" y2="255" stroke="#7d4630" stroke-width="2"/>
+  <line x1="340" y1="310" x2="386" y2="310" stroke="#7d4630" stroke-width="2"/>
+  <line x1="340" y1="365" x2="386" y2="365" stroke="#7d4630" stroke-width="2"/>
+  <text x="363" y="446" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#20231f">벽돌 벽</text>
+
+  <!-- bathroom / gravimeter -->
+  <rect x="406" y="90" width="424" height="330" fill="#dfe7ea" stroke="#20231f" stroke-width="2"/>
+  <text x="618" y="118" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#20231f">옆 화장실 (벽 너머)</text>
+  <line x1="406" y1="400" x2="830" y2="400" stroke="#20231f" stroke-width="2"/>
+  <rect x="560" y="330" width="110" height="70" fill="#5b7d8a" stroke="#20231f" stroke-width="2"/>
+  <text x="615" y="362" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#ffffff">중력계</text>
+  <text x="615" y="386" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#ffffff">라코스트 앤 롬버그 D형</text>
+  <!-- gravity signal arrow through wall -->
+  <path d="M 300 340 C 380 340, 420 340, 555 340" fill="none" stroke="#b45a2e" stroke-width="3" stroke-dasharray="8 5" marker-end="url(#arrow2)"/>
+  <defs>
+    <marker id="arrow2" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#b45a2e"/>
+    </marker>
+  </defs>
+  <text x="430" y="322" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#b45a2e">중력 신호 통과 (약 50nm/s²)</text>
+  <text x="618" y="440" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#20231f">가장 가까울 때 거리 약 0.7m</text>
+
+  <text x="450" y="486" text-anchor="middle" font-family="monospace" font-size="16" fill="#62655d">전송: 'Gravity' 49비트 + 대조 신호 14비트 = 63비트, 분당 1비트, 약 1시간. 출처: Science Advances</text>
+</svg>
