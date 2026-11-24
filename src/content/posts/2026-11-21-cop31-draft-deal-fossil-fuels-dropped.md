@@ -1,16 +1,20 @@
 ---
-title: "COP31 초안에서 화석연료 문구 통째로 빠졌다 — 1.5도 초과 첫 인정과 '역대 최악' 비판 사이"
+title: "COP31 결국 결렬됐다 — 화석연료 문구 없는 최종안에 EU·파나마 반대, 의장 '채택 안 됐다' 선언"
 date: 2026-11-21
 category: world
 kind: news
-takeaway: "11월 20일 폐막 예정일을 맞은 COP31에서 목요일에 나온 둘째 초안이 화석연료 언급을 통째로 빼고 개도국 적응 재원 1,200억 달러 목표까지 삭제했다. 월요일 첫 초안에는 둘 다 들어 있었다. 대신 지구온난화가 1.5도를 넘을 것이라는 전망을 COP 결정문 사상 처음으로 명시했고, 2035년까지 전력 비중 35%라는 전기화 목표는 남겼다. 프랑스와 파나마가 이끄는 10개국은 더 강한 합의를 요구했고, 시민사회는 '역대 최악의 COP'이라 비판했다. 금요일 오후까지 새 초안이 나오지 않아 협상은 주말로 넘어갈 전망이다."
+takeaway: "11월 22일 일요일, COP31은 결국 합의 없이 끝났다. 화석연료 언급을 뺀 최종안에 EU와 파나마가 반대했고, 의장 무라트 쿠룸은 폐회 본회의에서 '이 결정들은 채택되지 않았다'고 선언했다. 2009년 코펜하겐 이후 첫 COP 결렬이다. 1.5도 초과 첫 인정, 2035년 전력 비중 35% 목표, 탄소포집 10억 톤 목표를 담은 10쪽짜리 최종안은 채택되지 않은 채 사라졌다."
 tags: [COP31, 안탈리아, 기후변화, 화석연료, 파리협정, 1.5도, 기후재원, 탄소포집, 전기화, UNFCCC]
 cover: /images/cop31-draft-deal-fossil-fuels-dropped-2026-11-21.jpg
 coverAlt: "튀르키예 메르신의 집광형 태양열 발전소"
 source:
-  name: "Reuters (2026.11.20)"
-  url: https://www.reuters.com/sustainability/climate-focus-cop31-draft-deal-strips-fossil-fuel-references-2026-11-20/
+  name: "The Straits Times (Reuters) (2026.11.22)"
+  url: https://www.straitstimes.com/world/europe/cop31-climate-talks-break-down-as-eu-others-reject-deal?ref=latest
 ---
+
+<p align="center">11월 22일 일요일, COP31은 결국 합의 없이 끝났다.<br/>이틀의 연장 협상을 마치고 일요일 새벽에 나온 최종안은 화석연료라는 말을 끝까지 넣지 않았고, 유럽연합(EU)과 파나마를 비롯한 여러 나라가 반대했다.<br/>의장 무라트 쿠룸은 폐회 본회의에서 이렇게 말했다.<br/><em>"이 문안에 반대하는 당사자들이 이 회의장에 있다는 것이 분명합니다. 이 문서에 대한 합의가 없음을 인정합니다. 따라서 이 결정들은 채택되지 않았습니다."</em><br/>공식 폐막 예정일에서 <strong>44시간이</strong> 지난 뒤였다.<br/>유엔 기후총회가 합의 없이 끝난 건 2009년 코펜하겐 이후 처음이다.</p>
+
+<p align="center">EU는 끝까지 물러서지 않았다.<br/>EU 순환의장국 아일랜드의 기후·에너지 장관 다라 오브라이언은 폐회 본회의에서 이렇게 말했다.<br/><em>"기후변화의 핵심 원인인 화석연료를 언급조차 하지 않는 커버 결정이나 안탈리아 협약을 우리는 지지하지 않겠습니다."</em><br/>파나마도 정식으로 이의를 제기했다.<br/>화석연료 문구가 없는 합의에는 이의를 제기하겠다고 예고했던 대로다.<br/>기후총회 결정은 합의제로 채택되기 때문에, 반대가 확인된 순간 최종안은 채택될 수 없었다.</p>
 
 <p align="center">현지시간 11월 20일 금요일, 튀르키예 안탈리아에서 열린 유엔 기후총회 COP31이 폐막 예정일을 맞았다.<br/>그런데 전날 목요일에 나온 둘째 초안, 이른바 안탈리아 합의 초안에서 화석연료에 대한 언급이 통째로 빠졌다.<br/>월요일에 나온 첫 초안에는 화석연료를 줄이자는 말이 두 번 들어 있었고, 개발도상국의 기후 적응을 돕는 재원 목표 **1,200억 달러**도 명시돼 있었다.<br/>둘째 초안에서는 두 가지가 모두 사라졌다.<br/>금요일 오후까지 의장국은 새 초안을 내놓지 않았고, 협상은 주말로 넘어갈 분위기다.</p>
 
@@ -28,9 +32,9 @@ source:
 
 <p align="center">협상 자체는 금요일에도 제자리였다.<br/>의장국은 금요일 오후까지 새 안탈리아 합의 초안을 내놓지 않았고, 대표단은 목요일 초안을 놓고 계속 협상했다.<br/>카본브리프에 따르면 셋째 초안이 금요일 중에 나올 예정이었지만, 총회를 오래 지켜본 이들은 넷째 초안까지 나올 것으로 본다.<br/>COP가 정시에 끝난 건 2003년이 마지막이라, 주말 연장은 사실상 예정된 수순이다.<br/>쟁점은 합의문 초안뿐이 아니다.<br/>작년에 합의한 적응 재원 3배 증액의 기준선, 공정한 전환을 뒷받침할 메커니즘의 위치와 주체, 기후변화에 관한 정부간 협의체(IPCC) 차기 보고서의 시점까지 줄줄이 대괄호 안에 갇혀 있다.<br/>대괄호 안에 있다는 건 아무것도 합의되지 않았다는 뜻이다.</p>
 
-<p align="center"><img src="/images/cop31-draft-deal-timeline-2026-11-21.svg" alt="COP31 협상 타임라인 — 11월 9일 개막, 11월 11일 정상회의, 11월 16일 첫 초안, 11월 19일 둘째 초안, 11월 20일 폐막 예정일" style="max-width:100%;height:auto;"/></p>
+<p align="center"><img src="/images/cop31-draft-deal-timeline-2026-11-22.svg" alt="COP31 협상 타임라인 — 11월 9일 개막, 11월 11일 정상회의, 11월 16일 첫 초안, 11월 19일 둘째 초안, 11월 20일 폐막 예정일, 11월 22일 최종안 부결·결렬" style="max-width:100%;height:auto;"/></p>
 
-<p align="center" class="caption">도표는 로이터·UN 뉴스·카본브리프 보도 내용을 바탕으로 직접 작성했다.</p>
+<p align="center" class="caption">도표는 로이터·스트레이츠타임스·EWN 보도 내용을 바탕으로 직접 작성했다. 11월 22일 결렬을 반영해 업데이트했다.</p>
 
 <p align="center">초안에 대한 반발은 금요일 기자회견에서 한꺼번에 터져 나왔다.<br/>프랑스와 파나마가 앞장서고 벨기에·코트디부아르·핀란드·그리스·과테말라·스페인·스웨덴·바누아투가 함께한 10개국은 합의가 지금 상태로는 부족하다고 못 박았다.<br/>이들이 내건 우선순위는 여섯 가지다.<br/>과학에 근거한 결정, 화석연료로부터의 명확하고 질서 있는 전환, 배출 책임이 큰 나라의 공정한 기후재원 부담, 재생에너지 중심의 청정 전기화, 메탄 감축 가속, 그리고 기후·생물다양성·사막화 세 리우 협약을 잇는 국제 협력이다.<br/>파나마 환경부 장관 후안 카를로스 나바로는 이미 이번 주 초에 화석연료 문구가 없는 합의에는 정식으로 이의를 제기하겠다고 밝힌 바 있다.<br/>기후총회 결정은 합의제로 채택되기 때문에, 한 나라의 정식 이의만으로도 채택이 막히거나 미뤄질 수 있다.<br/>나바로 장관은 기자회견에서 이렇게 말했다.<br/><em>"화석연료를 언급조차 하지 않는 COP이나 결정문은 받아들일 수 없다. 우리는 그냥 넘어가지 않겠다."</em><br/>바르뷔 장관도 물러서지 않았다.<br/><em>"우리는 이제 1.5도에 도달하고 있다고 세상에 말하면서, 아무 일도 없는 것처럼 사업을 계속할 수는 없다."</em><br/>안토니우 구테흐스 유엔 사무총장은 개막 주에 이미 적응 재원을 2035년까지 3배로 늘리고, 화석연료 기업의 초과이익에 과세해 취약국이 기후 재난에서 회복하도록 돕자고 촉구한 바 있다.<br/>그의 말대로라면 <em>"오염자가 내야 한다"</em>는 원칙이 이번 합의의 시험대다.</p>
 
@@ -38,6 +42,6 @@ source:
 
 <p align="center">이번 초안을 이해하려면 3년 전으로 거슬러 올라가야 한다.<br/>2023년 COP28에서는 화석연료로부터의 전환에 합의했지만, 이후 총회에서는 그 합의를 더 구체화하거나 야심을 키우지 못했다.<br/>그런데 이번 둘째 초안은 구체화를 미룬 정도가 아니라, 아예 화석연료라는 말 자체를 지웠다.<br/>후퇴의 폭이 그만큼 크다는 얘기다.<br/>반면 초안 밖에서는 다른 흐름도 있다.<br/>바누아투·덴마크·스페인·포르투갈·룩셈부르크·아일랜드·투발루는 이번 총회 주간에 화석연료 탈피 로드맵을 발표했거나 발표하겠다고 밝혔고, 이런 나라가 모두 **25개국**으로 늘었다.<br/>기업과 투자자, 경제단체 **123곳**도 막판에 성명을 내고 전기화 가속을 촉구했다.<br/>의장국이 내건 '35 by 35' 목표에 90개국 안팎이 찬성한다는 얘기도 나온다.<br/>초안의 문구가 빠졌다고 해서, 전환 자체의 동력이 사라진 건 아니라는 뜻이다.<br/>다만 그 동력이 구속력 있는 합의로 이어질지는 아직 알 수 없다.<br/>같은 주에 출범한 안탈리아 AI 서약도 비슷한 구조다. ([지난 글](/posts/2026-11-17-cop31-antalya-ai-pledge))<br/>AI 인프라를 저·무탄소 전력으로 돌리자는 자발적 서약에 첫날 80개 지지가 모였지만, 정작 AI를 가장 많이 쓰는 나라와 기업은 빠져 있었다.</p>
 
-<p align="center">주말에 볼 건 세 가지다.<br/>첫째, 셋째·넷째 초안에서 화석연료 문구가 돌아오는지다.<br/>둘째, 파나마가 예고한 정식 이의를 실제로 제기하는지, 제기한다면 협상이 어떻게 흘러가는지다.<br/>셋째, 최종 합의가 1.5도 초과를 인정하면서 화석연료를 빼는 첫 사례가 될지, 아니면 막판에 문구가 복원될지다.<br/>초안이 지금 상태 그대로 채택된다면, COP 역사에 남을 기록은 두 개다.<br/>1.5도 초과를 처음으로 인정한 결정문이자, 화석연료를 언급하지 않은 첫 결정문이다.<br/>두 기록이 같은 문서에 나란히 적히는 셈이다.<br/>협상이 주말로 넘어간 지금, 어느 쪽 기록이 남을지는 초안의 다음 버전에 달려 있다.</p>
+<p align="center">주말에 볼 건 세 가지라고 썼던 이 글의 끝은, 이제 답이 정해졌다.<br/>첫째, 최종안에서 화석연료 문구는 끝내 돌아오지 않았다.<br/>둘째, 파나마는 예고한 대로 정식으로 이의를 제기했다.<br/>셋째, 최종 합의는 없었다.<br/>1.5도 초과를 처음으로 인정한 결정문이자 화석연료를 언급하지 않은 첫 결정문이라는 두 기록은, 채택되지 않은 문서 속에만 남았다.<br/>최종안에 담겼던 2035년 전력 비중 <strong>35%</strong> 목표와 탄소포집 <strong>10억 톤</strong> 목표(둘째 초안의 5억 톤에서 올라간 수치)도 함께 사라졌다.<br/>다만 이번 결렬이 이전 총회들의 약속까지 지우는 건 아니다.<br/>스트레이츠타임스가 전한 대로, 안탈리아에서 정치 선언에 합의하지 못했다고 해서 이전 정상회의에서 합의한 의무나 다자 기후 행동의 법적·기술적 틀이 사라지는 건 아니다.<br/>2023년 두바이 합의에서 정한 화석연료로부터의 전환도 그대로 남아 있다.<br/>남는 질문은 다음 총회다.<br/>화석연료를 언급하지 않는 합의를 두고 200개 가까운 나라가 갈린 지금, 다음 협상에서 이 문구를 다시 꺼낼 수 있을지는 아무도 모른다.</p>
 
-참고한 기사 — [Reuters](https://www.reuters.com/sustainability/climate-focus-cop31-draft-deal-strips-fossil-fuel-references-2026-11-20/) · [UN News](https://news.un.org/en/story/2026/11/1168845) · [Carbon Brief](https://www.carbonbrief.org/debriefed-20-november-2026-deal-distant-fossil-fuel-fractions-coalitions-seek-progress) · [CIEL](https://www.ciel.org/news/record-700-carbon-capture-lobbyists-secured-access-to-cop31-climate-talks/) · [Oilfield Technology](https://www.oilfieldtechnology.com/business-news/20112026/cop31-draft-accord-puts-carbon-capture-at-centre-of-climate-strategy/)
+참고한 기사 — [The Straits Times](https://www.straitstimes.com/world/europe/cop31-climate-talks-break-down-as-eu-others-reject-deal?ref=latest) · [EWN](https://www.ewn.co.za/2026/11/22/eu-will-not-endorse-climate-deal-throwing-cop31-deal-into-doubt) · [Reuters](https://www.reuters.com/sustainability/climate-focus-cop31-draft-deal-strips-fossil-fuel-references-2026-11-20/) · [UN News](https://news.un.org/en/story/2026/11/1168845) · [Carbon Brief](https://www.carbonbrief.org/debriefed-20-november-2026-deal-distant-fossil-fuel-fractions-coalitions-seek-progress) · [CIEL](https://www.ciel.org/news/record-700-carbon-capture-lobbyists-secured-access-to-cop31-climate-talks/) · [Oilfield Technology](https://www.oilfieldtechnology.com/business-news/20112026/cop31-draft-accord-puts-carbon-capture-at-centre-of-climate-strategy/)
