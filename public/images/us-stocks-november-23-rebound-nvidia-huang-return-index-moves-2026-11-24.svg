@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520">
+<rect width="900" height="520" fill="#f4f1ea"/>
+<text x="450" y="48" text-anchor="middle" font-size="26" font-weight="bold" fill="#20231f">11월 23일 뉴욕증시 일간 등락률</text>
+<text x="190" y="108" text-anchor="end" font-size="22" fill="#20231f">다우</text>
+<rect x="210" y="90" width="114" height="34" fill="#16756a"/>
+<text x="336" y="115" font-size="22" fill="#20231f">+3.01%</text>
+<text x="190" y="170" text-anchor="end" font-size="22" fill="#20231f">S&amp;P500</text>
+<rect x="210" y="152" width="180" height="34" fill="#16756a"/>
+<text x="402" y="177" font-size="22" fill="#20231f">+4.73%</text>
+<text x="190" y="232" text-anchor="end" font-size="22" fill="#20231f">나스닥</text>
+<rect x="210" y="214" width="247" height="34" fill="#16756a"/>
+<text x="469" y="239" font-size="22" fill="#20231f">+6.51%</text>
+<text x="190" y="294" text-anchor="end" font-size="22" fill="#20231f">필라델피아 반도체</text>
+<rect x="210" y="276" width="533" height="34" fill="#16756a"/>
+<text x="755" y="301" font-size="22" fill="#20231f">+14.03%</text>
+<text x="450" y="400" text-anchor="middle" font-size="19" fill="#62655d">전주 금요일 종가 — 다우 48,147.33 · S&amp;P500 6,910.39 · 나스닥 22,617.73</text>
+<text x="450" y="492" text-anchor="middle" font-size="16" font-family="monospace" fill="#62655d">기준: 인베스토피디아·파이낸셜 익스프레스 종가 (2026.11.23)</text>
+</svg>
