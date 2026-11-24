@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520">
+<rect width="900" height="520" fill="#f4f1ea"/>
+<text x="450" y="48" text-anchor="middle" font-size="26" font-weight="bold" fill="#20231f">11월 24일 코스피 하루 흐름</text>
+<line x1="80" y1="195" x2="820" y2="195" stroke="#62655d" stroke-width="1.5" stroke-dasharray="8 6"/>
+<text x="820" y="180" text-anchor="end" font-size="19" fill="#62655d">5,000선</text>
+<polyline points="150,414 350,285 550,146 750,191" fill="none" stroke="#16756a" stroke-width="4"/>
+<circle cx="150" cy="414" r="7" fill="#e0795b"/>
+<circle cx="350" cy="285" r="7" fill="#16756a"/>
+<circle cx="550" cy="146" r="7" fill="#16756a"/>
+<circle cx="750" cy="191" r="7" fill="#16756a"/>
+<text x="150" y="388" text-anchor="middle" font-size="20" font-weight="bold" fill="#20231f">4,708.54</text>
+<text x="350" y="259" text-anchor="middle" font-size="20" font-weight="bold" fill="#20231f">4,880.16</text>
+<text x="550" y="120" text-anchor="middle" font-size="20" font-weight="bold" fill="#20231f">5,065.74</text>
+<text x="750" y="165" text-anchor="middle" font-size="20" font-weight="bold" fill="#20231f">5,006.03</text>
+<text x="150" y="452" text-anchor="middle" font-size="19" fill="#62655d">11월 23일 종가</text>
+<text x="350" y="452" text-anchor="middle" font-size="19" fill="#62655d">11월 24일 시가</text>
+<text x="550" y="452" text-anchor="middle" font-size="19" fill="#62655d">장중 고점</text>
+<text x="750" y="452" text-anchor="middle" font-size="19" fill="#62655d">11월 24일 종가</text>
+<text x="450" y="492" text-anchor="middle" font-size="16" font-family="monospace" fill="#62655d">기준: 한국거래소·비즈니스코리아·연합뉴스 종가 (2026.11.24)</text>
+</svg>
