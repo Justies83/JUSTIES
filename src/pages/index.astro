@@ -4,8 +4,8 @@ import PostCard from '../components/PostCard.astro';
 import PostRow from '../components/PostRow.astro';
 import SectionHead from '../components/SectionHead.astro';
 import { site } from '../data/site';
-import { CATEGORIES } from '../data/taxonomy';
-import { formatDate, getPublishedPosts } from '../lib/posts';
+import { CATEGORIES, categoryOf } from '../data/taxonomy';
+import { coverFor, formatDate, getPublishedPosts } from '../lib/posts';
 
 const posts = await getPublishedPosts();
 
@@ -19,27 +19,31 @@ const ordered = [...posts].sort((a, b) => {
 
 const bioPosts = ordered.filter((p) => p.data.category === 'science' || p.data.category === 'research');
 const insightPosts = ordered.filter((p) => p.data.category === 'finance' || p.data.category === 'world');
+const bioShowcase = bioPosts.slice(0, 3);
+const insightShowcase = insightPosts.slice(0, 3);
+const showcasedIds = new Set([...bioShowcase, ...insightShowcase].map((p) => p.id));
 
-// Four, same size, and spread across sections where possible: one per
-// category first (newest of each), then the newest leftovers fill any
-// empty slots. Everything older lives in /archive, one click away.
+// Magazine cards skip items already spotlighted in the Bio/Insight showcases so
+// the front page never repeats the same cover right underneath.
+const remainingOrdered = ordered.filter((p) => !showcasedIds.has(p.id));
+const featuredPool = remainingOrdered.length >= 4 ? remainingOrdered : ordered;
+
 const featured: typeof ordered = [];
 const usedCategoryIds = new Set<string>();
-for (const post of ordered) {
+for (const post of featuredPool) {
   if (featured.length >= 4) break;
   if (usedCategoryIds.has(post.data.category)) continue;
   usedCategoryIds.add(post.data.category);
   featured.push(post);
 }
-for (const post of ordered) {
+for (const post of featuredPool) {
   if (featured.length >= 4) break;
   if (!featured.includes(post)) featured.push(post);
 }
 featured.sort((a, b) => ordered.indexOf(a) - ordered.indexOf(b));
 
-// Featured cards already show the newest few, so the list below picks up
-// where they leave off instead of repeating the same posts.
-const latestRows = ordered.filter((p) => !featured.includes(p)).slice(0, 10);
+const shownTopIds = new Set([...showcasedIds, ...featured.map((p) => p.id)]);
+const latestRows = ordered.filter((p) => !shownTopIds.has(p.id)).slice(0, 8);
 
 const countByCategory = (id: string) => posts.filter((p) => p.data.category === id).length;
 // A section with nothing in it is a dead link, so it is left out.
@@ -97,79 +101,139 @@ const schema = {
 ---
 
 <Base schema={schema}>
-  <section class="shell masthead">
-    <p class="mono masthead-eyebrow">BIO &amp; GLOBAL INSIGHT · PERSONAL ARCHIVE</p>
-    <h1>{site.tagline}</h1>
-    <p class="masthead-lead">{site.description}</p>
-    <div class="masthead-actions">
-      <a class="ink-button" href="/topics/science">바이오 · 과학 읽기</a>
-      <a class="chip chip-action" href="/topics/finance">경제 · 인사이트</a>
-      <a class="chip chip-action" href="/topics/world">국제 정세</a>
-      <a class="plain-link" href="/archive">전체 {posts.length}편 →</a>
+  <section class="shell hero-editorial">
+    <div class="hero-copy">
+      <p class="mono hero-eyebrow">바이오 · 경제 · 국제 정세 개인 아카이브</p>
+      <h1>{site.tagline}</h1>
+      <p class="masthead-lead">{site.description}</p>
+      <div class="masthead-actions">
+        <a class="ink-button" href="/topics/science">바이오 · 과학</a>
+        <a class="plain-link" href="/topics/finance">경제 · 인사이트</a>
+        <a class="plain-link" href="/topics/world">국제 정세</a>
+        <a class="plain-link" href="/archive">전체 {posts.length}편 →</a>
+      </div>
+      <p class="mono masthead-stats">공개 기록 {posts.length}편 · {usedCategories.length}개 주제 · EST. {site.established}</p>
     </div>
-    <p class="mono masthead-stats">기록 {posts.length}편 · 주제 {usedCategories.length}개 · 누적 방문은 푸터에서 확인하세요</p>
+
+    <figure class="hero-frame reveal">
+      <div class="photo-mat">
+        <img
+          src="/images/editorial-hero.jpg"
+          alt="아침 햇살이 드는 연구자의 원목 책상 위 유리 플라스크와 노트, 만년필"
+          loading="eager"
+          decoding="async"
+        />
+      </div>
+      <figcaption class="mono hero-frame-cap">
+        <span>FIELD NOTES &amp; INSIGHTS</span>
+        <span>RESEARCH · ECONOMY · WORLD</span>
+      </figcaption>
+    </figure>
   </section>
 
   <div class="shell">
-    <section class="section" id="tracks">
-      <SectionHead
-        eyebrow="FOCUS TRACKS"
-        title="두 가지 시선"
-        note="현업 생명과학 연구자의 눈으로 읽는 바이오 논문과, 원문 공시·통계로 짚는 경제·국제 정세 인사이트."
-      />
-      <div class="tracks-grid">
-        <article class="track-card track-card--bio reveal">
-          <div class="track-head">
-            <span class="pill">TRACK 01 · BIO &amp; SCIENCE</span>
-            <span class="mono">{bioPosts.length}편</span>
+    <section class="section editorial-showcase" id="bio-showcase">
+      <div class="pillar-banner reveal">
+        <div class="pillar-media">
+          <div class="photo-mat">
+            <img
+              src="/images/editorial-bio.jpg"
+              alt="유리 현미경 슬라이드와 황동 대물렌즈, 잎맥 표본 정물"
+              loading="lazy"
+              decoding="async"
+            />
           </div>
-          <h3>바이오 · 생명과학 · 연구</h3>
-          <p class="track-desc">임상시험 원문, 분자생물학 메커니즘, 연구 자동화 도구를 직접 뜯어보고 남긴 기록.</p>
-          <ul class="track-list">
-            {bioPosts.slice(0, 3).map((post) => (
-              <li>
-                <a href={`/posts/${post.id}`}>
-                  <span>{post.data.title}</span>
-                  <time class="mono" datetime={post.data.date.toISOString()}>{formatDate(post.data.date)}</time>
-                </a>
-              </li>
-            ))}
-          </ul>
-          <div class="track-links">
-            <a class="plain-link" href="/topics/science">바이오 · 과학 전체 →</a>
-            <a class="plain-link" href="/topics/research">바이오 · 연구 →</a>
+        </div>
+        <div class="pillar-copy">
+          <p class="mono pillar-kicker">SECTION 01 · BIO &amp; LIFE SCIENCE</p>
+          <h2>바이오 · 생명과학 · 연구</h2>
+          <p>
+            임상시험 결과표의 원문 숫자부터 분자생물학 메커니즘, 연구실에서 직접 쓰려고 만든
+            실험 도구까지 — 생명과학 연구자의 눈높이로 읽고 검증한 기록을 모은다.
+          </p>
+          <div class="pillar-links">
+            <a class="ink-button" href="/topics/science">바이오 · 과학 ({bioPosts.length}편) →</a>
+            <a class="plain-link" href="/topics/research">연구 · 실험 도구 →</a>
           </div>
-        </article>
+        </div>
+      </div>
 
-        <article class="track-card track-card--insight reveal">
-          <div class="track-head">
-            <span class="pill pill--insight">TRACK 02 · ECONOMY &amp; GLOBAL</span>
-            <span class="mono">{insightPosts.length}편</span>
+      <div class="photo-grid">
+        {bioShowcase.map((post) => {
+          const cat = categoryOf(post.data.category);
+          const cov = coverFor(post);
+          return (
+            <a class="photo-card reveal" href={`/posts/${post.id}`}>
+              <div class="photo-mat">
+                <img src={cov} alt={post.data.coverAlt || post.data.title} loading="lazy" decoding="async" />
+              </div>
+              <div class="photo-card-body">
+                <div class="photo-card-meta mono">
+                  <span>{cat?.label}</span>
+                  <span>{formatDate(post.data.date)}</span>
+                </div>
+                <h3>{post.data.title}</h3>
+                <p>{post.data.takeaway}</p>
+              </div>
+            </a>
+          );
+        })}
+      </div>
+    </section>
+
+    <section class="section editorial-showcase" id="insight-showcase">
+      <div class="pillar-banner pillar-banner--reverse reveal">
+        <div class="pillar-media">
+          <div class="photo-mat">
+            <img
+              src="/images/editorial-insight.jpg"
+              alt="석재 기둥 사이로 보이는 해안 금융 지구 스카이라인과 바다"
+              loading="lazy"
+              decoding="async"
+            />
           </div>
-          <h3>경제 · 산업 · 국제 정세</h3>
-          <p class="track-desc">기업 지배구조와 반도체 밸류체인, 통상·기후·거시 지표를 원문 기준으로 짚은 인사이트.</p>
-          <ul class="track-list">
-            {insightPosts.slice(0, 3).map((post) => (
-              <li>
-                <a href={`/posts/${post.id}`}>
-                  <span>{post.data.title}</span>
-                  <time class="mono" datetime={post.data.date.toISOString()}>{formatDate(post.data.date)}</time>
-                </a>
-              </li>
-            ))}
-          </ul>
-          <div class="track-links">
-            <a class="plain-link" href="/topics/finance">경제 · 인사이트 전체 →</a>
+        </div>
+        <div class="pillar-copy">
+          <p class="mono pillar-kicker pillar-kicker--insight">SECTION 02 · ECONOMY &amp; GLOBAL INSIGHT</p>
+          <h2>경제 · 산업 · 국제 정세</h2>
+          <p>
+            단기 시황 중계가 아니라 지배구조와 세제, 반도체 공급망, 기후·통상 협정처럼
+            시간이 지나도 구조가 남는 1차 자료와 거시 흐름을 차분하게 짚는다.
+          </p>
+          <div class="pillar-links">
+            <a class="ink-button" href="/topics/finance">경제 · 인사이트 ({insightPosts.length}편) →</a>
             <a class="plain-link" href="/topics/world">국제 정세 →</a>
           </div>
-        </article>
+        </div>
+      </div>
+
+      <div class="photo-grid">
+        {insightShowcase.map((post) => {
+          const cat = categoryOf(post.data.category);
+          const cov = coverFor(post);
+          return (
+            <a class="photo-card reveal" href={`/posts/${post.id}`}>
+              <div class="photo-mat">
+                <img src={cov} alt={post.data.coverAlt || post.data.title} loading="lazy" decoding="async" />
+              </div>
+              <div class="photo-card-body">
+                <div class="photo-card-meta mono">
+                  <span>{cat?.label}</span>
+                  <span>{formatDate(post.data.date)}</span>
+                </div>
+                <h3>{post.data.title}</h3>
+                <p>{post.data.takeaway}</p>
+              </div>
+            </a>
+          );
+        })}
       </div>
     </section>
 
     <section class="section" id="latest">
       <SectionHead
-        eyebrow="MAGAZINE"
-        title="매거진"
+        eyebrow="CURATED ARCHIVE"
+        title="함께 읽을 아카이브"
         linkHref="/archive"
         linkLabel="전체 보기"
       />

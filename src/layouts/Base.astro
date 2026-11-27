@@ -54,16 +54,15 @@ const path = Astro.url.pathname.replace(/\/$/, '') || '/';
       <meta name="naver-site-verification" content={site.verification.naver} />
     )}
     <link rel="canonical" href={canonical} />
-    <meta name="theme-color" content="#ffffff" id="theme-color-meta" />
+    <meta name="theme-color" content="#f8f7f4" id="theme-color-meta" />
     <script is:inline>
       (() => {
         try {
           const saved = localStorage.getItem('justies-theme');
-          const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-          const theme = saved === 'dark' || saved === 'light' ? saved : (prefersDark ? 'dark' : 'light');
+          const theme = saved === 'dark' ? 'dark' : 'light';
           document.documentElement.dataset.theme = theme;
           const meta = document.getElementById('theme-color-meta');
-          if (meta) meta.setAttribute('content', theme === 'dark' ? '#0b0f17' : '#ffffff');
+          if (meta) meta.setAttribute('content', theme === 'dark' ? '#141312' : '#f8f7f4');
         } catch {}
       })();
     </script>
@@ -114,7 +113,7 @@ const path = Astro.url.pathname.replace(/\/$/, '') || '/';
     <header class="site-header">
       <div class="bar-inner">
       <a class="brand" href="/" aria-label={`${site.title} 홈으로`}>
-        <span class="brand-mark" aria-hidden="true">J</span>
+        <span class="brand-mark" aria-hidden="true">제</span>
         <span class="brand-type">
           <em>{site.title}</em>
           <span>BIO &amp; GLOBAL INSIGHT</span>
@@ -343,7 +342,7 @@ const path = Astro.url.pathname.replace(/\/$/, '') || '/';
       const syncThemeUI = (theme: string) => {
         if (themeIcon) themeIcon.textContent = theme === 'dark' ? '☀' : '☾';
         if (themeBtn) themeBtn.setAttribute('aria-pressed', String(theme === 'dark'));
-        if (themeMeta) themeMeta.setAttribute('content', theme === 'dark' ? '#0b0f17' : '#ffffff');
+        if (themeMeta) themeMeta.setAttribute('content', theme === 'dark' ? '#141312' : '#f8f7f4');
       };
       syncThemeUI(document.documentElement.dataset.theme || 'light');
       themeBtn?.addEventListener('click', () => {
