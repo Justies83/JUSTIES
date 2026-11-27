@@ -5,6 +5,7 @@ import { CATEGORIES } from '../../data/taxonomy';
 import { getPublishedPosts } from '../../lib/posts';
 
 const posts = await getPublishedPosts();
+const usedCategories = CATEGORIES.filter((c) => posts.some((p) => p.data.category === c.id));
 ---
 
 <Base title="주제" description="주제별로 모아 둔 기록 목록입니다.">
@@ -12,7 +13,7 @@ const posts = await getPublishedPosts();
     <section class="section">
       <SectionHead number="—" eyebrow="EXPLORE TOPICS" title="주제별로 읽기." />
       <div class="topics-grid">
-        {CATEGORIES.map((category) => (
+        {usedCategories.map((category) => (
           <a class="topic reveal" href={`/topics/${category.id}`}>
             <span class="topic-glyph" aria-hidden="true">{category.glyph}</span>
             <small>

@@ -12,13 +12,18 @@ import { CATEGORIES, KINDS } from '../data/taxonomy';
            characters. It did, on the live site, for a while. -->
       <SectionHead eyebrow="ABOUT THIS PLACE" title={site.tagline} />
       <div class="prose">
-        <p class="mono">주인장 · 제의 — {site.seal}</p>
+        <p class="mono">주인장 · 제의 (JUSTIES) — {site.seal}</p>
         <p>{site.description}</p>
         <p>
-          이 사이트는 뉴스 매체가 아니라 개인 기록장입니다.
-          세상에서 벌어진 일을 원문에서 확인하고, 무엇이 사실이고 무엇이 해석인지
-          구분해서 남기는 것이 목적입니다. 글은 한 번 쓰고 끝내지 않고,
-          새로운 사실이 확인되면 갱신일을 남기고 고칩니다.
+          이 사이트는 외부 보도자료를 받아쓰는 뉴스 매체가 아니라, 생명과학 연구자이자
+          개인 투자자, 그리고 생활 도구를 직접 써 보는 한 사람의 개인 아카이브다.
+          실험실에서 논문을 읽고 툴을 만들며 마주친 질문, 공시와 통계 원문에서 짚은
+          산업·시장의 구조, 직접 구매해 써 본 기기와 일상의 기록을 한곳에 모은다.
+        </p>
+        <p>
+          무엇을 옮겨 적을 때도 원문 논문과 공식 발표를 직접 확인하고, 확인된 사실과
+          필자 개인의 해석·추정을 분명히 갈라 적는 것을 기준으로 삼는다. 한 번 쓴
+          글이라도 새로운 근거가 나오면 갱신일을 남기고 다시 고친다.
         </p>
 
         <h2>기록을 나누는 두 축</h2>
@@ -30,8 +35,12 @@ import { CATEGORIES, KINDS } from '../data/taxonomy';
           {KINDS.map((k) => <li><strong>{k.label}</strong> — {k.blurb}</li>)}
         </ul>
 
-        <h2>편집 원칙</h2>
+        <h2>편집과 검수 기준</h2>
         <ol>{site.principles.map((p) => <li>{p}</li>)}</ol>
+        <ul>
+          <li>단순 속보나 반복적인 일일 시황 중계는 공개 목록에서 걷어내고, 시간이 지나도 다시 꺼내 읽을 맥락이 남는 글만 공개한다.</li>
+          <li>제품 리뷰에는 실제 사용 환경과 아쉬운 점, 확인하지 못한 조건을 빠짐없이 밝히며 체험단·제휴 링크가 있는 글은 본문 상단에 명확히 고지한다.</li>
+        </ul>
 
         <h2>알려 둘 것</h2>
         <ul>{site.disclaimers.map((d) => <li>{d}</li>)}</ul>

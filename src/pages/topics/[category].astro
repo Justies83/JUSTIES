@@ -6,14 +6,20 @@ import SectionHead from '../../components/SectionHead.astro';
 import { CATEGORIES, categoryOf } from '../../data/taxonomy';
 import { getPublishedPosts } from '../../lib/posts';
 
-export const getStaticPaths: GetStaticPaths = () =>
-  CATEGORIES.map((c) => ({ params: { category: c.id } }));
+export const getStaticPaths: GetStaticPaths = async () => {
+  const published = await getPublishedPosts();
+  return CATEGORIES.filter((c) => published.some((p) => p.data.category === c.id)).map((c) => ({
+    params: { category: c.id },
+  }));
+};
 
 const { category } = Astro.params;
 const meta = categoryOf(String(category));
 if (!meta) return Astro.rewrite('/404');
 
-const posts = (await getPublishedPosts()).filter((p) => p.data.category === meta.id);
+const published = await getPublishedPosts();
+const usedCategories = CATEGORIES.filter((c) => published.some((p) => p.data.category === c.id));
+const posts = published.filter((p) => p.data.category === meta.id);
 ---
 
 <Base title={meta.label} description={`${meta.label} — ${meta.blurb}`}>
@@ -29,7 +35,7 @@ const posts = (await getPublishedPosts()).filter((p) => p.data.category === meta
       />
       <nav class="filters" aria-label="주제 이동">
         <a class="chip" href="/archive">전체</a>
-        {CATEGORIES.map((c) => (
+        {usedCategories.map((c) => (
           <a class="chip" href={`/topics/${c.id}`} aria-current={c.id === meta.id ? 'true' : undefined}>
             {c.label}
           </a>
