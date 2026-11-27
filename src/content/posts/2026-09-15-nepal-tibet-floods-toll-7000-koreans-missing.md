@@ -10,6 +10,7 @@ coverAlt: 네팔·티베트 홍수 사망·실종 집계와 신원 확인 비율
 source:
   name: 전남일보 (2026.09.15)
   url: https://www.jnilbo.com/news/articleView.html?idxno=90000065820
+visibility: private
 ---
 
 8월 26일 네팔 중북부 바그마티주 일대를 덮친 대홍수의 인명 피해가 3주가

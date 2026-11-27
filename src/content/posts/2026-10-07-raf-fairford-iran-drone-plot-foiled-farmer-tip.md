@@ -10,6 +10,7 @@ coverAlt: 영국 RAF 페어퍼드 기지를 겨냥한 이란의 드론 공격 �
 source:
   name: SBS (2026.10.07)
   url: https://news.sbs.co.kr/news/endPage.do?news_id=N1008785845
+visibility: private
 ---
 <p align="center">미군이 대이란 폭격 전진기지로 쓰는 영국 공군(<strong>RAF</strong>) <strong>페어퍼드</strong> 기지를 겨냥한 테러 계획이, 한 농민의 신고로 아슬아슬하게 저지됐습니다. 미국은 이란 이슬람혁명수비대(<strong>IRGC</strong>)가 이 기지에 드론 공격을 계획하고 있다는 첩보를 입수한 뒤, 기지에 있던 <strong>B-1</strong> 전략폭격기 <strong>12대</strong> 전부를 미국 본토로 철수시켰습니다.</p>
 

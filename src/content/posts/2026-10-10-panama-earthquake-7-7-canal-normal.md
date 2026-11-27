@@ -10,6 +10,7 @@ coverAlt: 황혼 무렵 파나마시티의 고층 빌딩들과 태평양 만, �
 source:
   name: Reuters (GMA News Online 전재) (2026.10.10)
   url: https://www.gmanetwork.com/news/topstories/world/1005417/powerful-earthquake-hits-panama-damages-homes-canal-operations-normal/story/?just_in
+visibility: private
 ---
 <p align="center">현지 시간 10월 9일 금요일 정오 무렵 — 현지에서는 점심시간에 울린 지진이었습니다 — 파나마 남부를 규모 <strong>7.7</strong>의 강진이 덮쳤습니다. 한국 시간으로는 10일 새벽 2시 56분(세계협정시 17시 56분)에 발생한 지진입니다. 미국 지질조사국(USGS)은 진원의 깊이를 <strong>12.6</strong>km, 진앙을 파나마시티에서 약 200km 떨어진 인구 희박 지역으로 발표했습니다. 프랑스 AFP 통신의 보도에 따르면 진앙은 중부 에레라주의 작은 마을 피탈로사 아리바에서 약 10km 떨어진 지점이었습니다. USGS는 당초 규모를 8.0으로 추정했다가 7.7로 하향 조정했습니다. 보도 시점까지 즉각 보고된 사망자나 부상자는 없었습니다.</p>
 

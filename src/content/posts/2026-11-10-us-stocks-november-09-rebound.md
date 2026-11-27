@@ -10,6 +10,7 @@ coverAlt: "뉴욕증권거래소 건물"
 source:
   name: "조선비즈 (2026.11.10)"
   url: https://biz.chosun.com/en/en-international/2026/11/10/CBUDPV5WVFGZ7O25E3DIFOXCGI/
+visibility: private
 ---
 
 <p align="center">목요일 폭락, 금요일 반등에 이어 월요일에는 급등이 왔다.<br/>현지시간 11월 9일 월요일 뉴욕증시는 3대 지수가 모두 2% 넘게 올랐다.<br/>다우존스30 산업평균지수는 <strong>1,104.02포인트(2.15%)가</strong> 오른 <strong>52,389.75</strong>, 스탠더드앤드푸어스500 지수는 <strong>173.08포인트(2.35%)가</strong> 오른 <strong>7,549.94</strong>, 나스닥 종합지수는 <strong>673.71포인트(2.74%)가</strong> 오른 <strong>25,253.14</strong>에 거래를 마쳤다.<br/>S&P500은 CNBC 집계로 지난 4월 8일 이후 가장 큰 하루 상승폭을 기록했다.<br/>금요일에 시작된 반등이 월요일에 전 시장으로 퍼진 하루였다.</p>

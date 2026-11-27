@@ -10,6 +10,7 @@ coverAlt: 9월 10일 코스피가 장중 6898까지 내렸다가 7033으로 마�
 source:
   name: 미디어워치 (2026.09.10)
   url: https://www.mediawatch.kr/news/article.html?no=260987
+visibility: private
 ---
 
 9월 10일 코스피는 17.72포인트(0.25%) 내린 **7,033.92**에 마감했습니다. 숫자만

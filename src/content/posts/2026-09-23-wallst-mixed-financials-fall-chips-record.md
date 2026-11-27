@@ -10,6 +10,7 @@ coverAlt: 9월 22일 뉴욕증시에서 반도체주와 금융주가 정반대�
 source:
   name: EBN (2026.09.23)
   url: https://www.ebn.co.kr/news/articleView.html?idxno=1725446
+visibility: private
 ---
 
 [9월 21일 글](/posts/2026-09-21-kospi-oil-open-houthi-semiconductor)에서

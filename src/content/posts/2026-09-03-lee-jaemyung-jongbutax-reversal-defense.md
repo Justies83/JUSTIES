@@ -8,6 +8,7 @@ tags: [이재명, 종합부동산세, 부동산세제, 강남]
 source:
   name: 머니투데이 (2026.09.02)
   url: https://www.mt.co.kr/politics/2026/09/02/2026090221553939760
+visibility: private
 ---
 
 ## 사실

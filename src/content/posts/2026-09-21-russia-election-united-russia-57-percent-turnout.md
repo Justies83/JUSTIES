@@ -10,6 +10,7 @@ coverAlt: 러시아 총선 개표 초기 집계와 정당별 득표율을 정리
 source:
   name: Amar Ujala (2026.09.21)
   url: https://www.amarujala.com/world/russia-election-preliminary-results-united-russia-party-leads-central-election-commission-vote-share-updates-2026-09-21
+visibility: private
 ---
 
 [전날 글](/posts/2026-09-20-ukraine-moscow-drone-attack-russia-election-day)에서

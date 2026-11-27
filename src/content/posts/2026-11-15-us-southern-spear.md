@@ -10,6 +10,7 @@ coverAlt: "대서양을 항해하는 항공모함 USS 제럴드 R. 포드"
 source:
   name: "Qatar News Agency (2026.11.14)"
   url: https://qna.org.qa/en/news/news-details?id=us-launches-new-military-anti-drug-operation-in-latin-america&date=14/11/2025
+visibility: private
 ---
 
 <p align="center">11월 13일 목요일, 피트 헤그세스 미 국방장관이 X에 글을 올렸다.<br/>"오늘 서던 스피어 작전을 발표한다."<br/>합동태스크포스 서던 스피어와 미 남부사령부가 이끄는 작전이다.<br/>"이 임무는 우리 국토를 지키고, 우리 반구에서 마약 테러리스트들을 제거하며, 우리 국민을 죽이는 마약으로부터 국토를 지킨다."<br/>"서반구는 미국의 이웃이고, 우리는 그것을 지킬 것이다."<br/>두 달 넘게 이어져 온 보트 격침 작전에 이제 공식 이름이 붙었다.</p>

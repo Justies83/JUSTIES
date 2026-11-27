@@ -10,6 +10,7 @@ coverAlt: 독일의 F-35A 첫 인수부터 실전 도착까지 남은 절차를 
 source:
   name: Al Jazeera (2026.09.18)
   url: https://www.aljazeera.com/news/2026/9/18/germany-receives-first-f-35-jet-from-us-as-nato-boosts-military-spending
+visibility: private
 ---
 
 나토의 군비 증강 흐름 속에서 독일이 첫걸음을 뗐습니다. 9월 18일 미국

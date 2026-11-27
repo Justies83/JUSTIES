@@ -8,6 +8,7 @@ tags: [이란, 사우디아라비아, 호르무즈해협, 이란전쟁, 필리�
 source:
   name: Al Jazeera (2026.09.02)
   url: https://www.aljazeera.com/news/2026/9/2/saudi-arabia-condemns-deadly-iranian-attack-on-tanker-in-strait-of-hormuz
+visibility: private
 ---
 
 [9월 3일 이란 시리크 결혼식장 공습 글](/posts/2026-09-03-iran-sirik-wedding-strike-war-crime)에

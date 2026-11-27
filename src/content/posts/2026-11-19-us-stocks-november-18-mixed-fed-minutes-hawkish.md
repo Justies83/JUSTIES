@@ -10,6 +10,7 @@ coverAlt: "뉴욕증권거래소 건물 외관"
 source:
   name: "Reuters via SRN News (2026.11.18)"
   url: https://srnnews.com/nasdaq-poised-for-higher-open-as-nvidia-forecast-eases-ai-concerns/
+visibility: private
 ---
 
 <p align="center">현지시간 11월 18일 수요일 뉴욕증시는 방향이 갈렸다.<br/>다우존스30 산업평균지수는 <strong>566.39포인트(1.12%)가</strong> 빠진 <strong>50,193.03에</strong>, 스탠더드앤드푸어스500 지수는 <strong>18.00포인트(0.24%)가</strong> 내린 <strong>7,322.53에</strong> 거래를 마쳤다.<br/>나스닥 종합지수는 <strong>101.50포인트(0.39%)가</strong> 오른 <strong>24,429.89에</strong> 마감했다.<br/>S&P500은 닷새 연속 내림세를 이어갔고, 나스닥은 나흘 만에 반등에 성공했다.<br/>이날 수치는 로이터가 집계한 잠정치다.</p>

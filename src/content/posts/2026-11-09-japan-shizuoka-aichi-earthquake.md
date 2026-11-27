@@ -10,6 +10,7 @@ coverAlt: "아이치현 이와스산에서 본 나고야 시내"
 source:
   name: "이투데이 (2026.11.09)"
   url: https://www.etoday.co.kr/news/view/2645624?trc=main_section_global
+visibility: private
 ---
 
 <p align="center">11월 8일 새벽 1시 4분, 일본 중부 시즈오카현 서부 지하 <strong>41㎞</strong>에서 <strong>규모 5.7</strong> 지진이 발생했다.<br/>진원은 시즈오카현이었지만 가장 강하게 흔들린 곳은 옆 현인 아이치현이었다.<br/>아이치현 지타시에서 일본 기상청 기준 최대진도 <strong>5강</strong>이 관측됐고, 나고야시에서도 나카구와 나카무라구를 비롯한 14개 구에서 진도 4가 나왔다.<br/>아이치현과 시즈오카현에서 모두 <strong>22명</strong>이 다쳤다.<br/>쓰나미 우려는 없다고 일본 기상청은 발표했다.</p>

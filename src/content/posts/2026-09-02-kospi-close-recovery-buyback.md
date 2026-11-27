@@ -8,6 +8,7 @@ tags: [코스피, 코스닥, 삼성전자, SK하이닉스, 자사주소각]
 source:
   name: 아시아경제 (2026.09.01)
   url: https://view.asiae.co.kr/article/2026090115561233028
+visibility: private
 ---
 
 [9월 1일 아침 글](/posts/2026-09-01-iran-retaliates-jordan-bases-kospi-drops)에서

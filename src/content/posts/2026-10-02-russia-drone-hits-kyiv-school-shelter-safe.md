@@ -10,6 +10,7 @@ coverAlt: 10월 1일 키이우 학교 드론 공격의 피해 경과와 우크�
 source:
   name: VOA 코리아 (2026.10.02)
   url: https://www.voakorea.com/a/us-russia-ukraine-100126/8206698.html
+visibility: private
 ---
 
 10월 1일 아침 러시아 드론이 우크라이나 수도 키이우 **솔로먄스키

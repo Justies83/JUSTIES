@@ -10,6 +10,7 @@ coverAlt: 이재명 대통령의 유엔총회 연설에서 쓰인 핵 없는 한
 source:
   name: 서울신문 (2026.09.23)
   url: https://www.seoul.co.kr/news/politics/2026/09/23/20260923500003
+visibility: private
 ---
 
 이재명 대통령이 9월 22일(현지시간) 뉴욕 유엔총회 기조연설에서 역대

@@ -8,6 +8,7 @@ tags: [SK하이닉스, HBM4, 반도체, AI메모리]
 source:
   name: SK하이닉스 2026년 2분기 실적발표 컨퍼런스콜 · 뉴스핌 보도(2026.07.29)
   url: https://www.newspim.com/news/view/20260729000469
+visibility: private
 ---
 
 이 글은 SK하이닉스의 **7월 29일 실적발표 컨퍼런스콜**에서 나온 내용을

@@ -8,6 +8,7 @@ tags: [미국, 정부셧다운, 찰리커크, 타일러로빈슨]
 source:
   name: NBC News (2026.09.01)
   url: https://www.nbcnews.com/politics/congress/house-votes-pass-short-term-funding-bill-prevent-shutdown-election-rcna595350
+visibility: private
 ---
 
 ### 미 하원, 중간선거 앞두고 임시예산안 통과

@@ -10,6 +10,7 @@ coverAlt: "백악관 북쪽 정면"
 source:
   name: "Cybersecurity Dive (2026.11.13)"
   url: https://www.cybersecuritydive.com/news/ai-white-house-task-force-cybersecurity-regulation/874679/
+visibility: private
 ---
 
 <p align="center">11월 12일 목요일, 백악관에서 열린 회의 하나가 AI 정책의 방향을 살짝 틀었다.<br/>트럼프 행정부의 AI 태스크포스 '슈퍼 인텔리전스 포스(Super Intelligence Force, SI 포스)'가 두 번째 공식 회의를 마친 뒤 내놓은 성명이다.<br/>내용은 간단하다.<br/>사이버 취약점이나 사고를 자발적으로 신고하는 기업에는, 연방 기관들이 규제상 책임을 최소 <strong>12개월 동안</strong> 제한해 달라는 권고다.<br/>위험 상황이 계속되면 기간을 늘릴 수도 있다고 했다.<br/>사이언스다이브가 11월 13일 보도했고, 블룸버그도 같은 내용을 전했다.</p>

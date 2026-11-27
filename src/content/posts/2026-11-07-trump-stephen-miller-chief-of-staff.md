@@ -10,6 +10,7 @@ coverAlt: "백악관 북쪽 정면"
 source:
   name: "AP (2026.11.06)"
   url: https://www.timesofisrael.com/after-midterm-defeat-trump-replaces-susie-wiles-with-stephen-miller-as-chief-of-staff/
+visibility: private
 ---
 
 <p align="center">중간선거에서 상원과 하원을 모두 잃은 지 사흘 만이다.<br/>도널드 트럼프 대통령은 11월 6일 금요일, 백악관 비서실장 수지 와일스를 교체하고 스티븐 밀러를 후임으로 앉힌다고 밝혔다.<br/>밀러는 11월 9일 월요일부터 비서실장직을 맡는다.<br/>와일스는 트럼프 대통령의 정치 조직으로 자리를 옮긴다.<br/>선거 패배 뒤의 인적 쇄신이 아니라, 패배의 원인이 됐던 정책을 설계한 인물을 대통령의 가장 가까운 자리로 끌어올린 인사라는 점에서 파장이 크다. ([지난 글](/posts/2026-11-04-us-midterms-democrats-sweep-congress))</p>

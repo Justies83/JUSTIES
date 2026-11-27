@@ -10,6 +10,7 @@ coverAlt: "대만에서 운행 중인 우버 택시"
 source:
   name: "TechCrunch (2026.11.13)"
   url: https://techcrunch.com/2026/11/13/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach/?utm_campaign=etb&utm_source=morning_brew&utm_medium=newsletter
+visibility: private
 ---
 
 <p align="center">우버가 수천 명의 기사에게 통지문을 보내고 있다.<br/>운전면허증 정보가 털렸다는 내용이다.<br/>털린 곳은 우버 자체가 아니라, 우버가 쓰던 AI 업체 파이어웍스 AI다.<br/>해커는 파이어웍스의 내부 인증정보를 훔쳐 그걸로 우버 데이터에 들어갔다.<br/>11월 13일 테크크런치가 처음 보도했다.</p>

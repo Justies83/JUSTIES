@@ -10,6 +10,7 @@ coverAlt: "위성에서 본 태풍의 소용돌이 구름과 뚜렷한 눈"
 source:
   name: "로이터 (2026.10.23)"
   url: https://www.dzrh.com.ph/post/taiwan-shuts-down-ahead-of-typhoon-champi-nearly-1000-flights-cancelled
+visibility: private
 ---
 
 <p align="center">10월 23일 금요일, 대만은 사실상 멈췄다.<br/>학교와 관공서가 문을 닫았고, 금융시장도 쉬었다.<br/>거리는 비었고, 해안가에는 파도를 보러 나온 사람들 대신 방파제를 세우는 손길이 분주했다.<br/>태풍 챔피가 아직 상륙하지도 않은 시점의 풍경이다.<br/>중심이 육지에 닿지 않았는데 섬 전체가 멈춘 이유, 그걸 숫자로 따라가 보면 이번 태풍의 성격이 보인다.</p>

@@ -10,6 +10,7 @@ coverAlt: 누리호 5차 발사의 시각·고도·위성 분리 결과와 누�
 source:
   name: 코리아타임스 (2026.10.07)
   url: https://www.koreatimes.co.kr/business/tech-science/20261007/cover-story-nuri-rocket-successfully-completes-5th-flight
+visibility: private
 ---
 <p align="center">한국형 발사체 누리호가 <strong>10월 7일</strong> 낮 <strong>12시 25분</strong> 전남 고흥 나로우주센터에서 다섯 번째 발사에 성공했습니다. <a href="/posts/2026-10-05-iac2026-korea-pavilion-nuri-5th-launch-same-week">같은 주 튀르키예 안탈리아에서 열린 국제우주대회 기간에 예정돼 있던</a> 발사로, 발사 뒤 약 <strong>20분이</strong> 지난 낮 12시 45분쯤 고도 <strong>570km에서</strong> 탑재 위성들을 차례로 분리했습니다.</p>
 

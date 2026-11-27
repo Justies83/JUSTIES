@@ -8,6 +8,7 @@ tags: [시리아, IAEA, 원자력, 아사드, 북한]
 source:
   name: Al Jazeera (2026.09.02)
   url: https://www.aljazeera.com/news/2026/9/2/iaea-says-syria-built-a-nuclear-reactor-in-deir-az-zor-under-al-assad
+visibility: private
 ---
 
 ## 사실

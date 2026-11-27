@@ -10,6 +10,7 @@ coverAlt: "브라질리아 국회의사당"
 source:
   name: "조선비즈 (2026.10.26)"
   url: https://biz.chosun.com/international/international_general/2026/10/26/735NDBVFZVEJJHXCET2VHG2HEE/
+visibility: private
 ---
 
 <p align="center">브라질은 일요일에 대통령을 뽑았고, 월요일 아침에는 이미 결과가 정해져 있었다.<br/>브라질 고등선거재판소는 10월 25일(현지 시각) 치러진 대선 결선투표에서 루이스 이나시우 룰라 다시우바 현 대통령이 승리했다고 밝혔다.<br/>개표율 <strong>99.76%를</strong> 기록한 시점에서 룰라 대통령의 득표율은 <strong>51.76%로</strong>, <strong>48.24%에</strong> 그친 플라비우 보우소나루 상원의원을 따돌렸다.<br/>격차는 <strong>3.52%포인트</strong>에 불과했지만, 그 차이가 만드는 기록은 크다.<br/>룰라는 2003년 첫 집권 이후 네 번째 대선 승리를 거두며 브라질 현대 정치사상 최초의 4선 대통령이 됐다.<br/>또 1989년 브라질 민주화 이후 처음으로 1차 투표에서 진 뒤 결선투표에서 이긴 대통령이라는 기록도 함께 세웠다.</p>

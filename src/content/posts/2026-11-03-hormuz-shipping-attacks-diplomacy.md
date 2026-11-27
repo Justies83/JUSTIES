@@ -10,6 +10,7 @@ coverAlt: "카타르 라스라판 항에 정박한 LNG선 모자"
 source:
   name: "Xinde Maritime News (2026.11.02)"
   url: https://www.xindemarinenews.com/news/2117102697737138177
+visibility: private
 ---
 
 <p align="center"><strong>11월 10일 업데이트 — 국무회의 의결, 국회로 간 청해부대 확대안.</strong><br/>

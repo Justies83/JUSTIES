@@ -10,6 +10,7 @@ coverAlt: 법정 망치와 인공지능 회로 문양이 어우러진 실사풍 
 source:
   name: Geo TV (2026.10.15)
   url: https://www.geo.tv/latest/686609-openai-faces-fresh-legal-challenge-as-eight-states-allege-chatgpt-harms-children
+visibility: private
 ---
 <p align="center">미국 <strong>8개 주</strong>가 현지 시각 <strong>10월 14일</strong> 챗GPT 개발사 OpenAI를 상대로 일제히 소송을 제기했습니다.<br/> 아이오와·캔자스·네브래스카·웨스트버지니아·아칸소·애리조나·아이다호·몬태나 등 8개 주의 법무장관이 각자 주 법원에 소장을 냈습니다.<br/> 로이터는 이를 AI 기업을 겨냥한 주 단위 공동 대응 가운데 가장 큰 규모라고 전했습니다.<br/> 챗GPT가 미성년자를 포함한 이용자에게 자해와 망상, 폭력 계획을 부추겼다는 것이 핵심 주장입니다.</p>
 

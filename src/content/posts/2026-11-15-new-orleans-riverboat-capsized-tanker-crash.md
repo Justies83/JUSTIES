@@ -10,6 +10,7 @@ coverAlt: "뉴올리언스 강변에 정박한 미시시피강 유람선"
 source:
   name: "AP (2026.11.14)"
   url: https://www.louisianafirstnews.com/news/business/ap-business/ap-new-orleans-port-sues-to-get-control-of-tanker-that-crashed-into-cruise-ship-on-mississippi-river/
+visibility: private
 ---
 
 <p align="center">금요일 오후, 미시시피강 위에서 상상하기 힘든 장면이 벌어졌다.<br/>조타 능력을 잃은 대형 탱커가 뉴올리언스 항구에 정박해 있던 유람선을 그대로 들이받은 거다.<br/>유람선은 순식간에 기울더니 15분 만에 옆으로 뒤집혔다.<br/>배에 타고 있던 <strong>197명</strong>은 전원 무사히 확인됐고, 사망자는 없었다.<br/>루이지애나 주지사는 이를 두고 <strong>"미시시피의 기적"</strong>이라고 했다.<br/>날짜도 공교롭게 금요일 13일이었다.</p>

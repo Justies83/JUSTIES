@@ -10,6 +10,7 @@ coverAlt: 트럼프-시진핑 정상회담 의전 일정과 과거 국빈 방문
 source:
   name: 파이낸셜뉴스 (2026.09.23)
   url: https://www.fnnews.com/news/202609231217098371
+visibility: private
 ---
 
 [9월 19일 글](/posts/2026-09-19-trump-xi-summit-sep24-taiwan-strait)에서

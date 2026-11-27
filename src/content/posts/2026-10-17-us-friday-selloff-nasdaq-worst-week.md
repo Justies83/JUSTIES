@@ -10,6 +10,7 @@ coverAlt: "뉴욕증권거래소 외관"
 source:
   name: "Vietnam.vn (2026.10.17)"
   url: https://www.vietnam.vn/en/s-p-500-co-tuan-giam-manh-nhat-tu-thang-6-2026
+visibility: private
 ---
 
 <p align="center">금요일(10월 16일, 미국 동부) 뉴욕증시는 AI 인프라 기업의 신용 불안에 휩쓸려 크게 떨어졌다.<br/>나스닥지수는 전일보다 572.99포인트, <strong>2.14%나</strong> 하락한 26,140.03에 마감했다.<br/>장 막판으로 갈수록 매도세가 거세지며 낙폭을 키운 하루였다.</p>

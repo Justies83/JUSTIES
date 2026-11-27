@@ -8,6 +8,7 @@ tags: [뉴욕증시, 나스닥, S&P500, 다우존스, 연준, 브로드컴]
 source:
   name: Yahoo Finance (2026.09.03)
   url: https://ca.finance.yahoo.com/news/stock-market-today-thursday-september-3-dow-sp-500-nasdaq-futures-081525933.html
+visibility: private
 ---
 
 [9월 3일 글](/posts/2026-09-03-us-stocks-nvidia-rally-tech-gain)에서 다뤘던

@@ -10,6 +10,7 @@ coverAlt: "1981년 IBM 취리히 연구소의 최초의 주사터널링현미경
 source:
   name: "phys.org (2026.10.22)"
   url: https://phys.org/news/2026-10-quantum-electron-metal.html
+visibility: private
 ---
 
 <p align="center">금속 안에서 전자는 원래 자유롭게 퍼지는 존재로 알려져 있다.<br/>그런데 컬럼비아대 연구진이 그 상식을 깨는 장면을 포착했다.<br/>전자파가 금속 안에서 한 자리에 묶여 빠져나가지 못하는 모습이다.<br/>연구 결과는 2026년 10월 22일 <em>Science</em>에 실렸다.<br/>논문 제목은 <strong>Electronic bound states in the continuum in a two-dimensional metal</strong>이고, 제1저자는 모건 티넬이다.<br/>이 현상의 이름은 연속체 속 속박 상태, 영어로 <strong>bound state in the continuum</strong>, 줄여서 <strong>BIC</strong>이다.</p>

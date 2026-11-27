@@ -10,6 +10,7 @@ coverAlt: "데이터센터 서버실"
 source:
   name: "The Register (2026.10.26)"
   url: https://www.theregister.com/ai-and-ml/2026/10/26/trumpets-blare-and-skies-part-as-ai-hypefest-culminates-in-anthropic-ipo-filing/5305456
+visibility: private
 ---
 
 <p align="center">10월 26일, 클로드를 만드는 앤트로픽이 미국 증권거래위원회에 상장 등록서류 S-1을 공개 제출했다.<br/>나스닥 글로벌 셀렉트 마켓에 클래스 A 보통주를 상장하고, 티커는 ANT로 정했다.<br/>다만 공모 주식 수와 공모가 범위는 아직 비어 있다.<br/>얼마를 모으고 얼마에 팔겠다는 숫자는 다음 서류에서 정해진다.<br/>대표 주관사는 골드만삭스와 모건스탠리이고, 주관단에는 모두 24곳이 이름을 올렸다.<br/>뉴욕포스트 보도에 따르면 회사는 11월 9일부터 투자자 마케팅을 시작하는 것을 목표로 잡았다.<br/>6월에 비공개 초안을 먼저 낸 뒤 공개 서류로 전환한 것으로, 상장 레이스에서 경쟁사보다 한발 앞선 셈이다.</p>

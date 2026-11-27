@@ -10,6 +10,7 @@ coverAlt: "밤의 세일즈포스 타워 (Wikimedia Commons, CC BY-SA 4.0, 촬�
 source:
   name: "Braze 공식 보도자료 (2026.10.20)"
   url: https://investors.braze.com/news/news-details/2026/Salesforce-Signs-Definitive-Agreement-to-Acquire-Braze/default.aspx
+visibility: private
 ---
 
 <p align="center">세일즈포스가 지갑을 열었다.<br/>고객 인게이지먼트 플랫폼 브레이즈를 사들이는 확정 계약을 20일(현지시간) 발표했다.<br/>기업가치 기준 인수 총액은 약 <strong>56억6000만</strong> 달러.<br/>브레이즈 클래스A 보통주 1주당 현금 <strong>47.50</strong>달러를 지급하는 조건이다.<br/>발표 직전 거래일인 월요일 종가 30.04달러와 비교하면 <strong>58</strong>% 높은 가격이다.<br/>프리미엄을 얹어주고서라도 당장 손에 넣겠다는 뜻이다.</p>

@@ -10,6 +10,7 @@ coverAlt: 대미투자 1호 사업 국회 보고 이후 발표가 닷새째 지�
 source:
   name: 파이낸셜뉴스 (2026.09.27)
   url: https://www.fnnews.com/news/202609271404020162
+visibility: private
 ---
 
 [9월 22일 글에서](/posts/2026-09-22-korea-us-investment-encina-confirmed-mou-date-unset)

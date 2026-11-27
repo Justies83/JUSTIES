@@ -10,6 +10,7 @@ coverAlt: "워싱턴 국회의사당"
 source:
   name: "Nikkei Asia (2026.11.04)"
   url: https://asia.nikkei.com/politics/u.s.-midterm-elections/us-midterms-live-democrats-win-both-senate-and-house-in-election-rout
+visibility: private
 ---
 
 <p align="center">11월 3일 화요일, 미국 유권자들은 트럼프 대통령 임기 후반의 권력 지형을 하루 만에 바꿔놨다.<br/>투표가 끝나고 몇 시간 만에 AP통신은 민주당이 상원에 이어 하원까지 가져갔다고 차례로 전했다.<br/>상원은 100석 가운데 과반 문턱인 <strong>51석을</strong> 넘긴 시점에, 하원은 435석 가운데 <strong>218석을</strong> 넘긴 시점에 승부가 갈렸다.<br/>2022년과 2024년에는 하원 과반 판정이 선거일로부터 8일이 걸렸는데, 이번에는 선거 당일 밤에 결론이 나왔다.<br/>그만큼 판세가 한쪽으로 기울었다는 뜻이다.<br/>CNN은 이번 결과를 두고 역사적인 민주당 물결이라고 표현했고, 닛케이아시아는 유권자들이 트럼프 대통령의 물가와 관세, 인공지능 데이터센터, 이란 전쟁 정책에 대한 불만을 표로 드러냈다고 정리했다.</p>

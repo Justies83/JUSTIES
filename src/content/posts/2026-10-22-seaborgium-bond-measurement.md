@@ -10,6 +10,7 @@ coverAlt: "독일 다름슈타트 GSI 중이온연구소의 선형가속기 UNIL
 source:
   name: "phys.org (2026.10.14)"
   url: https://phys.org/news/2026-10-superheavy-element-compound-reveals-weaker.html?deviceType=mobile
+visibility: private
 ---
 
 <p align="center">주기율표의 맨 아래쪽, 자연에서는 얻을 수 없는 원소들의 화학을 직접 재는 일은 오랫동안 숙제로 남아 있었다.<br/>원자를 하루에 몇 개밖에 만들지 못하고, 만들어진 원자는 1초도 안 돼 사라지기 때문이다.<br/>독일 다름슈타트의 GSI/FAIR 연구팀이 이끄는 국제 공동연구진은 그 숙제 중 하나를 풀었다.<br/>초중원소 시보귬의 화합물에서 중심 원자와 일산화탄소 리간드 사이의 결합 세기를 처음으로 측정한 것이다.<br/>연구 결과는 <em>Nature</em>에 실렸고, GSI/FAIR가 10월 14일 보도자료로 발표했다.<br/>10월 22일에는 인도 IIT 루르키 연구진의 참여 소식이 전해지면서 이 연구가 다시 주목받았다.</p>

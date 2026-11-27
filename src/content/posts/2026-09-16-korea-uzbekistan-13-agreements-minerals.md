@@ -10,6 +10,7 @@ coverAlt: 한-우즈베키스탄 정상회담에서 다룬 6대 전략산업과 
 source:
   name: 서울신문 (2026.09.14)
   url: https://www.seoul.co.kr/news/politics/diplomacy/2026/09/15/20260915006004
+visibility: private
 ---
 
 [어제 글](/posts/2026-09-16-korea-central-asia-summit-seoul-declaration)에서

@@ -10,6 +10,7 @@ coverAlt: 9월 한국 수출액과 반도체 수출, 누적 수출, 무역수지
 source:
   name: 뉴스핌 (2026.10.01)
   url: https://www.newspim.com/news/view/20261001000310
+visibility: private
 ---
 
 [3분기 영업이익 190조원을 눈앞에 뒀던](/posts/2026-09-28-samsung-skhynix-q3-profit-190-trillion-consensus)

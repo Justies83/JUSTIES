@@ -10,6 +10,7 @@ coverAlt: 미국 8월 전체 PPI와 근원 PPI의 전년 대비 상승률 변화
 source:
   name: 머니투데이 (2026.09.10)
   url: https://www.mt.co.kr/world/2026/09/10/2026091021484811364
+visibility: private
 ---
 
 미국 노동통계국이 9월 10일 발표한 8월 생산자물가지수(PPI)가 전년 동월 대비

@@ -10,6 +10,7 @@ coverAlt: 사우디 동서 송유관 복구 기간 전망 네 가지와 9월 17�
 source:
   name: 아시아경제 (2026.09.17)
   url: https://view.asiae.co.kr/article/2026091709514100506
+visibility: private
 ---
 
 이 아카이브가 일주일 동안 따라온 사슬의 출발점은

@@ -10,6 +10,7 @@ coverAlt: "스위스 제네바 인근 CERN의 LHCb 실험장 내부"
 source:
   name: "INFN (2026.11.03)"
   url: https://www.infn.it/en/lhcb-finds-evidence-of-one-in-ten-billion-particle-decay/
+visibility: private
 ---
 
 <p align="center">42년 동안 찾던 신호가 드디어 모습을 드러냈다.<br/>CERN의 LHCb 실험 협력단은 11월 3일 제네바 CERN에서 열린 세미나에서, B0 중간자가 두 개의 뮤온으로 붕괴한다는 증거를 처음으로 하나의 실험 데이터만으로 확보했다고 발표했다.<br/>이 붕괴는 표준모형이 예측한 대로 B0 입자 <strong>100억 개 중 한 번</strong>꼴로만 일어난다.<br/>그래서 이번 발표의 제목도, 이탈리아 국립핵물리연구소 INFN의 표현을 빌리면, 그대로 <strong>100억 분의 1의 붕괴</strong>다.</p>

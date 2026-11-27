@@ -10,6 +10,7 @@ coverAlt: "자카르타 수디르만 금융지구(SCBD) 야경"
 source:
   name: "Reuters (2026.10.16)"
   url: https://www.reuters.com/world/asia-pacific/jakarta-stocks-plunge-11-msci-set-drop-indonesia-indexes-2026-10-16/
+visibility: private
 ---
 
 <p align="center">10월 16일 금요일, 자카르타 증권거래소에 공황이 찾아왔어.<br/>자카르타종합지수(JCI)는 개장과 동시에 **8%를** 내리꽂으며 **30분간** 거래가 중단됐고, 재개된 뒤에도 낙폭을 키우다가 종가 기준 **11.5%** 하락한 **5,185.11**로 장을 마쳤어.<br/>**678.68포인트가** 하루에 증발한 건 1998년 1월 이후 28년 만의 최대 낙폭이야.<br/>이날 JCI는 2020년 이후 가장 낮은 수준까지 밀렸고, 연초 이후 누적 하락률은 **39.8%에** 달하며 아시아 주요 증시 가운데 단연 최악의 성적을 기록 중이야.</p>

@@ -10,6 +10,7 @@ coverAlt: 트럼프-시진핑 정상회담 의제와 회담을 앞둔 대만해�
 source:
   name: 파이낸셜뉴스 (2026.09.17)
   url: https://www.fnnews.com/news/202609171400158508
+visibility: private
 ---
 
 미중 정상이 다시 마주 앉습니다. 트럼프 대통령과 시진핑 주석이 **9월

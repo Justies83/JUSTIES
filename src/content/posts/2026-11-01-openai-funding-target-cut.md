@@ -10,6 +10,7 @@ coverAlt: "샌프란시스코 1515 Third Street에 있는 오픈AI 본사 건물
 source:
   name: "The Manila Times (2026.11.01)"
   url: https://www.manilatimes.net/2026/11/01/business/openai-slashes-funding-target-by-10-billion/2458702
+visibility: private
 ---
 
 <p align="center">10월 30일, 파이낸셜타임스가 오픈AI의 자금조달 소식을 전했다.<br/>챗GPT를 만든 이 회사가 최신 자금조달 목표를 <strong>100억 달러나</strong> 줄였다는 내용이다.<br/>원래 목표는 <strong>300억 달러였는데</strong>, 이제 <strong>200억 달러 안팎을</strong> 모으는 쪽으로 방향을 틀었다.<br/>기업가치도 함께 낮아졌다.<br/>한 달 전만 해도 <strong>1조4,000억 달러로</strong> 거론되던 값이 <strong>1조2,500억 달러로</strong> 내려왔다.<br/>투자자들이 약정을 확정하기로 한 마감일이 바로 그날이었다.<br/>그런데 첫 마감에서 모이는 돈은 <strong>200억 달러에도</strong> 못 미칠 거라는 전망이 보도에 함께 실렸다.<br/>일부 투자자가 약정 규모를 줄였기 때문이다.<br/>오픈AI는 이 보도에 대해 언급하지 않았다.<br/>한 달 사이에 무슨 일이 있었던 건지, 숫자부터 차근차근 따져보자.</p>

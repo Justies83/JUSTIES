@@ -10,6 +10,7 @@ coverAlt: "뉴욕증권거래소와 페더럴홀(브로드 스트리트와 월 �
 source:
   name: "Stock Preachers via PR Newswire (2026.11.13)"
   url: https://www.prnewswire.com/news-releases/weekly-gains-hold-up-despite-a-friday-slide-as-chips-lead-and-yields-climb-302939329.html
+visibility: private
 ---
 
 <p align="center">현지시간 11월 13일 금요일 뉴욕증시는 3대 지수가 모두 내렸다.<br/>다우존스30 산업평균지수는 <strong>75.29포인트(0.14%)가</strong> 내린 <strong>52,221.80에</strong>, 스탠더드앤드푸어스500 지수는 <strong>56.68포인트(0.75%)가</strong> 내린 <strong>7,535.72에</strong>, 나스닥 종합지수는 <strong>315.80포인트(1.24%)가</strong> 내린 <strong>25,050.29에</strong> 거래를 마쳤다.<br/>중소형주 중심의 러셀2000 지수도 <strong>17.98포인트(0.64%)가</strong> 내린 <strong>2,781.08에</strong> 마감했다.<br/>장 초반에는 오름세로 출발했지만 이내 하락으로 돌아서 낙폭을 키웠다.</p>

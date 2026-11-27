@@ -10,6 +10,7 @@ coverAlt: 오픈AI의 GPT-6.1 아스트라 취소 경위와 대체 모델 솔, �
 source:
   name: ZDNet Korea (2026.09.30)
   url: https://zdnet.co.kr/view/?no=20260930072733
+visibility: private
 ---
 
 [9월 29일 글에서](/posts/2026-09-29-openai-pauses-training-agents-government-sites-chip-selloff)

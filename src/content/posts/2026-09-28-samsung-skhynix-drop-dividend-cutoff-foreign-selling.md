@@ -10,6 +10,7 @@ coverAlt: 배당 마지막 매수일과 외국인·기관 순매도, 국채금�
 source:
   name: 서울신문 (2026.09.28)
   url: https://www.seoul.co.kr/news/economy/securities/2026/09/28/20260928500115
+visibility: private
 ---
 
 [오늘 아침 글에서](/posts/2026-09-28-samsung-skhynix-q3-profit-190-trillion-consensus)

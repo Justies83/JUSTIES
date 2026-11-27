@@ -10,6 +10,7 @@ coverAlt: "여의도 금융가 스카이라인"
 source:
   name: "서울경제TV (2026.10.19)"
   url: https://www.sentv.co.kr/article/view/sentv202610190173
+visibility: private
 ---
 
 <p align="center">10월 19일 코스피는 <strong>5,768.01에</strong> 마감했다.<br/>전 거래일보다 <strong>99.96포인트(1.76%)</strong> 오른 수치다.<br/>숫자만 보면 평범한 반등일처럼 보이지만, 하루의 모양은 전혀 평범하지 않았다.<br/>지수는 <strong>5,488.41</strong> — 전일보다 <strong>3.17%</strong> 낮은 자리에서 출발했고, 그 출발가가 그날의 최저가였다.<br/>그리고 장을 마친 5,768.01은 그날의 최고가였다.<br/>낮게 시작해서 끝까지 오른 날, 시가에서 종가까지 <strong>279.60포인트(5.09%)</strong>를 되돌린 하루였다.</p>

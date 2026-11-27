@@ -10,6 +10,7 @@ coverAlt: "뉴욕증권거래소 외관"
 source:
   name: "연합뉴스TV (2026.10.20)"
   url: https://www.yonhapnewstv.co.kr/news/AKR20261020053540WJT
+visibility: private
 ---
 
 <p align="center">10월 19일(월, 미국 동부) 뉴욕증시는 반등에 성공했지만, 속은 갈라져 있었다.<br/>기술주 중심의 나스닥지수는 전일보다 290.85포인트, <strong>1.11%나</strong> 오른 26,430.89에 마감했고,<br/>S&amp;P500은 31.29포인트, <strong>0.41%</strong> 상승한 7,690.73을 기록했다.<br/>반면 다우존스30 산업평균지수는 36.38포인트, <strong>0.07%</strong> 내린 51,966.03으로 장을 마쳤다.<br/>지난주 낙폭이 컸던 기술주를 중심으로 저가 매수세가 들어온 하루였다.</p>

@@ -10,6 +10,7 @@ coverAlt: 대미투자 1호 사업 엔시날 확정 경과와 국회 보고 이�
 source:
   name: 뉴스핌 (2026.09.22)
   url: https://www.newspim.com/news/view/20260922000715
+visibility: private
 ---
 
 [9월 20일 글](/posts/2026-09-20-korea-us-investment-encina-plant-sept22-report)에서

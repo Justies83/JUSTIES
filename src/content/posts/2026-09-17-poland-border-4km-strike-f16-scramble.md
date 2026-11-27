@@ -10,6 +10,7 @@ coverAlt: 폴란드 국경에서 2km와 4km 지점에서 나흘 간격으로 일
 source:
   name: 스페셜타임스 (2026.09.18)
   url: https://www.specialtimes.co.kr/news/articleView.html?idxno=464293
+visibility: private
 ---
 
 [나흘 전 이 아카이브가 도로후스크-야호딘 국경 통과소 인근 트럭 공격을

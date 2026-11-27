@@ -10,6 +10,7 @@ coverAlt: 8월 21일 협상 결렬, 미국의 50퍼센트 관세, 9월 8일 캐�
 source:
   name: NPR (2026.08.22, 08.23 갱신)
   url: https://www.npr.org/2026/08/22/nx-s1-5941584/us-canada-tariffs
+visibility: private
 ---
 
 미국과 캐나다의 무역협상이 마감 시한을 몇 시간 앞두고 결렬됐다. 카니 총리는

@@ -10,6 +10,7 @@ coverAlt: 9월 8일부터 11일까지 다우존스 등락률 흐름을 나타낸
 source:
   name: 블록미디어 (2026.09.11)
   url: https://www.blockmedia.co.kr/archives/1139051
+visibility: private
 ---
 
 9월 11일 뉴욕증시 3대 지수가 일제히 올랐습니다. 다우존스30이 1.01% 오른

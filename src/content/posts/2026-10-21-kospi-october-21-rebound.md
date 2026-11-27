@@ -10,6 +10,7 @@ coverAlt: "포토리소그래피 클린룸에서 작업하는 연구원들"
 source:
   name: "연합뉴스 (2026.10.21)"
   url: https://www.yna.co.kr/view/AKR20261021134800008
+visibility: private
 ---
 
 <p align="center">10월 21일 코스피는 <strong>5,735.66에</strong> 마감했다.<br/>전 거래일보다 <strong>182.92포인트(3.29%)</strong> 오른 수치다.<br/>어제 지수가 마친 자리는 <strong>5,552.74였다</strong>.<br/>하루 만에 낙폭의 대부분을 되찾은 셈이다.<br/>이틀 전인 10월 19일의 반전, 어제의 급락, 오늘의 급등.<br/>사흘째 시장은 같은 질문에 다른 답을 내놓고 있다.</p>

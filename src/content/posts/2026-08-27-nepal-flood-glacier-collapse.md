@@ -8,6 +8,7 @@ tags: [네팔, 홍수, 빙하붕괴, 재외국민, 두산에너빌리티]
 source:
   name: 뉴스핌 (2026.08.27)
   url: https://www.newspim.com/news/view/20260827000126
+visibility: private
 ---
 
 네팔·중국 국경 인근 히말라야 산간지대에서 8월 26일 발생한 대규모 홍수로

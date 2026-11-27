@@ -10,6 +10,7 @@ coverAlt: "데이터센터 서버 랙 전면"
 source:
   name: "로이터 (2026.10.23)"
   url: https://www.reuters.com/business/media-telecom/chinas-deepseek-minimax-win-approval-ai-global-use-state-media-affiliated-entity-2026-10-23/
+visibility: private
 ---
 
 <p align="center">목요일 늦게 올라온 한 편의 게시글이 중국 AI의 해외 진출에 대한 해석을 바꿔놓았다.<br/>중국 AI 기업 딥시크와 미니맥스가 자국 모델의 해외 사용 승인을 받았다고 로이터가 10월 23일 전했다.<br/>소식의 출처는 중국중앙방송 계열 소셜 계정 위위안탄톈(Yuyuan Tantian)이다.<br/>이 계정이 목요일 늦게 올린 게시글을 로이터가 인용했고, 두 회사는 로이터의 논평 요청에 바로 답하지 않았다.<br/>그래서 이 소식을 읽을 때는 주어를 정확히 잡는 게 먼저다.<br/>승인을 내린 부처의 공문이나 고시가 공개된 게 아니라, 관영방송 계열 계정이 두 회사의 절차 완료를 전한 것이다.<br/>그 차이가 이번 뉴스의 성격 전체를 결정한다.</p>

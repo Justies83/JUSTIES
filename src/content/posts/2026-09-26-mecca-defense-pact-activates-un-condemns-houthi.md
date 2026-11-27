@@ -10,6 +10,7 @@ coverAlt: 메카 공동방위조약 3개국의 공동성명과 유엔 안전보�
 source:
   name: 머니투데이 (2026.09.26)
   url: https://www.mt.co.kr/world/2026/09/26/2026092605281050108
+visibility: private
 ---
 
 [9월 25일 글에서](/posts/2026-09-25-houthi-taif-yanbu-missiles-oil-surge-yields-spike)

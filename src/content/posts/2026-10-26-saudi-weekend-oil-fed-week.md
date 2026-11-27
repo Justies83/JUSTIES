@@ -10,6 +10,7 @@ coverAlt: "석유 채굴 현장의 펌프잭"
 source:
   name: "로이터 (2026.10.25)"
   url: https://www.gmanetwork.com/news/topstories/world/1007116/saudi-arabia-intercepts-drones-and-missiles-as-fighting-with-houthis-continues/story/
+visibility: private
 ---
 
 <p align="center">금요일 장이 닫혔다고 위험이 주말을 쉰 건 아니었다.<br/>10월 23일 뉴욕증시가 유가 급등 속에 하락 마감한 뒤, 주말 동안 사우디에서는 미사일과 드론 요격 소식이 이어졌다.<br/>브렌트유는 배럴당 <strong>116.72달러</strong>에서 한 주를 마쳤고, 서부텍사스산원유는 <strong>103.27달러</strong>에 마감했다.<br/>그리고 월요일인 10월 26일, 한국 시간으로 새 한 주가 시작된다.<br/>이번 주에는 연준의 금리 결정과 빅테크 실적 발표가 같은 수요일에 겹쳐 있다.<br/>주말의 지정학적 긴장이 월요일 장에 그대로 이어질지, 아니면 연준과 실적이라는 다른 변수가 방향을 바꿀지가 이번 주의 관전 포인트다.</p>

@@ -10,6 +10,7 @@ coverAlt: 미스트랄 라지 4의 파라미터 규모, 학습 인프라, 주요
 source:
   name: Mistral AI (2026.10.06)
   url: https://mistral.ai/news/mistral-large-4/
+visibility: private
 ---
 <p align="center">프랑스 AI 스타트업 미스트랄이 10월 6일, 총 <strong>1조</strong> 파라미터(실제로 작동하는 활성 파라미터는 <strong>490억</strong>) 규모의 새 대형언어모델 '미스트랄 라지 4'를 공개했습니다. 개발 코드명은 '르 총크(Le Chonk)'였습니다. 텍스트와 이미지를 따로 변환 없이 한 모델이 함께 처리하는 네이티브 멀티모달 모델로, 유럽 역내 자체 데이터센터에서 엔비디아의 최신 데이터센터용 GPU인 그레이스 블랙웰 <strong>3,800장을</strong> 동원해 학습했습니다.</p>
 

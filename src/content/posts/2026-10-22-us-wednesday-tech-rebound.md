@@ -10,6 +10,7 @@ coverAlt: "뉴욕증권거래소 외관"
 source:
   name: "AP (2026.10.21)"
   url: https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-wednesday-10212026-nid21102026/
+visibility: private
 ---
 
 <p align="center">10월 21일(수, 미국 동부) 뉴욕증시는 하루 만에 방향을 바꿨다.<br/>나스닥 종합지수는 전일보다 278.04포인트, <strong>+1.05%를</strong> 오른 26,702.86에 마감했다.<br/>다우존스30 산업평균지수는 360.21포인트, <strong>+0.69%를</strong> 오른 52,856.09를 기록했다.<br/>S&amp;P500은 44.60포인트, <strong>+0.58%를</strong> 오른 7,757.17에 문을 닫았다.<br/>중소형주 지수인 러셀2000도 7.60포인트, <strong>+0.27%를</strong> 오른 2,781.02로 마감했다.<br/>S&amp;P500 기준으로 3거래일 연속 상승이고, 이달 초에 세운 사상 최고치에 다시 다가선 자리다.<br/>전날은 다우만 오르고 나스닥이 쉬어가는 혼조였는데, 하루 만에 기술주가 다시 선두로 돌아온 셈이다.</p>

@@ -10,6 +10,7 @@ coverAlt: 9월 29일 코스피·코스닥 마감 지수와 투자자별 매매 �
 source:
   name: 뉴스핌 (2026.09.29)
   url: https://www.newspim.com/news/view/20260929000900
+visibility: private
 ---
 
 [오늘 아침 글에서](/posts/2026-09-29-oil-bond-yield-surge-nyse-fall-iran-rejection)

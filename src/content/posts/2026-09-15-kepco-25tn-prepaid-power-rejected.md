@@ -10,6 +10,7 @@ coverAlt: 한전이 제안한 전기료 선납 규모와 한전 부채를 비교
 source:
   name: 파이낸셜뉴스 (2026.09.14)
   url: https://www.fnnews.com/news/202609141109530343
+visibility: private
 ---
 
 한국전력이 삼성전자와 SK하이닉스에 **5년치 전기요금을 미리 내 달라**고

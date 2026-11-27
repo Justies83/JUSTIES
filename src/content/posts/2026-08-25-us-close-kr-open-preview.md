@@ -8,6 +8,7 @@ tags: [미국증시, 코스피, 엔비디아, 반도체, 특별판]
 source:
   name: The Motley Fool (2026.08.24)
   url: https://www.fool.com/coverage/stock-market-today/2026/08/24/stock-market-today-aug-24-nvidia-extends-losses-as-tech-stocks-retreat/
+visibility: private
 ---
 
 **미장-국장 특별판.** 미국 정규장이 정상적으로 열린 다음 날 국내 증시가 개장할

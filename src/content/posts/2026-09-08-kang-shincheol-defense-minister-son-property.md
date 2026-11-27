@@ -8,6 +8,7 @@ tags: [강신철, 국방부, 인사청문회, 증여세]
 source:
   name: 경향신문 (2026.09.07)
   url: https://www.khan.co.kr/article/202609072222005/
+visibility: private
 ---
 
 ## 사실

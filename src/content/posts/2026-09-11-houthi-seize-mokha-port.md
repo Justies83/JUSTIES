@@ -10,6 +10,7 @@ coverAlt: 모카 항에서 바브엘만데브해협까지 약 75km 거리와 후
 source:
   name: Euronews (2026.09.10)
   url: https://www.euronews.com/2026/09/10/houthis-seize-red-sea-port-city-in-push-to-seize-bab-el-mandeb
+visibility: private
 ---
 
 예멘 후티 반군이 **9월 10일(목) 홍해 연안의 모카 항을 장악**했습니다. 사우디

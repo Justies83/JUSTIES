@@ -10,6 +10,7 @@ coverAlt: "뉴욕증권거래소 트레이딩 플로어"
 source:
   name: "Reuters via Kitco (2026.11.11)"
   url: https://www.kitco.com/news/off-the-wire/2026-11-11/stocks-climb-coreweave-results-ease-ai-spending-concerns
+visibility: private
 ---
 
 <p align="center">화요일의 하락은 하루짜리였다.<br/>현지시간 11월 11일 수요일 뉴욕증시는 3대 지수가 모두 올랐다.<br/>다우존스30 산업평균지수는 <strong>175.31포인트(0.34%)가</strong> 오른 <strong>52,407.20에</strong>, 스탠더드앤드푸어스500 지수는 <strong>99.86포인트(1.33%)가</strong> 오른 <strong>7,620.79에</strong>, 나스닥 종합지수는 <strong>448.03포인트(1.80%)가</strong> 오른 <strong>25,513.91에</strong> 거래를 마쳤다.<br/>하루 전 3대 지수가 일제히 내렸던 것과 정반대 방향의 하루였다.</p>

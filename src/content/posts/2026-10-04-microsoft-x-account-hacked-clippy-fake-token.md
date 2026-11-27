@@ -10,6 +10,7 @@ coverAlt: 마이크로소프트 X 계정 해킹 경위와 클리피 가짜 토�
 source:
   name: 토큰포스트 (2026.10.02)
   url: https://www.tokenpost.kr/news/tech/417586
+visibility: private
 ---
 
 마이크로소프트의 공식 **X(옛 트위터)** 계정이 해킹당해 가짜 암호화폐를

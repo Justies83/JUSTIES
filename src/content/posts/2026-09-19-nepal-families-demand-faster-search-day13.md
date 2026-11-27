@@ -10,6 +10,7 @@ coverAlt: 네팔 대홍수 실종자 수색 경과와 마지막 생존자 구조
 source:
   name: 국민일보 (2026.09.19)
   url: https://www.kmib.co.kr/article/view.asp?arcid=9000013592&code=61131111&sid1=int
+visibility: private
 ---
 
 [9월 17일 글](/posts/2026-09-17-nepal-missing-jumps-971-kdrt-withdraws)에서

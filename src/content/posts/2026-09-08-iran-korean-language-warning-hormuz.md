@@ -8,6 +8,7 @@ tags: [이란, 호르무즈해협, 파병, 이재명, 한이관계]
 source:
   name: 머니투데이 (2026.09.07)
   url: https://www.mt.co.kr/world/2026/09/07/2026090716573851034
+visibility: private
 ---
 
 [9월 6일 글](/posts/2026-09-06-korea-hormuz-deployment-dilemma)에서 다룬 한국의

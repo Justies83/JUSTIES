@@ -10,6 +10,7 @@ coverAlt: 후티 공격에 따른 유가 상승과 이란의 호르무즈 재개
 source:
   name: 한국경제 (2026.09.22)
   url: https://www.hankyung.com/article/2026092221051
+visibility: private
 ---
 
 [9월 21일 글](/posts/2026-09-21-kospi-oil-open-houthi-semiconductor)에서

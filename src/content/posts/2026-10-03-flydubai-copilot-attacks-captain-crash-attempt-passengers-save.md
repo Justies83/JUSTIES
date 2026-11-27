@@ -10,6 +10,7 @@ coverAlt: 플라이두바이 FZ1073편 조종실 공격과 추락 시도, 승객
 source:
   name: 뉴시스 (2026.10.03)
   url: https://www.newsis.com/view/NISX20261003_0003813512
+visibility: private
 ---
 
 9월 30일(현지시간) 아랍에미리트 두바이를 출발해 이스라엘 텔아비브로 향하던

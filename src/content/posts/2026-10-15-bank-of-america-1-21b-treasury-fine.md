@@ -10,6 +10,7 @@ coverAlt: "AI 생성 이미지 — 새벽 하늘 아래 미국 금융가 초고�
 source:
   name: "Al Jazeera (2026.10.14)"
   url: https://www.aljazeera.com/news/2026/10/14/us-fines-bank-of-america-1-2bn-for-money-laundering-sanctions-violations
+visibility: private
 ---
 
 <p align="center">미국 재무부가 10월 13일(현지시간) 뱅크오브아메리카에 총 **12억1천만달러**가 넘는 벌금을 부과했습니다.<br/>자금세탁방지법과 대(對)제재법을 위반했다는 이유입니다.<br/>재무부는 이번 조치가 부서 역사상 세 번째로 큰 제재라고 밝혔습니다.<br/>대상은 미국에서 두 번째로 큰 은행, 그것도 3분기 실적 시즌이 한창인 지금입니다.</p>

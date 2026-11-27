@@ -10,6 +10,7 @@ coverAlt: "뉴욕증권거래소 건물"
 source:
   name: "AP·로이터 (2026.11.06)"
   url: https://finchannel.com/did-the-stock-market-crash-today-editorial-scenario-probabilities-for-next-week/140827/featured/2026/11/
+visibility: private
 ---
 
 <p align="center">목요일의 패닉이 금요일의 저가 매수로 이어졌다.<br/>현지시간 11월 6일 금요일, 뉴욕증시는 3대 지수가 서로 다른 방향으로 마감했다.<br/>나스닥 종합지수는 <strong>264.43포인트(1.09%)가</strong> 오른 <strong>24,579.42</strong>, 스탠더드앤드푸어스500 지수는 <strong>23.13포인트(0.31%)가</strong> 오른 <strong>7,376.86</strong>에 거래를 마쳤다.<br/>반면 다우존스30 산업평균지수는 <strong>237.33포인트(0.46%)가</strong> 내린 <strong>51,285.73</strong>으로 장을 닫았다.<br/>하루 전 3대 지수가 일제히 급락했던 것과는 정반대의 그림이 아니라, 반만 되돌린 그림에 가깝다.<br/>기술주가 올랐고, 그 외의 시장은 여전히 조심스러웠다.</p>

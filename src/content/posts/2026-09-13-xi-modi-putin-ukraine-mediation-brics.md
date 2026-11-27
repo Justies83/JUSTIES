@@ -10,6 +10,7 @@ coverAlt: 브릭스 정상회의를 둘러싼 우크라이나 중재 제안과 �
 source:
   name: 경향신문 (2026.09.13)
   url: https://www.khan.co.kr/article/202609131726001/
+visibility: private
 ---
 
 인도 뉴델리에서 열린 브릭스(BRICS) 정상회의를 계기로 우크라이나 전쟁의

@@ -10,6 +10,7 @@ coverAlt: 눈 덮인 산과 호수 위에 펼쳐진 녹색·보라색 오로라 
 source:
   name: watchers.live (2026.10.09)
   url: https://watchers.live/2026/10/09/g2-moderate-geomagnetic-storm-watch-issued-for-october-11-2026/
+visibility: private
 ---
 
 <p align="center">미국 해양대기청(NOAA) 우주기상예측센터(SWPC)가 10월 11일 <strong>G2(중간)급 지자기 폭풍 경보</strong>를 발령했습니다.<br/>태양에서 날아온 전하 입자 구름이 오늘 지구 자기장에 충돌할 것으로 예측됐습니다.<br/>이번 경보는 이전에 발령됐던 경보들을 모두 대체하는 최신 예보로, 10월 11일이 가장 강한 교란이 예상되는 날로 지목됐습니다.<br/>지자기 폭풍이 오로라를 평소보다 훨씬 남쪽까지 밀어내리면서, 미국 <strong>28개 주</strong>에서 오로라 관측 가능성이 거론되고 있습니다.<br/>SWPC는 미 해양대기청 산하의 우주기상 공식 예보 기관으로, 이번 경보는 10월 9일 발령됐습니다.</p>

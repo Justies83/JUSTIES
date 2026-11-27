@@ -10,6 +10,7 @@ coverAlt: "원유 운반선 Eagle San Diego — Wikimedia Commons (CC0)"
 source:
   name: "Anadolu Agency (2026.10.17)"
   url: https://www.aa.com.tr/en/americas/trump-waives-tariffs-many-sanctions-under-new-russia-sanctions-law/4091603
+visibility: private
 ---
 
 <p align="center">금요일 밤 백악관에서 나온 행정명령에는 정반대의 결정이 한 문건에 들어 있었다.<br/>도널드 트럼프 대통령이 <strong>린지 O. 그레이엄 러시아·이란 제재법</strong>의 시행을 명령하면서, 같은 문건으로 그 법이 담은 관세의 적용을 <strong>면제</strong>해 버린 것이다.<br/>러시아산 상품에 <strong>+500%를</strong>, 러시아산 원유·가스의 5대 수입국과 제재 회피 조력국 상품에 <strong>+100%를</strong> 부과하라는 명령과, 그 관세를 지금 당장은 매기지 않겠다는 선언이 동시에 나온 셈이다.<br/>아나돌루 통신이 10월 17일 전한 이 소식은 발효 시한(10월 18일)을 하루 앞둔 시점에 나와서 더 눈길을 끌었다.</p>

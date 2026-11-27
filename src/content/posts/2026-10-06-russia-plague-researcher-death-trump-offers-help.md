@@ -10,6 +10,7 @@ coverAlt: 러시아 이르쿠츠크 페스트 연구소 연구원 사망 경위�
 source:
   name: 파이낸셜뉴스 (2026.10.06)
   url: https://www.fnnews.com/news/202610061043243578
+visibility: private
 ---
 
 러시아 시베리아·극동 지역 **이르쿠츠크** 방역연구소 소속 28세 여성

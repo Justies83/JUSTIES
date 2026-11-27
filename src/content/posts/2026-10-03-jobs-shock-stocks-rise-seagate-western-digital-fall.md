@@ -10,6 +10,7 @@ coverAlt: 10월 2일 뉴욕증시 3대 지수 상승과 고용지표 쇼크, 테
 source:
   name: 디지털데일리 (2026.10.03)
   url: https://www.ddaily.co.kr/page/view/2026100306482441151
+visibility: private
 ---
 
 [9월 30일 PCE 물가지수가 둔화되며](/posts/2026-10-01-pce-cools-yield-24yr-high-dow-falls-nasdaq-rises)

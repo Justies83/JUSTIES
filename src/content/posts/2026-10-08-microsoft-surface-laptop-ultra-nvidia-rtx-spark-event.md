@@ -10,6 +10,7 @@ coverAlt: 서피스 랩톱 울트라의 사양과 가격, 10월 7일 행사 참�
 source:
   name: Microsoft (2026.10.07)
   url: https://www.microsoft.com/en-us/surface/devices/surface-laptop-ultra
+visibility: private
 ---
 <p align="center">마이크로소프트가 <strong>10월 7일</strong> 미국 샌프란시스코에서 윈도·서피스 행사를 열고, 엔비디아의 '<strong>RTX 스파크</strong>' 칩을 탑재한 신형 노트북 '서피스 랩톱 울트라'의 가격을 <strong>2,599.99달러로</strong> 공개했습니다. 마이크로소프트가 서피스 행사를 오프라인으로 여는 것은 몇 년 만입니다. 사티아 나델라 CEO와 윈도·기기 총괄 <strong>파반 다불루리</strong>, 엔비디아 <strong>젠슨 황</strong> CEO가 함께 무대에 올랐습니다.</p>
 

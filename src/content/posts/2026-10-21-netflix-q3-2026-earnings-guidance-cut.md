@@ -10,6 +10,7 @@ coverAlt: "캘리포니아 로스 가토스의 넷플릭스 본사 건물"
 source:
   name: "걸프 뉴스 (AP) (2026.10.21)"
   url: https://gulfnews.com/technology/media/netflix-posts-higher-q3-profit-revenue-up-12-to-1287b-growth-worries-pull-shares-lower-1.500717702
+visibility: private
 ---
 
 <p align="center">10월 20일 장이 닫힌 뒤 넷플릭스가 3분기 성적표를 내놨다.<br/>숫자만 보면 잘 나온 분기였다.<br/>매출은 128억 7천만 달러로 1년 전보다 12% 늘었고,<br/>순이익은 36억 6천만 달러로 44% 뛰었다.<br/>주당순이익 0.87달러는 시장 예상 0.82달러를 웃돌았다.<br/>그런데 주가는 시간외 거래에서 4.1% 빠져 65.90달러에 거래됐다.<br/>잘 벌었는데 떨어졌다. 이 모순이 이번 실적의 전부다.</p>

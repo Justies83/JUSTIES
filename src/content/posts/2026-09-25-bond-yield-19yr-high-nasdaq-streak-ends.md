@@ -10,6 +10,7 @@ coverAlt: 9월 23일 뉴욕증시 3대 지수 하락폭과 10년물 국채금리
 source:
   name: 파이낸셜뉴스 (2026.09.24)
   url: https://www.fnnews.com/news/202609240522539326
+visibility: private
 ---
 
 [9월 23일 글에서](/posts/2026-09-23-wallst-mixed-financials-fall-chips-record)

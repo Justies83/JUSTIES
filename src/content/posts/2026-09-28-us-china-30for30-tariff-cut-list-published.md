@@ -10,6 +10,7 @@ coverAlt: 미국과 중국이 각각 발표한 300억달러 규모 관세 인하
 source:
   name: 뉴스핌 (2026.09.28)
   url: https://www.newspim.com/news/view/20260928000774
+visibility: private
 ---
 
 [9월 27일 글에서](/posts/2026-09-27-trump-xi-soybeans-rare-earth-two-month-reason)

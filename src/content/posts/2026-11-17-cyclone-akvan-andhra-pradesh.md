@@ -10,6 +10,7 @@ coverAlt: "벵골만 위의 사이클론 위성 사진"
 source:
   name: "The Times of India (PTI) (2026.11.16)"
   url: https://timesofindia.indiatimes.com/city/visakhapatnam/cyclone-akvan-alert-very-severe-storm-likely-near-andhra-coast-by-nov-19-tamil-nadu-districts-brace-for-rain/articleshow/135894488.cms
+visibility: private
 ---
 
 <p align="center">벵골만이 또 들썩이고 있다.<br/>인도 기상청(IMD)은 11월 16일 저녁, 벵골만 남동부와 남서부에 있던 깊은 저기압이 사이클론으로 발달했다고 밝혔다.<br/>이름은 아크반이다.<br/>올해 벵골만에서 세 번째로 이름을 얻은 사이클론이고, 10월 28일 상륙한 아르나브와 11월 2\~3일 상륙한 무라수에 이어 3주 만에 세 번째 폭풍이 같은 해안을 향하고 있다.</p>

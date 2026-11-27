@@ -10,6 +10,7 @@ coverAlt: 9월 9일 뉴욕증시 업종·지수별 등락률을 나타낸 도표
 source:
   name: 이투데이 (2026.09.09)
   url: https://www.etoday.co.kr/news/view/2623770
+visibility: private
 ---
 
 9월 9일 뉴욕증시는 3대 지수가 모두 내렸습니다. 다우존스30 산업평균지수가

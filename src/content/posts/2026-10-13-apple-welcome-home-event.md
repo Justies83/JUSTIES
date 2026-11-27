@@ -10,6 +10,7 @@ coverAlt: "AI 생성 이미지 — 해 질 녘 거실 콘솔 위에 놓인 스�
 source:
   name: "inthrill · techreview.si (2026.10.13, 행사 후 보도)"
   url: https://inthrill.com/apples-welcome-home-event-is-october-13-what-to-expect/
+visibility: private
 ---
 
 <p align="center">애플이 10월 13일(미국 동부 시간) 뉴욕 트리베카에서 'Welcome Home' 행사를 열고 스마트홈 신제품 3종을 공개했습니다.<br/>첫 스마트홈 허브의 공식 명칭은 <strong>'HomeView'</strong>로 확정됐고, 가격은 <strong>299달러</strong>입니다.<br/>홈팟 미니 2는 <strong>149달러</strong>에 10월 30일 판매를 시작하고, 새 애플 TV 4K는 <strong>299달러</strong>에 11월 13일 출하됩니다.<br/>세 제품 모두 행사 당일인 10월 13일부터 사전주문을 받기 시작했습니다.<br/>행사 전 보도됐던 전망과 비교하면 제품 구성은 그대로였고, 허브의 이름과 가격·일정이 이날 확정된 셈입니다.</p>

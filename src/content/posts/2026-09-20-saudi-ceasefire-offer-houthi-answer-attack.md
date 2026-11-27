@@ -10,6 +10,7 @@ coverAlt: 사우디의 2주 휴전 제안과 이틀 뒤 후티의 리야드·얀
 source:
   name: 머니투데이 (2026.09.18)
   url: https://www.mt.co.kr/world/2026/09/18/2026091808033124471
+visibility: private
 ---
 
 [전날 글](/posts/2026-09-20-houthi-riyadh-yanbu-attack-pipeline-recovery)에서

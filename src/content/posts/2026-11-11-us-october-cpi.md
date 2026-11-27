@@ -10,6 +10,7 @@ coverAlt: "2026년 9월 미국 오리건주 유진의 주유소 휘발유 가격
 source:
   name: "BLS (2026.11.10)"
   url: https://www.bls.gov/news.release/cpi.nr0.htm
+visibility: private
 ---
 
 <p align="center">현지시간 11월 10일 화요일 아침 8시 30분, 미국 노동통계국(BLS)이 10월 소비자물가지수(CPI)를 내놨다.<br/>한국시간으로는 밤 10시 30분이다.<br/>전월 대비 <strong>0.4%를</strong> 기록했다.<br/>9월 0.6%보다는 낮아졌지만, 시장이 예상한 0.3%는 웃돌았다.<br/>식품과 에너지를 뺀 근원지수도 <strong>0.3%를</strong> 기록해, 8월과 9월에 이어 세 달 연속 같은 폭을 이어갔다.<br/>근원 예상치는 0.2%였다.<br/>둘 다 예상을 넘긴 셈이다.</p>

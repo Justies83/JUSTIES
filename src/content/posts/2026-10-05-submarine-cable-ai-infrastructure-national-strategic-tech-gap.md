@@ -10,6 +10,7 @@ coverAlt: 국내 해저케이블 노후화 현황과 국가전략기술 지원 �
 source:
   name: 이데일리 (2026.10.05)
   url: https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=01105366645609968
+visibility: private
 ---
 
 AI 시대 데이터 전송의 혈관 같은 존재인 해저케이블이, 정작 국가전략기술

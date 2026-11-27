@@ -10,6 +10,7 @@ coverAlt: "데이터센터 서버실"
 source:
   name: "Anthropic (2026.11.09)"
   url: https://www.anthropic.com/claude-fable-and-mythos-5-2
+visibility: private
 ---
 
 <p align="center">현지시간 11월 9일 월요일, 앤트로픽이 최상위 모델 두 종을 한꺼번에 내놨다.<br/>클로드 페이블 5.2와 클로드 미토스 5.2다.<br/>두 모델은 이름만 다를 뿐 밑바탕은 같은 모델이다.<br/>달라지는 건 안전장치와 쓸 수 있는 사람이다.<br/>페이블은 사이버보안·생물학 분야에 강한 안전장치를 단 채 누구나 쓸 수 있고, 미토스는 그 장치를 푼 대신 검증을 거친 조직에만 열린다.<br/>가격은 입력 토큰 100만 개당 <strong>8달러</strong>, 출력 토큰 100만 개당 <strong>40달러</strong>로, 전 세대 페이블 5.1의 10달러·50달러보다 <strong>20%를</strong> 내렸다.<br/>출력 속도는 전 세대보다 최대 <strong>30%</strong> 빨라졌다고 회사는 밝혔다.</p>

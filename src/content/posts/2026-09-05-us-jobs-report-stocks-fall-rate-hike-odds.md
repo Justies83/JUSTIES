@@ -8,6 +8,7 @@ tags: [뉴욕증시, 나스닥, S&P500, 다우존스, 연준, 고용지표]
 source:
   name: Yahoo Finance (2026.09.04)
   url: https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-4-133716564.html
+visibility: private
 ---
 
 [전날 글](/posts/2026-09-04-us-stocks-waller-rate-hold-rally)에서 다뤘던

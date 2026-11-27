@@ -10,6 +10,7 @@ coverAlt: "프리토리아 스카이라인"
 source:
   name: "AP (2026.11.16)"
   url: https://www.koreatimes.co.kr/amp/world/20261116/at-least-17-people-killed-in-2-mass-shootings-on-the-same-day-in-south-africa
+visibility: private
 ---
 
 <p align="center">일요일 밤, 남아프리카공화국에서 두 건의 집단 총격이 잇따랐다.<br/>하나는 수도 프리토리아 인근, 다른 하나는 530km 떨어진 피터마리츠버그 외곽이었다.<br/>경찰이 월요일 발표한 사망자는 모두 <strong>17명</strong>이다.<br/>두 사건 모두 용의자는 잡히지 않았고, 동기도 아직 밝혀지지 않았다.<br/>남아공에서 집단 총격이 잇따른 건 이번이 처음이 아니다.<br/>올해만 해도 6월에 두 건, 9월에 세 건의 대형 총격이 있었다.<br/>하룻밤에 17명이 숨진 이번 사건은 그 흐름 위에 다시 올라온 숫자다.</p>

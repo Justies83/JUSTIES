@@ -10,6 +10,7 @@ coverAlt: "화재 전의 리모주 시청사 — Wikimedia Commons (File:Limoges
 source:
   name: "이투데이 (2026.10.18)"
   url: https://www.etoday.co.kr/news/view/2636964
+visibility: private
 ---
 
 <p align="center">프랑스가 하루 만에 2018년으로 돌아간 듯한 풍경을 보여줬다.<br/>현지시간 10월 17일, 파리·마르세유·리옹·보르도·릴 등 전국 <strong>1,750</strong>여 곳에서 대규모 시위가 열렸다.<br/>프랑스 내무부는 참가자를 <strong>55만</strong>명으로 추산했고, 시위를 주최한 노동총연맹(CGT)은 <strong>80만</strong>명이 나왔다고 밝혔다.<br/>다음 날 세바스티앵 르코르뉘 총리는 <strong>1,200</strong>명이 체포되고 경찰관 <strong>150</strong>명이 다쳤다고 발표했다.<br/>중부 도시 리모주에서는 시위대가 시청에 불을 질러 종탑이 무너졌고, 파리에서는 라파예트 백화점과 셀린느·디올 같은 명품 매장이 약탈당했다.</p>

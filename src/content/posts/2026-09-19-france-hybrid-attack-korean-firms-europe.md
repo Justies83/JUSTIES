@@ -10,6 +10,7 @@ coverAlt: 프랑스의 방어령 발령 배경이 된 최근 사보타주 사례
 source:
   name: 글로벌이코노믹 (2026.09.19)
   url: https://www.g-enews.com/article/Global-Biz/2026/09/20260919074210151fda4f5ab74_1
+visibility: private
 ---
 
 [9월 17일 글](/posts/2026-09-17-poland-border-4km-strike-f16-scramble)에서

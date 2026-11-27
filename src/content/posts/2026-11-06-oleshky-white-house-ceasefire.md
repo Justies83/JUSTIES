@@ -10,6 +10,7 @@ coverAlt: "미국 워싱턴의 백악관"
 source:
   name: "Dawn (2026.11.06)"
   url: https://www.dawn.com/news/2042442/melania-trump-hosts-russia-ukraine-meeting-calls-for-enduring-truce
+visibility: private
 ---
 
 <p align="center">11월 5일 목요일, 백악관 그랜드포이어에 러시아와 우크라이나 대표가 나란히 앉았다.<br/>미국 영부인 멜라니아 트럼프가 주최한 행사였다.<br/>전쟁이 시작된 <strong>2022년 2월</strong> 이후 양국 대표가 미국 땅에서 얼굴을 마주한 가장 이례적인 장면 가운데 하나였다.<br/>계기는 우크라이나 남부 헤르손 지역의 러시아 점령 도시 올레시키에서 지켜진 <strong>6일간</strong>의 국지 휴전이었다.<br/>작은 도시 하나의 멈춤이 백악관의 한 방으로, 다시 다음 주 아부다비 회담으로 이어지는 흐름이 만들어졌다.</p>

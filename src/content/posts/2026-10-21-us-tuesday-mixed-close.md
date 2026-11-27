@@ -10,6 +10,7 @@ coverAlt: "월스트리트 거리 표지판과 뉴욕증권거래소"
 source:
   name: "트레이딩키 (2026.10.21)"
   url: https://www.tradingkey.com/analysis/stocks/us-stocks/262226866-us-stock-market-close-dow-sp500-us-iran-crude-oil-prices-drop-tradingkey
+visibility: private
 ---
 
 <p align="center">10월 20일(화, 미국 동부) 뉴욕증시는 갈라진 채로 문을 닫았다.<br/>다우존스30 산업평균지수는 전일보다 530포인트, <strong>1.02%를</strong> 오른 52,495.88에 마감했고,<br/>S&amp;P500은 <strong>0.28%</strong> 상승한 7,712.57을 기록했다.<br/>반면 나스닥 종합지수는 26,424.82로 <strong>0.02%</strong> 내리며 제자리걸음을 했다.<br/>월요일의 반등을 이어가지 못한, 지수별 온도차가 뚜렷한 하루였다.</p>

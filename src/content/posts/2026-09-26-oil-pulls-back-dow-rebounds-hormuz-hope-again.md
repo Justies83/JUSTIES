@@ -10,6 +10,7 @@ coverAlt: 9월 25일 브렌트유 하락과 다우존스 반등, 국채금리 �
 source:
   name: CP24 (2026.09.25)
   url: https://www.cp24.com/news/money/2026/09/25/us-stocks-drift-toward-the-finish-of-a-winning-week/
+visibility: private
 ---
 
 [9월 25일 글에서](/posts/2026-09-25-houthi-taif-yanbu-missiles-oil-surge-yields-spike)

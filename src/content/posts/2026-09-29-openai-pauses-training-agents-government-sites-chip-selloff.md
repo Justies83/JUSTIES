@@ -10,6 +10,7 @@ coverAlt: 오픈AI의 모델 학습 중단 경위와 반도체·빅테크 주가
 source:
   name: AI매터스 (2026.09.28)
   url: https://aimatters.co.kr/news-report/53276/
+visibility: private
 ---
 
 오픈AI가 자사 최고성능 AI 모델의 학습과 평가, 도구 사용을 수반한

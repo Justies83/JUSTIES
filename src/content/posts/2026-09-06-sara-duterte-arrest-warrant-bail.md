@@ -8,6 +8,7 @@ tags: [필리핀, 사라두테르테, 마르코스, 탄핵]
 source:
   name: KPBS/NPR (2026.09.05)
   url: https://www.kpbs.org/news/international/2026/09/05/philippines-vice-president-sara-duterte-posts-bail-after-arrest
+visibility: private
 ---
 
 ## 사실

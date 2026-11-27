@@ -10,6 +10,7 @@ coverAlt: 호르무즈 해협 유조선 피격 현황과 선원 위험수당 급
 source:
   name: 글로벌이코노믹 (2026.10.06)
   url: https://g-enews.com/article/Global-Biz/2026/10/2026100523513167019a1f309431_1
+visibility: private
 ---
 
 [9월 말부터 다시 불붙은 호르무즈발 유가 불안이](/posts/2026-10-02-iran-standoff-oil-spikes-us-carrier-china-export-halt)

@@ -10,6 +10,7 @@ coverAlt: 2026년 노벨물리학상 수상자 프랜시스 핼즌과 아이스�
 source:
   name: 알자지라 (2026.10.06)
   url: https://www.aljazeera.com/news/2026/10/6/francis-halzen-wins-nobel-prize-in-physics-for-work-on-ghost-particles
+visibility: private
 ---
 <p align="center">스웨덴 왕립과학원이 <strong>10월 6일</strong> 벨기에 출신 물리학자 <strong>프랜시스 핼즌에게</strong> 2026년 노벨물리학상을 수여한다고 발표했습니다. 남극 대륙 빙하 속에 지은 중성미자 관측소 '<strong>아이스큐브</strong>'를 세우는 데 핵심 역할을 했고, 이 관측소가 모은 자료로 고에너지 중성미자가 어떻게 만들어지는지를 밝혀낸 공로입니다.</p>
 

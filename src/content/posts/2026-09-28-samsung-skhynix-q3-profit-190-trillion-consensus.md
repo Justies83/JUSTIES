@@ -10,6 +10,7 @@ coverAlt: 삼성전자와 SK하이닉스의 3분기 영업이익 컨센서스와
 source:
   name: 파이낸셜뉴스 (2026.09.28)
   url: https://www.fnnews.com/news/202609280631163675
+visibility: private
 ---
 
 [9월 28일 아침 글에서](/posts/2026-09-28-kospi-reopens-after-chuseok-semiconductor-watch)

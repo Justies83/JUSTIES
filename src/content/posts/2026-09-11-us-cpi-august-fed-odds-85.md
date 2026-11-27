@@ -10,6 +10,7 @@ coverAlt: 8월 CPI 발표 전후 연준 9월 금리 인상 확률 변화를 나�
 source:
   name: 머니투데이 (2026.09.11)
   url: https://www.mt.co.kr/world/2026/09/11/2026091122262423390
+visibility: private
 ---
 
 미국 노동통계국이 9월 11일 발표한 8월 소비자물가지수(CPI)가 전년 동월 대비

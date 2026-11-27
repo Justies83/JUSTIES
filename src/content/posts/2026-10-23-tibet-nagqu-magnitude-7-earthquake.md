@@ -10,6 +10,7 @@ coverAlt: "티베트 나취 암도 일대 탕굴라 고개, 룽다와 설산이 
 source:
   name: "연합뉴스 (2026.10.23)"
   url: https://www.yna.co.kr/view/AKR20261023009752009?section=international/all
+visibility: private
 ---
 
 <p align="center">밤 10시 33분이었다.<br/>중국 서부 티베트, 나취시 바칭현에서 땅이 크게 흔들렸다.<br/>규모는 <strong>7.0</strong>이었다.<br/>10월 23일 오후 1시 기준 사망자는 <strong>16명</strong>, 부상자는 <strong>76명</strong>으로 집계됐다.<br/>가옥 <strong>339채</strong>가 무너지거나 파손됐고, 가축 축사 20곳도 피해를 봤다.<br/>부상자 수는 오전 집계 46명에서 오후에 30명이 더 늘었다.<br/>피해 조사가 계속되는 동안 숫자는 아직 확정된 것이 아니다.</p>

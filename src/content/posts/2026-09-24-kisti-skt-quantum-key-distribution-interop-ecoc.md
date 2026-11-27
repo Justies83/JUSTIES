@@ -10,6 +10,7 @@ coverAlt: KISTI 양자키분배 시뮬레이터와 SKT 키관리시스템의 국
 source:
   name: 헤럴드경제 (2026.09.22)
   url: https://biz.heraldcorp.com/article/10881728
+visibility: private
 ---
 
 한국과학기술정보연구원(KISTI)과 SK텔레콤이 양자암호통신망을 실제로

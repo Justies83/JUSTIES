@@ -10,6 +10,7 @@ coverAlt: 트럼프의 이란 제안 거절 이후 유가 급등과 미 국채�
 source:
   name: 아시아경제 (2026.09.28)
   url: https://view.asiae.co.kr/article/2026092818444405696
+visibility: private
 ---
 
 [9월 27일 글에서](/posts/2026-09-27-trump-rejects-iran-7-day-hormuz-roadmap)

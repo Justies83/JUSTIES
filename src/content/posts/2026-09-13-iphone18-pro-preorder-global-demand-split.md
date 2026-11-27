@@ -10,6 +10,7 @@ coverAlt: 아이폰 18 프로 사전예약 개시 후 지역별 매진까지 걸
 source:
   name: BigGo Finance (2026.09.12)
   url: https://finance.biggo.com/news/659ad519-98c1-4bc3-a7fd-6f443037163b
+visibility: private
 ---
 
 [9월 12일 글](/posts/2026-09-12-iphone18-pro-preorder-carriers)에서 국내

@@ -10,6 +10,7 @@ coverAlt: AI 생성 이미지 — 별 앞을 지나는 외계행성, 한쪽 가�
 source:
   name: "Phys.org (2026.10.14)"
   url: https://phys.org/news/2026-10-trailblazing-technique-uncovers-real-hot.html
+visibility: private
 ---
 
 <p align="center">가장 중요한 사실부터 정리합니다.<br/>10월 14일, 외계행성의 대기가 실제로 어떤 모양을 하고 있는지 처음으로 직접 측정한 연구가 학술지 <em>Nature Astronomy</em>에 실렸습니다.<br/>미국 코넬대학교와 영국 브리스톨대학교 공동 연구진은 제임스웹우주망원경(JWST) 관측 자료로 뜨거운 목성 WASP-17b의 대기 가장자리를 각도별로 재는 데 성공했고, 그 대기가 완전한 공이 아니라 **한쪽이 더 부풀어 오른 찌그러진 공(deformed sphere)** 형태라는 것을 확인했습니다.<br/>논문 제목은 「A Spatial Map of the Atmospheric Limb of a Hot Jupiter」이며, 제1저자는 코넬대의 릴리 올더슨 박사입니다.<br/>연구를 이끈 공동 기관인 코넬대와 브리스톨대가 각각 미국과 영국 측 연구를 맡았습니다.</p>

@@ -10,6 +10,7 @@ coverAlt: AI 생성 이미지 — 화성 붉은 대지를 달리는 6륜 탐사 
 source:
   name: "Reuters (2026.10.13)"
   url: https://www.reuters.com/science/nasas-perseverance-rover-breaks-record-off-planet-driving-mars-2026-10-13/
+visibility: private
 ---
 
 <p align="center">가장 중요한 사실부터 정리합니다.<br/>현지시간 10월 13일, NASA가 화성 탐사 로버 퍼서비어런스가 지구 너머 어떤 세계에서도 차량이 달린 최장 거리 기록을 세웠다고 발표했습니다.<br/>2021년 화성에 도착한 이후 누적 주행거리가 **28.1마일(45.2km)**에 달한 것입니다.<br/>종전 기록은 2004년부터 2018년까지 화성을 누빈 오퍼튜니티 로버의 **28.06마일(45km)**이었습니다.<br/>달에서 운행한 어떤 로버보다도 먼 거리입니다.</p>

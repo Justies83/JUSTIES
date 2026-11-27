@@ -10,6 +10,7 @@ coverAlt: 중국 오픈소스 AI 모델의 오픈라우터 점유율 변화와 �
 source:
   name: CNN Business (2026.09.26)
   url: https://www.cnn.com/2026/09/26/tech/us-china-ai-explainer-intl-hnk
+visibility: private
 ---
 
 AI 모델 중개 플랫폼 **오픈라우터에서** 중국산 오픈소스 AI 모델의 글로벌

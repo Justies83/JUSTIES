@@ -10,6 +10,7 @@ coverAlt: "코파항공 보잉 737-800"
 source:
   name: "더 스테이츠먼 (2026.11.15)"
   url: https://www.thestatesman.com/world/copa-airlines-ups-planes-collide-at-miami-airport-two-injured-1503662776.html/amp
+visibility: private
 ---
 
 <p align="center">토요일 밤 9시 15분쯤, 마이애미국제공항 유도로 교차로에서 코파항공 보잉 737-800의 왼쪽 날개 끝이 UPS 보잉 767 화물기의 기수를 쳤다.<br/>파나마시티에서 도착한 코파 427편은 게이트로 향하던 중이었고, 보고타로 출발하려던 UPS 358편은 이륙을 위해 유도로를 이동하던 중이었다.<br/>코파기에는 승객 <strong>166명과</strong> 승무원 <strong>6명</strong>이 타고 있었다.<br/>충돌로 승객 2명이 가벼운 부상을 입고 현장에서 치료를 받았고, 연방항공청(FAA)이 조사에 들어갔다.</p>

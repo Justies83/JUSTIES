@@ -8,6 +8,7 @@ tags: [호르무즈해협, 파병, 이란전쟁, 한미관계]
 source:
   name: 세계일보 (2026.09.06)
   url: https://www.segye.com/newsView/20260906508881
+visibility: private
 ---
 
 ## 사실

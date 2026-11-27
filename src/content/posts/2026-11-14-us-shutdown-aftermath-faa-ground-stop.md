@@ -10,6 +10,7 @@ coverAlt: "미국 국회의사당 돔 (워싱턴 D.C.)"
 source:
   name: "알자지라 (2026.11.14)"
   url: https://www.aljazeera.com/amp/news/2026/11/14/faa-ground-stop-lifted-why-were-us-flights-grounded-and-whats-next
+visibility: private
 ---
 
 <p align="center">43일 만에 문을 연 미국 연방정부가 하루 만에 또 멈춰 섰다.<br/>이번에는 하늘이었다.<br/>11월 12일 목요일, 셧다운이 끝나고 공무원들이 출근한 바로 다음 날인 13일 금요일 오후, 미 연방항공청(FAA)은 전국 운항 중단 명령을 내렸다.<br/>오후 3시 54분부터 8시 15분까지, <strong>4시간 21분</strong> 동안 미국 전역에서 출발하는 비행기가 한 대도 뜨지 못했다.<br/>25년 만에 가장 긴 전국 운항 중단이고, 2023년 1월 이후 처음이자 9·11 테러 이후 두 번째다.</p>

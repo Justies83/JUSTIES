@@ -8,6 +8,7 @@ tags: [영국, 이스라엘, 서안지구, 정착촌]
 source:
   name: anews (2026.09.01)
   url: https://www.anews.com.tr/world/2026/09/01/uk-pledges-major-policy-reset-on-israel-over-west-bank-settlement-plan/amp
+visibility: private
 ---
 
 ## 사실

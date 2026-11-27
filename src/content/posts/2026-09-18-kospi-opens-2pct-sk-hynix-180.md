@@ -10,6 +10,7 @@ coverAlt: 9월 18일 코스피 개장과 SK하이닉스·삼성전자 상승률�
 source:
   name: 뉴시스 (2026.09.18)
   url: https://www.fnnews.com/news/202609180925128797
+visibility: private
 ---
 
 [전날 글](/posts/2026-09-18-wallst-rebound-oil-yields-fall-pipeline)에서

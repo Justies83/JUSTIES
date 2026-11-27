@@ -10,6 +10,7 @@ coverAlt: "뭄바이 다랄 스트리트에 있는 봄베이 증권거래소 건
 source:
   name: "Reuters (2026.10.28)"
   url: https://www.reuters.com/world/china/businesses-investors-ambanis-jio-it-debuts-indian-bourses-2026-10-28/
+visibility: private
 ---
 
 <p align="center">10월 28일 오전, 뭄바이 증권거래소에 또 하나의 거인이 들어섰다.<br/>릴라이언스 인더스트리즈의 디지털·통신 자회사 지오 플랫폼스가 이날 봄베이 증권거래소(BSE)와 인도 국립증권거래소(NSE)에 동시에 상장했다.<br/>첫 거래 가격은 <strong>1,358루피로</strong>, 공모가 <strong>1,119루피보다 21.36% 높았다</strong>.<br/>공모주를 배정받은 투자자라면 주당 239루피를 첫날 오전에 이미 손에 쥔 셈이다.<br/>장 초반 고점은 1,374루피까지 찍혔고, 오전 거래 가격은 1,357루피 안팎에서 움직였다.<br/>첫날부터 주가가 흔들리기보다 공모가 위에서 자리를 잡는 모습이었다.</p>

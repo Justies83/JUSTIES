@@ -10,6 +10,7 @@ coverAlt: "연준 의장 케빈 워시 — 2026년 5월 22일 백악관 취임�
 source:
   name: "WSJ (2026.10.16)"
   url: https://www.wsj.com/economy/central-banking/warsh-avoids-signal-on-october-rate-move-a176b0d5
+visibility: private
 ---
 
 <p align="center">오늘 낮 12시 반, 태국 방콕에서 케빈 워시 연준 의장과 크리스탈리나 게오르기에바 IMF 총재의 대담이 끝났다.<br/>한국시간으로 정오에 시작된 자리였다.<br/>시장이 기다렸던 10월 금리 인상에 대한 힌트는 나오지 않았다.<br/>워시는 "회의를 미리 판단하지 않는다(I don't prejudge meetings)"고 잘라 말했다.<br/>연준이 앞으로 금리 결정을 미리 암시하는 일을 하지 않겠다는 입장도 다시 밝혔다.<br/>월스트리트저널(WSJ)은 "워시가 10월 금리 움직임에 대한 신호를 피했다"고 전했다.</p>

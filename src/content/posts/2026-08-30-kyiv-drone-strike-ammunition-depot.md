@@ -8,6 +8,7 @@ tags: [우크라이나, 러시아, 키이우, 드론공격, 젤렌스키]
 source:
   name: 아주경제 (2026.08.29)
   url: https://www.ajunews.com/view/20260829214306365
+visibility: private
 ---
 
 러시아의 우크라이나 침공이 4년 반 넘게 이어지는 가운데, 8월 28일 밤 키이우

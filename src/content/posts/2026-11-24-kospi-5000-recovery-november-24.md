@@ -10,6 +10,7 @@ coverAlt: "한국거래소 부산 본사 건물"
 source:
   name: "연합뉴스 (2026.11.24)"
   url: https://www.yna.co.kr/view/AKR20261124137500008
+visibility: private
 ---
 
 <p align="center">24일 코스피는 전 거래일보다 <strong>297.49포인트(6.32%)가</strong> 오른 <strong>5,006.03에</strong> 장을 마쳤다.<br/>종가 기준으로 3거래일 만에 5,000선을 되찾았다.<br/>코스닥도 <strong>30.43포인트(4.79%)가</strong> 오른 <strong>665.88에</strong> 마감했다.<br/>지난 20일과 23일, 이틀 연속 매도 사이드카가 걸리며 4,700선 초반까지 밀렸던 시장이 하루 만에 방향을 바꿨다.</p>

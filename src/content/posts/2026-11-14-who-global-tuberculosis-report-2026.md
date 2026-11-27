@@ -10,6 +10,7 @@ coverAlt: "마스크와 실험복을 입고 현미경으로 결핵 검체를 보
 source:
   name: "WHO (2026.11.12)"
   url: https://www.who.int/news/item/12-11-2026-amid-challenges-countries-increase-domestic-investment-to-protect-progress-against-tuberculosis
+visibility: private
 ---
 
 <p align="center">11월 12일, 세계보건기구(WHO)가 1년짜리 결핵 성적표를 내놨다.<br/>Global Tuberculosis Report 2026이다.<br/>2025년에 전 세계에서 결핵에 새로 걸린 사람은 약 <strong>1,060만 명</strong>, 결핵으로 숨진 사람은 약 <strong>113만 명</strong>으로 추산된다.<br/>사망자는 2015년보다 <strong>35</strong>% 줄었다.<br/>WHO의 End TB 전략이 세운 첫 사망 감소 목표에 도달한 건데, 원래 기한보다 5년 늦었다.<br/>그런데 새로 걸리는 사람의 비율은 같은 기간 <strong>14</strong>% 줄어드는 데 그쳤다.<br/>2025년까지 절반으로 줄이겠다는 목표와는 거리가 멀다.<br/>결핵은 지금도 단일 감염병으로는 전 세계에서 가장 많은 사람을 죽이는 병이다.</p>

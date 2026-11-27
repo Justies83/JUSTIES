@@ -10,6 +10,7 @@ coverAlt: "드니프로강을 가로지르는 다르니츠키 다리"
 source:
   name: "Kyiv Independent (2026.11.20)"
   url: https://kyivindependent.com/russia-launches-mass-missile-attack-against-ukraine-after-putin-vows-revenge/
+visibility: private
 ---
 
 <p align="center">현지시간 11월 20일 새벽 1시 25분, 키이우 상공에 첫 폭발음이 울렸다.<br/>러시아가 쏜 미사일과 드론이 8시간 넘게 우크라이나 전역을 때렸다.<br/>우크라이나 공군이 밝힌 규모는 순항미사일 84발, 탄도미사일 27발, 드론 404대.<br/>젤렌스키 대통령은 이번 공습을 '이번 전쟁에서 가장 큰 공습 중 하나'라고 불렀다.<br/>지금까지 확인된 사망자는 최소 8명, 부상자는 30명 안팎이다.</p>

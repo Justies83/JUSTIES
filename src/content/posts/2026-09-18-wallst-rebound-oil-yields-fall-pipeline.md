@@ -10,6 +10,7 @@ coverAlt: 9월 17일 뉴욕증시 반등과 국채금리·유가 하락을 정�
 source:
   name: 이데일리 (2026.09.18)
   url: https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=01938486645581432
+visibility: private
 ---
 
 [전날 글](/posts/2026-09-17-saudi-pipeline-repair-estimates-split-oil-retreats)에서

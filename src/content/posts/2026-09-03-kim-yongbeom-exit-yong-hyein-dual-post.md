@@ -8,6 +8,7 @@ tags: [이재명, 김용범, 용혜인, 개각]
 source:
   name: 머니투데이 (2026.09.01)
   url: https://www.mt.co.kr/politics/2026/09/01/2026090109163537411
+visibility: private
 ---
 
 ### 김용범 정책실장, 취임 15개월 만에 전격 사퇴

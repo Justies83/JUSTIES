@@ -8,6 +8,7 @@ tags: [코스피, 코스닥, 반도체, 이차전지]
 source:
   name: 이투데이 (2026.09.09)
   url: https://www.etoday.co.kr/news/view/2623669
+visibility: private
 ---
 
 [9월 8일 글](/posts/2026-09-08-kospi-close-7000-ceiling-reversal)에서 "천장 같은

@@ -10,6 +10,7 @@ coverAlt: 코스피의 최근 한 주 흐름과 이번주 예상 등락 범위�
 source:
   name: 이데일리 (2026.09.13)
   url: https://www.edaily.co.kr/News/Read?newsId=01489126645579792
+visibility: private
 ---
 
 지난주 코스피는 한 번 더 7,000선을 찍었다가 다시 밀려났습니다.

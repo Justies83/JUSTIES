@@ -10,6 +10,7 @@ coverAlt: 10월 8일 뉴욕증시 3대 지수 마감 수치와 주간·연초 �
 source:
   name: AP (2026.10.08)
   url: https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-thursday-1082026-nid08102026/
+visibility: private
 ---
 <p align="center">10월 8일(현지시간) 뉴욕증시 3대 지수가 혼조 마감했습니다. 다우존스산업평균은 <strong>51.77포인트(0.1%)</strong> 오른 <strong>51,231.64를</strong> 기록했지만, S&P500은 <strong>36.41포인트(0.5%)</strong> 내린 <strong>7,765.36</strong>, 나스닥종합지수는 <strong>345.35포인트(1.3%)</strong> 내린 <strong>27,193.34로</strong> 마감했습니다.</p>
 

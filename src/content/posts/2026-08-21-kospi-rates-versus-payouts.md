@@ -10,6 +10,7 @@ coverAlt: 8월 18일부터 21일까지 코스피와 코스닥 등락을 나타�
 source:
   name: 아시아경제 · 국제뉴스
   url: https://www.asiae.co.kr/article/2026082110095015316
+visibility: private
 ---
 
 간밤 미국 증시가 일제히 내렸다. 다우 −1.32%, S&P500 −0.87%, 나스닥 −1.00%.

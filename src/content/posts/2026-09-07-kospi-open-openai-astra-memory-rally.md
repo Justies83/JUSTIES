@@ -8,6 +8,7 @@ tags: [코스피, 코스닥, 삼성전자, SK하이닉스, 오픈AI, 메모리�
 source:
   name: 세계일보 (2026.09.07)
   url: https://www.segye.com/newsView/20260907503460
+visibility: private
 ---
 
 [9월 5일 글](/posts/2026-09-05-us-jobs-report-stocks-fall-rate-hike-odds)에서

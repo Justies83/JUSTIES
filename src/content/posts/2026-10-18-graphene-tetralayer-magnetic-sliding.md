@@ -10,6 +10,7 @@ coverAlt: "그래핀 적층 구조 일러스트 (Spaguettovince, CC BY-SA 4.0)"
 source:
   name: "Cornell Chronicle (2026.10.14)"
   url: https://news.cornell.edu/stories/2026/10/electrical-sliding-switches-graphene-between-magnetic-states
+visibility: private
 ---
 
 <p align="center">가장 중요한 사실부터 정리한다.<br/>전압만으로 물질의 자성을 켰다 껐다 할 수 있게 됐다.<br/>미국 코넬대 연구진이 4층으로 쌓은 그래핀에 게이트 전압을 걸어 원자층 전체를 옆으로 밀어내는 방식으로, 자성이 없는 상태와 자성이 있는 상태를 오가는 데 성공했다.<br/>전압을 끊은 뒤에도 바뀐 상태가 그대로 남는 **비휘발성**까지 확인됐다.<br/>연구를 이끈 건 코넬대 더필드 공과대학 응용·공학물리학과의 켄지 야스다 조교수 연구실로, 제1저자는 박사과정 대니얼 브랜던이다.<br/>논문 「Gate-induced layer sliding drives non-volatile switching of magnetism in tetralayer graphene」은 10월 14일 학술지 <em>Nature Nanotechnology</em>에 실렸다.</p>

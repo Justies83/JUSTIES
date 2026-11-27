@@ -10,6 +10,7 @@ coverAlt: 경기샛-2A 메탄 관측 위성의 발사·교신 경위와 관측 �
 source:
   name: 파이낸셜뉴스 (2026.10.02)
   url: https://www.fnnews.com/news/202610021013027162
+visibility: private
 ---
 
 국내 최초 메탄 관측 위성이 우주에서 첫 신호를 보내왔습니다. 나라스페이스

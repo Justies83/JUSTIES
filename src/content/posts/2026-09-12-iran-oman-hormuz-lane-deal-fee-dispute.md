@@ -10,6 +10,7 @@ coverAlt: 이란-오만 호르무즈해협 항로 분리 합의와 통행료 이
 source:
   name: MBC뉴스 (2026.09.12)
   url: https://imnews.imbc.com/replay/2026/nw1200/article/6842849_36967.html
+visibility: private
 ---
 
 이란과 오만이 호르무즈해협 통항 문제를 두고 **60일짜리 잠정 합의 초안**에

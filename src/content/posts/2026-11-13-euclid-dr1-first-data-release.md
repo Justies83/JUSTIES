@@ -10,6 +10,7 @@ coverAlt: "유클리드가 DR1 파운데이션으로 관측한 은하단 아벨 
 source:
   name: "Phys.org (2026.11.12)"
   url: https://phys.org/news/2026-11-euclid-3d-universe-date.html
+visibility: private
 ---
 
 <p align="center">11월 12일, 유럽우주국(ESA)과 유클리드 컨소시엄이 유클리드 우주망원경의 첫 대규모 데이터 묶음을 공개했다.<br/>이름은 DR1 파운데이션이다.<br/>13개월치 관측을 한 번에 푼 것으로, 2023년 중반 발사 이후 처음 나오는 본격적인 데이터 공개다.<br/>담긴 건 <strong>10억 개가 넘는 천체의 빛</strong>이다.<br/>하늘로는 보름달 <strong>9,500개</strong>를 합친 넓이다.</p>

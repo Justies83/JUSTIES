@@ -10,6 +10,7 @@ coverAlt: "여의도 한국거래소 건물"
 source:
   name: "조선비즈 (2026.11.17)"
   url: https://biz.chosun.com/stock/stock_general/2026/11/17/ZSEIO7CRLRCKTIS5MJ34SCWROY/
+visibility: private
 ---
 
 <p align="center">17일 코스피가 <strong>4,968.48에</strong> 마감했다.<br/>전 거래일보다 <strong>132.02포인트(2.59%)를</strong> 내렸다.<br/>종가 기준으로 5,000선 아래로 떨어진 건 지난 2월 2일(4,949.67) 이후 약 9개월 만이다.<br/>지난 12일부터 <strong>4거래일 연속 하락</strong>이다.</p>

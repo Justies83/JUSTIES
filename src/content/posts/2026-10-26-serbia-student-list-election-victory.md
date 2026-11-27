@@ -10,6 +10,7 @@ coverAlt: "2013년 베오그라드 국민의회 의사당 건물"
 source:
   name: "로이터 (2026.10.25)"
   url: https://www.reuters.com/world/europe/serbias-vucic-concedes-defeat-student-led-movement-parliamentary-election-2026-10-25/
+visibility: private
 ---
 
 <p align="center">일요일 밤, 베오그라드의 대로에는 수만 명이 쏟아져 나왔다.<br/>차들은 경적을 울렸고, 사람들은 춤을 췄고, 학생들은 "승리"와 "끝났다"를 외쳤다.<br/>축제를 만든 소식은 상대 진영에서, 그것도 가장 높은 자리에서 나왔다.<br/>세르비아의 오랜 지도자 알렉산다르 부치치가 텔레비전 앞에 서서 자기 진영의 패배를 직접 인정한 것이다.<br/>그는 "최종 결과는 아직 없지만, 표본을 보면 우리가 졌다는 게 분명하다"며 "학생 명단이 이겼다"고 말했다.<br/>투표가 끝난 지 얼마 안 된 시점에 나온 선언이라, 베오그라드의 밤은 곧바로 축제의 밤이 됐다.</p>

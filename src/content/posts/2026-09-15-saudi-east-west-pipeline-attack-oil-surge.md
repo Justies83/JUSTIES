@@ -10,6 +10,7 @@ coverAlt: 사우디 동서 송유관의 역할과 피격 이후 유가 변동을
 source:
   name: 뉴데일리 (2026.09.15)
   url: https://www.newdaily.co.kr/site/data/html/2026/09/15/2026091500019.html
+visibility: private
 ---
 
 호르무즈해협을 둘러싼 봉쇄 공방을 다루면서 이 아카이브가 여러 번 짚었던

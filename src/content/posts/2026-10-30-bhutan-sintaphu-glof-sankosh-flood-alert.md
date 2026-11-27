@@ -10,6 +10,7 @@ coverAlt: "구름에 싸인 부탄 계곡과 마을 풍경"
 source:
   name: "Daily Pioneer (2026.10.30)"
   url: https://dailypioneer.com/india/bhutan-glacial-lake-outburst-puts-bengal-and-assam-on-flood-alert-over-10000-evacuated
+visibility: private
 ---
 
 <p align="center">10월 29일 저녁, 부탄 북부의 빙하호 하나가 터졌다.<br/>터진 곳은 가사주 라야 게워그의 룽고에 있는 신타푸호다.<br/>호수에서 빠져나온 물은 모추강을 따라 아래쪽으로 밀려 내려갔고, 밤이 깊어지면서 인도의 산코시강 유역까지 경보가 번졌다.<br/>서벵골주와 아삼주에서는 밤새 <strong>1만 명 이상이</strong> 집을 떠나 안전 지대로 이동했다.<br/>10월 30일 아침까지 부탄 안에서는 인명 피해 보고가 나오지 않았다.<br/>사람이 다치지 않은 밤이었지만, 그렇다고 사태가 끝난 밤은 아니다.<br/>도로와 온천 시설, 고속도로 일부가 이미 피해를 입었고, 하류의 적색 경보는 아침에도 그대로 유지됐다.</p>

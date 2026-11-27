@@ -10,6 +10,7 @@ coverAlt: 콩고민주공화국 에볼라 발병의 확진자·사망자 추이�
 source:
   name: 파이낸셜뉴스 (2026.10.02)
   url: https://www.fnnews.com/news/202610021953597549
+visibility: private
 ---
 
 콩고민주공화국의 에볼라 사태가 멈추지 않고 있습니다. 보건당국 집계에 따르면

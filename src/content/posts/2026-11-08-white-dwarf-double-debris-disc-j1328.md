@@ -10,6 +10,7 @@ coverAlt: "백색왜성 J1328−1450이 있는 하늘 영역 — 십자 표시 �
 source:
   name: "로이터 (2026.11.07)"
   url: https://www.reuters.com/science/astronomers-spot-white-dwarf-star-with-two-rings-planetary-debris-2026-11-07/
+visibility: private
 ---
 
 <p align="center">별이 죽고 남은 자리에서 본 적 없는 모습이 나왔다.<br/>태양과 비슷한 별이 연료를 다 쓰고 남은 백색왜성 주위에서, 행성의 잔해로 이뤄진 고리가 두 개 겹쳐 있는 모습이 처음 확인됐다.<br/>주인공은 지구에서 약 <strong>1,600</strong>광년 떨어진 처녀자리에 있는 백색왜성 J1328−1450이다.<br/>유럽남방천문대(ESO)의 초대형망원경(VLT)이 2021년부터 2023년까지 찍은 스펙트럼을 분석한 연구팀은 이 결과를 10월 26일 네이처 애스트로노미에 실었고, ESO가 다음 날 보도자료로 알렸으며, 로이터가 11월 7일 보도했다.<br/>지금까지 알려진 백색왜성 가스 원반 <strong>21</strong>개는 예외 없이 고리가 하나였는데, 이 별만 두 개였다.</p>

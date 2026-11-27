@@ -10,6 +10,7 @@ coverAlt: 케냐 첫 에볼라 환자의 이동 경로와 진단·사망 경과,
 source:
   name: 알자지라 (2026.10.06)
   url: https://www.aljazeera.com/news/2026/10/6/kenya-confirms-first-ebola-case-after-patient-from-dr-congo-dies-in-nairobi
+visibility: private
 ---
 <p align="center"><a href="/posts/2026-10-02-congo-ebola-deaths-exceed-4000-bundibugyo-no-vaccine">9월 30일 기준 사망자가 4,018명에 이르렀던</a> 콩고민주공화국의 에볼라 유행이, 결국 국경을 넘었습니다. 케냐 보건부는 10월 6일 자국 내 첫 에볼라 확진·사망 사례를 공식 발표했습니다.</p>
 

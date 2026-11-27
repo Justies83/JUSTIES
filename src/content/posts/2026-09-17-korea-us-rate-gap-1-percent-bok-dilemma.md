@@ -10,6 +10,7 @@ coverAlt: 한미 기준금리 격차 확대와 9월 17일 코스피 개장 상�
 source:
   name: 비즈중앙 (2026.09.17)
   url: https://www.bizjoongang.co.kr/news/articleView.html?idxno=54614
+visibility: private
 ---
 
 [앞선 글](/posts/2026-09-17-warsh-removing-accommodation-market-reaction)에서

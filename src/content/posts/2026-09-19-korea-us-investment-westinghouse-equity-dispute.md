@@ -10,6 +10,7 @@ coverAlt: 대미투자 협상의 원전 지분율 쟁점과 국회 보고 일정
 source:
   name: 헤럴드경제 (2026.09.17)
   url: https://biz.heraldcorp.com/article/10877594
+visibility: private
 ---
 
 [9월 18일 글](/posts/2026-09-18-korea-us-investment-deal-stalled-assembly-report)에서

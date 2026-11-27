@@ -10,6 +10,7 @@ coverAlt: 트럼프 대통령의 대미투자 발표 내용과 한국 정부의 
 source:
   name: 케이뉴스LA (2026.09.30)
   url: https://knewsla.com/econ-money/2026093010011358494/
+visibility: private
 ---
 
 [9월 30일 글에서](/posts/2026-09-30-trump-white-house-alaska-lng-54billion-korea-not-agreed)

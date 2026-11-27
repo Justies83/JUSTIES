@@ -10,6 +10,7 @@ coverAlt: "데이터센터 서버 랙 (Wikimedia Commons, CC BY 2.0)"
 source:
   name: "중앙일보 (2026.10.20)"
   url: https://www.joongang.co.kr/article/25471320
+visibility: private
 ---
 
 <p align="center">어제(20일) 코스닥에 상장한 AI 인프라 기업 엘리스그룹이 첫날부터 무너졌다.<br/>공모가 9만500원보다 <strong>32.04%를</strong> 떨어진 6만1500원에 장을 마감했다.<br/>장 초반부터 낙폭이 컸다.<br/>오전 9시 14분 기준 공모가 대비 <strong>29.06%</strong> 빠진 6만4200원에 거래됐고,<br/>장중 한때 6만1000원까지 떨어지며 30% 넘는 낙폭을 찍기도 했다.<br/>10조원 넘는 청약증거금을 끌어모았던 흥행주가 하루 만에 공모가를 크게 밑돈 것이다.</p>

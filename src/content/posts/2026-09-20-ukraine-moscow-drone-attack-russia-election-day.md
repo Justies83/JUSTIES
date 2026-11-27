@@ -10,6 +10,7 @@ coverAlt: 러시아 총선 마지막 날 모스크바 드론 공습 규모와 �
 source:
   name: 뉴스1 (2026.09.20)
   url: https://www.news1.kr/world/europe/6296749
+visibility: private
 ---
 
 러시아가 전쟁 발발 이후 처음으로 총선을 치르는 마지막 날, 그 수도가

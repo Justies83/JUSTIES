@@ -10,6 +10,7 @@ coverAlt: "뉴욕증권거래소 브로드 스트리트 정면"
 source:
   name: "Investopedia (2026.11.23)"
   url: https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-nasdaq-11232026-12274147
+visibility: private
 ---
 
 <p align="center">현지시간 11월 23일 월요일 뉴욕증시가 하루 만에 크게 올랐다.<br/>다우존스30 산업평균지수는 <strong>1,447.98포인트(3.01%)가</strong> 오른 <strong>49,595.31에</strong>, S&amp;P500 지수는 <strong>326.78포인트(4.73%)가</strong> 오른 <strong>7,237.17에</strong>, 나스닥 종합지수는 <strong>1,471.83포인트(6.51%)가</strong> 뛴 <strong>24,089.56에</strong> 거래를 마쳤다.<br/>S&amp;P500과 나스닥은 4월 9일 이후 가장 큰 하루 상승률이고, 나스닥의 1,471포인트 상승은 역대 두 번째로 큰 하루 포인트 상승이다.<br/>방아쇠는 하나였다.<br/>엔비디아 이사회가 이날 아침 젠슨 황을 최고경영자(CEO)로 복귀시키겠다고 발표한 것이다.</p>

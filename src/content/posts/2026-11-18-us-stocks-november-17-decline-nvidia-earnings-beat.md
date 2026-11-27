@@ -10,6 +10,7 @@ coverAlt: "엔비디아 산타클라라 본사 엔데버 건물 앞 잔디"
 source:
   name: "GlobeNewswire via Yahoo Finance (2026.11.17)"
   url: https://finance.yahoo.com/markets/stocks/articles/nvidia-announces-financial-results-third-212000678.html
+visibility: private
 ---
 
 <p align="center">현지시간 11월 17일 화요일 뉴욕증시는 3대 지수가 모두 내렸다.<br/>다우존스30 산업평균지수는 <strong>848.75포인트(1.64%)가</strong> 빠진 <strong>50,759.42에</strong>, 스탠더드앤드푸어스500 지수는 <strong>76.06포인트(1.03%)가</strong> 내린 <strong>7,340.53에</strong>, 나스닥 종합지수는 <strong>181.38포인트(0.74%)가</strong> 떨어진 <strong>24,328.38에</strong> 거래를 마쳤다.<br/>월요일에 이어 이틀째 3대 지수가 동반 하락했고, S&P500은 <strong>나흘 연속</strong> 내림세를 이어갔다.<br/>공포지수로 불리는 VIX는 <strong>2.60포인트(11.31%)가</strong> 오른 <strong>25.51에</strong> 마감했다.</p>

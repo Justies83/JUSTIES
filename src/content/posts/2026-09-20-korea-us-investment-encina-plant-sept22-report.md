@@ -10,6 +10,7 @@ coverAlt: 대미투자 1호 사업 엔시날 발전소와 회수 구조, 국회 
 source:
   name: 서울신문 (2026.09.20)
   url: https://www.seoul.co.kr/news/politics/2026/09/20/20260920500073
+visibility: private
 ---
 
 [9월 19일 글](/posts/2026-09-19-korea-us-investment-westinghouse-equity-dispute)에서

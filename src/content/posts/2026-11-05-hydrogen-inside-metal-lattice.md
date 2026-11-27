@@ -10,6 +10,7 @@ coverAlt: "수소 저장 시설과 풍력 발전기가 있는 하이브리드 �
 source:
   name: "Phys.org (2026.11.04)"
   url: https://phys.org/news/2026-11-reveal-hydrogen-dissolved-tiny-gaps.html
+visibility: private
 ---
 
 <p align="center">수소는 세상에서 가장 작고 가벼운 원소다.<br/>그래서 금속 속으로 스며들고, 금속 안에서 돌아다니고, 그러다 금속을 약하게 만든다.<br/>그런데 그 수소가 금속 안에서 정확히 어디에 있는지, 아무도 직접 본 적이 없었다.<br/>11월 4일 네이처에 실린 논문이 그 빈칸을 채웠다.<br/>시드니대 연구팀이 금속 원자 사이의 틈새에 녹아 있는 수소를 처음으로 직접 관측했다고 발표했다.<br/>연구를 이끈 줄리 케어니 교수팀의 논문 제목은 <em>Towards observing interstitial hydrogen in solution in metal lattices</em>다.<br/>제1저자는 시드니대 공학부에서 박사 학위를 마친 뒤 박사후연구원으로 일하는 차오 황이다.<br/>이 소식은 시드니대 보도자료를 통해 같은 날 공개됐고, 물리학 전문 매체 피즈오알지가 전했다.</p>

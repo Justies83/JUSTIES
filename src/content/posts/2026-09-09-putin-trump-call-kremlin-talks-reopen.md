@@ -8,6 +8,7 @@ tags: [우크라이나, 러시아, 푸틴, 트럼프, 종전협상]
 source:
   name: 헤럴드경제 (2026.09.09)
   url: https://biz.heraldcorp.com/article/10868314
+visibility: private
 ---
 
 [9월 8일 글](/posts/2026-09-08-russia-strikes-kyiv-after-envoys-leave)에서 다룬

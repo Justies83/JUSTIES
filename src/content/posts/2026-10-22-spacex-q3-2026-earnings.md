@@ -10,6 +10,7 @@ coverAlt: "새벽 하늘에 해파리 모양으로 퍼지는 스페이스X 팰�
 source:
   name: "잭스 (2026.10.21)"
   url: https://www.zacks.com/stock/news/3011606/spacex-surges-on-solid-q3-beat-upbeat-outlook-etfs-to-tap
+visibility: private
 ---
 
 <p align="center">10월 20일 오후, 텍사스 시간으로 오후 3시 조금 지나 스페이스X가 3분기 성적표를 내놨다.<br/>숫자부터 보자.<br/>매출은 <strong>145억 8천만 달러</strong>로 1년 전 56억 달러에서 <strong>161%</strong> 늘었다.<br/>순이익은 <strong>44억 달러</strong>로, 1년 전의 11억 달러 순손실에서 흑자로 돌아섰다.<br/>영업이익은 28억 달러, 조정 EBITDA는 88억 1천만 달러로 1년 전의 22억 달러에서 네 배가 됐다.<br/>주가도 바로 반응했다.<br/>화요일 시간외 거래에서 <strong>9% 안팎</strong> 올랐고, 수요일 개장 전 거래에서는 161달러까지 뛰었다는 보도가 나왔다.<br/>로켓 회사의 실적 발표치고는, 시장의 첫 반응이 로켓보다 다른 데 가 있었다.</p>

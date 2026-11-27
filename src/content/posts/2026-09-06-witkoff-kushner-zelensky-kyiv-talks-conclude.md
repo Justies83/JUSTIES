@@ -8,6 +8,7 @@ tags: [우크라이나, 러시아, 젤렌스키, 종전협상, 유럽]
 source:
   name: CNN (via KESQ, 2026.09.06)
   url: https://kesq.com/news/national-world/cnn-world/2026/09/06/witkoff-and-kushner-arrive-in-kyiv-for-second-leg-of-us-diplomacy-push/
+visibility: private
 ---
 
 [전날 모스크바 회동 글](/posts/2026-09-06-witkoff-kushner-putin-meeting-kyiv-visit)에

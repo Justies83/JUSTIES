@@ -10,6 +10,7 @@ coverAlt: AI 생성 이미지 — 석양에 비친 뉴욕증권거래소 건물
 source:
   name: "New York Post (2026.10.13)"
   url: https://nypost.com/2026/10/13/business/jpmorgan-records-rare-earnings-miss-goldman-sachs-delivers-blowout-revenue/
+visibility: private
 ---
 
 <p align="center">10월 13일(현지시간) 미국 3분기 어닝시즌의 막이 올랐습니다.<br/>개장 전 JP모건·골드만삭스·씨티그룹·웰스파고가 나란히 3분기 실적을 발표했는데, 네 은행의 성적표는 제각각이었습니다.<br/>미국 최대 은행 JP모건은 주당순이익과 매출이 모두 시장 예상을 밑도는 어닝 미스를 기록했고, 골드만삭스는 예상을 약 **20억달러** 웃도는 순수익으로 서프라이즈를 냈습니다.<br/>씨티그룹은 두 지표 모두 예상을 넘겼고, 웰스파고는 순이익은 넘겼지만 매출이 모자란 엇갈린 성적표를 받았습니다.</p>

@@ -10,6 +10,7 @@ coverAlt: "크라쿠프 메인 마켓 광장 중앙의 수키엔니체(직물회
 source:
   name: "CNN (2026.11.07)"
   url: https://www.cnn.com/2026/11/07/europe/krakow-shooting-poland-killed-intl?cid=external-feeds_iluminar_meta
+visibility: private
 ---
 
 <p align="center"><strong>11월 9일 업데이트 — 용의자가 병원에서 숨졌다. 동기는 아직 확인되지 않았다.</strong><br/>월요일 새벽, 크라쿠프 총격 용의자 미하우 옥신스키(24)가 병원에서 숨졌다.<br/>경찰에 총을 맞고 이송된 뒤 세 차례 수술을 받았지만 끝내 회복하지 못했다.<br/>지역 당국이 밝힌 사망 시각은 현지 시간 새벽 4시 30분쯤이다.<br/>이로써 심문도 기소도, 월요일에 정해질 예정이던 다음 절차도 모두 사라졌다.<br/>법무장관 발데마르 주레크는 용의자가 숨졌어도 수사는 계속된다고 했다.<br/>혼자 범행했는지, 어떤 단체의 영향을 받았는지 끝까지 밝히겠다는 말이다.</p>

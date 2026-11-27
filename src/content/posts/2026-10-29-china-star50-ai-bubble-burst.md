@@ -10,6 +10,7 @@ coverAlt: "황푸강에서 바라본 상하이 푸둥 스카이라인 야경"
 source:
   name: "로이터 (2026.10.26)"
   url: https://insidetelecom.com/in-china-the-ai-bubble-has-already-burst/
+visibility: private
 ---
 
 <p align="center">세계 기술주가 흔들린다는 얘기는 한동안 계속됐다.<br/>그런데 중국에서는 흔들림을 넘어 이미 무너졌다는 진단이 나왔다.<br/>로이터는 10월 26일 분석에서 중국 인공지능 주가의 급락을 두고 거품이 이미 터졌다고 표현했다.<br/>중국 본토의 인공지능·반도체 대표주 지수인 STAR50이 4개월이 채 안 되는 기간에 고점 대비 <strong>40%</strong> 떨어졌기 때문이다.<br/>이 과정에서 사라진 시가총액은 약 <strong>4,800억 달러</strong>에 달한다.<br/>KBS도 10월 28일 베이징발 보도에서 같은 흐름을 두고 중국 인공지능 투자 거품이 꺼지는 것 아니냐는 의문이 커지고 있다고 전했다.</p>

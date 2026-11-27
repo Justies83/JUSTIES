@@ -10,6 +10,7 @@ coverAlt: 8월 24일 코스피 -3.12%, 코스닥 +1.42% 마감을 비교한 막�
 source:
   name: 비즈니스코리아 · 서울신문 (2026.08.24)
   url: https://www.businesskorea.co.kr/news/articleView.html?idxno=275391
+visibility: private
 ---
 
 8월 24일 코스피와 코스닥이 반대 방향으로 움직였다. 코스피는 무너졌고, 코스닥은

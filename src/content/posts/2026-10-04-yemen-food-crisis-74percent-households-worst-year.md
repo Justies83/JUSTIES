@@ -10,6 +10,7 @@ coverAlt: 예멘 식량위기 수치와 타이즈주 교전 격화, 피란민 �
 source:
   name: VOA 코리아 (2026.10.03)
   url: https://www.voakorea.com/a/8207219.html
+visibility: private
 ---
 
 예멘의 식량 사정이 올해 들어 가장 나쁜 수준으로 떨어졌습니다. 유엔

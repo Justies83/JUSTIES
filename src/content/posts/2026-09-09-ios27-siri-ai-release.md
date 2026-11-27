@@ -10,6 +10,7 @@ coverAlt: 시리 AI 지원 기종 범위를 나타낸 도표
 source:
   name: Engadget (2026.09.09)
   url: https://www.engadget.com/2254005/ios-27-with-siri-ai-will-be-available-on-september-14/
+visibility: private
 ---
 
 iOS 27이 **9월 14일 월요일**에 풀립니다. 9월 9일 아이폰 신제품 행사에서 애플이

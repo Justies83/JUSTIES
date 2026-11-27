@@ -8,6 +8,7 @@ tags: [뉴욕증시, 다우존스, 유가, 캐나다, 관세]
 source:
   name: Yahoo Finance (2026.09.08)
   url: https://finance.yahoo.com/markets/live/stock-market-today-tuesday-september-8-dow-sp-500-nasdaq-080440338.html
+visibility: private
 ---
 
 ## 사실

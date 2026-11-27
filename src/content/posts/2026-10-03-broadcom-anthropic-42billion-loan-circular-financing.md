@@ -10,6 +10,7 @@ coverAlt: 브로드컴의 앤트로픽 대출 규모와 TPU 임대 계약, 이�
 source:
   name: 블록미디어 (2026.10.02)
   url: https://www.blockmedia.co.kr/archives/1146807
+visibility: private
 ---
 
 반도체 설계기업 **브로드컴이** AI 개발사 **앤트로픽에** 최대

@@ -8,6 +8,7 @@ tags: [이재명, 마크롱, 호르무즈해협, 파병, 한불관계]
 source:
   name: 경향신문 (2026.09.09)
   url: https://www.khan.co.kr/article/202609090209001/
+visibility: private
 ---
 
 [9월 8일 글](/posts/2026-09-08-iran-korean-language-warning-hormuz)에서 다룬,

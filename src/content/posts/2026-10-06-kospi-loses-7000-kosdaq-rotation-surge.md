@@ -10,6 +10,7 @@ coverAlt: 10월 6일 코스피 하락과 코스닥 급등, 외국인 순매도�
 source:
   name: 비즈니스코리아 (2026.10.06)
   url: https://www.businesskorea.co.kr/news/articleView.html?idxno=278306
+visibility: private
 ---
 
 하루 만에 다시 7,000선을 내줬습니다. 10월 6일 코스피는 전 거래일보다

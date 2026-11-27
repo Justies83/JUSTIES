@@ -10,6 +10,7 @@ coverAlt: 9월 10일 미국 반도체주와 반도체지수의 하락률을 나�
 source:
   name: 라디오서울 (2026.09.10)
   url: https://www.radioseoul1650.com/archives/155443
+visibility: private
 ---
 
 9월 10일 뉴욕증시는 3대 지수가 **나흘 연속** 내렸습니다. 다우존스30이

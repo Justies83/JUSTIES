@@ -10,6 +10,7 @@ coverAlt: "백악관 북쪽 정면"
 source:
   name: "알자지라 (2026.11.09)"
   url: https://www.aljazeera.com/amp/news/2026/11/9/trump-calls-iran-war-effectively-over-after-talks-with-qatar-pm
+visibility: private
 ---
 
 <p align="center">현지시간 11월 9일 월요일, 도널드 트럼프 미국 대통령이 카타르 총리와 비공개 회동을 마친 뒤 백악관 브리핑룸에 깜짝 등장해 이란 전쟁이 <strong>"군사적으로 사실상 끝났다"고</strong> 말했다.<br/>트럼프 대통령은 "이란은 군사적으로 사실상 끝났다. 우리는 그냥 현상 유지를 하고 있을 뿐"이라고 했다.<br/>이어 "갈등이 곧 끝날 가능성이 크다"며 협상 쪽으로 "긍정적인 움직임"이 있다고 덧붙였다.<br/>중간선거가 끝난 직후 나온, 확전에서 협상 국면으로 방향을 튼 선언이었다.</p>

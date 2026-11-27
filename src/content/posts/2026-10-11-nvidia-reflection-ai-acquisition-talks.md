@@ -10,6 +10,7 @@ coverAlt: 밤의 데이터센터 복도에 녹색 LED가 켜진 서버 랙 — A
 source:
   name: Reuters (2026.10.10)
   url: https://kwsn.com/2026/10/10/nvidia-in-talks-to-invest-further-in-reflection-ai-or-buy-it-ft-reports/
+visibility: private
 ---
 
 <p align="center">엔비디아가 코딩 자동화 AI 스타트업 리플렉션 AI(Reflection AI)의 경영권 확보를 논의하고 있습니다.<br/>파이낸셜타임스는 10월 10일(현지시각) 사안에 정통한 소식통들을 인용해 엔비디아가 이 오픈소스 스타트업에 대한 추가 투자 또는 회사 전체 인수 방안을 협상 중이라고 보도했고, 로이터가 같은 날 이를 전재했습니다.<br/>보도에 따르면 협상은 아직 초기 단계이며, 향후 몇 주 안에 합의에 이를 수도 있지만 결렬될 가능성도 열려 있습니다.<br/>주말 사이 전 세계 주요 매체가 이 소식을 잇달아 받아쓰면서, 올해 AI 업계의 굵직한 인수합병 후보 하나가 수면 위로 떠올랐습니다.</p>

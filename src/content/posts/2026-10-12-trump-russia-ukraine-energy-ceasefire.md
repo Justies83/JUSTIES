@@ -10,6 +10,7 @@ coverAlt: 해 질 녘 정유 시설 전경 — AI 생성 이미지
 source:
   name: CNN (2026.10.11)
   url: https://www.cnn.com/2026/10/11/politics/trump-ukraine-russia-energy-ceasefire
+visibility: private
 ---
 
 <p align="center">도널드 트럼프 미국 대통령이 러시아와 우크라이나 사이의 "에너지 휴전"이 즉시 발효된다고 선언했습니다.<br/>트럼프 대통령은 10월 11일(현지 시간) 아침 소셜미디어 트루스소셜에 올린 글에서 <strong>"즉시 발효된다. 러시아와 우크라이나 사이의 전쟁에서 에너지 휴전이 있다. 양측이 합의했다. 깨지 마라!"</strong>라고 밝혔습니다.<br/>CNN과 뉴욕포스트 등 미국 주요 매체가 일요일 오전 이 소식을 일제히 긴급 뉴스로 전했습니다.<br/>다만 "양측이 합의했다"는 주장의 근거는 함께 제시되지 않았습니다.</p>

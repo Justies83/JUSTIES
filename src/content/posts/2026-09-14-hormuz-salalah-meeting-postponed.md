@@ -10,6 +10,7 @@ coverAlt: 살랄라 회의가 열리기까지 있었던 절차와 연기에 이�
 source:
   name: 뉴데일리 (2026.09.14)
   url: https://www.newdaily.co.kr/site/data/html/2026/09/14/2026091400023.html
+visibility: private
 ---
 
 [9월 12일 글](/posts/2026-09-12-iran-oman-hormuz-lane-deal-fee-dispute)에서

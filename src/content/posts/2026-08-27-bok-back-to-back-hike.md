@@ -10,6 +10,7 @@ coverAlt: 금통위원들의 6개월 뒤 기준금리 전망 점도표. 3.25%에
 source:
   name: 이투데이 (2026.08.27)
   url: https://www.etoday.co.kr/news/view/2618740
+visibility: private
 ---
 
 한국은행이 8월 27일 기준금리를 2.75%에서 3.00%로 올렸다. [8월 27일 금통위

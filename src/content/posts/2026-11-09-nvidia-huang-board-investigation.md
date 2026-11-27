@@ -10,6 +10,7 @@ coverAlt: "엔비디아 본사(산타클라라) 외관"
 source:
   name: "NVIDIA Newsroom (2026.11.08)"
   url: https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors
+visibility: private
 ---
 
 <p align="center">일요일 오후, 엔비디아에서 두 개의 문서가 같은 날 나왔다.<br/>하나는 이사회의 독립 조사 착수 성명, 다른 하나는 젠슨 황 CEO가 전 직원에게 보낸 사과 메모다.<br/>이사회는 미 동부 시간 오후 3시에 성명을 냈다.<br/>“엔비디아 이사회는 창업자이자 CEO인 젠슨 황이 외국 정보기관의 표적이 됐다는 최근 보도에 비춰 독립 조사를 시작한다.”<br/>같은 날 황 CEO는 직원들에게 이렇게 썼다.<br/>“I was unfaithful to my wife. My actions hurt her and our children. There is no excuse for what I did.”<br/>아내에게 충실하지 못했고, 변명의 여지가 없다는 말이다.<br/>세계에서 가장 비싼 AI 칩 회사의 CEO를 둘러싼 한 달짜리 보도가, 이제 이사회 조사와 CEO의 공개 인정으로 새 국면에 들어갔다.</p>

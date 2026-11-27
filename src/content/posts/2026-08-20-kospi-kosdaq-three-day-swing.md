@@ -7,6 +7,7 @@ takeaway: 8/18~20 사흘간 코스피가 -5.80%에서 +6.19%로 되돌린 과정
 tags: [코스피, 코스닥, 시황, 반도체]
 cover: /images/market-2026-08-20.svg
 coverAlt: 코스피·코스닥 등락을 나타낸 도표
+visibility: private
 ---
 
 ## 3일간의 롤러코스터

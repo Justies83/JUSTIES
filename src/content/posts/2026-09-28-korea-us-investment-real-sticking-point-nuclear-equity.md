@@ -10,6 +10,7 @@ coverAlt: 대미투자 협상의 가스발전과 원전 분야별 쟁점, 웨스
 source:
   name: 머니투데이방송 (2026.09.28)
   url: https://news.mtn.co.kr/news-detail/2026092815570772215
+visibility: private
 ---
 
 [9월 27일 글에서](/posts/2026-09-27-korea-us-investment-encina-delayed-trump-site-selection)

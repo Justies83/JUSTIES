@@ -10,6 +10,7 @@ coverAlt: 밤의 데이터센터 복도에 붉은 경보등이 켜진 모습 —
 source:
   name: Reuters (2026.10.09)
   url: https://www.reuters.com/world/china/chinese-developer-makes-artex-ai-agent-closed-source-after-korean-bank-hack-2026-10-09/
+visibility: private
 ---
 
 <p align="center">중국 개발자가 만든 AI 침투테스트 도구 ARTEX가 10월 8일 돌연 공개 개발 중단을 선언했습니다.<br/>GitHub 핸들 "Autumn-27"을 쓰는 개발자는 코드 호스팅 플랫폼에 올린 공지에서 **"도구의 오용을 감안해"라고** 밝히며, ARTEX 프로젝트는 더 이상 업데이트되지 않고 비공개 소스로 전환된다고 알렸습니다.<br/>공개 버전도, 유지보수 지원도 더는 제공하지 않겠다는 내용입니다.<br/>이 발표는 미국 보안 기업 크라우드스트라이크가 9월 말부터 이어진 한국 은행 대상 해킹 공격에 ARTEX가 쓰였다고 지목한 지 하루 만에 나왔습니다.<br/>로이터의 확인 결과 ARTEX의 GitHub 페이지는 현재 삭제된 상태입니다.</p>

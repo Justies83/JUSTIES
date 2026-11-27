@@ -10,6 +10,7 @@ coverAlt: "마이크로소프트 레드먼드 캠퍼스 92동 건물"
 source:
   name: "로이터 (2026.10.28)"
   url: https://www.reuters.com/commentary/breakingviews/google-microsoft-weave-tangled-ai-webs-2026-10-28/
+visibility: private
 ---
 
 <p align="center">같은 날 실적을 낸 두 거대 기술기업이 정반대 방향으로 움직였다.<br/>2026년 10월 28일 미국 장 마감 뒤 마이크로소프트와 알파벳이 나란히 분기 실적을 발표했다.<br/>두 회사 모두 클라우드 사업이 크게 성장했다는 점에서는 닮았다.<br/>그런데 장 마감 뒤 시간외 거래에서 마이크로소프트 주가는 5% 안팎으로 올랐고, 알파벳 주가는 7% 안팎에서 10% 가까이까지 밀렸다는 보도가 나왔다.<br/>같은 AI 호황을 타고 있으면서 왜 반응이 이렇게 갈렸을까.<br/>실적 숫자 안을 들여다보면 답이 현금 흐름에 있다.</p>

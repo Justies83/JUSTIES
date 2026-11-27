@@ -10,6 +10,7 @@ coverAlt: 삼성전자·SK하이닉스에 대한 개인투자자 월별 순매�
 source:
   name: 브릿지경제 (2026.09.13)
   url: https://www.viva100.com/article/20260913500294
+visibility: private
 ---
 
 넉 달 동안 삼성전자와 SK하이닉스 주가를 밑에서 받쳐 온 손이 있었다면 개인

@@ -10,6 +10,7 @@ coverAlt: "남수단 수도 주바 시내"
 source:
   name: "TRT World (2026.11.14)"
   url: https://www.trtworld.com/article/d1fce509f907/amp
+visibility: private
 ---
 
 <p align="center">11월 14일 토요일, 남수단 국가선거위원회(NEC)가 개정 선거 일정을 내놨다.<br/>총선 날짜가 2026년 12월 22일에서 2027년 2월 11일로, <strong>51일</strong> 미뤄졌다.<br/>대통령 선거와 의회 선거를 함께 치르는, 독립 이후 첫 총선이다.<br/>위원회는 이유를 밝히지 않았다.<br/>대변인 조세핀 아치로 포르텔로는 로이터에 "이해관계자들과 충분히 협의한 끝에 나온 일정"이라고만 했다.</p>

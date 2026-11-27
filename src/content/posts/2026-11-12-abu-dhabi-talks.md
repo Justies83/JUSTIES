@@ -10,6 +10,7 @@ coverAlt: "국제우주정거장에서 본 아랍에미리트 해안 — 두바�
 source:
   name: "Al Jazeera (2026.11.11)"
   url: https://www.aljazeera.com/amp/news/2026/11/11/russia-ukraine-talks-in-abu-dhabi-end-with-prisoner-exchange-agreement
+visibility: private
 ---
 
 <p align="center">11월 11일 수요일, 아부다비에서 이틀간 이어진 미국 중재 러시아·우크라이나 회담이 끝났다.<br/>결론은 하나였다. 대규모 포로 교환에 합의했다는 것.<br/>전쟁을 끝내는 돌파구는 나오지 않았다.<br/>9개월 만의 첫 직접 회담이었는데, 양쪽이 마주 앉았다는 사실 자체와 포로 교환이라는 구체적인 결과 하나를 남기고 끝난 셈이다.</p>

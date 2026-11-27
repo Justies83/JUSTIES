@@ -10,6 +10,7 @@ coverAlt: 9월 18일 뉴욕증시 엇갈린 마감과 10월 추가 인상 베팅
 source:
   name: Yahoo Finance (2026.09.18)
   url: https://finance.yahoo.com/markets/live/stock-market-today-friday-september-18-dow-sp-500-nasdaq-080504071.html
+visibility: private
 ---
 
 [전날 글](/posts/2026-09-18-wallst-rebound-oil-yields-fall-pipeline)에서

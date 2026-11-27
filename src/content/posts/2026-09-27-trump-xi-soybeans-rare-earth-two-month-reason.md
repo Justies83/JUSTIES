@@ -10,6 +10,7 @@ coverAlt: 트럼프-시진핑 정상회담의 실제 거래 내용과 2개월로
 source:
   name: 한국일보 (2026.09.26)
   url: https://www.hankookilbo.com/news/article/A2026092604490001344
+visibility: private
 ---
 
 [9월 24일 글에서](/posts/2026-09-24-trump-xi-trade-truce-extended-jan2027-weak-position)

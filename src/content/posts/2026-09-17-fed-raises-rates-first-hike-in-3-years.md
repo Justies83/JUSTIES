@@ -10,6 +10,7 @@ coverAlt: 연준 기준금리 인상 결정과 이번 주 이어진 유가·물�
 source:
   name: 세계일보 (2026.09.17)
   url: https://www.segye.com/newsView/20260917500871
+visibility: private
 ---
 
 미 연방준비제도가 기준금리를 **0.25%포인트 올려 연 3.75\~4.00%로**

@@ -8,6 +8,7 @@ tags: [애플, 팀쿡, 존터너스, CEO교체]
 source:
   name: Apple Newsroom
   url: https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/
+visibility: private
 ---
 
 ## 사실

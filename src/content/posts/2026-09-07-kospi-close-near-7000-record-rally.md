@@ -8,6 +8,7 @@ tags: [코스피, 코스닥, 삼성전자, SK하이닉스, 오픈AI, 엔비디�
 source:
   name: 아이뉴스24 (2026.09.07)
   url: https://www.inews24.com/view/zp/2002811
+visibility: private
 ---
 
 [아침 개장 글](/posts/2026-09-07-kospi-open-openai-astra-memory-rally)에서

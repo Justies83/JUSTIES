@@ -10,6 +10,7 @@ coverAlt: 이란전쟁 7개월 타임라인과 9월 22일 트럼프-걸프 6개�
 source:
   name: 경향신문 (2026.09.17)
   url: https://www.khan.co.kr/article/202609171426001/
+visibility: private
 ---
 
 이 아카이브가 [9월 14일 살랄라 회의 연기](/posts/2026-09-14-hormuz-salalah-meeting-postponed)를

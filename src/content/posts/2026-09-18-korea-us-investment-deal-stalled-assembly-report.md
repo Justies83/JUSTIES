@@ -10,6 +10,7 @@ coverAlt: 대미 투자 협상의 8월부터 9월까지 지연 경과와 막판 
 source:
   name: 파이낸셜뉴스 (2026.09.18)
   url: https://www.fnnews.com/news/202609181237109443
+visibility: private
 ---
 
 [8월 24일 글](/posts/2026-08-24-korea-us-tariff-investment)에서 김정관

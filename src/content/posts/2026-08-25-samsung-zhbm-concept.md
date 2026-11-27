@@ -10,6 +10,7 @@ coverAlt: 기존 HBM은 GPU 옆에 나란히 배치되지만 zHBM 개념은 GPU 
 source:
   name: Samsung Semiconductor 공식 발표 (2026.08.04, FMS 2026)
   url: https://news.samsung.com/global/samsung-unveils-next-gen-3d-memory-vision-at-fms-2026-charting-the-future-of-ai-infrastructure
+visibility: private
 ---
 
 8월 초 미국 산타클라라에서 열린 FMS 2026(Flash Memory Summit)에서 삼성이

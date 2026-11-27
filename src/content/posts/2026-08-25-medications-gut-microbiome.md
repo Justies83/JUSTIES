@@ -8,6 +8,7 @@ tags: [장내미생물, 마이크로바이옴, 약물, 연구]
 source:
   name: mSystems (2025) · Tartu 대학교 게노믹스 연구소
   url: https://www.sciencedaily.com/releases/2026/08/260824065605.htm
+visibility: private
 ---
 
 장내 미생물군집을 바꾸는 약이 항생제뿐이라고 생각하면 오산이다. 흔히 먹는

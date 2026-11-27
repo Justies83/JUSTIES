@@ -10,6 +10,7 @@ coverAlt: "AI 생성 이미지 — 폭락하는 빨간 숫자를 보여주는 �
 source:
   name: "조선비즈 (2026.10.15)"
   url: https://biz.chosun.com/stock/stock_general/2026/10/15/MU4TENRQMMZGKYLEMI4TENJRHE/
+visibility: private
 ---
 
 <p align="center">10월 15일 국내 증시가 '검은 목요일'을 맞았습니다.<br/>코스피와 코스닥이 장중 나란히 **8**%를 넘게 떨어지며 양 시장에 1단계 서킷브레이커가 발동됐습니다.<br/>유가증권시장 서킷브레이커는 올해 **10**번째·역대 **16**번째, 코스닥은 올해 **5**번째·역대 **15**번째 발동입니다(조선비즈).<br/>양 시장이 함께 멈춘 것은 지난 7월 말 이후 약 두 달 반 만입니다.</p>

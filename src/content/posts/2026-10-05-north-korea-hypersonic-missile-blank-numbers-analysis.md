@@ -10,6 +10,7 @@ coverAlt: 북한 극초음속 미사일 발사의 주장과 전문가 분석, �
 source:
   name: 뉴스핌 (2026.10.05)
   url: https://www.newspim.com/news/view/20261005000001
+visibility: private
 ---
 
 북한이 10월 3일 오전 원산 일대에서 동해상으로 '극초음속 중거리전략미사일'을

@@ -8,6 +8,7 @@ tags: [아마존, 항공사고, 마이애미, NTSB]
 source:
   name: NBC News (2026.09.06)
   url: https://www.nbcnews.com/news/us-news/amazon-plane-crash-miami-rcna596369
+visibility: private
 ---
 
 ## 사실

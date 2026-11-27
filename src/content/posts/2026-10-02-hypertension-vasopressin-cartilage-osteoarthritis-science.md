@@ -10,6 +10,7 @@ coverAlt: 고혈압이 바소프레신과 AVPR1A 수용체를 통해 연골을 �
 source:
   name: 파이낸셜뉴스 (2026.10.02)
   url: https://www.fnnews.com/news/202610020301095135
+visibility: private
 ---
 
 고혈압을 오래 방치하면 무릎이 더 쑤신다는 이야기, 그냥 느낌만은 아니었습니다.

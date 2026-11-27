@@ -8,6 +8,7 @@ tags: [코스피, 코스닥, 반도체, 유가]
 source:
   name: 헤럴드경제 (2026.09.08)
   url: https://biz.heraldcorp.com/article/10866694
+visibility: private
 ---
 
 [아침 글](/posts/2026-09-08-kospi-7000-intraday-15-days)에서 다룬 7,000선

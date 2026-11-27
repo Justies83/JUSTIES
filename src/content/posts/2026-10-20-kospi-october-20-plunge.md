@@ -10,6 +10,7 @@ coverAlt: "여의도 마천루"
 source:
   name: "아주경제 (2026.10.20)"
   url: https://www.ajunews.com/view/20261020154239960
+visibility: private
 ---
 
 <p align="center">10월 20일 코스피는 <strong>5,552.74에</strong> 마감했다.<br/>전 거래일보다 <strong>215.27포인트(3.73%)</strong> 내린 수치다.<br/>어제까지만 해도 이야기가 달랐다.<br/>10월 19일 코스피는 3.17% 급락 출발을 1.76% 상승 마감으로 뒤집으며 반전의 드라마를 썼다.<br/>그 반전의 하루가 단 하루 만에 반납된 셈이다.</p>

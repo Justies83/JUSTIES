@@ -10,6 +10,7 @@ coverAlt: "아르메니아 딜리잔 국립공원의 숲과 산 능선"
 source:
   name: "로이터 (2026.10.31)"
   url: https://www.reuters.com/sustainability/cop/countries-reach-cop17-deal-speed-up-biodiversity-action-money-still-short-2026-10-31/
+visibility: private
 ---
 
 <p align="center">예레반의 회의장은 예정된 폐막일을 넘겨서까지 불이 켜져 있었다.<br/>10월 19일에 시작한 제17차 유엔 생물다양성협약 당사국총회, COP17은 금요일에 끝나기로 돼 있었지만, 마지막 본회의가 밤을 새우며 토요일 아침까지 이어졌다.<br/>거의 12시간에 걸친 본회의 끝에 의장인 아르메니아 환경장관 함바르줌 마테보샨이 의사봉을 두드렸고, AFP 보도에 따르면 그는 "이걸로 끝이다. 완벽하다"고 말했다.<br/>박수가 터졌지만, 그 박수가 안도감에 가까웠다는 게 현장 보도의 공통된 묘사다.<br/>2주 동안의 협상이 무산되지 않고 결론에 닿았다는 안도감, 그리고 결론의 알맹이가 생각보다 가볍다는 자각이 함께 섞여 있었다.</p>

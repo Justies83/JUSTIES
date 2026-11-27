@@ -10,6 +10,7 @@ coverAlt: 미중 무역휴전 연장 합의 내용과 정상회담을 앞둔 트
 source:
   name: 뉴데일리 (2026.09.24)
   url: https://www.newdaily.co.kr/site/data/html/2026/09/24/2026092400006.html
+visibility: private
 ---
 
 [9월 24일 아침 글에서](/posts/2026-09-24-trump-xi-summit-airport-greeting-b2-f22-protocol)

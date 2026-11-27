@@ -8,6 +8,7 @@ tags: [푸틴, 우크라이나, 러시아, 젤렌스키, 종전협상]
 source:
   name: NBC News (2026.09.03)
   url: https://www.nbcnews.com/world/ukraine/ukraine-new-dynamic-peace-efforts-vladimir-putin-chance-deal-rcna595914
+visibility: private
 ---
 
 ## 사실

@@ -10,6 +10,7 @@ coverAlt: "벵골만 위의 사이클론 위성 사진"
 source:
   name: "AFP via Malay Mail (2026.10.28)"
   url: https://www.malaymail.com/news/world/2026/10/28/india-evacuates-100000-as-cyclone-arnab-makes-landfall-with-135kph-winds/240856
+visibility: private
 ---
 
 <p align="center">10월 28일 새벽, 벵골만의 폭풍이 마침내 육지에 닿았다.<br/>인도 기상청(IMD)에 따르면 매우 강한 사이클론 아르나브의 상륙 과정은 현지 시간 28일 새벽 1시 20분(한국 시간 오전 4시 50분) 무렵 안드라프라데시 해안에서 시작됐다.<br/>상륙 지점은 바파트라와 비샤카파트남 사이, 야남 남쪽 해안이다.<br/>폭풍의 중심이 해안선에 바짝 붙은 채로 느리게 이동하면서 상륙 과정은 몇 시간에 걸쳐 이어졌다.<br/>IMD는 상륙 당시 최대 지속 풍속을 <strong>시속 125km에서 135km로</strong>, 돌풍을 <strong>시속 150km까지로</strong> 발표했다.<br/>인도 기상청의 등급 체계에서 '매우 강한'은 세 번째로 높은 단계다.</p>

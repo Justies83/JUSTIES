@@ -10,6 +10,7 @@ coverAlt: 9월 29일 뉴욕증시 3대 지수와 반도체 관련 지수·종목
 source:
   name: 서울신문 (2026.09.30)
   url: https://seoul.co.kr/news/economy/securities/2026/09/30/20260930500005
+visibility: private
 ---
 
 9월 29일(현지시간) 뉴욕증시 3대 지수는 모두 0.3% 안쪽의 좁은

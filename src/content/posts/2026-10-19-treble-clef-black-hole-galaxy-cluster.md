@@ -10,6 +10,7 @@ coverAlt: "찬드라·eROSITA X선(파랑), LOFAR 전파(빨강), UKIRT 적외�
 source:
   name: "NASA (2026.10.14)"
   url: https://science.nasa.gov/missions/chandra/nasas-chandra-breaks-down-treble-clefs-galaxy-cluster-collision/
+visibility: private
 ---
 
 <p align="center">우주에 악보가 떴다.<br/>전파로 그려진 거대한 기호 하나가, 악보 맨 앞에 붙는 <strong>높은음자리표</strong>를 빼닮은 것이다.<br/>천문학자들은 이 구조에 VLSS J0318.9+5755라는 식별번호와 함께 'Treble Clef'라는 별명을 붙였고, 그 정체를 밝히기 위해 NASA의 찬드라 X선 관측선을 동원했다.<br/>10월 14일 학술지 Astronomy &amp; Astrophysics에 실린 논문과 같은 날 공개된 NASA 보도자료가 내린 결론은 이렇다 — <strong>은하단 중심 초거대블랙홀의 대폭발</strong>이 먼저 있었고, 그 뒤 <strong>두 은하단의 충돌</strong>이 꺼져 가던 불씨를 다시 살려냈다.</p>

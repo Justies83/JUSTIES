@@ -8,6 +8,7 @@ tags: [이란, 미국, 호르무즈해협, IRGC, 이란전쟁]
 source:
   name: Just The News (2026.08.30)
   url: https://justthenews.com/world/middle-east/us-forces-strike-two-iranian-missile-launchers-larak-island
+visibility: private
 ---
 
 호르무즈 해협을 둘러싼 미국-이란 간 긴장이 다시 무력 충돌로 번졌다.

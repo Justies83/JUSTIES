@@ -8,6 +8,7 @@ tags: [AI데이터센터, 미국중간선거, 전기요금]
 source:
   name: NPR/KPBS (2026.09.05)
   url: https://www.kpbs.org/news/science-technology/2026/09/05/voters-are-fed-up-with-data-centers-both-parties-are-trying-to-cash-in-for-midterms
+visibility: private
 ---
 
 ## 사실

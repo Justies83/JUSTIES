@@ -10,6 +10,7 @@ coverAlt: 마이크론 4분기 실적의 공식 컨센서스 대비 결과와 �
 source:
   name: 한국경제 (2026.10.01)
   url: https://www.hankyung.com/article/2026100162076
+visibility: private
 ---
 
 마이크론이 9월 30일(현지시간) 장 마감 후 발표한 2026회계연도

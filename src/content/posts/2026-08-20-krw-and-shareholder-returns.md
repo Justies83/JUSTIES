@@ -7,6 +7,7 @@ takeaway: 원/달러 1,387~1,388원대. 반도체 양대 기업의 사상 최대
 tags: [환율, 주주환원, 반도체]
 cover: /images/fx-2026-08-20.svg
 coverAlt: 환율 흐름을 나타낸 도표
+visibility: private
 ---
 
 ## 오늘의 환율

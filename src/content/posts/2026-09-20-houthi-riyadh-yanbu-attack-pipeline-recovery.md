@@ -10,6 +10,7 @@ coverAlt: 후티 반군의 리야드·얀부 동시 공격 경과와 사우디 �
 source:
   name: 파이낸셜뉴스 (2026.09.20)
   url: https://www.fnnews.com/news/202609200434498851
+visibility: private
 ---
 
 이 아카이브가 지난 열흘 동안 따라온 사슬의 한쪽 끝을 다시 흔드는 소식입니다.

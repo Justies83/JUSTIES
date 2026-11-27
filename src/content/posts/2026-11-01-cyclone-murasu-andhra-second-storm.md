@@ -10,6 +10,7 @@ coverAlt: "벵골만 위의 사이클론 위성 사진"
 source:
   name: "비즈니스 스탠다드 (2026.10.31)"
   url: https://www.business-standard.com/amp/india-news/after-arnab-cyclone-murasu-likely-to-hit-andhra-pradesh-coast-imd-126103101215_1.html
+visibility: private
 ---
 
 <p align="center">벵골만이 아직 잠잠해지기도 전에 다음 폭풍이 다가오고 있다.<br/>인도 기상청(IMD)은 10월 31일 토요일, 벵골만 남동부와 안다만해 인근에서 발달한 저기압이 열대저기압으로 강해졌다고 밝혔다.<br/>이 시스템은 앞으로 이틀 동안 서북서쪽으로 이동하면서 세력을 키울 것으로 예보됐다.<br/>10월 28일 안드라프라데시 해안에 상륙한 사이클론 아르나브의 여파가 채 가시지 않은 시점이라, 같은 해안에 두 번째 폭풍이 몰려온다는 소식 자체가 현지에서는 긴장감으로 받아들여지고 있다.</p>

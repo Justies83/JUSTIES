@@ -10,6 +10,7 @@ coverAlt: "1968년 알바니아 티라나 위생·역학연구소에서 홍역 �
 source:
   name: "CDC (2026.11.06)"
   url: https://www.cdc.gov/measles/data-research/
+visibility: private
 ---
 
 <p align="center">미국 질병통제예방센터(CDC)가 11월 6일 금요일 공개한 주간 집계에서, 올해 미국 홍역 확진자가 <strong>5,182명</strong>으로 집계됐다.<br/>11월 5일 목요일 정오 기준 숫자다.<br/>연간 확진자가 5,000명을 넘긴 건 <strong>1991년 이후 35년 만</strong>이다.<br/>일주일 전 집계 4,852명에서 한 주 만에 <strong>330명</strong>이 늘었다.<br/>확진자는 45개 주와 워싱턴DC, 뉴욕시를 합친 47개 관할구역에서 나왔고, 해외에서 들어온 여행자 중 확진자도 18명 포함돼 있다.</p>

@@ -10,6 +10,7 @@ coverAlt: 비르고 트랜스포트 8호 전복 사고의 탑승 인원과 구�
 source:
   name: NPR (2026.09.14)
   url: https://www.stlpr.org/npr/2026-09-14/indonesia-searches-for-129-people-missing-after-ferry-capsizes-in-the-java-sea
+visibility: private
 ---
 
 인도네시아에서 여객선이 전복돼 대규모 실종자가 발생했습니다. **비르고

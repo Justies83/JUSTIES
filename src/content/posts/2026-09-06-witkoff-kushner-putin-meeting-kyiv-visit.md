@@ -8,6 +8,7 @@ tags: [우크라이나, 러시아, 푸틴, 젤렌스키, 종전협상]
 source:
   name: CNN (2026.09.05)
   url: https://www.kq2.com/cnn/cnn-world/2026/09/05/witkoff-and-kushner-arrive-in-moscow-with-plan-to-end-war-ahead-of-visit-to-kyiv/
+visibility: private
 ---
 
 [전날 글](/posts/2026-09-06-witkoff-kushner-moscow-ukraine-talks)에서 다룬

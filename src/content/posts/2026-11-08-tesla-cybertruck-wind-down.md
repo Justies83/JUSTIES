@@ -10,6 +10,7 @@ coverAlt: "2024년형 테슬라 사이버트럭, 유타주 모압"
 source:
   name: "로이터 (2026.11.06)"
   url: https://www.reuters.com/business/autos-transportation/tesla-cybertrucks-bumpy-run-cracked-windows-long-delays-11-recalls-2026-11-06/
+visibility: private
 ---
 
 <p align="center">테슬라의 사이버트럭이 3년 반 만에 생산을 접는다.<br/>일론 머스크 테슬라 최고경영자는 11월 6일 금요일(현지시간) X에 올린 글에서 "테슬라는 내년 중반쯤 기가팩토리 텍사스에서 사이버트럭 생산을 줄여나갈 것"이라고 밝혔다.<br/>비워지는 자리는 사이버캡, 테슬라가 새로 내놓은 무인 로보택시가 채운다.<br/>머스크는 사이버캡 생산을 늘리기 위해 라인을 비운다고 설명했다.<br/>고객 인도가 시작된 2023년 11월 말부터 세면, 생산이 끝나는 2027년 중반까지 이 차가 팔린 기간은 3년 반 남짓이다.</p>

@@ -10,6 +10,7 @@ coverAlt: 스페인 주거 법령 부결, 의회 해산, 마리카르멘 사망�
 source:
   name: 텔레마드리드 (2026.10.07)
   url: https://www.telemadrid.es/noticias/madrid/Muere-Maricarmen-la-mujer-de-87-anos-desahuciada-en-Madrid-que-avivo-las-protestas-0-2932506762--20261007083403.html
+visibility: private
 ---
 <p align="center">스페인 페드로 산체스 총리가 <strong>10월 5일</strong> 의회를 해산하고 <strong>11월 29일</strong> 총선을 치르겠다고 발표했습니다. 직접 계기는 사흘 전인 10월 2일 하원이 정부의 주거 관련 긴급 법령 2건을 부결시킨 일입니다. 9월 29일 내각이 의결한 이 법령은 퇴거 보호 조치와 임대계약 기간 연장을 담고 있었는데, 융츠와 국민당(PP), 복스가 반대표를 던지면서 두 건 모두 폐기됐습니다. 융츠는 첫 번째 안을 정부와 협상했지만 마지막 순간에 반대로 돌아섰습니다. 스페인 선거법상 총선은 해산 54일 뒤에 치러지는데, 11월 29일이 그 조건에 맞는 첫 일요일입니다.</p>
 

@@ -10,6 +10,7 @@ coverAlt: AI 생성 이미지 — 새벽 안개 속 압록강을 가로지르는
 source:
   name: "Reuters (2026.10.14)"
   url: https://947thebeast.com/2026/10/13/china-north-korea-bridge-to-open-on-october-15/
+visibility: private
 ---
 
 <p align="center">가장 중요한 사실부터 정리합니다.<br/>중국과 북한을 잇는 신압록강대교가 내일(10월 15일) 개통합니다.<br/>중국 관영 신화통신이 오늘(10월 14일) 양국이 개통식을 공동 개최한다고 보도했고, 로이터가 이를 전했습니다.<br/>중국 측 공사가 끝난 지 **12년** 만의 개통입니다.</p>

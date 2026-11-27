@@ -10,6 +10,7 @@ coverAlt: "런던 스레드니들 스트리트의 영란은행 건물"
 source:
   name: "로이터 (2026.11.05)"
   url: https://www.reuters.com/world/uk/bank-england-raises-rates-first-time-since-2023-says-more-may-come-2026-11-05/
+visibility: private
 ---
 
 <p align="center">11월 5일 목요일, 영란은행이 금리를 올렸다.<br/>기준금리가 <strong>3.75%에서 4%로</strong>, <strong>0.25%포인트</strong> 인상됐다.<br/>2023년 8월 이후 <strong>3년 3개월</strong> 만의 첫 인상이다.<br/>통화정책위원회 9명 가운데 8명이 찬성했고, 반대한 한 명은 금리를 동결하자고 한 게 아니라 오히려 더 올리자고 했다.<br/>캐서린 맨 위원은 <strong>0.5%포인트</strong> 인상해 <strong>4.25%로</strong> 가야 한다고 주장했다.</p>

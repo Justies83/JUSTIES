@@ -10,6 +10,7 @@ coverAlt: FOMC 결정 세부와 발표 당일 뉴욕증시 지수별 반응을 �
 source:
   name: 이데일리 (2026.09.17)
   url: https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=01997526645581104
+visibility: private
 ---
 
 [앞선 글](/posts/2026-09-17-fed-raises-rates-first-hike-in-3-years)에서 연준이

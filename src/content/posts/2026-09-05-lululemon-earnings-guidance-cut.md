@@ -8,6 +8,7 @@ tags: [룰루레몬, 실적, 뉴욕증시, 소매업]
 source:
   name: Yahoo Finance (2026.09.04)
   url: https://finance.yahoo.com/markets/article/lululemon-sinks-after-cutting-forecast-as-revenue-declines-210101310.html
+visibility: private
 ---
 
 [같은 날 미장 요약](/posts/2026-09-05-us-jobs-report-stocks-fall-rate-hike-odds)에서

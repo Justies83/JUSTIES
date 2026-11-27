@@ -10,6 +10,7 @@ coverAlt: "바누아투 에스피리투산토 섬의 해안 파노라마, 푸른
 source:
   name: "더 워처스 (2026.10.24)"
   url: https://watchers.news/2026/10/24/strong-earthquake-sequence-strikes-off-northern-vanuatu-after-initial-m6-9-event/
+visibility: private
 ---
 
 <p align="center">10월 24일 토요일 오후, 남태평양의 섬나라 바누아투 북부 앞바다가 크게 흔들렸다.<br/>현지 시각 오후 1시 31분, 한국 시간으로는 오전 11시 31분이었다.<br/>첫 지진의 규모는 <strong>6.9였다</strong>.<br/>그런데 첫 보도를 본 사람 중에는 규모 7.2라는 숫자를 본 사람도 많았다.<br/>두 숫자는 서로 다른 지진이 아니다.<br/>7.2는 처음에 나온 잠정 추정치였고, 미국 지질조사국(USGS)이 자료를 다듬으면서 6.9로 고쳤다.<br/>태평양쓰나미경보센터(PTWC)의 첫 메시지도 잠정 규모 7.2를 기준으로 나갔다.<br/>그래서 같은 지진을 두고 7.2와 6.9, 두 개의 숫자가 하루 종일 돌아다녔다.<br/>이 글에서는 수정된 수치인 6.9를 기준으로 정리한다.</p>

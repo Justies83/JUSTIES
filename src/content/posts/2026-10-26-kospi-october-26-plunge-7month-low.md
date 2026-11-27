@@ -10,6 +10,7 @@ coverAlt: "여의도 마천루"
 source:
   name: "연합뉴스 (2026.10.26)"
   url: https://www.yna.co.kr/view/AKR20261026126100008?section=market-plus/all
+visibility: private
 ---
 
 <p align="center">월요일 장은 반등으로 시작해 하락으로 끝났다.<br/>10월 26일 코스피는 전 거래일보다 <strong>80.83포인트, 1.46%를</strong> 내린 <strong>5,469.47에</strong> 마감했다.<br/>지난 4월 6일 이후 가장 낮은 종가다.<br/>하루 전인 10월 23일에는 극심한 장중 변동성 속에서도 5,550.30으로 올랐는데, 그 반등은 하루를 넘기지 못했다.<br/>코스닥은 낙폭이 더 컸다.<br/>전 거래일보다 <strong>24.48포인트, 3.26%를</strong> 내린 <strong>727.21에</strong> 마감해 3거래일 연속 하락했다.<br/>7월 31일 이후 가장 낮은 수준이다.</p>

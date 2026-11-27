@@ -10,6 +10,7 @@ coverAlt: 후티의 타이프·얀부 미사일 공격과 브렌트유 급등, �
 source:
   name: 뉴스핌 (2026.09.25)
   url: https://www.newspim.com/news/view/20260925000005
+visibility: private
 ---
 
 [9월 24일 글에서](/posts/2026-09-24-oil-hormuz-reopening-offer-brent-drop-put-options)

@@ -10,6 +10,7 @@ coverAlt: IAC 2026 한국관 참여 지자체와 기업, 7일 누리호 5차 발
 source:
   name: 이투데이 (2026.10.02)
   url: https://www.etoday.co.kr/news/view/2631997
+visibility: private
 ---
 
 우주항공청이 **10월 5일부터 9일까지** 튀르키예 안탈리아에서 열리는

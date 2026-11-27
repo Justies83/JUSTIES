@@ -10,6 +10,7 @@ coverAlt: 네팔 실종자 하루 증가폭과 사망·실종 합계, 한국인 
 source:
   name: 헤럴드경제 (2026.09.17)
   url: https://biz.heraldcorp.com/article/10877200
+visibility: private
 ---
 
 [이틀 전 이 아카이브가 네팔·티베트 홍수 피해를 7,087명으로

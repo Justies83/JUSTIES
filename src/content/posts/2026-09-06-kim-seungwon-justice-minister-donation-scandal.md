@@ -8,6 +8,7 @@ tags: [김승원, 법무부, 정치자금법, 인사청문회]
 source:
   name: 경향신문 (2026.09.06)
   url: https://www.khan.co.kr/article/202609060700011/
+visibility: private
 ---
 
 ## 사실

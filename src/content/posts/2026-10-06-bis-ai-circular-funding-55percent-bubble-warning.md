@@ -10,6 +10,7 @@ coverAlt: BIS가 분석한 AI 기업 간 순환투자 비율과 거품 경고, �
 source:
   name: 토큰포스트 (2026.10.03)
   url: https://www.tokenpost.kr/news/ai/417769
+visibility: private
 ---
 
 [최근 브로드컴이 앤트로픽에 최대 420억달러를 빌려주면서](/posts/2026-10-03-broadcom-anthropic-42billion-loan-circular-financing)

@@ -10,6 +10,7 @@ coverAlt: "뉴욕증권거래소 트레이딩 플로어"
 source:
   name: "NDTV Profit (2026.11.10)"
   url: https://www.ndtvprofit.com/markets/us-stock-market-today-dow-nasdaq-trade-lower-as-hotter-cpi-fuels-fed-rate-hike-fears-12308982
+visibility: private
 ---
 
 <p align="center">월요일의 급등은 하루 만에 멈췄다.<br/>현지시간 11월 10일 화요일 뉴욕증시는 3대 지수가 모두 내렸다.<br/>다우존스30 산업평균지수는 <strong>221.75포인트(0.42%)가</strong> 내린 <strong>52,168</strong>, 스탠더드앤드푸어스500 지수는 <strong>52.94포인트(0.70%)가</strong> 내린 <strong>7,497</strong>, 나스닥 종합지수는 <strong>0.74%가</strong> 내린 <strong>25,065</strong>선에 거래를 마쳤다.<br/>기술주 중심의 나스닥100 지수는 <strong>1.20%가</strong> 빠져 <strong>27,571</strong>까지 밀렸다.<br/>하루 전 3대 지수가 모두 2% 넘게 올랐던 것과 정반대 방향의 하루였다.</p>

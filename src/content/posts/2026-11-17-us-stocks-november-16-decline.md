@@ -10,6 +10,7 @@ coverAlt: "뉴욕증권거래소 건물 정면"
 source:
   name: "Reuters via The Korea Times (2026.11.16)"
   url: https://www.koreatimes.co.kr/amp/world/20261117/wall-street-slumps-on-ai-jitters-ahead-of-nvidia-results-anthropic-ipo
+visibility: private
 ---
 
 <p align="center">현지시간 11월 16일 월요일 뉴욕증시는 3대 지수가 모두 크게 내렸다.<br/>다우존스30 산업평균지수는 <strong>739.20포인트(1.41%)가</strong> 내린 <strong>51,608.35에</strong>, 스탠더드앤드푸어스500 지수는 <strong>145.07포인트(1.92%)가</strong> 내린 <strong>7,416.60에</strong>, 나스닥 종합지수는 <strong>626.52포인트(2.49%)가</strong> 내린 <strong>24,509.76에</strong> 거래를 마쳤다.<br/>세 지수 모두 장중 내내 낙폭을 키우며 저점 부근에서 마감했다.<br/>지난주 금요일 혼조 마감으로 끝난 한 주에 이어, 이번 주도 AI주를 둘러싼 불안으로 시작됐다.</p>

@@ -8,6 +8,7 @@ tags: [코스피, 코스닥, 삼성전자, SK하이닉스, KB금융, 신한지�
 source:
   name: 머니투데이 (2026.09.04)
   url: https://www.mt.co.kr/stock/2026/09/04/2026090416003629356
+visibility: private
 ---
 
 [아침 글](/posts/2026-09-04-us-stocks-waller-rate-hold-rally)에서 짚었던 "연준

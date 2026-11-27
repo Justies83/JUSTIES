@@ -10,6 +10,7 @@ coverAlt: "첸나이 코얌베두 시장의 양파 더미와 가격판"
 source:
   name: "ThePrint (2026.11.12)"
   url: https://theprint.in/economy/indias-october-retail-inflation-breaches-rbis-6-ceiling-odds-of-december-repo-rate-hike-rise/3097181/?amp
+visibility: private
 ---
 
 <p align="center">11월 12일 목요일, 인도 통계·프로그램이행부(MoSPI)가 10월 소비자물가(CPI)를 발표했다.<br/>전년 동월 대비 <strong>6.09</strong>%다.<br/>9월 5.54%에서 한 달 만에 0.55%포인트 뛰었다.<br/>인도중앙은행(RBI)이 정한 물가 목표 상한 6%를 넘긴 건 2024년 10월 이후 2년 만이다.<br/>올해 들어 가장 높은 수치이기도 하다.<br/>시장 예상치는 5.93%였는데, 실제 수치는 그보다 높게 나왔다.</p>

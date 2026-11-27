@@ -10,6 +10,7 @@ coverAlt: "상하이 푸둥 스카이라인 야경 — Wikimedia Commons (Diego 
 source:
   name: "AP (2026.10.16)"
   url: https://www.akronnewsreporter.com/2026/10/16/china-ai-restrictions/
+visibility: private
 ---
 
 <p align="center">중국이 10월 16일 금요일, 인공지능과 칩, 태양광을 망라하는 <strong>40개</strong> 기술에 대한 수출 금지·제한 초안을 공개했다.<br/>상무부와 과학기술부가 공동으로 수출 금지·제한 기술 목록의 개정안을 담은 초안 문서를 낸 것이다.<br/>상무부 대변인은 이번 조치가 "필요한(necessary)" 조치라며 국가안보를 이유로 들었다.<br/>미국이 중국을 향해 휘둘러 온 수출 통제의 칼을, 중국이 이제 거꾸로 겨누기 시작했다는 신호다.</p>

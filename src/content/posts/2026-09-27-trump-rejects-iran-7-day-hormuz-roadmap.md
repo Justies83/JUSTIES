@@ -10,6 +10,7 @@ coverAlt: 이란의 호르무즈 7일 로드맵 제안 조건과 트럼프의 �
 source:
   name: 경향신문 (2026.09.27)
   url: https://www.khan.co.kr/article/202609271509001/
+visibility: private
 ---
 
 [9월 24일 글에서](/posts/2026-09-24-oil-hormuz-reopening-offer-brent-drop-put-options)

@@ -10,6 +10,7 @@ coverAlt: 전체 수출액 중 반도체 비중 47.2%를 나타낸 막대와, �
 source:
   name: 관세청 수출입 현황(8월 1~20일) · 헤럴드경제 보도
   url: https://biz.heraldcorp.com/article/10847745
+visibility: private
 ---
 
 관세청이 8월 21일 8월 1\~20일 수출입 현황을 발표했다. 숫자 자체는 좋다. 다만

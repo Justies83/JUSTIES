@@ -10,6 +10,7 @@ coverAlt: "데이터센터 서버실"
 source:
   name: "Nikkei Asia (2026.11.17)"
   url: https://asia.nikkei.com/business/technology/artificial-intelligence/us-issues-new-chip-rule-as-china-s-ai-companies-fear-nvidia-scandal-fallout
+visibility: private
 ---
 
 <p align="center">미국이 중국 기업의 첨단 AI 칩 접근을 막는 규제의 범위를 한 단계 넓혔다.<br/>사는 것뿐 아니라 빌려 쓰는 것까지 막겠다는 얘기다.<br/>미 상무부 산업안보국(BIS)은 현지 시간 11월 16일, 해외 데이터센터를 통한 첨단 AI 칩 원격 접근을 제한하는 임시 최종 규칙(IFR)을 발표했다.<br/>중국 기업이 직접 칩을 사지 못하게 막아 놨더니, 동남아 데이터센터에 있는 칩을 원격으로 빌려 대규모 AI 모델을 학습시키는 우회로가 생겼고, 이번 규칙은 그 우회로를 정면으로 겨냥했다.</p>

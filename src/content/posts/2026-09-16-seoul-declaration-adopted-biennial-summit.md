@@ -10,6 +10,7 @@ coverAlt: 서울선언으로 만들어진 협의체 구조와 협력 분야를 �
 source:
   name: 아주경제 (2026.09.16)
   url: https://www.ajunews.com/view/20260916172227225
+visibility: private
 ---
 
 [오늘 아침 글](/posts/2026-09-16-korea-uzbekistan-13-agreements-minerals)에서

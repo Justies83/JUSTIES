@@ -10,6 +10,7 @@ coverAlt: 오픈AI의 안전팀 연구원 3명 해고 경위와 최근 이어진
 source:
   name: TechCrunch (2026.10.01)
   url: https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/
+visibility: private
 ---
 
 오픈AI가 자사 안전팀 소속 연구원 **3명을** 해고했습니다. 월스트리트저널

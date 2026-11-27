@@ -8,6 +8,7 @@ tags: [브렌트유, 이란, 사우디아라비아, 후티, 호르무즈해협]
 source:
   name: 파이낸셜뉴스 (2026.09.09)
   url: https://www.fnnews.com/news/202609091828556453
+visibility: private
 ---
 
 [9월 9일 오전 글](/posts/2026-09-09-us-iran-tankers-jordan-missile-strikes)에서

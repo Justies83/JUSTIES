@@ -10,6 +10,7 @@ coverAlt: 트럼프 국정 지지율이 취임 시 47%에서 2026년 8월 33%까
 source:
   name: 뉴스핌 (로이터·입소스 인용)
   url: https://www.newspim.com/news/view/20260818000162
+visibility: private
 ---
 
 "트럼프 지지율이 30% 밑으로 간다더라"는 이야기를 확인해 달라는 요청을 받았다. 원문을 찾아보면

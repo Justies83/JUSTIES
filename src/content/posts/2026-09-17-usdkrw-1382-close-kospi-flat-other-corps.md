@@ -10,6 +10,7 @@ coverAlt: 9월 17일 원/달러 환율 상승과 코스피 종가, 투자 주체
 source:
   name: 이투데이 (2026.09.17)
   url: https://www.etoday.co.kr/news/view/2626900
+visibility: private
 ---
 
 [오전에 쓴 글](/posts/2026-09-17-korea-us-rate-gap-1-percent-bok-dilemma)의

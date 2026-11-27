@@ -10,6 +10,7 @@ coverAlt: "뉴욕증권거래소 외관"
 source:
   name: "Stocktwits (2026.10.23)"
   url: https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-drop-as-elevated-oil-prices-stoke-inflation-fears-ahead-of-fed-meeting-next-week-aapl-axp-cart-uber-in-focus/cZxyHWvRBU4
+visibility: private
 ---
 
 <p align="center">10월 23일(금, 미국 동부) 뉴욕증시는 목요일과 정반대의 얼굴로 마감했다.<br/>다우존스30 산업평균지수는 652.82포인트, <strong>-1.23%를</strong> 빠진 52,215.16에 문을 닫았다.<br/>S&amp;P500은 <strong>-0.52%를</strong> 내린 7,623.68, 나스닥 종합지수는 <strong>-0.21%를</strong> 내린 25,955.34에 마감했다.<br/>나스닥100은 28,957.53으로 사실상 보합이었고, 중소형주 지수 러셀2000도 <strong>-0.29%를</strong> 내린 2,775.90에 그쳤다.<br/>목요일에는 나스닥이 2.60% 폭락하고 다우가 제자리였는데, 금요일에는 다우가 가장 크게 빠지고 나스닥이 가장 덜 빠졌다.<br/>이틀 연속으로 장을 읽는 틀이 하루 만에 뒤집힌 셈이다.<br/>그래서 금요일 장을 단순히 목요일 매도의 연장으로 보면 틀린다.<br/>매도 자체는 이어졌지만, 파는 손이 바뀐 날이다.</p>

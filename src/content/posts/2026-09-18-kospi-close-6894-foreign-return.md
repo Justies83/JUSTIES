@@ -10,6 +10,7 @@ coverAlt: 9월 18일 코스피 개장부터 마감까지의 흐름과 투자 주
 source:
   name: 아주경제 (2026.09.18)
   url: https://www.ajunews.com/view/20260918153020977
+visibility: private
 ---
 
 [오전 글](/posts/2026-09-18-kospi-opens-2pct-sk-hynix-180)에서 코스피가

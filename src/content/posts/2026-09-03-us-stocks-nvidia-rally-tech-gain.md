@@ -8,6 +8,7 @@ tags: [뉴욕증시, 나스닥, S&P500, 다우존스, 엔비디아, 반도체]
 source:
   name: ABC News (AP, 2026.09.02)
   url: https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-wednesday-922026-136155616
+visibility: private
 ---
 
 전날([9월 1일 글](/posts/2026-09-01-iran-retaliates-jordan-bases-kospi-drops))

@@ -10,6 +10,7 @@ coverAlt: 9월 8일부터 10일까지 브렌트유 가격이 97.92달러에서 1
 source:
   name: 머니투데이 (2026.09.10)
   url: https://www.mt.co.kr/world/2026/09/10/2026091006432055997
+visibility: private
 ---
 
 [9월 9일 글](/posts/2026-09-09-us-iran-tankers-jordan-missile-strikes)에서 이란

@@ -10,6 +10,7 @@ coverAlt: 삼성전자 2026년 3분기 잠정실적의 매출·영업이익과 �
 source:
   name: 파이낸셜뉴스 (2026.10.08)
   url: https://www.fnnews.com/news/202610080748375182
+visibility: private
 ---
 <p align="center">삼성전자가 <strong>10월 8일</strong> 발표한 2026년 3분기 잠정실적에서 매출 약 <strong>195조원</strong>, 영업이익 약 <strong>107.4조원을</strong> 기록했습니다. 삼성전자의 분기 영업이익이 <strong>100조원을</strong> 넘은 것은 이번이 처음입니다.</p>
 

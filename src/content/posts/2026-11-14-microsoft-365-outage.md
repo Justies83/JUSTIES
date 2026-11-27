@@ -10,6 +10,7 @@ coverAlt: "마이크로소프트 본사 92번 건물(레드먼드)"
 source:
   name: "The Hindu (2026.11.13)"
   url: https://www.thehindu.com/sci-tech/technology/microsoft-outage-live-updates-november-13-2026-steps-to-fix-outlook-and-other-apps-ongoing/article71696624.ece
+visibility: private
 ---
 
 <p align="center">11월 12일 목요일 오후, 전 세계 직장인의 이메일이 멈췄다.<br/>마이크로소프트 365의 아웃룩 접속이 안 되기 시작했고, 몇 시간 만에 팀즈와 코파일럿, 셰어포인트까지 번졌다.<br/>장애 신고를 모으는 다운데텍터에는 순식간에 신고가 쌓였고, 한 시간 만에 <strong>74개국·지역</strong>으로 확산됐다.<br/>더 힌두는 수백만 명이 <strong>18시간 가까이</strong> 서비스에 접근하지 못했다고 전했다.</p>

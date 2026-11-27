@@ -10,6 +10,7 @@ coverAlt: "AI 생성 이미지 — 밤의 양자컴퓨팅 연구실, 금빛 양�
 source:
   name: "Reuters (2026.10.12)"
   url: https://www.reuters.com/legal/transactional/ionq-buy-cybersecurity-firm-elisity-up-13-billion-deal-2026-10-12/
+visibility: private
 ---
 
 <p align="center">양자컴퓨팅 기업 IonQ가 사이버보안 기업 Elisity를 인수합니다.<br/>IonQ는 10월 12일(현지 시간 월요일) 제로트러스트 보안 기업 엘리시티(Elisity)를 **전액 주식 거래로** 인수하는 최종 계약을 체결했다고 발표했습니다.<br/>인수 대가는 최대 **13억 달러에** 이릅니다.<br/>이번 거래가 성사되면 IonQ는 양자컴퓨터 제조를 넘어 기업과 정부의 네트워크 보안 사업으로 발을 넓히게 됩니다.<br/>니콜로 데 마시(Niccolo de Masi) IonQ 회장 겸 최고경영자는 "Q-Day가 예상보다 훨씬 빨리 오고 있다"고 밝혔습니다.<br/>Q-Day는 양자컴퓨터가 지금 널리 쓰이는 암호 체계를 깨뜨릴 수 있게 되는 시점을 가리키는 말입니다.</p>

@@ -10,6 +10,7 @@ coverAlt: "선전 스카이라인"
 source:
   name: "AP (2026.11.14)"
   url: https://www.wvlt.tv/2026/11/14/trump-xi-putin-plan-an-unprecedented-joint-meeting-white-house-says/
+visibility: private
 ---
 
 <p align="center">금요일 백악관, 토요일 크렘린궁.<br/>양쪽이 잇따라 확인했다.<br/>도널드 트럼프 미국 대통령, 시진핑 중국 국가주석, 블라디미르 푸틴 러시아 대통령이 목요일인 <strong>11월 19일</strong>, 중국 선전에서 열리는 아시아태평양경제협력체(APEC) 정상회의를 계기로 만난다.<br/>세계에서 핵무기를 가장 많이 가진 세 나라의 정상이 한 테이블에 앉는 건 처음이다.<br/>의제는 핵무기 감축과 이란 전쟁이다.<br/>우크라이나 전쟁은 논의하지 않기로 했다.<br/>합의문은 나올 것으로 기대되지 않는다.<br/>그래도 한 달 전만 해도 '가정적 가능성'이던 얘기가 날짜까지 박힌 회담이 됐다.</p>

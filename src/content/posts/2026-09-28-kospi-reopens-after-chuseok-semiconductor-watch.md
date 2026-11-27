@@ -10,6 +10,7 @@ coverAlt: 추석 연휴 전후 코스피·코스닥 마감 지수와 반도체 �
 source:
   name: 서울신문 (2026.09.23)
   url: https://www.seoul.co.kr/news/economy/securities/2026/09/23/20260923500251
+visibility: private
 ---
 
 국내 증시가 추석 연휴로 9월 24일(목)부터 나흘간 휴장한 뒤 9월 28일

@@ -10,6 +10,7 @@ coverAlt: "JAXA 화성 위성 탐사기 MMX 상상도 (이미지: JAXA/ISAS)"
 source:
   name: "한국일보 (2026.10.20)"
   url: https://www.hankookilbo.com/news/article/A2026102009380005311
+visibility: private
 ---
 
 <p align="center">오늘 새벽, 일본 남쪽 끝 섬에서 불꽃 하나가 화성으로 향했다.<br/>10월 20일 오전 4시 41분(현지 시각), 가고시마현 다네가시마 우주센터 — 일본 차세대 주력 로켓 H3 10호기가 화성의 위성을 탐사하는 탐사기 MMX를 싣고 발사됐다.<br/>발사 뒤 보조로켓 4개와 1단을 차례로 떼어내며 고도를 높인 H3는 <strong>발사 약 1시간 11분 뒤</strong> MMX를 화성으로 향하는 궤도에 올려놓았다.<br/>첫 관문인 '궤도 진입'을 무사히 넘긴 셈이다.</p>

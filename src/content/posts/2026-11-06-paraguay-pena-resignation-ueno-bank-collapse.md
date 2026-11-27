@@ -10,6 +10,7 @@ coverAlt: "아순시온의 파라과이 국회의사당"
 source:
   name: "AP통신 (2026.11.06)"
   url: https://gulfnews.com/world/americas/paraguay-faces-crisis-over-bank-collapse-president-santiago-pena-resigns-1.500737533
+visibility: private
 ---
 
 <p align="center"><strong>11월 11일 업데이트 — 수사는 금고로 번졌고, 중앙은행은 새 수장을 맞았다.</strong><br/>월요일, 검찰은 우에노의 증권사 우에노 카사 데 볼사를 압수수색했다.<br/>찢긴 서류 조각들이 나왔고, 그 안에는 실사 보고서와 이메일로 보이는 문서도 있었다.<br/>같은 날 페냐의 아순시온 자택도 다섯 시간 가까이 압수수색을 받았다.<br/>서류와 휴대폰, CCTV 영상, 태블릿과 컴퓨터가 압수됐다.<br/>우에노 지점 한 곳도 털어 페냐의 투자 관련 서류를 확보했고, 검찰은 이를 근거로 룩셈부르크에 암호화폐 자산 동결 협조를 요청했다.<br/>미국과 아르헨티나에도 우에노 관련 자산 추적 협조를 요청했다.</p>

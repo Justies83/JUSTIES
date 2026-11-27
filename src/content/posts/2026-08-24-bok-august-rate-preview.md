@@ -10,6 +10,7 @@ coverAlt: 기준금리가 5월 29일 2.50% 동결, 7월 16일 2.75% 인상을 �
 source:
   name: 한국은행 기준금리 결정 이력 · KB금융 Market Comment(2026.08.20)
   url: https://www.bok.or.kr/portal/singl/baseRate/list.do?dataSeCd=01&menuNo=200643
+visibility: private
 ---
 
 한국은행이 8월 27일 금융통화위원회 통화정책방향 결정회의를 연다. 7월 16일

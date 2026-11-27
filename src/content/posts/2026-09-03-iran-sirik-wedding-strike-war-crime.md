@@ -8,6 +8,7 @@ tags: [이란, 미국, 호르무즈해협, 이란전쟁, 전쟁범죄]
 source:
   name: Al Jazeera (2026.09.02)
   url: https://www.aljazeera.com/news/2026/9/2/what-do-we-know-about-the-fatal-us-bombing-of-a-wedding-in-irans-sirik
+visibility: private
 ---
 
 [8월 31일](/posts/2026-08-31-us-strikes-larak-island-iran)·[9월

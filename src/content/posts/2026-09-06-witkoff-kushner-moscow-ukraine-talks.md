@@ -8,6 +8,7 @@ tags: [우크라이나, 러시아, 푸틴, 젤렌스키, 종전협상]
 source:
   name: Euromaidan Press (2026.09.04)
   url: https://euromaidanpress.com/2026/09/04/witkoff-and-kushner-to-visit-kyiv-and-moscow/
+visibility: private
 ---
 
 [9월 5일 글](/posts/2026-09-05-putin-ukraine-peace-deal-chance)에서 다룬

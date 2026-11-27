@@ -10,6 +10,7 @@ coverAlt: 트럼프 대통령의 알래스카 LNG 투자 발표 예정 내용과
 source:
   name: 뉴스핌 (2026.09.30)
   url: https://www.newspim.com/news/view/20260930000185
+visibility: private
 ---
 
 [9월 28일 글에서](/posts/2026-09-28-korea-us-investment-real-sticking-point-nuclear-equity)

@@ -8,6 +8,7 @@ tags: [우크라이나, 러시아, 젤렌스키, 키이우, 종전협상]
 source:
   name: Al Jazeera (2026.09.08)
   url: https://www.aljazeera.com/news/2026/9/8/russia-strikes-kyiv-as-three-day-pause-during-us-envoy-visits-ends
+visibility: private
 ---
 
 [9월 6일 글](/posts/2026-09-06-witkoff-kushner-zelensky-kyiv-talks-conclude)에서

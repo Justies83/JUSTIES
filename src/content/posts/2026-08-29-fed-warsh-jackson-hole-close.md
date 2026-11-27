@@ -8,6 +8,7 @@ tags: [뉴욕증시, 연준, 케빈워시, 잭슨홀, 기준금리]
 source:
   name: Yahoo Finance (2026.08.28)
   url: https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-slip-tech-rally-113501701.html
+visibility: private
 ---
 
 8월 29일(토) 국내 증시는 휴장이다. 가장 최근 확인 가능한 재료는 하루 전

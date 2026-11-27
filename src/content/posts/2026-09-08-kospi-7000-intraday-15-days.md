@@ -8,6 +8,7 @@ tags: [코스피, 코스닥, 오픈AI, 메모리반도체]
 source:
   name: 헤럴드경제 (2026.09.08)
   url: https://biz.heraldcorp.com/article/10865930
+visibility: private
 ---
 
 [전날 마감 글](/posts/2026-09-07-kospi-close-near-7000-record-rally)에서

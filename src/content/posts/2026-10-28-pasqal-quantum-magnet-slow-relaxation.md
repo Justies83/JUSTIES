@@ -10,6 +10,7 @@ coverAlt: "아람코와 파스칼이 공개한 양자컴퓨터"
 source:
   name: "GlobeNewswire (2026.10.27)"
   url: https://www.globenewswire.com/news-release/2026/10/27/3388958/0/en/pasqal-s-neutral-atom-processor-uncovers-quantum-magnet-behavior-that-theory-did-not-predict.html
+visibility: private
 ---
 
 <p align="center">양자컴퓨터가 이미 알려진 물리를 다시 확인하는 단계를 넘어, 아무도 예상하지 못한 물리를 가리키는 단계에 들어섰다는 소식이 나왔다.<br/>프랑스 기업 파스칼이 2026년 10월 27일 보도자료로 밝힌 내용이다.<br/>파스칼의 <strong>256큐비트 중성원자 프로세서가</strong> 2차원 양자자석에서 이론이 예측한 것보다 훨씬 느리게 진정되는 구간을 포착했다.<br/>연구는 플랫아이언연구소와 아우크스부르크대, 율리히연구소, 레겐스부르크대, 파리 광학연구소가 함께 수행했고, 결과는 arXiv 프리프린트로 공개됐다.<br/>논문 제목은 <strong>Exploring the Relaxation Landscape of a 2D Quantum Magnet on a 256-Qubit Processor</strong>다.<br/>아직 동료심사를 거친 학술지 논문이 아니라 프리프린트 단계라는 점부터 짚고 들어가는 편이 정확하다.</p>

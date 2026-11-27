@@ -10,6 +10,7 @@ coverAlt: 9월 12일 새벽 러시아가 발사한 무기 구성을 나타낸 �
 source:
   name: Kyiv Independent (2026.09.12)
   url: https://kyivindependent.com/russian-attacks-kill-11-injure-96-across-ukraine-as-odesa-comes-under-mass-overnight-strike/
+visibility: private
 ---
 
 9월 12일 새벽 러시아가 우크라이나 전역에 대규모 공습을 가했습니다.

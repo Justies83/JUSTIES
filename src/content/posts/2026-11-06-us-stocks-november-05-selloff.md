@@ -10,6 +10,7 @@ coverAlt: "뉴욕증권거래소 건물"
 source:
   name: "MarketWatch (2026.11.05)"
   url: https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-democrat-sweep-midterm-elections-rally/card/u-s-stocks-end-sharply-lower-as-nasdaq-enters-correction-xVitICpiEnyNJay19Rrk
+visibility: private
 ---
 
 <p align="center">수요일 저녁의 환호가 채 하루도 가지 않았다.<br/>현지시간 11월 5일 목요일, 뉴욕증시는 3대 지수가 일제히 급락하며 마감했다.<br/>다우존스30 산업평균지수는 <strong>1,833포인트(3.4%)가</strong> 빠진 <strong>51,523.06</strong>, 스탠더드앤드푸어스500 지수는 <strong>335포인트(4.4%)가</strong> 내린 <strong>7,353.73</strong>, 나스닥 종합지수는 <strong>1,422포인트(5.5%)가</strong> 떨어진 <strong>24,315.00</strong>에 거래를 마쳤다.<br/>3대 지수 모두 2025년 4월 4일 이후 가장 큰 하루 낙폭을 기록했다.<br/>나스닥은 지난달 6일 기록한 사상 최고 종가에서 10% 넘게 밀리며 조정 국면에 들어갔고, 200일 이동평균선 아래로 내려간 것도 4월 이후 처음이다.</p>

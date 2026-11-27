@@ -10,6 +10,7 @@ coverAlt: "사우스 파드레 아일랜드에서 본 스타십 발사 장면"
 source:
   name: "Florida Today (2026.11.13)"
   url: https://www.floridatoday.com/story/tech/science/space/spacex/2026/11/13/spacexs-starship-flight-15-launches-from-texas-reaches-orbit-but-misses-booster-catch/92758185007/
+visibility: private
 ---
 
 <p align="center">현지시간 11월 13일 금요일 오후 5시 47분, 텍사스주 스타베이스에서 스페이스X의 거대한 로켓 스타십이 15번째 시험 비행에 올랐다.<br/>40층 높이의 기체는 33기의 랩터 엔진을 켜고 2번 발사대를 박차고 올라갔다.<br/>이번 비행의 목표는 두 가지를 한 번에 해내는 것이었다.<br/>아래쪽 슈퍼헤비 부스터와 위쪽 우주선을 모두 발사대로 되돌려와 기계 팔로 잡는 것, 로켓 업계에서 '성배'라고 부르는 완전 재사용의 첫 실증이었다.<br/>결과는 절반의 성공이었다.<br/>부스터는 잡지 못하고 바다에 떨어졌고, 우주선은 궤도에 올라 임무의 나머지 절반을 이어가고 있다.</p>

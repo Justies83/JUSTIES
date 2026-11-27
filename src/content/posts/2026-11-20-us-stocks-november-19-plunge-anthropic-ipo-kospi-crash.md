@@ -10,6 +10,7 @@ coverAlt: "뉴욕증권거래소 건물 외관"
 source:
   name: "Investopedia (2026.11.19)"
   url: https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-nasdaq-11192026-12263687
+visibility: private
 ---
 
 <p align="center">현지시간 11월 19일 목요일 뉴욕증시는 세 지수가 나란히 2% 넘게 빠졌다.<br/>다우존스30 산업평균지수는 <strong>1,101.11포인트(2.19%)가</strong> 내린 <strong>49,097.06에</strong>, 스탠더드앤드푸어스500 지수는 <strong>2.02%가</strong> 빠진 <strong>7,175.83에</strong>, 나스닥 종합지수는 <strong>550.69포인트(2.25%)가</strong> 밀린 <strong>23,879.20에</strong> 거래를 마쳤다.<br/>다우가 5만 선 아래로 내려간 건 6월 초 이후 처음이다.<br/>소형주 지수인 러셀2000도 <strong>2.18%가</strong> 빠진 <strong>2,655.11에</strong> 마감했다.</p>

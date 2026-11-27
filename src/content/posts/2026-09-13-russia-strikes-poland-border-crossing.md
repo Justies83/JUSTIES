@@ -10,6 +10,7 @@ coverAlt: 러시아의 우크라이나-폴란드 국경 트럭 공격 위치와 
 source:
   name: The Jerusalem Post (2026.09.13)
   url: http://www.jpost.com/international/internationalrussia-ukraine-war/article-908452
+visibility: private
 ---
 
 러시아의 공격이 이번에는 나토 회원국 코앞까지 다가갔습니다. 9월 13일

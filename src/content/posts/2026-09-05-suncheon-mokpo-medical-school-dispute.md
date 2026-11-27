@@ -8,6 +8,7 @@ tags: [국립의대, 순천대, 목포대, 전남]
 source:
   name: 경향신문 (2026.09.04)
   url: https://www.khan.co.kr/article/202609041322001/
+visibility: private
 ---
 
 ## 사실

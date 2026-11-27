@@ -8,6 +8,7 @@ tags: [서울시내버스, 파업, 통상임금, 노동, 대중교통]
 source:
   name: 국제뉴스 (2026.09.03)
   url: https://www.gukjenews.com/news/articleView.html?idxno=3682946
+visibility: private
 ---
 
 서울 시내버스가 9월 16일 첫차부터 멈출 수 있습니다. 노조가 전면 파업을 예고했고,

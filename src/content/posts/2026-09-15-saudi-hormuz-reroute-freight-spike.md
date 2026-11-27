@@ -10,6 +10,7 @@ coverAlt: 사우디 원유 수출 경로 변화와 해상 운임 급등을 나�
 source:
   name: 헤럴드경제 (2026.09.15)
   url: https://biz.heraldcorp.com/article/10873403
+visibility: private
 ---
 
 [어제 글](/posts/2026-09-15-saudi-east-west-pipeline-attack-oil-surge)에서

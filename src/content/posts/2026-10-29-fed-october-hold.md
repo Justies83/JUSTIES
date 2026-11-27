@@ -10,6 +10,7 @@ coverAlt: "워싱턴 D.C.에 있는 연방준비제도 본부 건물"
 source:
   name: "로이터 (2026.10.28)"
   url: https://duke.fm/2026/10/28/fomc-holds-rates-steady-markets-mostly-follow-suit-2/
+visibility: private
 ---
 
 <p align="center">미국 연방준비제도가 금리를 건드리지 않았다.<br/>10월 28일 연방공개시장위원회(FOMC)는 기준금리인 연방기금금리 목표범위를 <strong>3.75퍼센트에서 4퍼센트</strong>로 유지하기로 했다.<br/>지난 9월에 금리를 올린 뒤 처음 열린 회의였고, 시장의 예상과 같은 결과였다.<br/>그런데 표결 결과를 들여다보면 이번 동결이 평온한 합의가 아니었다는 게 드러난다.<br/>찬성 10표, 반대 2표였다.<br/>반대 쪽은 금리를 더 올려야 한다는 쪽이었다.</p>

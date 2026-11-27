@@ -10,6 +10,7 @@ coverAlt: 9월 21일 브렌트·WTI 유가와 코스피 개장, 삼성전자·SK
 source:
   name: 뉴스핌 (2026.09.21)
   url: https://www.newspim.com/news/view/20260921000038
+visibility: private
 ---
 
 [9월 20일 글](/posts/2026-09-20-houthi-riyadh-yanbu-attack-pipeline-recovery)을

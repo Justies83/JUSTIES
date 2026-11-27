@@ -8,6 +8,7 @@ tags: [이란, 호르무즈해협, 장금상선, 이란전쟁, 해운]
 source:
   name: 이데일리 (2026.09.02)
   url: https://www.edaily.co.kr/News/Read?newsId=03329206645576184
+visibility: private
 ---
 
 [9월 4일 사우디 유조선 피격 글](/posts/2026-09-04-saudi-tanker-attack-filipino-seafarers)에서

@@ -8,6 +8,7 @@ tags: [이란, 미국, 호르무즈해협, 요르단, 코스피, 이란전쟁]
 source:
   name: 이투데이 (2026.08.31)
   url: https://www.etoday.co.kr/news/view/2620096
+visibility: private
 ---
 
 [8월 31일 글](/posts/2026-08-31-us-strikes-larak-island-iran)에서 "IRGC가

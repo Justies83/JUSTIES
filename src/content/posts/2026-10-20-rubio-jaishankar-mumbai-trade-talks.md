@@ -10,6 +10,7 @@ coverAlt: "뭄바이 게이트웨이 오브 인디아"
 source:
   name: "Economic Times (2026.10.20)"
   url: https://economictimes.indiatimes.com/news/economy/foreign-trade/rubio-says-india-us-trade-deal-is-very-very-close-after-jaishankar-meeting/articleshow/135068984.cms?from=mdr
+visibility: private
 ---
 
 <p align="center">화요일 오후 뭄바이에서 회담을 마치고 기자들 앞에 선 마르코 루비오 미국 국무장관의 말은 짧았다.<br/>「매우, 매우 가깝다(very, very close).<br/>서명 없이 합의에 도달한 것과 거의 같을 만큼 가깝다.<br/>마무리할 항목이 소수 남았고, 조만간 끝날 것이다.」<br/>AP가 전한 이 발언은 <strong>14개월간 표류해 온 미·인 무역협상</strong>이 처음으로 구체적인 종착점을 드러낸 순간이었다.<br/>이코노믹타임스가 10월 20일 오후 5시 19분(인도시간, 한국시간 오후 8시 49분)에 보도하면서 소식은 곧바로 전 세계로 퍼졌다.</p>

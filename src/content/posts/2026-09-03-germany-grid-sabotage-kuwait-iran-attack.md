@@ -8,6 +8,7 @@ tags: [독일, 러시아, 쿠웨이트, 이란, 이란전쟁, 하이브리드전
 source:
   name: The Local (2026.09.02)
   url: https://www.thelocal.de/20260902/germany-investigates-two-acts-of-sabotage-on-its-power-grid
+visibility: private
 ---
 
 ### 독일, 24시간 새 전력망 사보타주 두 건 수사

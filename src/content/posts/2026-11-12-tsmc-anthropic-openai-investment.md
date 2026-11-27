@@ -10,6 +10,7 @@ coverAlt: "대만 타이난 남부과학단지의 TSMC Fab 14B"
 source:
   name: "TSMC Form 6-K, SEC EDGAR (2026.11.10)"
   url: https://www.sec.gov/Archives/edgar/data/1046179/000104617926000797/tsm-boardx202611xx.htm
+visibility: private
 ---
 
 <p align="center">11월 10일 화요일, 대만 신주에서 열린 TSMC 이사회가 다섯 개 안건을 의결했다.<br/>그 가운데 다섯 번째가 가장 눈에 띄었다.<br/>앤트로픽과 오픈AI에 각각 최대 5억 달러, 합쳐서 최대 10억 달러를 투자한다는 내용이었다.<br/>세계 최대 파운드리 회사가, 자기한테 칩을 사 가는 AI 회사들의 주주가 되겠다는 얘기다.<br/>결의문은 미국 증권거래위원회(SEC)에 낸 6-K 보고서에 그대로 실렸다.</p>

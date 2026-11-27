@@ -10,6 +10,7 @@ coverAlt: "시애틀 아마존 스피어스"
 source:
   name: "Amazon (2026.10.29)"
   url: https://www.aboutamazon.com/news/company-news/amazon-earnings-q3-2026-report?trk=organization_guest_main-feed-card-text
+visibility: private
 ---
 
 <p align="center">10월 29일 미국 장이 끝난 뒤, 아마존이 3분기 성적표를 내놨다.<br/>결론부터 말하면, 시장은 이 실적을 좋은 실적으로 받아들이지 않았다.<br/>시간외 거래에서 아마존 주가는 7% 넘게 빠졌다는 보도가 나왔다.<br/>그런데 숫자만 놓고 보면 이상한 구석이 있다.<br/>클라우드 사업은 5년 만에 가장 빠른 속도로 컸고, 영업이익률은 회사 역사상 가장 높았다.<br/>잘된 부분과 시장이 싫어한 부분이 한 실적 안에 같이 들어 있다.<br/>어느 쪽이 진짜 아마존의 지금 모습인지, 숫자를 하나씩 뜯어보자.</p>

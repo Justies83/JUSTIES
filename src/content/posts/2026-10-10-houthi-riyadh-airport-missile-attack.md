@@ -10,6 +10,7 @@ coverAlt: 석양에 비친 공항 관제탑과 불 켜진 활주로 (AI 생성 �
 source:
   name: "AP (La Nación 전재, 2026.10.09)"
   url: https://www.lanacion.com.ar/usa/saudi-authorities-say-3-were-killed-in-attacks-on-riyadh-airport-claimed-by-houthi-rebels-nid09102026/
+visibility: private
 ---
 <p align="center">가장 중요한 사실부터 정리합니다. 10월 8일 목요일 오후, 사우디아라비아 수도 리야드의 킹할리드 국제공항이 두 차례 공격을 받아 사우디 시민 <strong>3명이</strong> 숨졌습니다. 사망자 중 한 명은 사우디아라비아 국적 항공사 사우디아의 기장 하무드 알리 알칼타미였고, 여러 국적의 부상자도 발생했습니다. 사우디 민간항공청(GACA)이 10월 9일 금요일 성명으로 공식 확인한 내용입니다. 예멘 정부군과 사우디 주도 연합군이 지난 주말 예멘의 후티 반군에 대한 대규모 공세를 시작한 이후, 사우디 본토에서 나온 가장 치명적인 인명 피해입니다.</p>
 

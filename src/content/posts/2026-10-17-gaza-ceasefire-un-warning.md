@@ -10,6 +10,7 @@ coverAlt: "2023년 10월 가자시티 공습 피해 현장 — Wikimedia Commons
 source:
   name: "Tribune (2026.10.15)"
   url: https://tribune.com.pk/story/2635066/un-official-sounds-alarm-about-gaza-west-bank-year-after-ceasefire
+visibility: private
 ---
 
 <p align="center">유엔이 가자지구에 이례적으로 강한 경고를 내놨다.<br/>10월 15일 뉴욕 유엔본부에서 열린 안전보장이사회 중동·팔레스타인 공개토론에서, 유엔 중동평화프로세스 특사 대행 라미즈 알라크바로브는 <strong>"전쟁으로 돌아갈 위험이 그 어느 때보다 크다"고</strong> 말했다.<br/>예루살렘에서 화상으로 브리핑한 그는 가자지구의 절망이 눈에 보인다고 했고, <strong>"가자지구의 절망은 뚜렷하다"고</strong> 덧붙였다.<br/>2025년 10월 휴전이 발효된 지 꼭 1년이 되는 시점, 그리고 2023년 10월 7일 사건 3주기를 갓 넘긴 시점에 나온 경고다.<br/>이날 공개토론에는 70명의 연사가 참여해 발언했다고 요르단 페트라통신이 전했다.</p>

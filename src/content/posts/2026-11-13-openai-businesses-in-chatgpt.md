@@ -10,6 +10,7 @@ coverAlt: "리스본 아베니다 드 로마의 카페 용품점 진열장"
 source:
   name: "OpenAI (2026.11.10)"
   url: https://openai.com/index/introducing-businesses-chatgpt/
+visibility: private
 ---
 
 <p align="center">11월 10일 화요일, 오픈AI가 'Businesses in ChatGPT'를 베타로 공개했다.<br/>기업이 챗GPT 안에 자기 가게의 프로필을 직접 만들고 관리하는 기능이다.<br/>매주 챗GPT를 쓰는 사람은 오픈AI 발표 기준 <strong>12억 명</strong>이다.<br/>그 사람들 앞에, 이제 가게가 직접 모습을 드러낼 수 있게 된 셈이다.<br/>챗GPT는 물어보는 곳을 넘어, 가게를 만나는 곳이 되겠다는 얘기다.</p>

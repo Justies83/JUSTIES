@@ -10,6 +10,7 @@ coverAlt: 이재명 대통령 국정 지지율의 전체·서울·40대별 하�
 source:
   name: 경향신문 (2026.09.11)
   url: https://www.khan.co.kr/article/202609111037001/
+visibility: private
 ---
 
 한국갤럽이 9월 8일부터 10일까지 전국 만 18세 이상 1,000명을 대상으로 조사한

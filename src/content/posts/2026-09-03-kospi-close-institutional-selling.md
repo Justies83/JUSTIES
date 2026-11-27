@@ -8,6 +8,7 @@ tags: [코스피, 코스닥, 삼성전자, SK하이닉스, 자사주소각, KB�
 source:
   name: 머니투데이 (2026.09.03)
   url: https://www.mt.co.kr/stock/2026/09/03/2026090316132697550
+visibility: private
 ---
 
 [아침 글](/posts/2026-09-03-us-stocks-nvidia-rally-tech-gain)에서 엔비디아 강세가

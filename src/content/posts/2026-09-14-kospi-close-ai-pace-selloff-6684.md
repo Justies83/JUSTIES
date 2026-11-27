@@ -11,6 +11,7 @@ coverAlt: 9월 14일 코스피 개장가와 종가, 반도체 대형주 낙폭�
 source:
   name: 이데일리 (2026.09.14)
   url: https://www.edaily.co.kr/News/Read?newsId=03457126645580120
+visibility: private
 ---
 
 [오늘 아침 글](/posts/2026-09-14-kospi-opens-down-314-percent-treasury-yield-5)에서

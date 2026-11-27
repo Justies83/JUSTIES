@@ -10,6 +10,7 @@ coverAlt: 9월 14일 코스피 개장 급락과 원인을 나타낸 도표
 source:
   name: 파이낸셜뉴스 (2026.09.14)
   url: https://www.fnnews.com/news/202609140900546388
+visibility: private
 ---
 
 [9월 13일 글](/posts/2026-09-13-kospi-weekly-outlook-6400-7400)에서

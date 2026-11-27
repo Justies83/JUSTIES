@@ -10,6 +10,7 @@ coverAlt: "발사대에서 이륙하는 GSLV 로켓"
 source:
   name: "The Hindu (2026.10.31)"
   url: https://www.thehindu.com/sci-tech/science/isro-gslv-f18-nvs-03-navigation-satellite-launch-sriharikota-october-30-2026-live-updates/article71645088.ece
+visibility: private
 ---
 
 <p align="center">10월 30일 밤 11시 51분, 인도 안드라프라데시주 스리하리코타의 사티시 다완 우주센터에서 불꽃이 올랐다.<br/>제2발사대를 떠난 건 인도우주연구기구, ISRO의 정지궤도위성발사체 GSLV-F18이다.<br/>높이 50미터, 3단 구조, 이륙 중량 420톤짜리 로켓은 24시간 카운트다운 끝에 예정 시각에 정확히 이륙했다.<br/>발사 약 18분 뒤, 로켓에 실린 차세대 항법위성 NVS-03이 정해진 천이궤도에 분리돼 들어갔다.<br/>복잡한 극저온 상단까지 정상 동작했다는 게 ISRO의 설명이다.<br/>이튿날 새벽 ISRO는 임무 성공을 선언했고, V 나라얀 ISRO 위원장은 <strong>정밀한 발사이자 지금까지 가장 좋은 성능이었다고</strong> 말했다.</p>

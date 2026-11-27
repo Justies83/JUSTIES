@@ -10,6 +10,7 @@ coverAlt: "1995년 키크위트 에볼라 격리병동에서 침구를 교체하
 source:
   name: "AP via NPR Illinois (2026.11.11)"
   url: https://www.nprillinois.org/2026-11-11/ebola-tops-11-000-cases-in-congos-deadliest-outbreak
+visibility: private
 ---
 
 <p align="center">11월 11일 수요일, 콩고민주공화국 보건부가 내놓은 숫자가 하나의 선을 넘었다.<br/>에볼라 누적 확진자 <strong>1만1,042명</strong>, 사망자 <strong>5,387명</strong>이다.<br/>감염자 둘 중 한 명꼴로 목숨을 잃었다는 뜻이다.<br/>AP가 전한 이 집계를 기준으로 이번 발병은 콩고민주공화국 역사상 가장 치명적인 에볼라 발병이 됐고, 전 세계 기록으로도 2014\~2016년 서아프리카 대유행에 이어 두 번째로 큰 규모가 됐다.</p>

@@ -10,6 +10,7 @@ coverAlt: 9월 30일 코스피 장중 상승 반전과 투자자별 매매 동�
 source:
   name: 아시아경제 (2026.09.30)
   url: https://view.asiae.co.kr/article/2026093015532194041
+visibility: private
 ---
 
 코스피가 오늘 장 초반과 마감 사이에 완전히 다른 얼굴을 보였습니다.

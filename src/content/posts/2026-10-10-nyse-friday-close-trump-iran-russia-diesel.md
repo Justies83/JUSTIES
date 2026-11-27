@@ -10,6 +10,7 @@ coverAlt: AI 생성 이미지 — 새벽빛에 물든 뉴욕증권거래소와 �
 source:
   name: 이데일리 (2026.10.10)
   url: https://www.edaily.co.kr/News/Read?newsId=01423526645611608&mediaCodeNo=257
+visibility: private
 ---
 <p align="center">10월 9일(현지시간) 뉴욕증시 3대 지수가 동반 상승 마감했습니다. 다우존스30산업평균지수는 전 거래일보다 <strong>0.83%를</strong> 오른 <strong>51,654.95로</strong> 마감했고, 스탠더드앤드푸어스(S&P)500지수는 <strong>0.59%를</strong> 오른 <strong>7,811.54를</strong>, 기술주 중심의 나스닥종합지수는 <strong>0.64%를</strong> 오른 <strong>27,366.17로</strong> 거래를 마쳤습니다. 전날(8일) 다우는 0.1% 상승에 그치고 S&P500과 나스닥은 각각 0.47%·1.25% 하락했던 것과 정반대의 그림입니다. <a href="/posts/2026-10-09-nyse-tech-stocks-fall-nasdaq-dow-mixed-close">전날 장에서는 AI 기업의 성장성을 둘러싼 우려가 대형 기술주를 짓누른 탓에</a> 지수 전체가 방향을 잃었지만, 하루 만에 시장이 다시 위를 본 셈입니다. 3대 지수는 모두 주간 기준으로도 상승세를 기록했고, S&P500은 사상 최고치에 다시 근접했습니다.</p>
 

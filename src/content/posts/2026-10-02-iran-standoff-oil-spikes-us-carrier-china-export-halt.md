@@ -10,6 +10,7 @@ coverAlt: 10월 1일 브렌트유 급등 배경과 미국의 중동 추가 파�
 source:
   name: 파이낸셜뉴스 (2026.10.02)
   url: https://fnnews.com/news/202610020708189168
+visibility: private
 ---
 
 [9월 말 한 차례 치솟았던](/posts/2026-09-29-oil-bond-yield-surge-nyse-fall-iran-rejection)

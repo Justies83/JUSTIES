@@ -8,6 +8,7 @@ tags: [애플, 아이폰듀오, 폴더블, 아이폰18프로]
 source:
   name: Macworld (2026.09.09)
   url: https://www.macworld.com/article/3228054/surprise-and-shine-apple-iphone-event-live-blog-begins-now.html
+visibility: private
 ---
 
 애플이 드디어 접히는 아이폰을 내놨습니다. 9월 9일 쿠퍼티노 애플파크에서 열린

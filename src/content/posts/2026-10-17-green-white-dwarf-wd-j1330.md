@@ -10,6 +10,7 @@ coverAlt: "예술가 상상도 — 잔해 원반에 둘러싸인 백색왜성 (T
 source:
   name: "로이터 (2026.10.16)"
   url: https://www.reuters.com/science/newly-identified-green-star-leaves-astronomers-amazed-2026-10-16/
+visibility: private
 ---
 
 <p align="center">천문학자들이 사상 처음으로 '초록색 별'을 확인했다.<br/>주인공은 WD J1330+6435라는 이름을 가진 백색왜성으로, 지구에서 약 **280광년** 떨어진 용자리 방향에 있다.<br/>이 별은 한때 자기 주변을 돌던 행성들의 잔해를 집어삼켜 표면 바깥층에 칼슘·리튬·특히 나트륨이 쌓였고, 그 나트륨이 백색왜성의 극도로 조밀한 대기 속에서 낯선 방식으로 빛을 삼키면서 인간의 눈에는 황록색(chartreuse)으로 보이게 됐다.<br/>영국 워릭대 마크 홀랜즈(Mark Hollands)가 이끈 연구팀이 10월 16일 학술지 RAS Techniques and Instruments에 발표한 논문 "Any colour you like: the diverse chromaticities of white dwarfs"의 내용이다.</p>

@@ -10,6 +10,7 @@ coverAlt: 9월 24일 뉴욕증시 3대 지수 등락과 국채금리 상승, 호
 source:
   name: 파이낸셜뉴스 (2026.09.25)
   url: https://www.fnnews.com/news/202609250811394535
+visibility: private
 ---
 
 [9월 25일 아침 글에서](/posts/2026-09-25-bond-yield-19yr-high-nasdaq-streak-ends)

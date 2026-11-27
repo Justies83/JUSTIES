@@ -8,6 +8,7 @@ tags: [이란, 미국, 요르단, 호르무즈해협, 중동전쟁]
 source:
   name: Al Jazeera (2026.09.09)
   url: https://www.aljazeera.com/news/2026/9/9/us-destroys-five-iranian-tankers-iran-retaliates-with-attacks-on-jordan-base
+visibility: private
 ---
 
 [9월 8일 글](/posts/2026-09-08-us-stocks-oil-surge-canada-tariffs)에서 유가 급등의
