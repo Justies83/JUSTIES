@@ -39,7 +39,7 @@ const readingMinutes = Math.max(1, Math.round(bodyChars / 450));
 const bodyHasCover = Boolean(cover && post.body?.includes(cover));
 ---
 
-<article class="shell">
+<article class="shell post-article">
   <header class="post-head">
     <p class="mono">
       {isPrivate ? (
@@ -80,7 +80,7 @@ const bodyHasCover = Boolean(cover && post.body?.includes(cover));
       )}
     </div>
     {cover && !bodyHasCover && (
-      <figure class="post-cover" style="margin:1.8rem 0 0">
+      <figure class="post-cover">
         <img src={cover} alt={post.data.coverAlt} />
       </figure>
     )}
