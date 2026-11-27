@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 480" width="880" height="480">
+  <defs>
+    <style>
+      .bg { fill: #f8f7f4; }
+      .panel { fill: #ffffff; stroke: #d8d4ca; stroke-width: 1.5; }
+      .panel-teal { fill: #ebf2f0; stroke: #1f514c; stroke-width: 1.5; }
+      .panel-slate { fill: #edf1f5; stroke: #2c4257; stroke-width: 1.5; }
+      .t-title { font-family: 'Pretendard Variable', 'IBM Plex Sans KR', sans-serif; font-size: 18px; font-weight: 700; fill: #171717; }
+      .t-sub { font-family: 'IBM Plex Mono', monospace; font-size: 11px; fill: #57534e; letter-spacing: 1.1px; }
+      .t-h { font-family: 'Pretendard Variable', 'IBM Plex Sans KR', sans-serif; font-size: 14px; font-weight: 700; fill: #171717; }
+      .t-b { font-family: 'Pretendard Variable', 'IBM Plex Sans KR', sans-serif; font-size: 12px; fill: #44403c; }
+      .t-m { font-family: 'IBM Plex Mono', monospace; font-size: 11px; fill: #1f514c; font-weight: 700; }
+      .arrow { stroke: #1f514c; stroke-width: 2; fill: none; marker-end: url(#arr-t); }
+    </style>
+    <marker id="arr-t" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 8 5 L 0 9 z" fill="#1f514c" />
+    </marker>
+  </defs>
+
+  <rect class="bg" width="880" height="480" />
+  <text x="32" y="34" class="t-sub">MECHANISM REDRAWN · MOLECULAR CELL (2026) · DOI: 10.1016/J.MOLCEL.2026.02.022</text>
+  <text x="32" y="60" class="t-title">인간 80S 리보솜 출구 터널(~16 Å)에서 작동하는 NAC 공동번역 샤페론 기전</text>
+
+  <!-- Left Architecture Box -->
+  <rect x="28" y="82" width="376" height="352" rx="12" class="panel" />
+  <text x="48" y="108" class="t-h">Cryo-EM 구조 해부 (RPL4 RNC 복합체)</text>
+  <text x="48" y="126" class="t-b">NAC은 Kd ~1 nM로 80S 리보솜 출구에 상시 고정된다</text>
+
+  <!-- 60S Ribosome Exit Vestibule -->
+  <path d="M 48 158 L 190 158 L 190 228 C 175 232, 160 228, 152 246 L 48 246 Z" fill="#e5e2da" stroke="#a8a29e" stroke-width="1.5" />
+  <path d="M 244 158 L 382 158 L 382 246 L 268 246 C 258 228, 250 232, 244 228 Z" fill="#e5e2da" stroke="#a8a29e" stroke-width="1.5" />
+  <text x="64" y="182" class="t-b" font-weight="700">60S 대단위체 출구 터널</text>
+  <text x="64" y="200" class="t-b">28S / 5.8S rRNA 전정</text>
+  <text x="272" y="182" class="t-b" font-weight="700">eL19 · eL22</text>
+  <text x="272" y="200" class="t-b">NACβ 앵커 결합</text>
+
+  <!-- Nascent Chain Emerging -->
+  <path d="M 216 144 L 216 266 C 216 292, 186 298, 174 318 C 160 340, 198 358, 224 344" fill="none" stroke="#b45309" stroke-width="4" stroke-linecap="round" />
+  <text x="200" y="140" class="t-m" fill="#b45309">신생 사슬</text>
+
+  <!-- NAC beta-barrel & hydrophobic patch -->
+  <circle cx="148" cy="296" r="34" fill="#1f514c" />
+  <circle cx="168" cy="284" r="14" fill="#d97706" stroke="#ffffff" stroke-width="1.5" />
+  <path d="M 182 268 L 288 222" stroke="#1f514c" stroke-width="3" stroke-dasharray="4 3" />
+  <circle cx="294" cy="218" r="7" fill="#2c4257" />
+
+  <text x="122" y="300" font-family="'IBM Plex Mono', monospace" font-size="11" fill="#ffffff" font-weight="700">NAC β-바렐</text>
+  <text x="192" y="274" class="t-m" fill="#b45309">소수성 패치 (~16 Å)</text>
+  <text x="192" y="290" class="t-b">NACα I128 · NACβ V53, L83</text>
+
+  <!-- Distance callout -->
+  <line x1="216" y1="246" x2="180" y2="274" stroke="#57534e" stroke-width="1.2" stroke-dasharray="2 2" />
+
+  <!-- Mutation box -->
+  <rect x="48" y="370" width="336" height="50" rx="8" fill="#f8f7f4" stroke="#d8d4ca" />
+  <text x="60" y="390" class="t-m">돌연변이 검증 (NACmut: I128N / V53S / L83N)</text>
+  <text x="60" y="408" class="t-b">소수성 패치 제거 시 고효율 FRET 소실 &amp; 저FRET 4배 이상 급증</text>
+
+  <!-- Right Mode 1 -->
+  <rect x="424" y="82" width="428" height="168" rx="12" class="panel-teal" />
+  <text x="444" y="108" class="t-m">MODE 1 · 세포질·핵 &amp; 미토콘드리아 주 기질 (&gt;70%)</text>
+  <text x="444" y="132" class="t-h">중간체 과안정화 없이 초기 도메인 접힘 촉진</text>
+  <text x="444" y="156" class="t-b">1. 인식 조건: (α/β)-loop-(α/β) 구조의 소수성·α-나선 성향·양친매성 구간</text>
+  <text x="444" y="176" class="t-b">   (로즈만 폴드, RNA 결합 도메인 등 복합 접힘에 강하게 결합 · 무질서 사슬 회피)</text>
+  <text x="444" y="198" class="t-b">2. RPL4 smFRET: 60–80 aa(1차) → 160–200 aa(체류 시간 ~25초) 원거리 수축 유도</text>
+  <text x="444" y="218" class="t-b">3. 광학 집게 MBP: 재접힘률 51% → 90% (언폴딩 힘 15/27 pN 불변 → 홀데이즈와 차별)</text>
+  <text x="444" y="238" class="t-b">4. NAC 급속 고갈(AID) 시 세포질 열충격 샤페론(HSPA1A/B·DNAJA) 즉시 보상 상승</text>
+
+  <!-- Right Mode 2 -->
+  <rect x="424" y="266" width="428" height="168" rx="12" class="panel-slate" />
+  <text x="444" y="292" class="t-m" fill="#2c4257">MODE 2 · 소포체(ER) 표적 &amp; 미토콘드리아 막단백질 인계</text>
+  <text x="444" y="316" class="t-h">동적 β-바렐 이동으로 전정 환경 재편 · 인자 교대</text>
+  <text x="444" y="340" class="t-b">• 소포체(ER) 단백질 (43% 결합): 약 50 aa 부근서 SP(25%)·TMD(45%)에</text>
+  <text x="444" y="360" class="t-b">  일시 결합한 뒤 SRP 전달 및 막 전위(SolubleRP 확인) 직후 리보솜에서 신속 해리</text>
+  <text x="444" y="382" class="t-b">• 미토콘드리아 단백질 (&gt;70%): 내막·외막 다중 관통 TMD(TSPO·FUNDC1)와</text>
+  <text x="444" y="402" class="t-b">  절단형 신호서열(MTS 30%; 내막 45% vs 기질 24%)의 응집을 막아 이동 능력 유지</text>
+  <text x="444" y="422" class="t-b">• 리보솜 출구에서 접힘 촉진과 표적 인계를 전환하는 동적 스위치 역할</text>
+
+  <text x="32" y="463" class="t-sub">원문(Santos, Günnigmann, Gora et al., Molecular Cell 2026)의 기전을 바탕으로 직접 재도식화(REDRAWN SVG)</text>
+</svg>

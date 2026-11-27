@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 500" width="880" height="500">
+  <defs>
+    <style>
+      .bg { fill: #f8f7f4; }
+      .panel { fill: #ffffff; stroke: #d8d4ca; stroke-width: 1.5; rx: 12; }
+      .panel-warn { fill: #fdf6ee; stroke: #d99b52; stroke-width: 1.5; rx: 12; }
+      .panel-teal { fill: #f1f6f5; stroke: #1f514c; stroke-width: 1.5; rx: 12; }
+      .t-title { font-family: 'Pretendard Variable', 'IBM Plex Sans KR', sans-serif; font-size: 18px; font-weight: 700; fill: #171717; }
+      .t-sub { font-family: 'IBM Plex Mono', monospace; font-size: 11px; fill: #57534e; letter-spacing: 1.2px; }
+      .t-h { font-family: 'Pretendard Variable', 'IBM Plex Sans KR', sans-serif; font-size: 14px; font-weight: 700; fill: #171717; }
+      .t-b { font-family: 'Pretendard Variable', 'IBM Plex Sans KR', sans-serif; font-size: 12px; fill: #44403c; }
+      .t-m { font-family: 'IBM Plex Mono', monospace; font-size: 11px; fill: #1f514c; font-weight: 600; }
+      .t-w { font-family: 'IBM Plex Mono', monospace; font-size: 11px; fill: #b45309; font-weight: 700; }
+      .arrow { stroke: #57534e; stroke-width: 2; fill: none; marker-end: url(#arr); }
+      .arrow-teal { stroke: #1f514c; stroke-width: 2.2; fill: none; marker-end: url(#arr-t); }
+      .arrow-warn { stroke: #b45309; stroke-width: 2; fill: none; marker-end: url(#arr-w); }
+    </style>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 8 5 L 0 9 z" fill="#57534e" />
+    </marker>
+    <marker id="arr-t" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 8 5 L 0 9 z" fill="#1f514c" />
+    </marker>
+    <marker id="arr-w" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 8 5 L 0 9 z" fill="#b45309" />
+    </marker>
+  </defs>
+
+  <rect class="bg" width="880" height="500" />
+  <text x="32" y="34" class="t-sub">MECHANISM REDRAWN · MOLECULAR CELL (2026) · DOI: 10.1016/J.MOLCEL.2025.12.022</text>
+  <text x="32" y="60" class="t-title">리보솜 표면 포켓(uL23)이 조율하는 β-갈락토시다아제 단계적 접힘과 사량체 조립</text>
+
+  <!-- Top Lane: In Vitro Refolding Trap -->
+  <rect x="28" y="80" width="824" height="122" class="panel-warn" rx="12" />
+  <text x="46" y="104" class="t-w">PATHWAY A · 시험관 변성 후 재접힘 (8M 요소 희석, 37°C 수율 ~0%)</text>
+
+  <rect x="46" y="118" width="165" height="68" rx="8" fill="#ffffff" stroke="#e5c7a3" />
+  <text x="58" y="140" class="t-h">1. 동시 붕괴·미성숙</text>
+  <text x="58" y="158" class="t-b">β-시트 코어 급격 수축</text>
+  <text x="58" y="175" class="t-b">(D3 접힘 반감기 &gt;100분)</text>
+
+  <path d="M 218 152 L 252 152" class="arrow-warn" />
+
+  <rect x="258" y="118" width="215" height="68" rx="8" fill="#ffffff" stroke="#e5c7a3" />
+  <text x="270" y="140" class="t-h">2. 조립이 접힘을 앞지름</text>
+  <text x="270" y="158" class="t-b">긴 계면 선행 결합(t1/2 &lt;50분)</text>
+  <text x="270" y="175" class="t-b">D3·활성화 계면(3–8aa) 지연</text>
+
+  <path d="M 480 152 L 514 152" class="arrow-warn" />
+
+  <rect x="520" y="118" width="314" height="68" rx="8" fill="#ffffff" stroke="#d97706" stroke-width="1.6" />
+  <text x="534" y="140" class="t-h" fill="#9a3412">3. 비활성 오조립체 함정 (Kinetic Trap)</text>
+  <text x="534" y="158" class="t-b">이량체–사량체 사이 비정상 다량체 축적</text>
+  <text x="534" y="175" class="t-b">Hsp70(DnaK/J/GrpE) 추가해도 37°C 수율 ~20%</text>
+
+  <!-- Bottom Lane: Co-translational Folding & Co-Post Assembly -->
+  <rect x="28" y="218" width="824" height="240" class="panel-teal" rx="12" />
+  <text x="46" y="242" class="t-m">PATHWAY B · 리보솜 공동번역 생합성 (무샤페론 IVT, 37°C 활성 수율 83% ± 1%)</text>
+
+  <!-- Stage 1 -->
+  <rect x="46" y="256" width="240" height="184" rx="10" fill="#ffffff" stroke="#9ec4bd" />
+  <text x="60" y="278" class="t-h">① uL23 포켓 격리 (RNC 1–510)</text>
+  <!-- Ribosome / pocket schematic -->
+  <path d="M 68 355 C 68 310, 122 296, 152 325 C 166 338, 174 360, 152 378 C 122 394, 68 386, 68 355 Z" fill="#e6efed" stroke="#1f514c" stroke-width="1.5" />
+  <rect x="132" y="330" width="32" height="22" rx="6" fill="#1f514c" />
+  <text x="137" y="345" font-family="'IBM Plex Mono', monospace" font-size="9" fill="#ffffff">uL23</text>
+  <path d="M 110 342 L 154 342 C 166 342, 174 358, 190 348 C 204 338, 224 342, 232 326" fill="none" stroke="#b45309" stroke-width="3" />
+  <circle cx="152" cy="342" r="5" fill="#d97706" />
+  <text x="60" y="405" class="t-b">• D3 나선 466–478(Trp475)을</text>
+  <text x="60" y="421" class="t-b">  uL23/uL29 소수성 홈에 임시 격리</text>
+  <text x="60" y="435" class="t-b">• α-나선 먼저 접히고(α→β) 진행</text>
+
+  <path d="M 292 348 L 320 348" class="arrow-teal" />
+
+  <!-- Stage 2 -->
+  <rect x="326" y="256" width="248" height="184" rx="10" fill="#ffffff" stroke="#9ec4bd" />
+  <text x="340" y="278" class="t-h">② 단계적 해소 &amp; Co-Post 조립</text>
+  <rect x="344" y="294" width="212" height="44" rx="6" fill="#f8f7f4" stroke="#d8d4ca" />
+  <text x="354" y="313" class="t-m">RNC 646 aa: D3 내부 결합 회복</text>
+  <text x="354" y="329" class="t-b">단백질 내부 상호작용이 uL23을 이김</text>
+
+  <rect x="344" y="346" width="212" height="82" rx="6" fill="#ebf2f0" stroke="#9ec4bd" />
+  <text x="354" y="366" class="t-m">~700–800 aa: Co-Post 조립 개시</text>
+  <text x="354" y="384" class="t-b">• 선행 번역을 마친 완성 단량체가</text>
+  <text x="354" y="400" class="t-b">  리보솜 위 신생 사슬(긴 계면)에 결합</text>
+  <text x="354" y="416" class="t-b">• 별 모양 7–8합체 오조립 입체 차단</text>
+
+  <path d="M 580 348 L 608 348" class="arrow-teal" />
+
+  <!-- Stage 3 -->
+  <rect x="614" y="256" width="220" height="184" rx="10" fill="#ffffff" stroke="#1f514c" stroke-width="1.6" />
+  <text x="628" y="278" class="t-h" fill="#163d39">③ 번역 후 D5 완결 → 사량체</text>
+  <!-- Tetramer blocks -->
+  <g transform="translate(658, 294)">
+    <rect x="0" y="0" width="54" height="32" rx="6" fill="#1f514c" />
+    <rect x="60" y="0" width="54" height="32" rx="6" fill="#2c4257" />
+    <rect x="0" y="38" width="54" height="32" rx="6" fill="#2c4257" />
+    <rect x="60" y="38" width="54" height="32" rx="6" fill="#1f514c" />
+    <text x="15" y="20" font-family="'IBM Plex Mono', monospace" font-size="10" fill="#fff">D1-5</text>
+    <text x="75" y="20" font-family="'IBM Plex Mono', monospace" font-size="10" fill="#fff">D1-5</text>
+    <text x="15" y="58" font-family="'IBM Plex Mono', monospace" font-size="10" fill="#fff">D1-5</text>
+    <text x="75" y="58" font-family="'IBM Plex Mono', monospace" font-size="10" fill="#fff">D1-5</text>
+  </g>
+  <text x="628" y="386" class="t-b">• 방출 직전(1–1,014)까지 D5 미완성</text>
+  <text x="628" y="403" class="t-b">• 방출 후 D5 접힘 → 미성숙 이량체</text>
+  <text x="628" y="420" class="t-b">  둘이 활성화 계면으로 결합해 완성</text>
+  <text x="628" y="435" class="t-m">오조립 없이 83% 활성 효소 확보</text>
+
+  <text x="32" y="483" class="t-sub">원문(Roeselová, Shivakumaraswamy et al., Molecular Cell 2026)의 기전을 바탕으로 직접 재도식화(REDRAWN SVG)</text>
+</svg>

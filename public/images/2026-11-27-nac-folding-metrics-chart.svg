@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 460" width="880" height="460">
+  <defs>
+    <style>
+      .bg { fill: #f8f7f4; }
+      .panel { fill: #ffffff; stroke: #d8d4ca; stroke-width: 1.5; }
+      .t-title { font-family: 'Pretendard Variable', 'IBM Plex Sans KR', sans-serif; font-size: 18px; font-weight: 700; fill: #171717; }
+      .t-sub { font-family: 'IBM Plex Mono', monospace; font-size: 11px; fill: #57534e; letter-spacing: 1.1px; }
+      .t-h { font-family: 'Pretendard Variable', 'IBM Plex Sans KR', sans-serif; font-size: 14px; font-weight: 700; fill: #171717; }
+      .t-b { font-family: 'Pretendard Variable', 'IBM Plex Sans KR', sans-serif; font-size: 12px; fill: #44403c; }
+      .t-v { font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 700; fill: #171717; }
+      .axis { stroke: #a8a29e; stroke-width: 1.2; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="880" height="460" />
+  <text x="32" y="34" class="t-sub">QUANTITATIVE METRICS REDRAWN · MOLECULAR CELL (2026) · SE-RP, SM-FRET, TWEEZERS</text>
+  <text x="32" y="60" class="t-title">인간 NAC의 번역체 구획별 결합률(SeRP)과 단일분자 접힘 촉진 정량 비교</text>
+
+  <!-- Panel 1: Proteome-wide SeRP_NC -->
+  <rect x="28" y="82" width="268" height="332" rx="12" class="panel" />
+  <text x="46" y="110" class="t-h">A. 구획별 신생 사슬 결합률</text>
+  <text x="46" y="128" class="t-b">HEK293-T SeRP (전체 8,753 유전자)</text>
+
+  <line x1="56" y1="322" x2="274" y2="322" class="axis" />
+  <!-- Bars height max 150px = 100% -->
+  <rect x="70" y="212" width="44" height="110" rx="4" fill="#1f514c" />
+  <text x="68" y="204" class="t-v" fill="#1f514c">&gt;70%</text>
+  <text x="64" y="340" class="t-b">세포질·핵</text>
+  <text x="64" y="356" class="t-sub">n=6,824</text>
+
+  <rect x="142" y="212" width="44" height="110" rx="4" fill="#2c4257" />
+  <text x="140" y="204" class="t-v" fill="#2c4257">&gt;70%</text>
+  <text x="136" y="340" class="t-b">미토콘드리아</text>
+  <text x="140" y="356" class="t-sub">n=536</text>
+
+  <rect x="214" y="257" width="44" height="65" rx="4" fill="#b45309" />
+  <text x="220" y="249" class="t-v" fill="#b45309">43%</text>
+  <text x="216" y="340" class="t-b">소포체 표적</text>
+  <text x="212" y="356" class="t-sub">n=1,393</text>
+
+  <text x="46" y="388" class="t-b">ER은 평균 20코돈 짧게 결합 후</text>
+  <text x="46" y="404" class="t-b">SRP 막 전위 직후 신속 해리</text>
+
+  <!-- Panel 2: smFRET Compaction RPL4 12-123 -->
+  <rect x="310" y="82" width="268" height="332" rx="12" class="panel" />
+  <text x="328" y="110" class="t-h">B. RPL4 (12–123) 사슬 수축</text>
+  <text x="328" y="128" class="t-b">smFRET 중·고효율(컴팩션) 비율</text>
+
+  <line x1="338" y1="322" x2="556" y2="322" class="axis" />
+  <!-- -NAC ~22% (Med ~18 + High ~4 -> 33px) -->
+  <rect x="352" y="289" width="44" height="33" rx="4" fill="#78716c" />
+  <text x="358" y="281" class="t-v">~22%</text>
+  <text x="356" y="340" class="t-b">-NAC</text>
+  <text x="350" y="356" class="t-sub">N=5,281</text>
+
+  <!-- +NAC WT ~92% (Med ~55% + High ~38% -> 138px) -->
+  <rect x="424" y="184" width="44" height="138" rx="4" fill="#1f514c" />
+  <text x="428" y="176" class="t-v" fill="#1f514c">~92%</text>
+  <text x="420" y="340" class="t-b">+NAC WT</text>
+  <text x="422" y="356" class="t-sub">N=6,340</text>
+
+  <!-- +NAC mut ~35% (Med ~28 + High ~7 -> 52.5px) -->
+  <rect x="496" y="269" width="44" height="53" rx="4" fill="#d97706" />
+  <text x="500" y="261" class="t-v" fill="#b45309">~35%</text>
+  <text x="492" y="340" class="t-b">+NACmut</text>
+  <text x="494" y="356" class="t-sub">N=6,511</text>
+
+  <text x="328" y="388" class="t-b">+NAC WT에서 중효율(~55%)·고효율</text>
+  <text x="328" y="404" class="t-b">(~40% 근접) 지배 · 변이체선 소실</text>
+
+  <!-- Panel 3: Optical Tweezers MBP Refolding -->
+  <rect x="592" y="82" width="260" height="332" rx="12" class="panel" />
+  <text x="610" y="110" class="t-h">C. 광학 집게 MBP 재접힘</text>
+  <text x="610" y="128" class="t-b">0 pN 5초 대기 후 코어 형성 빈도</text>
+
+  <line x1="620" y1="322" x2="834" y2="322" class="axis" />
+  <!-- -NAC: 51% (76.5px) -->
+  <rect x="646" y="245.5" width="54" height="76.5" rx="4" fill="#78716c" />
+  <text x="658" y="237" class="t-v">51%</text>
+  <text x="655" y="340" class="t-b">-NAC</text>
+  <text x="640" y="356" class="t-sub">193 cycles</text>
+
+  <!-- +NAC WT: 90% (135px) -->
+  <rect x="742" y="187" width="54" height="135" rx="4" fill="#1f514c" />
+  <text x="754" y="179" class="t-v" fill="#1f514c">90%</text>
+  <text x="738" y="340" class="t-b">+NAC WT</text>
+  <text x="734" y="356" class="t-sub">147 cycles</text>
+
+  <text x="702" y="160" class="t-sub" fill="#1f514c">p &lt; 0.0001</text>
+
+  <text x="610" y="388" class="t-b">• 언폴딩 힘(15 / 27 pN)은 동일</text>
+  <text x="610" y="404" class="t-b">• 불완전 소형 코어(70–90 nm) ~50% ↓</text>
+
+  <text x="32" y="440" class="t-sub">도표는 원문(Santos et al., Molecular Cell 2026)의 Fig 2, Fig 6, Fig S8 공개 수치를 바탕으로 직접 작도(REDRAWN SVG)</text>
+</svg>

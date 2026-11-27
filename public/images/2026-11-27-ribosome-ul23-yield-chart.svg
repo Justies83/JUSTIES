@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 460" width="880" height="460">
+  <defs>
+    <style>
+      .bg { fill: #f8f7f4; }
+      .panel { fill: #ffffff; stroke: #d8d4ca; stroke-width: 1.5; }
+      .t-title { font-family: 'Pretendard Variable', 'IBM Plex Sans KR', sans-serif; font-size: 18px; font-weight: 700; fill: #171717; }
+      .t-sub { font-family: 'IBM Plex Mono', monospace; font-size: 11px; fill: #57534e; letter-spacing: 1.1px; }
+      .t-h { font-family: 'Pretendard Variable', 'IBM Plex Sans KR', sans-serif; font-size: 14px; font-weight: 700; fill: #171717; }
+      .t-b { font-family: 'Pretendard Variable', 'IBM Plex Sans KR', sans-serif; font-size: 12px; fill: #44403c; }
+      .t-v { font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 700; fill: #171717; }
+      .grid { stroke: #ebe7de; stroke-width: 1; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="880" height="460" />
+  <text x="32" y="34" class="t-sub">QUANTITATIVE SUMMARY REDRAWN · MOLECULAR CELL (2026) · FIG 1, 3, 6 DATA</text>
+  <text x="32" y="60" class="t-title">β-갈락토시다아제 재접힘 대 공동번역 수율 및 사슬 길이별 성숙 이정표</text>
+
+  <!-- Left Panel: Enzyme Yield Comparison -->
+  <rect x="28" y="82" width="402" height="332" rx="12" class="panel" />
+  <text x="48" y="110" class="t-h">A. 조건별 활성 효소 회수 수율 (%)</text>
+  <text x="48" y="128" class="t-b">동일 농도(~1 μM) 기준 · 원문 Figure 1B, 1C, S1C</text>
+
+  <!-- Vertical grid lines at 0%, 25%, 50%, 75%, 100% mapped onto x = 52..372 (width=320px -> 3.2px per %) -->
+  <line x1="52" y1="148" x2="52" y2="365" stroke="#a8a29e" stroke-width="1.2" />
+  <line x1="132" y1="148" x2="132" y2="365" class="grid" />
+  <line x1="212" y1="148" x2="212" y2="365" class="grid" />
+  <line x1="292" y1="148" x2="292" y2="365" class="grid" />
+  <line x1="372" y1="148" x2="372" y2="365" class="grid" />
+
+  <text x="48" y="382" class="t-sub">0%</text>
+  <text x="122" y="382" class="t-sub">25%</text>
+  <text x="202" y="382" class="t-sub">50%</text>
+  <text x="282" y="382" class="t-sub">75%</text>
+  <text x="358" y="382" class="t-sub">100%</text>
+
+  <!-- Bar 1: 37C Spontaneous ~0% -->
+  <text x="58" y="168" class="t-b">37°C 자발적 재접힘 (8M 요소 희석)</text>
+  <rect x="52" y="176" width="4" height="22" rx="2" fill="#b45309" />
+  <text x="64" y="192" class="t-v" fill="#b45309">검출 불가 (~0%)</text>
+
+  <!-- Bar 2: 37C + Hsp70 ~20% -->
+  <text x="58" y="220" class="t-b">37°C + DnaK / DnaJ / GrpE 샤페론</text>
+  <rect x="52" y="228" width="64" height="22" rx="4" fill="#d97706" />
+  <text x="124" y="244" class="t-v">~20%</text>
+
+  <!-- Bar 3: 10C Refolding 25.1% -->
+  <text x="58" y="272" class="t-b">10°C 저온 재접힘 (t1/2 = 4.3시간)</text>
+  <rect x="52" y="280" width="80.3" height="22" rx="4" fill="#78716c" />
+  <text x="140" y="296" class="t-v">25.1% (CI 24.5–25.7%)</text>
+
+  <!-- Bar 4: 37C Chaperone-free IVT 83% -->
+  <text x="58" y="324" class="t-b" font-weight="700">37°C 무샤페론 리보솜 번역 (IVT)</text>
+  <rect x="52" y="332" width="265.6" height="24" rx="4" fill="#1f514c" />
+  <text x="326" y="349" class="t-v" fill="#1f514c">83% ± 1%</text>
+
+  <!-- Right Panel: Cotranslational Length Milestones -->
+  <rect x="448" y="82" width="404" height="332" rx="12" class="panel" />
+  <text x="468" y="110" class="t-h">B. 사슬 길이별 접힘·조립 타임라인 (1–1,023 aa)</text>
+  <text x="468" y="128" class="t-b">정지 RNC HDX-MS &amp; 생체 내 SeRP 추적 · Fig 3, 4, 6</text>
+
+  <line x1="486" y1="150" x2="486" y2="388" stroke="#1f514c" stroke-width="2" />
+
+  <circle cx="486" cy="162" r="5" fill="#1f514c" />
+  <text x="502" y="166" class="t-v" fill="#1f514c">240 aa</text>
+  <text x="562" y="166" class="t-b">D1 중앙 젤리롤 코어 즉시 접힘</text>
+
+  <circle cx="486" cy="204" r="5" fill="#1f514c" />
+  <text x="502" y="208" class="t-v" fill="#1f514c">352 aa</text>
+  <text x="562" y="208" class="t-b">D2 β-코어 성숙</text>
+
+  <circle cx="486" cy="246" r="6" fill="#b45309" />
+  <text x="502" y="250" class="t-v" fill="#b45309">510 aa</text>
+  <text x="562" y="246" class="t-b" font-weight="700">466–478 나선이 uL23 포켓에 도킹</text>
+  <text x="562" y="262" class="t-b">D3 (βαβα)1 α-나선 선행 접힘(국소 이완)</text>
+
+  <circle cx="486" cy="292" r="5" fill="#1f514c" />
+  <text x="502" y="296" class="t-v" fill="#1f514c">646 aa</text>
+  <text x="562" y="296" class="t-b">D3 내부 결합이 uL23 경쟁을 이기고 안정화</text>
+
+  <circle cx="486" cy="336" r="6" fill="#2c4257" />
+  <text x="502" y="340" class="t-v" fill="#2c4257">700–800</text>
+  <text x="562" y="336" class="t-b" font-weight="700">생체 내 Co-Post 조립 개시(SeRP)</text>
+  <text x="562" y="352" class="t-b">리보솜이 미완성 사슬끼리 오조립을 차단</text>
+
+  <circle cx="486" cy="380" r="5" fill="#1f514c" />
+  <text x="502" y="384" class="t-v" fill="#1f514c">1,014+</text>
+  <text x="562" y="384" class="t-b">종결·방출 후 D5 접힘 완결 → 활성 사량체</text>
+
+  <text x="32" y="440" class="t-sub">도표는 원문(Roeselová, Shivakumaraswamy et al., Molecular Cell 2026)의 공개 수치를 바탕으로 직접 작도(REDRAWN SVG)</text>
+</svg>
