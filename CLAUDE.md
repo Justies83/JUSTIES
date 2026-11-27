@@ -68,5 +68,4 @@ npx astro check
 
 ## 디자인
 
-라이트/다크 토글은 없다. 눈에 부담이 적은 베이지 고정 팔레트(`--paper #f4f1ea`)
-하나만 쓴다. 색은 `src/styles/global.css` 최상단의 토큰으로만 바꾼다.
+Pretendard Variable + IBM Plex Mono 기반의 모던 에디토리얼 레이아웃과 라이트/다크 모드 토글(`data-theme="light" | "dark"`, `localStorage` 키 `justies-theme`)을 사용한다. 색과 타이포 토큰은 `src/styles/global.css` 최상단의 `:root` 및 `:root[data-theme='dark']`에서 관리한다.

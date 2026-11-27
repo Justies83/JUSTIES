@@ -1,36 +1,54 @@
 /* ============================================================
-   제의 / JUSTIES — design tokens
-   Warm paper + ink + deep teal, carried over from the previous
-   two sites so the brand stays recognisable across the move.
+   제의 / JUSTIES — 2026 Modern Personal Editorial Blog
+   Clean light/dark surfaces + Bio Teal & Insight Blue accents.
    ============================================================ */
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=Noto+Serif+KR:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap');
 
 :root {
-  --paper: #f4f1ea;
-  --paper-deep: #ebe6db;
-  --card: #fbf9f4;
-  --ink: #20231f;
-  --soft: #62655d;
-  --teal: #16756a;
-  --teal-dark: #0c5149;
-  --teal-wash: #e4ede9;
-  --coral: #e0795b;
-  --line: rgba(32, 35, 31, 0.16);
-  --line-soft: rgba(32, 35, 31, 0.08);
-  --grain: rgba(32, 35, 31, 0.065);
-  --shadow: 0 1px 2px rgba(32, 35, 31, 0.04), 0 12px 28px -18px rgba(32, 35, 31, 0.35);
+  --paper: #ffffff;
+  --paper-deep: #f8fafc;
+  --card: #ffffff;
+  --ink: #0f172a;
+  --soft: #475569;
+  --teal: #0f766e;
+  --teal-dark: #115e59;
+  --teal-wash: #f0fdfa;
+  --insight: #2563eb;
+  --insight-dark: #1d4ed8;
+  --insight-wash: #eff6ff;
+  --coral: #e11d48;
+  --line: rgba(15, 23, 42, 0.11);
+  --line-soft: rgba(15, 23, 42, 0.06);
+  --grain: transparent;
+  --shadow: 0 1px 3px rgba(15, 23, 42, 0.04), 0 16px 36px -18px rgba(15, 23, 42, 0.16);
 
-  --serif: 'Noto Serif KR', Georgia, 'Apple SD Gothic Neo', serif;
-  --sans: 'IBM Plex Sans KR', -apple-system, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+  --sans: 'Pretendard Variable', Pretendard, 'IBM Plex Sans KR', -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+  --serif: var(--sans);
   --mono: 'IBM Plex Mono', ui-monospace, Consolas, monospace;
 
-  --measure: 34rem;   /* narrow copy: intros, notes, hero summaries */
-  --article: 44rem;   /* the article column — ~43 Korean characters a line.
-                         Body text, cover, figures and footer all share it, so
-                         nothing in a post is wider than anything else. */
-  --shell: 74rem;     /* page shell */
-  --radius: 14px;
-  --step: clamp(1.5rem, 4vw, 3rem);
+  --measure: 38rem;
+  --article: 46rem;
+  --shell: 72rem;
+  --radius: 16px;
+  --step: clamp(1.25rem, 4vw, 2.75rem);
+}
+
+:root[data-theme='dark'] {
+  --paper: #0b0f17;
+  --paper-deep: #111827;
+  --card: #131b2b;
+  --ink: #f1f5f9;
+  --soft: #94a3b8;
+  --teal: #2dd4bf;
+  --teal-dark: #5eead4;
+  --teal-wash: rgba(45, 212, 191, 0.12);
+  --insight: #60a5fa;
+  --insight-dark: #93c5fd;
+  --insight-wash: rgba(96, 165, 250, 0.14);
+  --coral: #fb7185;
+  --line: rgba(148, 163, 184, 0.18);
+  --line-soft: rgba(148, 163, 184, 0.1);
+  --shadow: 0 2px 6px rgba(0, 0, 0, 0.35), 0 18px 38px -18px rgba(0, 0, 0, 0.65);
 }
 
 *,
@@ -43,13 +61,16 @@ html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
 body {
   margin: 0;
   background-color: var(--paper);
-  background-image: radial-gradient(var(--grain) 0.55px, transparent 0.7px);
-  background-size: 8px 8px;
+  background-image:
+    radial-gradient(60rem 26rem at 15% -6%, var(--teal-wash), transparent 65%),
+    radial-gradient(55rem 24rem at 85% -4%, var(--insight-wash), transparent 65%);
+  background-repeat: no-repeat;
   color: var(--ink);
   font-family: var(--sans);
   font-size: 1rem;
-  line-height: 1.75;
+  line-height: 1.78;
   -webkit-font-smoothing: antialiased;
+  transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 img { max-width: 100%; height: auto; display: block; }
@@ -59,10 +80,10 @@ button:focus-visible,
 input:focus-visible { outline: 2px solid var(--teal); outline-offset: 3px; border-radius: 4px; }
 
 h1, h2, h3, h4 {
-  font-family: var(--serif);
-  font-weight: 600;
+  font-family: var(--sans);
+  font-weight: 700;
   line-height: 1.28;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.025em;
   margin: 0;
   text-wrap: balance;
   /* Korean has no spaces inside a word, so the default rule breaks anywhere a
@@ -105,6 +126,7 @@ em, i { font-style: italic; }
   white-space: nowrap;
 }
 .pill--kind { color: var(--soft); background: transparent; border: 1px solid var(--line); }
+.pill--insight { color: var(--insight-dark); background: var(--insight-wash); }
 
 .ink-button {
   display: inline-flex;
@@ -153,24 +175,25 @@ em, i { font-style: italic; }
   top: 0;
   z-index: 40;
   padding: 0.85rem 0;
-  border-bottom: 1px solid var(--line);
-  background: color-mix(in srgb, var(--paper) 88%, transparent);
-  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--line-soft);
+  background: color-mix(in srgb, var(--paper) 84%, transparent);
+  backdrop-filter: blur(14px);
 }
-.brand { display: flex; align-items: center; gap: 0.6rem; }
+.brand { display: flex; align-items: center; gap: 0.65rem; }
 .brand-mark {
   width: 34px; height: 34px;
   display: grid; place-items: center;
-  border: 1px solid var(--line);
+  border: 0;
   border-radius: 10px;
-  background: var(--card);
-  font-family: var(--serif);
-  font-size: 1rem;
-  color: var(--teal-dark);
+  background: linear-gradient(135deg, var(--teal), var(--insight));
+  font-family: var(--sans);
+  font-weight: 700;
+  font-size: 0.98rem;
+  color: #ffffff;
 }
 .brand-type { display: flex; flex-direction: column; line-height: 1.1; }
-.brand-type em { font-family: var(--serif); font-size: 1.02rem; font-style: normal; font-weight: 600; }
-.brand-type span { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.18em; color: var(--soft); }
+.brand-type em { font-family: var(--sans); font-size: 1rem; font-style: normal; font-weight: 700; letter-spacing: -0.02em; }
+.brand-type span { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.14em; color: var(--soft); }
 
 .desktop-nav { display: flex; gap: 1.1rem; font-size: 0.9rem; color: var(--soft); }
 .desktop-nav a { padding-bottom: 2px; border-bottom: 1px solid transparent; }
@@ -354,14 +377,15 @@ em, i { font-style: italic; }
 .post-lead { color: var(--soft); font-size: 1.02rem; margin: 1rem 0 0; }
 .post-meta { display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: center; margin-top: 1.1rem; font-family: var(--mono); font-size: 0.7rem; letter-spacing: 0.08em; color: var(--soft); }
 
-/* One column for the whole article. A cover at page width sitting above body
-   copy at reading width reads as a layout fault, not a design choice. */
-.post-head > *,
+/* Centered single-column reading experience across all modern viewports. */
+.post-head,
 .post-cover,
 .source-box,
+.toc,
 .prose,
 .gallery,
-.post-foot { max-width: var(--article); }
+.author-card,
+.post-foot { max-width: var(--article); margin-inline: auto; }
 
 .post-cover {
   margin: 1.8rem 0 0;
@@ -627,7 +651,8 @@ em, i { font-style: italic; }
 /* ---------- reading progress ---------- */
 .read-progress {
   position: fixed; inset: 0 0 auto 0; z-index: 90;
-  height: 2px; background: var(--teal);
+  height: 3px;
+  background: linear-gradient(90deg, var(--teal), var(--insight));
   transform: scaleX(0); transform-origin: 0 50%;
 }
 @media (prefers-reduced-motion: no-preference) {
@@ -649,7 +674,7 @@ em, i { font-style: italic; }
 
 /* ---------- table of contents ---------- */
 .toc {
-  max-width: var(--article); margin: 0 0 1.8rem;
+  max-width: var(--article); margin: 1.5rem auto 1.8rem;
   border: 1px solid var(--line); border-left: 3px solid var(--teal);
   border-radius: var(--radius); background: var(--card);
   padding: 1rem 1.2rem;
@@ -789,21 +814,15 @@ em, i { font-style: italic; }
 }
 
 /* ---------- teaser length ---------- */
-/* Cards and rows show a fragment, not the summary. One line, cut with an
-   ellipsis: enough to tell what the post is, short enough that reading it
-   is not a substitute for opening it. The hover preview shows the rest. */
+/* Modern personal editorial blogs show 2 clean lines of summary on cards/rows. */
 .card p,
 .card-lead p,
 .row-body p {
   display: -webkit-box;
-  -webkit-line-clamp: 1;
+  -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
-/* The lead card gets the same single line. Two lines happened to fit its
-   whole summary, which is exactly the giveaway this clamp exists to stop —
-   its cover and title already carry the weight. */
-.card-lead p { -webkit-line-clamp: 1; }
 
 /* The hover preview is where the summary actually gets room. */
 .hover-peek-body p:not(.mono) { -webkit-line-clamp: 4; }
@@ -859,29 +878,157 @@ em, i { font-style: italic; }
 }
 .mag-grid .card {
   background: var(--card);
-  border: 1px solid var(--line-soft);
-  border-radius: 14px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
   overflow: hidden;
   padding: 0;
-  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.02);
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
 }
 .mag-grid .card-cover { border: 0; border-radius: 0; }
 .mag-grid .card-lead { grid-column: span 2; }
-.mag-grid .card-cover img { aspect-ratio: 16 / 9; }
+.mag-grid .card-cover img { aspect-ratio: 16 / 9; transition: transform 0.35s ease; }
+.mag-grid .card:hover .card-cover img { transform: scale(1.03); }
 .mag-grid .card-lead .card-cover img { aspect-ratio: 16 / 7; }
 .mag-grid .card-meta { padding: 1rem 1.2rem 0; }
-.mag-grid .card-meta .pill { background: #e6f0ee; border: 0; color: var(--teal-dark); }
+.mag-grid .card-meta .pill { background: var(--teal-wash); border: 0; color: var(--teal-dark); }
+.mag-grid .card-meta .pill--kind { background: transparent; border: 1px solid var(--line); color: var(--soft); }
 .mag-grid .card h3 {
   padding: 0.6rem 1.2rem 0;
-  font-size: 1.35rem;
-  line-height: 1.4;
+  font-size: 1.32rem;
+  line-height: 1.38;
 }
-.mag-grid .card-lead h3 { font-size: 1.8rem; }
+.mag-grid .card-lead h3 { font-size: 1.75rem; }
 .mag-grid .card p { padding: 0.5rem 1.2rem 0; }
 .mag-grid .card footer { padding: 0.8rem 1.2rem 1.2rem; }
 @media (max-width: 720px) {
   .mag-grid { grid-template-columns: 1fr; }
   .mag-grid .card-lead { grid-column: auto; }
   .mag-grid .card-lead .card-cover img { aspect-ratio: 16 / 9; }
-  .mag-grid .card-lead h3 { font-size: 1.35rem; }
+  .mag-grid .card-lead h3 { font-size: 1.32rem; }
+}
+
+/* ---------- 2026 Modern Bio + Global Insight Redesign ---------- */
+.masthead-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.28rem 0.75rem;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--card);
+  color: var(--teal-dark);
+  margin: 0 0 0.9rem;
+}
+.masthead-lead { margin: 0.9rem 0 0; max-width: 40rem; color: var(--soft); font-size: 1.05rem; }
+.masthead-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.65rem;
+  margin-top: 1.5rem;
+}
+.chip-action { text-decoration: none; display: inline-flex; align-items: center; }
+.masthead-stats { margin-top: 1.15rem; color: var(--soft); }
+
+/* Two-Track Showcase */
+.tracks-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.2rem;
+}
+@media (max-width: 820px) {
+  .tracks-grid { grid-template-columns: 1fr; }
+}
+.track-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 1.4rem;
+  border-radius: var(--radius);
+  border: 1px solid var(--line);
+  background: var(--card);
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.04);
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.track-card:hover { transform: translateY(-2px); box-shadow: var(--shadow); }
+.track-card--bio { border-top: 3px solid var(--teal); }
+.track-card--bio:hover { border-color: var(--teal); }
+.track-card--insight { border-top: 3px solid var(--insight); }
+.track-card--insight:hover { border-color: var(--insight); }
+.track-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem;
+}
+.track-card h3 { font-size: 1.28rem; }
+.track-desc { margin: 0; font-size: 0.92rem; color: var(--soft); line-height: 1.6; }
+.track-list {
+  list-style: none;
+  margin: 0.3rem 0 0;
+  padding: 0;
+  display: grid;
+}
+.track-list li + li { border-top: 1px solid var(--line-soft); }
+.track-list a {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.85rem;
+  padding: 0.62rem 0.1rem;
+  font-size: 0.92rem;
+  font-weight: 500;
+  transition: color 0.15s ease;
+}
+.track-list a span { word-break: keep-all; }
+.track-list a time { flex-shrink: 0; font-size: 0.68rem; color: var(--soft); }
+.track-card--bio .track-list a:hover { color: var(--teal-dark); }
+.track-card--insight .track-list a:hover { color: var(--insight-dark); }
+.track-links {
+  margin-top: auto;
+  padding-top: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+/* Author E-E-A-T Card inside Articles */
+.author-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.1rem;
+  margin-top: 2.6rem;
+  padding: 1.25rem 1.35rem;
+  border-radius: var(--radius);
+  border: 1px solid var(--line);
+  background: var(--paper-deep);
+}
+.author-avatar {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(135deg, var(--teal), var(--insight));
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+.author-body { display: grid; gap: 0.35rem; }
+.author-body p { margin: 0; font-size: 0.92rem; color: var(--soft); line-height: 1.6; }
+.author-body p.mono { font-size: 0.7rem; color: var(--ink); }
+.author-links { display: flex; flex-wrap: wrap; gap: 0.9rem; margin-top: 0.25rem; }
+
+/* Dark-mode legibility for existing light-canvas SVG charts */
+:root[data-theme='dark'] :is(.post-cover, .prose, .card-cover, .row-thumb, .hover-peek-cover) img[src$='.svg'] {
+  background: #ffffff;
+  padding: 0.45rem;
+  border-radius: 10px;
+}
+
+/* Theme toggle button polish */
+.theme-toggle { padding: 0.4rem 0.62rem; font-size: 0.85rem; }
+@media (max-width: 520px) {
+  .author-card { flex-direction: column; gap: 0.8rem; }
 }

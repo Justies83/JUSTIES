@@ -5,7 +5,7 @@ import PostRow from '../components/PostRow.astro';
 import SectionHead from '../components/SectionHead.astro';
 import { site } from '../data/site';
 import { CATEGORIES } from '../data/taxonomy';
-import { getPublishedPosts } from '../lib/posts';
+import { formatDate, getPublishedPosts } from '../lib/posts';
 
 const posts = await getPublishedPosts();
 
@@ -16,6 +16,9 @@ const ordered = [...posts].sort((a, b) => {
   if (a.data.featured !== b.data.featured) return a.data.featured ? -1 : 1;
   return b.data.date.valueOf() - a.data.date.valueOf();
 });
+
+const bioPosts = ordered.filter((p) => p.data.category === 'science' || p.data.category === 'research');
+const insightPosts = ordered.filter((p) => p.data.category === 'finance' || p.data.category === 'world');
 
 // Four, same size, and spread across sections where possible: one per
 // category first (newest of each), then the newest leftovers fill any
@@ -95,12 +98,74 @@ const schema = {
 
 <Base schema={schema}>
   <section class="shell masthead">
-    <h1>{site.title}</h1>
-    <p>{site.description}</p>
+    <p class="mono masthead-eyebrow">BIO &amp; GLOBAL INSIGHT · PERSONAL ARCHIVE</p>
+    <h1>{site.tagline}</h1>
+    <p class="masthead-lead">{site.description}</p>
+    <div class="masthead-actions">
+      <a class="ink-button" href="/topics/science">바이오 · 과학 읽기</a>
+      <a class="chip chip-action" href="/topics/finance">경제 · 인사이트</a>
+      <a class="chip chip-action" href="/topics/world">국제 정세</a>
+      <a class="plain-link" href="/archive">전체 {posts.length}편 →</a>
+    </div>
     <p class="mono masthead-stats">기록 {posts.length}편 · 주제 {usedCategories.length}개 · 누적 방문은 푸터에서 확인하세요</p>
   </section>
 
   <div class="shell">
+    <section class="section" id="tracks">
+      <SectionHead
+        eyebrow="FOCUS TRACKS"
+        title="두 가지 시선"
+        note="현업 생명과학 연구자의 눈으로 읽는 바이오 논문과, 원문 공시·통계로 짚는 경제·국제 정세 인사이트."
+      />
+      <div class="tracks-grid">
+        <article class="track-card track-card--bio reveal">
+          <div class="track-head">
+            <span class="pill">TRACK 01 · BIO &amp; SCIENCE</span>
+            <span class="mono">{bioPosts.length}편</span>
+          </div>
+          <h3>바이오 · 생명과학 · 연구</h3>
+          <p class="track-desc">임상시험 원문, 분자생물학 메커니즘, 연구 자동화 도구를 직접 뜯어보고 남긴 기록.</p>
+          <ul class="track-list">
+            {bioPosts.slice(0, 3).map((post) => (
+              <li>
+                <a href={`/posts/${post.id}`}>
+                  <span>{post.data.title}</span>
+                  <time class="mono" datetime={post.data.date.toISOString()}>{formatDate(post.data.date)}</time>
+                </a>
+              </li>
+            ))}
+          </ul>
+          <div class="track-links">
+            <a class="plain-link" href="/topics/science">바이오 · 과학 전체 →</a>
+            <a class="plain-link" href="/topics/research">바이오 · 연구 →</a>
+          </div>
+        </article>
+
+        <article class="track-card track-card--insight reveal">
+          <div class="track-head">
+            <span class="pill pill--insight">TRACK 02 · ECONOMY &amp; GLOBAL</span>
+            <span class="mono">{insightPosts.length}편</span>
+          </div>
+          <h3>경제 · 산업 · 국제 정세</h3>
+          <p class="track-desc">기업 지배구조와 반도체 밸류체인, 통상·기후·거시 지표를 원문 기준으로 짚은 인사이트.</p>
+          <ul class="track-list">
+            {insightPosts.slice(0, 3).map((post) => (
+              <li>
+                <a href={`/posts/${post.id}`}>
+                  <span>{post.data.title}</span>
+                  <time class="mono" datetime={post.data.date.toISOString()}>{formatDate(post.data.date)}</time>
+                </a>
+              </li>
+            ))}
+          </ul>
+          <div class="track-links">
+            <a class="plain-link" href="/topics/finance">경제 · 인사이트 전체 →</a>
+            <a class="plain-link" href="/topics/world">국제 정세 →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
     <section class="section" id="latest">
       <SectionHead
         eyebrow="MAGAZINE"
