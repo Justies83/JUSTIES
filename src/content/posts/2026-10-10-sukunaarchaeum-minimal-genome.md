@@ -1,5 +1,5 @@
 ---
-title: 생명과 바이러스 사이 — 염기 23만 8천 쌍짜리 고세균 게놈이 정식 논문으로 출판됐습니다
+title: 생명과 바이러스 사이 — 염기 23만 8천 쌍짜리 고세균 게놈이 정식 논문으로 출판됐다
 date: 2026-10-10
 updated: 2026-11-27
 category: science
@@ -11,6 +11,16 @@ coverAlt: 바닷속에서 빛나는 플랑크톤 세포와 주변의 작은 미�
 source:
   name: phys.org (2026.10.09)
   url: https://phys.org/news/2026-10-tiny-marine-microbe-genetic-machinery.html
+paper:
+  title: "A hidden archaeal lineage with an ultra-reduced genome retaining only its replicative core"
+  authors: "Ryo Harada, Yuki Nishimura, Mami Nomura, Akinori Yabuki, Kogiku Shiba, Kazuo Inaba, Thorsten Allers, Yuji Inagaki, Takuro Nakayama"
+  journal: "Current Biology"
+  year: "2026"
+  doi: "10.1016/j.cub.2026.09.042"
+  url: https://doi.org/10.1016/j.cub.2026.09.042
+  license: CC-BY-NC
+  figurePolicy: data-chart
+  ownerNote: "대사는 숙주에 외주화하고 리보솜·복제 코어만 남긴 23.8만 염기쌍 게놈은 세포와 바이러스의 경계를 다시 묻는다. 다만 아직 배양·현미경 실물 확인 전인 메타게놈 서열 단계라는 한계를 함께 보아야 한다."
 ---
 
 지난해 5월 프리프린트로 나왔을 때부터 눈여겨보던 게놈 논문이 마침내 동료심사를 거쳐 정식 출판됐다. 생명과학을 공부하고 연구하다 보면 "세포가 유지되기 위한 최소 유전자 세트는 어디까지 줄일 수 있을까"라는 질문을 종종 떠올리게 되는데, 이번에 *Current Biology*에 정식으로 실린 국제 연구팀의 보고가 바로 그 경계를 다시 밀어낸 사례다.
@@ -39,7 +49,7 @@ source:
 
 <p align="center"><img src="/images/sukunaarchaeum-genome-chart-2026-10-10.svg" alt="게놈 크기 비교 도표: 스쿠나아케움 238,000bp, 종전 고세균 최소 기록 약 490,000bp, 대장균 약 4,600,000bp" style="max-width:100%;height:auto;"/></p>
 
-<p align="center" class="caption"><em>게놈 크기 비교 (염기쌍 수, 로그 스케일) — 도표는 위 기사의 수치로 직접 작성했습니다</em></p>
+<p align="center" class="caption"><em>게놈 크기 비교 (염기쌍 수, 로그 스케일) — 도표는 위 기사의 수치로 직접 작성했다</em></p>
 
 ## 세포와 바이러스 사이의 빈칸, 그리고 남겨진 숙제
 

@@ -7,7 +7,25 @@ import { CATEGORY_IDS, KIND_IDS } from './data/taxonomy';
 const blankToUndefined = (value: unknown) =>
   typeof value === 'string' && value.trim() === '' ? undefined : value;
 
+export const PAPER_LICENSES = [
+  'CC-BY',
+  'CC-BY-NC',
+  'CC-BY-ND',
+  'Subscription',
+  'Preprint',
+  'Public-Domain',
+  'Unknown',
+] as const;
+
+export const PAPER_FIGURE_POLICIES = [
+  'redrawn',
+  'data-chart',
+  'original-cc-by',
+  'text-only',
+] as const;
+
 const optionalText = z.preprocess(blankToUndefined, z.string().optional());
+const optionalUrl = z.preprocess(blankToUndefined, z.string().url().optional());
 
 const optionalSource = z.preprocess(
   (value) => {
@@ -16,6 +34,28 @@ const optionalSource = z.preprocess(
     return name?.trim() && url?.trim() ? { name, url } : undefined;
   },
   z.object({ name: z.string(), url: z.string().url() }).optional()
+);
+
+const optionalPaper = z.preprocess(
+  (value) => {
+    if (!value || typeof value !== 'object') return undefined;
+    const obj = value as Record<string, unknown>;
+    const hasAny = Object.values(obj).some((v) => typeof v === 'string' && v.trim() !== '');
+    return hasAny ? value : undefined;
+  },
+  z
+    .object({
+      title: optionalText,
+      authors: optionalText,
+      journal: optionalText,
+      year: optionalText,
+      doi: optionalText,
+      url: optionalUrl,
+      license: z.preprocess(blankToUndefined, z.enum(PAPER_LICENSES).optional()),
+      figurePolicy: z.preprocess(blankToUndefined, z.enum(PAPER_FIGURE_POLICIES).optional()),
+      ownerNote: optionalText,
+    })
+    .optional()
 );
 
 // Posts live as plain Markdown files under src/content/posts.
@@ -33,6 +73,8 @@ const posts = defineCollection({
     tags: z.array(z.string()).default([]),
     // Where a clipped item came from. Omitted for original writing.
     source: optionalSource,
+    // Primary research paper metadata for the /papers corner.
+    paper: optionalPaper,
     cover: optionalText,
     coverAlt: z.string().default(''),
     // Extra photos shown as a grid under the body — restaurant and gear

@@ -52,6 +52,8 @@ npx astro check
 | `src/content/posts/` | 발행되는 글. Astro는 이 폴더만 읽는다 |
 | `src/data/site.ts` | 사이트 제목·소개·검증 코드·AdSense ID |
 | `src/data/taxonomy.ts` | 섹션(`category`)과 형식(`kind`) 정의 |
+| `src/pages/papers/index.astro` | 논문 소개 코너(`/papers`) — 원문 서지, 저작권 원칙, 재도식화(Redrawn) 카드 |
+| `docs/paper-review-framework.md` | PDF + 연구자 해석 기반 논문 리뷰 작성 및 CC BY-NC 재도식화 SOP |
 | `docs/daily-brief.md` | 자동 발행의 편집 규칙 — 무엇을 어떻게 쓸지 |
 | `docs/routines/` | 예약 실행 두 개의 배선 |
 | `gate/index.js` | 비밀번호 게이트 + 조회수 API |

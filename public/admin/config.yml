@@ -113,6 +113,47 @@ collections:
           - { name: name, label: 출처 이름, widget: string, required: false }
           - { name: url, label: 링크, widget: string, required: false }
 
+      - name: paper
+        label: 논문 서지 · 저작권 정보
+        hint: 논문 소개 코너(/papers)에 실릴 원문 논문 메타데이터. 일반 글은 비워 둡니다.
+        widget: object
+        required: false
+        collapsed: true
+        fields:
+          - { name: title, label: 원문 제목, widget: string, required: false }
+          - { name: authors, label: 저자 / 연구팀, widget: string, required: false }
+          - { name: journal, label: 학술지 / 출처, widget: string, required: false }
+          - { name: year, label: 출판 연도, widget: string, required: false }
+          - { name: doi, label: 'DOI (예: 10.1038/...)', widget: string, required: false }
+          - { name: url, label: 원문 링크 (선택), widget: string, required: false }
+          - name: license
+            label: 원문 라이선스
+            widget: select
+            required: false
+            default: ''
+            options:
+              - { label: '(선택 안 함)', value: '' }
+              - { label: 'CC BY 4.0 (원문 인용/재작성 가능)', value: CC-BY }
+              - { label: 'CC BY-NC (상업 blog/AdSense → 그림 전면 재도식화 필수)', value: CC-BY-NC }
+              - { label: 'CC BY-ND (수정 불가 → 그림 전면 재도식화 필수)', value: CC-BY-ND }
+              - { label: '구독형 학술지 (그림 전면 재도식화 필수)', value: Subscription }
+              - { label: '프리프린트 (재도식화 권장)', value: Preprint }
+              - { label: '퍼블릭 도메인', value: Public-Domain }
+              - { label: '라이선스 미확인 (재도식화 필수)', value: Unknown }
+          - name: figurePolicy
+            label: 시각 자료 원칙
+            hint: CC-BY-NC / CC-BY-ND / Subscription 은 반드시 redrawn 또는 data-chart 선택.
+            widget: select
+            required: false
+            default: ''
+            options:
+              - { label: '(선택 안 함)', value: '' }
+              - { label: '자체 재도식화 (Redrawn SVG)', value: redrawn }
+              - { label: '공개 수치 직접 작도 (SVG Chart)', value: data-chart }
+              - { label: 'CC BY 원문 인용 (출처 명시)', value: original-cc-by }
+              - { label: '텍스트 구조 해설', value: text-only }
+          - { name: ownerNote, label: 연구자 핵심 해석 (카드·상단 요약), widget: text, required: false }
+
       - name: cover
         label: 대표 이미지
         widget: image

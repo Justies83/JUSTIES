@@ -10,6 +10,55 @@ export async function getPublishedPosts(): Promise<Post[]> {
   return (await getAllPosts()).filter((p) => p.data.visibility !== 'private');
 }
 
+/** Published primary-paper review posts shown in the /papers corner. */
+export async function getPaperPosts(): Promise<Post[]> {
+  return (await getPublishedPosts()).filter((p) => Boolean(p.data.paper));
+}
+
+export function paperLicenseLabel(license?: string): string {
+  switch (license) {
+    case 'CC-BY':
+      return 'CC BY 4.0';
+    case 'CC-BY-NC':
+      return 'CC BY-NC';
+    case 'CC-BY-ND':
+      return 'CC BY-ND';
+    case 'Subscription':
+      return '구독형 학술지';
+    case 'Preprint':
+      return '프리프린트';
+    case 'Public-Domain':
+      return '퍼블릭 도메인';
+    default:
+      return '라이선스 확인';
+  }
+}
+
+export function paperFigureLabel(policy?: string): string {
+  switch (policy) {
+    case 'redrawn':
+      return '자체 재도식화 · Redrawn';
+    case 'data-chart':
+      return '공개 수치 직접 작도 · SVG';
+    case 'original-cc-by':
+      return 'CC BY 원문 인용';
+    case 'text-only':
+      return '텍스트 구조 해설';
+    default:
+      return '자체 재구성';
+  }
+}
+
+export function paperHref(paper?: { url?: string; doi?: string }): string | undefined {
+  if (!paper) return undefined;
+  if (paper.url) return paper.url;
+  if (paper.doi) {
+    const clean = paper.doi.replace(/^https?:\/\/(dx\.)?doi\.org\//i, '').trim();
+    if (clean) return `https://doi.org/${clean}`;
+  }
+  return undefined;
+}
+
 /** Only reachable under /private, behind the password gate. */
 export async function getPrivatePosts(): Promise<Post[]> {
   return (await getAllPosts()).filter((p) => p.data.visibility === 'private');

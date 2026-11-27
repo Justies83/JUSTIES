@@ -11,6 +11,16 @@ coverAlt: 푸른 바닷속을 유영하는 문어 — AI 생성 이미지
 source:
   name: "phys.org (2026.10.09)"
   url: https://phys.org/news/2026-10-3d-genome-entanglement-cephalopods-evolved.html
+paper:
+  title: "Genome reorganisation and expansion shape 3D genome architecture and define a distinct regulatory landscape in coleoid cephalopods"
+  authors: "Thea F. Rogers et al. (University of Vienna / Marine Biological Laboratory / University of Chicago)"
+  journal: "Nature Communications"
+  year: "2026"
+  doi: "10.1038/s41467-026-77625-7"
+  url: https://doi.org/10.1038/s41467-026-77625-7
+  license: CC-BY
+  figurePolicy: data-chart
+  ownerNote: "유전자 개수가 아니라 3차원 크로마틴 루프의 재구성과 '조절 얽힘'으로 두족류의 신경계 진화를 설명한 관점이 돋보인다. 아직 배아 단계 중심의 가설이지만 유전체 구조를 진화의 능동적 판으로 읽게 해 준다."
 ---
 
 문어와 오징어, 갑오징어는 무척추동물 가운데 가장 큰 뇌를 가진 동물로 꼽힌다. 문제를 풀고 순식간에 몸 색깔을 바꾸며 여덟 개 혹은 열 개의 팔을 제각각 움직이는 행동을 보고 있으면, 과연 이들의 유전체 어디에 저런 복잡성이 숨어 있는지 궁금해지기 마련이다. 10월 9일 학술지 *Nature Communications*에 실린 새 논문은 그 실마리를 유전자 서열의 개수가 아니라 게놈의 3차원 접힘 구조에서 찾았다. 오스트리아 빈대(University of Vienna)의 테아 로저스(Thea Rogers) 박사 연구팀이 발표한 `'Genome reorganisation and expansion shape 3D genome architecture and define a distinct regulatory landscape in coleoid cephalopods'`라는 제목의 연구다.
@@ -29,7 +39,7 @@ source:
 
 <p align="center"><img src="/images/cephalopod-3d-genome-chart-2026-10-12.svg" alt="두족류 3종의 크로마틴 루프 수·루프 길이·게놈 크기 비교 도표" style="max-width:100%;height:auto;"/></p>
 
-<p align="center" class="caption"><em>두족류 3종의 크로마틴 루프 수, 전형적 루프 길이, 게놈 크기 비교 — 도표는 위 기사의 수치로 직접 작성했습니다</em></p>
+<p align="center" class="caption"><em>두족류 3종의 크로마틴 루프 수, 전형적 루프 길이, 게놈 크기 비교 — 도표는 위 기사의 수치로 직접 작성했다</em></p>
 
 세 종을 나란히 놓고 보면 문어에서 드러나는 역설도 흥미롭다. 게놈 전체 크기는 문어가 약 25억 개 글자로, 50억 개 글자를 넘는 오징어나 커틀피시의 절반 수준에 불과하다. 그런데 전형적인 루프 하나의 길이는 문어가 약 290만 개 글자로, 오징어(160만 개)나 커틀피시(130만 개)보다 훨씬 길었다. 문어 계통이 진화 과정에서 겪은 추가적인 염색체 융합이 예전에 따로 떨어져 있던 염색체들을 한 덩어리로 끌어당겼고, 그 결과 문어 루프의 절반 이상은 오징어와 커틀피시에서 서로 다른 염색체에 흩어져 있던 유전자들을 하나로 이어주고 있었다. 연구팀은 이처럼 겹겹이 맞물려 자란 연결망에 '조절 얽힘(regulatory entanglement)'이라는 이름을 붙였다. 연결이 얽힐수록 그 부위는 다시 쪼개지거나 재배열되기 어려워지는데, 로저스 박사는 바로 이 얽힘이 역설적으로 문어 게놈의 크기가 더 이상 확장되지 못하도록 상한선을 그었을지 모른다고 해석했다.
 

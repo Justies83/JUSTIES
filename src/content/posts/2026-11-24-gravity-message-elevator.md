@@ -11,6 +11,16 @@ coverAlt: "실험에 쓰인 중력계와 측정 장비"
 source:
   name: "Science Advances (2026.11.18)"
   url: https://www.science.org/doi/10.1126/sciadv.aee0802
+paper:
+  title: "Unblockable communication with gravity"
+  authors: "Andrew J. Groszek, Charles W. Woffinden, Michael D. Harvey, Andrew G. White, Matthew J. Davis"
+  journal: "Science Advances"
+  year: "2026"
+  doi: "10.1126/sciadv.aee0802"
+  url: https://www.science.org/doi/10.1126/sciadv.aee0802
+  license: CC-BY-NC
+  figurePolicy: redrawn
+  ownerNote: "고전 뉴턴 중력만으로 차폐 불가능한 신호 전송을 실증한 발상은 명쾌하지만, 거리 세제곱 감쇠라는 물리적 한계 때문에 양자 중력 센서가 성숙하기 전까지는 극한 차폐 환경의 초저속 비상 채널로 읽어야 한다."
 ---
 
 1950년대 엘리베이터의 균형추를 오르내려 벽 너머로 메시지를 보냈다는 논문이 11월 18일 *Science Advances*에 실렸다는 소식에 호기심이 동해 원문을 열어봤다. 제목부터가 '막을 수 없는 중력 통신(Unblockable communication with gravity)'이다. 호주 퀸즐랜드대 물리학자들이 전파도 빛도 소리도 아닌 중력장의 미세 변화를 변조해 벽돌 벽 너머로 **Gravity**라는 일곱 글자 단어를 전송한 실험인데, 거창한 양자 이론이 아니라 고전 뉴턴 중력만으로 원리를 실증했다는 발상이 특히 인상적이었다.

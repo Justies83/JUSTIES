@@ -4,7 +4,14 @@
 import { render } from 'astro:content';
 import PostCard from './PostCard.astro';
 import { categoryOf, kindOf } from '../data/taxonomy';
-import { coverFor, formatDate, type Post } from '../lib/posts';
+import {
+  coverFor,
+  formatDate,
+  paperFigureLabel,
+  paperHref,
+  paperLicenseLabel,
+  type Post,
+} from '../lib/posts';
 
 interface Props {
   post: Post;
@@ -37,6 +44,14 @@ const readingMinutes = Math.max(1, Math.round(bodyChars / 450));
 // twice. Older posts do not repeat it in the body, so they keep the header
 // cover — only skip it when the body already carries the same image.
 const bodyHasCover = Boolean(cover && post.body?.includes(cover));
+const paper = post.data.paper;
+const paperLink = paper ? paperHref(paper) : undefined;
+const provenanceNote =
+  paper?.figurePolicy === 'original-cc-by'
+    ? '원문 라이선스(CC BY 4.0) 규정에 따라 출처·저자·DOI를 명시해 인용했다.'
+    : paper?.figurePolicy === 'text-only'
+      ? '원문 저작권을 준수해 원문 이미지를 전재하지 않고 핵심 구조와 수치를 텍스트로 재구성했다.'
+      : '저작권 준수를 위해 원문 Figure를 캡처하지 않고, 공개된 메커니즘·수치를 바탕으로 모식도와 도표를 직접 재작성(Redrawn)했다.';
 ---
 
 <article class="shell post-article">
@@ -47,6 +62,11 @@ const bodyHasCover = Boolean(cover && post.body?.includes(cover));
       ) : (
         <>
           <a href="/archive">기록</a> / <a href={`/topics/${post.data.category}`}>{category?.label}</a>
+          {paper && (
+            <>
+              {' '} / <a href="/papers">논문 소개</a>
+            </>
+          )}
         </>
       )}
     </p>
@@ -85,6 +105,42 @@ const bodyHasCover = Boolean(cover && post.body?.includes(cover));
       </figure>
     )}
   </header>
+
+  {paper && (
+    <section class="paper-box" aria-label="원문 논문 및 저작권 정보">
+      <div class="paper-box-head">
+        <span class="mono">PRIMARY PAPER · 원문 서지</span>
+        <div class="paper-badges">
+          {paper.license && <span class="pill">{paperLicenseLabel(paper.license)}</span>}
+          {paper.figurePolicy && <span class="pill pill--kind">{paperFigureLabel(paper.figurePolicy)}</span>}
+        </div>
+      </div>
+
+      <div class="paper-cite">
+        {paper.title && <p class="paper-cite-title">{paper.title}</p>}
+        <p class="paper-cite-meta">
+          {[paper.authors, paper.journal, paper.year].filter(Boolean).join(' · ')}
+          {paperLink && (
+            <>
+              {' · '}
+              <a href={paperLink} target="_blank" rel="noopener noreferrer">
+                {paper.doi ? `DOI: ${paper.doi}` : '원문 보기'} ↗
+              </a>
+            </>
+          )}
+        </p>
+      </div>
+
+      {paper.ownerNote && (
+        <div class="paper-owner-note">
+          <span class="mono">RESEARCHER&apos;S NOTE · 내 해석 한 줄</span>
+          <p>{paper.ownerNote}</p>
+        </div>
+      )}
+
+      <p class="paper-provenance">{provenanceNote}</p>
+    </section>
+  )}
 
   {post.data.source && (
     <p class="source-box">
@@ -131,6 +187,7 @@ const bodyHasCover = Boolean(cover && post.body?.includes(cover));
           경제·국제 정세의 인사이트를 정리한다.
         </p>
         <div class="author-links">
+          <a class="plain-link" href="/papers">논문 소개</a>
           <a class="plain-link" href="/about">소개 보기</a>
           <a class="plain-link" href="/topics/science">바이오 · 과학</a>
           <a class="plain-link" href="/topics/finance">경제 · 인사이트</a>

@@ -11,6 +11,16 @@ coverAlt: "난소 피질 조직 — 난포 속에 난자가 들어 있는 구조
 source:
   name: "The Japan Times (2026.10.30)"
   url: https://www.japantimes.co.jp/news/2026/10/30/japan/science-health/protein-discovery-fertility/
+paper:
+  title: "Oocyte-specific OMC1 is required for maintaining chromosome cohesion through reproductive life"
+  authors: "Sakie Iisaka, Shuhei Yoshida, Ryuki Shimada, Tomoya S. Kitajima, Kei-ichiro Ishiguro et al."
+  journal: "Nature Aging"
+  year: "2026"
+  doi: "10.1038/s43587-026-01245-5"
+  url: https://doi.org/10.1038/s43587-026-01245-5
+  license: Subscription
+  figurePolicy: redrawn
+  ownerNote: "비암호화 RNA로 묻혀 있던 Ccdc201에서 난자 코헤신 유지 인자 OMC1을 찾아낸 점이 핵심이다. 다만 이미 벌어져 버린 동원체 간격까지 되돌리진 못하므로 노화 역전제가 아니라 수명 유지 장치로 해석하는 편이 정확하다."
 ---
 
 생식 노화 연구에서 난자 코헤신의 안정성은 오래 풀리지 않던 숙제였다. 10월 29일 *Nature Aging*에 실리고 다음 날 재팬타임스가 보도한 일본 지바대학·구마모토대학·이화학연구소 공동 연구를 찾아본 이유도, 태아기부터 수십 년을 정지 상태로 버텨야 하는 난자가 도대체 어떤 장치로 염색체를 붙잡고 있는지에 대한 새로운 분자적 단서가 제시됐기 때문이다. 연구진이 찾아낸 단백질의 이름은 **OMC1**이다.

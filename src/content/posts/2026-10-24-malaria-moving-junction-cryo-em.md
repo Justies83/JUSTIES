@@ -11,6 +11,16 @@ coverAlt: "사람에게 흡혈 중인 Anopheles gambiae 모기"
 source:
   name: "콴타 매거진 (2026.10.23)"
   url: https://www.quantamagazine.org/malaria-parasite-caught-in-the-act-of-breaking-and-entering-20261023/
+paper:
+  title: "Structural basis for host membrane binding and remodeling by invading malaria parasites"
+  authors: "Meseret T. Haile, Daphne A. Kaxiras, James Zhen, Carolyn L. Lee, Britney Jiang, Jennifer L. Small-Saunders, Chi-Min Ho"
+  journal: "Cell"
+  year: "2026"
+  doi: "10.1016/j.cell.2026.06.012"
+  url: https://doi.org/10.1016/j.cell.2026.06.012
+  license: Subscription
+  figurePolicy: redrawn
+  ownerNote: "1분 만에 닫히는 침입 문을 cryo-EM으로 붙잡아 능동적 막 변형 기전을 밝힌 성취는 탁월하지만, 침입 창이 워낙 짧아 설계 미니바인더가 실제 혈류 안에서 약물로 작동하려면 결합 속도라는 높은 벽을 넘어야 한다."
 ---
 
 구조생물학에서 1분 남짓 존재하다 사라지는 막 단백질 복합체의 원시 상태를 붙잡았다는 소식은 언제 봐도 반갑다. 10월 23일 콴타 매거진이 말라리아 기생충의 적혈구 침입 구조를 해설하는 글을 실었는데, 날짜를 먼저 정확히 짚자면 원논문 자체는 2026년 6월 *Cell*에 실린 연구다. 콴타 기사는 그 복합한 3차원 구조가 어떤 생물물리학적 의미를 지니는지 풀어낸 해설이고, 원논문의 실험 데이터와 한계를 함께 대조해 읽어야 이 진전의 정확한 좌표를 잡을 수 있다.
@@ -27,7 +37,7 @@ source:
 
 <p align="center"><img src="/images/malaria-moving-junction-steps-2026-10-24.svg" alt="무빙 접합부 침입 단계 — 기생충 접근, 단백질 고리 설치, 막 휘어짐, 통과 후 봉합, 네 단백질 AMA1·RON2·RON4·RON5" style="max-width:100%;height:auto;"/></p>
 
-<p align="center" class="caption">도표는 Cell 논문과 콴타 해설을 바탕으로 직접 작성했습니다.</p>
+<p align="center" class="caption">도표는 Cell 논문과 콴타 해설을 바탕으로 직접 작성했다.</p>
 
 ## 돛단배처럼 조립돼 막을 휘게 만드는 네 단백질
 
@@ -45,7 +55,7 @@ source:
 
 <p align="center"><img src="/images/malaria-moving-junction-timeline-2026-10-24.svg" alt="말라리아 침입 문 연구 연표 — 1880년 라브랑 원인 규명, 1970년대 전자현미경 막 두꺼워짐 관찰, 2026년 6월 Cell 구조 논문, 2026년 10월 23일 콴타 해설" style="max-width:100%;height:auto;"/></p>
 
-<p align="center" class="caption">도표는 콴타 해설과 Cell 논문 정보를 바탕으로 직접 작성했습니다.</p>
+<p align="center" class="caption">도표는 콴타 해설과 Cell 논문 정보를 바탕으로 직접 작성했다.</p>
 
 그럼에도 이 구조의 파급력은 말라리아 하나에 머물지 않는다. *플라스모디움*이 속한 정단복합체충류에는 톡소플라스마와 사이클로스포라가 포함되며, 2026년에는 톡소플라스마가 무빙 접합부를 펼칠 타이밍을 감지하는 방식을 다룬 연구도 발표됐다. 호 연구팀은 다음 목표로 감염 적혈구가 비장을 피하는 데 쓰는 접착 단백질 복합체의 구조를 같은 cryo-EM 방식으로 풀겠다고 밝혔다. 클로로퀸이나 설파독신, 피리메타민 같은 기존 약제에 내성이 번지는 가운데, 다이치의 말처럼 '눈을 감고' 약물을 시험하던 시절을 지나 이제 비로소 항체와 백신 설계에도 참고할 수 있는 정확한 구조 지도 한 장을 손에 넣은 셈이다. 다만 지도가 곧 신약은 아니므로, 동물 실험 검증과 후속 복합체 규명까지는 차분히 지켜볼 필요가 있다.
 

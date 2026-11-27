@@ -17,7 +17,20 @@ export const GET: APIRoute = async () => {
       kind,
       tags: post.data.tags,
       date: formatDate(post.data.date),
-      text: [post.data.title, post.data.takeaway, category, kind, ...post.data.tags, post.body ?? '']
+      text: [
+        post.data.title,
+        post.data.takeaway,
+        category,
+        kind,
+        ...post.data.tags,
+        post.data.paper?.title ?? '',
+        post.data.paper?.authors ?? '',
+        post.data.paper?.journal ?? '',
+        post.data.paper?.doi ?? '',
+        post.data.paper?.ownerNote ?? '',
+        post.body ?? '',
+      ]
+        .filter(Boolean)
         .join(' ')
         .toLowerCase(),
     };

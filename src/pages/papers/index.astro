@@ -1,0 +1,222 @@
+---
+import Base from '../../layouts/Base.astro';
+import { site } from '../../data/site';
+import { categoryOf } from '../../data/taxonomy';
+import {
+  coverFor,
+  formatDate,
+  getPaperPosts,
+  paperFigureLabel,
+  paperHref,
+  paperLicenseLabel,
+} from '../../lib/posts';
+
+const papers = await getPaperPosts();
+const origin = (Astro.site ?? new URL(Astro.url.origin)).origin;
+const redrawnCount = papers.filter(
+  (p) => p.data.paper?.figurePolicy === 'redrawn' || p.data.paper?.figurePolicy === 'data-chart'
+).length;
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: `논문 소개 — ${site.title}`,
+  url: `${origin}/papers`,
+  description:
+    '생명과학 연구자의 시선으로 직접 읽고 해석한 원문 논문 아카이브. CC BY-NC 및 구독형 저널은 공개 기전·수치를 바탕으로 직접 재도식화(Redrawn)해 소개한다.',
+  mainEntity: {
+    '@type': 'ItemList',
+    numberOfItems: papers.length,
+    itemListElement: papers.map((p, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      url: `${origin}/posts/${p.id}`,
+      name: p.data.title,
+    })),
+  },
+};
+---
+
+<Base
+  title="논문 소개"
+  description="생명과학 연구자의 시선으로 직접 읽고 해석한 원문 논문 아카이브. CC BY-NC 및 구독형 저널은 공개 기전·수치를 바탕으로 직접 재도식화(Redrawn)해 소개한다."
+  image="/images/editorial-bio.jpg"
+  schema={schema}
+>
+  <section class="shell hero-editorial">
+    <div class="hero-copy">
+      <p class="mono hero-eyebrow">PAPER REVIEWS &amp; INTERPRETATIONS</p>
+      <h1>직접 읽고 다시 그린 논문 노트</h1>
+      <p class="masthead-lead">
+        보도자료 요약이나 초록 직역이 아니라, 원문 PDF의 실험 설계·대조군·정량 수치를 직접 검증한 뒤
+        연구자의 해석과 비평을 1인칭 문체로 남기는 공간이다.
+      </p>
+      <div class="masthead-actions">
+        <a class="ink-button" href="#paper-archive">논문 아카이브 ({papers.length}편) ↓</a>
+        <a class="plain-link" href="/topics/science">바이오 · 과학</a>
+        <a class="plain-link" href="/topics/research">연구 · 방법론</a>
+      </div>
+      <p class="mono masthead-stats">
+        큐레이션 논문 {papers.length}편 · 자체 재도식화(Redrawn) {redrawnCount}편 · ZERO VERBATIM TRANSLATION
+      </p>
+    </div>
+
+    <figure class="hero-frame reveal">
+      <div class="photo-mat">
+        <img
+          src="/images/editorial-bio.jpg"
+          alt="유리 현미경 슬라이드와 황동 대물렌즈, 잎맥 표본 정물"
+          loading="eager"
+          decoding="async"
+        />
+      </div>
+      <figcaption class="mono hero-frame-cap">
+        <span>PRIMARY LITERATURE ARCHIVE</span>
+        <span>REDRAWN FIGURES · DOI CITED</span>
+      </figcaption>
+    </figure>
+  </section>
+
+  <div class="shell">
+    <section class="section" aria-label="저작권 및 시각 자료 준수 원칙">
+      <div class="section-head">
+        <div>
+          <p class="mono">COPYRIGHT &amp; EDITORIAL PROTOCOL</p>
+          <h2>저작권과 시각 자료 원칙</h2>
+        </div>
+        <p class="section-note">
+          저널 라이선스와 저자 권리를 지키면서, 과학적 사실과 연구자 고유의 비평을 분명하게 분리해 기록한다.
+        </p>
+      </div>
+
+      <div class="paper-policy-grid">
+        <article class="paper-policy-card reveal">
+          <span class="mono">01 · CC BY-NC / 구독 저널</span>
+          <h3>원문 그림 전면 재도식화 (Redrawn)</h3>
+          <p>
+            CC BY-NC·CC BY-ND 및 구독형 저널 논문의 원문 Figure·사진은 절대 캡처하거나 전재하지 않는다.
+            논문에 공개된 메커니즘과 수치를 바탕으로 자체 SVG 모식도·데이터 차트를 새로 작도한다.
+          </p>
+        </article>
+        <article class="paper-policy-card reveal">
+          <span class="mono">02 · NO VERBATIM TRANSLATION</span>
+          <h3>초록 직역 금지 · 1인칭 해석 중심</h3>
+          <p>
+            원문 문장을 번역해 옮기지 않는다. 질문을 꺼낸 배경, 고정 조건과 변수, 핵심 정량 수치,
+            그리고 내 연구실 관점의 해석(Researcher&apos;s Note)과 한계를 1인칭 문체로 재구성한다.
+          </p>
+        </article>
+        <article class="paper-policy-card reveal">
+          <span class="mono">03 · PROVENANCE &amp; PDF ISOLATION</span>
+          <h3>원문 PDF 비공개 · DOI·서지 명시</h3>
+          <p>
+            분석에 활용한 원문 PDF 파일은 웹 서버에 올리지 않으며, 모든 글 상단에 원문 제목·저자·저널·연도·DOI
+            링크와 라이선스 및 시각 자료 출처 원칙을 투명하게 밝힌다.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-quiet" id="paper-archive">
+      <div class="section-head">
+        <div>
+          <p class="mono">CURATED PAPERS ({papers.length})</p>
+          <h2>논문 리뷰 아카이브</h2>
+        </div>
+        <p class="section-note">
+          원문 서지, 저작권 방식, 그리고 핵심 해석 한 줄을 카드에서 바로 확인할 수 있다.
+        </p>
+      </div>
+
+      {papers.length > 0 ? (
+        <div class="paper-list">
+          {papers.map((post) => {
+            const paper = post.data.paper!;
+            const cover = coverFor(post);
+            const cat = categoryOf(post.data.category);
+            const link = paperHref(paper);
+            const note = paper.ownerNote || post.data.takeaway;
+
+            return (
+              <article class="paper-card reveal">
+                <a class="paper-card-media" href={`/posts/${post.id}`} aria-label={post.data.title}>
+                  <div class="photo-mat">
+                    {cover ? (
+                      <img
+                        src={cover}
+                        alt={post.data.coverAlt || post.data.title}
+                        loading="lazy"
+                        decoding="async"
+                      />
+                    ) : (
+                      <div class="card-seal">
+                        <span>⌬</span>
+                        <small>{cat?.label}</small>
+                      </div>
+                    )}
+                  </div>
+                </a>
+
+                <div class="paper-card-body">
+                  <div class="paper-card-meta">
+                    <span class="mono paper-journal">
+                      {[paper.journal, paper.year].filter(Boolean).join(' · ')}
+                    </span>
+                    {paper.license && <span class="pill">{paperLicenseLabel(paper.license)}</span>}
+                    {paper.figurePolicy && (
+                      <span class="pill pill--kind">{paperFigureLabel(paper.figurePolicy)}</span>
+                    )}
+                    <span class="mono paper-date">{formatDate(post.data.date)}</span>
+                    <span class="mono paper-views" data-views-for={post.id}>···</span>
+                  </div>
+
+                  <h3>
+                    <a href={`/posts/${post.id}`}>{post.data.title}</a>
+                  </h3>
+
+                  {(paper.title || paper.authors || link) && (
+                    <div class="paper-card-cite">
+                      {paper.title && <p class="paper-card-orig">{paper.title}</p>}
+                      <p class="paper-card-authors">
+                        {paper.authors}
+                        {link && (
+                          <>
+                            {paper.authors ? ' · ' : ''}
+                            <a href={link} target="_blank" rel="noopener noreferrer">
+                              {paper.doi ? `DOI: ${paper.doi}` : '원문 링크'} ↗
+                            </a>
+                          </>
+                        )}
+                      </p>
+                    </div>
+                  )}
+
+                  <div class="paper-card-note">
+                    <span class="mono">내 해석</span>
+                    <p>{note}</p>
+                  </div>
+
+                  <div class="paper-card-foot">
+                    <a class="plain-link" href={`/posts/${post.id}`}>해설 전문 읽기 →</a>
+                    {link && (
+                      <a class="plain-link" href={link} target="_blank" rel="noopener noreferrer">
+                        원문 보기 ↗
+                      </a>
+                    )}
+                  </div>
+                </div>
+              </article>
+            );
+          })}
+        </div>
+      ) : (
+        <div class="empty">
+          <strong>첫 논문 리뷰를 기다리고 있다.</strong>
+          <p style="margin:0">
+            <code>paper</code> 메타데이터가 포함된 글을 추가하면 이 코너에 자동으로 정렬된다.
+          </p>
+        </div>
+      )}
+    </section>
+  </div>
+</Base>

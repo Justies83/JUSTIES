@@ -17,6 +17,7 @@ export const site = {
     '국제 정세',
     '반도체',
     'AI',
+    '논문 리뷰',
     '개인 블로그',
   ],
   locale: 'ko-KR',
@@ -45,6 +46,7 @@ export const site = {
 
   nav: [
     { href: '/', label: '홈' },
+    { href: '/papers', label: '논문' },
     { href: '/archive', label: '기록' },
     { href: '/topics', label: '주제' },
     { href: '/tools', label: 'Tools' },

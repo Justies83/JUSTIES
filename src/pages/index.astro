@@ -8,6 +8,7 @@ import { CATEGORIES, categoryOf } from '../data/taxonomy';
 import { coverFor, formatDate, getPublishedPosts } from '../lib/posts';
 
 const posts = await getPublishedPosts();
+const paperPosts = posts.filter((p) => Boolean(p.data.paper));
 
 // The home page is the newest writing and little else. `featured` only pulls a
 // post forward in the queue — it never holds a slot on its own, so an old
@@ -108,6 +109,7 @@ const schema = {
       <p class="masthead-lead">{site.description}</p>
       <div class="masthead-actions">
         <a class="ink-button" href="/topics/science">바이오 · 과학</a>
+        <a class="plain-link" href="/papers">논문 소개 ({paperPosts.length}편)</a>
         <a class="plain-link" href="/topics/finance">경제 · 인사이트</a>
         <a class="plain-link" href="/topics/world">국제 정세</a>
         <a class="plain-link" href="/archive">전체 {posts.length}편 →</a>
@@ -153,6 +155,7 @@ const schema = {
           </p>
           <div class="pillar-links">
             <a class="ink-button" href="/topics/science">바이오 · 과학 ({bioPosts.length}편) →</a>
+            <a class="plain-link" href="/papers">논문 소개 코너 ({paperPosts.length}편) →</a>
             <a class="plain-link" href="/topics/research">연구 · 실험 도구 →</a>
           </div>
         </div>
