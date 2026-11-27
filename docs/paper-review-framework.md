@@ -58,3 +58,17 @@
 1. `npx astro check` 및 `npm run build` 실행 후 0 errors 확인.
 2. `git status --short`로 `.pdf` 파일이 포함되지 않았는지 확인.
 3. `git fetch origin && git merge --ff-only origin/claude/personal-editable-homepage-31hofg` 후 커밋 & push.
+
+## 5. YouTube 영상 제작 연계 (VideoGenStudio)
+- 발행된 논문 글을 `justrnaworld`(지식랩 사이언스) 다큐멘터리 영상 파이프라인으로 바로 넘길 때 사용한다.
+- 실행 명령:
+  ```powershell
+  python -I "D:\AI tools\javis\tools\paper_to_videogens.py" `
+    --posts "D:\Website\JUSTIES-live\src\content\posts\<논문글>.md" `
+    --channel justrnaworld `
+    --enqueue `
+    --dispatch-studio `
+    --async-dispatch
+  ```
+- 자동으로 `D:\VideoGens\projects\justrnaworld\<순번>_<slug>\research_pack\facts.md` 및 `diagrams\*.svg`를 생성하고, `syuka_queue.json` 대기열에 등록한 뒤 Antigravity `VideoGenStudio` 세션(`c9b5c514-6698-4955-a033-0e6be3b34ae4`)으로 대본 확장·4-GPU 렌더링·Drive 납품을 인계한다.
+
