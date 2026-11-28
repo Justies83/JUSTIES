@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 480" width="880" height="480" role="img">
+  <defs>
+    <style>
+      .bg { fill: #f8f7f4; }
+      .panel { fill: #ffffff; stroke: #d8d4ca; stroke-width: 1.5; }
+      .panel-teal { fill: #ebf2f0; stroke: #1f514c; stroke-width: 1.5; }
+      .panel-slate { fill: #eef2f6; stroke: #2c4257; stroke-width: 1.5; }
+      .panel-warn { fill: #fdf6ee; stroke: #d99b52; stroke-width: 1.5; }
+      .t-title { font-family: 'Pretendard Variable', 'IBM Plex Sans KR', sans-serif; font-size: 18px; font-weight: 700; fill: #171717; }
+      .t-sub { font-family: 'IBM Plex Mono', monospace; font-size: 11px; fill: #57534e; letter-spacing: 1.0px; }
+      .t-h { font-family: 'Pretendard Variable', 'IBM Plex Sans KR', sans-serif; font-size: 14px; font-weight: 700; fill: #171717; }
+      .t-b { font-family: 'Pretendard Variable', 'IBM Plex Sans KR', sans-serif; font-size: 12px; fill: #44403c; }
+      .t-s { font-family: 'Pretendard Variable', 'IBM Plex Sans KR', sans-serif; font-size: 11px; fill: #57534e; }
+      .t-m { font-family: 'IBM Plex Mono', monospace; font-size: 11px; fill: #1f514c; font-weight: 700; }
+      .t-w { font-family: 'IBM Plex Mono', monospace; font-size: 11px; fill: #b45309; font-weight: 700; }
+      .t-slate { font-family: 'IBM Plex Mono', monospace; font-size: 11px; fill: #2c4257; font-weight: 700; }
+      .grid { stroke: #ebe7de; stroke-width: 1; }
+      .axis { stroke: #78716c; stroke-width: 1.3; }
+      .arrow { stroke: #1f514c; stroke-width: 2; fill: none; marker-end: url(#arr-t); }
+      .arrow-s { stroke: #2c4257; stroke-width: 2; fill: none; marker-end: url(#arr-s); }
+      .arrow-w { stroke: #b45309; stroke-width: 2; fill: none; marker-end: url(#arr-w); }
+    </style>
+    <marker id="arr-t" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 8 5 L 0 9 z" fill="#1f514c" />
+    </marker>
+    <marker id="arr-s" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 8 5 L 0 9 z" fill="#2c4257" />
+    </marker>
+    <marker id="arr-w" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 8 5 L 0 9 z" fill="#b45309" />
+    </marker>
+  </defs>
+  <rect class="bg" width="880" height="480" />
+
+  <text x="32" y="34" class="t-sub">QUANTUM CHAOS &amp; NUMBER THEORY · MONTGOMERY-DYSON BRIDGE (1972)</text>
+  <text x="32" y="60" class="t-title">순수 수학의 리만 영점과 양자계 에너지 준위는 어떻게 하나의 법칙으로 만났나</text>
+
+  <!-- Left: Number Theory Side -->
+  <rect x="28" y="82" width="276" height="348" rx="12" class="panel" />
+  <text x="46" y="108" class="t-m">A. 순수 수학 · 소수와 제타 영점</text>
+  <text x="46" y="128" class="t-h">임계선 Re(s) = 1/2 위의 영점</text>
+  <text x="46" y="146" class="t-b">소수 진동의 진동수를 결정하는 순수 수론</text>
+
+  <line x1="88" y1="165" x2="88" y2="375" class="axis" />
+  <line x1="64" y1="365" x2="275" y2="365" class="axis" />
+  <line x1="155" y1="165" x2="155" y2="372" stroke="#1f514c" stroke-width="2" />
+  <text x="128" y="390" class="t-m">Re(s)=1/2</text>
+  <text x="54" y="176" class="t-s">Im(s)</text>
+  <circle cx="155" cy="342.6" r="4.5" fill="#1f514c" /><line x1="155" y1="342.6" x2="215" y2="342.6" stroke="#1f514c" stroke-width="1" stroke-dasharray="2 3" /><text x="220" y="346.1" class="t-m">t = 14.13</text><circle cx="155" cy="305.2" r="4.5" fill="#1f514c" /><line x1="155" y1="305.2" x2="215" y2="305.2" stroke="#1f514c" stroke-width="1" stroke-dasharray="2 3" /><text x="220" y="308.7" class="t-m">t = 21.02</text><circle cx="155" cy="283.5" r="4.5" fill="#1f514c" /><line x1="155" y1="283.5" x2="215" y2="283.5" stroke="#1f514c" stroke-width="1" stroke-dasharray="2 3" /><text x="220" y="287.0" class="t-m">t = 25.01</text><circle cx="155" cy="254.1" r="4.5" fill="#1f514c" /><line x1="155" y1="254.1" x2="215" y2="254.1" stroke="#1f514c" stroke-width="1" stroke-dasharray="2 3" /><text x="220" y="257.6" class="t-m">t = 30.42</text><circle cx="155" cy="240.5" r="4.5" fill="#1f514c" /><line x1="155" y1="240.5" x2="215" y2="240.5" stroke="#1f514c" stroke-width="1" stroke-dasharray="2 3" /><text x="220" y="244.0" class="t-m">t = 32.94</text><circle cx="155" cy="215.2" r="4.5" fill="#1f514c" /><line x1="155" y1="215.2" x2="215" y2="215.2" stroke="#1f514c" stroke-width="1" stroke-dasharray="2 3" /><text x="220" y="218.7" class="t-m">t = 37.59</text><circle cx="155" cy="197.1" r="4.5" fill="#1f514c" /><line x1="155" y1="197.1" x2="215" y2="197.1" stroke="#1f514c" stroke-width="1" stroke-dasharray="2 3" /><text x="220" y="200.6" class="t-m">t = 40.92</text>
+  <text x="46" y="414" class="t-s">Platt-Trudgian(2021): 처음 12조 개 영점 확인</text>
+
+  <!-- Center: Bridge -->
+  <rect x="322" y="114" width="236" height="284" rx="12" class="panel-warn" />
+  <text x="340" y="142" class="t-w">B. 1972 프린스턴 티타임의 연결</text>
+  <text x="340" y="166" class="t-h">몽고메리-다이슨 쌍상관 공식</text>
+
+  <rect x="340" y="184" width="200" height="58" rx="8" fill="#ffffff" stroke="#d99b52" />
+  <text x="352" y="206" class="t-w">1 - (sin(pi*u) / (pi*u))^2</text>
+  <text x="352" y="226" class="t-b">가까운 간격(u→0)일수록 서로 밀어냄</text>
+
+  <rect x="340" y="256" width="200" height="62" rx="8" fill="#ffffff" stroke="#d8d4ca" />
+  <text x="352" y="276" class="t-h">수준 반발 (Level Repulsion)</text>
+  <text x="352" y="294" class="t-b">동전 던지기(푸아송)처럼 겹치지 않고</text>
+  <text x="352" y="310" class="t-b">고유값끼리 거리를 두는 보편 통계</text>
+
+  <text x="340" y="344" class="t-b">• 리만 영점: GUE 통계와 일치</text>
+  <text x="340" y="362" class="t-b">• 시간역전 대칭 원자핵: GOE 통계</text>
+  <text x="340" y="380" class="t-b">• 힐베르트-폴리아 추측: 에르미트 연산자?</text>
+
+  <path d="M 304 256 L 320 256" class="arrow" />
+  <path d="M 574 256 L 560 256" class="arrow-s" />
+
+  <!-- Right: Quantum Physics Side -->
+  <rect x="576" y="82" width="276" height="348" rx="12" class="panel-slate" />
+  <text x="594" y="108" class="t-slate">C. 양자물리 · 원자핵과 양자혼돈</text>
+  <text x="594" y="128" class="t-h">무작위 행렬(RMT) 고유값 스펙트럼</text>
+  <text x="594" y="146" class="t-b">에르븀·우라늄 등 무거운 원자핵 공명 준위</text>
+
+  <rect x="618" y="164" width="192" height="206" rx="8" fill="#ffffff" stroke="#b6c4d1" />
+  <text x="630" y="370" class="t-s">E_n</text>
+  <line x1="650" y1="355" x2="770" y2="355" stroke="#2c4257" stroke-width="2.4" /><line x1="650" y1="332" x2="770" y2="332" stroke="#2c4257" stroke-width="2.4" /><line x1="650" y1="305" x2="770" y2="305" stroke="#2c4257" stroke-width="2.4" /><line x1="650" y1="281" x2="770" y2="281" stroke="#2c4257" stroke-width="2.4" /><line x1="650" y1="252" x2="770" y2="252" stroke="#2c4257" stroke-width="2.4" /><line x1="650" y1="224" x2="770" y2="224" stroke="#2c4257" stroke-width="2.4" /><line x1="650" y1="200" x2="770" y2="200" stroke="#2c4257" stroke-width="2.4" /><line x1="650" y1="178" x2="770" y2="178" stroke="#2c4257" stroke-width="2.4" />
+  <text x="630" y="190" class="t-slate">ΔE_n</text>
+  <path d="M 636 224 L 636 252" stroke="#b45309" stroke-width="1.6" />
+  <text x="594" y="394" class="t-b">Haq-Pandey-Bohigas(1982): 1,726개 핵 공명</text>
+  <text x="594" y="414" class="t-b">Berry-Keating(1999): H = xp 양자혼돈 모델</text>
+
+  <text x="32" y="458" class="t-sub">도표는 Montgomery(1973), Dyson(1962), Haq-Pandey-Bohigas(1982), Odlyzko(2001)의 수학적 정의를 바탕으로 직접 작도했다.</text>
+
+</svg>

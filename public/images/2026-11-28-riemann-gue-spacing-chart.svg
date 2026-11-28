@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 480" width="880" height="480" role="img">
+  <defs>
+    <style>
+      .bg { fill: #f8f7f4; }
+      .panel { fill: #ffffff; stroke: #d8d4ca; stroke-width: 1.5; }
+      .panel-teal { fill: #ebf2f0; stroke: #1f514c; stroke-width: 1.5; }
+      .panel-slate { fill: #eef2f6; stroke: #2c4257; stroke-width: 1.5; }
+      .panel-warn { fill: #fdf6ee; stroke: #d99b52; stroke-width: 1.5; }
+      .t-title { font-family: 'Pretendard Variable', 'IBM Plex Sans KR', sans-serif; font-size: 18px; font-weight: 700; fill: #171717; }
+      .t-sub { font-family: 'IBM Plex Mono', monospace; font-size: 11px; fill: #57534e; letter-spacing: 1.0px; }
+      .t-h { font-family: 'Pretendard Variable', 'IBM Plex Sans KR', sans-serif; font-size: 14px; font-weight: 700; fill: #171717; }
+      .t-b { font-family: 'Pretendard Variable', 'IBM Plex Sans KR', sans-serif; font-size: 12px; fill: #44403c; }
+      .t-s { font-family: 'Pretendard Variable', 'IBM Plex Sans KR', sans-serif; font-size: 11px; fill: #57534e; }
+      .t-m { font-family: 'IBM Plex Mono', monospace; font-size: 11px; fill: #1f514c; font-weight: 700; }
+      .t-w { font-family: 'IBM Plex Mono', monospace; font-size: 11px; fill: #b45309; font-weight: 700; }
+      .t-slate { font-family: 'IBM Plex Mono', monospace; font-size: 11px; fill: #2c4257; font-weight: 700; }
+      .grid { stroke: #ebe7de; stroke-width: 1; }
+      .axis { stroke: #78716c; stroke-width: 1.3; }
+      .arrow { stroke: #1f514c; stroke-width: 2; fill: none; marker-end: url(#arr-t); }
+      .arrow-s { stroke: #2c4257; stroke-width: 2; fill: none; marker-end: url(#arr-s); }
+      .arrow-w { stroke: #b45309; stroke-width: 2; fill: none; marker-end: url(#arr-w); }
+    </style>
+    <marker id="arr-t" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 8 5 L 0 9 z" fill="#1f514c" />
+    </marker>
+    <marker id="arr-s" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 8 5 L 0 9 z" fill="#2c4257" />
+    </marker>
+    <marker id="arr-w" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 8 5 L 0 9 z" fill="#b45309" />
+    </marker>
+  </defs>
+  <rect class="bg" width="880" height="480" />
+
+  <text x="32" y="34" class="t-sub">NEAREST-NEIGHBOR SPACING DISTRIBUTION · POISSON vs GOE vs GUE (RIEMANN ZEROS)</text>
+  <text x="32" y="60" class="t-title">무작위(푸아송)와 극명히 갈리는 제타 영점·양자 혼돈의 간격 분포 P(s)</text>
+
+  <!-- Left Chart -->
+  <rect x="28" y="82" width="496" height="348" rx="12" class="panel" />
+  <text x="48" y="108" class="t-h">A. 정규화 간격 s에 따른 밀도 함수 P(s)</text>
+  <line x1="76.0" y1="132" x2="76.0" y2="368" class="grid" /><text x="76.0" y="386" text-anchor="middle" class="t-sub">0.0</text><line x1="146.0" y1="132" x2="146.0" y2="368" class="grid" /><text x="146.0" y="386" text-anchor="middle" class="t-sub">0.5</text><line x1="216.0" y1="132" x2="216.0" y2="368" class="grid" /><text x="216.0" y="386" text-anchor="middle" class="t-sub">1.0</text><line x1="286.0" y1="132" x2="286.0" y2="368" class="grid" /><text x="286.0" y="386" text-anchor="middle" class="t-sub">1.5</text><line x1="356.0" y1="132" x2="356.0" y2="368" class="grid" /><text x="356.0" y="386" text-anchor="middle" class="t-sub">2.0</text><line x1="426.0" y1="132" x2="426.0" y2="368" class="grid" /><text x="426.0" y="386" text-anchor="middle" class="t-sub">2.5</text><line x1="496.0" y1="132" x2="496.0" y2="368" class="grid" /><text x="496.0" y="386" text-anchor="middle" class="t-sub">3.0</text><line x1="76" y1="368.0" x2="496" y2="368.0" class="grid" /><text x="68" y="372.0" text-anchor="end" class="t-sub">0.00</text><line x1="76" y1="311.8" x2="496" y2="311.8" class="grid" /><text x="68" y="315.8" text-anchor="end" class="t-sub">0.25</text><line x1="76" y1="255.6" x2="496" y2="255.6" class="grid" /><text x="68" y="259.6" text-anchor="end" class="t-sub">0.50</text><line x1="76" y1="199.4" x2="496" y2="199.4" class="grid" /><text x="68" y="203.4" text-anchor="end" class="t-sub">0.75</text><line x1="76" y1="143.2" x2="496" y2="143.2" class="grid" /><text x="68" y="147.2" text-anchor="end" class="t-sub">1.00</text>
+  <line x1="76" y1="368" x2="496" y2="368" class="axis" />
+  <line x1="76" y1="132" x2="76" y2="368" class="axis" />
+  <text x="286" y="406" text-anchor="middle" class="t-s">평균 간격으로 나눈 상대 간격 s</text>
+
+  <!-- Curves -->
+  <path d="M76.0 143.2 L79.5 148.8 L83.0 154.2 L86.5 159.5 L90.0 164.6 L93.5 169.6 L97.0 174.5 L100.5 179.3 L104.0 184.0 L107.5 188.5 L111.0 193.0 L114.5 197.3 L118.0 201.5 L121.5 205.6 L125.0 209.6 L128.5 213.5 L132.0 217.3 L135.5 221.1 L139.0 224.7 L142.5 228.2 L146.0 231.7 L149.5 235.0 L153.0 238.3 L156.5 241.5 L160.0 244.6 L163.5 247.7 L167.0 250.7 L170.5 253.6 L174.0 256.4 L177.5 259.1 L181.0 261.8 L184.5 264.5 L188.0 267.0 L191.5 269.5 L195.0 271.9 L198.5 274.3 L202.0 276.6 L205.5 278.9 L209.0 281.1 L212.5 283.2 L216.0 285.3 L219.5 287.4 L223.0 289.3 L226.5 291.3 L230.0 293.2 L233.5 295.0 L237.0 296.8 L240.5 298.6 L244.0 300.3 L247.5 302.0 L251.0 303.6 L254.5 305.2 L258.0 306.7 L261.5 308.3 L265.0 309.7 L268.5 311.2 L272.0 312.6 L275.5 313.9 L279.0 315.3 L282.5 316.6 L286.0 317.8 L289.5 319.1 L293.0 320.3 L296.5 321.5 L300.0 322.6 L303.5 323.7 L307.0 324.8 L310.5 325.9 L314.0 326.9 L317.5 328.0 L321.0 328.9 L324.5 329.9 L328.0 330.8 L331.5 331.8 L335.0 332.7 L338.5 333.5 L342.0 334.4 L345.5 335.2 L349.0 336.0 L352.5 336.8 L356.0 337.6 L359.5 338.3 L363.0 339.1 L366.5 339.8 L370.0 340.5 L373.5 341.2 L377.0 341.8 L380.5 342.5 L384.0 343.1 L387.5 343.7 L391.0 344.3 L394.5 344.9 L398.0 345.5 L401.5 346.0 L405.0 346.6 L408.5 347.1 L412.0 347.6 L415.5 348.1 L419.0 348.6 L422.5 349.1 L426.0 349.6 L429.5 350.0 L433.0 350.5 L436.5 350.9 L440.0 351.3 L443.5 351.7 L447.0 352.1 L450.5 352.5 L454.0 352.9 L457.5 353.3 L461.0 353.6 L464.5 354.0 L468.0 354.3 L471.5 354.7 L475.0 355.0 L478.5 355.3 L482.0 355.6 L485.5 355.9 L489.0 356.2 L492.5 356.5 L496.0 356.8" fill="none" stroke="#78716c" stroke-width="2.2" stroke-dasharray="5 4" />
+  <path d="M76.0 368.0 L79.5 359.2 L83.0 350.4 L86.5 341.6 L90.0 333.0 L93.5 324.4 L97.0 316.0 L100.5 307.7 L104.0 299.6 L107.5 291.7 L111.0 284.0 L114.5 276.5 L118.0 269.3 L121.5 262.4 L125.0 255.8 L128.5 249.4 L132.0 243.5 L135.5 237.8 L139.0 232.5 L142.5 227.5 L146.0 222.9 L149.5 218.7 L153.0 214.9 L156.5 211.4 L160.0 208.3 L163.5 205.6 L167.0 203.3 L170.5 201.4 L174.0 199.8 L177.5 198.6 L181.0 197.8 L184.5 197.3 L188.0 197.1 L191.5 197.3 L195.0 197.9 L198.5 198.7 L202.0 199.8 L205.5 201.2 L209.0 202.9 L212.5 204.8 L216.0 207.0 L219.5 209.4 L223.0 212.1 L226.5 214.9 L230.0 217.9 L233.5 221.0 L237.0 224.3 L240.5 227.7 L244.0 231.3 L247.5 234.9 L251.0 238.6 L254.5 242.4 L258.0 246.3 L261.5 250.2 L265.0 254.1 L268.5 258.0 L272.0 262.0 L275.5 265.9 L279.0 269.8 L282.5 273.7 L286.0 277.5 L289.5 281.3 L293.0 285.1 L296.5 288.8 L300.0 292.4 L303.5 295.9 L307.0 299.3 L310.5 302.7 L314.0 306.0 L317.5 309.2 L321.0 312.2 L324.5 315.2 L328.0 318.1 L331.5 320.9 L335.0 323.6 L338.5 326.2 L342.0 328.6 L345.5 331.0 L349.0 333.3 L352.5 335.4 L356.0 337.5 L359.5 339.5 L363.0 341.3 L366.5 343.1 L370.0 344.8 L373.5 346.4 L377.0 347.9 L380.5 349.3 L384.0 350.6 L387.5 351.9 L391.0 353.1 L394.5 354.2 L398.0 355.3 L401.5 356.2 L405.0 357.2 L408.5 358.0 L412.0 358.8 L415.5 359.6 L419.0 360.2 L422.5 360.9 L426.0 361.5 L429.5 362.0 L433.0 362.5 L436.5 363.0 L440.0 363.5 L443.5 363.9 L447.0 364.2 L450.5 364.6 L454.0 364.9 L457.5 365.2 L461.0 365.4 L464.5 365.7 L468.0 365.9 L471.5 366.1 L475.0 366.3 L478.5 366.5 L482.0 366.6 L485.5 366.8 L489.0 366.9 L492.5 367.0 L496.0 367.1" fill="none" stroke="#2c4257" stroke-width="2.4" stroke-dasharray="8 4" />
+  <path d="M76.0 368.0 L79.5 367.5 L83.0 366.2 L86.5 363.9 L90.0 360.8 L93.5 356.8 L97.0 352.1 L100.5 346.5 L104.0 340.3 L107.5 333.4 L111.0 325.9 L114.5 317.9 L118.0 309.5 L121.5 300.7 L125.0 291.6 L128.5 282.3 L132.0 272.9 L135.5 263.4 L139.0 254.0 L142.5 244.6 L146.0 235.5 L149.5 226.6 L153.0 218.0 L156.5 209.8 L160.0 202.1 L163.5 194.9 L167.0 188.2 L170.5 182.1 L174.0 176.7 L177.5 171.8 L181.0 167.7 L184.5 164.3 L188.0 161.5 L191.5 159.5 L195.0 158.2 L198.5 157.5 L202.0 157.5 L205.5 158.2 L209.0 159.6 L212.5 161.5 L216.0 164.0 L219.5 167.1 L223.0 170.6 L226.5 174.6 L230.0 179.1 L233.5 183.9 L237.0 189.1 L240.5 194.5 L244.0 200.2 L247.5 206.2 L251.0 212.3 L254.5 218.5 L258.0 224.8 L261.5 231.2 L265.0 237.5 L268.5 243.9 L272.0 250.2 L275.5 256.5 L279.0 262.6 L282.5 268.7 L286.0 274.5 L289.5 280.3 L293.0 285.8 L296.5 291.2 L300.0 296.3 L303.5 301.3 L307.0 306.0 L310.5 310.6 L314.0 314.9 L317.5 318.9 L321.0 322.8 L324.5 326.4 L328.0 329.8 L331.5 333.1 L335.0 336.1 L338.5 338.9 L342.0 341.5 L345.5 343.9 L349.0 346.1 L352.5 348.2 L356.0 350.1 L359.5 351.9 L363.0 353.5 L366.5 354.9 L370.0 356.3 L373.5 357.5 L377.0 358.6 L380.5 359.7 L384.0 360.6 L387.5 361.4 L391.0 362.1 L394.5 362.8 L398.0 363.4 L401.5 364.0 L405.0 364.4 L408.5 364.9 L412.0 365.3 L415.5 365.6 L419.0 365.9 L422.5 366.2 L426.0 366.4 L429.5 366.6 L433.0 366.8 L436.5 367.0 L440.0 367.1 L443.5 367.2 L447.0 367.3 L450.5 367.4 L454.0 367.5 L457.5 367.6 L461.0 367.6 L464.5 367.7 L468.0 367.7 L471.5 367.8 L475.0 367.8 L478.5 367.8 L482.0 367.9 L485.5 367.9 L489.0 367.9 L492.5 367.9 L496.0 367.9" fill="none" stroke="#1f514c" stroke-width="3.0" />
+
+  <!-- Annotations -->
+  <circle cx="76.0" cy="143.2" r="4.5" fill="#78716c" />
+  <text x="90.0" y="145.5" class="t-s">푸아송(무작위): s→0에서 뭉침</text>
+  <text x="246.8" y="150.0" text-anchor="middle" class="t-m">GUE (리만 영점): ~ s^2 반발</text>
+  <text x="199.2" y="273.6" class="t-slate">GOE (원자핵): ~ s 반발</text>
+
+  <!-- Legend -->
+  <rect x="315" y="142" width="192" height="72" rx="8" fill="#f8f7f4" stroke="#d8d4ca" />
+  <line x1="328" y1="160" x2="354" y2="160" stroke="#1f514c" stroke-width="3" />
+  <text x="362" y="164" class="t-b">GUE (리만 영점 일치)</text>
+  <line x1="328" y1="181" x2="354" y2="181" stroke="#2c4257" stroke-width="2.4" stroke-dasharray="8 4" />
+  <text x="362" y="185" class="t-b">GOE (원자핵 공명준위)</text>
+  <line x1="328" y1="202" x2="354" y2="202" stroke="#78716c" stroke-width="2.2" stroke-dasharray="5 4" />
+  <text x="362" y="206" class="t-b">Poisson (완전 독립)</text>
+
+  <!-- Right Panel: Milestones -->
+  <rect x="540" y="82" width="312" height="348" rx="12" class="panel-teal" />
+  <text x="560" y="108" class="t-m">B. 수치 검증 및 이론 이정표</text>
+  <text x="560" y="128" class="t-h">1972~2024년 핵심 돌파 기록</text>
+
+  <line x1="572" y1="150" x2="572" y2="395" stroke="#1f514c" stroke-width="2" />
+
+  <circle cx="572" cy="162" r="5" fill="#1f514c" />
+  <text x="586" y="166" class="t-m">1972–73 · Montgomery &amp; Dyson</text>
+  <text x="586" y="183" class="t-b">쌍상관 공식 = GUE 고유값 통계 발견</text>
+
+  <circle cx="572" cy="214" r="5" fill="#2c4257" />
+  <text x="586" y="218" class="t-slate">1982–84 · NDE &amp; BGS 추측</text>
+  <text x="586" y="235" class="t-b">1,726개 핵 공명(GOE) &amp; 양자혼돈 보편성</text>
+
+  <circle cx="572" cy="266" r="5" fill="#1f514c" />
+  <text x="586" y="270" class="t-m">1987–2001 · Andrew Odlyzko</text>
+  <text x="586" y="287" class="t-b">10^20 및 10^22번째 영역 영점 GUE 검증</text>
+
+  <circle cx="572" cy="318" r="5" fill="#1f514c" />
+  <text x="586" y="322" class="t-m">2021 · Platt &amp; Trudgian</text>
+  <text x="586" y="339" class="t-b">높이 t = 3x10^12 (약 12조 개) 전수 확인</text>
+
+  <circle cx="572" cy="370" r="5" fill="#b45309" />
+  <text x="586" y="374" class="t-w">2024 · Guth &amp; Maynard</text>
+  <text x="586" y="391" class="t-b">84년 만에 잉엄(1940) 영점 밀도 한계 돌파</text>
+
+  <text x="32" y="458" class="t-sub">도표는 Wigner(1955), Dyson(1962), Platt-Trudgian(2021), Guth-Maynard(2024, arXiv:2405.20552)를 바탕으로 직접 작도했다.</text>
+
+</svg>
