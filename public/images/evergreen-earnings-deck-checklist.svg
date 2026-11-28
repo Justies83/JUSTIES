@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 460" width="880" height="460">
+  <defs>
+    <style>
+      .bg { fill: #f8f7f4; }
+      .panel { fill: #ffffff; stroke: #d8d4ca; stroke-width: 1.5; }
+      .panel-teal { fill: #ebf2f0; stroke: #1f514c; stroke-width: 1.5; }
+      .t-title { font-family: 'Pretendard Variable', 'IBM Plex Sans KR', sans-serif; font-size: 18px; font-weight: 700; fill: #171717; }
+      .t-sub { font-family: 'IBM Plex Mono', monospace; font-size: 11px; fill: #57534e; letter-spacing: 1.1px; }
+      .t-h { font-family: 'Pretendard Variable', 'IBM Plex Sans KR', sans-serif; font-size: 14px; font-weight: 700; fill: #171717; }
+      .t-b { font-family: 'Pretendard Variable', 'IBM Plex Sans KR', sans-serif; font-size: 12px; fill: #44403c; }
+      .t-m { font-family: 'IBM Plex Mono', monospace; font-size: 11px; fill: #1f514c; font-weight: 700; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="880" height="460" />
+  <text x="32" y="34" class="t-sub">RESEARCHER'S IR READING PROTOCOL · 5 CHECKS + 3-LINE SEPARATION RULE</text>
+  <text x="32" y="60" class="t-title">실적 발표 자료를 열 때 헤드라인보다 먼저 확인하는 다섯 가지 순서</text>
+
+  <rect x="28" y="84" width="260" height="148" rx="12" class="panel" />
+  <text x="46" y="110" class="t-m">01 · 기준 변경 확인</text>
+  <text x="46" y="132" class="t-h">비교의 자가 흔들렸는가</text>
+  <text x="46" y="156" class="t-b">• 회계 기준·사업 부문 재편 여부</text>
+  <text x="46" y="176" class="t-b">• 전년 동기 vs 전분기 기준 시점</text>
+  <text x="46" y="196" class="t-b">• 각주(Supplementary) 먼저 읽기</text>
+
+  <rect x="310" y="84" width="260" height="148" rx="12" class="panel" />
+  <text x="328" y="110" class="t-m">02 · 현금흐름 대조</text>
+  <text x="328" y="132" class="t-h">장부 이익과 통장의 일치</text>
+  <text x="328" y="156" class="t-b">• 영업이익 vs 영업활동 현금흐름</text>
+  <text x="328" y="176" class="t-b">• 매출채권·재고자산 묶임 여부</text>
+  <text x="328" y="196" class="t-b">• 운전자본 압력 조기 포착</text>
+
+  <rect x="592" y="84" width="260" height="148" rx="12" class="panel" />
+  <text x="610" y="110" class="t-m">03 · 일회성 항목 분리</text>
+  <text x="610" y="132" class="t-h">본업 추세만 발라내기</text>
+  <text x="610" y="156" class="t-b">• 자산 매각·환입·손상차손 제거</text>
+  <text x="610" y="176" class="t-b">• 일회성 소송·보조금 제외 후</text>
+  <text x="610" y="196" class="t-b">  기저 마진 추세 재계산</text>
+
+  <rect x="28" y="250" width="400" height="162" rx="12" class="panel" />
+  <text x="48" y="278" class="t-m">04 · 말의 변화 &amp; 05 · Q&amp;A 회피 질문</text>
+  <text x="48" y="302" class="t-h">숫자 바깥에서 먼저 새는 신호</text>
+  <text x="48" y="328" class="t-b">• 지난 분기 대비 가이던스 표현 수위·강조 변수 변화 비교</text>
+  <text x="48" y="350" class="t-b">• 컨퍼런스콜 Q&amp;A에서 두 번 이상 물렸지만 원론으로 넘긴 질문</text>
+  <text x="48" y="372" class="t-b">• 회사 내부에서도 결론 못 내린 리스크가 바로 그 질문 주변에 존재</text>
+
+  <rect x="446" y="250" width="406" height="162" rx="12" class="panel-teal" />
+  <text x="466" y="278" class="t-m">FINAL LOGGING · 3줄 분리 기록 원칙</text>
+  <text x="466" y="302" class="t-h">사후 합리화를 막는 가장 값싼 안전장치</text>
+  <text x="466" y="328" class="t-b">1. 사실 (Fact): 공시·자료에서 직접 확인된 숫자만 분리 기록</text>
+  <text x="466" y="350" class="t-b">2. 해석 (Interpretation): 내가 숫자에 붙인 설명과 가설</text>
+  <text x="466" y="372" class="t-b">3. 미확인 (Open): 오늘 자료로 답이 안 돼 다음 분기에 검증할 질문</text>
+
+  <text x="32" y="440" class="t-sub">도표는 JUSTIES 필자의 실적 자료 검토 프로토콜 기준에 따라 직접 작성했다.</text>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 460" width="880" height="460">
+  <defs>
+    <style>
+      .bg { fill: #f8f7f4; }
+      .panel { fill: #ffffff; stroke: #d8d4ca; stroke-width: 1.5; }
+      .panel-teal { fill: #ebf2f0; stroke: #1f514c; stroke-width: 1.5; }
+      .t-title { font-family: 'Pretendard Variable', 'IBM Plex Sans KR', sans-serif; font-size: 18px; font-weight: 700; fill: #171717; }
+      .t-sub { font-family: 'IBM Plex Mono', monospace; font-size: 11px; fill: #57534e; letter-spacing: 1.1px; }
+      .t-h { font-family: 'Pretendard Variable', 'IBM Plex Sans KR', sans-serif; font-size: 14px; font-weight: 700; fill: #171717; }
+      .t-b { font-family: 'Pretendard Variable', 'IBM Plex Sans KR', sans-serif; font-size: 12px; fill: #44403c; }
+      .t-m { font-family: 'IBM Plex Mono', monospace; font-size: 11px; fill: #1f514c; font-weight: 700; }
+      .t-w { font-family: 'IBM Plex Mono', monospace; font-size: 11px; fill: #b45309; font-weight: 700; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="880" height="460" />
+  <text x="32" y="34" class="t-sub">PHILIPPE LAMBIN KEYNOTE ARCHITECTURE · KOREA UNIV. NEXT INTELLIGENCE SEMINAR (2026.08.31)</text>
+  <text x="32" y="60" class="t-title">정적 스냅샷에서 순차 갱신 타임랩스(무비)로 — 의료 디지털 트윈 4계층 구조</text>
+
+  <rect x="28" y="84" width="256" height="170" rx="12" class="panel" />
+  <text x="46" y="110" class="t-w">STATIC SNAPSHOT</text>
+  <text x="46" y="132" class="t-h">기존 일회성 생체 시뮬레이션</text>
+  <text x="46" y="158" class="t-b">• 특정 시점 파라미터로 한 번 고정</text>
+  <text x="46" y="178" class="t-b">• 새 임상 데이터 유입 시 갱신 불가</text>
+  <text x="46" y="198" class="t-b">• 단일 영상·벌크 오믹스의</text>
+  <text x="46" y="216" class="t-b">  공간 이질성 누락 한계</text>
+
+  <rect x="302" y="84" width="550" height="170" rx="12" class="panel-teal" />
+  <text x="322" y="110" class="t-m">DYNAMIC TIME-LAPSE DIGITAL TWIN (SEQUENTIAL INGESTION)</text>
+  <text x="322" y="132" class="t-h">멀티모달(Medomics) + 규범 모델링(Normative Modeling)</text>
+
+  <rect x="322" y="148" width="160" height="86" rx="8" fill="#ffffff" stroke="#9ec4bd" />
+  <text x="334" y="170" class="t-m">1. 숙주 베이스라인</text>
+  <text x="334" y="190" class="t-b">건강 시점 정상 궤적</text>
+  <text x="334" y="208" class="t-b">면역·유전체·일상 영상</text>
+
+  <rect x="496" y="148" width="168" height="86" rx="8" fill="#ffffff" stroke="#9ec4bd" />
+  <text x="508" y="170" class="t-m">2. 규범 잣대 + 측정</text>
+  <text x="508" y="190" class="t-b">대규모 익명 코호트 기준선</text>
+  <text x="508" y="208" class="t-b">vs 일상 스캔 Radiomics</text>
+
+  <rect x="678" y="148" width="156" height="86" rx="8" fill="#ffffff" stroke="#1f514c" stroke-width="1.5" />
+  <text x="690" y="170" class="t-m">3. 질환 특이 궤적</text>
+  <text x="690" y="190" class="t-b">공간전사체+멀티오믹스</text>
+  <text x="690" y="208" class="t-b">진행·치료반응 순차 갱신</text>
+
+  <rect x="28" y="274" width="824" height="138" rx="12" class="panel" />
+  <text x="48" y="302" class="t-w">HUMAN-IN-THE-LOOP GOVERNANCE</text>
+  <text x="48" y="326" class="t-h">의료 AI 탈숙련화(Deskilling) 방지 원칙 — 인지적 위임 vs 인지적 포기</text>
+  <text x="48" y="354" class="t-b">• 인지적 위임 (Cognitive Delegation): 반복 정량 계측·특징 추출은 파운데이션 모델에 위임</text>
+  <text x="48" y="376" class="t-b">• 인지적 포기 금지 (No Abdication): 최종 임상 판단 주권을 AI에 넘기지 않고 임상의 검증 체계 유지</text>
+  <text x="48" y="396" class="t-b">• 현실 인식: 병원 방문 시 띄엄띄엄 쌓이는 오믹스·영상 특성상 '완전 무비'보다 촘촘한 '타임랩스'에 가까움</text>
+
+  <text x="32" y="440" class="t-sub">도표는 Philippe Lambin 교수 키노트(고려대 의대 Next Intelligence Seminar, 2026.08.31) 정리로 직접 작성했다.</text>
+</svg>

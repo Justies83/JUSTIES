@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 460" width="880" height="460">
+  <defs>
+    <style>
+      .bg { fill: #f8f7f4; }
+      .panel { fill: #ffffff; stroke: #d8d4ca; stroke-width: 1.5; }
+      .panel-teal { fill: #ebf2f0; stroke: #1f514c; stroke-width: 1.5; }
+      .t-title { font-family: 'Pretendard Variable', 'IBM Plex Sans KR', sans-serif; font-size: 18px; font-weight: 700; fill: #171717; }
+      .t-sub { font-family: 'IBM Plex Mono', monospace; font-size: 11px; fill: #57534e; letter-spacing: 1.1px; }
+      .t-h { font-family: 'Pretendard Variable', 'IBM Plex Sans KR', sans-serif; font-size: 14px; font-weight: 700; fill: #171717; }
+      .t-b { font-family: 'Pretendard Variable', 'IBM Plex Sans KR', sans-serif; font-size: 12px; fill: #44403c; }
+      .t-m { font-family: 'IBM Plex Mono', monospace; font-size: 11px; fill: #1f514c; font-weight: 700; }
+      .t-w { font-family: 'IBM Plex Mono', monospace; font-size: 11px; fill: #b45309; font-weight: 700; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="880" height="460" />
+  <text x="32" y="34" class="t-sub">GLOBAL SUPPLY CHAIN FILTER · TIME LAG, DETOUR PATHS, SOURCE INTEGRITY</text>
+  <text x="32" y="60" class="t-title">강한 동사 너머를 읽는 공급망 뉴스 세 가지 검증 기준</text>
+
+  <rect x="28" y="88" width="260" height="222" rx="12" class="panel" />
+  <text x="48" y="118" class="t-m">CHECK 01 · 시차 (TIME LAG)</text>
+  <text x="48" y="142" class="t-h">발표 시점 vs 물리적 이동</text>
+  <text x="48" y="172" class="t-b">• 뉴스는 선언 당일을 비추지만</text>
+  <text x="48" y="192" class="t-b">  공장 이전은 부지·인허가·인증까지</text>
+  <text x="48" y="210" class="t-b">  연 단위로 굴러가는 물리 공정</text>
+  <text x="48" y="236" class="t-b">• 유예 기간·기존 재고 완충 존재</text>
+  <text x="48" y="262" class="t-b">• "언제 실제 선적에 반영되나"라는</text>
+  <text x="48" y="280" class="t-b">  시간표가 비면 의향서 수준</text>
+
+  <rect x="310" y="88" width="260" height="222" rx="12" class="panel-teal" />
+  <text x="330" y="118" class="t-m">CHECK 02 · 대체 경로</text>
+  <text x="330" y="142" class="t-h">차단 너머의 우회로 존재 여부</text>
+  <text x="330" y="172" class="t-b">• 직수출이 막혀도 중간 가공 거점을</text>
+  <text x="330" y="192" class="t-b">  통한 우회 물류가 이미 가동 중인지</text>
+  <text x="330" y="218" class="t-b">• 대체 조달선·완충 재고가 있는가,</text>
+  <text x="330" y="238" class="t-b">  대체 불가 단일 병목인가 구분</text>
+  <text x="330" y="264" class="t-b">• '공정 마비' vs '운임·납기 마찰'</text>
+  <text x="330" y="282" class="t-b">  파급력 등급 분리 기록</text>
+
+  <rect x="592" y="88" width="260" height="222" rx="12" class="panel" />
+  <text x="612" y="118" class="t-w">CHECK 03 · 숫자의 출처</text>
+  <text x="612" y="142" class="t-h">재인용 속 증발하는 단서 복원</text>
+  <text x="612" y="172" class="t-b">• 정부·국제기구 공식 통계인가</text>
+  <text x="612" y="192" class="t-b">  vs 업계 단체·이해관계자 추정치인가</text>
+  <text x="612" y="218" class="t-b">• 2·3차 기사로 옮겨지며 사라진</text>
+  <text x="612" y="238" class="t-b">  "업계 추산" 단서를 원문서 복원</text>
+  <text x="612" y="264" class="t-b">• 누가 어떤 목적으로 잰 숫자인가</text>
+  <text x="612" y="282" class="t-b">  확인해야 착시 차단</text>
+
+  <rect x="28" y="330" width="824" height="82" rx="12" class="panel" />
+  <text x="48" y="358" class="t-h">빈칸 기록 효과 — 다음 계절 같은 품목이 헤드라인에 다시 오를 때 검증 가능</text>
+  <text x="48" y="382" class="t-b">기사의 긴장감 대신 [시차 · 대체 경로 · 숫자 출처 + 미확인 빈칸]만 남겨 두면, 몇 달 뒤 무엇이 실현되고 무엇이 빈말이었는지 바로 대조된다.</text>
+
+  <text x="32" y="440" class="t-sub">도표는 JUSTIES 필자의 공급망 보도 검토 기준에 따라 직접 작성했다.</text>
+</svg>

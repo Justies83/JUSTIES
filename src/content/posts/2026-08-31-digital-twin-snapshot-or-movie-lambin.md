@@ -6,12 +6,18 @@ category: research
 kind: note
 takeaway: 의료 디지털 트윈은 정적 시뮬레이션이 아니라 순차 데이터로 계속 갱신되는 궤적 모델이어야 한다는 람빈 교수의 키노트를 정리했다.
 tags: [디지털트윈, 멀티오믹스, radiomics, 공간전사체학, Philippe Lambin, 정밀의료, normative modeling, 고려대의대세미나, medomics]
+cover: /images/2026-08-31-digital-twin-longitudinal.svg
+coverAlt: "정적 스냅샷 시뮬레이션과 순차 데이터를 받아들이는 타임랩스형 의료 디지털 트윈 4계층 구조도"
 source:
   name: 고려대 의과대학 Next Intelligence Seminar (2026.08.31)
   url: https://salab.korea.ac.kr/team
 ---
 
 요즘 의생명 연구 발표나 논문에서 '디지털 트윈'이라는 단어를 자주 마주치지만, 막상 들여다보면 기존 시뮬레이션이나 예측 모델에 이름만 바꿔 붙인 경우가 적지 않다. 그래서 8월 31일 고려대학교 의과대학 Next Intelligence Seminar에서 네덜란드 마스트리흐트 대학의 Philippe Lambin 교수가 "The Future of AI in Medicine: From Foundation Models to Digital Twins"를 주제로 키노트를 진행했을 때, `radiomics` 개념을 처음 정립한 연구자가 의료 디지털 트윈의 기술적 조건을 어떻게 정의하는지가 특히 궁금했다.
+
+<p align="center"><img src="/images/2026-08-31-digital-twin-longitudinal.svg" alt="의료 디지털 트윈 순차 갱신 구조와 탈숙련화 방지 원칙 도표" style="max-width:100%;height:auto;"/></p>
+
+<p align="center" class="caption">도표는 Philippe Lambin 교수 키노트 내용을 바탕으로 직접 작성했다.</p>
 
 ## 영상 단독을 넘어 멀티모달과 공간전사체학으로
 

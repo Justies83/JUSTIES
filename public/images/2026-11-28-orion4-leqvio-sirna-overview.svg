@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 460" width="880" height="460">
+  <defs>
+    <style>
+      .bg { fill: #f8f7f4; }
+      .panel { fill: #ffffff; stroke: #d8d4ca; stroke-width: 1.5; }
+      .panel-teal { fill: #ebf2f0; stroke: #1f514c; stroke-width: 1.5; }
+      .panel-warn { fill: #fdf6ee; stroke: #d99b52; stroke-width: 1.5; }
+      .t-title { font-family: 'Pretendard Variable', 'IBM Plex Sans KR', sans-serif; font-size: 18px; font-weight: 700; fill: #171717; }
+      .t-sub { font-family: 'IBM Plex Mono', monospace; font-size: 11px; fill: #57534e; letter-spacing: 1.1px; }
+      .t-h { font-family: 'Pretendard Variable', 'IBM Plex Sans KR', sans-serif; font-size: 14px; font-weight: 700; fill: #171717; }
+      .t-b { font-family: 'Pretendard Variable', 'IBM Plex Sans KR', sans-serif; font-size: 12px; fill: #44403c; }
+      .t-m { font-family: 'IBM Plex Mono', monospace; font-size: 11px; fill: #1f514c; font-weight: 700; }
+      .t-w { font-family: 'IBM Plex Mono', monospace; font-size: 11px; fill: #b45309; font-weight: 700; }
+      .arrow { stroke: #1f514c; stroke-width: 2; fill: none; marker-end: url(#arr-t); }
+    </style>
+    <marker id="arr-t" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 8 5 L 0 9 z" fill="#1f514c" />
+    </marker>
+  </defs>
+
+  <rect class="bg" width="880" height="460" />
+  <text x="32" y="34" class="t-sub">CLINICAL MILESTONE · ORION-4 PHASE III (NOVARTIS / OXFORD · NCT03705234)</text>
+  <text x="32" y="60" class="t-title">최초로 심혈관 사건 감소를 입증한 siRNA 임상 — ORION-4 구조와 확인·미공개 범위</text>
+
+  <!-- Left Card: Mechanism & Design -->
+  <rect x="28" y="82" width="420" height="332" rx="12" class="panel" />
+  <text x="48" y="110" class="t-h">A. 시험 설계 및 siRNA 작동 기전</text>
+  <text x="48" y="128" class="t-b">연 2회 피하주사 레크비오(inclisiran)의 최종 심혈관 사건 검증</text>
+
+  <rect x="48" y="146" width="380" height="72" rx="8" fill="#f8f7f4" stroke="#d8d4ca" />
+  <text x="62" y="168" class="t-m">모집 규모 및 공동 수행</text>
+  <text x="62" y="186" class="t-b">• 대상: 기존 동맥경화성 심혈관질환(ASCVD) 환자 &gt;16,000명 (영국·미국)</text>
+  <text x="62" y="204" class="t-b">• 설계: 무작위·이중눈가림·위약 대조 (기존 표준 지질강하 치료에 병용)</text>
+
+  <path d="M 238 222 L 238 242" class="arrow" />
+
+  <rect x="48" y="246" width="380" height="72" rx="8" fill="#ebf2f0" stroke="#9ec4bd" />
+  <text x="62" y="268" class="t-m">분자 기전 (GalNAc-siRNA → PCSK9 mRNA 절단)</text>
+  <text x="62" y="286" class="t-b">• 간세포 특이적 PCSK9 번역 억제 → LDL 수용체 재활용 증가 → LDL-C 하강</text>
+  <text x="62" y="304" class="t-b">• 연 2회 투여라는 siRNA 지속성이 실제 3P/4P MACE 감소로 이어지는지 시험</text>
+
+  <path d="M 238 322 L 238 342" class="arrow" />
+
+  <rect x="48" y="346" width="380" height="52" rx="8" fill="#ffffff" stroke="#1f514c" stroke-width="1.6" />
+  <text x="62" y="368" class="t-m">2026.11.23 탑라인 결과</text>
+  <text x="62" y="386" class="t-b">주요 심혈관 사건(MACE) 통계적·임상적 유의 감소(1차 평가변수 충족)</text>
+
+  <!-- Right Top Card: Why It Matters -->
+  <rect x="466" y="82" width="386" height="162" rx="12" class="panel-teal" />
+  <text x="486" y="108" class="t-m">B. RNA 치료제 관점의 의의</text>
+  <text x="486" y="132" class="t-h">대리 지표(LDL-C)를 넘어 '사건 감소' 첫 증명</text>
+  <text x="486" y="156" class="t-b">1. 지금까지 승인된 siRNA 약물은 희귀질환·생화학적 대리 지표 중심</text>
+  <text x="486" y="176" class="t-b">2. 16,000명 이상 대규모 심혈관 아웃컴(CVOT) 임상을 끝까지 마쳐</text>
+  <text x="486" y="194" class="t-b">   실제 심근경색·뇌졸중·사망 위험 감소를 입증한 첫 siRNA 사례</text>
+  <text x="486" y="214" class="t-b">3. 이상반응 양상은 기존 레크비오 안전성 프로파일과 일치(내약성 양호)</text>
+
+  <!-- Right Bottom Card: Remaining Unknowns -->
+  <rect x="466" y="260" width="386" height="154" rx="12" class="panel-warn" />
+  <text x="486" y="286" class="t-w">C. 아직 공개되지 않은 수치 (2027년 상반기 대기)</text>
+  <text x="486" y="310" class="t-h">세부 위험비(HR) · 절대 위험 감소폭 비공개</text>
+  <text x="486" y="334" class="t-b">• 11월 23일 발표는 탑라인 1차 충족 선언으로, 정확한 위험비(HR)와</text>
+  <text x="486" y="352" class="t-b">  연 2회 투여의 상대 이점 크기(vs 단클론항체)는 아직 숫자가 없음</text>
+  <text x="486" y="372" class="t-b">• 전체 데이터셋 논문·학회 발표: 2027년 상반기 예정</text>
+  <text x="486" y="392" class="t-b">• 진행 중인 1차 예방 임상 VICTORION-2 PREVENT 결과와 합산해 허가 변경 추진</text>
+
+  <text x="32" y="440" class="t-sub">도표는 노바티스·옥스퍼드대 ORION-4(NCT03705234) 2026년 11월 23일 공개 자료를 바탕으로 직접 작성했다.</text>
+</svg>

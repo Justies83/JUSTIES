@@ -6,9 +6,15 @@ category: research
 kind: note
 takeaway: 유전자 이름만 넣으면 5' G 추가와 BbsI 사이트 충돌까지 자동으로 걸러 TKOv3 기반 PX459 올리고 서열을 뽑아주는 도구를 만들었다.
 tags: [CRISPR, TKOv3, PX459, 올리고, 실험도구]
+cover: /images/2026-08-31-tkov3-px459-oligo-flow.svg
+coverAlt: "TKOv3 라이브러리 가이드 추출, U6 프로모터 5' G 판별, BbsI 클로닝 충돌 검사를 수행하는 올리고 설계기 흐름도"
 ---
 
 CRISPR 녹아웃 실험을 시작할 때 매번 같은 일을 한다. 표적 유전자를 정하고, 라이브러리에서 가이드 서열을 찾고, 그 20 nt를 벡터에 넣을 수 있는 올리고 한 쌍으로 바꿔서 주문한다. 계산 자체는 어렵지 않다. 그런데 이 단순한 변환에서 실수가 반복됐고, 실수의 대가는 대개 2주 뒤에 "콜로니가 자라긴 했는데 시퀀싱이 이상하다"로 돌아온다.
+
+<p align="center"><img src="/images/2026-08-31-tkov3-px459-oligo-flow.svg" alt="TKOv3 가이드에서 PX459 올리고까지 자동 검증 흐름도" style="max-width:100%;height:auto;"/></p>
+
+<p align="center" class="caption">도표는 TKOv3·Ran et al. 프로토콜과 설계기 작동 구조를 바탕으로 작성했다.</p>
 
 그래서 이 과정을 도구로 옮겼다.
 
