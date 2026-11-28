@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 480" width="880" height="480" role="img">
+  <defs>
+    <style>
+      .bg { fill: #f8f7f4; }
+      .panel { fill: #ffffff; stroke: #d8d4ca; stroke-width: 1.5; }
+      .panel-teal { fill: #ebf2f0; stroke: #1f514c; stroke-width: 1.5; }
+      .panel-slate { fill: #eef2f6; stroke: #2c4257; stroke-width: 1.5; }
+      .panel-warn { fill: #fdf6ee; stroke: #d99b52; stroke-width: 1.5; }
+      .t-title { font-family: 'Pretendard Variable', 'IBM Plex Sans KR', sans-serif; font-size: 18px; font-weight: 700; fill: #171717; }
+      .t-sub { font-family: 'IBM Plex Mono', monospace; font-size: 11px; fill: #57534e; letter-spacing: 1.0px; }
+      .t-h { font-family: 'Pretendard Variable', 'IBM Plex Sans KR', sans-serif; font-size: 14px; font-weight: 700; fill: #171717; }
+      .t-b { font-family: 'Pretendard Variable', 'IBM Plex Sans KR', sans-serif; font-size: 12px; fill: #44403c; }
+      .t-s { font-family: 'Pretendard Variable', 'IBM Plex Sans KR', sans-serif; font-size: 11px; fill: #57534e; }
+      .t-m { font-family: 'IBM Plex Mono', monospace; font-size: 11px; fill: #1f514c; font-weight: 700; }
+      .t-w { font-family: 'IBM Plex Mono', monospace; font-size: 11px; fill: #b45309; font-weight: 700; }
+      .t-slate { font-family: 'IBM Plex Mono', monospace; font-size: 11px; fill: #2c4257; font-weight: 700; }
+      .grid { stroke: #ebe7de; stroke-width: 1; }
+      .axis { stroke: #78716c; stroke-width: 1.3; }
+      .arrow { stroke: #1f514c; stroke-width: 2; fill: none; marker-end: url(#arr-t); }
+      .arrow-s { stroke: #2c4257; stroke-width: 2; fill: none; marker-end: url(#arr-s); }
+      .arrow-w { stroke: #b45309; stroke-width: 2; fill: none; marker-end: url(#arr-w); }
+    </style>
+    <marker id="arr-t" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 8 5 L 0 9 z" fill="#1f514c" />
+    </marker>
+    <marker id="arr-s" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 8 5 L 0 9 z" fill="#2c4257" />
+    </marker>
+    <marker id="arr-w" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 8 5 L 0 9 z" fill="#b45309" />
+    </marker>
+  </defs>
+  <rect class="bg" width="880" height="480" />
+
+  <text x="32" y="34" class="t-sub">CRYPTOGRAPHIC ASYMMETRY · RSA TRAPDOOR vs SHOR ALGORITHM vs NIST PQC</text>
+  <text x="32" y="60" class="t-title">소수 곱셈의 비대칭성이 지킨 인터넷 보안과 양자 주기 탐색(쇼어)의 돌파 경로</text>
+
+  <!-- Left: Classical RSA Asymmetry -->
+  <rect x="28" y="82" width="268" height="346" rx="12" class="panel" />
+  <text x="46" y="108" class="t-m">1. 고전 RSA-2048 트랩도어</text>
+  <text x="46" y="128" class="t-h">곱셈은 수십 마이크로초, 분해는 수억 년</text>
+
+  <rect x="46" y="146" width="232" height="68" rx="8" fill="#ebf2f0" stroke="#9ec4bd" />
+  <text x="58" y="167" class="t-m">순방향: p × q = N (쉬움)</text>
+  <text x="58" y="185" class="t-b">1,024비트 두 소수 p, q 생성·검정</text>
+  <text x="58" y="201" class="t-b">(밀러-라빈 확률판별 / AKS 다항시간)</text>
+
+  <path d="M 162 216 L 162 242" class="arrow" />
+
+  <rect x="46" y="246" width="232" height="72" rx="8" fill="#fdf6ee" stroke="#d99b52" />
+  <text x="58" y="267" class="t-w">역방향: N → p, q (고전 난제)</text>
+  <text x="58" y="285" class="t-b">최선 알고리듬(GNFS)도 준지수 시간</text>
+  <text x="58" y="301" class="t-b">기록: RSA-250(829비트, 2,700코어-년)</text>
+
+  <rect x="46" y="332" width="232" height="78" rx="8" fill="#f8f7f4" stroke="#d8d4ca" />
+  <text x="58" y="353" class="t-h">리만가설(RH)에 대한 오해 교정</text>
+  <text x="58" y="371" class="t-b">RH가 풀려도 소인수분해가 즉시</text>
+  <text x="58" y="387" class="t-b">다항시간으로 풀린다는 증명은 없음</text>
+
+  <!-- Center: Quantum Shor Threat -->
+  <rect x="310" y="82" width="262" height="346" rx="12" class="panel-warn" />
+  <text x="328" y="108" class="t-w">2. 양자 위협 · 쇼어 알고리듬 (1994)</text>
+  <text x="328" y="128" class="t-h">소인수분해를 '주기 찾기'로 변환</text>
+
+  <rect x="328" y="146" width="226" height="82" rx="8" fill="#ffffff" stroke="#d99b52" />
+  <text x="340" y="168" class="t-w">f(x) = a^x mod N 의 주기 r 탐색</text>
+  <text x="340" y="186" class="t-b">양자 중첩 + 양자 푸리에 변환(QFT)</text>
+  <text x="340" y="203" class="t-b">으로 r을 다항시간 O((log N)^3)에 추출</text>
+  <text x="340" y="219" class="t-b">→ gcd(a^(r/2) ± 1, N)으로 p, q 복원</text>
+
+  <path d="M 441 232 L 441 256" class="arrow-w" />
+
+  <rect x="328" y="260" width="226" height="74" rx="8" fill="#ffffff" stroke="#d99b52" />
+  <text x="340" y="281" class="t-w">Gidney (2025) 물리 큐비트 감축</text>
+  <text x="340" y="299" class="t-b">2019년 2,000만 큐비트 → 2025년 5월</text>
+  <text x="340" y="317" class="t-b">100만 미만(&lt;1주일)으로 20배 축소</text>
+
+  <rect x="328" y="346" width="226" height="64" rx="8" fill="#fff7ed" stroke="#b45309" />
+  <text x="340" y="366" class="t-w">HNDL (선 수집·후 해독)</text>
+  <text x="340" y="384" class="t-b">오늘 도청·저장한 금융/국가 암호문도</text>
+  <text x="340" y="400" class="t-b">Q-Day 도래 시 사후 복호화 위험</text>
+
+  <!-- Right: Post-Quantum Cryptography -->
+  <rect x="586" y="82" width="266" height="346" rx="12" class="panel-teal" />
+  <text x="604" y="108" class="t-m">3. 차세대 방패 · NIST 표준 양자내성암호</text>
+  <text x="604" y="128" class="t-h">격자·해시·부호 기반으로 수학 축 교체</text>
+
+  <rect x="604" y="148" width="230" height="66" rx="8" fill="#ffffff" stroke="#1f514c" />
+  <text x="616" y="168" class="t-m">FIPS 203 · ML-KEM (구 Kyber)</text>
+  <text x="616" y="186" class="t-b">모듈 격자 LWE 난제 기반 키 교환</text>
+  <text x="616" y="202" class="t-b">(HTTPS/TLS·VPN 등 세션 암호 핵심)</text>
+
+  <rect x="604" y="224" width="230" height="66" rx="8" fill="#ffffff" stroke="#1f514c" />
+  <text x="616" y="244" class="t-m">FIPS 204 · ML-DSA (구 Dilithium)</text>
+  <text x="616" y="262" class="t-b">격자 기반 전자서명 (소프트웨어·금융</text>
+  <text x="616" y="278" class="t-b">인증서·블록체인 서명 대체 표준)</text>
+
+  <rect x="604" y="300" width="230" height="52" rx="8" fill="#ffffff" stroke="#9ec4bd" />
+  <text x="616" y="320" class="t-m">FIPS 205 · SLH-DSA (해시 기반)</text>
+  <text x="616" y="338" class="t-b">보수적 해시 안전성 + HQC(2025.03 선정)</text>
+
+  <rect x="604" y="362" width="230" height="48" rx="8" fill="#1f514c" />
+  <text x="616" y="381" font-family="'IBM Plex Mono', monospace" font-size="11" fill="#ffffff" font-weight="700">NIST IR 8547 (2024.11)</text>
+  <text x="616" y="399" font-family="'Pretendard Variable', sans-serif" font-size="10.5" fill="#e6efed">2030년 권고 중단 · 2035년 전면 금지</text>
+
+  <text x="32" y="458" class="t-sub">도표는 Rivest-Shamir-Adleman(1978), Shor(1994), NIST FIPS 203/204/205(2024), Gidney(2025, arXiv:2505.15917)를 바탕으로 작도했다.</text>
+
+</svg>
